@@ -1,0 +1,31 @@
+{
+  "tender_id": "AZANIA-2026-001",
+  "institution": "azania-bank",
+  "title": "General Procurement Notice for Goods, Works and Non-Consultancy Services - Financial Year 2026",
+  "description": "Azania Bank Plc General Procurement Notice (GPN) for the purpose of informing potential bidders and the general public on tender opportunities during the financial year 2026. Covers supply of stationery, IT equipment, fuel, power generators, insurance, security, cleaning, and various other goods and services.",
+  "reference_number": "GPN/2026",
+  "published_date": "2026-02-16",
+  "closing_date": "2026-03-09",
+  "closing_time": "14:00 EAT",
+  "category": "General Procurement Notice",
+  "status": "closed",
+  "source_url": "https://azaniabank.co.tz/tenders/",
+  "documents": [
+    {
+      "filename": "AZANIA-procurement-revised.pdf",
+      "original_url": "https://azaniabank.co.tz/wp-content/uploads/2026/02/AZANIA-procurement-revised-.pdf",
+      "local_path": "./downloads/AZANIA-2026-001/original/AZANIA-procurement-revised.pdf",
+      "file_size_bytes": 137860,
+      "downloaded_at": "2026-03-13T07:27:55Z",
+      "content_type": "application/pdf"
+    }
+  ],
+  "contact": {
+    "name": "Procurement Department, Azania Bank Plc",
+    "email": "customercare@azaniabank.co.tz",
+    "phone": "0800 110210",
+    "address": "Mawasiliano Towers, Sam Nujoma Road, Dar es Salaam, Tanzania"
+  },
+  "scraped_at": "2026-03-13T07:27:55Z",
+  "last_checked": "2026-03-13T07:27:55Z"
+}

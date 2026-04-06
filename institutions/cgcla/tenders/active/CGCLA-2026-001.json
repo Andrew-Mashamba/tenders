@@ -1,0 +1,35 @@
+{
+  "tender_id": "CGCLA-2026-001",
+  "institution": "cgcla",
+  "title": "Tender/EOI from CGCLA Zanzibar",
+  "description": "Scraped from institution website",
+  "published_date": "2026-03-15",
+  "closing_date": "",
+  "category": "General",
+  "status": "active",
+  "source_url": "https://cgcla.go.tz/",
+  "documents": [
+    {
+      "filename": "DNAApplicationForm.pdf",
+      "original_url": "https://cgcla.go.tz/image/pdf/DNAApplicationForm.pdf",
+      "local_path": "downloads/CGCLA-2026-001/original/DNAApplicationForm.pdf"
+    },
+    {
+      "filename": "customerRegistrationform.pdf",
+      "original_url": "https://cgcla.go.tz/image/pdf/customerRegistrationform.pdf",
+      "local_path": "downloads/CGCLA-2026-001/original/customerRegistrationform.pdf"
+    },
+    {
+      "filename": "CHEMICALREGISTRATION.pdf",
+      "original_url": "https://cgcla.go.tz/image/pdf/CHEMICALREGISTRATION.pdf",
+      "local_path": "downloads/CGCLA-2026-001/original/CHEMICALREGISTRATION.pdf"
+    },
+    {
+      "filename": "chiefAct.pdf",
+      "original_url": "https://cgcla.go.tz/image/pdf/chiefAct.pdf",
+      "local_path": "downloads/CGCLA-2026-001/original/chiefAct.pdf"
+    }
+  ],
+  "contact": {},
+  "scraped_at": "2026-03-15T05:18:25.012763+00:00"
+}

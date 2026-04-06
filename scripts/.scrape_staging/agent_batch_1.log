@@ -1,0 +1,41 @@
+
+Summary of the tender analysis:
+
+## Analysis results
+
+### 1. **Triple A Architects (aaa)**
+- **Result:** No tenders
+- **Reason:** General website (About Us, Portfolio, Contact). No procurement notices.
+- **Action:** `last_scrape.json` updated. Already in `leads.json`.
+
+### 2. **Akiba Commercial Bank (acbbank)**
+- **Result:** 1 active tender (existing)
+- **Tender:** ACBBANK-2026-001 – Supplier Prequalification Notice 2026–2027 (published 12 Nov 2025)
+- **Action:** Tender already recorded. `last_scrape.json` updated. Staging PDF from downloads page was invalid (HTML saved as PDF), so it was not added.
+
+### 3. **Association of Consulting Engineers Tanzania (acet)**
+- **Result:** No tenders
+- **Reason:** Membership directory, AGM notice, newsletters – no procurement.
+- **Action:** `last_scrape.json` updated. Already in `leads.json`.
+
+### 4. **Agricultural Council of Tanzania (actanzania)**
+- **Result:** No active tenders
+- **Reason:** Audit call for proposals closed on 5 Dec 2025.
+- **Action:** ACTANZANIA-2026-001 moved to `tenders/closed/`. Documents copied to `downloads/ACTANZANIA-2026-001/original/` and text extracted. `last_scrape.json` updated.
+
+### 5. **ADC Tanzania Ltd (adctanzania)**
+- **Result:** No tenders
+- **Reason:** Site states: “There are no current procurement opportunities.”
+- **Action:** `last_scrape.json` updated. Already in `leads.json`.
+
+---
+
+## Result lines
+
+```
+RESULT|aaa|success|0|0
+RESULT|acbbank|success|1|1
+RESULT|acet|success|0|0
+RESULT|actanzania|success|0|0
+RESULT|adctanzania|success|0|0
+```

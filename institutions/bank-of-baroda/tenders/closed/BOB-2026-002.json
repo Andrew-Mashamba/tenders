@@ -1,0 +1,44 @@
+{
+  "tender_id": "BOB-2026-002",
+  "institution": "bank-of-baroda",
+  "title": "RFP for Selection of Insurance Company for Group Health Policy for Employees of Bank of Baroda Tanzania Limited",
+  "description": "Invitation for sealed bids from eligible Insurance Companies operating in Tanzania (registered with TIRA) for providing Medical Insurance Policy for Bank Staff and their families for the year 2026 (March 2026 to February 2027).",
+  "reference_number": null,
+  "published_date": "2026-02-03",
+  "closing_date": "2026-02-09",
+  "closing_time": "15:00 EAT",
+  "category": "Insurance",
+  "status": "closed",
+  "source_url": "https://www.bankofbaroda.co.tz/tenders/tenders-notice",
+  "documents": [
+    {
+      "filename": "NOTICE-OF-BID-for-Medical-Insurance-2026-03-03.pdf",
+      "original_url": "https://www.bankofbaroda.co.tz/-/media/Project/BOB/CountryWebsites/Tanzania/uploads/tenders/NOTICE-OF-BID-for-Medical-Insurance-2026-03-03.pdf",
+      "local_path": "./downloads/BOB-2026-002/original/NOTICE-OF-BID-for-Medical-Insurance-2026-03-03.pdf",
+      "file_size_bytes": 134703,
+      "downloaded_at": "2026-03-13T10:24:00Z",
+      "content_type": "application/pdf",
+      "sha256": "b8a7e4e05719412430573d33bbc3c6e3a58ad6b2229d7cb4817ca77155dab086"
+    },
+    {
+      "filename": "RFP-Group-Health-insurance-policy-2025-03-03.pdf",
+      "original_url": "https://www.bankofbaroda.co.tz/-/media/Project/BOB/CountryWebsites/Tanzania/uploads/tenders/RFP-Group-Health-insurance-policy-2025-03-03.pdf",
+      "local_path": "./downloads/BOB-2026-002/original/RFP-Group-Health-insurance-policy-2025-03-03.pdf",
+      "file_size_bytes": 389532,
+      "downloaded_at": "2026-03-13T10:24:00Z",
+      "content_type": "application/pdf",
+      "sha256": "e84c4f8d5889ca3e90d882db1d5b6dee2b1e22b294abf370972c88a1eb59317c"
+    }
+  ],
+  "contact": {
+    "name": "Procurement Department",
+    "email": "admin.tanzania@bankofbaroda.co.tz",
+    "phone": null,
+    "address": "Bank of Baroda Tanzania Limited, Head Office, Dar es Salaam"
+  },
+  "eligibility": "Insurance Companies registered with TIRA operating in Tanzania",
+  "bid_security": null,
+  "evaluation_criteria": null,
+  "scraped_at": "2026-03-13T10:24:00Z",
+  "last_checked": "2026-03-13T10:24:00Z"
+}

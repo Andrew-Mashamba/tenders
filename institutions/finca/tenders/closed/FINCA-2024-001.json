@@ -1,0 +1,33 @@
+{
+  "tender_id": "FINCA-2024-001",
+  "institution": "finca",
+  "title": "Desktop Computers Supply Tender",
+  "description": "FINCA Microfinance Bank intends to purchase 32 new desktop computers to replace the old ones as part of its plans for 2024.",
+  "reference_number": "FINCA-2024-001",
+  "published_date": "2024-06-14",
+  "closing_date": "2024-06-19",
+  "closing_time": "16:00 EAT",
+  "category": "ICT",
+  "status": "closed",
+  "source_url": "https://finca.co.tz/tenders/",
+  "documents": [
+    {
+      "filename": "RFP-Desktop-Computers.docx",
+      "original_url": "https://finca.co.tz/wp-content/uploads/sites/13/2024/06/RFP-Desktop-Computers.docx",
+      "local_path": "./downloads/FINCA-2024-001/original/RFP-Desktop-Computers.docx",
+      "file_size_bytes": 66553,
+      "downloaded_at": "2026-03-14T00:01:00Z",
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+    }
+  ],
+  "contact": {
+    "name": "Administration Manager",
+    "email": null,
+    "phone": "+255 (22) 2212200",
+    "address": "FINCA Microfinance Bank, Bagamoyo Road, Plot No.34/1, 8th Floor, TAN House, Victoria Area, P.O BOX 78783, Dar es Salaam, Tanzania"
+  },
+  "eligibility": "Eligible bidders",
+  "bid_security": null,
+  "scraped_at": "2026-03-14T00:01:00Z",
+  "last_checked": "2026-03-14T00:01:00Z"
+}

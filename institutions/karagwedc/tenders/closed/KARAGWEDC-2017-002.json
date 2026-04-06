@@ -1,0 +1,27 @@
+{
+  "tender_id": "KARAGWEDC-2017-002",
+  "institution": "karagwedc",
+  "title": "TANGAZO LA ZABUNI",
+  "description": "Tender notice",
+  "reference_number": "KARAGWEDC/2017/002",
+  "published_date": "2017-07-12",
+  "closing_date": "2017-08-10",
+  "category": "General",
+  "status": "closed",
+  "source_url": "http://karagwedc.go.tz/tenders",
+  "documents": [
+    {
+      "filename": "596611df9825c234790459.pdf",
+      "original_url": "http://karagwedc.go.tz/storage/app/uploads/public/596/611/df9/596611df9825c234790459.pdf",
+      "local_path": "./downloads/KARAGWEDC-2017-002/original/596611df9825c234790459.pdf",
+      "content_type": "application/pdf",
+      "downloaded_at": "2026-03-15T07:42:00Z"
+    }
+  ],
+  "contact": {
+    "email": "ded@karagwedc.go.tz",
+    "phone": "025-2030-"
+  },
+  "scraped_at": "2026-03-15T07:42:00Z",
+  "last_checked": "2026-03-15T07:42:00Z"
+}

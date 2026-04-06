@@ -1,0 +1,21 @@
+{
+  "tender_id": "NA7ETECH-2026-001",
+  "institution": "na7etechnology",
+  "title": "Tender/Procurement documents - na7etechnology",
+  "description": "Documents found on tender page.",
+  "published_date": "2026-03-15",
+  "closing_date": "",
+  "source_url": "https://na7etechnology.co.tz/",
+  "document_links": [
+    "https://na7etechnology.co.tz/images/profile.pdf"
+  ],
+  "contact": {},
+  "status": "active",
+  "scraped_at": "2026-03-15T09:08:21.021868+00:00",
+  "documents": [
+    {
+      "url": "https://na7etechnology.co.tz/images/profile.pdf",
+      "local_path": "/Volumes/DATA/PROJECTS/TENDERS/institutions/na7etechnology/downloads/NA7ETECH-2026-001/original/profile.pdf"
+    }
+  ]
+}

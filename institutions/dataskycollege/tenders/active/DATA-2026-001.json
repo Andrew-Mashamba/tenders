@@ -1,0 +1,23 @@
+{
+  "tender_id": "DATA-2026-001",
+  "institution": "dataskycollege",
+  "title": "Document listing",
+  "description": "",
+  "published_date": "2026-03-15",
+  "closing_date": null,
+  "category": "General",
+  "status": "active",
+  "source_url": "https://dataskycollege.ac.tz/",
+  "document_links": [
+    {
+      "url": "https://dataskycollege.ac.tz/wp-content/uploads/2025/05/APPLICATION-FORM.docx",
+      "filename": "APPLICATION-FORM.docx"
+    },
+    {
+      "url": "https://dataskycollege.ac.tz/wp-content/uploads/2025/05/APPLICATION-FORM.docx",
+      "filename": "APPLICATION-FORM.docx"
+    }
+  ],
+  "contact_info": {},
+  "scraped_at": "2026-03-15T05:35:28.931117+00:00"
+}

@@ -1,0 +1,26 @@
+{
+  "tender_id": "UBUNGOMC-2018-001",
+  "institution": "ubungomc",
+  "title": "Tangazo la zabuni",
+  "description": "Tender notice from Ubungo Municipal Council.",
+  "published_date": "2018-01-15",
+  "closing_date": "2017-10-12",
+  "category": "General",
+  "status": "closed",
+  "source_url": "https://ubungomc.go.tz/tenders",
+  "documents": [
+    {
+      "filename": "Tangazo_la_zabuni_5a5c8154110e4333468185.pdf",
+      "original_url": "https://ubungomc.go.tz/storage/app/uploads/public/5a5/c81/541/5a5c8154110e4333468185.pdf",
+      "local_path": "./downloads/UBUNGOMC-2018-001/original/Tangazo_la_zabuni_5a5c8154110e4333468185.pdf",
+      "file_size_bytes": 395956,
+      "downloaded_at": "2026-03-15T11:30:00Z",
+      "content_type": "application/pdf"
+    }
+  ],
+  "contact": {
+    "email": "md@ubungomc.go.tz"
+  },
+  "scraped_at": "2026-03-15T11:30:00Z",
+  "last_checked": "2026-03-15T11:30:00Z"
+}

@@ -1,0 +1,31 @@
+{
+  "tender_id": "HIMSO-2026-001",
+  "institution": "himso",
+  "title": "TENDER ANNOUNCEMENT: Construction of HIMSO Learning Hub",
+  "description": "HIMSO invites sealed tenders from eligible contractors for the PROPOSED CONSTRUCTION OF THE HIMSO LEARNING HUB in Jacaranda, Mbeya City. Building Contractors Class 5 or above with CRB.",
+  "reference_number": "HIMSO/2025/T/002",
+  "published_date": "2025-10-15",
+  "closing_date": "2025-11-11",
+  "closing_time": "11:00 EAT",
+  "category": "Construction",
+  "status": "closed",
+  "source_url": "https://himso.or.tz/node/148",
+  "documents": [
+    {
+      "filename": "TENDER_DOCUMENT_PROPOSED_CONSTRUCTION_OF_HIMSO_LEARNING_HUB.pdf",
+      "original_url": "https://himso.or.tz/sites/default/files/TENDER%20DOCUMENT%20PROPOSED%20CONSTRUCTION%20OF%20HIMSO%20LEARNING%20HUB.pdf",
+      "local_path": "",
+      "content_type": "application/pdf",
+      "downloaded_at": ""
+    }
+  ],
+  "contact": {
+    "name": "HIMSO",
+    "email": "info@himso.or.tz",
+    "phone": "+255 25 250 0887",
+    "address": "01 Jacaranda, P.O. Box 2827, 53107 Mbeya, Tanzania"
+  },
+  "eligibility": "Open to contractors registered as Building Contractors in Class 5 or above with the CRB",
+  "scraped_at": "2026-03-15T21:02:46.840657Z",
+  "last_checked": "2026-03-15T21:02:46.840658Z"
+}

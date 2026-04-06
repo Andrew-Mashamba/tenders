@@ -1,0 +1,35 @@
+{
+  "tender_id": "BOB-2026-001",
+  "institution": "bank-of-baroda",
+  "title": "Procurement of Cash Recycling Machine",
+  "description": "Supply, installation, testing, commissioning, and maintenance of one Cash Recycler at Dar es Salaam and one at Arusha. Preferably Hitachi and NCR Make. Includes integration with Core Banking System and switch, user training, warranty and post-warranty maintenance support.",
+  "reference_number": "BOB(T)/TENDER/22/31",
+  "published_date": "2026-02-05",
+  "closing_date": "2026-02-12",
+  "closing_time": "15:30 EAT",
+  "category": "Equipment/ATM",
+  "status": "closed",
+  "source_url": "https://www.bankofbaroda.co.tz/tenders/tenders-notice",
+  "documents": [
+    {
+      "filename": "PROCUREMENT-OF-CASH-RECYCLING-MACHINE-05-05.pdf",
+      "original_url": "https://www.bankofbaroda.co.tz/-/media/Project/BOB/CountryWebsites/Tanzania/uploads/tenders/PROCUREMENT-OF-CASH-RECYCLING-MACHINE-05-05.pdf",
+      "local_path": "./downloads/BOB-2026-001/original/PROCUREMENT-OF-CASH-RECYCLING-MACHINE-05-05.pdf",
+      "file_size_bytes": 227726,
+      "downloaded_at": "2026-03-13T10:24:00Z",
+      "content_type": "application/pdf",
+      "sha256": "238e91c4413996817c219538dd7181e544634b4244f99f8365d8e86f31034ed3"
+    }
+  ],
+  "contact": {
+    "name": "Procurement Officer",
+    "email": "admin.tanzania@bankofbaroda.co.tz",
+    "phone": null,
+    "address": "Bank of Baroda Tanzania Limited, Head Office - 149/32 Ohio/Sokoine Drive, P O Box 5356, Dar es Salaam"
+  },
+  "eligibility": "Certificate of Incorporation, valid business license, Tax Clearance Certificate (TRA), VAT Registration Certificate, Manufacturer Authorization Letter, evidence of at least 3 similar Cash Recycler installations in last 5 years, audited financial statements for last 3 years, local technical support presence in Tanzania",
+  "bid_security": null,
+  "evaluation_criteria": "Technical (70%): compliance with specifications, security standards, experience, local support. Financial (30%): total cost of ownership, cost competitiveness.",
+  "scraped_at": "2026-03-13T10:24:00Z",
+  "last_checked": "2026-03-13T10:24:00Z"
+}

@@ -1,0 +1,19 @@
+{
+  "tender_id": "AUTOFEST-2026-001",
+  "institution": "autofest",
+  "title": "Autofest - Tanzania Motoring Home",
+  "description": "",
+  "published_date": null,
+  "closing_date": null,
+  "category": "General",
+  "status": "active",
+  "source_url": "https://autofest.co.tz/",
+  "documents": [
+    {
+      "url": "https://autofest.co.tz/Autofest_2025_Event_Brief.pdf",
+      "local_path": "downloads/AUTOFEST-2026-001/original/Autofest_2025_Event_Brief.pdf"
+    }
+  ],
+  "contact": {},
+  "scraped_at": "2026-03-13T19:12:06Z"
+}

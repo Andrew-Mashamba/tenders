@@ -1,0 +1,50 @@
+{
+  "tender_id": "MWALIMU-2026-001",
+  "institution": "mwalimu-sacco",
+  "title": "Prequalification As Suppliers/Consultants For Financial Years 2026-2027",
+  "description": "Mwalimu National invites applications for prequalification/registration of suppliers from interested, eligible and competent bidders for the supply of goods and services for financial years 2026-2027. Covers 47 categories including: Category A - Supply of Goods (office stationery, computer hardware, ICT consumables, drinking water, promotional items, generators, safes, furniture, CCTV, fire-fighting equipment, office consumables, ATMs, banking equipment) and Category B - Provision of Services and Works (building maintenance, plumbing, electrical, HVAC, travel agency, videography, market research, car tracking, digital marketing, signage, auctioneering, property valuation, guarding, cash-in-transit, car hire, courier, cleaning, fumigation, catering, customer experience, messaging, legal, OSH advisory, training, fire safety, audit, compliance audit, IT security, computer maintenance, data communication, queue management, website design, Microsoft licenses, consultancy).",
+  "reference_number": "Tender No.PQ/01/2026-2027",
+  "published_date": "2025-12-03",
+  "closing_date": "2025-12-15",
+  "closing_time": "11:00 AM EAT",
+  "category": "Prequalification",
+  "status": "archived",
+  "source_url": "https://www.mwalimunational.coop/resource/prequalification-as-suppliers-consultants-for-financial-years-2026-2027--532181dc/",
+  "documents": [
+    {
+      "filename": "prequalification-suppliers-consultants-2026-2027.pdf",
+      "original_url": "https://www.mwalimunational.coop/lib.html?f=prequalification-as-suppliers-consultants-for-financial-years-2026-2027--532181dc",
+      "local_path": "./downloads/MWALIMU-2026-001/original/prequalification-suppliers-consultants-2026-2027.pdf",
+      "file_size_bytes": 800070,
+      "downloaded_at": "2026-03-13T07:26:51Z",
+      "content_type": "application/pdf",
+      "sha256": "17bc74a4eefc0712b08ee66aea78222870b87cd860cf2a40bc884f185dd5a8eb",
+      "pages": 19,
+      "description": "Full prequalification tender document with terms and conditions"
+    },
+    {
+      "filename": "prequalification-suppliers-2026-2027-advert.pdf",
+      "original_url": "https://www.mwalimunational.coop/lib.html?f=prequalification-of-suppliers-2026-2027-advert",
+      "local_path": "./downloads/MWALIMU-2026-001/original/prequalification-suppliers-2026-2027-advert.pdf",
+      "file_size_bytes": 81021,
+      "downloaded_at": "2026-03-13T07:26:51Z",
+      "content_type": "application/pdf",
+      "sha256": "0ebb81a3d7420a50bbbe938131a618466e8e0ce8c60a00a0c2e9eab95873bb99",
+      "pages": 1,
+      "description": "Prequalification advert listing all 47 categories (MN/A/01/26 through MN/B/47/26)"
+    }
+  ],
+  "contact": {
+    "name": "Chief Executive Officer / Procurement Department",
+    "email": "procurement@mwalimunational.coop",
+    "phone": "+254709898000",
+    "address": "Upperhill, Nairobi, Kenya"
+  },
+  "eligibility": "Open To All",
+  "bid_security": null,
+  "tender_fee": "KES 3,000 (non-refundable, payable at any FOSA branch)",
+  "submission_method": "Online via Google Forms: https://docs.google.com/forms/d/e/1FAIpQLSfnguUnedEEBTafqfe0sTu7gdyvYues9Fm069cgUJ7p8sVVXA/viewform",
+  "procurement_method": null,
+  "scraped_at": "2026-03-13T07:26:51Z",
+  "last_checked": "2026-03-13T07:26:51Z"
+}

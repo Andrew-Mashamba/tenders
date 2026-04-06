@@ -1,0 +1,47 @@
+[
+  {
+    "slug": "aaa",
+    "status": "fetched",
+    "doc_count": 0,
+    "text_count": 0,
+    "email_count": 1,
+    "fetch_time": 2.9,
+    "error": ""
+  },
+  {
+    "slug": "acbbank",
+    "status": "fetched",
+    "doc_count": 1,
+    "text_count": 0,
+    "email_count": 1,
+    "fetch_time": 8.3,
+    "error": ""
+  },
+  {
+    "slug": "acet",
+    "status": "fetched",
+    "doc_count": 2,
+    "text_count": 2,
+    "email_count": 0,
+    "fetch_time": 9.9,
+    "error": ""
+  },
+  {
+    "slug": "actanzania",
+    "status": "fetched",
+    "doc_count": 3,
+    "text_count": 2,
+    "email_count": 1,
+    "fetch_time": 14.8,
+    "error": ""
+  },
+  {
+    "slug": "adctanzania",
+    "status": "fetched",
+    "doc_count": 0,
+    "text_count": 0,
+    "email_count": 2,
+    "fetch_time": 3.1,
+    "error": ""
+  }
+]

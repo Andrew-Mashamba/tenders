@@ -1,0 +1,31 @@
+{
+  "tender_id": "ACBBANK-2026-001",
+  "institution": "acbbank",
+  "title": "Supplier Prequalification Notice 2026-2027",
+  "description": "Akiba Commercial Bank supplier prequalification for 40 categories including ICT equipment, office supplies, construction, consultancy, and various services. Conducted online via TenderSure platform.",
+  "reference_number": null,
+  "published_date": "2025-11-12",
+  "closing_date": "2025-11-21",
+  "closing_time": "22:00 EAT",
+  "category": "General",
+  "status": "closed",
+  "source_url": "https://www.acbbank.co.tz/tenders",
+  "documents": [
+    {
+      "filename": "SUPPLIER-PREQUALIFICATION-NOTICE-2026-2027.pdf",
+      "original_url": "https://www.acbbank.co.tz/wp-content/uploads/2025/11/SUPPLIER-PREQUALIFICATION-NOTICE-2026-2027.pdf",
+      "local_path": "./downloads/ACBBANK-2026-001/original/SUPPLIER-PREQUALIFICATION-NOTICE-2026-2027.pdf",
+      "content_type": "application/pdf",
+      "downloaded_at": "2026-03-15T19:31:40.381758Z"
+    }
+  ],
+  "contact": {
+    "name": "Procurement Department",
+    "email": "info@acbbank.co.tz",
+    "phone": "0800 750 336",
+    "address": null
+  },
+  "eligibility": "Interested suppliers register via TenderSure platform; TSH 100,000 non-refundable fee per category",
+  "scraped_at": "2026-03-15T19:31:40.381759Z",
+  "last_checked": "2026-03-15T19:31:40.381760Z"
+}

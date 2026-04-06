@@ -1,0 +1,19 @@
+{
+  "tender_id": "BUILDMART-2026-001",
+  "institution": "buildmart",
+  "title": "Tender from Buildmart Limited",
+  "source_url": "https://buildmart.co.tz/",
+  "published_date": "2026-03-15",
+  "closing_date": null,
+  "status": "active",
+  "documents": [
+    {
+      "filename": "NEW-COMPANY-PROFILE.pdf",
+      "original_url": "https://buildmart.co.tz/wp-content/uploads/2025/06/NEW-COMPANY-PROFILE.pdf",
+      "local_path": "institutions/buildmart/downloads/BUILDMART-2026-001/original/NEW-COMPANY-PROFILE.pdf"
+    }
+  ],
+  "contact": {},
+  "scraped_at": "2026-03-15T05:10:32Z",
+  "run_id": "run_20260315_060430_batch18"
+}

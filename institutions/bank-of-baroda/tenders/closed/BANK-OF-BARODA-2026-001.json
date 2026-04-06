@@ -1,0 +1,26 @@
+{
+  "tender_id": "BANK-OF-BARODA-2026-001",
+  "institution": "bank-of-baroda",
+  "title": "PROCUREMENT OF CASH RECYCLING MACHINE",
+  "description": "Procurement of cash recycling machine for Bank of Baroda Tanzania.",
+  "reference_number": "BANK-OF-BARODA-2026-001",
+  "published_date": "2026-02-05",
+  "closing_date": "2026-02-12",
+  "closing_time": "15:30 EAT",
+  "category": "Equipment",
+  "status": "closed",
+  "source_url": "https://www.bankofbaroda.co.tz/tenders/tenders-notice",
+  "documents": [
+    {
+      "filename": "PROCUREMENT-OF-CASH-RECYCLING-MACHINE.pdf",
+      "original_url": "https://www.bankofbaroda.co.tz/-/media/Project/BOB/CountryWebsites/Tanzania/uploads/tenders/PROCUREMENT-OF-CASH-RECYCLING-MACHINE-05-05.pdf",
+      "local_path": "./downloads/BANK-OF-BARODA-2026-001/original/PROCUREMENT-OF-CASH-RECYCLING-MACHINE.pdf",
+      "file_size_bytes": 227726,
+      "downloaded_at": "2026-03-13T19:27:00Z",
+      "content_type": "application/pdf"
+    }
+  ],
+  "contact": {},
+  "scraped_at": "2026-03-13T19:27:00Z",
+  "last_checked": "2026-03-13T19:27:00Z"
+}

@@ -1,0 +1,25 @@
+{
+  "tender_id": "GCTL-2026-001",
+  "institution": "gctl",
+  "title": "Welcome to GOPA Contractors Tanzania ltd - Tender",
+  "description": "",
+  "published_date": "2026-03-15",
+  "closing_date": "",
+  "category": "General",
+  "status": "active",
+  "source_url": "https://gctl.co.tz/",
+  "documents": [
+    {
+      "filename": "GOPA%20COMPANY%20PROFILE%20NEW%202020.pdf",
+      "original_url": "https://gctl.co.tz/media/doc/original/GOPA%20COMPANY%20PROFILE%20NEW%202020.pdf",
+      "local_path": "downloads/GCTL-2026-001/original/GOPA%20COMPANY%20PROFILE%20NEW%202020.pdf"
+    }
+  ],
+  "contact": {
+    "email": "info@gctl.co.tz",
+    "emails": [
+      "info@gctl.co.tz"
+    ]
+  },
+  "scraped_at": "2026-03-15T06:32:34.380595Z"
+}

@@ -1,0 +1,34 @@
+{
+  "tender_id": "AMANABANK-2026-001",
+  "institution": "amanabank",
+  "title": "Supply of goods and provision of services 2025",
+  "description": "Amana Bank tender for supply of goods and provision of services 2025.",
+  "reference_number": "AMANABANK/T/2026/001",
+  "published_date": "2025-01-01",
+  "closing_date": "2024-11-12",
+  "closing_time": "14:30 EAT",
+  "category": "General",
+  "status": "closed",
+  "source_url": "https://amanabank.co.tz/banking/tender",
+  "documents": [
+    {
+      "filename": "Supply_of_goods_and_provision_of_services_2025.pdf",
+      "original_url": "https://amanabank.co.tz/uploads/documents/amana-bank-6720d1c8d5d49.pdf",
+      "local_path": "./downloads/AMANABANK-2026-001/original/Supply_of_goods_and_provision_of_services_2025.pdf",
+      "file_size_bytes": 470946,
+      "downloaded_at": "2026-03-15T04:10:00Z",
+      "content_type": "application/pdf",
+      "sha256": null
+    }
+  ],
+  "contact": {
+    "name": "Procurement Department",
+    "email": "customerservice@amanabank.co.tz",
+    "phone": "0240811-232823",
+    "address": "Amana Bank (T) Ltd"
+  },
+  "eligibility": "Open to registered suppliers",
+  "bid_security": null,
+  "scraped_at": "2026-03-15T04:10:00Z",
+  "last_checked": "2026-03-15T04:10:00Z"
+}

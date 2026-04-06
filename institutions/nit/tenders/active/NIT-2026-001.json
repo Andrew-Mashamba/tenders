@@ -1,0 +1,23 @@
+{
+  "tender_id": "NIT-2026-001",
+  "institution": "nit",
+  "title": "CALL FOR RESEARCH GRANTS 2026",
+  "description": "National Institute of Transport research grants opportunity.",
+  "published_date": "2026-02-17",
+  "closing_date": "2026-12-31",
+  "status": "active",
+  "source_url": "https://nit.ac.tz/",
+  "documents": [
+    {
+      "filename": "dc5d5560939e4a988474bb40ed3aa7cb.pdf",
+      "original_url": "https://nit.ac.tz/media/uploads/files/dc5d5560939e4a988474bb40ed3aa7cb.pdf",
+      "local_path": "downloads/NIT-2026-001/original/dc5d5560939e4a988474bb40ed3aa7cb.pdf"
+    }
+  ],
+  "contact": {
+    "email": "drcp@nit.ac.tz",
+    "note": "Proposals submitted to drcp@nit.ac.tz"
+  },
+  "scraped_at": "2026-03-15T09:17:58Z",
+  "last_checked": "2026-03-15T21:58:56.537012Z"
+}

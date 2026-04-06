@@ -1,0 +1,27 @@
+{
+  "tender_id": "TENMET-2026-002",
+  "institution": "tenmet",
+  "title": "ToR Consultancy to Produce Creative TV and Radio Spots to Elevate the Status of Teaching Profession in Tanzania.",
+  "description": "The selected agency/individual will be responsible for producing creative TV and Radio spots to be aired across major channels in Tanzania.",
+  "published_date": "2026-02-01",
+  "closing_date": "2026-03-20",
+  "closing_time": "23:59 EAT",
+  "category": "Consulting",
+  "status": "active",
+  "source_url": "https://tenmet.or.tz/tenders.html",
+  "documents": [
+    {
+      "filename": "tender_document",
+      "original_url": "https://drive.google.com/file/d/166Npa87R5mR5wbTmpwzlfwxXr-w9jCz-/view?usp=sharing",
+      "content_type": "application/octet-stream",
+      "note": "Google Drive link - manual download required"
+    }
+  ],
+  "contact": {
+    "email": "consultancy@tenmet.or.tz",
+    "email_cc": "procurement@tenmet.or.tz"
+  },
+  "eligibility": "Submit a single ZIP file to consultancy@tenmet.or.tz and copy procurement@tenmet.or.tz",
+  "scraped_at": "2026-03-15T11:15:00Z",
+  "last_checked": "2026-03-15T22:39:28.084357Z"
+}

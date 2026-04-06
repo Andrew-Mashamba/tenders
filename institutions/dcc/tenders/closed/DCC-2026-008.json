@@ -1,0 +1,25 @@
+{
+  "tender_id": "DCC-2026-008",
+  "institution": "dcc",
+  "title": "CONSTRUCTION OF FENCE AT KIVULE DISTRICT HOSPITAL BY JUNE 2025",
+  "description": "",
+  "published_date": "2024-10-16",
+  "closing_date": "2024-10-16",
+  "category": "General",
+  "status": "closed",
+  "source_url": "https://dcc.go.tz/tenders",
+  "documents": [
+    {
+      "filename": "670fcfb130a41281993236.pdf",
+      "original_url": "https://dcc.go.tz/storage/app/uploads/public/670/fcf/b13/670fcfb130a41281993236.pdf",
+      "local_path": "./downloads/DCC-2026-008/original/670fcfb130a41281993236.pdf",
+      "downloaded_at": "2026-03-13T20:18:40Z"
+    }
+  ],
+  "contact": {
+    "email": "info@dcc.go.tz",
+    "phone": "0738 378 386"
+  },
+  "scraped_at": "2026-03-13T20:18:40Z",
+  "last_checked": "2026-03-13T20:18:40Z"
+}

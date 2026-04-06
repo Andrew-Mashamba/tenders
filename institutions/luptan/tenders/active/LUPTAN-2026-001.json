@@ -1,0 +1,26 @@
+{
+  "tender_id": "LUPTAN-2026-001",
+  "institution": "luptan",
+  "title": "Tender notice from Luptan &#8211; Engineering, Planning &amp; Management Consultants",
+  "description": "",
+  "published_date": "2026-03-14",
+  "closing_date": "",
+  "source_url": "https://luptan.co.tz/service/project-management-and-procurement/",
+  "status": "active",
+  "documents": [
+    {
+      "filename": "Company-Brochure.pdf",
+      "original_url": "https://luptan.co.tz/wp-content/uploads/2021/11/Company-Brochure.pdf",
+      "local_path": "downloads/LUPTAN-2026-001/original/Company-Brochure.pdf"
+    },
+    {
+      "filename": "Company-Profile_LUPTAN_Sept_2021.pdf",
+      "original_url": "https://luptan.co.tz/wp-content/uploads/2021/11/Company-Profile_LUPTAN_Sept_2021.pdf",
+      "local_path": "downloads/LUPTAN-2026-001/original/Company-Profile_LUPTAN_Sept_2021.pdf"
+    }
+  ],
+  "contact": {
+    "email": "info@luptan.co.tz"
+  },
+  "scraped_at": "2026-03-14T05:15:59.372186+00:00"
+}

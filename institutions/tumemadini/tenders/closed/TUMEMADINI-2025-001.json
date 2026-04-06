@@ -1,0 +1,28 @@
+{
+  "tender_id": "TUMEMADINI-2025-001",
+  "institution": "tumemadini",
+  "title": "TENDER NOTICE FOR DEVELOPMENT OF AREAS UNDER RETENTION LICENSES PREVIOUSLY OWNED BY BAFEX TANZANIA LIMITED",
+  "description": "Development of areas under retention licenses previously owned by BAFEX Tanzania Limited.",
+  "published_date": "2025-01-14",
+  "closing_date": "2024-04-23",
+  "category": "Mining",
+  "status": "closed",
+  "source_url": "https://tumemadini.go.tz/publications/tenders/",
+  "documents": [
+    {
+      "filename": "TENDER-NOTICE-BAFEX.pdf",
+      "original_url": "https://tumemadini.go.tz/media/tenders/TENDER-NOTICE-BAFEX_jdsXkTF.pdf",
+      "local_path": "institutions/tumemadini/downloads/TUMEMADINI-2025-001/original/TENDER-NOTICE-BAFEX.pdf",
+      "file_size_bytes": 1479728,
+      "downloaded_at": "2026-03-15T11:28:00Z",
+      "content_type": "application/pdf"
+    }
+  ],
+  "contact": {
+    "name": "Procurement Department",
+    "email": "staff@tumemadini.go.tz",
+    "phone": "0351083982"
+  },
+  "scraped_at": "2026-03-15T11:28:00Z",
+  "last_checked": "2026-03-15T11:28:00Z"
+}

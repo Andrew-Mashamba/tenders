@@ -1,0 +1,34 @@
+{
+  "tender_id": "LILAC-2026-001",
+  "institution": "lilac",
+  "title": "Tender/Procurement notice",
+  "published_date": "2026-03-01",
+  "closing_date": "2026-12-31",
+  "source_url": "https://lilac.co.tz/",
+  "documents": [
+    {
+      "original_url": "https://lilac.co.tz/docs/data_analytics_advert.pdf",
+      "filename": "data_analytics_advert.pdf"
+    },
+    {
+      "original_url": "https://lilac.co.tz/docs/fs_review_final.pdf",
+      "filename": "fs_review_final.pdf"
+    },
+    {
+      "original_url": "https://lilac.co.tz/docs/lilac_profile_v21.pdf",
+      "filename": "lilac_profile_v21.pdf"
+    },
+    {
+      "original_url": "https://lilac.co.tz/docs/2024_report_writing.pdf",
+      "filename": "2024_report_writing.pdf"
+    },
+    {
+      "original_url": "https://lilac.co.tz/docs/2024_global_stds_long.pdf",
+      "filename": "2024_global_stds_long.pdf"
+    }
+  ],
+  "contact": {
+    "email": "znhellar@lilac.co.tz"
+  },
+  "scraped_at": "2026-03-15T08:02:13Z"
+}

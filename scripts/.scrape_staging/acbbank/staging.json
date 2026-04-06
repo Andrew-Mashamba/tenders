@@ -1,0 +1,123 @@
+{
+  "slug": "acbbank",
+  "name": "Akiba Commercial Bank",
+  "category": "Bank",
+  "homepage": "https://www.acbbank.co.tz/",
+  "tender_url": "https://www.acbbank.co.tz/tenders/",
+  "strategy": "Scrape https://www.acbbank.co.tz/tenders. Tenders are displayed in an embedded PDF viewer iframe. Extract document links from a.fullscreen-mode (Fullscreen Mode link) and iframe.pvfw-pdf-viewer-frame src. PDF viewer URLs follow pattern /pdfviewer/{document-slug}/. Currently shows Supplier Prequalification Notice 2026-2027.",
+  "status": "fetched",
+  "page_text": "Tenders - Akiba\n0800 750 336\nBRANCHES & ATM\nCONTACT US\nTENDERS\nINTERNET BANKING\nHome\nAbout us\nBackground\nMission & Vision\nSenior Management\nBoard Members\nProducts & Services\nDeposits\nSavings Accounts\nCurrent Account\nTime Deposits\nLoans\nBiashara Loans\nMicro Loan\nSalaried Loans\nOverdraft Facility\nInsurance\nInsurance Premium Finance (IPF)\nMotor Vehicle Insurance\nFire Insurance & Allied Perils\nGoods in Transit\nLife Insurance\nDomestic Package Insurance\nBurglary Insurance\nFire Business or Risk\nOther Services\nAkiba Wakala\nAkiba Mobile\nATM Services\nE-Statements\nVISA\nDigital Financial Services\nFunds Tansfer\nTISS, SWIFT. Western Union\u2026\nResources\nFees & Charges\nFinancial Reports\nCareers\nInvestor Relations\nInvestors\nQuarterly Reports\nAnnual Reports\nAnnual General Meetings (AGMs\u2019)\nTenders\nFullscreen Mode\nCOMPANY\nAbout Akiba\nInvestors\nLoans\nCareer\nContact us\nMEDIA & LEGAL\nAwards & Recognition\nGallery\nTerms of use\nPrivacy Policy\nSUPPORT\nWhistle Blowing\nCall Center\nATM Locations\nCustomer Complaints\nDownload Center\nFAQ'S\nCONTACT\nGive us a call:\nTel: +255 22 211 8340/3\nFax: +255 22 211 4173\nEmail:\ninfo@acbbank.co.tz\nHead Office: Ohio Street dar es Salaam\nNewsletter\nPlease leave this field empty\nWe don\u2019t spam! Read our\nPrivacy Policy\nfor more info.\nCheck your inbox or spam folder to confirm your subscription.\nGET SOCIAL\n\u00a9 2018 All rights reserved. Akiba Commercial Bank\nTOP\n\n--- Additional page ---\nFlipBooks Archive - Akiba\n0800 750 336\nBRANCHES & ATM\nCONTACT US\nTENDERS\nINTERNET BANKING\nHome\nAbout us\nBackground\nMission & Vision\nSenior Management\nBoard Members\nProducts & Services\nDeposits\nSavings Accounts\nCurrent Account\nTime Deposits\nLoans\nBiashara Loans\nMicro Loan\nSalaried Loans\nOverdraft Facility\nInsurance\nInsurance Premium Finance (IPF)\nMotor Vehicle Insurance\nFire Insurance & Allied Perils\nGoods in Transit\nLife Insurance\nDomestic Package Insurance\nBurglary Insurance\nFire Business or Risk\nOther Services\nAkiba Wakala\nAkiba Mobile\nATM Services\nE-Statements\nVISA\nDigital Financial Services\nFunds Tansfer\nTISS, SWIFT. Western Union\u2026\nResources\nFees & Charges\nFinancial Reports\nCareers\nInvestor Relations\nInvestors\nQuarterly Reports\nAnnual Reports\nAnnual General Meetings (AGMs\u2019)\nTNC FlipBook items\nSUPPLIER PREQUALIFICATION NOTICE 2026-2027\n0\nAkiba Commercial Bank\nWednesday, 12 November 2025\n/\nPublished in\nComplaints Resolution Mechanism\n0\nAkiba Commercial Bank\nTuesday, 21 October 2025\n/\nPublished in\nMIS Officer\n0\nAkiba Commercial Bank\nWednesday, 11 June 2025\n/\nPublished in\nRelationship Manager, Business Banking\n0\nAkiba Commercial Bank\nWednesday, 11 June 2025\n/\nPublished in\nRelationship Manager, Private Banking\n0\nAkiba Commercial Bank\nWednesday, 11 June 2025\n/\nPublished in\nLegal Officer\n0\nAkiba Commercial Bank\nWednesday, 21 May 2025\n/\nPublished in\nChinese Column\n0\nAkiba Commercial Bank\nSunday, 04 May 2025\n/\nPublished in\nCorporate Credit Analyst\n0\nAkiba Commercial Bank\nThursday, 01 May 2025\n/\nPublished in\nHead of Human Resources\n0\nAkiba Commercial Bank\nFriday, 11 April 2025\n/\nPublished in\nArchives\nJuly 2025\nJune 2025\nMay 2025\nMarch 2025\nFebruary 2025\nNovember 2024\nOctober 2024\nApril 2024\nMarch 2024\nAugust 2023\nMarch 2023\nCategories\nEnvironment\nNews\nCOMPANY\nAbout Akiba\nInvestors\nLoans\nCareer\nContact us\nMEDIA & LEGAL\nAwards & Recognition\nGallery\nTerms of use\nPrivacy Policy\nSUPPORT\nWhistle Blowing\nCall Center\nATM Locations\nCustomer Complaints\nDownload Center\nFAQ'S\nCONTACT\nGive us a call:\nTel: +255 22 211 8340/3\nFax: +255 22 211 4173\nEmail:\ninfo@acbbank.co.tz\nHead Office: Ohio Street dar es Salaam\nNewsletter\nPlease leave this field empty\nWe don\u2019t spam! Read our\nPrivacy Policy\nfor more info.\nCheck your inbox or spam folder to confirm your subscription.\nGET SOCIAL\n\u00a9 2018 All rights reserved. Akiba Commercial Bank\nTOP",
+  "page_title": "Tenders - Akiba",
+  "doc_links": [
+    "https://www.acbbank.co.tz/downloads/"
+  ],
+  "all_links": [
+    "https://www.facebook.com/ACBTanzania/",
+    "https://twitter.com/acbtanzania",
+    "https://www.instagram.com/acbtanzania_",
+    "https://www.youtube.com/channel/UCfnXYZlZepHvJT8LBP-8ftQ",
+    "https://www.acbbank.co.tz/",
+    "tel:0800750336 ",
+    "https://www.acbbank.co.tz/atm-branches/",
+    "https://www.acbbank.co.tz/contact-us/",
+    "https://www.acbbank.co.tz/tenders",
+    "https://ibanking.acbtz.com/login",
+    "https://www.facebook.com/ACBTanzania/",
+    "https://twitter.com/acbtanzania",
+    "https://www.instagram.com/acbtanzania_",
+    "https://www.youtube.com/channel/UCfnXYZlZepHvJT8LBP-8ftQ",
+    "https://www.acbbank.co.tz",
+    "https://www.acbbank.co.tz/about-us/background/",
+    "https://www.acbbank.co.tz/about-us/mission-vision/",
+    "https://www.acbbank.co.tz/about-us/senior-management/",
+    "https://www.acbbank.co.tz/about-us/board-members/",
+    "https://www.acbbank.co.tz/savings-accounts/",
+    "https://www.acbbank.co.tz/deposits/current-account/",
+    "https://www.acbbank.co.tz/deposits/time-deposits/",
+    "https://www.acbbank.co.tz/loans/biashara-loans/",
+    "https://www.acbbank.co.tz/loans/micro-loan/",
+    "https://www.acbbank.co.tz/loans/salaried-loans/",
+    "https://www.acbbank.co.tz/loans/overdraft-facility/",
+    "https://www.acbbank.co.tz/insurance/insurance-premium-finance-ipf/",
+    "https://www.acbbank.co.tz/insurance/motor-vehicle-insurance/",
+    "https://www.acbbank.co.tz/insurance/fire-insurance-allied-perils/",
+    "https://www.acbbank.co.tz/insurance/goods-in-transit/",
+    "https://www.acbbank.co.tz/insurance/life-insurance/",
+    "https://www.acbbank.co.tz/domestic-package-insurance/",
+    "https://www.acbbank.co.tz/burglary-insurance/",
+    "https://www.acbbank.co.tz/fire-business/",
+    "https://www.acbbank.co.tz/akiba-wakala/",
+    "https://www.acbbank.co.tz/akiba-mobile/",
+    "https://www.acbbank.co.tz/atm-services/",
+    "https://www.acbbank.co.tz/super-agent/",
+    "https://www.acbbank.co.tz/visa/",
+    "https://www.acbbank.co.tz/digital-financial-services/",
+    "https://www.acbbank.co.tz/akiba-money-tansfer/tiss/",
+    "https://www.acbbank.co.tz/fees-charges/",
+    "https://www.acbbank.co.tz/careers/",
+    "https://www.acbbank.co.tz/investors/",
+    "https://www.acbbank.co.tz/quarterly-reports/",
+    "https://www.acbbank.co.tz/annual-reports/",
+    "https://www.acbbank.co.tz/agms/",
+    "https://www.acbbank.co.tz/pdfviewer/supplier-prequalification-notice-2026-2027/",
+    "https://www.acbbank.co.tz/about-us/background/",
+    "https://www.acbbank.co.tz/investors",
+    "https://www.acbbank.co.tz/loans/",
+    "https://www.acbbank.co.tz/careers/",
+    "https://www.acbbank.co.tz/contact-us/",
+    "https://www.acbbank.co.tz/awards/",
+    "https://www.acbbank.co.tz/gallery",
+    "https://www.acbbank.co.tz/terms",
+    "https://www.acbbank.co.tz/privacy",
+    "https://www.acbbank.co.tz/whistleblower/",
+    "https://www.acbbank.co.tz/call-center/",
+    "https://www.acbbank.co.tz/atm-branches/",
+    "https://www.acbbank.co.tz/complaints/",
+    "https://www.acbbank.co.tz/downloads/",
+    "https://www.acbbank.co.tz/faqs/",
+    "https://www.acbbank.co.tz/privacy",
+    "https://www.facebook.com/ACBTanzania/",
+    "https://www.instagram.com/acb_tanzania/",
+    "https://www.youtube.com/channel/UCfnXYZlZepHvJT8LBP-8ftQ"
+  ],
+  "emails": [
+    "info@acbbank.co.tz"
+  ],
+  "downloaded_docs": [
+    {
+      "url": "https://www.acbbank.co.tz/downloads/",
+      "filename": "7215ad6640cd.pdf",
+      "local_path": "/Volumes/DATA/PROJECTS/TENDERS/scripts/.scrape_staging/acbbank/docs/7215ad6640cd.pdf",
+      "size": 84255
+    }
+  ],
+  "extracted_texts": {},
+  "existing_tenders": [
+    {
+      "tender_id": "ACBBANK-2026-001",
+      "institution": "acbbank",
+      "title": "Supplier Prequalification Notice 2026-2027",
+      "description": "Akiba Commercial Bank supplier prequalification for 2026-2027.",
+      "published_date": "2025-11-12",
+      "closing_date": null,
+      "status": "active",
+      "source_url": "https://www.acbbank.co.tz/tenders",
+      "documents": [
+        {
+          "filename": "ACBBANK-2026-001_notice.html",
+          "original_url": "https://www.acbbank.co.tz/pdfviewer/supplier-prequalification-notice-2026-2027/",
+          "local_path": "downloads/ACBBANK-2026-001/original/ACBBANK-2026-001_notice.html",
+          "downloaded_at": "2026-03-15T03:59:15Z"
+        }
+      ],
+      "contact": {
+        "email": "info@acbbank.co.tz",
+        "phone": "0800 750 336"
+      },
+      "scraped_at": "2026-03-15T03:59:15Z",
+      "last_checked": "2026-03-15T03:59:15Z"
+    }
+  ],
+  "error": "",
+  "fetch_time": 8.3
+}

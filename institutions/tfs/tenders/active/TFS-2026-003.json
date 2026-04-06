@@ -1,0 +1,31 @@
+{
+  "tender_id": "TFS-2026-003",
+  "institution": "tfs",
+  "title": "EXTENSION OF TENDER NO. TR47/2025/2026/AFD/C/01 Consultancy Services for Provision of Environmental, Biodiversity and Social Assessment for Silayo, Mtibwa–Pagale, and Wino–Ifinga Forest Plantations",
+  "description": "Consultancy services for provision of environmental, biodiversity and social assessment for Silayo, Mtibwa–Pagale, and Wino–Ifinga forest plantations. Expression of Interest with extended submission deadline.",
+  "reference_number": "TR47/2025/2026/AFD/C/01",
+  "published_date": "2025-11-07",
+  "closing_date": null,
+  "closing_time": "",
+  "category": "Consultancy",
+  "status": "active",
+  "source_url": "https://www.tfs.go.tz/resources/documents/extension_of_tender_no_tr47_2025_2026_afd_c_01_consultancy_services_for_provision_of_environmental_biodiversity_and_social_assessment_for_silayo_mtibwapagale_and_winoifinga_forest_plantations",
+  "documents": [
+    {
+      "filename": "FINAL_EOI_ENVIRONMENTAL_ASSESSMENT_time_extended.pdf",
+      "original_url": "https://www.tfs.go.tz/uploads/documents/FINAL_EOI_ENVIRONMENTAL_ASSESSMENT_time_extended.pdf",
+      "local_path": "./downloads/TFS-2026-003/original/FINAL_EOI_ENVIRONMENTAL_ASSESSMENT_time_extended.pdf",
+      "content_type": "application/pdf",
+      "downloaded_at": "2026-03-15T22:42:39Z"
+    }
+  ],
+  "contact": {
+    "name": "Tanzania Forest Services Agency",
+    "email": "mpingo@tfs.go.tz",
+    "phone": "",
+    "address": ""
+  },
+  "eligibility": "",
+  "scraped_at": "2026-03-15T22:42:39Z",
+  "last_checked": "2026-03-15T22:42:39Z"
+}

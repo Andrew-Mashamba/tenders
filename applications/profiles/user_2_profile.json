@@ -1,0 +1,28 @@
+{
+  "company_name": "ZIMA Solutions Limited",
+  "tagline": "Digital Transformation & Financial Technology",
+  "tin": "181-314-605",
+  "directors": "Andrew Stanslaus Mashamba, Caroline Ceasar Shija",
+  "contact_person": "Andrew Stanslaus Mashamba",
+  "contact_title": "Director",
+  "address": "Makongo, Near Ardhi University, Kinondoni, Dar es Salaam",
+  "phone": "+255 69 241 0353",
+  "contact_email": "info@zima.co.tz",
+  "website": "zima.co.tz",
+  "capabilities": [
+    "Bank of Tanzania integrations: RTGS, TIPS, GePG, NIDA",
+    "Core banking system implementation",
+    "AI & Machine Learning solutions",
+    "Digital banking: mobile, internet, USSD, agency banking",
+    "Enterprise software: ERP, HR, Loan Management",
+    "Cybersecurity: vulnerability assessments, pen testing",
+    "ICT infrastructure: servers, networking, CCTV"
+  ],
+  "key_facts": [
+    "20+ enterprise projects delivered",
+    "50+ client organizations",
+    "4 live BOT integrations, 99.9% uptime"
+  ],
+  "partnership_model": "For non-ICT tenders, partners with specialized firms and adds technology value: project management systems, digital tracking, IoT monitoring, analytics dashboards.",
+  "company_docs_dir": "/Volumes/DATA/PROJECTS/TENDERS/zima_solutions_ltd"
+}

@@ -1,0 +1,23 @@
+{
+  "tender_id": "DCBR-2026-001",
+  "institution": "dcbrilliant",
+  "title": "Document listing",
+  "description": "",
+  "published_date": "2026-03-15",
+  "closing_date": null,
+  "category": "General",
+  "status": "active",
+  "source_url": "https://dcbrilliant.ac.tz/",
+  "document_links": [
+    {
+      "url": "https://dcbrilliant.ac.tz/images/doc/F2_CHEM_EXAMINATION_SERIES.pdf",
+      "filename": "F2_CHEM_EXAMINATION_SERIES.pdf"
+    },
+    {
+      "url": "https://dcbrilliant.ac.tz/images/doc/CHEMISTRY.pdf",
+      "filename": "CHEMISTRY.pdf"
+    }
+  ],
+  "contact_info": {},
+  "scraped_at": "2026-03-15T05:35:50.306608+00:00"
+}

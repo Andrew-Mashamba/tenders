@@ -1,0 +1,22 @@
+{
+  "tender_id": "SUMAIT-2026-001",
+  "institution": "sumait",
+  "title": "JOB OPPORTUNITIES (Imam Vacants, & Administrative Posts)",
+  "description": "Job opportunities for Imam and administrative positions at SUMAIT.",
+  "published_date": "2026-02-05",
+  "closing_date": null,
+  "category": "Employment",
+  "status": "active",
+  "source_url": "https://sumait.ac.tz/",
+  "documents": [
+    {
+      "url": "https://sumait.ac.tz/assets/docs/UniversityImamVacants-AdministrativePosts%20-2026.pdf",
+      "filename": "UniversityImamVacants-AdministrativePosts-2026.pdf"
+    }
+  ],
+  "contact": {
+    "email": "info@sumait.ac.tz",
+    "phone": "+255 774 635625"
+  },
+  "scraped_at": "2026-03-15T13:05:00Z"
+}

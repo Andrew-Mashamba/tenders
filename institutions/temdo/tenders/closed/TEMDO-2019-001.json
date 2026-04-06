@@ -1,0 +1,26 @@
+{
+  "tender_id": "TEMDO-2019-001",
+  "institution": "temdo",
+  "title": "PROPOSED PARTITION OF TEMDO WORKSHOP ON PLOT NUMBER 268 BLOCK B NJIRO AREA IN ARUSHA CITY",
+  "description": "Tender for proposed partition of TEMDO workshop.",
+  "published_date": "2019-07-01",
+  "closing_date": "2019-08-12",
+  "category": "Construction",
+  "status": "closed",
+  "source_url": "https://temdo.or.tz/tenders",
+  "documents": [
+    {
+      "filename": "workshop_partition.pdf",
+      "original_url": "https://temdo.or.tz/uploads/tenders/sw1564651416-advert TEMDO WORKSHOP PARTITION.pdf",
+      "local_path": "institutions/temdo/downloads/TEMDO-2019-001/original/workshop_partition.pdf",
+      "downloaded_at": "2026-03-15T11:12:00Z",
+      "content_type": "application/pdf"
+    }
+  ],
+  "contact": {
+    "email": "dg@temdo.or.tz",
+    "phone": "+255 738 188 652"
+  },
+  "scraped_at": "2026-03-15T11:12:00Z",
+  "last_checked": "2026-03-15T11:12:00Z"
+}

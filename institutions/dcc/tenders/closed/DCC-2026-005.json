@@ -1,0 +1,25 @@
+{
+  "tender_id": "DCC-2026-005",
+  "institution": "dcc",
+  "title": "Supply of Building Material for the Construction of 2 Stairway of Mzinga Health Centre",
+  "description": "",
+  "published_date": "2024-12-16",
+  "closing_date": "2024-12-23",
+  "category": "General",
+  "status": "closed",
+  "source_url": "https://dcc.go.tz/tenders",
+  "documents": [
+    {
+      "filename": "67603f8f78843823667057.pdf",
+      "original_url": "https://dcc.go.tz/storage/app/uploads/public/676/03f/8f7/67603f8f78843823667057.pdf",
+      "local_path": "./downloads/DCC-2026-005/original/67603f8f78843823667057.pdf",
+      "downloaded_at": "2026-03-13T20:18:40Z"
+    }
+  ],
+  "contact": {
+    "email": "info@dcc.go.tz",
+    "phone": "0738 378 386"
+  },
+  "scraped_at": "2026-03-13T20:18:40Z",
+  "last_checked": "2026-03-13T20:18:40Z"
+}

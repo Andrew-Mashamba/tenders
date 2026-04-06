@@ -1,0 +1,31 @@
+{
+  "tender_id": "MRI-2026-001",
+  "institution": "mri",
+  "title": "Invitation for Pre-Qualification - Lease of Land for Investment at University of Dar es Salaam",
+  "description": "The University of Dar es Salaam intends to pre-qualify potential investor and/or firm for Lease of Land for Investment at the University of Dar es Salaam, Mwl. J.K. Nyerere Mlimani Campus. Applications must be submitted through NeST at or before 2:00 PM on 14/03/2025.",
+  "reference_number": "TR40/2024/2025/NC/58",
+  "published_date": "2025-02-19",
+  "closing_date": "2025-03-14",
+  "closing_time": "14:00 EAT",
+  "category": "Pre-Qualification",
+  "status": "closed",
+  "source_url": "https://www.udsm.ac.tz/announcement/invitation-tender",
+  "documents": [
+    {
+      "filename": "Survey_Lease_NeST_Magazine.pdf",
+      "original_url": "https://www.udsm.ac.tz/sites/default/files/2025-02/Survey%20Lease%20NeST_Magazine.pdf",
+      "local_path": "./downloads/MRI-2026-001/original/Survey_Lease_NeST_Magazine.pdf",
+      "file_size_bytes": 93447,
+      "downloaded_at": "2026-03-15T08:42:00Z",
+      "content_type": "application/pdf"
+    }
+  ],
+  "contact": {
+    "name": "University of Dar es Salaam",
+    "email": "vc@udsm.ac.tz",
+    "phone": "024-05-09"
+  },
+  "eligibility": "Open to all applicants as defined in the Regulations. Must register on NeST at nest.go.tz",
+  "scraped_at": "2026-03-15T08:42:00Z",
+  "last_checked": "2026-03-15T08:42:00Z"
+}

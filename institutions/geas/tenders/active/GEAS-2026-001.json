@@ -1,0 +1,19 @@
+{
+  "tender_id": "GEAS-2026-001",
+  "institution": "geas",
+  "title": "GEAS Company Limited - Tender",
+  "description": "",
+  "published_date": "2026-03-15",
+  "closing_date": "",
+  "category": "General",
+  "status": "active",
+  "source_url": "https://geas.co.tz/",
+  "documents": [],
+  "contact": {
+    "email": "info@geas.co.tz",
+    "emails": [
+      "info@geas.co.tz"
+    ]
+  },
+  "scraped_at": "2026-03-15T06:32:58.898391Z"
+}

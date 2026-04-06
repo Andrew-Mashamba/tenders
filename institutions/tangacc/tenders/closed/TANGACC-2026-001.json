@@ -1,0 +1,21 @@
+{
+  "title": "Tender Documents (Historical - All Expired 2018-2019)",
+  "documents": [
+    "http://tangacc.go.tz/storage/app/uploads/public/5c4/6f6/a32/5c46f6a3254f8840821364.pdf",
+    "https://tangacc.go.tz/storage/app/uploads/public/5cd/e65/843/5cde658436ae0588197369.pdf",
+    "https://tangacc.go.tz/storage/app/uploads/public/5c2/9af/085/5c29af085025a721096601.pdf",
+    "https://tangacc.go.tz/storage/app/uploads/public/5cd/e6f/7f4/5cde6f7f474c6693131259.pdf",
+    "https://tangacc.go.tz/storage/app/uploads/public/5cd/e6e/dcb/5cde6edcb0a15890744002.pdf",
+    "https://tangacc.go.tz/storage/app/uploads/public/5cd/e64/1f9/5cde641f96f91626593317.pdf",
+    "https://tangacc.go.tz/storage/app/uploads/public/5c6/e94/04c/5c6e9404ca0cb295387162.pdf",
+    "http://tangacc.go.tz/storage/app/uploads/public/5c2/9dc/be8/5c29dcbe8a5a8530224195.pdf",
+    "https://tangacc.go.tz/storage/app/uploads/public/5c2/49b/455/5c249b455d9d5856648182.pdf"
+  ],
+  "source_url": "https://tangacc.go.tz/tenders",
+  "tender_id": "TANGACC-2026-001",
+  "institution": "tangacc",
+  "scraped_at": "2026-03-15T11:01:44.923523+00:00",
+  "status": "closed",
+  "closing_date": "2019-05-20",
+  "note": "All tenders on tangacc.go.tz/tenders have closing dates in 2018-2019. No active tenders."
+}

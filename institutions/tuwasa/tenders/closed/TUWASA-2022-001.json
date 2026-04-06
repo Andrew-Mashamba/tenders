@@ -1,0 +1,32 @@
+{
+  "tender_id": "TUWASA-2022-001",
+  "institution": "tuwasa",
+  "title": "Zabuni ya Ununuzi wa Mabomba ya Maji na Viunganishio 2022/23",
+  "description": "Supply of Water Pipes and Fittings at TUWASA in Tabora Region. National Competitive Tendering.",
+  "reference_number": "AE/047/HQ/2022-23/G/11",
+  "published_date": "2022-07-22",
+  "closing_date": "2022-08-05",
+  "closing_time": "TANePS",
+  "category": "Goods",
+  "status": "closed",
+  "source_url": "https://www.tuwasa.go.tz/publications/tender",
+  "documents": [
+    {
+      "filename": "TENDER_DOCUMENT_WATER_PIPES_2022-2023.pdf",
+      "original_url": "https://www.tuwasa.go.tz/uploads/documents/sw-1674724622-TENDER%20DOCUMENT%20WATER%20PIPES%20AND%20FITTINGS%202022-2023.pdf",
+      "local_path": "institutions/tuwasa/downloads/TUWASA-2022-001/original/TENDER_DOCUMENT_WATER_PIPES_2022-2023.pdf",
+      "file_size_bytes": 1522119,
+      "downloaded_at": "2026-03-15T11:28:00Z",
+      "content_type": "application/pdf"
+    }
+  ],
+  "contact": {
+    "name": "Managing Director",
+    "email": "maji@tuwasa.go.tz",
+    "phone": "0800780063",
+    "address": "P.O.BOX 147, Tabora"
+  },
+  "eligibility": "Open to all Tenderers as defined in Public Procurement Regulations",
+  "scraped_at": "2026-03-15T11:28:00Z",
+  "last_checked": "2026-03-15T11:28:00Z"
+}

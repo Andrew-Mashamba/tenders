@@ -1,0 +1,30 @@
+{
+  "tender_id": "MULEBADC-2026-001",
+  "institution": "mulebadc",
+  "title": "Zabuni (Tender)",
+  "description": "Tender from Muleba District Council - expired",
+  "reference_number": "",
+  "published_date": "2017-02-15",
+  "closing_date": "2017-02-16",
+  "closing_time": "",
+  "category": "General",
+  "status": "closed",
+  "source_url": "https://mulebadc.go.tz/tenders",
+  "documents": [
+    {
+      "filename": "58a43df944090312121104.pdf",
+      "original_url": "https://mulebadc.go.tz/storage/app/uploads/public/58a/43d/f94/58a43df944090312121104.pdf",
+      "local_path": "./downloads/MULEBADC-2026-001/original/58a43df944090312121104.pdf",
+      "content_type": "application/pdf"
+    }
+  ],
+  "contact": {
+    "name": "Procurement Department",
+    "email": "ded@mulebadc.go.tz",
+    "phone": "06-2025-2",
+    "address": "131 Muleba, Kagera"
+  },
+  "eligibility": "",
+  "scraped_at": "2026-03-15T21:49:22.262208Z",
+  "last_checked": "2026-03-15T21:49:22.262209Z"
+}

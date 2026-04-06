@@ -1,0 +1,25 @@
+{
+  "tender_id": "TENMET-2026-001",
+  "institution": "tenmet",
+  "title": "TOR – Consultancy to Develop a Training Manual to promote Teaching profession for Editor and Journalist.",
+  "description": "The primary objective of this consultancy is to develop a practical and user-friendly training manual aimed at informing journalists and editors on education matters.",
+  "published_date": "2026-02-01",
+  "closing_date": "2026-02-15",
+  "category": "Consulting",
+  "status": "active",
+  "source_url": "https://tenmet.or.tz/tenders.html",
+  "documents": [
+    {
+      "filename": "tender_document",
+      "original_url": "https://drive.google.com/file/d/1sDpmZeKW_e9e2u0tiTGb2-TpYgenaws2/view?usp=sharing",
+      "content_type": "application/octet-stream",
+      "note": "Google Drive link - manual download required"
+    }
+  ],
+  "contact": {
+    "email": "consultancy@tenmet.or.tz"
+  },
+  "eligibility": "Submit a single ZIP file to consultancy@tenmet.or.tz",
+  "scraped_at": "2026-03-15T11:15:00Z",
+  "last_checked": "2026-03-15T11:15:00Z"
+}

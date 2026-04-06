@@ -1,0 +1,22 @@
+{
+  "tender_id": "MSTCDC-2026-001",
+  "institution": "mstcdc",
+  "title": "Maintenance and Repair of ICT Infrastructure",
+  "description": "MS TCDC is seeking to engage qualified vendors to carry out maintenance and repairs of critical ICT infrastructure components to enhance the reliability, security, and efficiency of its digital operations. Scope includes: Software Systems (SQL Server, Dynamics NAV, websites), Server Room and Core Equipment, Network Infrastructure, Smart Classrooms, Office Equipment.",
+  "reference_number": "MSTCDC-ICT-2025",
+  "published_date": "2026-03-02",
+  "closing_date": "2025-09-08",
+  "closing_time": "17:00 EAT",
+  "category": "ICT Services",
+  "status": "active",
+  "source_url": "https://mstcdc.or.tz/tender-maintenance-and-repair-ict-infrastructure",
+  "documents": [],
+  "contact": {
+    "name": "IT Support",
+    "email": "mstcdc@mstcdc.or.tz",
+    "phone": "+255 754 651 715"
+  },
+  "eligibility": "Valid business license and relevant certifications (Cisco, Microsoft, ITIL). Registered ICT company with at least 3 years experience. Mandatory site visit required.",
+  "scraped_at": "2026-03-15T08:42:00Z",
+  "last_checked": "2026-03-15T08:42:00Z"
+}

@@ -1,0 +1,22 @@
+{
+  "tender_id": "TFNC-2026-001",
+  "institution": "tfnc",
+  "title": "MNADA",
+  "description": "Tender notice from TFNC",
+  "published_date": "2025-08-26",
+  "closing_date": null,
+  "status": "closed",
+  "closed_reason": "Invalid - document is LoremIpsum placeholder, not real tender",
+  "source_url": "https://tfnc.go.tz/tenders-vacancies",
+  "documents": [
+    {
+      "filename": "sw1756222314-LoremIpsum.pdf",
+      "original_url": "https://tfnc.go.tz/uploads/tender/sw1756222314-LoremIpsum.pdf",
+      "local_path": "downloads/TFNC-2026-001/original/sw1756222314-LoremIpsum.pdf"
+    }
+  ],
+  "contact": {
+    "email": "info@tfnc.go.tz"
+  },
+  "scraped_at": "2026-03-15T06:04:30Z"
+}

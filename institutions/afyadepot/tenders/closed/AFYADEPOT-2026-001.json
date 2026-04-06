@@ -1,0 +1,22 @@
+{
+  "tender_id": "AFYADEPOT-2026-001",
+  "institution": "afyadepot",
+  "title": "Tender documents",
+  "description": "",
+  "published_date": "2026-03-13",
+  "closing_date": "",
+  "category": "General",
+  "status": "closed",
+  "closed_reason": "Invalid: be-a-partner-afyadepo.pdf is B2B partnership brochure, not a procurement tender",
+  "source_url": "https://afyadepot.co.tz/",
+  "documents": [
+    {
+      "filename": "be-a-partner-afyadepo.pdf",
+      "original_url": "https://afyadepot.co.tz/wp-content/uploads/2025/12/be-a-partner-afyadepo.pdf",
+      "local_path": "downloads/AFYADEPOT-2026-001/original/be-a-partner-afyadepo.pdf"
+    }
+  ],
+  "contact": {},
+  "scraped_at": "2026-03-13T18:40:05.172863+00:00",
+  "last_checked": "2026-03-13T18:40:05.172871+00:00"
+}

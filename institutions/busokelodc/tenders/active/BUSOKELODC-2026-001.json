@@ -1,0 +1,24 @@
+{
+  "tender_id": "BUSOKELODC-2026-001",
+  "institution": "busokelodc",
+  "title": "Tender from Busokelo District Council",
+  "source_url": "https://busokelodc.go.tz/procurement-and-supplies",
+  "published_date": "2026-03-15",
+  "closing_date": null,
+  "status": "active",
+  "documents": [
+    {
+      "filename": "68415d748b8b7565079505.pdf",
+      "original_url": "https://busokelodc.go.tz/storage/app/uploads/public/684/15d/748/68415d748b8b7565079505.pdf",
+      "local_path": "institutions/busokelodc/downloads/BUSOKELODC-2026-001/original/68415d748b8b7565079505.pdf"
+    },
+    {
+      "filename": "666198ecbdc4e859026186.pdf",
+      "original_url": "https://busokelodc.go.tz/storage/app/uploads/public/666/198/ecb/666198ecbdc4e859026186.pdf",
+      "local_path": "institutions/busokelodc/downloads/BUSOKELODC-2026-001/original/666198ecbdc4e859026186.pdf"
+    }
+  ],
+  "contact": {},
+  "scraped_at": "2026-03-15T05:12:20Z",
+  "run_id": "run_20260315_060430_batch18"
+}

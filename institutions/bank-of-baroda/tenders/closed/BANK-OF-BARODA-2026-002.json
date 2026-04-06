@@ -1,0 +1,26 @@
+{
+  "tender_id": "BANK-OF-BARODA-2026-002",
+  "institution": "bank-of-baroda",
+  "title": "RFP FOR SELECTION OF INSURANCE COMPANY FOR GROUP HEALTH POLICY FOR EMPLOYEES OF BANK OF BARODA TANZANIA LIMITED",
+  "description": "Request for proposal for selection of insurance company for group health policy for employees.",
+  "reference_number": "BANK-OF-BARODA-2026-002",
+  "published_date": "2026-02-03",
+  "closing_date": "2026-02-09",
+  "closing_time": "15:00 EAT",
+  "category": "Insurance",
+  "status": "closed",
+  "source_url": "https://www.bankofbaroda.co.tz/tenders/tenders-notice",
+  "documents": [
+    {
+      "filename": "NOTICE-OF-BID-for-Medical-Insurance-2026.pdf",
+      "original_url": "https://www.bankofbaroda.co.tz/-/media/Project/BOB/CountryWebsites/Tanzania/uploads/tenders/NOTICE-OF-BID-for-Medical-Insurance-2026-03-03.pdf",
+      "local_path": "./downloads/BANK-OF-BARODA-2026-002/original/NOTICE-OF-BID-for-Medical-Insurance-2026.pdf",
+      "file_size_bytes": 134703,
+      "downloaded_at": "2026-03-13T19:27:00Z",
+      "content_type": "application/pdf"
+    }
+  ],
+  "contact": {},
+  "scraped_at": "2026-03-13T19:27:00Z",
+  "last_checked": "2026-03-13T19:27:00Z"
+}

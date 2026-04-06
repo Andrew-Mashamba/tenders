@@ -1,0 +1,28 @@
+{
+  "tender_id": "SCHOOLOFSTJUDE-2025-002",
+  "institution": "schoolofstjude",
+  "title": "Public auction at St Jude's",
+  "description": "Sale of used items including tools, furniture, computers, books and more!",
+  "reference_number": "N/A",
+  "published_date": "2025-10-01",
+  "closing_date": "2025-11-01",
+  "closing_time": "9:30 am",
+  "category": "Auction",
+  "status": "closed",
+  "source_url": "https://www.schoolofstjude.org/tenders/",
+  "documents": [
+    {
+      "filename": "Garage-Sale-External.pdf",
+      "original_url": "https://www.schoolofstjude.org/wp-content/uploads/2025/10/Garage-Sale-.External-1st-Nov.pdf",
+      "local_path": "./downloads/SCHOOLOFSTJUDE-2025-002/original/Garage-Sale-External.pdf",
+      "file_size_bytes": 3230778,
+      "downloaded_at": "2026-03-15T13:27:00Z",
+      "content_type": "application/pdf"
+    }
+  ],
+  "contact": {
+    "email": "purchasing@schoolofstjude.co.tz"
+  },
+  "scraped_at": "2026-03-15T13:27:00Z",
+  "last_checked": "2026-03-15T13:27:00Z"
+}

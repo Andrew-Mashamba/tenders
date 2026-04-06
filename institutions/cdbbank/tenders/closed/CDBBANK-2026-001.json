@@ -1,0 +1,21 @@
+{
+  "tender_id": "CDBBANK-2026-001",
+  "institution": "cdbbank",
+  "title": "Expression of Interest - Prequalification for Core Banking System",
+  "description": "China Dasheng Bank EOI for selection of Core Banking System (CBS) - prequalification of OEMs/Authorized partners.",
+  "published_date": "2026-03-15",
+  "closing_date": "2024-10-31",
+  "category": "ICT",
+  "status": "closed",
+  "closed_reason": "Expired - deadline was 31 October 2024",
+  "source_url": "https://cdbbank.co.tz/",
+  "documents": [
+    {
+      "filename": "ExpressionOfInterest.pdf",
+      "original_url": "https://chinadashengbank.co.tz/uploads/ExpressionOfInterest.pdf",
+      "local_path": "downloads/CDBBANK-2026-001/original/ExpressionOfInterest.pdf"
+    }
+  ],
+  "contact": {},
+  "scraped_at": "2026-03-15T05:17:42.254013+00:00"
+}

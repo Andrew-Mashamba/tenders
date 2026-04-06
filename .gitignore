@@ -1,0 +1,31 @@
+# Credentials - never commit
+config/email.json
+.env
+
+# Downloaded tender documents (large files)
+institutions/*/downloads/
+
+# Notification queue
+notifications/pending/
+notifications/sent/
+
+# Scrape state files
+institutions/*/scrape_log.json
+institutions/*/last_scrape.json
+
+# Python
+.venv/
+__pycache__/
+tools/__pycache__/
+tools/**/__pycache__/
+
+# Logs
+logs/
+
+# Node
+node_modules/
+frontend/dist/
+
+# OS files
+.DS_Store
+$out

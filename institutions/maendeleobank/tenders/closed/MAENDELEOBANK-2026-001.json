@@ -1,0 +1,34 @@
+{
+  "tender_id": "MAENDELEOBANK-2026-001",
+  "institution": "maendeleobank",
+  "title": "Invitation for Valuers, Auctioneers, Surveyors - Professional Services",
+  "description": "Maendeleo Bank Plc is pleased to invite qualified and experienced Valuers, Auctioneers, Surveyors to submit proposals for the provision of professional services to support the Bank's operational and business needs.",
+  "reference_number": "MAENDELEOBANK/T/2026/001",
+  "published_date": "2026-03-15",
+  "closing_date": "2025-04-25",
+  "closing_time": "14:00 EAT",
+  "category": "Professional Services",
+  "status": "active",
+  "source_url": "https://maendeleobank.co.tz/index.php/tender/",
+  "documents": [
+    {
+      "filename": "TOR-FOR-VALUERS.pdf",
+      "original_url": "https://maendeleobank.co.tz/wp-content/uploads/2025/04/TOR-FOR-VALUERS.pdf",
+      "local_path": "./downloads/MAENDELEOBANK-2026-001/original/TOR-FOR-VALUERS.pdf",
+      "file_size_bytes": 170032,
+      "downloaded_at": "2026-03-15T08:10:00Z",
+      "content_type": "application/pdf",
+      "sha256": ""
+    }
+  ],
+  "contact": {
+    "name": "Procurement Department",
+    "email": "Info@maendeleobank.co.tz",
+    "phone": "03937007874",
+    "address": "Maendeleo Bank Plc"
+  },
+  "eligibility": "Qualified and experienced Valuers, Auctioneers, Surveyors",
+  "bid_security": "TBD",
+  "scraped_at": "2026-03-15T08:10:00Z",
+  "last_checked": "2026-03-15T08:10:00Z"
+}

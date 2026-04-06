@@ -1,0 +1,29 @@
+{
+  "tender_id": "TAIFAMINING-2026-001",
+  "institution": "taifamining",
+  "title": "Taifa - Civil and Mining Sector",
+  "description": "",
+  "published_date": null,
+  "closing_date": null,
+  "category": "General",
+  "status": "active",
+  "source_url": "https://taifamining.co.tz/",
+  "documents": [
+    {
+      "filename": "taifa-mining-health-and-safety-certificate.pdf",
+      "original_url": "https://taifamining.co.tz/wp-content/uploads/2025/03/taifa-mining-health-and-safety-certificate.pdf"
+    },
+    {
+      "filename": "taifa-mining-wcf-certificate-of-registration.pdf",
+      "original_url": "https://taifamining.co.tz/wp-content/uploads/2025/03/taifa-mining-wcf-certificate-of-registration.pdf"
+    },
+    {
+      "filename": "taifa-mining-civils-limited-iso9001-certificate.pdf",
+      "original_url": "https://taifamining.co.tz/wp-content/uploads/2025/03/taifa-mining-civils-limited-iso9001-certificate.pdf"
+    }
+  ],
+  "contact": {
+    "email": "bd@taifamining.co.tz"
+  },
+  "scraped_at": "2026-03-14T08:03:02Z"
+}

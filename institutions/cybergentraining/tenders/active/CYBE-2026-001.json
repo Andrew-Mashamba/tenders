@@ -1,0 +1,19 @@
+{
+  "tender_id": "CYBE-2026-001",
+  "institution": "cybergentraining",
+  "title": "Document listing",
+  "description": "",
+  "published_date": "2026-03-15",
+  "closing_date": null,
+  "category": "General",
+  "status": "active",
+  "source_url": "https://cybergentraining.co.tz/",
+  "document_links": [
+    {
+      "url": "https://cybergentraining.co.tz/wp-content/uploads/2025/02/2025-Cybergen-Training-Calendar-Profile.pdf",
+      "filename": "2025-Cybergen-Training-Calendar-Profile.pdf"
+    }
+  ],
+  "contact_info": {},
+  "scraped_at": "2026-03-15T05:34:04.891712+00:00"
+}

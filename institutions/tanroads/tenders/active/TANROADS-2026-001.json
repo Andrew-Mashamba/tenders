@@ -1,0 +1,32 @@
+{
+  "tender_id": "TANROADS-2026-001",
+  "institution": "tanroads",
+  "title": "Construction of Dar es Salaam Bus Rapid Transit (BRT) Infrastructure Phase 4, Construction of Drainage Structures to Alleviate Flooding Problem at Boko Basihaya Area",
+  "description": "Construction of drainage structures for BRT Phase 4 to alleviate flooding at Boko Basihaya area in Dar es Salaam.",
+  "reference_number": "AE/001/2025-2026/HQ/W/39",
+  "published_date": "2026-03-09",
+  "closing_date": "2026-04-23",
+  "closing_time": "10:00 EAT",
+  "category": "Construction",
+  "status": "active",
+  "source_url": "https://tanroads.go.tz/tenders/view/176",
+  "documents": [
+    {
+      "filename": "tender_document.pdf",
+      "original_url": "https://tanroads.go.tz/tenders/download/176",
+      "local_path": null,
+      "content_type": "application/pdf",
+      "downloaded_at": null,
+      "note": "Download requires form submission (company, email, country) on TANROADS website"
+    }
+  ],
+  "contact": {
+    "name": "TANROADS Procurement",
+    "email": "tanroadshq@tanroads.go.tz",
+    "phone": "+255 22 2926001",
+    "address": "3rd Floor, 10 Shaaban Robert Road/Garden Avenue Junction, Dar es Salaam"
+  },
+  "eligibility": "",
+  "scraped_at": "2026-03-15T19:35:00Z",
+  "last_checked": "2026-03-15T19:35:00Z"
+}

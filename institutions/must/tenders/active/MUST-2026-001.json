@@ -1,0 +1,17 @@
+{
+  "tender_id": "MUST-2026-001",
+  "institution": "must",
+  "title": "Tender from Mbeya University of Science and Technology",
+  "description": "Extracted from procurement/announcements page",
+  "published_date": "2026-03-15",
+  "closing_date": "",
+  "status": "active",
+  "source_url": "https://must.ac.tz/directorates/vice-chancellor/procurement-management-unit",
+  "documents": [
+    {
+      "original_url": "https://www.lands.go.tz/uploads/notices/sw1734348442-RAMANIYATANZANIA_.pdf",
+      "local_path": "./downloads/MUST-2026-001/original/sw1734348442-RAMANIYATANZANIA_.pdf"
+    }
+  ],
+  "scraped_at": "2026-03-15T08:49:34.040839+00:00"
+}

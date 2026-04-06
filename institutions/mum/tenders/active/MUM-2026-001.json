@@ -1,0 +1,37 @@
+{
+  "tender_id": "MUM-2026-001",
+  "institution": "mum",
+  "title": "Tender from Muslim University Official Website - home",
+  "description": "Extracted from procurement/announcements page",
+  "published_date": "2026-03-15",
+  "closing_date": "",
+  "status": "active",
+  "source_url": "https://mum.ac.tz/single-news-and-events/mum-iium-kuanzisha-mradi-wa-bidhaa-halali",
+  "documents": [
+    {
+      "original_url": "https://mum.ac.tz/storage/app/uploads/public/68f/9ee/9b1/68f9ee9b19a13019682907.pdf",
+      "local_path": "./downloads/MUM-2026-001/original/68f9ee9b19a13019682907.pdf"
+    },
+    {
+      "original_url": "https://mum.ac.tz/storage/app/uploads/public/68f/9e6/ccc/68f9e6ccc7f7e843363004.pdf",
+      "local_path": "./downloads/MUM-2026-001/original/68f9e6ccc7f7e843363004.pdf"
+    },
+    {
+      "original_url": "https://mum.ac.tz/storage/app/uploads/public/68f/9e6/3e5/68f9e63e51524329142825.pdf",
+      "local_path": "./downloads/MUM-2026-001/original/68f9e63e51524329142825.pdf"
+    },
+    {
+      "original_url": "https://mum.ac.tz/storage/app/uploads/public/68f/9e6/89e/68f9e689ed702983602613.pdf",
+      "local_path": "./downloads/MUM-2026-001/original/68f9e689ed702983602613.pdf"
+    },
+    {
+      "original_url": "https://mum.ac.tz/storage/app/uploads/public/68f/9e7/09d/68f9e709d7bb2596540644.pdf",
+      "local_path": "./downloads/MUM-2026-001/original/68f9e709d7bb2596540644.pdf"
+    },
+    {
+      "original_url": "http://localhost/mumweb/storage/app/media/Prospectus/mum-prospectus-2020.pdf",
+      "local_path": "./downloads/MUM-2026-001/original/mum-prospectus-2020.pdf"
+    }
+  ],
+  "scraped_at": "2026-03-15T08:48:53.944777+00:00"
+}

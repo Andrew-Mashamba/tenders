@@ -1,0 +1,38 @@
+{
+  "tender_id": "MLOGANZILA-2026-001",
+  "institution": "mloganzila",
+  "title": "Call for Expression of Interest (EOI) - Ministry of Health / Tender Documents",
+  "description": "Muhimbili National Hospital Mloganzila tenders area. Includes EOI for Ministry of Health and tender/auction notices.",
+  "reference_number": "",
+  "published_date": "",
+  "closing_date": null,
+  "closing_time": "",
+  "category": "General",
+  "status": "active",
+  "source_url": "https://www.mloganzila.or.tz/tenders/",
+  "documents": [
+    {
+      "filename": "CALL-FOR-EXPRESSION-OF-INTEREST-EOI-MINISTRY-OF-HEALTH.pdf",
+      "original_url": "https://www.mloganzila.or.tz/wp-content/uploads/2025/12/CALL-FOR-EXPRESSION-OF-INTEREST-EOI-MINISTRY-OF-HEALTH.pdf",
+      "local_path": "./downloads/MLOGANZILA-2026-001/original/CALL-FOR-EXPRESSION-OF-INTEREST-EOI-MINISTRY-OF-HEALTH.pdf",
+      "content_type": "application/pdf",
+      "downloaded_at": "2026-03-15T21:44:26.141303Z"
+    },
+    {
+      "filename": "Tangazo-la-mnada.pdf",
+      "original_url": "https://www.mloganzila.or.tz/wp-content/uploads/2024/11/Tangazo-la-mnada.pdf",
+      "local_path": "./downloads/MLOGANZILA-2026-001/original/Tangazo-la-mnada.pdf",
+      "content_type": "application/pdf",
+      "downloaded_at": "2026-03-15T21:44:26.141303Z"
+    }
+  ],
+  "contact": {
+    "name": "Procurement Department",
+    "email": "info@mloganzila.or.tz",
+    "phone": "04 846 713 829",
+    "address": ""
+  },
+  "eligibility": "",
+  "scraped_at": "2026-03-15T21:44:26.141306Z",
+  "last_checked": "2026-03-15T21:44:26.141307Z"
+}

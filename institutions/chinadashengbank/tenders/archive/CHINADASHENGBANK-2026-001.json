@@ -1,0 +1,34 @@
+{
+  "tender_id": "CHINADASHENGBANK-2026-001",
+  "institution": "chinadashengbank",
+  "title": "Request for Expression of Interest - Prequalification for the Selection of a Core Banking System",
+  "description": "China Dasheng Bank Ltd wishes to engage interested and qualified Original Equipment Manufacturers (OEMs)/Authorized partners of Core Banking Systems to bid for the prequalification for the selection of Core Banking System (CBS). The CBS should facilitate seamless interaction between customers and the bank across multiple channels including web portals, mobile banking, USSD, and branches.",
+  "reference_number": null,
+  "published_date": "2024-10-22",
+  "closing_date": "2024-10-31",
+  "closing_time": "00:00 EAT",
+  "category": "ICT",
+  "status": "closed",
+  "source_url": "https://chinadashengbank.co.tz/",
+  "documents": [
+    {
+      "filename": "ExpressionOfInterest.pdf",
+      "original_url": "https://chinadashengbank.co.tz/uploads/ExpressionOfInterest.pdf",
+      "local_path": "./downloads/CHINADASHENGBANK-2026-001/original/ExpressionOfInterest.pdf",
+      "file_size_bytes": 61110,
+      "downloaded_at": "2026-03-13T19:53:37Z",
+      "content_type": "application/pdf",
+      "sha256": "032730430756c5df3b458fa88cf8b41c32686f1b5946b961a3caeab1805b3f52"
+    }
+  ],
+  "contact": {
+    "name": "Chief Executive Officer",
+    "email": "info@cdbbank.co.tz",
+    "phone": "0800-112-025",
+    "address": "Mezzanine Floor, Ex Telecom House, Samora Avenue, P.O. Box 388, Dar es Salaam"
+  },
+  "eligibility": "Original Equipment Manufacturers (OEMs) or Authorized Partners with CBS software having at least 8 installations in Tanzania. Implementer must have experience with at least 4 banks in Tanzania and minimum 2 end-to-end CBS implementations in East Africa.",
+  "bid_security": null,
+  "scraped_at": "2026-03-13T19:53:37Z",
+  "last_checked": "2026-03-13T19:53:37Z"
+}

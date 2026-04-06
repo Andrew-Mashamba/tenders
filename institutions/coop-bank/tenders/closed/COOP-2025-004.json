@@ -1,0 +1,34 @@
+{
+  "tender_id": "COOP-2025-004",
+  "institution": "coop-bank",
+  "title": "Establishment of In-House Email Infrastructure",
+  "description": "The bank seeks to transition from externally-hosted email to a secure, scalable, in-house Microsoft-based platform. Key components include: Active Directory (establish coopbank.co.tz domain with Production and DR environments), PKI (deploy Active Directory Certificate Services with LDAPS authentication), Email Platform (install Microsoft Exchange Server 2019 with high-availability configuration), Microsoft 365 (set up new Office 365 tenant with migration from legacy systems), Hybrid Exchange (implement seamless integration configuration), and Licensing (procure Windows Server, Exchange Server, and Office 365 licenses). Non-functional requirements: availability >=99.9% monthly, client logon <3 seconds (LAN), submit-to-deliver P95 <30 seconds, RTO <=2 hours, RPO <=15 minutes, security with TLS 1.2/1.3, SPF/DKIM/DMARC, S/MIME support, RBAC, full audit.",
+  "reference_number": null,
+  "published_date": "2025-09-15",
+  "closing_date": null,
+  "closing_time": null,
+  "category": "ICT",
+  "status": "closed",
+  "source_url": "https://coopbank.co.tz/establishment-of-in-house-email-infrastructure/",
+  "documents": [
+    {
+      "filename": "EMAIL-RFP.pdf",
+      "original_url": "https://coopbank.co.tz/wp-content/uploads/2025/09/EMAIL-RFP.pdf",
+      "local_path": "./downloads/COOP-2025-004/original/EMAIL-RFP.pdf",
+      "file_size_bytes": 1323008,
+      "downloaded_at": "2026-03-13T07:23:00Z",
+      "content_type": "application/pdf",
+      "sha256": "c312bae3803126d08535e6e85b27275189cbe5296f1e3a2fca5faa0d281648c4"
+    }
+  ],
+  "contact": {
+    "name": "Procurement Department",
+    "email": null,
+    "phone": "+255 (27) 275 4470",
+    "address": null
+  },
+  "eligibility": null,
+  "bid_security": null,
+  "scraped_at": "2026-03-13T07:23:00Z",
+  "last_checked": "2026-03-13T07:23:00Z"
+}

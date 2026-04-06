@@ -1,0 +1,22 @@
+{
+  "tender_id": "H-2026-001",
+  "institution": "hpvelectrical",
+  "title": "Tender/Procurement - HPV Electrical Company Ltd",
+  "description": "Scraped from website. See documents.",
+  "published_date": "",
+  "closing_date": "",
+  "category": "Procurement",
+  "status": "active",
+  "source_url": "https://hpvelectrical.co.tz/",
+  "documents": [
+    {
+      "filename": "hpv-electrical-company-profile-2024-YD0wQnl1nxCvZkGW.pdf",
+      "original_url": "https://assets.zyrosite.com/YZ9xnNZ7bNI711rw/hpv-electrical-company-profile-2024-YD0wQnl1nxCvZkGW.pdf",
+      "local_path": "downloads/H-2026-001/original/hpv-electrical-company-profile-2024-YD0wQnl1nxCvZkGW.pdf",
+      "downloaded_at": "2026-03-15T06:53:19.058329Z"
+    }
+  ],
+  "contact": {},
+  "scraped_at": "2026-03-15T06:53:19.058897Z",
+  "last_checked": "2026-03-15T06:53:19.058912Z"
+}

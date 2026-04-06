@@ -1,0 +1,32 @@
+{
+  "tender_id": "TEC-2024-001",
+  "institution": "tec",
+  "title": "Mabalozi wa Amani II Phase Project Media Campaign Tender",
+  "description": "TEC is seeking proposals from competent media production companies to execute a comprehensive Civic Education and Democracy Promotion Campaign across TV, radio, YouTube, and social media. Project period Dec 2023 – June 2025.",
+  "reference_number": "TEC/MEDIA/2024/001",
+  "published_date": "2024-01-19",
+  "closing_date": "2024-02-08",
+  "closing_time": null,
+  "category": "Media / Civic Education",
+  "status": "closed",
+  "source_url": "https://tec.or.tz/index.php/2024/01/19/mabalozi-wa-amani-ii-phase-project-media-campaign-tender/",
+  "documents": [
+    {
+      "filename": "MEDIA-TENDER2.pdf",
+      "original_url": "https://tec.or.tz/wp-content/uploads/2024/04/MEDIA-TENDER2.pdf",
+      "local_path": "./downloads/TEC-2024-001/original/MEDIA-TENDER2.pdf",
+      "file_size_bytes": 244499,
+      "downloaded_at": "2026-03-15T11:09:00Z",
+      "content_type": "application/pdf"
+    }
+  ],
+  "contact": {
+    "name": "Fr. Charles Kitima",
+    "email": "project@tec.or.tz",
+    "phone": "+255 768342853",
+    "address": "TEC - SECRETARY GENERAL"
+  },
+  "eligibility": "Competent and experienced media production companies",
+  "scraped_at": "2026-03-15T11:09:00Z",
+  "last_checked": "2026-03-15T11:09:00Z"
+}

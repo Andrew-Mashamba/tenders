@@ -1,0 +1,27 @@
+{
+  "tender_id": "NBC-2026-001",
+  "institution": "nbc",
+  "title": "RFP Commercial Credit Origination, Assessment & Workflow Platform",
+  "description": "NBC procurement for Commercial Credit Origination platform.",
+  "published_date": "",
+  "closing_date": "",
+  "closing_time": "",
+  "category": "ICT",
+  "status": "active",
+  "source_url": "https://www.nbc.co.tz/en/procurement/",
+  "documents": [
+    {
+      "filename": "nbc-rfp-credit.pdf",
+      "original_url": "https://www.nbc.co.tz/content/dam/nbc/tanzania/pdf/procurement/nbc-rfp-credit.pdf",
+      "local_path": "./downloads/NBC-2026-001/original/nbc-rfp-credit.pdf",
+      "content_type": "application/pdf",
+      "downloaded_at": "2026-03-15T21:55:03.451875Z"
+    }
+  ],
+  "contact": {
+    "email": "contact.centre@nbc.co.tz",
+    "phone": "+255 76 898 4000"
+  },
+  "scraped_at": "2026-03-15T21:55:03.451878Z",
+  "last_checked": "2026-03-15T21:55:03.451879Z"
+}

@@ -1,0 +1,13 @@
+{
+  "tender_id": "URUSECONDARY-2026-001",
+  "institution": "urusecondary",
+  "title": "Tender 1",
+  "source_url": "https://urusecondary.sc.tz/",
+  "documents": [
+    {
+      "url": "https://urusecondary.sc.tz/wp-content/uploads/2020/10/uru-secondary-school-profile.pdf",
+      "type": "document"
+    }
+  ],
+  "scraped_at": "2026-03-15T11:40:33.261180+00:00"
+}

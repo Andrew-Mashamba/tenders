@@ -1,0 +1,18 @@
+{
+  "tender_id": "LINKTECH-2026-001",
+  "institution": "linktech",
+  "title": "Tender/Procurement notice",
+  "published_date": "2026-03-01",
+  "closing_date": "2026-12-31",
+  "source_url": "https://www.linktech.co.tz/",
+  "documents": [
+    {
+      "original_url": "https://www.linktech.co.tz/wp-content/uploads/2021/08/linktech-profile.pdf",
+      "filename": "linktech-profile.pdf"
+    }
+  ],
+  "contact": {
+    "email": "info@linktech.co.tz"
+  },
+  "scraped_at": "2026-03-15T08:02:13Z"
+}

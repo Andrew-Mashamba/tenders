@@ -1,0 +1,136 @@
+{
+  "tender_id": "D-2026-001",
+  "institution": "diversey",
+  "title": "Tender/Procurement - Diversey/Solenis",
+  "description": "Scraped from website. See documents.",
+  "published_date": "",
+  "closing_date": "",
+  "category": "Procurement",
+  "status": "active",
+  "source_url": "https://www.solenis.com/link/5723ead4cf9044cca31ead1849606616.aspx?type=procurement",
+  "documents": [
+    {
+      "filename": "basis-of-reporting-fy2023.pdf",
+      "original_url": "https://www.solenis.com/globalassets/resources/sustainability--regulatory-library/basis-of-reporting-fy2023.pdf",
+      "local_path": "downloads/D-2026-001/original/basis-of-reporting-fy2023.pdf",
+      "downloaded_at": "2026-03-13T20:30:41.017792Z"
+    },
+    {
+      "filename": "2023-workforce-demographics-report.pdf",
+      "original_url": "https://www.solenis.com/globalassets/resources/sustainability--regulatory-library/2023-workforce-demographics-report.pdf",
+      "local_path": "downloads/D-2026-001/original/2023-workforce-demographics-report.pdf",
+      "downloaded_at": "2026-03-13T20:30:43.837383Z"
+    },
+    {
+      "filename": "2024-basis-of-reporting.pdf",
+      "original_url": "https://www.solenis.com/globalassets/resources/sustainability--regulatory-library/2024-basis-of-reporting.pdf",
+      "local_path": "downloads/D-2026-001/original/2024-basis-of-reporting.pdf",
+      "downloaded_at": "2026-03-13T20:30:46.139876Z"
+    },
+    {
+      "filename": "2024-cdp-corporate-questionnaire-result.pdf",
+      "original_url": "https://www.solenis.com/globalassets/resources/sustainability--regulatory-library/2024-cdp-corporate-questionnaire-result.pdf",
+      "local_path": "downloads/D-2026-001/original/2024-cdp-corporate-questionnaire-result.pdf",
+      "downloaded_at": "2026-03-13T20:30:49.362250Z"
+    },
+    {
+      "filename": "2024-culture-celebrations-on-linkedin.pdf",
+      "original_url": "https://www.solenis.com/globalassets/resources/sustainability--regulatory-library/2024-culture-celebrations-on-linkedin.pdf",
+      "local_path": "downloads/D-2026-001/original/2024-culture-celebrations-on-linkedin.pdf",
+      "downloaded_at": "2026-03-13T20:30:53.715716Z"
+    },
+    {
+      "filename": "2024-solenis-tcfd-report-v1.pdf",
+      "original_url": "https://www.solenis.com/globalassets/resources/sustainability--regulatory-library/2024-solenis-tcfd-report-v1.pdf",
+      "local_path": "downloads/D-2026-001/original/2024-solenis-tcfd-report-v1.pdf",
+      "downloaded_at": "2026-03-13T20:30:56.672380Z"
+    },
+    {
+      "filename": "2024-workforce-demographic-report-v6.pdf",
+      "original_url": "https://www.solenis.com/globalassets/resources/sustainability--regulatory-library/2024-workforce-demographic-report-v6.pdf",
+      "local_path": "downloads/D-2026-001/original/2024-workforce-demographic-report-v6.pdf",
+      "downloaded_at": "2026-03-13T20:31:02.942129Z"
+    },
+    {
+      "filename": "2025-cdp-corporate-questionnaire-results.pdf",
+      "original_url": "https://www.solenis.com/globalassets/resources/sustainability--regulatory-library/2025-cdp-corporate-questionnaire-results.pdf",
+      "local_path": "downloads/D-2026-001/original/2025-cdp-corporate-questionnaire-results.pdf",
+      "downloaded_at": "2026-03-13T20:31:06.931237Z"
+    },
+    {
+      "filename": "2025-culture-celebrations.pdf",
+      "original_url": "https://www.solenis.com/globalassets/resources/sustainability--regulatory-library/2025-culture-celebrations.pdf",
+      "local_path": "downloads/D-2026-001/original/2025-culture-celebrations.pdf",
+      "downloaded_at": "2026-03-13T20:31:11.316274Z"
+    },
+    {
+      "filename": "americans-with-disabilities-act-ada-v1.pdf",
+      "original_url": "https://www.solenis.com/globalassets/resources/sustainability--regulatory-library/americans-with-disabilities-act-ada-v1.pdf",
+      "local_path": "downloads/D-2026-001/original/americans-with-disabilities-act-ada-v1.pdf",
+      "downloaded_at": "2026-03-13T20:31:13.623994Z"
+    },
+    {
+      "filename": "animal-welfare-v2.pdf",
+      "original_url": "https://www.solenis.com/globalassets/resources/sustainability--regulatory-library/animal-welfare-v2.pdf",
+      "local_path": "downloads/D-2026-001/original/animal-welfare-v2.pdf",
+      "downloaded_at": "2026-03-13T20:31:15.378323Z"
+    },
+    {
+      "filename": "anti-corruption-v7.pdf",
+      "original_url": "https://www.solenis.com/globalassets/resources/sustainability--regulatory-library/anti-corruption-v7.pdf",
+      "local_path": "downloads/D-2026-001/original/anti-corruption-v7.pdf",
+      "downloaded_at": "2026-03-13T20:31:17.720700Z"
+    },
+    {
+      "filename": "anti-harassment-v2.pdf",
+      "original_url": "https://www.solenis.com/globalassets/resources/sustainability--regulatory-library/anti-harassment-v2.pdf",
+      "local_path": "downloads/D-2026-001/original/anti-harassment-v2.pdf",
+      "downloaded_at": "2026-03-13T20:31:20.405716Z"
+    },
+    {
+      "filename": "antitrust-and-competition-law-v6.pdf",
+      "original_url": "https://www.solenis.com/globalassets/resources/sustainability--regulatory-library/antitrust-and-competition-law-v6.pdf",
+      "local_path": "downloads/D-2026-001/original/antitrust-and-competition-law-v6.pdf",
+      "downloaded_at": "2026-03-13T20:31:22.843597Z"
+    },
+    {
+      "filename": "solenis-austria-gmbh---zero-co2-bestatigung-2024.pdf",
+      "original_url": "https://www.solenis.com/globalassets/resources/sustainability--regulatory-library/solenis-austria-gmbh---zero-co2-bestatigung-2024.pdf",
+      "local_path": "downloads/D-2026-001/original/solenis-austria-gmbh---zero-co2-bestatigung-2024.pdf",
+      "downloaded_at": "2026-03-13T20:31:25.818978Z"
+    },
+    {
+      "filename": "basis-of-reporting-fy2025-sustainability-report.pdf",
+      "original_url": "https://www.solenis.com/globalassets/resources/sustainability--regulatory-library/basis-of-reporting-fy2025-sustainability-report.pdf",
+      "local_path": "downloads/D-2026-001/original/basis-of-reporting-fy2025-sustainability-report.pdf",
+      "downloaded_at": "2026-03-13T20:31:28.961394Z"
+    },
+    {
+      "filename": "solenis-2020-burlington-plant-npri-report.pdf",
+      "original_url": "https://www.solenis.com/globalassets/resources/sustainability--regulatory-library/solenis-2020-burlington-plant-npri-report.pdf",
+      "local_path": "downloads/D-2026-001/original/solenis-2020-burlington-plant-npri-report.pdf",
+      "downloaded_at": "2026-03-13T20:31:31.395177Z"
+    },
+    {
+      "filename": "burnout-study.pdf",
+      "original_url": "https://www.solenis.com/globalassets/resources/sustainability--regulatory-library/burnout-study.pdf",
+      "local_path": "downloads/D-2026-001/original/burnout-study.pdf",
+      "downloaded_at": "2026-03-13T20:31:33.568724Z"
+    },
+    {
+      "filename": "diversey_uk_carbon_reduction_plan-v1.pdf",
+      "original_url": "https://www.solenis.com/globalassets/resources/sustainability--regulatory-library/diversey_uk_carbon_reduction_plan-v1.pdf",
+      "local_path": "downloads/D-2026-001/original/diversey_uk_carbon_reduction_plan-v1.pdf",
+      "downloaded_at": "2026-03-13T20:31:36.197645Z"
+    },
+    {
+      "filename": "climate-risk-and-opportunity-index-2023.pdf",
+      "original_url": "https://www.solenis.com/globalassets/resources/sustainability--regulatory-library/climate-risk-and-opportunity-index-2023.pdf",
+      "local_path": "downloads/D-2026-001/original/climate-risk-and-opportunity-index-2023.pdf",
+      "downloaded_at": "2026-03-13T20:31:38.504666Z"
+    }
+  ],
+  "contact": {},
+  "scraped_at": "2026-03-13T20:31:38.504776Z",
+  "last_checked": "2026-03-13T20:31:38.504779Z"
+}

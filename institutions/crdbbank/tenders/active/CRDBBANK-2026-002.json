@@ -1,0 +1,16 @@
+{
+  "tender_id": "CRDBBANK-2026-002",
+  "institution": "crdbbank",
+  "title": "Request for Expression of Interest for AI/ML Development and Implementation Partners",
+  "description": "CRDB Bank intends to implement a range of innovative AI and ML solutions across its operations.",
+  "published_date": "2026-03-01",
+  "closing_date": "2026-03-19",
+  "closing_time": "20:00 EAT",
+  "category": "ICT",
+  "status": "active",
+  "source_url": "https://crdbbank.co.tz/about-us/tender",
+  "documents": [{"filename": "Detailed_EOI_Reference_Document_AI.pdf", "original_url": "https://crdbbank.co.tz/storage/app/media/Tender/Detailed%20EOI%20Reference%20Document%20_AI.pdf", "local_path": "./downloads/CRDBBANK-2026-002/original/Detailed_EOI_Reference_Document_AI.pdf", "content_type": "application/pdf", "downloaded_at": "2026-03-15T20:35:49Z"}],
+  "contact": {"phone": "009930676"},
+  "scraped_at": "2026-03-15T20:35:49Z",
+  "last_checked": "2026-03-15T20:35:49Z"
+}

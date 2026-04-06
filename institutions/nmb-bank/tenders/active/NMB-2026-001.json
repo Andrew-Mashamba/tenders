@@ -1,0 +1,28 @@
+{
+  "tender_id": "NMB-2026-001",
+  "institution": "nmb-bank",
+  "institution_name": "National Microfinance Bank (NMB)",
+  "title": "Application for Prequalification of Vendors for Marketing & Communication Services 2026",
+  "description": "NMB Bank Plc invites applications for prequalification of vendors for the provision of marketing and communication services for the year 2026. This covers various marketing, branding, advertising, and communications activities for one of Tanzania's largest commercial banks.",
+  "reference_number": null,
+  "published_date": "2026-02-17",
+  "closing_date": null,
+  "closing_time": null,
+  "category": "Marketing & Communications",
+  "status": "active",
+  "source_url": "https://www.nmbbank.co.tz/tenders",
+  "alternative_source_url": "https://mabumbe.net/tenders/application-for-prequalification-of-vendors-for-marketing-communication-services-2026-february-2026/",
+  "documents": [],
+  "contact": {
+    "name": "Secretary, NMB Bank Plc Management Tender Committee",
+    "email": "procurement@nmbtz.com",
+    "phone": "+255 22 232765",
+    "address": "NMB Head Office, Ohio/Ali Hassan Mwinyi Road, PO Box 9213, Dar es Salaam, Tanzania"
+  },
+  "eligibility": null,
+  "bid_security": null,
+  "scraped_at": "2026-03-13T06:00:00Z",
+  "last_checked": "2026-03-15T22:01:15Z",
+  "scrape_notes": "Primary source (nmbbank.co.tz) blocked by Cloudflare. Tender found via mabumbe.net aggregator. Detail page paywalled. Closing date and full documents unavailable - recommend checking nmbbank.co.tz directly or contacting procurement@nmbtz.com.",
+  "raw_html": null
+}

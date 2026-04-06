@@ -1,0 +1,21 @@
+{
+  "tender_id": "LRCT-2026-001",
+  "institution": "lrct",
+  "title": "Tender notice from LRCT |   Mwanzo",
+  "description": "",
+  "published_date": "2026-03-14",
+  "closing_date": "",
+  "source_url": "https://lrct.go.tz/",
+  "status": "active",
+  "documents": [
+    {
+      "filename": "en1725451558-TANGAZO.pdf",
+      "original_url": "https://lrct.go.tz/uploads/announcements/en1725451558-TANGAZO.pdf",
+      "local_path": "downloads/LRCT-2026-001/original/en1725451558-TANGAZO.pdf"
+    }
+  ],
+  "contact": {
+    "email": "info@lrct.go.tz"
+  },
+  "scraped_at": "2026-03-14T05:15:27.435036+00:00"
+}

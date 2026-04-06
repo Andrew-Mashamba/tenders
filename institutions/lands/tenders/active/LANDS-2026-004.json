@@ -1,0 +1,23 @@
+{
+  "tender_id": "LANDS-2026-004",
+  "institution": "lands",
+  "title": "TANGAZO MAONI KUHUISHA MADALALI & W. NYARAKA 2026",
+  "description": "Government notice from Ministry of Lands - TANGAZO MAONI KUHUISHA MADALALI & W. NYARAKA 2026",
+  "published_date": "2026-01-01",
+  "closing_date": "2026-04-30",
+  "status": "active",
+  "source_url": "https://lands.go.tz/notices",
+  "documents": [
+    {
+      "filename": "notice_maoni.pdf",
+      "original_url": "https://lands.go.tz/uploads/notices/sw1770013937-TANGAZO%20MAONI%20KUHUISHA%20MADALALI%20%26%20W.%20NYARAKA%202026.pdf",
+      "local_path": "downloads/LANDS-2026-004/original/notice_maoni.pdf"
+    }
+  ],
+  "contact": {
+    "email": "ps@lands.go.tz",
+    "phone": "+255 296 3314"
+  },
+  "scraped_at": "2026-03-14T05:12:04Z",
+  "last_checked": "2026-03-14T05:12:04Z"
+}

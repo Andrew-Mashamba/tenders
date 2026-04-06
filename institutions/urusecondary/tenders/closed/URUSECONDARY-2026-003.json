@@ -1,0 +1,13 @@
+{
+  "tender_id": "URUSECONDARY-2026-003",
+  "institution": "urusecondary",
+  "title": "Tender 3",
+  "source_url": "https://urusecondary.sc.tz/",
+  "documents": [
+    {
+      "url": "https://urusecondary.sc.tz/wp-content/uploads/2020/10/school-calendar-2020.pdf",
+      "type": "document"
+    }
+  ],
+  "scraped_at": "2026-03-15T11:40:33.262232+00:00"
+}

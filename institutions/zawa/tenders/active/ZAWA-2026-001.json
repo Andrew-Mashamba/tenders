@@ -1,0 +1,24 @@
+{
+  "tender_id": "ZAWA-2026-001",
+  "institution": "zawa",
+  "title": "TANGAZO (Tender Notice)",
+  "description": "Tender notice from Zanzibar Water Authority.",
+  "published_date": "",
+  "closing_date": "",
+  "status": "active",
+  "source_url": "https://zawa.go.tz/",
+  "documents": [
+    {
+      "filename": "usaili.pdf",
+      "original_url": "https://zawa.go.tz/PDF/usaili.pdf",
+      "local_path": "./downloads/ZAWA-2026-001/original/usaili.pdf",
+      "content_type": "application/pdf",
+      "downloaded_at": "2026-03-15T20:06:00.000000Z"
+    }
+  ],
+  "contact": {
+    "email": "info@zawa.go.tz"
+  },
+  "scraped_at": "2026-03-15T12:04:58Z",
+  "last_checked": "2026-03-15T20:03:10.000000Z"
+}

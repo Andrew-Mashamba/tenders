@@ -1,0 +1,13 @@
+{
+  "tender_id": "UTTAMIS-2026-002",
+  "institution": "uttamis",
+  "title": "Tender 2",
+  "source_url": "https://uttamis.co.tz/",
+  "documents": [
+    {
+      "url": "https://uttamis.co.tz/docs/reports/Wekeza Maisha Fund Interim Report and Accounts - 31-12-2025.pdf",
+      "type": "document"
+    }
+  ],
+  "scraped_at": "2026-03-15T11:41:05.641677+00:00"
+}

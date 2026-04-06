@@ -1,0 +1,25 @@
+{
+  "tender_id": "DCC-2026-006",
+  "institution": "dcc",
+  "title": "Installation of CCTV Cameras phase one at Kariakoo Area",
+  "description": "",
+  "published_date": "2024-12-06",
+  "closing_date": "2024-12-10",
+  "category": "General",
+  "status": "closed",
+  "source_url": "https://dcc.go.tz/tenders",
+  "documents": [
+    {
+      "filename": "67531d3193543714977232.pdf",
+      "original_url": "https://dcc.go.tz/storage/app/uploads/public/675/31d/319/67531d3193543714977232.pdf",
+      "local_path": "./downloads/DCC-2026-006/original/67531d3193543714977232.pdf",
+      "downloaded_at": "2026-03-13T20:18:40Z"
+    }
+  ],
+  "contact": {
+    "email": "info@dcc.go.tz",
+    "phone": "0738 378 386"
+  },
+  "scraped_at": "2026-03-13T20:18:40Z",
+  "last_checked": "2026-03-13T20:18:40Z"
+}

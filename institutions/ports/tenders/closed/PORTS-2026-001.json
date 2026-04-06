@@ -1,0 +1,25 @@
+{
+  "tender_id": "PORTS-2026-001",
+  "institution": "ports",
+  "title": "General Procurement Plan",
+  "description": "Tanzania Ports Authority General Procurement Plan (GPN) document.",
+  "published_date": "2026-03-15",
+  "closing_date": "2026-12-31",
+  "status": "closed",
+  "notes": "General Procurement Plan (GPN) - planning document, not an active tender",
+  "source_url": "https://www.ports.go.tz/index.php/en/procurements/general-procurement-plan",
+  "documents": [
+    {
+      "filename": "GPN-TANZANIA_PORTS_AUTHORITY.pdf",
+      "original_url": "https://www.ports.go.tz/images/documents/reports/GPN%20-%20TANZANIA%20PORTS%20AUTHORITY.pdf",
+      "local_path": "downloads/PORTS-2026-001/original/GPN-TANZANIA_PORTS_AUTHORITY.pdf"
+    }
+  ],
+  "contact": {
+    "email": "dg@ports.go.tz",
+    "phone": "0800-110032",
+    "note": "Tanzania Ports Authority"
+  },
+  "scraped_at": "2026-03-15T09:50:00Z",
+  "last_checked": "2026-03-15T09:50:00Z"
+}

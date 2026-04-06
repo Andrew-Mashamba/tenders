@@ -1,0 +1,23 @@
+{
+  "tender_id": "LANDS-2026-003",
+  "institution": "lands",
+  "title": "UHUISHAJI WA VYETI VYA UDALALI WA BARAZA LA ARDHI",
+  "description": "Government notice from Ministry of Lands - UHUISHAJI WA VYETI VYA UDALALI WA BARAZA LA ARDHI",
+  "published_date": "2026-01-01",
+  "closing_date": "2026-04-30",
+  "status": "active",
+  "source_url": "https://lands.go.tz/notices",
+  "documents": [
+    {
+      "filename": "notice_uhuishaji.pdf",
+      "original_url": "https://lands.go.tz/uploads/notices/sw1762774321-UHUISHAJI%20WA%20VYETI%20VYA%20UDALALI%20WA%20BARAZA%20LA%20ARDHI%20NA%20NYUMBA%20LA%20WILAYA%20CORRECTED.pdf",
+      "local_path": "downloads/LANDS-2026-003/original/notice_uhuishaji.pdf"
+    }
+  ],
+  "contact": {
+    "email": "ps@lands.go.tz",
+    "phone": "+255 296 3314"
+  },
+  "scraped_at": "2026-03-14T05:12:04Z",
+  "last_checked": "2026-03-14T05:12:04Z"
+}

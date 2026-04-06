@@ -1,0 +1,32 @@
+{
+  "tender_id": "tiper-2026-001",
+  "institution": "tiper",
+  "title": "Supply and Installation of Internal Floating Roofs and Repair of Tanks no. S2, S3, S12 and S13",
+  "description": "TIPER hereby invites via International Competitive Bidding (ICB) experienced Class One and Two Mechanical contractors to bid for the Supply and Installation of Internal Floating Roofs and Repair of Tanks no. S2, S3, S12 and S13.",
+  "reference_number": "TIPPER_4X24_NEW",
+  "published_date": "2022-09-14",
+  "closing_date": "2022-10-05",
+  "closing_time": "16:00 EAT",
+  "category": "Mechanical / Engineering",
+  "status": "closed",
+  "source_url": "https://tiper.co.tz/tenders.php",
+  "documents": [
+    {
+      "filename": "TIPPER_4X24_NEW.pdf",
+      "original_url": "https://tiper.co.tz/Downloads/TIPPER_4X24_NEW.PDF",
+      "local_path": "./downloads/tiper-2026-001/original/TIPPER_4X24_NEW.pdf",
+      "file_size_bytes": 995777,
+      "downloaded_at": "2026-03-15T11:17:00Z",
+      "content_type": "application/pdf"
+    }
+  ],
+  "contact": {
+    "name": "TIPER Tanzania Ltd.",
+    "email": "info@tiper.co.tz",
+    "phone": "+255 (0) 22 5511 500",
+    "address": "Kigamboni Depot Site - Plot 1, Kigamboni Industrial Area"
+  },
+  "eligibility": "Class One and Two Mechanical contractors",
+  "scraped_at": "2026-03-15T11:17:00Z",
+  "last_checked": "2026-03-15T11:17:00Z"
+}

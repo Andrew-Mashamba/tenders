@@ -1,0 +1,31 @@
+{
+  "tender_id": "FSDT-2026-001",
+  "institution": "fsdt",
+  "title": "Terms of Reference - SAGE 300 Maintenance and Support",
+  "description": "FSDT seeks a vendor for SAGE 300 Maintenance and Support services.",
+  "reference_number": "",
+  "published_date": "2026-03-01",
+  "closing_date": null,
+  "closing_time": "",
+  "category": "ICT",
+  "status": "active",
+  "source_url": "https://www.fsdt.or.tz/work-with-us/",
+  "documents": [
+    {
+      "filename": "Terms-of-Reference-SAGE-300-Maintenance-and-Support.pdf",
+      "original_url": "https://www.fsdt.or.tz/wp-content/uploads/2026/03/Terms-of-Reference-SAGE-300-Maintenance-and-Support.pdf",
+      "local_path": "./downloads/FSDT-2026-001/original/Terms-of-Reference-SAGE-300-Maintenance-and-Support.pdf",
+      "content_type": "application/pdf",
+      "downloaded_at": "2026-03-15T20:55:53.981837Z"
+    }
+  ],
+  "contact": {
+    "name": "Procurement Department",
+    "email": "vendors@fsdt.or.tz",
+    "phone": "+255 222 602873",
+    "address": ""
+  },
+  "eligibility": "",
+  "scraped_at": "2026-03-15T20:55:53.981840Z",
+  "last_checked": "2026-03-15T20:55:53.981842Z"
+}

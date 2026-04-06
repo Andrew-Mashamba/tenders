@@ -1,0 +1,31 @@
+{
+  "tender_id": "CRDB-2026-001",
+  "institution": "crdb-bank",
+  "title": "Request for expression of interest for Implementation of Trade Finance solution for CRDB Bank Plc and its subsidiaries",
+  "description": "CRDB Bank intends to implement a robust Trade Finance solution. In the rapidly evolving financial landscape, it is imperative for the Bank to invest in cutting-edge technology to support Trade Finance business. This investment is crucial to securing the bank's future, enhancing the bank's competitive advantage, and fulfilling commitments to customers, regulators, and stakeholders in line with the Bank's new strategy.",
+  "reference_number": "CRDB/T/2026/001",
+  "published_date": "2026-03-01",
+  "closing_date": "2026-03-31",
+  "closing_time": "15:00 EAT",
+  "category": "ICT",
+  "status": "active",
+  "source_url": "https://crdbbank.co.tz/en/about-us/tender",
+  "documents": [
+    {
+      "filename": "Implementation_of_Trade_Finance_solution.pdf",
+      "original_url": "https://crdbbank.co.tz/storage/app/media/Tender/Implementation%20of%20Trade%20Finance%20solution%20for%20CRDB%20Bank%20Plc%20and%20its%20subsidiaries.pdf",
+      "local_path": "./downloads/CRDB-2026-001/original/Implementation_of_Trade_Finance_solution.pdf",
+      "content_type": "application/pdf",
+      "downloaded_at": "2026-03-15T20:35:49Z"
+    }
+  ],
+  "contact": {
+    "name": "Procurement Department",
+    "email": "tenders@crdbbank.co.tz",
+    "phone": "+255222197700",
+    "address": "CRDB Bank Plc, Dar es Salaam"
+  },
+  "eligibility": "Open to eligible and qualified bidders",
+  "scraped_at": "2026-03-15T20:35:49Z",
+  "last_checked": "2026-03-15T20:35:49Z"
+}

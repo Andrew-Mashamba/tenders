@@ -1,0 +1,1563 @@
+{
+  "date": "2026-03-15",
+  "run_id": "run_20260315_200310",
+  "completed_slugs": [
+    "aaa",
+    "acbbank",
+    "access-bank",
+    "acet",
+    "actanzania",
+    "adctanzania",
+    "adelante",
+    "advansmart",
+    "aesl",
+    "afroilgroup",
+    "afyadepot",
+    "afyaplustz",
+    "agenergies",
+    "agim",
+    "agitf",
+    "agricom",
+    "alymatech",
+    "amana-bank",
+    "amanabank",
+    "amanidelivery",
+    "amdt",
+    "amirex",
+    "amplifielectrics",
+    "amucta",
+    "autofest",
+    "azamtv",
+    "azania-bank",
+    "azaniabank",
+    "b2zlogistics",
+    "babatidc",
+    "babatitc",
+    "bagamoyo",
+    "bahidc",
+    "bakhita",
+    "bakita",
+    "bank-of-africa",
+    "bank-of-baroda",
+    "bank-of-india",
+    "bank-of-tanzania",
+    "bankofbaroda",
+    "barefoot",
+    "basata",
+    "basf",
+    "bcdtravel",
+    "biharamulodc",
+    "binzubeiry",
+    "blackunicornstudios",
+    "blueeconomysmz",
+    "bukobadiocese",
+    "bukobamc",
+    "bumbulidc",
+    "bunge",
+    "busegadc",
+    "busokelodc",
+    "canara-bank",
+    "cashew",
+    "coop-bank",
+    "cosota",
+    "counsenuth",
+    "coyeta",
+    "cpi",
+    "cqs",
+    "crb",
+    "crdb",
+    "electricool",
+    "elements",
+    "elm",
+    "eon",
+    "equity-bank",
+    "esrf",
+    "etdco",
+    "ethicssecretariat",
+    "exim-bank",
+    "faidamarketlink",
+    "fandomcars",
+    "farugraphitecorp",
+    "fasthub",
+    "finca",
+    "finca-bank",
+    "fota",
+    "howardconsulting",
+    "hsh",
+    "hudhud",
+    "hypermed",
+    "iae",
+    "icb-bank",
+    "icealion",
+    "icot",
+    "kariakoomarket",
+    "karibu.tz",
+    "kasfreight",
+    "kaziconnect",
+    "kcb-bank",
+    "kcmc",
+    "kcu",
+    "kec",
+    "kilimo",
+    "kilitec",
+    "kilitouch",
+    "kiliweb",
+    "kilomberodc",
+    "kinoko",
+    "kinondonimc",
+    "kist",
+    "missenyidc",
+    "misungwidc",
+    "mit",
+    "mjumita",
+    "mkalamadc",
+    "mkingadc",
+    "mkombozi-bank",
+    "mkurabita",
+    "moruwasa",
+    "mow",
+    "mpandadc",
+    "mpwapwadc",
+    "mri",
+    "mstcdc",
+    "mtuwasa",
+    "mtwaramikindanimc",
+    "muhezadc",
+    "mulebadc",
+    "musomavijijini",
+    "mvomerodc",
+    "mwalimu-commercial-bank",
+    "mwalimu-sacco",
+    "mwalimubank",
+    "mwanahalisi",
+    "mwanaharakatimzalendo",
+    "mwananchi",
+    "mwanga-hakika-bank",
+    "mwangadc",
+    "mwanza",
+    "mwanzacc",
+    "mwauwasa",
+    "mybees",
+    "mzumbe",
+    "nacte",
+    "nafakakilimo",
+    "nanyumbudc",
+    "nao",
+    "nbaa",
+    "nbc",
+    "nbc-bank",
+    "nmb-bank",
+    "nmtc",
+    "nolspan",
+    "nordic",
+    "norplan",
+    "noticekilimanjaro",
+    "novir",
+    "nps",
+    "nts",
+    "nyamweziteachers",
+    "nyaraka",
+    "nyasadc",
+    "obp-tanzania",
+    "omar.tz",
+    "opportunity-international",
+    "orci",
+    "origintrails",
+    "orpp",
+    "packway",
+    "pandi",
+    "panganidc",
+    "panita",
+    "parliament",
+    "pasada",
+    "rungwedc",
+    "ruvuma",
+    "sabtec",
+    "samedc",
+    "samsonite",
+    "savannahplains",
+    "savethechildren",
+    "sc-global-suppliers",
+    "shti",
+    "sido",
+    "sikika",
+    "silverleaf",
+    "simanjirodc",
+    "simbatechnology",
+    "simiyu",
+    "simplyit",
+    "st-thomasnyabula",
+    "stamigold",
+    "stanbic-bank",
+    "standard-chartered",
+    "sua",
+    "suanet",
+    "sumait",
+    "taas-online",
+    "tanescosaccos",
+    "tanga",
+    "tangacc",
+    "tanganyikadc",
+    "tanicacafe",
+    "tanroads",
+    "tanzania-tenders",
+    "tanzaniaislamic-centre",
+    "tara",
+    "tari",
+    "tasuba",
+    "tatcnyumbu",
+    "tawca",
+    "tawiri",
+    "tawla",
+    "tayoa",
+    "tba",
+    "tcaa",
+    "tcb-bank",
+    "tcindustries",
+    "teaboard",
+    "tec",
+    "technosolutions",
+    "teiti",
+    "unity",
+    "untamedsafaris",
+    "upendomedia",
+    "urasaccos",
+    "urbanmegastore",
+    "ursa",
+    "urusecondary",
+    "ushirika",
+    "ussl",
+    "utegitechnical",
+    "utel",
+    "utpc",
+    "uttamis",
+    "utumefmradio",
+    "utumishi",
+    "utv",
+    "uwezeshaji",
+    "uwezofinancial",
+    "uwodo",
+    "uwp",
+    "uyuidc",
+    "valleyviewschools",
+    "vaniagroup",
+    "vcc",
+    "vegrab",
+    "veta",
+    "vidomedia",
+    "vihasco",
+    "visionfund",
+    "vpo",
+    "wajibu",
+    "waso",
+    "wat-saccos",
+    "wcf",
+    "webhosting.ne.tz",
+    "webmaster",
+    "wecobhas",
+    "whiztanzania",
+    "whizztanzania",
+    "wma"
+  ],
+  "stats": {
+    "scrape": {
+      "run_id": "20260315_200310",
+      "total_institutions": 613,
+      "total_batches": 77,
+      "completed_batches": 77,
+      "failed_batches": 0,
+      "tenders_found": 223,
+      "docs_downloaded": 11,
+      "institutions_processed": 256,
+      "institution_results": {
+        "aaa": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "acbbank": {
+          "status": "ok",
+          "tenders": 1,
+          "docs": 0
+        },
+        "access-bank": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "acet": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "actanzania": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "adctanzania": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "adelante": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "advansmart": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "aesl": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "afroilgroup": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "afyadepot": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "afyaplustz": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "agenergies": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "agim": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "agitf": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "agricom": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "alymatech": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "amana-bank": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "amanabank": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "amanidelivery": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "amdt": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "amirex": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "amplifielectrics": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "amucta": {
+          "status": "error",
+          "tenders": 0,
+          "docs": 0
+        },
+        "autofest": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "azamtv": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "azania-bank": {
+          "status": "ok",
+          "tenders": 88,
+          "docs": 0
+        },
+        "azaniabank": {
+          "status": "ok",
+          "tenders": 88,
+          "docs": 1
+        },
+        "b2zlogistics": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "babatidc": {
+          "status": "error",
+          "tenders": 0,
+          "docs": 0
+        },
+        "babatitc": {
+          "status": "error",
+          "tenders": 0,
+          "docs": 0
+        },
+        "bagamoyo": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "bahidc": {
+          "status": "error",
+          "tenders": 0,
+          "docs": 0
+        },
+        "bakhita": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "bakita": {
+          "status": "error",
+          "tenders": 0,
+          "docs": 0
+        },
+        "bank-of-africa": {
+          "status": "error",
+          "tenders": 0,
+          "docs": 0
+        },
+        "bank-of-baroda": {
+          "status": "error",
+          "tenders": 0,
+          "docs": 0
+        },
+        "bank-of-india": {
+          "status": "error",
+          "tenders": 0,
+          "docs": 0
+        },
+        "bank-of-tanzania": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "bankofbaroda": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "barefoot": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "basata": {
+          "status": "error",
+          "tenders": 0,
+          "docs": 0
+        },
+        "basf": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "bcdtravel": {
+          "status": "error",
+          "tenders": 0,
+          "docs": 0
+        },
+        "biharamulodc": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "binzubeiry": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "blackunicornstudios": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "blueeconomysmz": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "bukobadiocese": {
+          "status": "error",
+          "tenders": 0,
+          "docs": 0
+        },
+        "bukobamc": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "bumbulidc": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "bunge": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "busegadc": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "busokelodc": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "canara-bank": {
+          "status": "error",
+          "tenders": 0,
+          "docs": 0
+        },
+        "cashew": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "coop-bank": {
+          "status": "ok",
+          "tenders": 1,
+          "docs": 0
+        },
+        "cosota": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "counsenuth": {
+          "status": "ok",
+          "tenders": 3,
+          "docs": 3
+        },
+        "coyeta": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "cpi": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "cqs": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "crb": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "crdb": {
+          "status": "ok",
+          "tenders": 2,
+          "docs": 2
+        },
+        "electricool": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "elements": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "elm": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "eon": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "equity-bank": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "esrf": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "etdco": {
+          "status": "ok",
+          "tenders": 1,
+          "docs": 0
+        },
+        "ethicssecretariat": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "exim-bank": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "faidamarketlink": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "fandomcars": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "farugraphitecorp": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "fasthub": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "finca": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "finca-bank": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "fota": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "howardconsulting": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "hsh": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "hudhud": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "hypermed": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "iae": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "icb-bank": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "icealion": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "icot": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "kariakoomarket": {
+          "status": "error",
+          "tenders": 0,
+          "docs": 0
+        },
+        "karibu.tz": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "kasfreight": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "kaziconnect": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "kcb-bank": {
+          "status": "error",
+          "tenders": 0,
+          "docs": 0
+        },
+        "kcmc": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "kcu": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "kec": {
+          "status": "error",
+          "tenders": 0,
+          "docs": 0
+        },
+        "kilimo": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "kilitec": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "kilitouch": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "kiliweb": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "kilomberodc": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "kinoko": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "kinondonimc": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "kist": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "missenyidc": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "misungwidc": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "mit": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "mjumita": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "mkalamadc": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "mkingadc": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "mkombozi-bank": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "mkurabita": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "moruwasa": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "mow": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "mpandadc": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "mpwapwadc": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "mri": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "mstcdc": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "mtuwasa": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "mtwaramikindanimc": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "muhezadc": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "mulebadc": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "musomavijijini": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "mvomerodc": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "mwalimu-commercial-bank": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "mwalimu-sacco": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "mwalimubank": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "mwanahalisi": {
+          "status": "error",
+          "tenders": 0,
+          "docs": 0
+        },
+        "mwanaharakatimzalendo": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "mwananchi": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "mwanga-hakika-bank": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "mwangadc": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "mwanza": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "mwanzacc": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "mwauwasa": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "mybees": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "mzumbe": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "nacte": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "nafakakilimo": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "nanyumbudc": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "nao": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "nbaa": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "nbc": {
+          "status": "ok",
+          "tenders": 1,
+          "docs": 1
+        },
+        "nbc-bank": {
+          "status": "ok",
+          "tenders": 1,
+          "docs": 1
+        },
+        "nmb-bank": {
+          "status": "error",
+          "tenders": 3,
+          "docs": 0
+        },
+        "nmtc": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "nolspan": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "nordic": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "norplan": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "noticekilimanjaro": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "novir": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "nps": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "nts": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "nyamweziteachers": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "nyaraka": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "nyasadc": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "obp-tanzania": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "omar.tz": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "opportunity-international": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "orci": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "origintrails": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "orpp": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "packway": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "pandi": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "panganidc": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "panita": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "parliament": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "pasada": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "rungwedc": {
+          "status": "ok",
+          "tenders": 1,
+          "docs": 1
+        },
+        "ruvuma": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "sabtec": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "samedc": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "samsonite": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "savannahplains": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "savethechildren": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "sc-global-suppliers": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "shti": {
+          "status": "ok",
+          "tenders": 1,
+          "docs": 1
+        },
+        "sido": {
+          "status": "error",
+          "tenders": 0,
+          "docs": 0
+        },
+        "sikika": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "silverleaf": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "simanjirodc": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "simbatechnology": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "simiyu": {
+          "status": "error",
+          "tenders": 0,
+          "docs": 0
+        },
+        "simplyit": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "st-thomasnyabula": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "stamigold": {
+          "status": "error",
+          "tenders": 0,
+          "docs": 0
+        },
+        "stanbic-bank": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "standard-chartered": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "sua": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "suanet": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "sumait": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "taas-online": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "tanescosaccos": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "tanga": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "tangacc": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "tanganyikadc": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "tanicacafe": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "tanroads": {
+          "status": "ok",
+          "tenders": 1,
+          "docs": 0
+        },
+        "tanzania-tenders": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "tanzaniaislamic-centre": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "tara": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "tari": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "tasuba": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "tatcnyumbu": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "tawca": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "tawiri": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "tawla": {
+          "status": "ok",
+          "tenders": 1,
+          "docs": 1
+        },
+        "tayoa": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "tba": {
+          "status": "error",
+          "tenders": 0,
+          "docs": 0
+        },
+        "tcaa": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "tcb-bank": {
+          "status": "error",
+          "tenders": 0,
+          "docs": 0
+        },
+        "tcindustries": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "teaboard": {
+          "status": "error",
+          "tenders": 0,
+          "docs": 0
+        },
+        "tec": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "technosolutions": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "teiti": {
+          "status": "error",
+          "tenders": 0,
+          "docs": 0
+        },
+        "unity": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "untamedsafaris": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "upendomedia": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "urasaccos": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "urbanmegastore": {
+          "status": "error",
+          "tenders": 0,
+          "docs": 0
+        },
+        "ursa": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "urusecondary": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "ushirika": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "ussl": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "utegitechnical": {
+          "status": "error",
+          "tenders": 0,
+          "docs": 0
+        },
+        "utel": {
+          "status": "error",
+          "tenders": 0,
+          "docs": 0
+        },
+        "utpc": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "uttamis": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "utumefmradio": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "utumishi": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "utv": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "uwezeshaji": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "uwezofinancial": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "uwodo": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "uwp": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "uyuidc": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "valleyviewschools": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "vaniagroup": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "vcc": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "vegrab": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "veta": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "vidomedia": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "vihasco": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "visionfund": {
+          "status": "error",
+          "tenders": 0,
+          "docs": 0
+        },
+        "vpo": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "wajibu": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "waso": {
+          "status": "ok",
+          "tenders": 0,
+          "docs": 0
+        },
+        "wat-saccos": {
+          "status": "success",
+          "tenders": 0,
+          "docs": 0
+        },
+        "wcf": {
+          "status": "success",
+          "tenders": 0,
+          "docs": 0
+        },
+        "webhosting.ne.tz": {
+          "status": "error",
+          "tenders": 0,
+          "docs": 0
+        },
+        "webmaster": {
+          "status": "error",
+          "tenders": 0,
+          "docs": 0
+        },
+        "wecobhas": {
+          "status": "success",
+          "tenders": 0,
+          "docs": 0
+        },
+        "whiztanzania": {
+          "status": "success",
+          "tenders": 15,
+          "docs": 0
+        },
+        "whizztanzania": {
+          "status": "success",
+          "tenders": 15,
+          "docs": 0
+        },
+        "wma": {
+          "status": "success",
+          "tenders": 0,
+          "docs": 0
+        }
+      },
+      "elapsed": 11107.2
+    },
+    "post": {
+      "active": 367,
+      "closed": 0,
+      "archived": 0
+    },
+    "total_elapsed": 11117.5
+  }
+}

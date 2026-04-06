@@ -1,0 +1,24 @@
+{
+  "tender_id": "BUKOBADC-2026-001",
+  "institution": "bukobadc",
+  "title": "Tender from Bukoba District Council",
+  "source_url": "https://bukobadc.go.tz/event/watumishi-wajengewa-uwezo-matumizi-ya-mfumo-wa-manunuzi-nest",
+  "published_date": "2026-03-15",
+  "closing_date": null,
+  "status": "active",
+  "documents": [
+    {
+      "filename": "6822d51a16edc918078000.pdf",
+      "original_url": "https://bukobadc.go.tz/storage/app/uploads/public/682/2d5/1a1/6822d51a16edc918078000.pdf",
+      "local_path": "institutions/bukobadc/downloads/BUKOBADC-2026-001/original/6822d51a16edc918078000.pdf"
+    },
+    {
+      "filename": "6822d4455e59a245136801.pdf",
+      "original_url": "https://bukobadc.go.tz/storage/app/uploads/public/682/2d4/455/6822d4455e59a245136801.pdf",
+      "local_path": "institutions/bukobadc/downloads/BUKOBADC-2026-001/original/6822d4455e59a245136801.pdf"
+    }
+  ],
+  "contact": {},
+  "scraped_at": "2026-03-15T05:10:46Z",
+  "run_id": "run_20260315_060430_batch18"
+}

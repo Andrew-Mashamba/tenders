@@ -1,0 +1,87 @@
+{
+  "timestamp": "2026-03-15T11:50:44.662412",
+  "hits": [
+    {
+      "slug": "crdb",
+      "domain": "https://crdbbank.co.tz",
+      "reachable": true,
+      "keywords_found": [
+        "call for proposal",
+        "tender",
+        "tenders",
+        "expression of interest"
+      ],
+      "tender_links": [
+        "https://crdbbank.co.tz/about-us/tender",
+        "https://crdbbank.co.tz/about-us/tender/"
+      ],
+      "doc_links": [
+        "https://crdbbank.co.tz/storage/app/media/Tender/Detailed%20EOI%20Reference%20Document%20_AI.pdf",
+        "https://crdbbank.co.tz/storage/app/media/Tender/Implementation%20of%20Trade%20Finance%20solution%20for%20CRDB%20Bank%20Plc%20and%20its%20subsidiaries.pdf"
+      ],
+      "page_title": "Tenders | CRDB Bank PLC",
+      "status": "hit",
+      "error": "",
+      "scanned_urls": [
+        "https://crdbbank.co.tz/about-us/tender"
+      ]
+    },
+    {
+      "slug": "crdb-bank",
+      "domain": "https://crdbbank.co.tz",
+      "reachable": true,
+      "keywords_found": [
+        "call for proposal",
+        "tender",
+        "tenders",
+        "expression of interest"
+      ],
+      "tender_links": [
+        "https://crdbbank.co.tz/about-us/tender",
+        "https://crdbbank.co.tz/about-us/tender/"
+      ],
+      "doc_links": [
+        "https://crdbbank.co.tz/storage/app/media/Tender/Detailed%20EOI%20Reference%20Document%20_AI.pdf",
+        "https://crdbbank.co.tz/storage/app/media/Tender/Implementation%20of%20Trade%20Finance%20solution%20for%20CRDB%20Bank%20Plc%20and%20its%20subsidiaries.pdf"
+      ],
+      "page_title": "Tenders | CRDB Bank PLC",
+      "status": "hit",
+      "error": "",
+      "scanned_urls": [
+        "https://crdbbank.co.tz/en/about-us/tender"
+      ]
+    },
+    {
+      "slug": "crdbbank",
+      "domain": "https://crdbbank.co.tz",
+      "reachable": true,
+      "keywords_found": [
+        "call for proposal",
+        "tender",
+        "tenders",
+        "expression of interest"
+      ],
+      "tender_links": [
+        "https://crdbbank.co.tz/about-us/tender",
+        "https://crdbbank.co.tz/about-us/tender/"
+      ],
+      "doc_links": [
+        "https://crdbbank.co.tz/storage/app/media/Tender/Detailed%20EOI%20Reference%20Document%20_AI.pdf",
+        "https://crdbbank.co.tz/storage/app/media/Tender/Implementation%20of%20Trade%20Finance%20solution%20for%20CRDB%20Bank%20Plc%20and%20its%20subsidiaries.pdf"
+      ],
+      "page_title": "Tenders | CRDB Bank PLC",
+      "status": "hit",
+      "error": "",
+      "scanned_urls": [
+        "https://crdbbank.co.tz/about-us/tender"
+      ]
+    }
+  ],
+  "misses": [
+    {
+      "slug": "crdbsaccos",
+      "domain": "https://www.crdbsaccos.co.tz"
+    }
+  ],
+  "errors": []
+}

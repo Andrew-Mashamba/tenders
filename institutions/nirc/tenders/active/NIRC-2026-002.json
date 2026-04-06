@@ -1,0 +1,24 @@
+{
+  "tender_id": "NIRC-2026-002",
+  "institution": "nirc",
+  "title": "EOI Kidete and Kimagai Dams and Associated Flood Control Works",
+  "description": "EOI for dams and flood control works - EOI Kidete and Kimagai Dams and Associated Flood Control Works",
+  "published_date": "2025-12-22",
+  "closing_date": null,
+  "category": "Construction",
+  "status": "active",
+  "source_url": "https://nirc.go.tz/documents/tenders",
+  "documents": [
+    {
+      "filename": "sw-1765963776-EOI Kidete and Kimagai Dams and Associated Flood-Control Works.pdf",
+      "original_url": "https://nirc.go.tz/uploads/documents/sw-1765963776-EOI%20Kidete%20and%20Kimagai%20Dams%20and%20Associated%20Flood-Control%20Works.pdf",
+      "local_path": "./downloads/NIRC-2026-002/original/sw-1765963776-EOI Kidete and Kimagai Dams and Associated Flood-Control Works.pdf"
+    }
+  ],
+  "contact": {
+    "email": "info@nirc.go.tz",
+    "phone": "+255 22 2127314"
+  },
+  "scraped_at": "2026-03-14T06:29:40.093929Z",
+  "last_checked": "2026-03-15T21:58:56.537012Z"
+}

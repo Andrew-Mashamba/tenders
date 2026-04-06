@@ -1,0 +1,30 @@
+{
+  "tender_id": "UDSM-2026-001",
+  "institution": "udsm",
+  "title": "Invitation for Pre-Qualification - Lease of Land for Investment at UDSM Mlimani Campus",
+  "description": "The University of Dar es Salaam intends to pre-qualify potential investor and/or firm for Lease of Land for Investment at the University of Dar es Salaam, Mwl. J.K. Nyerere Mlimani Campus. Pre-qualification conducted through Public Procurement Act, Cap 410. Applications via NeST only.",
+  "reference_number": "TR40/2024/2025/NC/58",
+  "published_date": "2025-02-19",
+  "closing_date": "2025-03-14",
+  "closing_time": "2:00 PM",
+  "category": "Pre-Qualification",
+  "status": "active",
+  "source_url": "https://udsm.ac.tz/announcement/invitation-tender",
+  "document_links": [
+    "https://udsm.ac.tz/sites/default/files/2025-02/Survey%20Lease%20NeST_Magazine.pdf"
+  ],
+  "documents": [
+    {
+      "filename": "Survey_Lease_NeST_Magazine.pdf",
+      "url": "https://udsm.ac.tz/sites/default/files/2025-02/Survey%20Lease%20NeST_Magazine.pdf",
+      "path": "downloads/UDSM-2026-001/original/Survey_Lease_NeST_Magazine.pdf"
+    }
+  ],
+  "contact": {
+    "email": "vc@udsm.ac.tz",
+    "phone": "024-05-09",
+    "address": "University of Dar es Salaam, Mwl. J.K. Nyerere Mlimani Campus"
+  },
+  "scraped_at": "2026-03-14T08:57:00Z",
+  "last_checked": "2026-03-14T08:57:00Z"
+}

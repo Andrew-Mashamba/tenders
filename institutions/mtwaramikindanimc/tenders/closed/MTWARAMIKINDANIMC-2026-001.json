@@ -1,0 +1,13 @@
+{
+  "tender_id": "MTWARAMIKINDANIMC-2026-001",
+  "institution": "mtwaramikindanimc",
+  "title": "Tender from Home (INVALID - news article)",
+  "description": "Invalid: source_url pointed to news article (idara-ya-ardhi-yakabidhiwa-pikipiki), not a tender. Document URLs were file:// and external.",
+  "published_date": "2026-03-15",
+  "closing_date": null,
+  "status": "closed",
+  "source_url": "https://mtwaramikindanimc.go.tz/new/idara-ya-ardhi-yakabidhiwa-pikipiki-kudhibiti-ujenzi-holela",
+  "documents": [],
+  "scraped_at": "2026-03-15T08:47:46.465745+00:00",
+  "closed_reason": "invalid_junk"
+}

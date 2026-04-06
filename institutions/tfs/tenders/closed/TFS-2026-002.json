@@ -1,0 +1,19 @@
+{
+  "tender_id": "TFS-2026-002",
+  "institution": "tfs",
+  "title": "ELECTRONIC AUCTION OF STANDING TEAK TREES",
+  "published_date": "2026-02-02",
+  "closing_date": null,
+  "status": "active",
+  "source_url": "https://www.tfs.go.tz/resources/documents/",
+  "documents": [
+    {
+      "original_url": "https://www.tfs.go.tz/resources/documents/electronic_auction_of_standing_teak_trees",
+      "local_path": "downloads/TFS-2026-002/original/electronic_auction_of_standing_teak_trees.pdf"
+    }
+  ],
+  "contact": {
+    "email": "mpingo@tfs.go.tz"
+  },
+  "scraped_at": "2026-03-14T08:40:56Z"
+}

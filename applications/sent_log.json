@@ -1,0 +1,1350 @@
+[
+  {
+    "tender_id": "CRDB-2026-002",
+    "to": "tenders@crdbbank.co.tz",
+    "subject": "EOI AI/ML",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T14:19:05.918652"
+  },
+  {
+    "tender_id": "CRDB-2026-001",
+    "to": "tenders@crdbbank.co.tz",
+    "subject": "EOI Trade Finance",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T14:19:23.312334"
+  },
+  {
+    "tender_id": "ECOBANK-2026-001",
+    "to": "all_epiacc_procurement@ecobank.com",
+    "subject": "D365 RFP",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T14:19:40.969713"
+  },
+  {
+    "tender_id": "ECOBANK-2026-002",
+    "to": "all_epiacc_procurement@ecobank.com",
+    "subject": "Payments RFP",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T14:19:57.645180"
+  },
+  {
+    "tender_id": "MABUMBE-2026-005",
+    "to": "info@mucobabank.co.tz",
+    "subject": "MUCOBA CBS",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T14:20:15.495049"
+  },
+  {
+    "tender_id": "MABUMBE-2026-008",
+    "to": "info@fsdt.or.tz",
+    "subject": "FSDT MFI BRD",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T14:20:33.016785"
+  },
+  {
+    "tender_id": "MABUMBE-2026-004",
+    "to": "boa@boatanzania.com",
+    "subject": "BOA Reconciliation",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T14:20:50.942110"
+  },
+  {
+    "tender_id": "MABUMBE-2026-002",
+    "to": "info@chinadashengbank.co.tz",
+    "subject": "Dasheng NIDA",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T14:21:08.919727"
+  },
+  {
+    "tender_id": "MABUMBE-2026-001",
+    "to": [
+      "info@coopbanktanzania.co.tz"
+    ],
+    "subject": "Tender: Procurement of 3 ATM Machines and 3 Generators",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T14:28:41.352907"
+  },
+  {
+    "tender_id": "MABUMBE-2026-003",
+    "to": [
+      "info@chinadashengbank.co.tz"
+    ],
+    "subject": "Tender: Request for EOI: Omni-Channel Digital Banking Super App Ecos",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T14:29:00.094534"
+  },
+  {
+    "tender_id": "MABUMBE-2026-009",
+    "to": [
+      "info@letshego.co.tz"
+    ],
+    "subject": "Tender: Supplier Prequalification Application for 100+ Categories (2",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T14:29:19.717784"
+  },
+  {
+    "tender_id": "LANDS-2026-001",
+    "to": [
+      "ps@lands.go.tz"
+    ],
+    "subject": "Tender: TANGAZO LA MABADILIKO YA TAREHE YA USAILI WA MADALALI",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T14:29:40.235020"
+  },
+  {
+    "tender_id": "LANDS-2026-002",
+    "to": [
+      "ps@lands.go.tz"
+    ],
+    "subject": "Tender: TANGAZO USAILI MADALALI & W.NYARAKA JANUARY 2026",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T14:29:58.197048"
+  },
+  {
+    "tender_id": "LANDS-2026-003",
+    "to": [
+      "ps@lands.go.tz"
+    ],
+    "subject": "Tender: UHUISHAJI WA VYETI VYA UDALALI WA BARAZA LA ARDHI",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T14:30:17.228890"
+  },
+  {
+    "tender_id": "LANDS-2026-004",
+    "to": [
+      "monica.daud20@gmail.com",
+      "rdlht@lands.go.tz"
+    ],
+    "subject": "Tender: TANGAZO MAONI KUHUISHA MADALALI & W. NYARAKA 2026",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T14:30:36.206321"
+  },
+  {
+    "tender_id": "PANITA-2026-001",
+    "to": [
+      "info@panita.co.tz"
+    ],
+    "subject": "Tender: Tender from panita",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T14:30:54.704854"
+  },
+  {
+    "tender_id": "PASADA-2026-001",
+    "to": [
+      "procurement@pasada.or.tz"
+    ],
+    "subject": "Tender: Tender from PASADA - Pastoral Activities and Services for pe",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T14:31:13.260915"
+  },
+  {
+    "tender_id": "PASS-2026-001",
+    "to": [
+      "procurement@pass.or.tz"
+    ],
+    "subject": "Tender: Tender from Home | PASS Trust",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T14:31:33.877236"
+  },
+  {
+    "tender_id": "PASSLE-2026-001",
+    "to": [
+      "info@passlease.co.tz"
+    ],
+    "subject": "Tender: Tender from PASS Leasing Company LTD",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T14:31:53.696133"
+  },
+  {
+    "tender_id": "ACBBANK-2026-001",
+    "to": [
+      "info@acbbank.co.tz"
+    ],
+    "subject": "Tender: Tender documents",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T14:32:22.192225"
+  },
+  {
+    "tender_id": "AJIRA-2026-001",
+    "to": [
+      "katibu@ajira.go.tz"
+    ],
+    "subject": "Tender: Tender/Procurement - Public Service Recruitment Secretariat",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T14:32:41.029558"
+  },
+  {
+    "tender_id": "ARUSHAMEAT-2026-001",
+    "to": [
+      "arushameatcompany@yahoo.com"
+    ],
+    "subject": "Tender: TANGAZO LA ZABUNI YA wataalamu wa maswala ya kodi",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T14:32:59.649461"
+  },
+  {
+    "tender_id": "ATMA-2026-001",
+    "to": [
+      "info@atma.co.tz"
+    ],
+    "subject": "Tender: DUST COLLECTOR at BOT",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T14:33:18.672045"
+  },
+  {
+    "tender_id": "ATMA-2026-002",
+    "to": [
+      "info@atma.co.tz"
+    ],
+    "subject": "Tender: TBS",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T14:33:37.151744"
+  },
+  {
+    "tender_id": "AUDITAXINTERNATIONAL-2026-001",
+    "to": [
+      "info@auditaxinternational.co.tz"
+    ],
+    "subject": "Tender: INVITATION OF YOU AND YOUR STAFF TO A PRACTICAL 5 DAY FIXED ",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T14:33:55.917796"
+  },
+  {
+    "tender_id": "AUDITAXINTERNATIONAL-2026-002",
+    "to": [
+      "info@auditaxinternational.co.tz"
+    ],
+    "subject": "Tender: The Seminar is meant for professionals in the Public and Pri",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T14:34:15.306952"
+  },
+  {
+    "tender_id": "AUDITAXINTERNATIONAL-2026-003",
+    "to": [
+      "info@auditaxinternational.co.tz"
+    ],
+    "subject": "Tender: Procedures for Procurement of Fixed Assets and Inventories P",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T14:34:33.540446"
+  },
+  {
+    "tender_id": "AUDITAXINTERNATIONAL-2026-004",
+    "to": [
+      "info@auditaxinternational.co.tz"
+    ],
+    "subject": "Tender: March 23, 2026\n                                \n            ",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T14:34:51.449391"
+  },
+  {
+    "tender_id": "AUDITAXINTERNATIONAL-2026-005",
+    "to": [
+      "info@auditaxinternational.co.tz"
+    ],
+    "subject": "Tender: April 13, 2026\n                                \n            ",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T14:35:10.228110"
+  },
+  {
+    "tender_id": "AUDITAXINTERNATIONAL-2026-006",
+    "to": [
+      "info@auditaxinternational.co.tz"
+    ],
+    "subject": "Tender: April 20, 2026\n                                \n            ",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T14:35:28.490305"
+  },
+  {
+    "tender_id": "AUDITAXINTERNATIONAL-2026-007",
+    "to": [
+      "info@auditaxinternational.co.tz"
+    ],
+    "subject": "Tender: May 4, 2026\n                                \n               ",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T14:35:46.859099"
+  },
+  {
+    "tender_id": "AUKI-2026-001",
+    "to": [
+      "info@auki.co.tz"
+    ],
+    "subject": "Tender: Smart Event Solutions",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T14:36:07.163500"
+  },
+  {
+    "tender_id": "AUKI-2026-003",
+    "to": [
+      "info@auki.co.tz"
+    ],
+    "subject": "Tender: Facility Support Services",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T14:36:26.017830"
+  },
+  {
+    "tender_id": "AURASYNERGIES-2026-001",
+    "to": [
+      "cmo@aurasynergies.co.tz"
+    ],
+    "subject": "Tender: We Cover All Industry Sectors\n                              ",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T14:37:06.789275"
+  },
+  {
+    "tender_id": "AURASYNERGIES-2026-002",
+    "to": [
+      "cmo@aurasynergies.co.tz"
+    ],
+    "subject": "Tender: Working together with Clients organisation to drive out inef",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T16:46:20.668303"
+  },
+  {
+    "tender_id": "AURASYNERGIES-2026-003",
+    "to": [
+      "cmo@aurasynergies.co.tz"
+    ],
+    "subject": "Tender: Analysis of current and prospective client\u2019s supply chains i",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T16:48:04.890826"
+  },
+  {
+    "tender_id": "AURASYNERGIES-2026-004",
+    "to": [
+      "cmo@aurasynergies.co.tz"
+    ],
+    "subject": "Tender: Ensure we continue to build globally competitive and innovat",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T16:49:50.333325"
+  },
+  {
+    "tender_id": "AURASYNERGIES-2026-005",
+    "to": [
+      "cmo@aurasynergies.co.tz"
+    ],
+    "subject": "Tender: Supply Chain & Operations Management",
+    "status": "failed",
+    "error": "Server not connected",
+    "sent_at": "2026-03-14T16:52:07.348698"
+  },
+  {
+    "tender_id": "AURASYNERGIES-2026-007",
+    "to": [
+      "cmo@aurasynergies.co.tz"
+    ],
+    "subject": "Tender: PL Solutions",
+    "status": "failed",
+    "error": "Server not connected",
+    "sent_at": "2026-03-14T16:52:55.517169"
+  },
+  {
+    "tender_id": "AURASYNERGIES-2026-008",
+    "to": [
+      "cmo@aurasynergies.co.tz"
+    ],
+    "subject": "Tender: Warehousing & Distribution Management",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T16:53:13.110249"
+  },
+  {
+    "tender_id": "AUTOFEST-2026-001",
+    "to": [
+      "info@cmcautomobiles.co.tz",
+      "fordbookings@cmcautomobiles.co.tz",
+      "info@aatanzania.or.tz",
+      "edirector@autofest.co.tz",
+      "fordsales@cmcautomobiles.co.tz"
+    ],
+    "subject": "Tender: Autofest - Tanzania Motoring Home",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T16:55:03.190628"
+  },
+  {
+    "tender_id": "AZANIA-BANK-2026-001",
+    "to": [
+      "tenders@azaniabank.co.tz"
+    ],
+    "subject": "Tender: Tenders &#8211; Azania Bank",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T16:56:57.248291"
+  },
+  {
+    "tender_id": "AZANIA-BANK-2026-003",
+    "to": [
+      "info@azaniabank.co.tz"
+    ],
+    "subject": "Tender: General Procurement Notice (Feb 2026)",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T16:58:42.630427"
+  },
+  {
+    "tender_id": "AURASYNERGIES-2026-005",
+    "to": [
+      "cmo@aurasynergies.co.tz"
+    ],
+    "subject": "Tender: Supply Chain & Operations Management",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T17:41:44.480099"
+  },
+  {
+    "tender_id": "AZANIA-BANK-2026-065",
+    "to": [
+      "info@azaniabank.co.tz"
+    ],
+    "subject": "Tender: Tender Document &#8211; Supply, Delivery and Base Installati",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T17:42:04.359161"
+  },
+  {
+    "tender_id": "AURASYNERGIES-2026-007",
+    "to": [
+      "cmo@aurasynergies.co.tz"
+    ],
+    "subject": "Tender: PL Solutions",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T17:45:43.894151"
+  },
+  {
+    "tender_id": "AZANIA-BANK-2026-005",
+    "to": [
+      "info@azaniabank.co.tz"
+    ],
+    "subject": "Tender: Tender Notice (Feb 2026)",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T17:47:57.464845"
+  },
+  {
+    "tender_id": "AZANIA-BANK-2026-007",
+    "to": [
+      "info@azaniabank.co.tz"
+    ],
+    "subject": "Tender: Tender Document - Preventive Maintenance of Power GeneratorF",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T17:50:15.356987"
+  },
+  {
+    "tender_id": "AZANIA-BANK-2026-009",
+    "to": [
+      "info@azaniabank.co.tz"
+    ],
+    "subject": "Tender: Tender Document - Toners Cartridge (Feb 2026)",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T17:52:30.237408"
+  },
+  {
+    "tender_id": "AZANIA-BANK-2026-011",
+    "to": [
+      "info@azaniabank.co.tz"
+    ],
+    "subject": "Tender: Tender Document - Laptop Desktop (Feb 2026)",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T17:54:47.377877"
+  },
+  {
+    "tender_id": "AZANIA-BANK-2026-013",
+    "to": [
+      "info@azaniabank.co.tz"
+    ],
+    "subject": "Tender: Tender Document General Office Stationary(Feb 2026)",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T17:57:01.691116"
+  },
+  {
+    "tender_id": "AZANIA-BANK-2026-015",
+    "to": [
+      "info@azaniabank.co.tz"
+    ],
+    "subject": "Tender: Tender Document Bank Printed Stationary(Feb 2026)",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T17:59:19.828838"
+  },
+  {
+    "tender_id": "AZANIA-BANK-2026-020",
+    "to": [
+      "info@azaniabank.co.tz"
+    ],
+    "subject": "Tender: Tender Document Repair of Air Conditioners (Feb 2026)",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T18:01:34.970256"
+  },
+  {
+    "tender_id": "AZANIA-BANK-2026-022",
+    "to": [
+      "info@azaniabank.co.tz"
+    ],
+    "subject": "Tender: Tender for Supply of Standard/Bank Printed Stationeries usin",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T18:03:56.321530"
+  },
+  {
+    "tender_id": "AZANIA-BANK-2026-024",
+    "to": [
+      "info@azaniabank.co.tz"
+    ],
+    "subject": "Tender: Pre-qualification Tender for Supply, Installation and Mainte",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T18:06:10.704408"
+  },
+  {
+    "tender_id": "AZANIA-BANK-2026-033",
+    "to": [
+      "info@azaniabank.co.tz"
+    ],
+    "subject": "Tender: Tender for Supply of General Office Stationers using Framewo",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T18:08:26.315386"
+  },
+  {
+    "tender_id": "AZANIA-BANK-2026-035",
+    "to": [
+      "info@azaniabank.co.tz"
+    ],
+    "subject": "Tender: Tender Notice (May 2025)",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T18:10:51.380730"
+  },
+  {
+    "tender_id": "AZANIA-BANK-2026-036",
+    "to": [
+      "info@azaniabank.co.tz"
+    ],
+    "subject": "Tender: Tender Notice",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T18:13:05.333267"
+  },
+  {
+    "tender_id": "AZANIA-BANK-2026-037",
+    "to": [
+      "info@azaniabank.co.tz"
+    ],
+    "subject": "Tender: Invitation for Tender for Supply of Self-Inking Stamps - Fra",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T18:15:31.518214"
+  },
+  {
+    "tender_id": "AZANIA-BANK-2026-039",
+    "to": [
+      "info@azaniabank.co.tz"
+    ],
+    "subject": "Tender: Invitation for Tender for Repaid and Maintenance of Cheque S",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T18:17:45.969573"
+  },
+  {
+    "tender_id": "AZANIA-BANK-2026-041",
+    "to": [
+      "info@azaniabank.co.tz"
+    ],
+    "subject": "Tender: Invitation for Tenders (2025)",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T18:20:00.516729"
+  },
+  {
+    "tender_id": "AZANIA-BANK-2026-043",
+    "to": [
+      "info@azaniabank.co.tz"
+    ],
+    "subject": "Tender: Tender Document for Provision of Cleaning Services (2025)",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T18:22:14.210890"
+  },
+  {
+    "tender_id": "AZANIA-BANK-2026-047",
+    "to": [
+      "info@azaniabank.co.tz"
+    ],
+    "subject": "Tender: General Procurement Notice (2025)",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T18:24:29.470390"
+  },
+  {
+    "tender_id": "AZANIA-BANK-2026-049",
+    "to": [
+      "info@azaniabank.co.tz"
+    ],
+    "subject": "Tender: Tender Document: Preventive Maintenance of Power Generator",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T18:26:54.171661"
+  },
+  {
+    "tender_id": "AZANIA-BANK-2026-050",
+    "to": [
+      "info@azaniabank.co.tz"
+    ],
+    "subject": "Tender: Invitation for Tender",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T18:29:13.582157"
+  },
+  {
+    "tender_id": "AZANIA-BANK-2026-051",
+    "to": [
+      "info@azaniabank.co.tz"
+    ],
+    "subject": "Tender: Tender Document: Repair of Air Conditioners",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T18:31:33.057914"
+  },
+  {
+    "tender_id": "AZANIA-BANK-2026-053",
+    "to": [
+      "info@azaniabank.co.tz"
+    ],
+    "subject": "Tender: Tender Document: Fumigation &amp; Pest Control Services",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T18:33:52.370624"
+  },
+  {
+    "tender_id": "AZANIA-BANK-2026-055",
+    "to": [
+      "info@azaniabank.co.tz"
+    ],
+    "subject": "Tender: Tender Document: Repair Service of Scanners/Printers/Copiers",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T18:37:38.943071"
+  },
+  {
+    "tender_id": "AZANIA-BANK-2026-057",
+    "to": [
+      "info@azaniabank.co.tz"
+    ],
+    "subject": "Tender: Tender Notice: Invitation for Tenders (25/04/2024)",
+    "status": "failed",
+    "error": "Server not connected",
+    "sent_at": "2026-03-14T18:46:38.811806"
+  },
+  {
+    "tender_id": "AZANIA-BANK-2026-062",
+    "to": [
+      "info@azaniabank.co.tz"
+    ],
+    "subject": "Tender: Invitation to Tender: VISA Classic Cards",
+    "status": "failed",
+    "error": "Server not connected",
+    "sent_at": "2026-03-14T18:47:17.313070"
+  },
+  {
+    "tender_id": "AZANIA-BANK-2026-063",
+    "to": [
+      "info@azaniabank.co.tz"
+    ],
+    "subject": "Tender: TENDER DOCUMENT &#8211; VISA Classic Cards Final",
+    "status": "failed",
+    "error": "Connection unexpectedly closed: The read operation timed out",
+    "sent_at": "2026-03-14T19:03:09.917563"
+  },
+  {
+    "tender_id": "AZANIA-BANK-2026-064",
+    "to": [
+      "info@azaniabank.co.tz"
+    ],
+    "subject": "Tender: Invitation to Tender: Supply, Delivery and Installation of I",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T19:03:25.203947"
+  },
+  {
+    "tender_id": "AZANIA-BANK-2026-066",
+    "to": [
+      "info@azaniabank.co.tz"
+    ],
+    "subject": "Tender: Tender Notice: Invitation (August 2023)",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T19:05:39.953117"
+  },
+  {
+    "tender_id": "AZANIA-BANK-2026-067",
+    "to": [
+      "info@azaniabank.co.tz"
+    ],
+    "subject": "Tender: Invitation to Tender Notice &#8211; August 2023",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T19:07:54.777233"
+  },
+  {
+    "tender_id": "AZANIA-BANK-2026-068",
+    "to": [
+      "info@azaniabank.co.tz"
+    ],
+    "subject": "Tender: Tender Notice 2023",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T20:32:41.098922"
+  },
+  {
+    "tender_id": "MNMA-2026-001",
+    "to": [
+      "majanjara.semba@mnma.ac.tz",
+      "rector@mnma.ac.tz",
+      "mohamedi.mrindoko@mnma.ac.tz",
+      "headpemba@mnma.ac.tz"
+    ],
+    "subject": "Tender: Tender from MNMA - MAIN CAMPUS",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T20:35:14.595811"
+  },
+  {
+    "tender_id": "MUSOMAVI-2026-001",
+    "to": [
+      "info@musomavijijini.or.tz"
+    ],
+    "subject": "Tender: Bofya Hapa Kupata\u00a0 Nakala",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T20:37:31.557798"
+  },
+  {
+    "tender_id": "MUSOMAVI-2026-006",
+    "to": [
+      "info@musomavijijini.or.tz"
+    ],
+    "subject": "Tender: CLICK TO DOWNLOAD",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T20:39:52.098732"
+  },
+  {
+    "tender_id": "MUSOMAVI-2026-007",
+    "to": [
+      "info@musomavijijini.or.tz"
+    ],
+    "subject": "Tender: CLICK TO OPEN THE CV",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T20:42:08.601934"
+  },
+  {
+    "tender_id": "NBC-2026-001",
+    "to": [
+      "tender@nbc.co.tz"
+    ],
+    "subject": "Tender: RFP Commercial Credit Origination, Assessment & Workflow Pla",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T20:44:25.956089"
+  },
+  {
+    "tender_id": "NMB-2026-001",
+    "to": [
+      "procurement@nmbtz.com",
+      "whistleblowing@nmbtz.com"
+    ],
+    "subject": "Tender: Application for Prequalification of Vendors for Marketing & ",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T20:46:47.440652"
+  },
+  {
+    "tender_id": "ORCHID-2026-001",
+    "to": [
+      "info@orchid.co.tz"
+    ],
+    "subject": "Tender: Tender notice from Orchid Investment Limited",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T20:49:02.505966"
+  },
+  {
+    "tender_id": "ORIGINTRAILS-2026-001",
+    "to": [
+      "info@origintrails.co.tz"
+    ],
+    "subject": "Tender: Tender notice from Origin Trails",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T20:51:16.896718"
+  },
+  {
+    "tender_id": "POSTA-2026-001",
+    "to": [
+      "pmg@posta.co.tz"
+    ],
+    "subject": "Tender: Tender: Supply of Motor Vehicles",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T20:53:34.080251"
+  },
+  {
+    "tender_id": "REPOA-2026-001",
+    "to": [
+      "repoa@repoa.or.tz"
+    ],
+    "subject": "Tender: Invitation for Pre-qualification at REPOA \u2013 Supply of Goods ",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T20:56:01.461092"
+  },
+  {
+    "tender_id": "REPOA-2026-002",
+    "to": [
+      "repoa@repoa.tz",
+      "csekule@repoa.or.tz"
+    ],
+    "subject": "Tender: Expression of Interest (EoI) for Property Development at REP",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T20:58:22.717289"
+  },
+  {
+    "tender_id": "REPOA-2026-003",
+    "to": [
+      "repoa@repoa.or.tz"
+    ],
+    "subject": "Tender: Terms of Reference for Mid Term Review of REPOA's Strategic ",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T21:00:38.061654"
+  },
+  {
+    "tender_id": "REPOA-2026-004",
+    "to": [
+      "repoa@repoa.or.tz"
+    ],
+    "subject": "Tender: Call For Proposals: A Value Chain Analysis of Competitivenes",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T21:02:57.088668"
+  },
+  {
+    "tender_id": "SIMBATECHNOLOGY-2026-001",
+    "to": [
+      "info@simbatechnology.co.tz"
+    ],
+    "subject": "Tender: Tender page",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T21:05:22.294172"
+  },
+  {
+    "tender_id": "STTHOMASNYABULA-2026-001",
+    "to": [
+      "emilkindole@yahoo.com"
+    ],
+    "subject": "Tender: Entry-fomu-2025.-1.pdf",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T21:07:37.337132"
+  },
+  {
+    "tender_id": "TAWLA-2026-001",
+    "to": [
+      "info@tawla.or.tz"
+    ],
+    "subject": "Tender: Terms of Reference (TOR) for Engagement of Security Services",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T21:09:56.580817"
+  },
+  {
+    "tender_id": "TEC-2026-001",
+    "to": [
+      "info@tec.or.tz"
+    ],
+    "subject": "Tender: Catholic-Directory-2020-Edition.pdf",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T21:12:13.717171"
+  },
+  {
+    "tender_id": "TEC-2026-003",
+    "to": [
+      "info@tec.or.tz"
+    ],
+    "subject": "Tender: MEDIA-TENDER2.pdf",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T21:14:28.113984"
+  },
+  {
+    "tender_id": "TEITI-2026-001",
+    "to": [
+      "procurement@madini.go.tz",
+      "ps@mem.go.tz",
+      "daisyurassa@gmail.com"
+    ],
+    "subject": "Tender: Home &#124; TANZANIA EXTRACTIVE INDUSTRIES TRANSPARENCY INIT",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T21:16:51.162766"
+  },
+  {
+    "tender_id": "TOTAL-2026-001",
+    "to": [
+      "tz-lpg@totalenergies.com"
+    ],
+    "subject": "Tender: Expression of Interest: LPG Super Dealers in Tanzania",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T21:19:12.468208"
+  },
+  {
+    "tender_id": "ZATU-2026-001",
+    "to": [
+      "info@zatu.or.tz"
+    ],
+    "subject": "Tender: REQUEST FOR PROPOSALS (RFP) FOR CONDUCTING ZATU EVALUATION",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T21:21:28.114936"
+  },
+  {
+    "tender_id": "AZANIA-BANK-2026-057",
+    "to": [
+      "info@azaniabank.co.tz"
+    ],
+    "subject": "Tender: Tender Notice: Invitation for Tenders (25/04/2024)",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T21:38:07.710343"
+  },
+  {
+    "tender_id": "AZANIA-BANK-2026-062",
+    "to": [
+      "info@azaniabank.co.tz"
+    ],
+    "subject": "Tender: Invitation to Tender: VISA Classic Cards",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T21:40:27.006386"
+  },
+  {
+    "tender_id": "AZANIA-BANK-2026-063",
+    "to": [
+      "info@azaniabank.co.tz"
+    ],
+    "subject": "Tender: TENDER DOCUMENT &#8211; VISA Classic Cards Final",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T21:42:54.361386"
+  },
+  {
+    "tender_id": "AZANIA-BANK-2026-069",
+    "to": [
+      "info@azaniabank.co.tz"
+    ],
+    "subject": "Tender: TENDER NOTICE-2023",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T21:45:18.178721"
+  },
+  {
+    "tender_id": "AZANIA-BANK-2026-070",
+    "to": [
+      "info@azaniabank.co.tz"
+    ],
+    "subject": "Tender: Goods Tenders 2023",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T21:47:36.905444"
+  },
+  {
+    "tender_id": "AZANIA-BANK-2026-071",
+    "to": [
+      "info@azaniabank.co.tz"
+    ],
+    "subject": "Tender: Non Consultancy Service Tender 2023",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T21:51:01.665579"
+  },
+  {
+    "tender_id": "AZANIA-BANK-2026-072",
+    "to": [
+      "info@azaniabank.co.tz"
+    ],
+    "subject": "Tender: Pre-qualification Tender 2023",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T21:53:37.327211"
+  },
+  {
+    "tender_id": "AZANIA-BANK-2026-075",
+    "to": [
+      "info@azaniabank.co.tz"
+    ],
+    "subject": "Tender: View Tender Notice",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T21:55:55.565545"
+  },
+  {
+    "tender_id": "AZANIA-BANK-2026-077",
+    "to": [
+      "info@azaniabank.co.tz"
+    ],
+    "subject": "Tender: Tender Document: Maintenance of Generator",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T21:58:16.177371"
+  },
+  {
+    "tender_id": "CHINADASHENGBANK-2026-001",
+    "to": [
+      "info@chinadashengbank.co.tz"
+    ],
+    "subject": "Tender: Expression of Interest",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T22:00:41.808039"
+  },
+  {
+    "tender_id": "COUNSENUTH-2026-001",
+    "to": [
+      "info@counsenuth.or.tz"
+    ],
+    "subject": "Tender: Invitation for Bidders to Supply Goods & Services for Financ",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T22:10:16.629809"
+  },
+  {
+    "tender_id": "COUNSENUTH-2026-002",
+    "to": [
+      "info@counsenuth.or.tz"
+    ],
+    "subject": "Tender: Communication and Creative Intern",
+    "status": "failed",
+    "error": "Connection unexpectedly closed: The read operation timed out",
+    "sent_at": "2026-03-14T22:23:48.211558"
+  },
+  {
+    "tender_id": "COUNSENUTH-2026-003",
+    "to": [
+      "info@counsenuth.or.tz"
+    ],
+    "subject": "Tender: Competitive Quotation \u2013 HYDRO-GEOPHYSICAL SURVEY & BOREHOLE ",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T22:24:06.887337"
+  },
+  {
+    "tender_id": "COUNSENUTH-2026-004",
+    "to": [
+      "info@counsenuth.or.tz"
+    ],
+    "subject": "Tender: Call for Expression of Interest for the End of Lishe Kijinsi",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T22:42:14.829607"
+  },
+  {
+    "tender_id": "D-2026-001",
+    "to": [
+      "registration.coupa@solenis.com"
+    ],
+    "subject": "Tender: Tender/Procurement - Diversey/Solenis",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T22:44:53.153292"
+  },
+  {
+    "tender_id": "FSDT-2026-001",
+    "to": [
+      "info@fsdt.or.tz"
+    ],
+    "subject": "Tender: Terms of Reference - SAGE 300 Maintenance and Support",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T23:05:08.224541"
+  },
+  {
+    "tender_id": "FSDT-2026-002",
+    "to": [
+      "info@fsdt.or.tz"
+    ],
+    "subject": "Tender: Call for Expressions of Interest - Partner Financial Service",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T23:12:06.485134"
+  },
+  {
+    "tender_id": "FSDT-2026-003",
+    "to": [
+      "info@fsdt.or.tz"
+    ],
+    "subject": "Tender: Call for Expressions of Interest - FSPs to Participate in Te",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T23:33:57.995732"
+  },
+  {
+    "tender_id": "FSDT-2026-004",
+    "to": [
+      "info@fsdt.or.tz"
+    ],
+    "subject": "Tender: Call for Expressions of Interest - Vendor Prequalification f",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T23:36:12.888826"
+  },
+  {
+    "tender_id": "HAKIRASILIMALI-2026-001",
+    "to": [
+      "info@hakirasilimali.or.tz"
+    ],
+    "subject": "Tender: External Audit Services Tender",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T23:38:27.925262"
+  },
+  {
+    "tender_id": "IRAMBADC-2026-001",
+    "to": [
+      "ded.irambadc@singida.go.tz"
+    ],
+    "subject": "Tender: Tender listing from Iramba District Council",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T23:40:44.619087"
+  },
+  {
+    "tender_id": "J-2026-001",
+    "to": [
+      "info@judiciary.go.tz"
+    ],
+    "subject": "Tender: Tender/Procurement - Judiciary Of Tanzania",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T23:42:59.431035"
+  },
+  {
+    "tender_id": "JWEMPO-2026-001",
+    "to": [
+      "info@jwempo.ac.tz"
+    ],
+    "subject": "Tender: Tender from Journal of Water Resources",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T23:45:15.827617"
+  },
+  {
+    "tender_id": "KAHAMA-2026-001",
+    "to": [
+      "md@kahamamc.go.tz"
+    ],
+    "subject": "Tender: Tender from Kahama Municipal Council",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T23:47:30.731015"
+  },
+  {
+    "tender_id": "KAKAKU-2026-001",
+    "to": [
+      "booking@kakakuona.co.tz"
+    ],
+    "subject": "Tender: Tender from Kakakuona Resort",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T23:49:46.808834"
+  },
+  {
+    "tender_id": "LRCT-2026-001",
+    "to": [
+      "lrct@lrct.go.tz"
+    ],
+    "subject": "Tender: Tender notice from LRCT |   Mwanzo",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T23:52:12.083656"
+  },
+  {
+    "tender_id": "LUPTAN-2026-001",
+    "to": [
+      "pmanyele@yahoo.com",
+      "info@luptan.co.tz"
+    ],
+    "subject": "Tender: Tender notice from Luptan &#8211; Engineering, Planning &amp",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T23:54:37.996274"
+  },
+  {
+    "tender_id": "MUST-2026-001",
+    "to": [
+      "must@must.ac.tz"
+    ],
+    "subject": "Tender: Procurement Management Unit",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T23:56:58.999418"
+  },
+  {
+    "tender_id": "MIT-2026-001",
+    "to": [
+      "ps@mit.go.tz",
+      "gcu@mit.go.tz"
+    ],
+    "subject": "Tender: TANGAZO LA MNADA WA HADHARA - Mnada wa Vifaa Chakavu",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-14T23:59:16.263852"
+  },
+  {
+    "tender_id": "MLOGANZILA-2026-001",
+    "to": [
+      "PS@afya.go.tz"
+    ],
+    "subject": "Tender: Tender from Muhimbili National Hospital - Mloganzila",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-15T00:01:46.222415"
+  },
+  {
+    "tender_id": "COUNSENUTH-2026-002",
+    "to": [
+      "info@counsenuth.or.tz"
+    ],
+    "subject": "Tender: Communication and Creative Intern",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-15T00:10:19.087007"
+  },
+  {
+    "tender_id": "ETDCO-2026-001",
+    "to": [
+      "info@etdco.co.tz"
+    ],
+    "subject": "Tender: ETDCO Invitation for Bids - Electrical Components Supply",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-15T10:35:11.593844"
+  },
+  {
+    "tender_id": "KJRO-2026-001",
+    "to": [
+      "info@kjro.or.tz"
+    ],
+    "subject": "Tender: Tender notice from HOME -",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-15T10:37:25.330954"
+  },
+  {
+    "tender_id": "MAENDELEO-2026-001",
+    "to": [
+      "emariki@maendeleobank.co.tz"
+    ],
+    "subject": "Tender: Professional Services for Valuers, Auctioneers, and Surveyor",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-15T10:39:39.633428"
+  },
+  {
+    "tender_id": "NCULTD-2026-001",
+    "to": [
+      "info@ncultd.or.tz"
+    ],
+    "subject": "Tender: Tangazo la zabuni ya ujenzi kwa wazabuni wote wenye sifa",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-15T10:42:01.506303"
+  },
+  {
+    "tender_id": "SAUT-2026-001",
+    "to": [
+      "sautmalimbe@saut.ac.tz"
+    ],
+    "subject": "Tender: Invitation To Tender",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-15T10:44:17.417147"
+  },
+  {
+    "tender_id": "TANESCOSACCOS-2026-001",
+    "to": [
+      "info.saccos@tanescosaccos.or.tz"
+    ],
+    "subject": "Tender: TANESCO SACCOS LTD &#8211; Suluhisho la Mtaji",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-15T10:46:31.279151"
+  },
+  {
+    "tender_id": "TANGACC-2026-001",
+    "to": [
+      "info@tangacc.go.tz"
+    ],
+    "subject": "Tender: Home &#124; Tanga City Council",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-15T10:48:48.662594"
+  },
+  {
+    "tender_id": "TFS-2026-003",
+    "to": [
+      "mpingo@tfs.go.tz"
+    ],
+    "subject": "Tender: EXTENSION OF TENDER NO. TR47/2025/2026/AFD/C/01 Consultancy ",
+    "status": "sent",
+    "error": null,
+    "sent_at": "2026-03-15T10:51:02.458944"
+  }
+]

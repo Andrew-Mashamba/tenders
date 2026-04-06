@@ -1,0 +1,35 @@
+{
+  "tender_id": "DARC-2026-001",
+  "institution": "darceramica",
+  "title": "Document listing",
+  "description": "",
+  "published_date": "2026-03-15",
+  "closing_date": null,
+  "category": "General",
+  "status": "active",
+  "source_url": "https://darceramica.co.tz/",
+  "document_links": [
+    {
+      "url": "https://darceramica.co.tz/wp-content/uploads/2025/09/Dar-Ceramica-Products-Magazine.pdf",
+      "filename": "Dar-Ceramica-Products-Magazine.pdf"
+    },
+    {
+      "url": "https://darceramica.co.tz/wp-content/uploads/2025/09/Dar-Ceramica-Products-Magazine.pdf",
+      "filename": "Dar-Ceramica-Products-Magazine.pdf"
+    },
+    {
+      "url": "https://darceramica.co.tz/wp-content/uploads/2022/05/ATALPI_CEREZO_20X60_MATT_001.670.0232.00798.pdf",
+      "filename": "ATALPI_CEREZO_20X60_MATT_001.670.0232.00798.pdf"
+    },
+    {
+      "url": "https://darceramica.co.tz/wp-content/uploads/2022/06/44CR5145.pdf",
+      "filename": "44CR5145.pdf"
+    },
+    {
+      "url": "https://darceramica.co.tz/wp-content/uploads/2022/06/88CR5515-02_TDS.pdf",
+      "filename": "88CR5515-02_TDS.pdf"
+    }
+  ],
+  "contact_info": {},
+  "scraped_at": "2026-03-15T05:34:32.511312+00:00"
+}

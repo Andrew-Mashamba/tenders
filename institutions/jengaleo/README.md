@@ -1,0 +1,196 @@
+---
+institution:
+  name: "Jengaleo Real Estates &mdash; Default Page"
+  slug: "jengaleo"
+  category: "Commercial / Private Sector"
+  status: "active"
+  country: "Tanzania"
+  domain: "jengaleo.co.tz"
+
+website:
+  homepage: "https://jengaleo.co.tz/"
+  tender_url: "https://jengaleo.co.tz/"
+
+contact:
+  email: "support@mashine.work"
+  phone: "023192 -1"
+
+scraping:
+  enabled: true
+  method: "http_get"
+  strategy: |
+    Domain shows Mashine Web Services default placeholder — site not available. Scraping disabled until live.
+  selectors:
+    container: ".tender-list, .content, main, .entry-content, .page-content, article"
+    tender_item: "article, .tender-item, .card, .row, li, tr"
+    title: "h2, h3, h4, .tender-title, a"
+    date: ".date, .closing-date, .published, time"
+    document_link: 'a[href$=".pdf"], a[href$=".doc"], a[href$=".docx"], a[download]'
+    pagination: ".pagination a, a.next, .nav-links a" 
+  schedule: "daily"
+
+  anti_bot:
+    requires_javascript: false
+    has_captcha: false
+    rate_limit_seconds: 10
+
+  documents:
+    download_enabled: true
+    download_path: "./downloads/"
+    naming: "{{date}}_{{title}}_{{filename}}"
+
+    file_types:
+      - ".pdf"
+      - ".doc"
+      - ".docx"
+      - ".xls"
+      - ".xlsx"
+      - ".zip"
+      - ".rar"
+
+    url_discovery:
+      follow_links: true
+      link_selectors:
+        - 'a[href$=".pdf"]'
+        - 'a[href$=".doc"]'
+        - 'a[href$=".docx"]'
+        - 'a[href$=".xls"]'
+        - 'a[href$=".xlsx"]'
+        - 'a[href$=".zip"]'
+        - 'a[href*="/storage/"]'
+        - 'a[href*="/uploads/"]'
+        - 'a[href*="/media/"]'
+        - 'a[href*="/wp-content/uploads/"]'
+        - 'a[href*="/download"]'
+        - 'a[download]'
+      resolve_redirects: true
+      decode_percent_encoding: true
+
+    url_patterns:
+      - "jengaleo.co.tz/*.pdf"
+
+    download_rules:
+      max_file_size_mb: 50
+      timeout_seconds: 60
+      retry_attempts: 3
+      skip_duplicates: true
+      verify_content_type: true
+      allowed_content_types:
+        - "application/pdf"
+        - "application/msword"
+        - "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        - "application/vnd.ms-excel"
+        - "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        - "application/zip"
+        - "application/octet-stream"
+
+    document_notes: |
+      Document storage paths not yet identified. Check tender detail pages for download links.
+
+  output:
+    format: "json"
+    fields:
+      - tender_id
+      - title
+      - description
+      - published_date
+      - closing_date
+      - category
+      - document_links
+      - contact_info
+
+notes: |
+  This is a default index page for a new domain.
+  ANALYSIS 2026-03-15: Site shows Mashine placeholder. Invalid tender_url (base64) replaced with homepage. Scraping disabled.
+---
+
+# Jengaleo Real Estates &mdash; Default Page
+
+**Category:** Commercial / Private Sector
+**Website:** https://jengaleo.co.tz/
+**Tender Page:** data:image/png;base64,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
+**Keywords Found:** bid, eoi, rfi, rfp, rfq, supply
+
+## Contact Information
+- Email: support@mashine.work
+- Phone: 023192 -1
+- Phone: 035156 12
+- Phone: 0703125 16
+- Phone: 0695313 8
+- Phone: 08605469 4
+
+## Scraping Instructions
+
+**Strategy:** Scrape data:image/png;base64,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 for tender/procurement notices.
+**Method:** http_get
+
+This is a default index page for a new domain.
+
+### Known Tender URLs
+
+- data:image/png;base64,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
+
+## Document Download Instructions
+
+The scraper MUST download all linked documents from tender pages, not just scrape metadata.
+
+**File types to download:** PDF, DOC, DOCX, XLS, XLSX, ZIP
+**Storage:** Save to `./downloads/` within this institution folder
+**Naming convention:** `{date}_{title}_{original_filename}`
+
+### Key behaviors:
+1. **Follow all document links** on tender listing pages and individual tender detail pages
+2. **Resolve redirects** — some download links redirect through CDN or auth endpoints
+3. **Decode percent-encoded URLs** (e.g., `%20` → space) for readable filenames
+4. **Check for documents in iframes or embedded viewers** that may wrap a PDF URL
+5. **Download attachments from detail pages** — some tenders only show a summary on the listing page with full documents on a detail/inner page
+6. **Skip duplicates** based on URL and file hash to avoid re-downloading
+
+Document storage paths not yet identified. Check tender detail pages for download links.
+
+## Folder Structure
+
+After scraping, this institution folder MUST be organized as follows:
+
+```
+jengaleo/
+├── README.md                          # This file — scraper config & instructions
+├── tenders/
+│   ├── active/                        # Currently open tenders
+│   │   ├── {tender_id}.json           # Structured tender metadata
+│   │   └── ...
+│   ├── closed/                        # Past/expired tenders (auto-moved after closing_date)
+│   │   ├── {tender_id}.json
+│   │   └── ...
+│   └── archive/                       # Historical tenders older than 90 days
+│       ├── {tender_id}.json
+│       └── ...
+├── downloads/
+│   ├── {tender_id}/                   # One subfolder per tender
+│   │   ├── original/                  # Raw downloaded files (never modified)
+│   │   │   ├── tender_document.pdf
+│   │   │   └── ...
+│   │   └── extracted/                 # AI-extracted text/data from documents
+│   │       ├── tender_document.txt    # Plain text extraction
+│   │       ├── summary.json           # AI-generated structured summary
+│   │       └── key_dates.json         # Extracted dates & deadlines
+│   └── ...
+├── scrape_log.json                    # History of all scrape runs
+└── last_scrape.json                   # Last scrape result snapshot
+```
+
+## Post-Scrape Actions
+
+After EACH successful scrape:
+
+1. **Organize tenders by status** — active/closed/archive based on closing_date
+2. **Extract text from documents** — PDF→txt, DOCX→txt, XLSX→json
+3. **Generate summary.json** with AI-extracted fields
+4. **Update last_scrape.json** and **append to scrape_log.json**
+5. **Update global active_tenders.md** index
+
+## Status
+
+- **Last Checked:** 13 March 2026
+- **Active Tenders:** To be scraped
+- **Signal Strength:** Strong (eoi, rfp, rfq)

@@ -1,0 +1,21 @@
+{
+  "tender_id": "KIBAHATC-2026-004",
+  "institution": "kibahatc",
+  "title": "Tangazo la Zabuni",
+  "description": "",
+  "published_date": "2018-09-13",
+  "closing_date": "2020-01-31",
+  "status": "closed",
+  "source_url": "https://kibahatc.go.tz/tenders",
+  "documents": [
+    {
+      "filename": "5b9a16679aace717358996.pdf",
+      "original_url": "https://kibahatc.go.tz/storage/app/uploads/public/5b9/a16/679/5b9a16679aace717358996.pdf",
+      "local_path": "/Volumes/DATA/PROJECTS/TENDERS/institutions/kibahatc/downloads/KIBAHATC-2026-004/original/5b9a16679aace717358996.pdf"
+    }
+  ],
+  "contact": {
+    "phone": "07720928447189"
+  },
+  "scraped_at": "2026-03-14T04:55:41Z"
+}

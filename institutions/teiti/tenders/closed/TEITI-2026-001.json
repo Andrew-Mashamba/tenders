@@ -1,0 +1,17 @@
+{
+  "tender_id": "TEITI-2026-001",
+  "institution": "teiti",
+  "title": "Home | TANZANIA EXTRACTIVE INDUSTRIES TRANSPARENCY INITIATIVE",
+  "description": "Invalid scrape - bundled multiple tender documents with page title",
+  "published_date": null,
+  "closing_date": null,
+  "category": "General",
+  "status": "closed",
+  "source_url": "https://teiti.go.tz/tenders",
+  "documents": [],
+  "contact": {
+    "email": "info@teiti.go.tz"
+  },
+  "scraped_at": "2026-03-14T08:35:37Z",
+  "closed_reason": "invalid - wrong title (page title, not tender), bundled documents from expired tenders (2022)"
+}

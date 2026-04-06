@@ -1,0 +1,31 @@
+{
+  "tender_id": "RUNGWE-2026-001",
+  "institution": "rungwedc",
+  "title": "Tender Invitation for Construction and Operation of Kiwira Shops",
+  "description": "Invitation to tender for construction and operation of Kiwira shops. Private sector investor through partnership (Mwekezaji wa sekta binafsi kwa njia ya ubia).",
+  "reference_number": "",
+  "published_date": "2025-10-01",
+  "closing_date": null,
+  "closing_time": "",
+  "category": "Construction",
+  "status": "active",
+  "source_url": "https://rungwedc.go.tz/announcement/mwaliko-wa-zabuni-ujenzi-na-uendeshaji-maduka-kiwira",
+  "documents": [
+    {
+      "filename": "MWEKEZAJI_WA_SEKTA_BINAFSI_KWA_NJIA_YA_UBIA.pdf",
+      "original_url": "https://rungwedc.go.tz/storage/app/media/uploaded-files/MWEKEZAJI%20WA%20SEKTA%20BINAFSI%20KWA%20NJIA%20YA%20UBIA.pdf",
+      "local_path": "./downloads/RUNGWE-2026-001/original/MWEKEZAJI_WA_SEKTA_BINAFSI_KWA_NJIA_YA_UBIA.pdf",
+      "content_type": "application/pdf",
+      "downloaded_at": "2026-03-15T22:21:00.000000Z"
+    }
+  ],
+  "contact": {
+    "name": "Procurement Department",
+    "email": "ded@rungwedc.go.tz",
+    "phone": "023-05-05",
+    "address": "Rungwe District Council"
+  },
+  "eligibility": "",
+  "scraped_at": "2026-03-15T22:21:00.000000Z",
+  "last_checked": "2026-03-15T22:21:00.000000Z"
+}

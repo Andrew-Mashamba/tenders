@@ -1,0 +1,22 @@
+{
+  "tender_id": "SUMAIT-2026-003",
+  "institution": "sumait",
+  "title": "Job Announcement: University Bursar",
+  "description": "Job announcement for the position of SUMAIT University Bursar.",
+  "published_date": "2025-11-20",
+  "closing_date": null,
+  "category": "Employment",
+  "status": "active",
+  "source_url": "https://sumait.ac.tz/",
+  "documents": [
+    {
+      "url": "https://sumait.ac.tz/assets/docs/JOB%20ADVERT%20OF%20POSITION%20OF%20SUMAIT%20BURSAR%20(2025).pdf",
+      "filename": "JOB_ADVERT_SUMAIT_BURSAR_2025.pdf"
+    }
+  ],
+  "contact": {
+    "email": "info@sumait.ac.tz",
+    "phone": "+255 774 635625"
+  },
+  "scraped_at": "2026-03-15T13:05:00Z"
+}

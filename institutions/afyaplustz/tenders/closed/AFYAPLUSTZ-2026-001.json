@@ -1,0 +1,22 @@
+{
+  "tender_id": "AFYAPLUSTZ-2026-001",
+  "institution": "afyaplustz",
+  "title": "Tender documents",
+  "description": "",
+  "published_date": "2026-03-13",
+  "closing_date": "",
+  "category": "General",
+  "status": "closed",
+  "closed_reason": "Invalid: Reports page contains organizational reports (quarterly/annual), not procurement tenders",
+  "source_url": "https://afyaplustz.or.tz/",
+  "documents": [
+    {
+      "filename": "AFYAPLUS-QUARTER-ONE-REPORT-2025.pdf",
+      "original_url": "https://afyaplustz.or.tz/assets/pdf/AFYAPLUS-QUARTER-ONE-REPORT-2025.pdf",
+      "local_path": "downloads/AFYAPLUSTZ-2026-001/original/AFYAPLUS-QUARTER-ONE-REPORT-2025.pdf"
+    }
+  ],
+  "contact": {},
+  "scraped_at": "2026-03-13T18:40:20.665696+00:00",
+  "last_checked": "2026-03-13T18:40:20.665700+00:00"
+}

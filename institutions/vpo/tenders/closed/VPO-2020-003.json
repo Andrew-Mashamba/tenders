@@ -1,0 +1,18 @@
+{
+  "tender_id": "VPO-2020-003",
+  "institution": "vpo",
+  "title": "Tender No: ME/002/2018 – 2019/VPO/C/01 – 9 for Provision of Consultancy Services for International Consultant Eba Trainers",
+  "published_date": "2020-06-22",
+  "closing_date": "2020-07-31",
+  "status": "closed",
+  "source_url": "https://www.vpo.go.tz/publications/tender",
+  "documents": [
+    {
+      "filename": "Eba-Trainer.pdf",
+      "original_url": "https://www.vpo.go.tz/uploads/publications/sw-1592816012-Eba%20Trainer.pdf",
+      "local_path": "./downloads/VPO-2020-003/original/Eba-Trainer.pdf"
+    }
+  ],
+  "contact": {"email": "ps@vpo.go.tz"},
+  "scraped_at": "2026-03-15T11:50:00Z"
+}

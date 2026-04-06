@@ -1,0 +1,34 @@
+{
+  "tender_id": "MWAUWASA-2024-001",
+  "institution": "mwauwasa",
+  "title": "Invitation for Prequalification of Bidders / Contractors - Mwanza Sewer Connection",
+  "description": "MWAUWASA (Mwanza Urban Water Supply and Sanitation Authority) invitation for prequalification of bidders/contractors for Mwanza sewer connection project.",
+  "reference_number": null,
+  "published_date": null,
+  "closing_date": "2024-04-08",
+  "closing_time": null,
+  "category": "Works",
+  "status": "closed",
+  "source_url": "https://mwauwasa.go.tz/tenders",
+  "documents": [
+    {
+      "filename": "en-1710229599-PQ-FOR-MWANZA-SEWER-CONNECTION-DOCUMENT.pdf",
+      "original_url": "https://mwauwasa.go.tz/uploads/tenders/en-1710229599-PQ-FOR%20MWANZA%20SEWER%20CONNECTION%20DOCUMENT.pdf",
+      "local_path": "./downloads/MWAUWASA-2024-001/original/en-1710229599-PQ-FOR-MWANZA-SEWER-CONNECTION-DOCUMENT.pdf",
+      "file_size_bytes": null,
+      "downloaded_at": null,
+      "content_type": "application/pdf",
+      "note": "SSL/cert issue during download - document available at source URL"
+    }
+  ],
+  "contact": {
+    "name": "MWAUWASA",
+    "email": "info@mwauwasa.go.tz",
+    "phone": "0800110023",
+    "address": null
+  },
+  "eligibility": null,
+  "bid_security": null,
+  "scraped_at": "2026-03-14T00:00:00Z",
+  "last_checked": "2026-03-14T00:00:00Z"
+}

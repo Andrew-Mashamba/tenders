@@ -1,0 +1,22 @@
+{
+  "tender_id": "SUMAIT-2026-002",
+  "institution": "sumait",
+  "title": "JOB OPPORTUNITIES (DVC-AF, AUDITOR, Bursar & Lecturer in Cybersecurity, Data Science and Computer Sciences Posts)",
+  "description": "Job opportunities for DVC-AF, Auditor, Bursar and Lecturer positions in Cybersecurity, Data Science and Computer Sciences.",
+  "published_date": "2026-02-14",
+  "closing_date": null,
+  "category": "Employment",
+  "status": "active",
+  "source_url": "https://sumait.ac.tz/",
+  "documents": [
+    {
+      "url": "https://sumait.ac.tz/assets/docs/sumait_job_2026.pdf",
+      "filename": "sumait_job_2026.pdf"
+    }
+  ],
+  "contact": {
+    "email": "info@sumait.ac.tz",
+    "phone": "+255 774 635625"
+  },
+  "scraped_at": "2026-03-15T13:05:00Z"
+}

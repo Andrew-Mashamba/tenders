@@ -1,0 +1,24 @@
+{
+  "tender_id": "NIRC-2026-001",
+  "institution": "nirc",
+  "title": "EOI Buigiri, Ikowa, Dabalo and Hombolo Dams and Associated Flood Control Works",
+  "description": "EOI for dams and flood control works - EOI Buigiri, Ikowa, Dabalo and Hombolo Dams and Associated Flood Control Works",
+  "published_date": "2025-12-22",
+  "closing_date": null,
+  "category": "Construction",
+  "status": "active",
+  "source_url": "https://nirc.go.tz/documents/tenders",
+  "documents": [
+    {
+      "filename": "sw-1765963698-EOI Buigiri, Ikowa, Dabalo and Hombolo Dams and Associated Flood-Control Works.pdf",
+      "original_url": "https://nirc.go.tz/uploads/documents/sw-1765963698-EOI%20Buigiri,%20Ikowa,%20Dabalo%20and%20Hombolo%20Dams%20and%20Associated%20Flood-Control%20Works.pdf",
+      "local_path": "./downloads/NIRC-2026-001/original/sw-1765963698-EOI Buigiri, Ikowa, Dabalo and Hombolo Dams and Associated Flood-Control Works.pdf"
+    }
+  ],
+  "contact": {
+    "email": "info@nirc.go.tz",
+    "phone": "+255 22 2127314"
+  },
+  "scraped_at": "2026-03-14T06:29:40.093929Z",
+  "last_checked": "2026-03-15T21:58:56.537012Z"
+}

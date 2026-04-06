@@ -1,0 +1,34 @@
+{
+  "tender_id": "COUNSENUTH-2026-002",
+  "institution": "counsenuth",
+  "title": "Communication and Creative Intern",
+  "description": "Internship opportunity for Communication and Creative Intern at COUNSENUTH.",
+  "reference_number": null,
+  "published_date": "2026-03-01",
+  "closing_date": null,
+  "closing_time": null,
+  "category": "Internship",
+  "status": "active",
+  "source_url": "https://counsenuth.or.tz/communication-and-creative-intern/",
+  "documents": [
+    {
+      "filename": "JD-Communication-and-Visibility-Intern-SM-SN-Final-1.pdf",
+      "original_url": "https://counsenuth.or.tz/wp-content/uploads/2026/03/JD-Communication-and-Visibility-Intern-SM-SN-Final-1.pdf",
+      "local_path": "./downloads/COUNSENUTH-2026-002/original/JD-Communication-and-Visibility-Intern-SM-SN-Final-1.pdf",
+      "file_size_bytes": 163247,
+      "downloaded_at": "2026-03-13T20:09:00Z",
+      "content_type": "application/pdf",
+      "sha256": null
+    }
+  ],
+  "contact": {
+    "name": "COUNSENUTH",
+    "email": "info@counsenuth.or.tz",
+    "phone": null,
+    "address": null
+  },
+  "eligibility": null,
+  "bid_security": null,
+  "scraped_at": "2026-03-13T20:09:00Z",
+  "last_checked": "2026-03-13T20:09:00Z"
+}

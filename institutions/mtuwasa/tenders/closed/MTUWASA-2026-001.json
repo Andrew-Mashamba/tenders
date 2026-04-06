@@ -1,0 +1,13 @@
+{
+  "tender_id": "MTUWASA-2026-001",
+  "institution": "mtuwasa",
+  "title": "Tender from MTUWASA (INVALID - audit report and tariff)",
+  "description": "Invalid: Documents were audit report and water tariff (BEI MPYA ZA MAJI), not procurement tenders.",
+  "published_date": "2026-03-15",
+  "closing_date": null,
+  "status": "closed",
+  "source_url": "https://mtuwasa.go.tz/",
+  "documents": [],
+  "scraped_at": "2026-03-15T08:47:39.911449+00:00",
+  "closed_reason": "invalid_junk"
+}

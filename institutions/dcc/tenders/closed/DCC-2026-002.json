@@ -1,0 +1,36 @@
+{
+  "tender_id": "DCC-2026-002",
+  "institution": "dcc",
+  "title": "Maeneo ya Manunuzi",
+  "description": "",
+  "published_date": "2026-03-15",
+  "closing_date": "",
+  "category": "General",
+  "status": "active",
+  "source_url": "https://dcc.go.tz/shopping-entertainment-and-social-life",
+  "documents": [
+    {
+      "filename": "68d99964d62ee506429960.pdf",
+      "original_url": "https://dcc.go.tz/storage/app/uploads/public/68d/999/64d/68d99964d62ee506429960.pdf",
+      "local_path": "downloads/DCC-2026-002/original/68d99964d62ee506429960.pdf"
+    },
+    {
+      "filename": "67d1ebf2a584f960168386.pdf",
+      "original_url": "https://dcc.go.tz/storage/app/uploads/public/67d/1eb/f2a/67d1ebf2a584f960168386.pdf",
+      "local_path": "downloads/DCC-2026-002/original/67d1ebf2a584f960168386.pdf"
+    },
+    {
+      "filename": "678bd58b30480888155567.pdf",
+      "original_url": "https://dcc.go.tz/storage/app/uploads/public/678/bd5/8b3/678bd58b30480888155567.pdf",
+      "local_path": "downloads/DCC-2026-002/original/678bd58b30480888155567.pdf"
+    },
+    {
+      "filename": "67603f8f78843823667057.pdf",
+      "original_url": "https://dcc.go.tz/storage/app/uploads/public/676/03f/8f7/67603f8f78843823667057.pdf",
+      "local_path": "downloads/DCC-2026-002/original/67603f8f78843823667057.pdf"
+    }
+  ],
+  "contact": {},
+  "scraped_at": "2026-03-15T05:50:26.803903Z",
+  "last_checked": "2026-03-15T05:50:26.803908Z"
+}

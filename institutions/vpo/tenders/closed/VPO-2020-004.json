@@ -1,0 +1,18 @@
+{
+  "tender_id": "VPO-2020-004",
+  "institution": "vpo",
+  "title": "Tender No: Me/002/2018 – 2019/VPO/C/01 – 11 for Provision of Consultancy Services for Sub – Contract Consulting Firm - Knowledge Management System",
+  "published_date": "2020-06-22",
+  "closing_date": "2020-07-31",
+  "status": "closed",
+  "source_url": "https://www.vpo.go.tz/publications/tender",
+  "documents": [
+    {
+      "filename": "KNOWLEDGE-MANAGEMENT-SYSTEM.pdf",
+      "original_url": "https://www.vpo.go.tz/uploads/publications/sw-1592816362-KNOWLEDGE%20MANAGEMENT%20SYSTEM.pdf",
+      "local_path": "./downloads/VPO-2020-004/original/KNOWLEDGE-MANAGEMENT-SYSTEM.pdf"
+    }
+  ],
+  "contact": {"email": "ps@vpo.go.tz"},
+  "scraped_at": "2026-03-15T11:50:00Z"
+}

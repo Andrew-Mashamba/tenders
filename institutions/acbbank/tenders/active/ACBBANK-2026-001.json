@@ -1,0 +1,32 @@
+{
+  "tender_id": "ACBBANK-2026-001",
+  "institution": "acbbank",
+  "title": "Supplier Prequalification Notice 2026-2027",
+  "description": "Akiba Commercial Bank PLC invites suppliers to apply for prequalification for the 2026-2027 financial year. Document is displayed in embedded PDF viewer on the tenders page.",
+  "reference_number": "ACB/SPQ/2026-2027",
+  "published_date": "",
+  "closing_date": null,
+  "closing_time": "",
+  "category": "General",
+  "status": "active",
+  "source_url": "https://www.acbbank.co.tz/tenders",
+  "documents": [
+    {
+      "filename": "supplier-prequalification-notice-2026-2027.pdf",
+      "original_url": "https://www.acbbank.co.tz/pdfviewer/supplier-prequalification-notice-2026-2027/",
+      "local_path": "",
+      "content_type": "text/html",
+      "downloaded_at": "2026-03-15T19:53:58.975369Z",
+      "note": "Document viewable at URL; embedded viewer does not provide direct PDF download"
+    }
+  ],
+  "contact": {
+    "name": "Procurement Department",
+    "email": "info@acbbank.co.tz",
+    "phone": "0800 750 336",
+    "address": ""
+  },
+  "eligibility": "",
+  "scraped_at": "2026-03-15T20:03:10.743458Z",
+  "last_checked": "2026-03-15T20:03:10.743458Z"
+}

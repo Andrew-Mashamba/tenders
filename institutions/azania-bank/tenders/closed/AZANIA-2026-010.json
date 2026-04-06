@@ -1,0 +1,31 @@
+{
+  "tender_id": "AZANIA-2026-010",
+  "institution": "azania-bank",
+  "title": "Pre-qualification: Provision of Corporate Branding Services",
+  "description": "Pre-qualification document for provision of corporate branding services for Azania Bank.",
+  "reference_number": "AB/2026/NCS/20",
+  "published_date": "2026-02-16",
+  "closing_date": "2026-03-09",
+  "closing_time": "14:00 EAT",
+  "category": "Services - Pre-qualification",
+  "status": "closed",
+  "source_url": "https://azaniabank.co.tz/tenders/",
+  "documents": [
+    {
+      "filename": "Prequalification-Document-Provision-of-Corporate-Branding.pdf",
+      "original_url": "https://azaniabank.co.tz/wp-content/uploads/2026/02/Prequalification-Document-Provision-of-Corportae-Branding.pdf",
+      "local_path": "./downloads/AZANIA-2026-010/original/Prequalification-Document-Provision-of-Corporate-Branding.pdf",
+      "file_size_bytes": 610086,
+      "downloaded_at": "2026-03-13T07:27:55Z",
+      "content_type": "application/pdf"
+    }
+  ],
+  "contact": {
+    "name": "Procurement Department, Azania Bank Plc",
+    "email": "customercare@azaniabank.co.tz",
+    "phone": "0800 110210",
+    "address": "Mawasiliano Towers, Sam Nujoma Road, Dar es Salaam, Tanzania"
+  },
+  "scraped_at": "2026-03-13T07:27:55Z",
+  "last_checked": "2026-03-13T07:27:55Z"
+}

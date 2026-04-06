@@ -1,0 +1,23 @@
+{
+  "tender_id": "CUCOM-2025-001",
+  "institution": "cucom",
+  "title": "TANGAZO LA UZABUNI HUDUMA YA CHAKULA - MACHI 2025",
+  "description": "",
+  "published_date": "",
+  "closing_date": "2025-03-15",
+  "closing_time": "15:00 EAT",
+  "category": "General",
+  "status": "closed",
+  "source_url": "https://cucom.ac.tz/",
+  "documents": [
+    {
+      "filename": "TANGAZO_20LA_20UZABUNI_20MACHI_202025.pdf",
+      "original_url": "https://cucom.ac.tz/cm-posts/TANGAZO%20LA%20UZABUNI%20MACHI%202025.pdf",
+      "local_path": "downloads/CUCOM-2025-001/original/TANGAZO_20LA_20UZABUNI_20MACHI_202025.pdf",
+      "downloaded_at": "2026-03-13T20:12:08Z"
+    }
+  ],
+  "contact": {},
+  "scraped_at": "2026-03-13T20:12:08Z",
+  "last_checked": "2026-03-13T20:12:08Z"
+}

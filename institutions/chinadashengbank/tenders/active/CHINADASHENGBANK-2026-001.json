@@ -1,0 +1,22 @@
+{
+  "tender_id": "CHINADASHENGBANK-2026-001",
+  "institution": "chinadashengbank",
+  "title": "Expression of Interest",
+  "description": "China Dasheng Bank Expression of Interest announcement",
+  "published_date": "2026-03-13",
+  "closing_date": null,
+  "status": "active",
+  "source_url": "https://chinadashengbank.co.tz/",
+  "documents": [
+    {
+      "filename": "ExpressionOfInterest.pdf",
+      "original_url": "https://chinadashengbank.co.tz/uploads/ExpressionOfInterest.pdf",
+      "local_path": "./downloads/CHINADASHENGBANK-2026-001/original/ExpressionOfInterest.pdf"
+    }
+  ],
+  "contact": {
+    "phone": "0800-112-025"
+  },
+  "scraped_at": "2026-03-15T06:04:30.000000Z",
+  "last_checked": "2026-03-15T06:04:30.000000Z"
+}

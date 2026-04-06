@@ -1,0 +1,22 @@
+{
+  "tender_id": "SCHOOLOF-2026-006",
+  "institution": "schoolofstjude",
+  "title": "Supply of supermarket items (grocery items)",
+  "reference_number": "TSOSJ/2025/Supermarket items (grocery items) /09",
+  "published_date": "",
+  "closing_date": "2025-10-07",
+  "status": "closed",
+  "source_url": "https://www.schoolofstjude.org/tenders/",
+  "documents": [
+    {
+      "filename": "tender_document.pdf",
+      "original_url": "https://www.schoolofstjude.org/wp-content/uploads/2025/10/Tender-advert-Supermarket-items.pdf",
+      "local_path": "downloads/SCHOOLOF-2026-006/original/tender_document.pdf",
+      "downloaded_at": "2026-03-14T07:16:27Z"
+    }
+  ],
+  "contact": {
+    "email": "purchasing@schoolofstjude.co.tz"
+  },
+  "scraped_at": "2026-03-14T07:16:27Z"
+}

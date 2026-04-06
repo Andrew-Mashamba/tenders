@@ -1,0 +1,18 @@
+{
+  "tender_id": "TEC-2026-001",
+  "institution": "tec",
+  "title": "Catholic-Directory-2020-Edition.pdf",
+  "description": "Publication - not a tender",
+  "published_date": "2021-05-01",
+  "closing_date": null,
+  "status": "closed",
+  "source_url": "https://tec.or.tz/index.php/2024/01/19/mabalozi-wa-amani-ii-phase-project-media-campaign-tender/",
+  "document_links": [
+    "https://tec.or.tz/wp-content/uploads/2021/05/Catholic-Directory-2020-Edition.pdf"
+  ],
+  "contact_info": {
+    "email": "info@tec.or.tz"
+  },
+  "scraped_at": "2026-03-14T08:26:18.365955+00:00",
+  "closed_reason": "junk - Catholic Directory is a publication, not a procurement tender"
+}

@@ -1,0 +1,19 @@
+{
+  "tender_id": "TFS-2026-001",
+  "institution": "tfs",
+  "title": "UUZAJI WA MITI YA MISAJI KWA NJIA YA MNADA WA KIELEKTRONIKI 2026",
+  "published_date": "2026-02-02",
+  "closing_date": null,
+  "status": "active",
+  "source_url": "https://www.tfs.go.tz/resources/documents/",
+  "documents": [
+    {
+      "original_url": "https://www.tfs.go.tz/resources/documents/uuzaji_wa_miti_ya_misaji_kwa_njia_ya_mnada_wa_kielektroniki_2026",
+      "local_path": "downloads/TFS-2026-001/original/uuzaji_wa_miti_ya_misaji_kwa_njia_ya_mnada_wa_kielektroniki_2026.pdf"
+    }
+  ],
+  "contact": {
+    "email": "mpingo@tfs.go.tz"
+  },
+  "scraped_at": "2026-03-14T08:40:56Z"
+}

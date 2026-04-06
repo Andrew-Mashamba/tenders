@@ -1,0 +1,53 @@
+{
+  "tender_id": "NBC-2026-001",
+  "institution": "nbc-bank",
+  "institution_name": "National Bank of Commerce (NBC)",
+  "title": "RFP Commercial Credit Origination, Assessment & Workflow Platform",
+  "description": "Request for Proposal for a Commercial Credit Origination, Assessment & Workflow Platform. NBC seeks proposals from qualified vendors to provide a comprehensive commercial credit platform. The successful bidder should demonstrate experience in banking software, credit origination systems, and workflow automation.",
+  "reference_number": "NBC/RFP/2026/CREDIT",
+  "published_date": "2026-02-28",
+  "closing_date": "2026-03-13",
+  "closing_time": "16:00 EAT",
+  "category": "ICT / Software Solutions",
+  "status": "closed",
+  "closed_reason": "Submission deadline passed (2026-03-13 at 16:00 EAT)",
+  "source_url": "https://www.nbc.co.tz/en/procurement/",
+  "documents": [
+    {
+      "filename": "nbc-rfp-credit.pdf",
+      "original_url": "https://www.nbc.co.tz/content/dam/nbc/tanzania/pdf/procurement/nbc-rfp-credit.pdf",
+      "local_path": "./downloads/NBC-2026-001/original/nbc-rfp-credit.pdf",
+      "file_size_bytes": 457289,
+      "downloaded_at": "2026-03-13T06:00:00Z",
+      "content_type": "application/pdf",
+      "sha256": "92b1161a049d7ef2c79fc970ebe69323637f0c4edfa9cca3e2162cdee71c41e9",
+      "text_extracted": true,
+      "extracted_path": "./downloads/NBC-2026-001/extracted/nbc-rfp-credit.txt",
+      "pages": 25
+    }
+  ],
+  "contact": {
+    "name": "Procurement Department",
+    "email": "contact.centre@nbc.co.tz",
+    "phone": "+255 76 898 4000/4011",
+    "address": "National Bank of Commerce Limited, Tanzania"
+  },
+  "eligibility": "Open to all registered suppliers. Must demonstrate experience in banking software and credit origination systems.",
+  "key_dates": {
+    "supplier_questions_deadline": "2026-03-09",
+    "bank_response_to_questions": "TBD",
+    "proposal_submission_deadline": "2026-03-13T16:00:00+03:00",
+    "proposal_validity": "90 days from submission date"
+  },
+  "submission_requirements": "One original hard copy and one additional filled copy, both enclosed in sealed envelopes. Must be submitted no later than Friday, 13th March 2026 at 1600 hrs.",
+  "mandatory_requirements": [
+    "Annual audited financial statements",
+    "List of offices across regions",
+    "Evidence of at least 5 successfully completed similar projects",
+    "Detailed support and training plan",
+    "Annual returns submitted to relevant regulatory body"
+  ],
+  "bid_security": "Required (amount specified in RFP document)",
+  "scraped_at": "2026-03-13T06:00:00Z",
+  "last_checked": "2026-03-13T19:53:37Z"
+}

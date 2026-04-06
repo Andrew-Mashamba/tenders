@@ -1,0 +1,31 @@
+{
+  "tender_id": "AJIRALEO-2026-002",
+  "institution": "ajiraleo",
+  "title": "Request for Expressions of Interest - External Auditor (LEAT)",
+  "description": "Lawyers' Environmental Action Team (LEAT) seeks an independent external audit firm to conduct financial audit. Based in Dar es Salaam, Tanzania.",
+  "reference_number": "LEAT/AUDIT/2026",
+  "published_date": "2026-02-02",
+  "closing_date": "2026-02-14",
+  "closing_time": "23:59 EAT",
+  "category": "Audit/Consultancy",
+  "status": "closed",
+  "source_url": "https://ajiraleo.co.tz/jobs/opportunities-at-leat-february-2026/",
+  "documents": [
+    {
+      "filename": "Consultancy-of-External-Audit-Proposal-LEAT-2025.pdf",
+      "original_url": "https://ajiraleo.co.tz/wp-content/uploads/2026/02/AJIRALEO.CO_.TZ_Consultancy-of-External-Audit-Proposal-LEAT-2025.pdf",
+      "local_path": "./downloads/AJIRALEO-2026-002/original/Consultancy-of-External-Audit-Proposal-LEAT-2025.pdf",
+      "file_size_bytes": 161873,
+      "downloaded_at": "2026-03-13T17:23:46Z",
+      "content_type": "application/pdf"
+    }
+  ],
+  "contact": {
+    "name": "Lawyers' Environmental Action Team (LEAT)",
+    "email": "info@leat.or.tz",
+    "phone": "+255222780859"
+  },
+  "eligibility": "Qualified audit firms",
+  "scraped_at": "2026-03-13T17:23:46Z",
+  "last_checked": "2026-03-13T17:23:46Z"
+}

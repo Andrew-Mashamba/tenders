@@ -1,0 +1,26 @@
+{
+  "tender_id": "TEITI-2022-001",
+  "institution": "teiti",
+  "title": "Invitation For EOI Consulting Services",
+  "description": "Expression of interest for consulting services.",
+  "published_date": "2022-09-19",
+  "closing_date": "2022-10-04",
+  "category": "Consulting",
+  "status": "closed",
+  "source_url": "http://teiti.go.tz/tenders",
+  "documents": [
+    {
+      "filename": "eoi_consulting.pdf",
+      "original_url": "http://teiti.go.tz/storage/app/uploads/public/632/846/a91/632846a9156ba117863106.pdf",
+      "local_path": "institutions/teiti/downloads/TEITI-2022-001/original/eoi_consulting.pdf",
+      "downloaded_at": "2026-03-15T11:12:00Z",
+      "content_type": "application/pdf"
+    }
+  ],
+  "contact": {
+    "email": "info@teiti.go.tz",
+    "phone": "0151663326"
+  },
+  "scraped_at": "2026-03-15T11:12:00Z",
+  "last_checked": "2026-03-15T11:12:00Z"
+}

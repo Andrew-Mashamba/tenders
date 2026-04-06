@@ -1,0 +1,21 @@
+{
+  "tender_id": "KJRO-2026-001",
+  "institution": "kjro",
+  "title": "Tender notice from HOME -",
+  "description": "",
+  "published_date": "2026-03-14",
+  "closing_date": "",
+  "source_url": "https://kjro.or.tz/",
+  "status": "active",
+  "documents": [
+    {
+      "filename": "End-of-year-2025-KJRO.pdf",
+      "original_url": "https://kjro.or.tz/wp-content/uploads/2026/01/End-of-year-2025-KJRO.pdf",
+      "local_path": "downloads/KJRO-2026-001/original/End-of-year-2025-KJRO.pdf"
+    }
+  ],
+  "contact": {
+    "email": "info@kjro.or.tz"
+  },
+  "scraped_at": "2026-03-14T05:02:00.863456+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "tender_id": "SCHOOLOFSTJUDE-2025-003",
+  "institution": "schoolofstjude",
+  "title": "Supply of Stationeries to the School of St Jude",
+  "description": "Tenders are invited for the supply of stationery to the School of St Jude, Moshono, Arusha, Tanzania.",
+  "reference_number": "TSOSJ/2025/Stationeries /10",
+  "published_date": "2025-09-01",
+  "closing_date": "2025-10-08",
+  "closing_time": "10:30 am",
+  "category": "Supplies",
+  "status": "closed",
+  "source_url": "https://www.schoolofstjude.org/tenders/",
+  "documents": [
+    {
+      "filename": "Tender-advert-Stationeries.pdf",
+      "original_url": "https://www.schoolofstjude.org/wp-content/uploads/2025/10/Tender-advert-Stationeries.pdf",
+      "local_path": "./downloads/SCHOOLOFSTJUDE-2025-003/original/Tender-advert-Stationeries.pdf",
+      "file_size_bytes": 526950,
+      "downloaded_at": "2026-03-15T13:27:00Z",
+      "content_type": "application/pdf"
+    }
+  ],
+  "contact": {
+    "email": "purchasing@schoolofstjude.co.tz"
+  },
+  "scraped_at": "2026-03-15T13:27:00Z",
+  "last_checked": "2026-03-15T13:27:00Z"
+}

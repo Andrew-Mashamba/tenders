@@ -1,0 +1,17 @@
+{
+  "tender_id": "NAFAKAKI-2026-001",
+  "institution": "nafakakilimo",
+  "title": "Tender/Procurement documents - nafakakilimo",
+  "description": "Documents found on tender page.",
+  "published_date": "2026-03-15",
+  "closing_date": "",
+  "source_url": "https://nafakakilimo.or.tz/",
+  "document_links": [
+    "https://nafakakilimo.or.tz/assets/docs/NKJobAnnouncementPost 20240225.pdf",
+    "https://nafakakilimo.or.tz/assets/docs/NKJobAnnouncementPost 20250225.pdf"
+  ],
+  "contact": {},
+  "status": "active",
+  "scraped_at": "2026-03-15T09:08:59.003795+00:00",
+  "documents": []
+}

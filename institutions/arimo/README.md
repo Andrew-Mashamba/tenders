@@ -1,0 +1,213 @@
+---
+institution:
+  name: "Ardhi Institute Morogoro (ARIMO)"
+  slug: "arimo"
+  category: "Educational Institution"
+  status: "active"
+  country: "Tanzania"
+  domain: "arimo.ac.tz"
+
+website:
+  homepage: "https://arimo.ac.tz/"
+  tender_url: "https://arimo.ac.tz/"
+
+contact:
+  email: "daniel.chikaka@ega.go.tz"
+  phone: "+255232600076
+  "
+
+scraping:
+  enabled: true
+  method: "http_get"
+  strategy: "Scrape https://arimo.ac.tz/ for tender/procurement notices. Documents are in /uploads/publications/ with pattern en{timestamp}-{filename}.pdf. Follow dropdown links for tender pages."
+  selectors:
+    container: ".content, main, .entry-content, .page-content, article"
+    tender_item: "article, .tender-item, .card, .dropdown-item, li"
+    title: "h2, h3, h4, .tender-title, a"
+    date: ".date, .closing-date, .published, time"
+    document_link: 'a[href$=".pdf"], a[href$=".doc"], a[href$=".docx"], a[href*="/uploads/"]'
+    pagination: ".pagination a, a.next, .nav-links a" 
+  schedule: "daily"
+
+  anti_bot:
+    requires_javascript: false
+    has_captcha: false
+    rate_limit_seconds: 10
+
+  documents:
+    download_enabled: true
+    download_path: "./downloads/"
+    naming: "{{date}}_{{title}}_{{filename}}"
+
+    file_types:
+      - ".pdf"
+      - ".doc"
+      - ".docx"
+      - ".xls"
+      - ".xlsx"
+      - ".zip"
+      - ".rar"
+
+    url_discovery:
+      follow_links: true
+      link_selectors:
+        - 'a[href$=".pdf"]'
+        - 'a[href$=".doc"]'
+        - 'a[href$=".docx"]'
+        - 'a[href$=".xls"]'
+        - 'a[href$=".xlsx"]'
+        - 'a[href$=".zip"]'
+        - 'a[href*="/storage/"]'
+        - 'a[href*="/uploads/"]'
+        - 'a[href*="/media/"]'
+        - 'a[href*="/wp-content/uploads/"]'
+        - 'a[href*="/download"]'
+        - 'a[download]'
+      resolve_redirects: true
+      decode_percent_encoding: true
+
+    url_patterns:
+      - "arimo.ac.tz/uploads/publications/*.pdf"
+      - "arimo.ac.tz/uploads/publications/en*.pdf"
+
+    known_document_paths:
+      - "/uploads/publications/"
+
+    download_rules:
+      max_file_size_mb: 50
+      timeout_seconds: 60
+      retry_attempts: 3
+      skip_duplicates: true
+      verify_content_type: true
+      allowed_content_types:
+        - "application/pdf"
+        - "application/msword"
+        - "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        - "application/vnd.ms-excel"
+        - "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        - "application/zip"
+        - "application/octet-stream"
+
+    document_notes: |
+      Documents in /uploads/publications/ with pattern en{timestamp}-{filename}.pdf. Example: en1762517186-Second Round Verified Candidates 2025-2026.pdf. Tender page may be in dropdown menu. Fetch failed (SSL/timeout) during analysis—selectors may need verification.
+
+  output:
+    format: "json"
+    fields:
+      - tender_id
+      - title
+      - description
+      - published_date
+      - closing_date
+      - category
+      - document_links
+      - contact_info
+
+social_media:
+  facebook: "arimoonline"
+  twitter: "ArimoOnline"
+  instagram: "arimoonline"
+
+notes: |
+  some page description here
+---
+
+# Home |Ardhi Institute Morogoro
+
+**Category:** Educational Institution
+**Website:** https://arimo.ac.tz/
+**Tender Page:** https://arimo.ac.tz/
+**Keywords Found:** tender
+
+## Contact Information
+- Email: daniel.chikaka@ega.go.tz
+- Phone: +255232600076
+  
+- Phone: 025-2026 
+- Phone: 025 - 2026 
+- Phone: +255232603061
+  
+
+## Scraping Instructions
+
+**Strategy:** Scrape https://arimo.ac.tz/ for tender/procurement notices.
+**Method:** http_get
+
+some page description here
+
+### Tender Content Preview
+
+> > Research papers Tender Brochure Application Forms <a class='dropdown-toggle'
+
+### Document Links Found
+
+- https://arimo.ac.tz/uploads/publications/en1762517186-Second Round Verified Candidates 2025-2026.pdf
+- https://arimo.ac.tz/uploads/publications/en1758274487-ARDHI INSTITUTE MOROGORO Financial Statement for 2022_.pdf
+- https://arimo.ac.tz/uploads/publications/en1758274723-ARDHI INSTITUTE MOROGORO Financial Statement for 2023.pdf
+- https://arimo.ac.tz/uploads/publications/en1758274886-ARDHI INSTITUTE MOROGORO Financial Statement for 2024.pdf
+- https://arimo.ac.tz/uploads/publications/en1755701539-Application Form 2025 - 2026 (Second Round).pdf
+
+## Document Download Instructions
+
+The scraper MUST download all linked documents from tender pages, not just scrape metadata.
+
+**File types to download:** PDF, DOC, DOCX, XLS, XLSX, ZIP
+**Storage:** Save to `./downloads/` within this institution folder
+**Naming convention:** `{date}_{title}_{original_filename}`
+
+### Key behaviors:
+1. **Follow all document links** on tender listing pages and individual tender detail pages
+2. **Resolve redirects** — some download links redirect through CDN or auth endpoints
+3. **Decode percent-encoded URLs** (e.g., `%20` → space) for readable filenames
+4. **Check for documents in iframes or embedded viewers** that may wrap a PDF URL
+5. **Download attachments from detail pages** — some tenders only show a summary on the listing page with full documents on a detail/inner page
+6. **Skip duplicates** based on URL and file hash to avoid re-downloading
+
+Document storage paths not yet identified. Check tender detail pages for download links.
+
+## Folder Structure
+
+After scraping, this institution folder MUST be organized as follows:
+
+```
+arimo/
+├── README.md                          # This file — scraper config & instructions
+├── tenders/
+│   ├── active/                        # Currently open tenders
+│   │   ├── {tender_id}.json           # Structured tender metadata
+│   │   └── ...
+│   ├── closed/                        # Past/expired tenders (auto-moved after closing_date)
+│   │   ├── {tender_id}.json
+│   │   └── ...
+│   └── archive/                       # Historical tenders older than 90 days
+│       ├── {tender_id}.json
+│       └── ...
+├── downloads/
+│   ├── {tender_id}/                   # One subfolder per tender
+│   │   ├── original/                  # Raw downloaded files (never modified)
+│   │   │   ├── tender_document.pdf
+│   │   │   └── ...
+│   │   └── extracted/                 # AI-extracted text/data from documents
+│   │       ├── tender_document.txt    # Plain text extraction
+│   │       ├── summary.json           # AI-generated structured summary
+│   │       └── key_dates.json         # Extracted dates & deadlines
+│   └── ...
+├── scrape_log.json                    # History of all scrape runs
+└── last_scrape.json                   # Last scrape result snapshot
+```
+
+## Post-Scrape Actions
+
+After EACH successful scrape:
+
+1. **Organize tenders by status** — active/closed/archive based on closing_date
+2. **Extract text from documents** — PDF→txt, DOCX→txt, XLSX→json
+3. **Generate summary.json** with AI-extracted fields
+4. **Update last_scrape.json** and **append to scrape_log.json**
+5. **Update global active_tenders.md** index
+
+## Status
+
+- **Last Checked:** 13 March 2026
+- **Active Tenders:** To be scraped
+- **Signal Strength:** Strong (tender)

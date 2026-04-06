@@ -1,0 +1,23 @@
+{
+  "tender_id": "CHUNYADC-2022-004",
+  "institution": "chunyadc",
+  "title": "TANGAZO LA MWALIKO WA ZABUNI YA KUMPATA MZABUNI WA KUVISHA MIFUGO HERENI.",
+  "description": "",
+  "published_date": "May 30, 2022",
+  "closing_date": "June 02, 2022",
+  "category": "General",
+  "status": "active",
+  "source_url": "https://chunyadc.go.tz/tenders",
+  "documents": [
+    {
+      "original_url": "https://chunyadc.go.tz/storage/app/uploads/public/629/4d0/6f3/6294d06f3d628151817145.pdf",
+      "local_path": "/Volumes/DATA/PROJECTS/TENDERS/institutions/chunyadc/downloads/CHUNYADC-2022-004/original/6294d06f3d628151817145.pdf"
+    }
+  ],
+  "contact": {
+    "email": "ded@chunyadc.go.tz",
+    "phone": "025 2520121 "
+  },
+  "scraped_at": "2026-03-15T05:24:23Z",
+  "last_checked": "2026-03-15T05:24:23Z"
+}

@@ -1,0 +1,34 @@
+{
+  "tender_id": "COOP-2025-002",
+  "institution": "coop-bank",
+  "title": "Proposal for Communication Facility from Mobile Network Providers",
+  "description": "The bank seeks mobile network provider proposals for corporate communications. Key requirements include corporate voice bundles for internal and external calls, corporate data packages for smartphones, tablets, and mobile broadband, 4G/5G internet connectivity for remote teams and branches, device leasing or purchase options (smartphones, WiFi routers, SIM cards), service reporting tools with usage tracking and analytics dashboards, and 24/7 customer support with SLA guarantees. Scope objectives: ensuring business continuity, reliable staff communication, improved coordination, reduced reimbursement claims, and standardized mobile usage control.",
+  "reference_number": null,
+  "published_date": "2025-09-17",
+  "closing_date": "2025-09-22",
+  "closing_time": "14:00 EAT",
+  "category": "Telecommunications",
+  "status": "archived",
+  "source_url": "https://coopbank.co.tz/proposal-for-communication-facility-from-mobile-network-providers/",
+  "documents": [
+    {
+      "filename": "Communication-Facility-RFP-Coop-Bank_.docx",
+      "original_url": "https://coopbank.co.tz/wp-content/uploads/2025/09/Communication-Facility-RFP-Coop-Bank_.docx",
+      "local_path": "./downloads/COOP-2025-002/original/Communication-Facility-RFP-Coop-Bank_.docx",
+      "file_size_bytes": 99120,
+      "downloaded_at": "2026-03-13T07:23:00Z",
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "sha256": "cb00aa20737e99ebc4110a188310f71b8d088cac4d404cfd8aa702f395d30a59"
+    }
+  ],
+  "contact": {
+    "name": "Procurement Department",
+    "email": null,
+    "phone": "+255 (27) 275 4470",
+    "address": null
+  },
+  "eligibility": null,
+  "bid_security": null,
+  "scraped_at": "2026-03-13T07:23:00Z",
+  "last_checked": "2026-03-13T07:23:00Z"
+}

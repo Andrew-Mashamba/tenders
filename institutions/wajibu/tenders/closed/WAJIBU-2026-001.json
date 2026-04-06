@@ -1,0 +1,19 @@
+{
+  "tender_id": "WAJIBU-2026-001",
+  "institution": "wajibu",
+  "title": "Annual Procurement Plan 2025",
+  "description": "WAJIBU has allocated TZS 1,766,571,772 for procurement of goods (8 tenders), non-consultancy services (3 tenders), and consultancy services (5 tenders) in 2025.",
+  "published_date": "2025-01-01",
+  "closing_date": "2025-12-31",
+  "status": "active",
+  "source_url": "https://www.wajibu.or.tz/opportunities/procurement-plan",
+  "documents": [
+    {
+      "filename": "ANNUAL_PROCUREMENT_PLAN_2025.xls",
+      "original_url": "https://www.wajibu.or.tz/ANNUAL%20PROCUREMENT%20PLAN%202025.xls",
+      "local_path": "./downloads/WAJIBU-2026-001/original/ANNUAL_PROCUREMENT_PLAN_2025.xls"
+    }
+  ],
+  "contact": {"email": "info@wajibu.or.tz", "phone": "+255 736 666916"},
+  "scraped_at": "2026-03-15T11:50:00Z"
+}

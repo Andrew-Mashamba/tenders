@@ -1,0 +1,28 @@
+{
+  "tender_id": "NMB-2026-003",
+  "institution": "nmb-bank",
+  "institution_name": "National Microfinance Bank (NMB)",
+  "title": "Prequalification of Building Contractors & Consultants - NMB Bank Tanzania",
+  "description": "NMB Bank Plc invites applications for prequalification of building contractors and consultants. This appears to be a separate or re-advertisement of building contractor and consultant prequalification for NMB Bank's operations across Tanzania.",
+  "reference_number": null,
+  "published_date": "2026-01-19",
+  "closing_date": null,
+  "closing_time": null,
+  "category": "Construction & Consulting",
+  "status": "active",
+  "source_url": "https://www.nmbbank.co.tz/tenders",
+  "alternative_source_url": "https://mabumbe.net/tenders/prequalification-of-building-contractors-consultants-nmb-bank-tanzania-january-2026/",
+  "documents": [],
+  "contact": {
+    "name": "Secretary, NMB Bank Plc Management Tender Committee",
+    "email": "procurement@nmbtz.com",
+    "phone": "+255 22 232765",
+    "address": "NMB Head Office, Ohio/Ali Hassan Mwinyi Road, PO Box 9213, Dar es Salaam, Tanzania"
+  },
+  "eligibility": "Based on historical prequalification requirements: Valid registration certificate, business license, certificate of incorporation, TIN, VAT registration. Minimum 3 years experience. Audited financial statements.",
+  "bid_security": null,
+  "scraped_at": "2026-03-13T06:00:00Z",
+  "last_checked": "2026-03-15T22:01:15Z",
+  "scrape_notes": "Primary source (nmbbank.co.tz) blocked by Cloudflare. Tender found via mabumbe.net aggregator. Detail page paywalled. Closing date and full documents unavailable - recommend checking nmbbank.co.tz directly or contacting procurement@nmbtz.com. This may be related to NMB-2026-002 (re-advertisement or separate category).",
+  "raw_html": null
+}

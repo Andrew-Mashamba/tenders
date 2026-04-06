@@ -1,0 +1,35 @@
+{
+  "tender_id": "MAENDELEO-2026-001",
+  "institution": "maendeleo-bank",
+  "title": "Proposal for Valuation, Auctioneering and Surveying Services",
+  "description": "Maendeleo Bank Plc is pleased to invite qualified and experienced Valuers, Auctioneers, Surveyors to submit proposals for the provision of professional services to support the Bank's operational and business needs. Services include: Valuation Services (land, buildings, motor vehicles, equipment, movable/immovable assets), Auctioneering Services (disposal of non-performing assets, repossessed collateral, surplus items), and Surveying Services (land and property surveys, boundary verifications).",
+  "reference_number": null,
+  "published_date": "2025-04-01",
+  "closing_date": "2025-04-25",
+  "closing_time": null,
+  "category": "Professional Services",
+  "status": "archive",
+  "source_url": "https://maendeleobank.co.tz/index.php/tender/",
+  "documents": [
+    {
+      "filename": "TOR-FOR-VALUERS.pdf",
+      "original_url": "https://maendeleobank.co.tz/wp-content/uploads/2025/04/TOR-FOR-VALUERS.pdf",
+      "local_path": "./downloads/MAENDELEO-2026-001/original/TOR-FOR-VALUERS.pdf",
+      "file_size_bytes": 170032,
+      "downloaded_at": "2026-03-13T06:00:00Z",
+      "content_type": "application/octet-stream",
+      "sha256": "5ee06895485906f84d0afc2b7810ec27bb81f4f02bd1562ab8ceae11feed2cf3"
+    }
+  ],
+  "contact": {
+    "name": "Eva Mariki",
+    "title": "Secretary, Procurement Committee",
+    "email": "emariki@maendeleobank.co.tz",
+    "phone": "+255714956200",
+    "address": "Maendeleo Bank Plc, P.O. BOX 216, Dar es Salaam"
+  },
+  "eligibility": "Registered firms with: Registration Certificate, VRN Certificate, Tax Clearance, TIN & VAT, Memorandum & Articles of Association, Certificate of Incorporation, Current Business Licenses, Three recommendation letters, Professional Indemnity Insurance (Debt Collector TZS 300M, Valuer TZS 500M, Surveyor TZS 100M), Audited financial reports, Three years of experience, At least 3 references from financial sector.",
+  "bid_security": null,
+  "scraped_at": "2026-03-13T06:00:00Z",
+  "last_checked": "2026-03-13T06:00:00Z"
+}

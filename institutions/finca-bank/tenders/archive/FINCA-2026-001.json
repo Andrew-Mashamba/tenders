@@ -1,0 +1,25 @@
+{
+  "tender_id": "FINCA-2026-001",
+  "institution": "finca-bank",
+  "title": "Desktop Computers Supply Tender",
+  "description": "Supply of desktop computers",
+  "reference_number": null,
+  "published_date": "2024-06-14",
+  "closing_date": "2024-06-19",
+  "closing_time": null,
+  "category": "IT Equipment/Supplies",
+  "status": "archived",
+  "source_url": "https://finca.co.tz/tenders/",
+  "documents": [
+    {
+      "filename": "RFP-Desktop-Computers.docx",
+      "url": "https://finca.co.tz/wp-content/uploads/sites/13/2024/06/RFP-Desktop-Computers.docx",
+      "format": "DOCX",
+      "downloaded": true,
+      "local_path": "downloads/FINCA-2026-001/original/RFP-Desktop-Computers.docx"
+    }
+  ],
+  "contact": {},
+  "scraped_at": "2026-03-13T19:53:43Z",
+  "last_checked": "2026-03-13T19:53:43Z"
+}

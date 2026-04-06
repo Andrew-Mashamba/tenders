@@ -1,0 +1,18 @@
+{
+  "tender_id": "BLUEECONOMYSMZ-2026-001",
+  "institution": "blueeconomysmz",
+  "title": "Tender from WUBU Blue Economy",
+  "source_url": "https://blueeconomysmz.go.tz/service/utoaji-wa-vibali-vya-usafirishaji-wa-bidhaa-za-mazao-ya-baharini-nje-ya-nchi/",
+  "published_date": "2026-03-15",
+  "closing_date": null,
+  "status": "active",
+  "documents": [
+    {
+      "filename": "VIINGILIO-VYA-MAENEO-YA-HIFADHI-ZA-BAHARI.pdf",
+      "original_url": "https://blueeconomysmz.go.tz/wp-content/uploads/2026/02/VIINGILIO-VYA-MAENEO-YA-HIFADHI-ZA-BAHARI.pdf",
+      "local_path": "institutions/blueeconomysmz/downloads/BLUEECONOMYSMZ-2026-001/original/VIINGILIO-VYA-MAENEO-YA-HIFADHI-ZA-BAHARI.pdf"
+    }
+  ],
+  "scraped_at": "2026-03-15T05:03:54Z",
+  "run_id": "run_20260315_060430_batch15"
+}

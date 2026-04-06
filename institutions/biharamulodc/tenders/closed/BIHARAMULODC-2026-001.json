@@ -1,0 +1,19 @@
+{
+  "tender_id": "BIHARAMULODC-2026-001",
+  "institution": "biharamulodc",
+  "title": "Tangazo kwa Umma",
+  "description": "",
+  "published_date": "February 14, 2023",
+  "closing_date": "February 22, 2023",
+  "category": "General",
+  "status": "closed",
+  "source_url": "https://biharamulodc.go.tz/tenders",
+  "documents": [
+    {
+      "original_url": "https://biharamulodc.go.tz/storage/app/uploads/public/63e/b86/efb/63eb86efb2faf413401100.pdf",
+      "local_path": "./downloads/BIHARAMULODC-2026-001/original/63eb86efb2faf413401100.pdf"
+    }
+  ],
+  "contact": {},
+  "scraped_at": "2026-03-15T04:59:32Z"
+}

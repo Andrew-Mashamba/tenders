@@ -1,0 +1,31 @@
+{
+  "tender_id": "NCULTD-2026-001",
+  "institution": "ncultd",
+  "title": "Construction Tender Announcement for Qualified Bidders",
+  "description": "Chama Kikuu cha Ushirika Nyanza (1984) Ltd invites qualified bidders to participate and submit their applications for the construction tender. Download attachment for more details.",
+  "reference_number": "",
+  "published_date": "",
+  "closing_date": null,
+  "closing_time": "",
+  "category": "Construction",
+  "status": "active",
+  "source_url": "https://website.ncultd.or.tz/slider/eyJpdiI6IlJOb1l4KzNhaGFLa2pMNVZ1amtaa2c9PSIsInZhbHVlIjoiRlorZmhMUjZZL05tMnQ1Y2VRbERmQT09IiwibWFjIjoiOTFmM2I3MWNiY2IxYTk2MWJjNmI0NWE4N2ZhZmM2ZDQ0ZDUyYmE1M2RiOTUxNDY1YWE2YzI4YzQxZDM1OGJhMSIsInRhZyI6IiJ9",
+  "documents": [
+    {
+      "filename": "1773388418_TENDER.pdf",
+      "original_url": "https://website.ncultd.or.tz/uploads/sliders/pdfs/1773388418_TENDER.pdf",
+      "local_path": "./downloads/NCULTD-2026-001/original/1773388418_TENDER.pdf",
+      "content_type": "application/pdf",
+      "downloaded_at": "2026-03-15T18:58:00.000000Z"
+    }
+  ],
+  "contact": {
+    "name": "NCU LTD",
+    "email": "info@ncultd.or.tz",
+    "phone": "0282500676",
+    "address": ""
+  },
+  "eligibility": "",
+  "scraped_at": "2026-03-15T18:58:00.000000Z",
+  "last_checked": "2026-03-15T18:58:00.000000Z"
+}

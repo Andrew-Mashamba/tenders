@@ -1,0 +1,3264 @@
+
+============================================================
+Batch: 7skiesenterprises, aaa, acbbank, acet, acmlining...
+
+All 10 institution READMEs are updated. Summary:
+
+## Summary of Updates
+
+### Disabled (Account Suspended)
+- **7skiesenterprises** — `scraping.enabled: false`, status `suspended`, note about suspended hosting
+- **acmlining** — `scraping.enabled: false`, status `suspended`, note about suspended hosting
+
+### Institutions with Updated Selectors & Strategy
+
+| Institution | Changes |
+|-------------|---------|
+| **aaa** (Triple A Architects) | Adjusted strategy for Wix-style site without a tender section; refined selectors |
+| **acbbank** (Akiba Commercial Bank) | Selectors for PDF viewer iframe; `document_link`: `a.fullscreen-mode`, `iframe.pvfw-pdf-viewer-frame[src]`; `known_document_paths`: `/pdfviewer/`, `/wp-content/uploads/` |
+| **acet** | WordPress/Elementor selectors; `known_document_paths`: `/wp-content/uploads/`; document link selectors for DOWNLOAD DOCUMENT |
+| **actanzania** | `tender_url` set to `https://actanzania.or.tz/index.php/act-news-media`; Joomla/K2 selectors (`.article`, `.dropfiles-file-link`); `known_document_paths`: `/index.php/files/` |
+| **adctanzania** | Elementor selectors for “Our Opportunities”; note that procurement is currently empty |
+| **adelante** | WordPress/Elementor selectors; `known_document_paths`: `/wp-content/uploads/` |
+| **advansmart** | WordPress selectors; `known_document_paths`: `/wp-content/uploads/`; strategy to check blog and categories |
+| **aesl** | `tender_url` set to `https://aesl.co.tz/`; contact email corrected; `known_document_paths`: `/wp-content/uploads/` |
+
+### Institution Names Corrected
+- **7skiesenterprises** → "7 Skies Enterprises"
+- **acmlining** → "ACM Lining"
+- **acbbank** → "Akiba Commercial Bank"
+- **actanzania** → "Agricultural Council of Tanzania (ACT)"
+- **aesl** → "Advanced Engineering Solutions (AESL)"
+- **aaa** → "Triple A Architects"
+
+### `anti_bot.requires_javascript`
+Left as `false` for all institutions; no React/Angular/Vue SPA structure was found.
+
+============================================================
+Batch: afrifairsafaris, afroilgroup, afyadepot, afyaplustz, agenergies...
+ **Tender URL:** `https://afyaplustz.or.tz/reports.html`
+- **Strategy:** Scrape reports page; documents in `/assets/pdf/`
+- **Selectors:** `.reports-section`, `.report-card`, `a[href*="/assets/pdf/"]`
+- **Document paths:** `/assets/pdf/`
+- **Document notes:** Load More shows 8 of 24 reports initially
+
+### 5. **agenergies**
+- **Strategy:** Static HTML; no tender page; check `/about`, `/news`
+- **Selectors:** `#box_wrapper`, `.container`, `.service-shortcode`
+- **Document paths:** `/upload/`, `/frontend/`
+
+### 6. **agim**
+- **Strategy:** Wix-style site; check LATEST ARTICLES for bid/EOI notices
+- **Selectors:** `main`, `[data-block-type='article']`
+
+### 7. **agitf**
+- **Institution name:** Agricultural Inputs Trust Fund (AGITF)
+- **Strategy:** Scrape Machapisho (downloads), Matangazo (announcements), Habari (news)
+- **Selectors:** `a[href*='uploads/documents']`, `a[href*='announcements']`
+- **Document paths:** `/uploads/documents/` (pattern: `sw-{timestamp}-{filename}.pdf`)
+- **URL patterns:** `agitf.go.tz/uploads/documents/sw-*.pdf`
+
+### 8. **agricom**
+- **Strategy:** Astro SPA; content loaded client-side; may need headless browser
+- **Anti-bot:** `requires_javascript: true`
+
+### 9. **airtanzania**
+- **Strategy:** Joomla; `/tenders` page exists but `itemprop="articleBody"` is empty in static HTML
+- **Selectors:** `#content`, `.item-page`, `main.main-wrapper`
+- **Document notes:** Content may load via JS or Joomla component
+
+### 10. **ajira**
+- **Institution name:** Public Service Recruitment Secretariat (PSRS)
+- **Strategy:** Government portal; documents in `/baseattachments/` subdirs
+- **Document paths:** `/baseattachments/placementsattachments/`, `article_attachments/`, `interviewattachments/`, `advertisementattachments/`
+- **Document notes:** Site timed out during fetch; may need retry/backoff
+
+All updates keep the existing README layout (YAML frontmatter + markdown body) and only change fields where the live site analysis provided better or more specific values.
+
+============================================================
+Batch: aquila, archvistaconsults, arfracompanyltd, arimo, aru...
+tterns`, `document_notes`, and `document_link` selector updated.
+
+### **aru** — Scraping enabled
+- **Finding:** Page fetch failed (SSL/timeout). Document paths from README: `/uploads/documents/`, `/uploads/announcements/`, `/uploads/text-editor/files/`.
+- **Updates:** Institution name set to "Ardhi University (ARU)", `known_document_paths`, `url_patterns`, strategy, and `document_notes` updated.
+
+### **arushafair** — Scraping enabled
+- **Finding:** Event site (vendor applications, sponsorships). Documents in `_files/ugd/` (Google Sites style).
+- **Updates:** Institution name set to "Arusha Christmas Fair", selectors, `url_patterns`, `known_document_paths`, and `document_notes` updated.
+
+### **arushameat** — Scraping enabled
+- **Finding:** Single tender page with WordPress Divi. Title in `h1.et_pb_module_header`, date in same heading (e.g. "imetolewa 16/10/2025"), download button may use `href="#"` and load via JS.
+- **Updates:** Institution name set to "Arusha Meat Company", selectors (`article.hentry`, `h1.et_pb_module_header`, `a.et_pb_button`), `url_patterns`, `known_document_paths`, and `document_notes` updated.
+
+### **asanterabi** — Scraping disabled
+- **Finding:** Page shows "Please wait" and OTP form; content is JS-rendered (SPA).
+- **Updates:** `scraping.enabled: false`, `anti_bot.requires_javascript: true`, strategy and `document_notes` updated.
+
+### **ask-tz** — Scraping disabled
+- **Finding:** Site offline ("board temporarily unavailable, undergoing maintenance").
+- **Updates:** `scraping.enabled: false`, institution name set to "Ask (ask.tz)", strategy and `document_notes` updated.
+
+### **ask.tz** — Scraping disabled
+- **Finding:** Same offline/maintenance message as ask-tz.
+- **Updates:** `scraping.enabled: false`, institution name set to "Ask (ask.or.tz)", strategy and `document_notes` updated.
+
+---
+
+**Scraping status:** 4 enabled (arimo, aru, arushafair, arushameat), 6 disabled (aquila, archvistaconsults, arfracompanyltd, asanterabi, ask-tz, ask.tz).
+
+============================================================
+Batch: astatine, atma, auditaxinternational, auki, aurasynergies...
+age; scrape homepage, about, services, and news
+
+### 6. **autofest**
+- **strategy:** Event brief PDF at `/Autofest_2025_Event_Brief.pdf`; look for exhibitor/vendor info
+- **selectors:** Adjusted for event content
+- **known_document_paths:** `/`
+- **url_patterns:** `autofest.co.tz/Autofest_*.pdf`
+- **document_notes:** Event brief at root; no dedicated tender list
+
+### 7. **azamtv**
+- **institution.name:** "Azam Media"
+- **strategy:** TV/media company; no dedicated tender page; check /careers, /about-us, /contact-us for EOI
+
+### 8. **azaniabank**
+- **institution.name:** "Azania Bank"
+- **selectors:** Accordion toggles: `.cmsmasters_toggle_wrap`, `.cmsmasters_toggle_title`, `.cmsmasters_toggle_inner a[href$=".pdf"]`
+- **known_document_paths:** `/wp-content/uploads/`
+- **url_patterns:** `azaniabank.co.tz/wp-content/uploads/*/*/*.pdf`
+- **document_notes:** WordPress; tender documents use Tender Document, Tender Notice, Pre-qualification labels
+
+### 9. **b2zlogistics**
+- **institution.name:** "B2Z Logistics"
+- **strategy:** Company profile PDF at `/media/attachments/2022/12/05/b2z-logistics-company-profile.pdf`
+- **selectors:** Adjusted for service/about content
+- **known_document_paths:** `/media/attachments/`
+- **url_patterns:** `b2zlogistics.co.tz/media/attachments/*/*/*/*.pdf`
+- **document_notes:** Documents in `/media/attachments/YYYY/MM/DD/`
+
+### 10. **babatidc**
+- **institution.name:** "Babati District Council"
+- **selectors:** October CMS: `.right-sidebar-content`, `.col-md-9`, `.right-sidebar-container`; documents via `a[href*="/storage/app/uploads/"]`
+- **known_document_paths:** `/storage/app/uploads/public/`
+- **url_patterns:** `babatidc.go.tz/storage/app/uploads/public/*/*/*/*`
+- **document_notes:** October CMS; hash-based document paths; page may default to Kiswahili; TISS form URL noted
+
+All READMEs keep their existing structure (YAML frontmatter + markdown body). `anti_bot.requires_javascript` remains `false` for all, since none use React/Angular/Vue SPAs.
+
+============================================================
+Batch: babatitc, bagamoyo, bahidc, baistaradvocates, bakhita...
+
+
+============================================================
+Batch: basf, bcdtravel, beach, beiyako, biharamulodc...
+
+
+============================================================
+Batch: bluestone, bluesystems, bmz, bnc, boitanzania...
+edirects to `/esop/guest/login.do` (login required)
+- **notes:** Disabled until scraping with auth is supported
+
+### 4. **bnc**
+- **institution.name:** BN Company Limited
+- **selectors:** `.site-content`, `.elementor-section`, `.ast-article-post`
+- **known_document_paths:** `/wp-content/uploads/`
+- **document_notes:** Site appears compromised (hacked links); no tender listing
+
+### 5. **boitanzania**
+- **institution.name:** BOI Tanzania
+- **scraping.enabled:** `false`
+- **anti_bot:** `requires_javascript: true`, `has_captcha: true`
+- **strategy:** reCAPTCHA blocks automated access
+
+### 6. **bongonews**
+- **institution.name:** BONGO NEWS
+- **anti_bot:** `requires_javascript: true`
+- **selectors:** `#root`, `article`, `.post-item`
+- **strategy:** SPA (React/Vue); content loads via JS; tender content may appear in articles
+
+### 7. **bot** (Bank of Tanzania)
+- **selectors:** `.col-md-12.col-lg-12`, `table.dataTable tbody tr`, `.list-group-item`
+- **known_document_paths:** `/Adverts/PressRelease/`, `/webdocs/`, `/Publications/NPS/`, `/Publications/Filter/`
+- **url_patterns:** `www.bot.go.tz/*.pdf`, `/webdocs/*`, `/Adverts/*`, `/Publications/*`
+- **document_notes:** DataTables used when tenders exist; “No open tenders” when empty
+
+### 8. **bpc**
+- **selectors:** `section#procurement`, `.service-detail-section`
+- **strategy:** Procurement consulting service; no tender listing
+- **document_notes:** BPC offers procurement consulting, not tender postings
+
+### 9. **brandadhesive**
+- **institution.name:** Brand Adhesive
+- **scraping.enabled:** `false`
+- **strategy:** Account suspended by hosting provider
+
+### 10. **brightline**
+- **institution.name:** Bright line (Bus Company)
+- **selectors:** `.l-main-container`, `.container.my-4`, `.col-lg-12`
+- **known_document_paths:** `/assets/`
+- **document_notes:** Tender page content was empty; may be JS-populated or placeholder
+
+**Scraping disabled for:** bmz (login required), boitanzania (reCAPTCHA), brandadhesive (account suspended).
+
+============================================================
+Batch: brightvision, broadsecurity, buchosadc, bugando, buildmart...
+
+Summary of updates for all 10 institutions:
+
+## Summary of README Updates
+
+### Disabled (no scrapable content)
+1. **brightvision** — Account suspended. Set `scraping.enabled: false`, `institution.name: "Brightvision"`.
+2. **broadsecurity** — `/tenders` returns 404. Set `scraping.enabled: false`, corrected `tender_url` from WhatsApp link to `http://broadsecurity.co.tz/tenders`.
+3. **buildmart** — Homepage only; no tender listing. Set `scraping.enabled: false`.
+4. **bugando** — `procurement.php` is department info only, no tender list. Set `scraping.enabled: false`.
+
+### OctoberCMS/GWF table layout (verified)
+5. **buchosadc** — Table selectors: `table.table.table-striped`, `tbody tr`, `td:first-child` (title), `td:nth-child(3)` (expire date), `td:nth-child(4) a[href*="/storage/"]` (document). `known_document_paths: /storage/app/uploads/public/`.
+6. **bukobadc** — Same layout. `tender_url` set to `https://bukobadc.go.tz/tenders`.
+7. **bukobamc** — Same layout. `tender_url` set to `https://bukobamc.go.tz/tenders`.
+8. **bumbulidc** — Same layout, verified from HTML. `known_document_paths` and `url_patterns` updated.
+
+### Other
+9. **bukobadiocese** — Page returns tracking pixel (likely bot protection). Set `anti_bot.requires_javascript: true`.
+10. **bunge** — No `/zabuni` or `/tenders`. `tender_url` set to `https://www.parliament.go.tz/documents/press-release`. Document paths: `parliament.go.tz/uploads/documents/`, `polis.bunge.go.tz/uploads/bills/`, `polis.bunge.go.tz/uploads/documents/`.
+
+### Fields updated across institutions
+- **selectors**: container, tender_item, title, date, document_link, pagination
+- **known_document_paths**: where documents are stored
+- **url_patterns**: document URL patterns
+- **strategy**: per-institution scraping approach
+- **anti_bot.requires_javascript**: set for bukobadiocese
+- **document_notes**: notes on document layout
+- **institution.name**: cleaned names (e.g. "Bukoba District Council" instead of "Home | Bukoba District Council")
+
+============================================================
+Batch: buni, busbora, busegadc, busokelodc, cacla...
+` – Domain shows placeholder/sale page, no tender content |
+| **busbora** | `enabled: false` – `/about-us/tender` is the About Us page for a bus ticketing platform, no tender listings |
+| **cbe** | `enabled: false` – `/departments/procurement` is a departmental info page (curriculum, programmes), no tender listings |
+| **cbslaw** | `enabled: false` – Site returns "Account Suspended" |
+
+### Updated with site-specific config
+
+| Institution | Changes |
+|-------------|---------|
+| **busegadc** | Strategy clarified; selectors updated; `known_document_paths` consolidated; `document_notes` updated for October CMS `/storage/app/uploads/public/` pattern |
+| **busokelodc** | Institution name set to "Busokelo District Council"; strategy clarified; selectors updated; `known_document_paths` and `url_patterns` added; `document_notes` updated for October CMS storage pattern |
+| **cacla** | Institution name set to "Cacla Engineering Limited"; strategy updated for WordPress/Elementor; selectors: `#main`, `main.site-main`, `.elementor`; `known_document_paths`: `/wp-content/uploads/` |
+| **cashew** | Institution name set to "Bodi ya Korosho Tanzania (Tanzania Cashew Board)" |
+| **caspian** | Institution name set to "Taifa Mining"; strategy updated (homepage PDFs are compliance certs); selectors for Elementor; `known_document_paths`: `/wp-content/uploads/`; `url_patterns` updated for taifamining.co.tz |
+| **ccbrt** | Institution name set to "CCBRT Hospital"; `homepage` and `tender_url` updated to ccbrt.org and ccbrt.org/ccbrt-tenders/; selectors for Elementor; `known_document_paths` and `url_patterns` added |
+
+### Notes
+
+- **busegadc** and **busokelodc** – Fetch timed out; config kept and refined using existing README data.
+- **cashew** – Fetch timed out; only institution name updated.
+- **ccbrt** – Primary site is ccbrt.org (not ccbrt.or.tz); tenders page is under the Latest menu.
+- **caspian** – Uses taifamining.co.tz; homepage PDFs are compliance certificates, not tender documents.
+
+============================================================
+Batch: cdbbank, ceelstz, cgcla, chaibora, chamwinodc...
+ Economic Empowerment and Legal Support
+- **URLs:** `https://www.ceelstz.or.tz` (redirects from ceelstz.or.tz)
+- **Documents:** `/wp-content/uploads/`
+- **Note:** No dedicated tender page; WordPress site
+
+### **cgcla**
+- **Tender URL:** `https://cgcla.go.tz/` (was eprocurement login page)
+- **Documents:** `/image/pdf/` (lab forms, not procurement tenders)
+- **Note:** Eprocurement requires login; main site has lab registration forms
+
+### **chaibora**
+- **Scraping:** Disabled
+- **Tender URL:** `https://chaibora.co.tz/` (was CSS file)
+- **Reason:** Tea/coffee e-commerce; RFQ plugin is for product quotes, not tenders
+
+### **chamwinodc**
+- **Institution name:** Chamwino District Council
+- **Tender URL:** `https://chamwinodc.go.tz/tenders`
+- **Selectors:** `table tbody tr` for tenders; `a[href*="/storage/app/uploads/"]` for documents
+- **Documents:** `/storage/app/uploads/public/` (hash-based paths)
+
+### **chapakazi**
+- **Scraping:** Disabled
+- **Reason:** Next.js/React SPA (Bulk SMS platform); no tender content
+- **`requires_javascript`:** true
+
+### **chatozrh**
+- **Scraping:** Disabled
+- **Institution name:** Chato Zonal Referral Hospital
+- **Reason:** `/procurement` returns 500 Internal Server Error (InvalidFileNameException)
+- **Documents:** `/storage/app/media/` (when site is fixed)
+
+### **chragg**
+- **Institution name:** Tume ya Haki za Binadamu na Utawala Bora (THBUB)
+- **Tender URL:** `https://chragg.go.tz/pages/procurement-management-unit`
+- **Documents:** `/uploads/`
+
+### **chunyadc**
+- **Institution name:** Chunya District Council
+- **Selectors:** `.right-sidebar-content`, `table tbody`, `.home-page-title`
+- **Documents:** `/storage/app/uploads/public/` (hash paths)
+- **Note:** Same October CMS/mikumi theme as chamwinodc
+
+All READMEs keep their existing structure; only fields with better or more accurate values were changed. Scraping is disabled for **chaibora**, **chapakazi**, and **chatozrh** because they lack usable tender content or have unreachable pages.
+
+============================================================
+Batch: cits, cityengineering, clc, cloudsense, cmsa...
+r listing
+- **strategy:** Describes custom HTML structure (#content, #slider-revolution)
+- **selectors:** `#content`, `#wrapper`, `.tp-caption`
+- **document_notes:** No tender listing or document repository
+
+### 4. **cloudsense** (cloudsense.co.tz)
+- **strategy:** WordPress/Elementor, Porto theme, MasterSlider, WooCommerce
+- **selectors:** `.elementor`, `.e-con`, `.elementor-widget-wrap`
+- **document_link:** `a[href*="/wp-content/uploads/"]`
+- **known_document_paths:** `/wp-content/uploads/`
+- **url_patterns:** `cloudsense.co.tz/wp-content/uploads/*`
+- **document_notes:** Documents in `wp-content/uploads/`; no tender listing on homepage
+
+### 5. **cmsa** (cmsa.go.tz)
+- **institution.name:** "Capital Market and Securities Authority"
+- **strategy:** Fetch timed out; suggests checking `/tenders`, `/procurement`, `/zabuni`
+
+### 6. **codestudios** (codestudios.co.tz)
+- **institution.name:** "Code Studios (site under construction)"
+- **scraping.enabled:** `false` — site under construction
+- **strategy:** "Something new is taking shape" placeholder; re-enable when live
+
+### 7. **coffeecuring** (coffeecuring.co.tz)
+- **institution.name:** "Mbinga Coffee Curing Company Limited"
+- **strategy:** Coffee curing company; FAQ on auction process; no tender listing
+
+### 8. **coherent** (coherent.co.tz)
+- **institution.name:** "Coherent (site suspended)"
+- **scraping.enabled:** `false` — account suspended
+- **strategy:** Account suspended; contact webmaster; re-enable when restored
+
+### 9. **coreit** (coreit.co.tz)
+- **institution.name:** "CoreIT (domain placeholder)"
+- **scraping.enabled:** `false` — Virtualmin welcome page only
+- **strategy:** No website set up; re-enable when live
+
+### 10. **cosota** (cosota.go.tz)
+- **institution.name:** "COSOTA - Ofisi ya Hakimiliki Tanzania"
+- **strategy:** Fetch timed out; mentions "Taarifa Zabuni"; suggests checking `/publications/reports`
+
+**Scraping disabled for:** cits, clc, codestudios, coherent, coreit (no tender content or unreachable).
+
+============================================================
+Batch: costbenchmark, counsenuth, coyeta, cpi, cqs...
+outh Education in Tanzania (CoYETa)"
+
+### 4. **cpi**
+- **strategy:** LATEST NEWS ticker and ANNOUNCEMENTS; documents in `/doc/`
+- **selectors:** `ul#ticker01 li`, `article.browser`, `.latest_postnav li`
+- **document_link:** `a[href*="doc/"]`
+- **known_document_paths:** `/doc/`
+- **url_patterns:** `cpi.ac.tz/doc/*.pdf`
+- **institution.name:** "Comenius Polytechnic Institute (CPI)"
+
+### 5. **cqs**
+- **strategy:** No dedicated tender page; homepage and services list
+- **selectors:** `.service-item`, `.links a`
+- **document_notes:** Document paths TBD
+- **institution.name:** "CQS Service Limited – Quantity Surveyors & Construction Cost Consultants"
+
+### 6. **crb**
+- **strategy:** Notice Board with links to `/notice/ID`; follow notice pages for documents
+- **selectors:** `a[href*='/notice/']`, `table tr`
+- **url_patterns:** `crb.go.tz/notice/*`
+- **document_notes:** SSL issues possible; use retry/backoff
+- **institution.name:** "Contractors Registration Board (CRB)"
+
+### 7. **crdb**, **crdb-bank**, **crdbbank**
+- **strategy:** Bootstrap accordion `#accordionExample`; each tender in `div[id^='tenderAccordion']`
+- **selectors:**
+  - **container:** `#accordionExample`, `.accordion`
+  - **tender_item:** `div[id^='tenderAccordion']`, `.accordion-item`
+  - **title:** `.accordion-button`
+  - **date:** `span.font-bold`
+  - **document_link:** `a.pdf-icon`, `a[href*='storage/app/media/Tender']`
+- **known_document_paths:** `/storage/app/media/Tender/`
+- **url_patterns:** `crdbbank.co.tz/storage/app/media/Tender/*.pdf`
+- **document_notes:** Percent-encoded URLs; no pagination; "Tender is closed" on expired items
+- **institution.name:** "CRDB Bank PLC"
+
+### 8. **creditdebtmasters**
+- **scraping.enabled:** `false` — site shows "Account Suspended"
+- **strategy:** Site unreachable; re-enable when restored
+- **institution.name:** "Credit Debt Masters"
+
+All updates use selectors and structure observed on the live pages. `anti_bot.requires_javascript` stays `false` for all; none are SPAs.
+
+============================================================
+Batch: creditinfo, crowntech, crystal, crystaltechltd, cssc...
+
+Updates are complete for all 10 institutions. Summary:
+
+## Summary of README updates
+
+### Institutions with real tender pages (scraping enabled)
+
+| Institution | Changes |
+|-------------|---------|
+| **cssc** | Selectors: `section.section-bg .container .row.items`, `.reviews-item.item-style`, `h4.reviews-item-name`, `.reviews-item-position span`, `a[href*="/download/tenders/"]`. Document path: `/mainsite/public/download/tenders/`. Institution name: "Christian Social Services Commission (CSSC)". |
+| **csscedu** | Same selectors as CSSC (shared tenders page). Document path and URL patterns updated. |
+| **cucom** | Tender URL set to homepage. Selectors: `div.ho-event`, `div.ho-ev-link`, `a[href*="/cm-posts/"]`. Document path: `/cm-posts/`. Notes on date in preceding sibling and filtering for zabuni. |
+
+### Institutions disabled (no tender content)
+
+| Institution | Reason |
+|-------------|--------|
+| **creditinfo** | Credit bureau; no tender page; "tender" only in case study text. |
+| **crowntech** | Consulting firm; "procurement" refers to services, not tenders. |
+| **crystal** | Page blocked by Cloudflare (jimdofree.com). |
+| **crystaltechltd** | `procurement.html` is LABUSA US government contracts, not Tanzania tenders. |
+| **cti** | Confederation of Tanzania Industries; no tender listing page. |
+| **cybergentraining** | IT training site; no tender listings. |
+| **cyclo** | Page returns only cookie banner; likely needs JavaScript. Set `requires_javascript: true`. |
+
+### Fields updated across institutions
+
+- **selectors**: container, tender_item, title, date, document_link, pagination
+- **known_document_paths**: Where documents are stored
+- **url_patterns**: Document URL patterns
+- **strategy**: Scraping approach
+- **anti_bot.requires_javascript**: Set for cyclo
+- **document_notes**: Notes on document layout
+- **institution.name**: Corrected where possible
+
+============================================================
+Batch: dailynews, dar-express, daracademic, daraja, darceramica...
+notes`
+
+### 2. **darceramica**
+- Set `scraping.enabled: false` (WooCommerce tiles/sanitary site, no tender section)
+- Set `institution.name` to "Dar Ceramica"
+- Updated strategy and `document_notes` (product datasheets at `/wp-content/uploads/`, not tenders)
+
+### 3. **darshopping**
+- Set `scraping.enabled: false` (e‑commerce marketplace, no tender section)
+- Set `institution.name` to "Dar Shopping"
+- Updated strategy and `document_notes`
+
+### 4. **dart**
+- Left `scraping.enabled: true` (government site)
+- Updated strategy with SSL/unreachability note and document paths
+- Updated `document_notes` for `/uploads/routes/*.pdf` and SSL retry guidance
+
+### 5. **dataskycollege**
+- Set `scraping.enabled: false` (APPLICATION-FORM.docx is for student enrollment, not procurement)
+- Set `institution.name` to "Datasky College"
+- Updated strategy and `document_notes`
+
+### 6. **datavillage**
+- Set `scraping.enabled: false` (service quotation form for clients, not tender listings)
+- Updated strategy and `document_notes` (price list at `/assets/images/products/priceList/`)
+
+### 7. **dautechnology**
+- Set `scraping.enabled: false` (ICT portfolio; “tender” refers to mtojo search feature, not tender listings)
+- Set `institution.name` to "Dau Technology LLC"
+- Updated strategy and `document_notes`
+
+### Institutions with scraping disabled (8 of 10)
+- **dailynews** – kept enabled (tender/RFI notices as news articles)
+- **dar-express** – disabled (bus booking, no tenders)
+- **daracademic** – disabled (account suspended)
+- **daraja** – disabled (empty WordPress site)
+- **darceramica** – disabled (product catalog)
+- **darshopping** – disabled (e‑commerce)
+- **dataskycollege** – disabled (enrollment forms only)
+- **datavillage** – disabled (quotation form)
+- **dautechnology** – disabled (portfolio site)
+
+### Institutions with scraping enabled (2 of 10)
+- **dailynews** – news articles with tender/RFI notices
+- **dart** – government site (may have SSL issues; strategy updated with retry notes)
+
+============================================================
+Batch: dawasa, dcbrilliant, dcc, dctmvumi, ddca...
+ent_link:** added `a[href*="/media/pdf/"]`
+- **known_document_paths:** `/media/pdf/`
+- **document_notes:** Documents are school forms, not procurement tenders
+
+### 5. **ddca**
+- **Institution name:** Drilling and Dam Construction Agency (DDCA)
+- **document_notes:** Tender page unreachable during analysis (SSL/connectivity); README references Matangazo ya Zabuni
+
+### 6. **dees**
+- **Institution name:** Crafty Dees
+- **Strategy:** Wix brewery site; content loads via JavaScript; documents in `_files/ugd/`
+- **anti_bot.requires_javascript:** `true`
+- **known_document_paths:** `/_files/ugd/`
+- **document_notes:** Wix stores documents under `_files/ugd/`; site is brewery-focused
+
+### 7. **demitoursandtravel**
+- **Institution name:** Demi Tours and Travel
+- **status:** `inactive`
+- **scraping.enabled:** `false`
+- **Strategy:** DISABLED – website returns “Account Suspended”
+- **notes:** Hosting suspended; scraping disabled until site is restored
+
+### 8. **deoadventure**
+- **Institution name:** Deoadventure
+- **Strategy:** Safari/tourism company; no dedicated tender section; check blog and contact pages
+- **document_notes:** No tender document paths identified; site is mainly safari marketing
+
+### 9. **dianaroselogistics**
+- **Institution name:** Dianarose Logistics
+- **Strategy:** Wix transport/logistics site; no dedicated tender section
+- **anti_bot.requires_javascript:** `true`
+- **document_notes:** No tender document paths; Wix file storage may hold documents
+
+### 10. **disneytz**
+- **Strategy:** Consulting/training firm; documents in `/uploads/documents/`; no dedicated tender listing
+- **Selectors:** `main`, `article`, `.blog-item`, `.service-item`
+- **document_link:** added `a[href*="/uploads/documents/"]`
+- **document_notes:** Documents in `/uploads/documents/`; mainly company profile and workshop materials
+
+All READMEs keep their existing structure (YAML frontmatter and markdown body). Only fields with better or more accurate values from the live sites were changed.
+
+============================================================
+Batch: dit, diversey, divinaattorneys, dlconsultancy, dmax...
+raping.enabled:** `false` – site broken (PHP fatal error)
+- **Institution name:** "dmax.co.tz (site broken)"
+- **Strategy:** Note added that WordPress installation is broken
+
+### 6. **dodomamc** (Dodoma City Council)
+- **tender_url:** `https://dodomamc.go.tz/procurement`
+- **Selectors:** `li a[href*='storage']`, `.col-md-4`, `.col-md-8`, `h4`, `span`
+- **Documents:** `/storage/app/uploads/public/` (hash-based paths)
+- **Institution name:** "Dodoma City Council (Halmashauri ya Jiji la Dodoma)"
+- **document_notes:** Zabuni links, October CMS, use `curl -k` for SSL
+
+### 7. **dpl** (Daya Premji Ltd)
+- **Selectors:** `main`, `section`, `a[href*="/wp-content/uploads/"]`
+- **Strategy:** Industrial supplies; no tender page; project procurement services
+- **Institution name:** HTML entity fixed
+- **url_patterns:** Added `/wp-content/uploads/*`
+
+### 8. **dppznz** (DPP Zanzibar)
+- **Selectors:** `.news-item`, `a[href*='/news/']`
+- **Strategy:** Prosecution office; no procurement role; news items are legal updates
+- **Institution name:** "Office of the Director of Public Prosecutions Zanzibar (DPP Zanzibar)"
+- **document_notes:** Clarified that DPP is not a procurement body
+
+### 9. **dreamdestinationsafaris**
+- **scraping.enabled:** `false` – domain repurposed
+- **Strategy:** Domain now hosts Sakurahost (web hosting)
+- **Institution name:** "Dream Destination Safaris (domain repurposed)"
+
+### 10. **dsfa** (Deep Sea Fishing Authority)
+- **tender_url:** `https://dsfa.go.tz/announcements`
+- **Selectors:** `.page-content`, `.col-12.py-3`, `.pressside-body a`
+- **Documents:** `/uploads/`, `/uploads/news/`, `/uploads/administration/`
+- **Institution name:** "Mamlaka ya Kusimamia Uvuvi wa Bahari Kuu (DSFA) - Deep Sea Fishing Authority"
+- **document_notes:** Matangazo page may be empty; procurement unit; Swahili content
+
+**Disabled institutions (4):** divinaattorneys, dmax, dreamdestinationsafaris  
+**Active with updates (6):** dit, diversey, dlconsultancy, dodomamc, dpl, dppznz, dsfa
+
+============================================================
+Batch: dsm, duhosting.tz, durbantz, duwasa, e1...
+electors.title/date/document_link:** `a` (title and date in link text)
+  - **selectors.pagination:** `""` (no pagination)
+  - **known_document_paths:** `/uploads/tenders/`
+  - **url_patterns:** `duwasa.go.tz/uploads/tenders/*.pdf`
+  - **strategy:** Parse link text for title and `Deadline YYYY-MM-DD`; download PDFs from href
+  - **document_notes:** Describes filename pattern and date parsing
+
+### **e1** (E1 Limited)
+- **Status:** `scraping.enabled: false` – no tender content
+- **Updates:** Institution name corrected; strategy notes it is an electronics/security contractor; “tender” came from image alt text
+
+### **eajess** (East African Jesuits)
+- **Status:** `scraping.enabled: true` – requires JavaScript
+- **Updates:** Institution name corrected; `anti_bot.requires_javascript: true`; strategy notes JS requirement and need for headless browser
+
+### **easternarc** (EAMCEF)
+- **Status:** `scraping.enabled: true` – single tender article page
+- **Updates:**
+  - **selectors.container:** `article, main, .entry-content, .page-content`
+  - **selectors.tender_item:** `article`
+  - **known_document_paths:** `/wp-content/uploads/`
+  - **url_patterns:** `easternarc.or.tz/wp-content/uploads/*.pdf`
+  - **strategy:** Describes single-article format, email-only bids, and `/blog/` for listing
+  - **document_notes:** Notes WordPress layout and email-based bids
+
+### **easytravel** (Easy Travel)
+- **Status:** `scraping.enabled: false` – no tender content
+- **Updates:** Institution name corrected; strategy notes it is a safari/tour operator; “tender” came from image alt text
+
+### **ebs** (Everlasting Business Solutions)
+- **Status:** `scraping.enabled: false` – no tender content
+- **Updates:** Strategy notes it offers procurement services but does not publish tenders
+
+### **eclat-foundation** (ECLAT Foundation)
+- **Status:** `scraping.enabled: false` – account suspended
+- **Updates:** Institution name corrected; strategy notes hosting suspension and need to re-check when site is restored
+
+============================================================
+Batch: ecoafrica, ecohas, ecraftsmen, edgeconsult, efl...
+nt_notes:** Left as-is (paths to be discovered).
+
+### 7. **eightskys**
+- **tender_url:** Replaced invalid `data:image/png;base64,...` with `https://eightskys.co.tz/`.
+- **Strategy:** Described homepage and blog, and "Sorry, no posts matched your criteria".
+- **document_notes:** Noted WordPress and absence of tender content.
+- **known_document_paths:** Added `/wp-content/uploads/`.
+- **url_patterns:** Updated to `eightskys.co.tz/wp-content/uploads/*.pdf`.
+
+### 8. **el-olamhospital**
+- **tender_url:** Replaced invalid `data:image/png;base64,...` with `https://el-olamhospital.co.tz/`.
+- **Strategy:** Described healthcare focus and lack of tender section.
+- **document_notes:** Noted possible `/storage/` or `/wp-content/uploads/` if tenders are added.
+
+### 9. **elct**
+- **selectors:** Set `container` to `main, .elementor-widget-container, article.ast-article-single` and `tender_item` to `article.ast-article-single, .elementor-element, a[href*='.pdf']`.
+- **document_notes:** Described "Document and Downloads" and "Job vacancies / Tender and Call for Proposal" sections and existing known paths.
+- **known_document_paths:** Already present: `/wp-content/uploads/2023/11/`, `/wp-content/uploads/2024/09/`, `/wp-content/uploads/2026/01/`.
+
+### 10. **elctdme**
+- **scraping.enabled:** Set to `false` (site returns "Account Suspended").
+- **institution.name:** Set to "ELCT DME (Account Suspended)".
+- **Strategy:** Noted that the site is unreachable and should be re-enabled when hosting is restored.
+
+**Notes:**
+- **eightskys** and **el-olamhospital** had invalid `tender_url` values (base64 image data); both are now valid URLs.
+- **elctdme** is disabled because the site is suspended.
+- **ELCT** has the clearest tender structure, with "Job vacancies / Tender and Call for Proposal" and PDF links under `/wp-content/uploads/`.
+- Most others (ecoafrica, ecraftsmen, edgeconsult, eightskys, el-olamhospital) have no dedicated tender sections; strategies are set to monitor for future content.
+
+============================================================
+Batch: electricool, elements, elevatedesignstudio, elite, ellipsis...
+tudio** — `scraping.enabled: false`, note added
+- **elite** — `scraping.enabled: false`, note added
+- **emsa** — `scraping.enabled: false`, note added
+- **enaboishu** — `scraping.enabled: false`, note added
+
+### Sites with updated selectors and structure
+
+**electricool** (WordPress/Elementor)
+- **Container:** `.entry-content, main#content, .elementor-widget-container`
+- **Tender item:** `article, .elementor-element, .wp-block-group`
+- **Known paths:** `/wp-content/uploads/`
+- **Strategy:** Scrape homepage and linked pages; company is GPSA prequalified
+
+**elements** (WordPress/Porto)
+- **Container:** `.page-portfolios, .portfolios-grid`
+- **Tender item:** `article.portfolio, .portfolio-item`
+- **Strategy:** Agricultural commodities; portfolio at `/portfolio/{slug}/`
+
+**ellipsis** (Laravel/Livewire)
+- **Container:** `.container-fluid, .container, main, #intro`
+- **Document paths:** `/download/`, `/download/profile` (Company Profile)
+- **Strategy:** Software company; check Vacancies and downloads
+
+**elm** (WordPress/Avada)
+- **Container:** `.entry-content, main#content, .home_row1_aboutus`
+- **Known paths:** `/wp-content/uploads/`
+- **Strategy:** Microfinance; Contractor/Tender Loan product; check blog
+
+**eon** (WordPress/Elementor)
+- **Container:** `.entry-content, main#content, .elementor-widget-container`
+- **Known paths:** `/wp-content/uploads/`, `/wp-content/uploads/2023/11/`
+- **Strategy:** ICT company; Company Profile PDF; check blog posts
+
+**eps** (static Bootstrap)
+- **Container:** `main.main, .container, .section, #about, #contact`
+- **Tender item:** `.service-item, .skill-item`
+- **Strategy:** Industrial equipment; no tender page; check Services/Products subpages
+
+### Notes
+- None of the active sites have a dedicated tender listing page; they are company sites with procurement-related content.
+- Institution names were corrected (e.g. removing "Account Suspended" and HTML entities).
+- `requires_javascript` remains `false` for all; content is server-rendered.
+
+============================================================
+Batch: equaserveltd, equinor, equiplus, equpointproperty, eristic...
+
+Completed analysis and updates for all 10 institutions. Summary:
+
+## Summary of Website Analysis & README Updates
+
+### Findings
+
+**None of the 10 institutions have a dedicated tender listing page.** All were updated with:
+
+- **`scraping.enabled: false`** – no tender content found
+- **Institution names** – taken from the sites
+- **Selectors** – based on actual HTML (WordPress, Bootstrap, custom themes)
+- **`document_notes`** – notes on document structure and paths
+- **`strategy`** – how to scrape if a tender page is added later
+
+### Per-Institution Details
+
+| Institution | Site Type | Main Content | Document Paths |
+|-------------|-----------|--------------|----------------|
+| **equaserveltd** | WordPress (Darna) | Portfolio/projects | `/wp-content/uploads/2021/11/`, `2023/11/` |
+| **equinor** | Global SPA | Corporate homepage | None (requires JS) |
+| **equiplus** | WordPress | Company services | None; `tender_url` changed from Facebook to equiplus.co.tz |
+| **equpointproperty** | WordPress (Elementor) | Products, blog | `/wp-content/uploads/2022/05/` |
+| **eristic** | Static Bootstrap | Services, projects | None |
+| **erneplex** | WordPress custom | Services | None |
+| **esbn** | WordPress | NGO programs, news | None |
+| **esea** | WordPress | Consulting services | None |
+| **esrf** | WordPress (Grassywp) | Research, strategic plans | `/wp-content/uploads/` (2022/12, 2020/06, 2024/05, 2025/08) |
+| **essltd** | WordPress | Sanitation services | None |
+
+### Notable Changes
+
+1. **equiplus** – `tender_url` updated from Facebook to `https://equiplus.co.tz/`.
+2. **equinor** – `anti_bot.requires_javascript: true` (SPA).
+3. **esrf** – `known_document_paths` added for strategic plans and annual reports.
+4. **equaserveltd**, **equpointproperty** – `known_document_paths` added for WordPress uploads.
+
+All READMEs keep their existing structure (YAML frontmatter + markdown body) and only update fields where better or more accurate values were found.
+
+============================================================
+Batch: estates, etdco, ethicssecretariat, eurovision, extraluxury...
+
+Summary of the updates:
+
+## Completed updates
+
+### 1. **faidamarketlink**
+- Fixed `tender_url` (removed trailing base64)
+- Set `scraping.enabled: false`
+- Updated strategy: "Site shows placeholder/lorem ipsum content (assisted living, NY addresses), not real Tanzanian tenders. Disabled until actual tender content is published."
+
+### 2. **fandomcars**
+- Set `scraping.enabled: false`
+- Updated strategy: "Car rental site with no tender/procurement content. Disabled until tender section is added."
+
+### 3. **farugraphitecorp**
+- Set `tender_url` to `https://farugraphitecorp.co.tz/procurement/`
+- Updated strategy to mention the procurement page and possible fetch timeouts
+- Kept `scraping.enabled: true` (procurement page exists; fetch timed out during analysis)
+
+### 4. **fasthub**
+- Set `scraping.enabled: false`
+- Updated strategy: "Fintech/telecom site (mobile money, bulk SMS, USSD) with no tender/procurement content. Disabled until tender section is added."
+
+---
+
+**Note:** The farugraphitecorp procurement page fetch timed out during analysis, so the README still uses generic WordPress/HTML selectors. If scraping fails, consider re-running the analysis when the site is more responsive or using a headless browser for JS-heavy pages.
+
+STDERR: Connection lost, reconnecting...
+Retry attempt 1...
+Retry attempt 2...
+Retry attempt 3...
+
+============================================================
+Batch: fifaandflowtrading, finandlaw, finca, firm23, firstcarrental...
+
+All 10 institution READMEs are updated. Summary:
+
+## Summary of README Updates
+
+### **Enabled (with tender content)**
+
+1. **finca** – Tender page at `/tenders/` with real tenders (e.g. Desktop Computers Supply). Selectors: `.fusion-layout-column.fusion_builder_column_inner`, documents in `/wp-content/uploads/sites/13/`.
+
+2. **fsdt** – Tender page at `/work-with-us/` with CURRENT OPPORTUNITIES and PDF links. Selectors: `a[href*='wp-content/uploads'][href$='.pdf']`, documents in `/wp-content/uploads/`.
+
+### **Disabled (no tender content)**
+
+3. **fifaandflowtrading** – Logistics site; only company profile downloads, no tenders. Documents at `/details/`.
+
+4. **finandlaw** – Procurement advisory page only; no tender listings.
+
+5. **firm23** – Tech/software company; no tenders.
+
+6. **firstcarrental** – Car rental site; no tenders.
+
+7. **flex** – B2B software vendor; no tenders.
+
+8. **flomihotel** – Hotel site; no tenders. `tender_url` corrected from invalid `data:image` to `https://flomihotel.com/`.
+
+### **Disabled (unreachable or JS-dependent)**
+
+9. **fota** – Returns “Not Acceptable” (Mod_Security); page not reachable.
+
+10. **ftm** – Requires JavaScript; returns JS challenge. `anti_bot.requires_javascript` set to `true`.
+
+### Changes made across READMEs
+
+- **Selectors** – Updated from generic to site-specific where possible.
+- **Strategy** – Described how to scrape each site or why scraping is disabled.
+- **known_document_paths** – Added where documents were found.
+- **url_patterns** – Updated to match actual document URLs.
+- **document_notes** – Notes on document layout and scraping status.
+- **institution.name** – Normalized (e.g. “FIN & LAW”, “Flomi Hotel Ltd”, “Firm 23”).
+- **tender_url** – Corrected for flomihotel and fsdt.
+
+============================================================
+Batch: furniturehouse, fursa, g-tech, g7group, gasco...
+
+Summary of updates for the 10 institutions:
+
+## Completed updates
+
+### **fursa** (from prior session)
+- Fixed corrupted `tender_url` (base64 → `https://fursa.co.tz/jobs/?search_category=184`)
+- Set selectors: `ul.job_listings`, `li.job_listing`
+- Set `anti_bot.requires_javascript: true` (AJAX)
+- Added `known_document_paths`, `url_patterns`, `document_notes`
+- Cleaned remaining base64 references in the markdown body
+
+### **g-tech**
+- Set `scraping.enabled: false` — Kenyan telecom consultancy, no tender listing
+- Corrected `country` to Kenya and `domain` to g-tech.co.ke
+
+### **g7group**
+- Set `scraping.enabled: false` — Freight forwarding, no tender listing
+
+### **gasco**
+- Set `tender_url` to `https://gasco.co.tz/gasco_projects/` (projects listing)
+- Updated strategy for Miradi Yetu project listings
+- Adjusted selectors for project items
+- Added `known_document_paths` and `url_patterns`
+
+### **gcla**
+- Set `tender_url` to `https://gcla.go.tz/announcements`
+- Updated strategy for Matangazo (announcements)
+- Adjusted selectors for announcements
+- Added `portal.gcla.go.tz/jarida/` as document path
+
+### **gctl**
+- Set `scraping.enabled: false` — Only company profile PDF, no tender listing
+- Added `known_document_paths: /media/doc/original/`
+
+### **geamos**
+- Set `scraping.enabled: false` — Logistics company, no tender listing
+
+### **geas**
+- Set `scraping.enabled: false` — Security/fire/IT company, no tender listing
+
+### **geitatc**
+- Left existing config as-is (document paths already set)
+
+---
+
+**Note:** Direct fetches to gasco.co.tz and gcla.go.tz failed (SSL/connection). GCLA updates are based on the earlier WebFetch result; gasco updates use the known `/gasco_projects/` structure. If gasco’s HTML differs, the selectors may need refinement after a successful fetch.
+
+============================================================
+Batch: gemstone.tz, ghems, gisengineering, glei.tz, glenfarmshop...
+
+Summary of updates for all 10 institutions:
+
+## Summary of README Updates
+
+### Disabled (no tender content)
+
+| Institution | Reason |
+|-------------|--------|
+| **gemstone.tz** | Jewelry retailer (The Tanzanite Dream); no procurement notices |
+| **ghems** | RFQ page is a contact form only; no tender listings; has captcha |
+| **gisengineering** | Corporate site (projects, blog); no tender section |
+| **glei.tz** | Personal site (Benjamin Gleitzman); no tender content |
+| **glenfarmshop** | “Website Under Maintenance” / Coming Soon |
+| **gofinventures** | Minimal tourism/events site; no tender content |
+| **granocoffee** | Hosting account suspended |
+
+### Enriched with selectors (still enabled)
+
+| Institution | Changes |
+|-------------|---------|
+| **globalpublishers** | Tender URL set to `/category/ajira/`; selectors: `.archive-card`, `.post-title a`, `.post-meta`; `known_document_paths`: `/wp-content/uploads/`; institution name: "Global Publishers" |
+| **goshenischool** | Tender URL set to `/category/news/`; selectors: `li.theme-post`, `h4.theme-post-header a`, `.theme-post-date`; `known_document_paths`: `/wp-content/uploads/`; institution name: "Gosheni School" |
+
+### Updated (fetch issues)
+
+| Institution | Changes |
+|-------------|---------|
+| **gpsa** | Institution name set to "GPSA (Government Procurement Services Agency)"; `document_notes` updated to mention SSL timeout during analysis; existing `known_document_paths` kept |
+
+### Selectors used
+
+- **globalpublishers**: `.archive-card` (items), `.post-title a` (title), `.post-meta` (date), `link[rel='next']` (pagination)
+- **goshenischool**: `li.theme-post` (items), `h4.theme-post-header a` (title), `.theme-post-date` (date)
+
+All READMEs keep their existing structure (YAML frontmatter + markdown body). Only fields with better or more accurate values from the live sites were changed.
+
+============================================================
+Batch: greencity, greenhippotravels, greenline, gst, hacoca...
+
+Summary of updates for all 10 institutions:
+
+## Summary of README Updates
+
+### Disabled (no tender content)
+1. **greencity** (agricom.co.tz) — Homepage is marketing only; no tender listing. `scraping.enabled: false`.
+2. **greenhippotravels** — Travel blog; no tender listing. `scraping.enabled: false`.
+3. **greenline** — `/about-us/tender` is empty or SPA; no tender content. `scraping.enabled: false`, `requires_javascript: true`.
+4. **haleluyatours** — Tour operator; no tender listing. `scraping.enabled: false`.
+
+### Updated with actual selectors
+5. **gst** — `tender_url` set to `/announcements`. Selectors for Matangazo list. Institution name: "Geological Survey of Tanzania (GST)".
+6. **hacoca** — Single WordPress tender page. Selectors for `article`, `.entry-content`. No document downloads (submissions via email).
+7. **haidc** — Site unreachable (SSL/timeout). Note added; existing `known_document_paths` kept.
+8. **hakielimu** — `tender_url` set to `/job-tenders.html`. Joomla selectors: `.article-list .article`, `.article-header h2 a`. Institution name: "HakiElimu".
+9. **hakirasilimali** — Single blog tender. Selectors for blog post layout. `known_document_paths`: `/storage/uploads/`.
+10. **hanangdc** — Table-based layout:
+   - **container:** `table.table.table-striped`
+   - **tender_item:** `table.table-striped tbody tr`
+   - **title:** `td:first-child`
+   - **date:** `td:nth-child(2), td:nth-child(3)` (Date Added, Expire Date)
+   - **document_link:** `td a[href*="/storage/app/uploads/"]`
+   - **known_document_paths:** `/storage/app/uploads/public/`
+   - **url_patterns:** `hanangdc.go.tz/storage/app/uploads/public/*/*/*.pdf`
+   - Institution name: "Hanang District Council"
+
+All READMEs keep their existing structure; only fields with better or more accurate values were changed.
+
+============================================================
+Batch: handenidc, handman, hawa, himd, himso...
+tan** – `scraping.enabled: false` – "Account Suspended". Institution name set to "Holtan".
+4. **hotelslipway** – `scraping.enabled: false` – Domain redirects to faderwars.com (Indonesian hair blog). Fixed `tender_url` (was a base64 image), set institution name to "Hotel Slipway".
+
+### Updated with actual selectors
+5. **himso** – Drupal site with tender announcements:
+   - `container`: `.post-style-grid, .post-slideset, .gva-view`
+   - `tender_item`: `.post-block.teaser-1`
+   - `title`: `.post-title a, h3.post-title a`
+   - `date`: `.post-created, .post-meta .post-created span`
+   - `known_document_paths`: `/sites/default/files/`
+   - `url_patterns`: `himso.or.tz/sites/default/files/*.pdf`, `himso.or.tz/node/*`
+   - Added `news_url`: `https://himso.or.tz/news`
+   - `document_notes`: Drupal structure, filter for "TENDER ANNOUNCEMENT"
+   - Institution name: "HIMSO - Health & Insurance Management Services Organization"
+
+6. **hkmu** (Kairuki University) – Joomla RFP page:
+   - `container`: `main, article, .item-page, .content, #sp-main-body`
+   - `tender_item`: `article, .item-page, .sppb-addon-article`
+   - `title`: `h1, h2, .item-title, .sppb-addon-title`
+   - `date`: `.published, .date, time`
+   - `document_link`: includes `a[href*="irec"]`, `a[href*="download"]`
+   - `known_document_paths`: `/images/`, `/images/documents/`, `/media/`, `/downloads/`
+   - `url_patterns`: `web.ku.ac.tz/`, `ku.ac.tz/images/documents/*.pdf`, `downloads.ku.ac.tz/*.pdf`
+   - Fixed `tender_url` (removed `&amp;` → `&`)
+   - Institution name: "Kairuki University (KU)"
+
+### Strategy updates (no dedicated tender pages)
+7. **handman** – Strategy updated to mention Services > Procurement and news/career pages.
+8. **himd** – Strategy updated to mention NGO focus and RFI/RFQ announcements.
+9. **hmxtech** – Strategy updated to mention `index.php?id=news` and Publications.
+10. **howardconsulting** – Strategy updated to mention Projects and contact pages. Institution name: "Howard Consulting Limited".
+
+============================================================
+Batch: howardhumphreys, hpvelectrical, hsh, hubnet, hudhud...
+ true`
+- **Changes:** `tender_url` set to `https://hsh.or.tz/news-events/`; WordPress/Elementor selectors; `known_document_paths`: `/wp-content/uploads/`; strategy notes News & Events for announcements
+
+### 4. **hubnet**
+- **Status:** `scraping.enabled: false` – Coming Soon page
+- **Changes:** Institution name "HubNet (Hub Networks Ltd)"; strategy notes SeedProd Coming Soon; selectors for `#sp-page`
+
+### 5. **hudhud**
+- **Status:** `scraping.enabled: true`
+- **Changes:** Institution name "HUD HUD COMPANY LTD"; `anti_bot.requires_javascript: true` (Livewire); `known_document_paths`: `/public/storage`; strategy notes Laravel/Livewire and Hardware Procurement section
+
+### 6. **hypermed**
+- **Status:** `scraping.enabled: true`
+- **Changes:** `anti_bot.requires_javascript: true` (Next.js); selectors for `#__next`; strategy notes footer "Goverment Tenders" link is placeholder; document notes on medical products site
+
+### 7. **iae**
+- **Status:** `scraping.enabled: true`
+- **Changes:** Institution name "Institute of Adult Education (IAE)"; `known_document_paths`: `/uploads/files/`, `/uploads/publications/`; `url_patterns` updated; note on SSL fetch failure
+
+### 8. **ibes**
+- **Status:** `scraping.enabled: false` – daycare/school, no tender page
+- **Changes:** Institution name "IBES Tanzania"; `homepage`/`tender_url` set to `https://`; strategy notes `/tenders` returns 404; document notes updated
+
+### 9. **icealion**
+- **Status:** `scraping.enabled: true`
+- **Changes:** `anti_bot.requires_javascript: true` (Liferay); `known_document_paths`: `/documents/`; selectors for Liferay; strategy notes Open Roles and Work With Us
+
+### 10. **icot**
+- **Status:** `scraping.enabled: true`
+- **Changes:** Institution name "Institute of Construction Technology (ICoT)"; strategy notes fetch failure (SSL); document notes on manunuzi keyword
+
+**Scraping disabled:** howardhumphreys (unreachable), hubnet (Coming Soon), ibes (no tender page)  
+**Requires JavaScript:** hudhud, hypermed, icealion
+
+============================================================
+Batch: idcardsolutions, idealofficesupplies, ifakaratc, ikungidc, ilemelamc...
+akaratc.go.tz/storage/app/uploads/public/*`
+
+### 4. **ikungidc**
+- **Institution name:** Ikungi District Council
+- **Selectors:** `table.table-striped` for tender listing
+- **Strategy:** Table-based tenders; also check `/procurement`; note on fetch timeout
+- **known_document_paths:** `/storage/app/uploads/public/`, `/storage/app/media/`
+- **url_patterns:** Updated to wildcard patterns
+
+### 5. **ilemelamc**
+- **Institution name:** Ilemela Municipal Council
+- **Selectors:** `table.table-striped` for tenders
+- **Strategy:** Table-based listing; note on fetch timeout
+- **known_document_paths:** `/storage/app/uploads/public/`
+
+### 6. **impactlogistics**
+- **Institution name:** Impact Logistics
+- **scraping.enabled:** false — Logistics company with no tender listing
+- **Strategy:** Describes services; PDFs are brochures, not tenders
+- **known_document_paths:** `/logisco/wp-content/uploads/`
+
+### 7. **impala**
+- **Institution name:** Impala
+- **scraping.enabled:** false — E‑commerce marketplace
+- **anti_bot.requires_javascript:** true (Alpine.js)
+- **Strategy:** Product catalog only; no tender notices
+
+### 8. **index**
+- **tender_url:** `https://index.co.tz/` (was `http://eastenderstours.com/`, 503)
+- **scraping.enabled:** false — Web design company; previous tender URL pointed to another company
+- **Strategy:** Describes misconfiguration; index.co.tz has no tender page
+
+### 9. **influencers**
+- **Institution name:** Tanzania Influencer Awards
+- **scraping.enabled:** false — Awards site
+- **Strategy:** Single-page site with apply form; no tender listing
+
+### 10. **infoage**
+- **Institution name:** Infoage Technologies
+- **scraping.enabled:** false — Engineering company
+- **Strategy:** Services and projects only; no tender listing
+
+**Scraping enabled:** ifakaratc, ikungidc, ilemelamc (3 government councils with tender content)  
+**Scraping disabled:** idcardsolutions, idealofficesupplies, impactlogistics, impala, index, influencers, infoage (7 sites without tender content)
+
+============================================================
+Batch: infogear, ingenuityworks, inkworld, innovex, innovo...
+://inkworld.co.tz/`
+- **scraping.enabled:** `false`
+- **strategy:** "Homepage is WordPress. No tender listing or procurement notices found. tender_url was corrupted (base64 image); fixed to https://inkworld.co.tz/. Disabled until tender content is identified."
+- **Markdown body:** Base64 references replaced with the correct URL
+
+### innovex
+- **scraping.enabled:** `false`
+- **strategy:** "Next.js (React) SPA. Homepage has no tender listing or procurement notices. Disabled until tender content is identified."
+- **anti_bot.requires_javascript:** `true`
+
+### innovo
+- **scraping.enabled:** `false`
+- **strategy:** "WordPress/WPBakery site. /tendering/ page is marketing content about tendering services, not actual tender listings. Disabled until tender content is identified."
+
+### insignia
+- **scraping.enabled:** `false`
+- **strategy:** "WordPress/Kallyas theme. Homepage has News/Blog section but no tender listings or procurement notices. Disabled until tender content is identified."
+
+### interlinetravel
+- **scraping.enabled:** `false`
+- **strategy:** "Travel agency website. No tender listing or procurement notices found. Disabled until tender content is identified."
+
+### inuka
+- **scraping.enabled:** `false`
+- **strategy:** "Agriculture company (Inuka Prime Solution). Homepage has no tender listing or procurement notices. Disabled until tender content is identified."
+
+### investment
+- **institution.name:** "Investment" (from domain; site suspended)
+- **scraping.enabled:** `false`
+- **strategy:** "Account suspended. Tender page unreachable. Disabled until site is restored."
+- **Markdown header:** "Account Suspended" → "Investment"
+
+### investors-consultancy
+- **scraping.enabled:** `false`
+- **strategy:** "Investment consultancy (GICC/E.A). Homepage has no tender listing or procurement notices. Disabled until tender content is identified."
+
+All institutions without usable tender content or with suspended sites now have `scraping.enabled: false` and updated strategy notes.
+
+============================================================
+Batch: ipa, ipex, irambadc, iringamc, ita...
+ content/`
+- **strategy:** Joomla; page may show "No Tender at the moment"
+- **document_notes:** Sidebar links may use backslash paths; normalize to `/images/uploads/`
+
+### **iteleastafricaltd** (ITEL East Africa Limited)
+- **tender_url:** `https://iteleastafricaltd.co.tz/tendering-and-business-representation.html`
+- **strategy:** Tendering page is informational only; no structured tender table
+- **document_notes:** No tender listing page; documents to be discovered if any appear
+
+### **itigidc** (Itigi District Council)
+- **institution.name:** "Itigi District Council"
+- **tender_url:** `https://itigidc.go.tz/tenders` (was homepage)
+- **selectors:** `.right-sidebar-content`, `table.table.table-striped tbody tr`
+- **strategy:** October CMS; page meta "Display all tenders"
+
+### **itilimadc** (Itilima District Council)
+- **institution.name:** "Itilima District Council"
+- **tender_url:** `https://itilimadc.go.tz/tenders` (was homepage)
+- **selectors:** `.right-sidebar-content`, `table.table.table-striped tbody tr`
+- **strategy:** October CMS; same structure as itigidc, irambadc
+
+### **itransport**
+- **institution.name:** "iTransport"
+- **scraping.enabled:** `false` — site returns "Account Suspended"
+- **strategy:** Hosting suspended; disabled until site is restored
+- **document_notes:** Site suspended; no document access
+
+### **itsupport**
+- **institution.name:** "IT Support"
+- **scraping.enabled:** `false` — site returns "Account Suspended"
+- **strategy:** Hosting suspended; disabled until site is restored
+- **document_notes:** Site suspended; no document access
+
+---
+
+**Notes:**
+- **ipex, itransport, itsupport** are disabled (no tender content or site down).
+- **October CMS** (irambadc, iringamc, itigidc, itilimadc): use `table.table.table-striped`, `.right-sidebar-content`; documents under `/storage/app/uploads/public/`.
+- **Tanzanian .go.tz sites** may need `curl -k` or similar for SSL verification.
+- All changes are based on the current HTML structure of each site.
+
+============================================================
+Batch: jamesherbalclinic, jamii, jandproperties, jasmai, jaziaprimevendor...
+unreachable or slow; re-enable once connectivity is confirmed
+
+### 3. **jandproperties** (already done)
+- `scraping.enabled`: **false** — `/en/tenders` returns 404
+- `institution.name`: "JanDproperties"
+
+### 4. **jasmai** (already done)
+- `scraping.enabled`: **false** — media services site with no tender content
+- `institution.name`: "Jasmai Media Solutions"
+
+### 5. **jaziaprimevendor** (already done)
+- Wix site; informational only, no tender listings
+- `anti_bot.requires_javascript`: **true**
+- Strategy updated accordingly
+
+### 6. **jdinvestment**
+- `scraping.enabled`: **false** — WordPress/Elementor company profile only
+- `institution.name`: "JD Investment"
+- Strategy: homepage shows services, testimonials, projects; no tender listings
+- `document_notes`: no tender documents; `wp-content/uploads/` used for images
+
+### 7. **jengaleo**
+- `scraping.enabled`: **false** — Mashine Web Services placeholder page
+- `tender_url`: corrected (removed base64 image data)
+- Strategy: site not live; scraping disabled until site is available
+
+### 8. **jetl**
+- `scraping.enabled`: **false** — ICT/security equipment supplier
+- `institution.name`: "Jamey Enterprises (T) Ltd (JETL)"
+- Strategy: homepage shows services only; no tender listings
+
+### 9. **jifunzeujasiriamali**
+- `scraping.enabled`: **false** — educational blog about business plans
+- Strategy: `tender_url` points to a single blog post, not tender listings
+
+### 10. **jiuzie**
+- `scraping.enabled`: **false** — WordPress/Elementor site with no tender listings
+- `institution.name`: "Jiuzie Company Limited"
+- `known_document_paths`: `/wp-content/uploads/`
+- `url_patterns`: `jiuzie.co.tz/wp-content/uploads/*`
+- `document_notes`: only company profile PDF at `/wp-content/uploads/2023/01/`
+
+---
+
+**Result:** 8 institutions have scraping disabled (jamii, jandproperties, jasmai, jdinvestment, jengaleo, jetl, jifunzeujasiriamali, jiuzie). 2 remain enabled (jamesherbalclinic, jaziaprimevendor), but neither has a dedicated tender page.
+
+============================================================
+Batch: jkci, jmc, jollie, juco, judiciary...
+tec/documents/"][href$=".pdf"]`
+- **Strategy:** Documents under `/jslabtec/documents/` (admission forms, not tenders)
+- **Status:** Enabled for document discovery
+
+### **judiciary** (The Judiciary of Tanzania)
+- **Institution name:** The Judiciary of Tanzania
+- **Selectors:** `.populer-news`, `.whats-item`, `a[href*="main_registry/announcements"][href$=".pdf"]`
+- **Known paths:** `/main_registry/announcements/`
+- **Strategy:** Tenders section with PDF links; Recent News `.whats-item`
+- **Status:** Enabled
+
+### **jumintech** (JUMINTECH Consultants)
+- **Status:** **Disabled** — IT consultancy; no tender/procurement page
+- **Strategy:** Commercial B2B site; no tender listings
+
+### **jwempo** (JWEMPO Journal)
+- **Status:** **Disabled** — academic journal; research articles only
+- **Strategy:** “Supply” and “rfi” are research terms, not tender-related
+
+### **kaecobeta** (KAECO Tanzania Ltd)
+- **Status:** **Disabled** — engineering company; no tender listings
+- **Strategy:** “Procurement” only in GPSA registration context
+
+### **kagera** (Kagera Regional Government)
+- **Institution name:** Kagera Regional Government
+- **Tender URL:** `https://kagera.go.tz/tenders`
+- **Selectors:** `table.table-striped tbody tr`, `td:first-child`, `td:nth-child(2)`, `td:nth-child(3)`
+- **Known paths:** `/storage/app/uploads/public/`
+- **Strategy:** Octolize CMS; table columns: title, published date, closing date, Pakua link
+- **Status:** Enabled
+
+### **kahamatc** (Halmashauri ya Manispaa ya Kahama)
+- **Institution name:** Halmashauri ya Manispaa ya Kahama
+- **Selectors:** `table.table-striped tbody tr`, `td:first-child`, `td:nth-child(2)`, `td:nth-child(3)`
+- **Known paths:** `/storage/app/uploads/public/`
+- **Strategy:** Octolize CMS; same table structure as Kagera; some links use `kahamamc.go.tz`
+- **Status:** Enabled
+
+**Scraping disabled for:** jmc, jollie, jumintech, jwempo, kaecobeta (5 institutions)  
+**Scraping enabled for:** jkci, juco, judiciary, kagera, kahamatc (5 institutions)
+
+============================================================
+Batch: kakakuona, kakonkodc, kalen, kamakatraders, kamcollegeofhealthscience...
+/tours site; no tender section. `enabled: false`. |
+| **kalen** | ICT/digital agency; no tender section. `enabled: false`. |
+| **kamakatraders** | General supplier; only product catalog at `/uploads/Catalogue.pdf`. `enabled: false`. |
+| **kapital** | Account suspended by hosting provider. `enabled: false`. |
+| **kapricon** | Bus booking platform; `/about-us/tender` is About Us, not tenders. Content loads via JS. `enabled: false`, `requires_javascript: true`. |
+
+### Enabled (with updated selectors/config)
+
+| Institution | Updates |
+|-------------|---------|
+| **karagwedc** | **Selectors:** `table.table-striped`, `tbody tr`, `td:first-child` (title), `td:nth-child(2)` (date added), `td:nth-child(3)` (expire date), `a[href*="/storage/app/uploads/"]` (documents). **Strategy:** OctoberCMS tender table. **Paths:** `/storage/app/uploads/public/`. **Name:** Karagwe District Council. |
+| **kariakoomarket** | **Selectors:** Same OctoberCMS-style table. **Strategy:** Procurement page; site may timeout. **Paths:** `/storage/app/uploads/public/`. **Name:** Shirika la Masoko ya Kariakoo. |
+| **kamcollegeofhealthscience** | **Paths:** `/www/100/news/`. **Strategy:** Latest Downloads and News-and-events. **Name:** KAM College of Health Sciences. |
+| **kakonkodc** | **Strategy:** Government council; site may timeout. **Document notes:** Retry if unreachable. |
+| **kamisheniardhi** | **tender_url:** Corrected from `yukoncontractors.ca` to `https://kamisheniardhi.go.tz/`. **Strategy:** Zanzibar Land Commission; site may timeout. |
+
+### Selectors and paths
+
+- **karagwedc:** `table.table-striped` with `tbody tr`; documents at `/storage/app/uploads/public/{hash}/`.
+- **kariakoomarket:** Same OctoberCMS-style structure (site timed out during analysis).
+- **kamcollegeofhealthscience:** Documents at `/www/100/news/` with hash+filename format.
+- **kamakatraders:** Documents at `/uploads/` (product catalog only).
+- **kapricon:** `requires_javascript: true` (preloader; content loaded via JS).
+
+============================================================
+Batch: karibu.tz, kasfreight, kaziconnect, kcmc, kcmuco...
+
+Summary of updates for all 10 institutions:
+
+## Summary of README Updates
+
+### Scraping disabled (4 institutions)
+
+| Institution | Reason |
+|-------------|--------|
+| **karibu.tz** | Domain registration portal; no tender content on homepage |
+| **kasfreight** | Logistics/customs broker; no tender page (Company, Services, Projects, Blog only) |
+| **kcmuco** | Account suspended |
+| **kentanuga** | Account suspended |
+
+### Scraping enabled with updated selectors (6 institutions)
+
+| Institution | Changes |
+|-------------|---------|
+| **kaziconnect** | `requires_javascript: true` (React SPA); strategy updated for headless browser |
+| **kcmc** | **Container:** `.announce-right, .announce-content, .content-pane` • **Tender item:** `.announce-card.jobs-card, .announce-card.events-card` • **Title:** `.card-title, .card-sub` • **Documents:** `/announcements/` |
+| **kcu** | **Container:** `main, #content, .elementor-widget-container` • **Documents:** `/wp-content/uploads/YYYY/MM/` • **Institution:** Kagera Co-operative Union (1990) Ltd |
+| **kea** | `requires_javascript: true` (Next.js SPA); no dedicated tender page; strategy updated |
+| **kec** | **Container:** `.container, .main-container, .rich-text` • **Tender item:** `.list-item, .drop-item` • Strategy updated for ega.gov-style CMS |
+| **kekopharma** | **Container:** `.container, .main-container, .rich-text, .list-item` • **Documents:** `/uploads/documents/` (sw-{timestamp}-{filename}) • **Institution:** Keko Pharmaceutical Industries (1997) Ltd |
+
+### Institution names corrected
+
+- **kcmuco:** "Account Suspended" → "Kibaha College of Medicine and Allied Sciences (KCMUCO)"
+- **kcu:** "Kcu" → "Kagera Co-operative Union (1990) Ltd"
+- **kec:** "KEC | Shirika La Elimu Kibaha - Mwanzo" → "Shirika La Elimu Kibaha (KEC)"
+- **kekopharma:** "KPI | Mwanzo" → "Keko Pharmaceutical Industries (1997) Ltd"
+- **kentanuga:** "Account Suspended" → "Kentanuga"
+
+============================================================
+Batch: kfinance, kiazikitamu, kibahatc, kibopeakpalacehotel, kiboseeds...
+
+Summary of updates for all 10 institutions:
+
+## Summary of README Updates
+
+### Disabled (no tender content)
+1. **kfinance** — `tender-loan` is a loan product page (Mkopo wa Tender), not procurement. `scraping.enabled: false`.
+2. **kiazikitamu** — `/about-us/tender` exists but is empty (bus booking platform). `scraping.enabled: false`.
+3. **kibopeakpalacehotel** — Hotel site with no tender section. `scraping.enabled: false`.
+4. **kigemugroup** — Corporate site with no tender section. `scraping.enabled: false`.
+
+### Updated with actual selectors
+5. **kibahatc** — October CMS: `.right-sidebar-content`, `table.table.table-striped tbody tr`, `td:first-child` (title), `td:nth-child(2)` (date), `td:last-child a[href*="/storage/"]` (documents). Documents under `/storage/app/uploads/public/`.
+6. **kigomaujijimc** — Same October CMS layout as kibahatc. Same selectors and document paths.
+7. **kidh** — Bootstrap cards: `.col-lg-4 .card`, `.card-title`, `.card-subtitle`. Documents via POST to `download-opportunity-file/{uuid}/`.
+8. **kidato** — WordPress: `.site-archive-posts`, `article.post`. Tender category may be empty.
+9. **kicd** — Documents under `/www/100/news/`. AJAX load-more for some sections.
+10. **kiboseeds** — Table layout, documents under `/forms/`. Check `news_events.php` for tenders.
+
+### Institution names corrected
+- **kibahatc** → "Kibaha Town Council"
+- **kigomaujijimc** → "Kigoma Ujiji Municipal Council"
+- **kidh** → "Kibong'oto Infectious Disease Hospital (KIDH)"
+- **kicd** → "Kaliua Institute of Community Development (KICD)"
+
+### Notes
+- **kibahatc** and **kigomaujijimc** may need `curl -k` for SSL on `.go.tz`.
+- **kidh** documents require POST with CSRF; no direct PDF links.
+- **kfinance**, **kiazikitamu**, **kibopeakpalacehotel**, and **kigemugroup** can be re-enabled if tender sections are added.
+
+============================================================
+Batch: kijijibeach, kikabuziattorneys, kikuu, kilimo, kilitec...
+
+Summary of updates for the three remaining institutions:
+
+## kilomberodc
+- **institution.name:** "Halmashauri ya Wilaya ya Mlimba (MLIMBA DISTRICT COUNCIL)"
+- **selectors:** Updated from the live HTML:
+  - `container`: `.right-sidebar-content`
+  - `tender_item`: `table.table.table-striped tbody tr`
+  - `title`: `td:first-child a, td:first-child`
+  - `date`: `td:nth-child(2), td:nth-child(3)`
+  - `document_link`: `td a[href$=".pdf"]`, etc., plus `a[href*="/storage/app/uploads/public/"]`
+  - `pagination`: `nav.text-center a, .pagination a`
+- **strategy:** Describes the table layout (Tender Name, Date Added, Expire Date) and document path pattern
+- **known_document_paths:** `/storage/app/uploads/public/`
+- **document_notes:** Path pattern `{3-char}/{3-char}/{3-char}/{hash}.pdf` and note that the table can be empty when there are no tenders
+
+## kimbinyiko
+- **scraping.enabled:** `false` — `/about-us/tender` shows "please wait" and generic About Us content, no tender listings
+- **institution.name:** "KIMBINYIKO INT. COACH"
+- **strategy:** Notes it is a bus company and the tender page appears misconfigured or SPA-based
+- **anti_bot.requires_javascript:** `true` (because of the "please wait" behavior)
+
+## kingsfm
+- **scraping.enabled:** `false` — Radio station with no tender/procurement page
+- **institution.name:** "Kings FM Radio"
+- **strategy:** Describes the site (program schedules, news) and that there is no tender page in the navigation
+- **document_notes:** No tender page found; document paths unknown
+
+Also fixed the **kiliweb** README by removing orphaned base64 data from the `strategy` field and restoring the closing quote.
+
+============================================================
+Batch: kinoko, kinondonimc, kist, kitetodc, kjro...
+ble.table.table-striped tbody tr` (when present), `.right-sidebar-container .col-md-8`
+- **Documents:** `/storage/app/uploads/public/` (same pattern as other councils)
+- **Strategy:** Page may show news sidebar; also check `/tenders` for table layout
+
+### **kjro** (Kijana Jasiri Resilience Organization)
+- **Structure:** WordPress/Elementor NGO site
+- **Selectors:** `.elementor-widget-wrap`, `.elementor-section`
+- **Documents:** `/wp-content/uploads/{year}/{month}/`
+- **Strategy:** No tender page; one PDF (annual report); has Procurement Officer
+
+### **kmh** (Auto Garage)
+- **Scraping:** **DISABLED**
+- **Reason:** Site requires login (Laravel auth); no public tender content
+
+### **knauf** (Knauf Gypsum Tanzania)
+- **URLs:** `https://knauf.com/en-TZ` (Tanzania subpage)
+- **Documents:** `/media/`, `/documents/`; product pages have tender-text, certificates
+- **Strategy:** Global site; no Tanzania-specific tender table; may post RFPs on country page
+
+### **koncept**
+- **Scraping:** **DISABLED**
+- **Reason:** Account suspended by hosting provider
+
+### **kondoadc** (Kondoa District Council)
+- **Structure:** Same October CMS layout as kinondonimc
+- **Selectors:** `.right-sidebar-content`, `table.table.table-striped tbody tr`, `td:first-child`, `td:nth-child(2,3)`, `td:nth-child(4) a`
+- **Documents:** `/storage/app/uploads/public/` (same pattern)
+- **Strategy:** Parse table; use `-k` for SSL
+
+### **kondoatc** (Kondoa Town Council)
+- **Structure:** Same as kondoadc
+- **Selectors:** Same table-based selectors
+- **Documents:** Same path pattern
+- **Strategy:** Table may be empty when no active tenders
+
+### Institution names
+- Corrected HTML entities: `"Home &#124; X"` → `"X"` for Kiteto DC, Kondoa DC, Kondoa TC, Kinondoni MC
+- `"HOME -"` → `"Kijana Jasiri Resilience Organization"` (kjro)
+- `"Account Suspended"` → `"Koncept"` (koncept)
+
+### SSL note
+For `.go.tz` sites (kinondonimc, kitetodc, kondoadc, kondoatc), use `curl -k` or equivalent to bypass SSL verification if needed.
+
+============================================================
+Batch: kongwadc, korogwedc, kpr, kreative, kryton...
+loads/public/{hash}/`, `/storage/app/media/uploaded-files/`
+
+### **korogwedc** (Korogwe District Council)
+- **Institution name:** Korogwe District Council
+- **Selectors:** Same OctCMS structure as kongwadc
+- **Strategy:** Scrape `/tenders` (OctCMS)
+- **Documents:** `/storage/app/uploads/public/{hash}/`
+
+### **kpr** (KPR Moonstone)
+- **Scraping:** Disabled
+- **Reason:** Next.js SPA with no tender page; “General Procurement” is a service, not a tender list
+- **anti_bot.requires_javascript:** true
+
+### **kreative**
+- **Scraping:** Disabled
+- **Reason:** Account suspended (hosting)
+
+### **kryton**
+- **Scraping:** Disabled
+- **Reason:** Account suspended (hosting)
+
+### **ku** (Kairuki University)
+- **Institution name:** Kairuki University
+- **Selectors:** Joomla/SP Page Builder: `.sp-page-builder .page-content`, `.sppb-addon-content`, `.item-page`
+- **Strategy:** Single RFP article; also check IREC and category `catid=9`
+- **Documents:** `/images/documents/`, `/documents/`, `downloads.ku.ac.tz/`
+- **tender_url:** Fixed `&amp;` → `&`
+
+### **kuntuhosting** (Kuntu Hosting)
+- **Scraping:** Disabled
+- **Reason:** Web hosting company with no tender content
+
+### **kyerwadc** (Kyerwa District Council)
+- **Institution name:** Kyerwa District Council
+- **Selectors:** Same OctCMS structure as kongwadc/korogwedc
+- **Strategy:** Scrape `/tenders` and `/procurement-and-supply`
+- **Documents:** `/storage/app/uploads/public/{hash}/`
+
+### **lancet** (Cerba Lancet Africa)
+- **Scraping:** Disabled
+- **Reason:** Pathology company with no tender listing; documents at `/media/`
+
+### **lands** (Ministry of Lands)
+- **Institution name:** Ministry of Lands, Housing and Human Settlements Development
+- **tender_url:** `https://lands.go.tz/notices` (was homepage)
+- **Selectors:** `.list-unstyled`, `div.link` for items, `div.link a` for titles
+- **Strategy:** Scrape notices page; follow each notice to detail page for PDFs
+- **Documents:** `/uploads/notices/` with `sw{timestamp}-{title}.pdf` pattern
+
+============================================================
+Batch: lareal, latra, lavicato, legacymall, lenic...
+ JS and needs a headless browser or API
+- `institution.name`: "Land Transport Regulatory Authority (LATRA)"
+- `url_patterns`: Updated to `nest.go.tz/*.pdf` and `nest.go.tz/*.doc`
+
+### **lavicato**
+- `scraping.enabled: false` – venue/events/catering site, no tender content
+- `strategy`: DISABLED note
+- `institution.name`: "LAVICATO - Venue, Events & Catering services"
+
+### **legacymall**
+- `scraping.enabled: false` – account suspended
+- `strategy`: DISABLED note
+- `institution.name`: "Legacy Mall"
+
+### **lenic**
+- `scraping.enabled: false` – agro products company, no tender listing
+- `strategy`: DISABLED note
+- `known_document_paths`: `["/wp-content/uploads/"]`
+- `url_patterns`: `lenic.co.tz/wp-content/uploads/*.pdf`, `*.doc`
+- `document_notes`: Notes that `/wp-content/uploads/` holds company docs, not tenders
+
+### **lesotech**
+- `scraping.enabled: false` – GPS tracking/ICT company, no tender content
+- `strategy`: DISABLED note
+- `institution.name`: "Lesotech"
+- `document_notes`: "No tender content on site"
+
+### **lhc**
+- `scraping.enabled: false` – healthcare clinic, no tender content
+- `strategy`: DISABLED note
+- `institution.name`: "London Health Centre"
+- `document_notes`: "No tender content on site"
+
+### **lilac**
+- `scraping.enabled: false` – consultancy; `/docs/` has training materials, not tenders
+- `strategy`: DISABLED note
+- `known_document_paths`: `["/docs/"]`
+- `url_patterns`: `lilac.co.tz/docs/*.pdf`
+- `document_notes`: Notes that `/docs/` holds training materials, not tender documents
+
+### **lindidc** & **lindimc**
+- `document_notes`: Added note about possible SSL/connection timeouts and retrying if unreachable
+
+---
+
+**Selectors:** For disabled sites, no tender content was found, so no site-specific selectors were added. For **latra** (NeST), the page is an Angular SPA and the static HTML only shows `<app-root>` and loading; real selectors would require inspecting the rendered DOM with a headless browser. Generic selectors were left in place for latra.
+
+============================================================
+Batch: linktech, lita, lodhiagroup, lostech, lrct...
+**
+- **Scraping disabled** – Site unreachable (fetch timeout/SSL) during analysis.
+
+### **lodhiagroup**
+- **Institution name:** Lodhia Industries Limited
+- **Strategy:** Site redirects to lodhiaindustries.com; commercial homepage, no dedicated tender page.
+- **Document notes:** No tender-specific structure; documents likely in `/wp-content/uploads/` if any.
+
+### **lostech**
+- **Institution name:** LOSTECH Tanzania Limited
+- **Selectors:** `#top_bg`, `.def_section`, `.wpb_text_column`, `.elementor-widget-image-box`
+- **Known paths:** `/wp-content/uploads/`
+- **Note:** RevSlider/thefox theme; no tender listing structure.
+
+### **lrct**
+- **Institution name:** Law Reform Commission of Tanzania (Tume ya Kurekebisha Sheria Tanzania)
+- **Selectors:** `.home-page`, `.dropdown-item` for announcements, `a[href*="/uploads/announcements/"]`
+- **Known paths:** `/uploads/announcements/`
+- **URL patterns:** `lrct.go.tz/uploads/announcements/*.pdf`, `*.doc`
+- **Strategy:** Announcements (Matangazo) in navbar dropdown.
+
+### **luptan**
+- **Institution name:** LUPTAN Engineering Services
+- **Selectors:** `#post-134`, `.elementor-image-box-wrapper`, `.elementor-image-box-title`
+- **Known paths:** `/wp-content/uploads/`
+- **Note:** Procurement page has company brochures only; no tender listings.
+
+### **lushotodc**
+- **Strategy:** Document paths kept; note added that site was unreachable during analysis.
+
+### **machameinv**
+- **Scraping disabled** – `/about-us/tender` is the About Us page for a bus booking platform (Machame Inv/Busbora), not tenders.
+
+### **madabadc**
+- **Strategy:** Document paths kept; note added that site was unreachable during analysis.
+
+### **madini**
+- **Selectors:** `.list-mom-div`, `.video-home-position`, `.habari-mom-list` (title), `.habari-mom-date` (date)
+- **Document link:** `a[href^="/page/"]` for tender detail pages
+- **Known paths:** `/media/`
+- **Strategy:** Tenders listed with title, date, and `/page/{uuid}` view link; follow detail pages for documents.
+
+============================================================
+Batch: maendeleobank, magudc, mahalisokoni, majismz, makumira...
+f"]`
+- **known_document_paths:** `/storage/app/uploads/public/`
+- **document_notes:** October CMS hash-based paths
+
+### 3. **mahalisokoni**
+- **institution.name:** "Mahali Sokoni Trading Company Limited"
+- **scraping.enabled:** `false` — Odoo e-commerce homepage, no tender page
+
+### 4. **majismz**
+- **scraping.enabled:** `false` — SPA (Inertia/Alpine.js), no dedicated tender page
+- **anti_bot.requires_javascript:** `true`
+
+### 5. **makumira**
+- **institution.name:** "Tumaini University Makumira"
+- **tender_url:** `https://makumira.ac.tz` (was http)
+- **strategy:** WordPress/Avada; `/tender` and `/docs` return 404
+- **selectors:** `.fusion-builder-row`, `.fusion-post`, `.fusion-post-title a`
+- **known_document_paths:** `/wp-content/uploads/`
+
+### 6. **malinyidc**
+- **institution.name:** "Malinyi District Council"
+- **strategy:** October CMS, Manunuzi/Zabuni
+- **selectors:** `.right-sidebar-content`, `ul.publications-listing li`, `a[href*="storage"]`
+- **known_document_paths:** `/storage/app/uploads/public/`
+
+### 7. **mamatheahomes**
+- **institution.name:** "Mama Thea Homes"
+- **strategy:** Commercial real estate; no dedicated tender listing confirmed
+
+### 8. **manyonidc**
+- **institution.name:** "Manyoni District Council"
+- **strategy:** October CMS table layout (Jina la zabuni, Tarehe, Pakua)
+- **selectors:** `table tbody tr`, `td:first-child`, `td:nth-child(2)`, `td:nth-child(3)`, `td a[href*="storage"]`
+- **known_document_paths:** `/storage/app/uploads/public/`
+
+### 9. **maple**
+- **institution.name:** "Maple Group"
+- **strategy:** WordPress/WPBakery/LiteSpeed; content may be lazy-loaded
+- **selectors:** `.entry-content`, `.wpb_wrapper`, `article`, `.entry-title`
+- **known_document_paths:** `/wp-content/uploads/`
+
+### 10. **maraoutsourcing**
+- **scraping.enabled:** `false` — minimal HTML; likely SPA or broken
+- **anti_bot.requires_javascript:** `true`
+
+**Disabled institutions (4):** mahalisokoni, majismz, maraoutsourcing (plus majismz already had no tender page).
+
+============================================================
+Batch: mariestopes, marineparks, martialadventure, mati, mawasiliano...
+
+
+============================================================
+Batch: mbogomining, mbuludc, mbulutc, mccco, mcelack...
+ape homepage and linked pages for RFI/supply notices
+- **Documents:** `/wp-content/uploads/`
+
+### 2. **mbuludc**
+- **Institution name:** Halmashauri ya Wilaya ya Mbulu (Mbulu District Council)
+- **Tender URL:** `https://mbuludc.go.tz/tenders`
+- **Selectors:** `table.table-striped tbody tr` for tender items; `td:first-child` (title); `td:nth-child(2), td:nth-child(3)` (dates); `td a[href*="/storage/"]` (documents)
+- **Strategy:** October CMS; table with Jina la Zabuni, dates, and Pakua links
+- **Documents:** `/storage/app/uploads/public/{hash}/`
+
+### 3. **mbulutc**
+- **Institution name:** Halmashauri ya Mji Mbulu (Mbulu Town Council)
+- **Tender URL:** `https://mbulutc.go.tz/tenders`
+- **Selectors:** Same structure as mbuludc (`table.table-striped`, etc.)
+- **Strategy:** October CMS; same layout as mbuludc
+
+### 4. **mccco**
+- **Institution name:** Mbozi Coffee Curing Company Limited (MCCCo)
+- **Scraping:** Disabled
+- **Reason:** No tender/procurement content; site is company info only
+
+### 5. **mcelack**
+- **Strategy:** WordPress/Elementor; telecom company; no tender page; weak RFI/supply signal
+
+### 6. **mcm-int**
+- **Strategy:** Static PHP; supply company; no tender listing page
+
+### 7. **mdh**
+- **Institution name:** Management and Development for Health (MDH)
+- **Selectors:** `article.single-page-article`, `.elementor-widget-text-editor` for RFPs; `p strong, h2, h3` for titles
+- **Strategy:** WordPress/OceanWP + Elementor; RFPs inline; proposals via pmu@mdh.or.tz
+- **Documents:** `/wp-content/uploads/`
+
+### 8. **medox**
+- **Strategy:** PHP site; pharmaceutical wholesaler; no tender listing; marketing text only
+
+### 9. **meerkatz**
+- **Scraping:** Disabled
+- **Reason:** Account suspended by hosting provider
+
+### 10. **merca**
+- **Institution name:** Merca Procurement
+- **Tender URL:** `https://merca.co.tz/` (was pointing to SVG)
+- **Scraping:** `requires_javascript: true` (React/Vite SPA)
+- **Strategy:** Content loads via JS; needs headless browser or JS execution
+
+============================================================
+Batch: mes-engineering, mfhsti, mfinangacargo, mfukowamisitu, mhti...
+ner: `.news`; tender_item: `.news p`; title: `a.ck`; document_link: `a.ck[href$=".pdf"]`; known_document_paths: `/www/100/news/`; strategy for "Latest Downloads" section |
+| **mfukowamisitu** | tender_url → `/announcements`; container: `.page-content`; tender_item: `a.list-item`; known_document_paths: `/uploads/news/`, `/download-center` |
+| **mhti** | WordPress/Elementor selectors; known_document_paths: `/wp-content/uploads/`; strategy for procurement page |
+| **michezo** | known_document_paths: `/Uploads/documents/`, `/uploads/documents/`; document_link includes `/Uploads/documents/`; note on site timeouts |
+| **michezozanzibar** | tender_url corrected from YouTube to `https://michezozanzibar.go.tz/`; known_document_paths: `/`; url_patterns for root PDFs |
+| **mihas** | Container: `#slidernews1_div .news`; tender_item: `.news p`; title: `a.ck`; known_document_paths: `/www/100/news/`; strategy for "AVAILABLE DOCUMENTS" section |
+
+### Institution names corrected
+
+- **mes-engineering**: "Account Suspended" → "MES Engineering Consultancy Limited"
+- **mfhsti**: "Home" → "MKOLANI FOUNDATION HEALTH SCIENCES TRAINING INSTITUTE"
+- **mfinangacargo**: "MCGT" → "Mfinanga Cargo and General Traders Company Limited (MCGT)"
+- **mfukowamisitu**: "TaFF | MFUKO WA MISITU TANZANIA - Mwanzo" → "Mfuko wa Misitu Tanzania (TaFF)"
+- **mhti**: "Machame Health Training Institute &#8211;     ." → "Machame Health Training Institute"
+- **miamia**: "Starting & Managing Business in Tanzania" → "Miamia - Starting & Managing Business in Tanzania"
+- **michezo**: "WHUSM |     Mwanzo" → "Wizara ya Michezo (Ministry of Sports)"
+- **mihas**: "Home" → "MLIMBA INSTITUTE OF HEALTH AND ALLIED SCIENCES (MIHAS)"
+
+### Notes
+
+- **mfhsti** and **mihas** use the same Wahunzi Tech CMS; documents are admission/joining forms, not procurement tenders.
+- **michezo.go.tz** can time out; consider longer timeouts and retries.
+- **michezozanzibar** previously pointed to a YouTube channel; it now points to the main site.
+
+============================================================
+Batch: miliadventure, minja, miragezanzibartours, missenyidc, misungwidc...
+
+All 10 institutions are updated. Summary:
+
+## Summary of README updates
+
+### Disabled (no tender content)
+- **miliadventure** – Car rental/safari site; no tender page. Removed base64 from `tender_url` and strategy. `scraping.enabled: false`.
+- **mkassociates** – Audit/tax firm; no tender page. Replaced invalid `data:image` `tender_url` with homepage. `scraping.enabled: false`.
+
+### Updated with actual structure
+- **mit** – `tender_url` set to `https://www.viwanda.go.tz/events`. Selectors: `.post-slide7`, `.post-description`, `.post-bar li`. Documents under `/uploads/documents/`. Institution name: "MIT | Matukio/Matangazo (Ministry of Industry and Trade)".
+- **mjumita** – `tender_url` set to `https://mjumita.or.tz/latest/`. Selectors: `.bde-loop-item`, `.ee-post-title`, `.ee-post-meta-date`. Documents under `/wp-content/uploads/`. Strategy notes filtering for "Opportunity" category.
+- **mkalamadc** – Table selectors: `table tbody tr`, `td:first-child`, `td:nth-child(2)`, `td:nth-child(3)`. Documents under `/storage/app/uploads/public/`.
+- **mkingadc** – `tender_url` set to `https://mkingadc.go.tz/tenders` (procurement-and-supply returns 404). Same table selectors as mkalamadc.
+
+### Inferred from similar councils (SSL issues)
+- **missenyidc** – Table selectors inferred from mkalamadc. `known_document_paths: /storage/app/uploads/public/`. Strategy notes SSL/certificate issues.
+- **misungwidc** – Same table selectors and document paths. Strategy notes SSL/certificate issues.
+
+### Already done (from prior session)
+- **minja** – Account suspended; `scraping.enabled: false`.
+- **miragezanzibartours** – Tourism site; no tender content; `scraping.enabled: false`.
+
+============================================================
+Batch: mkurabita, mloganzila, mnma, mnyeshilaw, moe...
+
+Summary of changes:
+
+## **moivaro** (completed)
+
+- **`tender_url`**: Replaced corrupted `data:image/png;base64,...` with `https://www.moivaro.com/`
+- **`scraping.enabled`**: Set to `false` (tourism lodge, no tenders)
+- **`strategy`**: Set to: *"Moivaro is a tourism lodge (moivaro.com), not a tender issuer. No procurement content. Scraping disabled."*
+- **Markdown body**: Removed corrupted base64 from "Tender Page" and "Strategy" sections
+
+## **mof** (completed)
+
+- **`institution.name`**: Set to *"Wizara ya Fedha (Ministry of Finance)"*
+- **`strategy`**: Updated to mention:
+  - Ministry of Finance
+  - Documents in `/uploads/documents/`
+  - Possible SSL cert issues (curl 60)
+  - Sections to check: matangazo, zabuni, manunuzi
+- **`document_notes`**: Updated to mention SSL issues and relevant sections
+
+**Note:** `mof.go.tz` returned SSL errors (curl exit 60), so the HTML structure could not be inspected. The README keeps the existing selectors and adds notes about SSL and connectivity.
+
+============================================================
+Batch: morakasafaris, morogorodc, moruwasa, mountmeruhotel, mow...
+. |
+| **morogorodc** | Enriched | `tender_url` set to `https://morogorodc.go.tz/tenders`. Selectors: `.right-sidebar-content`, `table.table.table-striped tbody tr`, `td:first-child`, `td:nth-child(2,3)`, `td a[href*=".pdf"]`, `nav.text-center`. Added `known_document_paths`, `url_patterns`, `strategy`, `document_notes`. |
+| **moruwasa** | Enriched | Tenders page “Under construction”. Selectors: `.sub-main-content`, `.content-border`. `known_document_paths: /pages/`, `url_patterns`, `document_notes`. |
+| **mountmeruhotel** | Disabled | Hotel site, no tender content. `scraping.enabled: false`. Updated `strategy`, `document_notes`. |
+| **mow** | Enriched | `institution.name`: "Wizara ya Ujenzi (Ministry of Works)". `known_document_paths: /uploads/documents/`, `url_patterns`, `strategy`, `document_notes`. |
+| **mpandadc** | Enriched | October CMS selectors (same as morogorodc): `.right-sidebar-content`, `table.table.table-striped tbody tr`, etc. `known_document_paths`, `url_patterns`, `document_notes`. |
+| **mps** | Enriched | WordPress/Astra, no tender table. Updated `institution.name`, `strategy`, `document_notes`. |
+| **mpwapwadc** | Enriched | October CMS selectors (same as morogorodc/mpandadc). `known_document_paths`, `url_patterns`, `document_notes`. |
+| **mpwapwatc** | Disabled | Account suspended. `scraping.enabled: false`. `institution.name`: "Mpwapwa Teachers College". |
+| **mrhp** | Disabled | Homepage 404. `scraping.enabled: false`. `institution.name`: "Mwanza Rural Housing Programme". |
+
+### October CMS councils (morogorodc, mpandadc, mpwapwadc)
+
+- **Container:** `.right-sidebar-content`
+- **Tender item:** `table.table.table-striped tbody tr`
+- **Title:** `td:first-child`
+- **Dates:** `td:nth-child(2)` (Tarehe iliyoongezwa), `td:nth-child(3)` (Tarehe ya Mwisho)
+- **Document link:** `td a[href*=".pdf"]` etc.
+- **Pagination:** `nav.text-center a`
+- **Documents:** `/storage/app/uploads/public/{hash}/` (morogorodc also uses `/storage/app/media/uploaded-files/`)
+
+============================================================
+Batch: mri, mrimbapalmhotel, msomeni, mstcdc, mtaji...
+operation (MS-TCDC)"
+- **selectors:** `.region.region-content`, `h2` for tender titles, `.halfbox__link a` for LEARN MORE links
+- **known_document_paths:** `/sites/default/files/`
+- **strategy:** Drupal 10; follow LEARN MORE links to detail pages for documents
+
+### **mtaji**
+- **scraping.enabled:** `false` — MSME financing company, no tender section
+
+### **mtmerugamelodge**
+- **scraping.enabled:** `false` — lodge site, no tender content
+
+### **mtuwasa**
+- **selectors:** `.content`, `main`, `table.table tbody tr`; `a[href*="storage/announcement"]` for documents
+- **known_document_paths:** `/storage/announcement/`
+- **document_notes:** Hashed filenames (e.g. `phpD5z1o7.pdf`); site may timeout
+
+### **mtwaramikindanimc** (Mtwara Mikindani Municipal Council)
+- **institution.name:** "Mtwara Mikindani Municipal Council"
+- **tender_url:** `https://mtwaramikindanimc.go.tz/manunuzi-ugavi`
+- **selectors:** October CMS: `.right-sidebar-content`, `table.table.table-striped tbody tr`, `td:first-child`, `td a[href*=".pdf"]`
+- **known_document_paths:** `/storage/app/uploads/public/`
+- **strategy:** Same structure as morogorodc/mpandadc
+
+### **muhezadc** (Muheza District Council)
+- **institution.name:** "Muheza District Council"
+- **selectors:** October CMS: `.right-sidebar-content`, `table.table.table-striped tbody tr`
+- **known_document_paths:** `/storage/app/uploads/public/`
+- **strategy:** Same structure as morogorodc/mpandadc
+
+### **mukonossolutions**
+- **scraping.enabled:** `false` — ICT/electrical company, no tender listing
+
+---
+
+**Notes:**
+- **mrimbapalmhotel, msomeni, mtaji, mtmerugamelodge, mukonossolutions:** Disabled because they have no tender/procurement content.
+- **mtuwasa:** Fetch timed out; selectors and paths are based on README and known document URLs.
+- **mtwaramikindanimc, muhezadc:** October CMS with `table.table.table-striped`; structure aligned with morogorodc and mpandadc.
+- **anti_bot.requires_javascript:** Left as `false` for all; none appear to be SPAs.
+
+============================================================
+Batch: mulebadc, mum, musomavijijini, must, mvomerodc...
+
+Summary of updates for the remaining institutions:
+
+## Completed updates
+
+### 1. **mwafrika**
+- **tender_url:** Corrected from invalid data URI to `https://mwafrika.co.tz/`
+- **strategy:** Replaced base64 content with: *"Scrape https://mwafrika.co.tz/ (WordPress/Prespa theme). No dedicated tender page found; homepage may list tenders in posts or pages. Use generic WordPress selectors."*
+
+### 2. **mwalimubank**
+- **scraping.enabled:** Set to `false`
+- **strategy:** *"Tender page unreachable (timeout). https://mwalimubank.co.tz/ may require JS or has connectivity issues. Disable until page is accessible."*
+
+### 3. **mwanahalisi**
+- **scraping.enabled:** Set to `false`
+- **strategy:** *"Tender page unreachable (timeout). http://mwanahalisi.co.tz may be down or blocking requests. Disable until page is accessible."*
+
+### 4. **mwanaharakatimzalendo**
+- **scraping.enabled:** Set to `false`
+- **strategy:** *"News/magazine site (HABARI MAKINI). No dedicated tender listing page. Content is news articles, not procurement notices. Disable scraping."*
+
+### 5. **mwananchi**
+- **tender_url:** Updated from news article URL to `https://www.mwananchi.co.tz/mw/notisi/zabuni`
+- **scraping.enabled:** Set to `false`
+- **strategy:** *"Zabuni (tender) page at /mw/notisi/zabuni is paywalled. Mwananchi is a news publisher; tender notices require subscription. Disable scraping."*
+- **Markdown body:** Tender Page line updated to note that the page is paywalled
+
+All 10 institutions are now updated. Scraping is disabled for mum, musomavijijini, mwalimubank, mwanahalisi, mwanaharakatimzalendo, and mwananchi due to unreachable pages, non-tender content, or paywalls.
+
+============================================================
+Batch: mwananchiscoop, mwangadc, mwanza, mwanzacc, mwauwasa...
+
+All 10 institutions are updated. Summary:
+
+## Summary of README Updates
+
+### Disabled (no tender content)
+1. **mwananchiscoop** — `scraping.enabled: false` — tender_url points to a magazine article (Cardi B), not a tender listing  
+2. **mzigeassociates** — `scraping.enabled: false` — website account suspended
+
+### Government sites (table-based)
+3. **mwangadc** — `table.table.table-striped tbody tr`; container `.right-sidebar-content`; documents at `/storage/app/uploads/public/`  
+4. **mwanza** — Same structure as mwangadc  
+5. **mwanzacc** — Same structure as mwangadc  
+
+### Water utility
+6. **mwauwasa** — Tenders in `p.download` with `a[download]`; documents at `/uploads/tenders/`; title and deadline in link text
+
+### Company homepages (weak signal)
+7. **mwingapower** — No tender listing; profile at `/profile.pdf`  
+8. **na7etechnology** — No tender listing; profile at `/images/profile.pdf`  
+
+### SPA / special cases
+9. **mybees** — `requires_javascript: true` (Next.js SPA); RFQ likely in-app  
+10. **mzumbe** — No `/tenders` or `/procurement` (404); documents at `/media/filer_public/`; scrape homepage and linked pages
+
+### Institution names
+- **mwangadc** → Mwanga District Council (Halmashauri ya Wilaya ya Mwanga)  
+- **mwanza** → Mwanza Region (Mkoa wa Mwanza)  
+- **mwanzacc** → Mwanza City Council (Halmashauri ya Jiji la Mwanza)  
+- **mwauwasa** → Mwanza Urban Water Supply and Sanitation Authority (MWAUWASA)  
+- **mzigeassociates** → Mzige Associates  
+
+Selectors, document paths, and strategies are now aligned with the current HTML structure of each site.
+
+============================================================
+Batch: nacte, nafakakilimo, nanine, nanyumbudc, nao...
+"/storage/app/uploads/"]`
+- **Strategy:** Bootstrap table with columns: Tender Name, Tarehe Iliyoongezwa, Expire Date, Pakua (download)
+- **known_document_paths:** `/storage/app/uploads/public/`
+
+### 5. **nao**
+- **Institution name:** National Audit Office of Tanzania (NAOT)
+- **Selectors:** `.news-post.article-post.news-container`, `h2 a`, `ul.post-tags`, `ul.attachment li a`
+- **Strategy:** Zabuni na Kazi category; each item has `ul.attachment` for PDFs
+- **known_document_paths:** `/uploads/`, `/uploads/reports/`
+
+### 6. **nbaa**
+- **Institution name:** National Board of Accountants and Auditors (NBAA)
+- **Selectors:** `a[href*='/announcements/']`, `a[href*="/uploads/text-editor/"]`
+- **Strategy:** Announcements (admissions, subscriptions), not tenders; filter for procurement-related
+- **known_document_paths:** `/uploads/text-editor/files/`, `/examinations/`
+
+### 7. **nbc**
+- **Institution name:** National Bank of Commerce (NBC)
+- **Selectors:** `a[href*="/content/dam/nbc/tanzania/pdf/procurement/"]` as tender_item and document_link
+- **Strategy:** Procurement page lists PDF links (RFPs, supplier forms)
+- **known_document_paths:** `/content/dam/nbc/tanzania/pdf/procurement/`, `/content/dam/nbc/tanzania/pdf/`
+
+### 8. **nbreliabletechnologies**
+- **scraping.enabled:** `false`
+- **Strategy:** “Tender Job Adverts” menu link returns 404
+
+### 9. **ncultd**
+- **Institution name:** Chama Kikuu cha Ushirika Nyanza (NCU) Ltd
+- **Selectors:** `li[data-description*='zabuni']`, `a.news-link`, `a[href*="/slider/"]`
+- **Strategy:** Tenders in main slider and news; “View Details” links to `/slider/{encoded}` for documents
+- **known_document_paths:** `/uploads/sliders/`
+
+### 10. **ndc**
+- **Institution name:** National Development Corporation (NDC)
+- **Selectors:** `.elementor-loop-grid`, `.elementor-post`, `a[href*="/wp-content/uploads/"]`
+- **Strategy:** WordPress/Elementor; homepage news carousel; check menu for tender section
+- **known_document_paths:** `/wp-content/uploads/`
+
+============================================================
+Batch: nei-ltd, nfqclab, nfra, ngaradc, ngomesaccos...
+National Food Reserve Agency
+- **Strategy:** Announcements at `/announcements` and `/news`; follow links for procurement notices
+- **Selectors:** `a[href*='/announcements/']`, `a[href*='/news/']`
+- **Documents:** `/storage/`, `/uploads/`
+
+### 4. **ngaradc**
+- **Institution name:** Ngara District Council
+- **Strategy:** Bootstrap table `table.table.table-striped`; each row = tender (Title | Published | Closing | Download)
+- **Selectors:** `table.table.table-striped tbody tr`, `td:first-child` (title), `td:nth-child(2,3)` (dates), `td a[href*='/storage/']` (documents)
+- **Documents:** `/storage/app/uploads/public/` (October CMS hash paths)
+
+### 5. **ngomesaccos**
+- **Strategy:** Tenda & Ajira page; content in Machapisho (posts) via `blog_single?latestId=X`
+- **Selectors:** `a[href*='blog_single']`, `.post`, `li`
+
+### 6. **nhbra**
+- **Tender URL:** `https://nhbra.go.tz/tenders` (was homepage)
+- **Strategy:** Tender page at `/tenders`; may show “No valid tender” when empty
+- **Selectors:** `.tr_inside`, `.body_wrapper`, `.content`, `#date`
+- **Documents:** `/uploads/`
+
+### 7. **nhlqatc**
+- **Scraping disabled:** `enabled: false`
+- **Tender URL:** `https://nhlqatc.go.tz/` (was africanrhinoadventure.com CSS URL)
+- **Reason:** nhlqatc.go.tz returns 406 Not Acceptable (Mod Security)
+
+### 8. **niajiri**
+- **Scraping disabled:** `enabled: false`
+- **Tender URL:** `https://www.niajiri.africa/` (was `data:image/png;base64...`)
+- **Reason:** Jobs/careers platform (Kazi & Michongo), not tender procurement
+
+### 9. **nicecatering**
+- **Institution name:** NICE Catering Limited
+- **Strategy:** No tender page; scan homepage, About Us, and linked pages for RFP/RFQ/supply docs
+- **Selectors:** `a[href*='/about-us']`, `a[href*='/government']`
+
+### 10. **nidc**
+- **Institution name:** National Internet Data Center
+- **Strategy:** Tenders page at `/tenders`; Bootstrap layout; check for NIDC Tenders Regulations dropdown
+- **Selectors:** `.container-xxl`, `.dropdown-menu`, `.dropdown-item`
+
+============================================================
+Batch: nirc, nisapoti, nishati, nit, nivexassurance...
+NeST is an Angular SPA
+- **`strategy`**: NeST SPA, headless browser, documents at nishati.go.tz/uploads/documents/
+- **`known_document_paths`**: `/uploads/documents/`
+- **`url_patterns`**: `nishati.go.tz/uploads/documents/*.pdf`, `nest.go.tz/*`
+- **`document_notes`**: NeST SPA loads tenders via JS; documents at nishati.go.tz/uploads/documents/
+
+### **NIT**
+- **`institution.name`**: "National Institute of Transport (NIT)"
+- **`tender_url`**: `https://nit.ac.tz/posts/announcements/`
+- **`strategy`**: Alpine.js; announcements with direct PDF links
+- **`selectors`**: `container`, `tender_item`, `title`, `date`, `document_link` updated
+- **`known_document_paths`**: `/media/uploads/files/`, `/media/uploads/downloads/`
+- **`url_patterns`**: `nit.ac.tz/media/uploads/files/*.pdf`, `nit.ac.tz/media/uploads/downloads/*.pdf`
+- **`document_notes`**: Documents at /media/uploads/files/ (hash filenames) and /media/uploads/downloads/
+
+### **NMTC**
+- **`institution.name`**: "National Meteorological Training Centre (NMTC)"
+- **`tender_url`**: `https://www.nmtc.ac.tz/announcements`
+- **`strategy`**: Announcements in `.zoom-container`, `.show-more-content-news`
+- **`selectors`**: `container`, `tender_item`, `title`, `date` updated
+
+### **NIVEXASSURANCE**
+- **`institution.name`**: "Nivex Assurance"
+- **`strategy`**: Homepage has services/about only; no dedicated tender listing; generic selectors kept.
+
+### **NJOMBERRH**
+- **`strategy`**: Note added about possible SSL errors or timeouts; verify reachability before scraping.
+
+### **NLUPC**
+- **`institution.name`**: "National Land Use Planning Commission (NLUPC)"
+- **`strategy`**: Note added about possible SSL errors or timeouts.
+
+### **NOLSPAN**
+- **`institution.name`**: "Nolspan International"
+- **`scraping.enabled`**: `false` — WordPress login page; no public tender content.
+
+### **NORDIC**
+- **`institution.name`**: "Nordic Distribution TZ Limited"
+- **`scraping.enabled`**: `false` — Product catalog (range extenders), not a tender site.
+
+============================================================
+Batch: norplan, noticekilimanjaro, notus, novir, nps...
+limanjaro
+- **Scraping:** **disabled** – Film Fixer & Drone Service Provider; no tender/procurement content
+
+### 3. **notus**
+- **Institution name:** Notus General Supply and Trading Company
+- **Scraping:** **disabled** – Procurement & Logistics page is marketing only; no tender listings
+
+### 4. **novir**
+- **Institution name:** Novir Logistics Limited (unchanged)
+- **Scraping:** **disabled** – Logistics/clearing company; no tender content
+
+### 5. **nps**
+- **Institution name:** Ofisi ya Taifa ya Mashtaka (NPS)
+- **Strategy:** Homepage for procurement/zabuni; site may be intermittently unreachable
+- **Selectors:** Left as generic (site unreachable during analysis)
+
+### 6. **nrap**
+- **Institution name:** NRAP
+- **Scraping:** **disabled** – Account suspended by hosting provider
+
+### 7. **nts**
+- **Institution name:** New Tahery Stores (1989) Ltd
+- **Scraping:** **disabled** – Hardware distributor; product catalog only, no tenders
+
+### 8. **nyamweziteachers**
+- **Institution name:** Nyamwezi Teachers' College
+- **Selectors:** `.contained-div`, `a[href*='/www/100/news/']` for documents
+- **Documents:** `/www/100/news/{hash}filename-{filename}.pdf`
+- **Strategy:** AVAILABLE DOCUMENTS section with application forms; Load More for pagination
+- **URL patterns:** `nyamweziteachers.ac.tz/www/100/news/*.pdf`
+
+### 9. **nyaraka**
+- **Institution name:** Idara ya Kumbukumbu na Nyaraka za Taifa (DRAM)
+- **Tender URL:** Set to `https://nyaraka.go.tz/` (was a long event URL)
+- **Strategy:** Homepage; look for procurement (Kitengo cha Ununuzi na ugavi) and document links
+
+### 10. **nyasadc**
+- **Institution name:** Nyasa District Council
+- **Selectors:** `a[href*='/advertisement/']`, `a[href*="/storage/app/uploads/"]`
+- **Documents:** `/storage/app/uploads/public/{3-char}/{3-char}/{3-char}/{hash}.pdf`
+- **Strategy:** `/manunuzi-na-ugavi`, `/tenders`, `/advertisement/{slug}`; follow links to detail pages for PDFs
+- **URL patterns:** `nyasadc.go.tz/storage/app/uploads/public/*/*.pdf`
+
+============================================================
+Batch: obp-tanzania, ocagz, offradar, okelectrical, olmesera...
+ploads/`
+
+### **okelectrical** (OK Electrical and Electronics)
+- **Enabled:** false — company homepage, no tenders
+- **Selectors:** `.content`, `#other`, `.articleb`, `.news`
+
+### **olmesera** (Ol Mesera African Restaurant)
+- **Enabled:** false — restaurant site; “tender” refers to food
+- **Institution name:** "Ol Mesera African Restaurant"
+- **Known paths:** `/wp-content/uploads/2025/12/`, `/wp-content/uploads/2024/03/`
+
+### **omar.tz** (Omar Tazi)
+- **Enabled:** false — personal CV/portfolio site
+- **Selectors:** `#profile`, `#resume`, `.resume-post`
+- **Documents:** CV only (`CV_OmarTazi.pdf`)
+
+### **omis** (OM Innovation Solutions)
+- **Enabled:** false — consulting firm; offers tender writing, no posted tenders
+- **Institution name:** "OM Innovation Solutions (OMIS)"
+- **Selectors:** `#main`, `.elementor-section`, `.tg-site`
+
+### **ompr** (Ofisi ya Makamu wa Pili wa Rais - Zanzibar)
+- **Enabled:** false — news article about e-procurement launch
+- **Strategy:** Links to ppra.go.tz for actual tenders
+- **Institution name:** "Ofisi ya Makamu wa Pili wa Rais - Zanzibar"
+
+### **orchid** (Orchid Investment Limited)
+- **Enabled:** false — corporate homepage
+- **Selectors:** `.maincwrap`, `.contentarea`, `.region-content`
+- **Known paths:** `/sites/default/files/`, `/` (orchidprofile.pdf)
+
+### **orci** (Ocean Road Cancer Institute) — only institution with real tender content
+- **Enabled:** true
+- **Selectors:** `article.hentry`, `article#post-1062`, `table.tablepress tbody tr`, `.widget_custom_html`
+- **Strategy:** TablePress table (#tablepress-2) for tender data; sidebar widgets (MAJARIDA) for PDF links
+- **Known paths:** `/oagrydee/`, `/oagrydee/YYYY/MM/`
+- **URL patterns:** `www.orci.or.tz/oagrydee/*/*.pdf`
+
+Overall, 9 institutions were disabled because they have no tender listings (services pages, login-only, restaurants, personal sites, or news articles). Only **orci** (Ocean Road Cancer Institute) has a real tender page with a TablePress table and document links.
+
+============================================================
+Batch: origintrails, orpp, outdoorcatering, packway, panafricanauditors...
+f.egatest.go.tz/panganidc/...`
+- **document_notes:** Hash-based subpaths; some links use gwf.egatest.go.tz mirror.
+
+### 8. **panita**
+- **Institution name:** "PANITA - Partnership for Nutrition in Tanzania".
+- **tender_url:** `https://panita.or.tz/` (was direct PDF).
+- **Strategy:** Scrape homepage; tenders in Latest News as `article.comment-body`.
+- **Selectors:** `container: ".et_pb_section"`, `tender_item: "article.comment-body"`, `title: ".comment_postinfo .fn"`, `date: ".comment_date"`, `document_link: '.comment-content a[href$=".pdf"]'`
+- **known_document_paths:** `/wp-content/uploads/2014/04/`
+- **url_patterns:** `panita.or.tz/wp-content/uploads/2014/04/*.pdf`
+- **document_notes:** Tenders mixed with news; follow "More News..." for full list.
+
+### 9. **parliament**
+- **Institution name:** "Bunge la Tanzania (Tanzania Parliament)".
+- **Strategy:** Scrape parliament.go.tz; follow Zabuni link; documents in news, bills, order paper.
+- **Selectors:** Adjusted for news-style layout.
+- **known_document_paths:** `/uploads/bills/`, `/uploads/documents/`
+- **url_patterns:** `parliament.go.tz/uploads/*/*.pdf`, `polis.bunge.go.tz/uploads/*/*.pdf`
+- **document_notes:** Bills, order papers, hansard; follow Zabuni for procurement tenders.
+
+### 10. **pasada**
+- **tender_url:** `https://pasada.or.tz/category/tenders` (was procurement-officer blog post).
+- **Strategy:** Scrape tenders category; blog-style listing; follow detail pages for full ToR.
+- **Selectors:** `container: ".blog-area, .col-md-8"`, `tender_item: ".blog-item"`, `title: ".blog-item .text h2 a"`, `date: ".blog-item .text p"`, `document_link: 'a[href$=".pdf"]'`, `pagination: "nav ul.pagination a.page-link"`
+- **known_document_paths:** `/uploads/`
+- **url_patterns:** `pasada.or.tz/blog/*`, `pasada.or.tz/uploads/*/*.pdf`
+- **document_notes:** Tenders as blog posts; follow Read More for full content.
+
+**Note:** `panganidc` may need `curl -k` for SSL. `packway` may require handling of the ChronoForms cookie check.
+
+============================================================
+Batch: pass, passlease, pbpa, pc, pepsitanzania...
+r widgets
+- **Documents:** `/wp-content/uploads/` (e.g. `/wp-content/uploads/2025/06/`)
+
+### **passlease** (PASS Leasing) — enabled
+- **Strategy:** Simple PHP/Bootstrap page; shows “No active tenders at the moment” when empty
+- **Selectors:** `.container.mb-5`, `.container-fluid` for main content
+- **Note:** Document paths unknown until tenders are posted
+
+### **pbpa** (Petroleum Bulk Procurement Agency) — enabled
+- **Institution name:** Petroleum Bulk Procurement Agency (PBPA)
+- **Tender URL:** `https://pbpa.go.tz/publications/tender-results-for-supply-of-petroleum-products` (was a direct PDF link)
+- **Documents:** `/uploads/announcements/`, `/uploads/documents/`
+- **Selectors:** `.home-page-bodyyyy`, `.flow-hidden`, `.has-hover-text-primary`
+
+### **pc** (Pharmacy Council) — enabled
+- **Institution name:** Pharmacy Council (PC)
+- **Strategy:** Bootstrap layout; shows `notavailable.webp` when no tenders
+- **Documents:** `/files/`, `/site/uploads/newsletters/`
+
+### **pepsitanzania** & **pepsitz** (SBC Pepsi) — disabled
+- **Reason:** No tender section on SBC Tanzania site (Company Profile, Brands, News, Careers only)
+
+### **perfectfoods** — disabled
+- **Institution name:** Perfect Foods
+- **Reason:** Hosting account suspended (“Account Suspended”)
+
+### **pesatu** — disabled
+- **Reason:** Business/economy news site, not a tender publisher; reports on tenders from other sources
+
+### **pigiame** — disabled
+- **Reason:** Cloudflare challenge requires JavaScript; classifieds site, not a primary tender source
+- **anti_bot.requires_javascript:** set to `true`
+
+### **planningznz** (Zanzibar Planning Commission) — enabled
+- **Tender URL:** `https://planningznz.go.tz/page/web/documents` (was eprocurement.zppda.go.tz, which requires login)
+- **Strategy:** Documents page (Laravel/Livewire); eprocurement requires authentication
+- **Documents:** `/storage/Files/Documents/`; some PDFs may redirect to nyotadev.co.tz
+- **Selectors:** `.promo-content`, `.promo-inner`, `.document-item`
+
+============================================================
+Batch: pmo, policyforum, ports, posta, powerproviders...
+)
+- **selectors:** `.item-page`, `.blog-item`, document links
+- **known_document_paths:** `/images/documents/reports/`
+- **strategy:** Scrape current tenders and General Procurement Plan (GPN PDF)
+
+### **posta** (Tanzania Posts Corporation)
+- **tender_url:** `https://www.posta.co.tz/announcement`
+- **institution.name:** Tanzania Posts Corporation (TPC) - Shirika la Posta Tanzania
+- **selectors:** `.container`, `a[href*='/media/publications/pdfs/']`
+- **known_document_paths:** `/media/publications/pdfs/`
+- **strategy:** Scrape Matangazo (announcements) and homepage for tender PDFs
+
+### **powerproviders** — **scraping.enabled: false**
+- Solar company; no tender listing; “procurement” refers to their supply chain
+
+### **powerweb** — **scraping.enabled: false**
+- Web hosting company; no tender listing
+
+### **ppaa** (Public Procurement Appeals Authority)
+- **tender_url:** `https://ppaa.go.tz/`
+- **institution.name:** Mamlaka ya Rufani ya Zabuni za Umma (PPAA)
+- **known_document_paths:** `/uploads/documents/`
+- **strategy:** Scrape homepage and news for bulletins; documents use `sw-{timestamp}-{filename}.pdf`
+
+### **ppra** (Public Procurement Regulatory Authority)
+- **tender_url:** `https://ppra.go.tz/` (was a direct PDF link)
+- **institution.name:** Public Procurement Regulatory Authority (PPRA)
+- **selectors:** `.views-row`, `.announcement-item`, document links
+- **known_document_paths:** `/uploads/documents/`
+- **strategy:** Scrape Public Notices, Announcements, Publications; documents use `en-{timestamp}-{filename}.pdf`
+
+### **prairies** — **scraping.enabled: false**
+- General supply company; no tender listing; only company profile
+
+### **princeco** — **scraping.enabled: false**
+- Procurement/trading company; no tender listing; only company info
+
+---
+
+**Note:** PPAA pages timed out during fetching. Updates are based on the README and known document patterns. `anti_bot.requires_javascript` remains `false` for all; none of the sites appear to be React/Angular/Vue SPAs.
+
+============================================================
+Batch: prochem, progressgroup, psc, psptb, psrb...
+tion.name` set to “Public Service Commission”, note added about timeout and need to re-check when accessible.
+
+### **psptb** — Enriched
+- **Finding:** News/announcements/events site; documents at `/uploads/documents/`.
+- **Updates:** `tender_url` → `https://psptb.go.tz/news`, `institution.name` clarified, `known_document_paths: ["/uploads/documents/"]`, selectors for news/announcements/events links, strategy and document notes updated.
+
+### **psrb** — Enriched
+- **Finding:** `tender_url` pointed to external unpan.org; documents at `/uploads/pressreleases/`; site timed out.
+- **Updates:** `tender_url` → `https://psrb.go.tz/`, `known_document_paths: ["/uploads/pressreleases/"]`, strategy and document notes updated.
+
+### **psssf** — Enriched
+- **Finding:** Yii site; tender pages may be empty when no tenders; Media Center has documents.
+- **Updates:** `institution.name` set to “PSSSF - Public Service Social Security Fund”, selectors for `.site-main`, `.post-item`, `known_document_paths` for `/media/publication` and `/media/doc-act`, strategy and document notes updated.
+
+### **ptf** — Enriched
+- **Finding:** WordPress site; “Mkopo wa Zabuni” in slider; news in `.blog_slider_ul`.
+- **Updates:** `institution.name` corrected, selectors for `.blog_slider_ul li`, `.date_label`, `known_document_paths: ["/wp-content/uploads/"]`, strategy and document notes updated.
+
+### **ptl** — Scraping disabled
+- **Finding:** Site returns “Account Suspended”.
+- **Updates:** `scraping.enabled: false`, `status: "inactive"`, strategy and document notes updated.
+
+### **pura** — Note added
+- **Finding:** Site timed out; known path `/wp-content/uploads/2025/03/` kept.
+- **Updates:** Note added about timeout and need to verify when accessible.
+
+### **qelatechnologies** — Scraping disabled
+- **Finding:** ICT/AgriTech marketing site; “Procurement” only in product features.
+- **Updates:** `scraping.enabled: false`, selectors set to `section`, `.border.rounded-md`, strategy and document notes updated.
+
+============================================================
+Batch: qif, qualityfurniture, radio5fm, rafikisdo, raphaelholdings...
+**
+- **Status:** Scraping disabled
+- **Reason:** Site returns "Account Suspended".
+- **Changes:** `institution.name` set to "Raphael Holdings", `scraping.enabled: false`.
+
+### **rea**
+- **Status:** Scraping enabled
+- **Note:** rea.go.tz timed out during analysis. Generic selectors kept; document notes mention timeout and suggest checking `/tenders/`, `/procurement/`, or `/zabuni/` when the site is reachable.
+- **Changes:** `institution.name` set to "Rural Energy Agency (REA)".
+
+### **redbull**
+- **Status:** Scraping disabled
+- **Reason:** redbull.com is the global Red Bull brand site. No Tanzania-specific tender or procurement content.
+- **Changes:** `institution.name` corrected, `scraping.enabled: false`.
+
+### **reigroup**
+- **Status:** Scraping disabled
+- **Reason:** reigroup.co.tz is a logistics/clearing & forwarding site. No tender or procurement page.
+- **Changes:** `institution.name` corrected, `scraping.enabled: false`.
+
+### **repoa**
+- **Status:** Scraping enabled
+- **Structure:** WordPress/Elementor archive at `/category/tenders/`.
+- **Selectors:**
+  - `container`: `.elementor-posts-container`
+  - `tender_item`: `article.elementor-post`
+  - `title`: `h3.elementor-post__title`, `.elementor-post__read-more`
+  - `date`: `.elementor-post__meta-data`
+  - `document_link`: `a[href$=".pdf"]`, etc.
+  - `pagination`: `.elementor-pagination a`
+- **Documents:** PDFs in `/wp-content/uploads/`; follow "Read More" to detail pages.
+- **URL patterns:** `repoa.or.tz/wp-content/uploads/*`, `repoa.or.tz/by-repoa/*`, `repoa.or.tz/tenders/*`
+
+### **reputable**
+- **Status:** Scraping disabled
+- **Reason:** reputable.co.tz is an industrial supplier site. Describes procurement services but has no tender listing page.
+- **Changes:** `scraping.enabled: false`, strategy and document notes updated.
+
+---
+
+**Institutions with scraping enabled:** rafikisdo, rea, repoa  
+**Institutions with scraping disabled:** qif, qualityfurniture, radio5fm, raphaelholdings, redbull, reigroup, reputable
+
+============================================================
+Batch: reveurse, rexattorneys, rhotiahealthcentre, ricattorneys, rickmedia...
+_paths:** `/` (root)
+- **url_patterns:** Root-level PDFs (e.g. `fee_structure_for_certificate_and_diploma.pdf`)
+- **strategy:** College with procurement department; no dedicated tender listing; check news and Job_opportunities.html
+- **document_notes:** Documents at site root; no dedicated tender section
+
+### **rjitsolutions**
+- **institution.name:** "RJ IT Solutions"
+- **selectors:** `#sp-main`, `#sp-main-body`, `.sppb-row`, `.sppb-column`
+- **strategy:** Joomla/SP Page Builder; no dedicated tender section
+- **document_notes:** No tender section; check Our Services pages
+
+### **rmb**
+- **scraping.enabled:** `false` — grid site returns 503 Service Unavailable
+- **strategy:** Scraping disabled until site is restored
+- **anti_bot.requires_javascript:** `true` (ASP.NET site)
+- **document_notes:** When available, documents at `assets.rmb.co.za/files/pdf/legal/`
+
+### **rmholdings**
+- **selectors:** `.page-wrapper`, `.slider-wrap`, `.rs-slide`, `.vc_row`
+- **known_document_paths:** `/website/wp-content/uploads/`
+- **url_patterns:** `rmholdings.co.tz/website/wp-content/uploads/*.pdf`
+- **strategy:** WordPress with WPBakery; no dedicated tender section
+- **document_notes:** Documents at `/website/wp-content/uploads/YYYY/MM/`
+
+### **roadsfund**
+- **institution.name:** "Bodi ya Mfuko wa Barabara (Tanzania Roads Fund Board)"
+- **tender_url:** `https://roadsfund.go.tz/pages/zabuni` (was a news article URL)
+- **selectors:** `section.main-content`, `.content-border`, `.sidebar-info .info-items .border-bottom`, `.media`
+- **known_document_paths:** `/uploads/news/`, `/uploads/gallery/`, `/publications/`
+- **url_patterns:** `roadsfund.go.tz/uploads/*.pdf`, `roadsfund.go.tz/publications/*`
+- **strategy:** Scrape Zabuni and GPN at `/publications/13`; MANUNUZI nav; SSL may require `-k` for curl
+- **document_notes:** Government agency; MANUNUZI nav has GPN and Zabuni; documents in `/uploads/`
+
+**Note:** `roadsfund.go.tz` may require `curl -k` (or equivalent) to bypass SSL verification.
+
+============================================================
+Batch: rolinternational, rsgattorneys, rthosting, ruaha-balloon-safaris, rudys...
+ shows "This Account has been suspended" |
+| **rsgattorneys** | "Our website is coming soon" placeholder – no content |
+| **rthosting** | Domain hosting/reseller site (Supersite) – no tenders |
+| **ruaha-balloon-safaris** | Tourism/balloon safari site – no procurement content |
+| **rudys** | Restaurant (Grand Grill & Bar) – "tender" is menu item (Pork Tenderloin) |
+| **sabtec** | Engineering company – no tender page; "procurement" only in services text |
+| **samsonite** | Luggage retailer – no tender content |
+
+## Updated with actual selectors
+
+### rungwedc (Rungwe District Council)
+- **Container:** `.right-sidebar-content`, `.middle-content-wrapper`
+- **Tender item:** `a[href*='/announcement/']`
+- **Document link:** `a.fr-file`, `a[href*="/storage/app/media/uploaded-files/"]`, `a[href*="/storage/app/uploads/public/"]`
+- **Known paths:** `/storage/app/media/uploaded-files/`, `/storage/app/uploads/public/`
+- **Pagination:** `a.view-all`
+
+### samedc (Same District Council)
+- **Container:** `.right-sidebar-content`, `table.table.table-striped`
+- **Tender item:** `table.table.table-striped tbody tr`
+- **Title:** `td:first-child`
+- **Date:** `td:nth-child(2)`, `td:nth-child(3)` (published, closing)
+- **Document link:** `td a[href*="/storage/"]` (column 4, "Pakua")
+- **Known path:** `/storage/app/uploads/public/`
+
+### ruvuma (Ruvuma Region)
+- **Tender URL:** `https://ruvuma.go.tz/tenders`
+- **Container:** `.first-content-wrapper`, `.home-announcement-wrapper`
+- **Tender item:** `.home-announcement-wrapper a`, `table.table tbody tr`
+- **Document link:** `a[href*="/storage/app/uploads/public/"]`
+- **Pagination:** `a.view-more`
+
+## Institution names corrected
+
+- **rsgattorneys:** "Our website is coming soon" → "RSG Attorneys"
+- **rungwedc:** "Home | Rungwe District Council" → "Rungwe District Council"
+- **samedc:** "Home | Same District Council" → "Same District Council"
+- **ruvuma:** "Ruvuma" → "Ruvuma Region"
+- **samsonite:** "Samsonite – We carry the world" → "Samsonite"
+
+============================================================
+Batch: sarclawchambers, saut, savannahplains, savethechildren, savvy...
+ors:** `.layout-container`, `.view-content .views-row` (Drupal)
+- **strategy:** Tanzania country page; Jobs/News, no dedicated tender page
+
+### **savvy**
+- **enabled:** false – Engineering company, no tender page
+- **institution.name:** "Savvy Engineering Investment"
+- **strategy:** Notes that "procurement" only appears in team member title
+
+### **sayarinews**
+- **enabled:** false – Blogger news site, no tender content
+- **selectors:** `#content-wrapper`, `.post`, `.blog-pager`
+
+### **sbctanzania**
+- **enabled:** false – SBC Pepsi corporate site, no tender page
+- **selectors:** `.container`, `.gallery_product`
+
+### **sccult.tz**
+- **enabled:** false – SACCOS umbrella, no tender page
+- **strategy:** Notes that "supply" only appears in services description
+
+### **schoolofstjude**
+- **institution.name:** "The School of St Jude"
+- **selectors (actual):**
+  - **container:** `.fieldlist-wrapper`, `.oxy-dynamic-list.fieldlist_wrapper`
+  - **tender_item:** `.fielditem.fielditem--margin`
+  - **title:** `.fielditem__heading`, `h4.ct-headline`
+  - **date:** `.tender_expiry`, `.code_block.tender_expiry`
+  - **document_link:** `a.button--download`, `a.ct-link[href$=".pdf"]`
+  - **pagination:** `.oxy-repeater-pages-wrap .page-numbers`, `a.next.page-numbers`
+- **known_document_paths:** `/wp-content/uploads/`
+- **url_patterns:** `schoolofstjude.org/wp-content/uploads/*/Tender-advert-*.pdf`
+- **document_notes:** Date format DD/MM/YYYY HH:MM am, reference in `.fieldlist__block--ref`
+
+### **score**
+- **enabled:** false – TMS engineering company, no tender page
+- **known_document_paths:** `/img/`
+- **url_patterns:** `score.co.tz/img/*.pdf`
+- **document_notes:** Brochures only, no tender documents
+
+**Institutions with scraping disabled:** sarclawchambers, saut, savvy, sayarinews, sbctanzania, sccult.tz, score (7)  
+**Institutions with scraping enabled:** savannahplains, savethechildren, schoolofstjude (3)  
+**Institution with a dedicated tender page and full selectors:** schoolofstjude
+
+============================================================
+Batch: sengeremadc, serengetimigrationtrail, sfconsultancy, sheria, shima...
+S)"
+- **strategy:** Page unreachable; Zabuni under pages
+
+### **shipco**
+- **scraping.enabled:** `false` — eProcurement portal requires login
+- **anti_bot.requires_javascript:** `true`
+- **strategy:** `eprocurement.zppda.go.tz` redirects to `/esop/guest/login.do`; needs auth
+- **document_notes:** Login required; meta robots noindex
+
+### **shti**
+- **institution.name:** "Sengerema Health Training Institute (SHTI)"
+- **strategy:** Scrape homepage DOCUMENTS section; follow "More Docs" to `/news-and-events`
+- **selectors:**
+  - **container:** `#slidernews1_div, .contained-div, .lib_new`
+  - **tender_item:** `.lib_new p, .news p`
+  - **title:** `a.ck, a[href*='/www/100/news/']`
+  - **document_link:** `a[href*="/www/100/news/"]`
+  - **pagination:** `a[href*='news-and-events'], .lib_new_loadmore`
+- **known_document_paths:** `/www/100/news/`
+- **url_patterns:** `shti.ac.tz/www/100/news/*filename*.pdf`
+- **document_notes:** URL format `{hash}filename-{filename}.pdf`; date as "Posted On : YYYY-MM-DD"
+
+### **shulevalley**
+- **scraping.enabled:** `false` — Livewire SPA with no tender listing
+- **anti_bot.requires_javascript:** `true`
+- **strategy:** `/tenders` uses Livewire with empty data; Edutech platform, no procurement tenders
+- **document_notes:** Livewire SPA; content loaded via JavaScript
+
+### **sia**
+- **scraping.enabled:** `false` — No tender listing
+- **institution.name:** Unchanged (Sustainability in Action)
+- **strategy:** `procurement-and-supply` is static consultancy content; no RFI/tender notices
+- **selectors.container:** `.entry-content, .wp-block-post-content, main`
+- **url_patterns:** `sia.or.tz/wp-content/uploads/*.pdf`
+- **document_notes:** WordPress; no tender listing on procurement page
+
+### **sibros**
+- **scraping.enabled:** `false` — No tender page
+- **strategy:** Equipment company; “procurement” refers to spare parts, not tenders
+
+---
+
+**Scraping enabled:** 1 (shti)  
+**Scraping disabled:** 9 (unreachable, parked, login required, or no tender content)
+
+============================================================
+Batch: sido, sig, sikapex, sikika, silverleaf...
+rs:** Set to N/A because content is dynamic
+
+### 2. **sig**
+- **Scraping disabled** – site shows “Account Suspended”
+- **Institution name:** SIG
+
+### 3. **sikapex**
+- **Scraping disabled** – site shows “Account Suspended”
+- **Institution name:** Sikapex
+
+### 4. **sikika**
+- **Tender URL:** `https://sikika.or.tz/index.php/en/news-updates-en/events`
+- **Container:** `#tz-component, .blog.EVENTS`
+- **Tender item:** `.item[itemprop='blogPost']`
+- **Title:** `.tz__blog__title h3 a`
+- **Date:** `.tz__blog__published time`
+- **Document link:** Includes `a[href*="ln.run"]` for short URLs
+- **Strategy:** Scrape Events page; tenders appear as events; follow detail links for documents
+- **Known paths:** `/images/`, `/media/`
+
+### 5. **silverleaf**
+- **Strategy:** School site with no dedicated tender page; scan for tender/EOI/RFI keywords
+
+### 6. **silverstoneproperties**
+- **Scraping disabled** – site shows “Coming Soon”
+- **Institution name:** Silverstone Properties
+
+### 7. **simanjirodc**
+- **Institution name:** Simanjiro District Council
+- **Container:** `.right-sidebar-content`
+- **Tender item:** `table.table.table-striped tbody tr`
+- **Title:** `td:first-child` (Jina la zabuni)
+- **Date:** `td:nth-child(2)`, `td:nth-child(3)`
+- **Document link:** `td:last-child a`
+- **Known paths:** `/storage/app/uploads/public/`
+- **URL pattern:** `simanjirodc.go.tz/storage/app/uploads/public/*`
+
+### 8. **simbatechnology**
+- **Strategy:** IT company; no dedicated tender page; scan for RFI/tender keywords
+
+### 9. **simiyu**
+- **Scraping disabled** – site unreachable (SSL/timeout)
+- **Tender URL:** `https://simiyu.go.tz/tenders`
+- **Institution name:** Ofisi ya Mkuu wa Mkoa wa Simiyu
+- **Selectors:** Same structure as simanjirodc (October CMS) for when the site is reachable
+
+### 10. **simplyit**
+- **Tender URL:** `https://simplyit.co.tz/` (was a Google Maps link)
+- **Institution name:** Simply IT
+- **Strategy:** Digital marketing agency; no dedicated tender page; scan for EOI/RFP keywords
+
+============================================================
+Batch: sinetamer, singida, singidadc, singidamc, slads...
+ws article, not the tenders page.
+- **Updates:** `tender_url` set to `https://singidadc.go.tz/tenders`, selectors aligned with singida/singidamc, `known_document_paths`, `url_patterns`, strategy, and institution name.
+
+### **singidamc** — Enriched with October CMS selectors
+- **Finding:** October CMS at `/tenders`. `table.table-striped` often empty; tenders in `.right-sidebar-container` announcement links.
+- **Updates:** Same selectors as singida/singidadc, `known_document_paths`, `url_patterns`, strategy, and institution name.
+
+### **slads** — Strategy updated
+- **Finding:** Announcements section on homepage; `/announcement-documents` for full list.
+- **Updates:** `institution.name` set to full SLADS name, strategy updated, selectors adjusted for announcements.
+
+### **smag** — Scraping disabled
+- **Finding:** `/tenders` returns 404.
+- **Updates:** `scraping.enabled: false`, `tender_url` set to `/tenders`, strategy updated, institution name shortened.
+
+### **smartfinance** — Scraping disabled
+- **Finding:** Microfinance software product site; no tender listings.
+- **Updates:** `scraping.enabled: false`, strategy updated, `document_notes` clarified.
+
+### **smilesmedicstomatology** — Scraping disabled
+- **Finding:** Dental equipment supplier catalog; no tender page.
+- **Updates:** `scraping.enabled: false`, strategy updated, `document_notes` clarified.
+
+### **soap** — Scraping disabled
+- **Finding:** Tarmal Industries soap/detergent manufacturer; product catalog only.
+- **Updates:** `scraping.enabled: false`, strategy updated, `document_notes` clarified.
+
+### **sofascore** — Scraping disabled
+- **Finding:** sofascore.com is a football live scores site, not a Tanzanian institution.
+- **Updates:** `scraping.enabled: false`, institution name set to indicate mismatch, strategy updated, `document_notes` clarified.
+
+---
+
+**Scraping enabled:** singida, singidadc, singidamc, slads  
+**Scraping disabled:** sinetamer, smag, smartfinance, smilesmedicstomatology, soap, sofascore
+
+============================================================
+Batch: solutionplus, somaconnect, somaexpress, songeasmartcollege, souwasa...
+'a.ck[href*=".pdf"], a.ck[href*=".doc"], a.ck[href*=".docx"]'`
+  - `pagination: ".more a"`
+  - `known_document_paths: ["/www/100/news/"]`
+  - `url_patterns: ["songeasmartcollege.ac.tz/www/100/news/*", "songeasmartcollege.ac.tz/*.pdf"]`
+  - `document_notes` updated with path format and date format.
+
+### 5. **souwasa** — NeST is Angular SPA
+- **Finding:** nest.go.tz is an Angular SPA; content loads via JavaScript.
+- **Updates:**
+  - `institution.name: "Songea Urban Water Supply and Sanitation Authority (Souwasa)"`
+  - `anti_bot.requires_javascript: true`
+  - Selectors updated for Angular Material (`app-root`, `mat-row`, `mat-cell`, `mat-paginator`)
+  - `url_patterns` and `document_notes` updated.
+
+### 6. **spade** — Scraping disabled
+- **Finding:** Homepage has no tender content (consultancy).
+- **Updates:** `institution.name: "Space & Development Company Limited (SpaDe)"`, `scraping.enabled: false`, strategy note, `document_notes` updated.
+
+### 7. **spaide** — Scraping disabled
+- **Finding:** Homepage has no tender content (NGO).
+- **Updates:** `scraping.enabled: false`, strategy note, `document_notes` updated.
+
+### 8. **spidertours** — Scraping disabled
+- **Finding:** Homepage has no tender content (safari/tourism company).
+- **Updates:** `scraping.enabled: false`, strategy note, `document_notes` updated.
+
+### 9. **spiknspan** — Scraping disabled
+- **Finding:** Homepage has no tender content (cleaning company).
+- **Updates:** `scraping.enabled: false`, strategy note, `document_notes` updated.
+
+### 10. **spinandwin** — Scraping disabled
+- **Finding:** Casino/gambling site; “tenders” refers to games, not procurement.
+- **Updates:** `scraping.enabled: false`, `anti_bot.requires_javascript: true`, strategy note, `document_notes` updated.
+
+---
+
+**Institutions with scraping enabled:** songeasmartcollege, souwasa (NeST requires JavaScript).  
+**Institutions with scraping disabled:** solutionplus, somaconnect, somaexpress, spade, spaide, spidertours, spiknspan, spinandwin.
+
+============================================================
+Batch: splashmedia, sprf, sprinters, srilanka, sstapes...
+
+Summary of updates for all 10 institutions:
+
+## Summary of README Updates
+
+### Scraping disabled (6 institutions)
+
+| Institution | Reason |
+|-------------|--------|
+| **splashmedia** | Tender URL is Facebook; requires login and JavaScript, no tender content via HTTP GET |
+| **sprf** | Tender URL is YouTube channel; SPA, no tender listing in static HTML |
+| **srilanka** | Account suspended by hosting provider |
+| **sstapes** | Account suspended by hosting provider |
+| **stamigold** | Publications URL returns 404; main site timed out during analysis |
+| **stateforwarders** | Account suspended by hosting provider |
+
+### Scraping enabled (4 institutions)
+
+| Institution | Updates |
+|-------------|---------|
+| **sprinters** | Container: `#main`, `.site-main`, `article.hentry .entry-content`. Documents in `/wp-content/uploads/`. No dedicated tender page; homepage has About, Vision, Mission, Contact. |
+| **st-teresaofavilagss** | Institution name set to "St. Teresa of Avila Girls Secondary School". Container: `#container`, `.row`, `.card .card-body`. Bootstrap/AdminLTE layout. Check Application.php and matokeo.php for forms. |
+| **st-thomasnyabula** | Container: `#main`, `.entry-content`, `.elementor`. Document links in `.elementor-button`. Documents in `/wp-content/uploads/` (e.g. Entry-fomu-2025 PDF). |
+| **stanha** | Container: `#content`, `#left`, `#right`. Company Profile PDF via `javascript:OpenURL('Profile/...')`; `requires_javascript: true`. Document path: `Profile/STANHA Company Profile International.pdf`. |
+
+### Notes
+
+- **sprinters**, **st-teresaofavilagss**, **st-thomasnyabula**: No formal tender listings; mainly corporate/school pages with occasional documents.
+- **stanha**: Document link uses `javascript:OpenURL()`; scraper needs to handle JS or resolve `Profile/` paths directly.
+- **stamigold**: `tender_url` changed to `https://stamigold.co.tz/publications/`; re-enable when the site is reachable.
+
+============================================================
+Batch: stawi, stdominicsavio, stemmuco, stjosephs, sua...
+ (Arabica Green, Arabica Roasted, Robusta Roasted, Mixed Sorts), online store. Re-enable when tender/procurement page is identified."
+
+### 10. **swahilihoney**
+- **institution.name:** Set to "Central Park Bees (Swahili Honey)"
+- **scraping.enabled:** Set to `false`
+- **strategy:** Updated to: "Scraping disabled. /about-us/tender shows company info (About Us, team, services, mission/vision) — no tender listings. Central Park Bees (Swahili Honey) is a honey/beeswax supplier. Re-enable when a dedicated tender/procurement page is identified."
+- **document_notes:** Updated to: "No tender documents on /about-us/tender. Page contains company profile, team bios, services. Re-enable when tender page exists."
+
+---
+
+## All 10 institutions processed
+
+| Institution      | Status   | Notes                                                                 |
+|------------------|----------|-----------------------------------------------------------------------|
+| stawi            | Disabled | NGO; no tender listing; content protection                            |
+| stdominicsavio   | Disabled | School site; no tender listing                                        |
+| stemmuco         | Enabled  | Course page; documents in `/wp-content/uploads/`                      |
+| stjosephs        | Disabled | Account suspended                                                     |
+| sua              | Enabled  | Drupal; documents in `/sites/default/files/`                           |
+| suanet           | Enabled  | Same as SUA                                                           |
+| sumait           | Enabled  | Latest notices; documents in `/assets/docs/`, `download.php`           |
+| sunego           | Disabled | Account suspended                                                     |
+| swahilicoffee    | Disabled | Coffee e-commerce; no tender listing                                  |
+| swahilihoney     | Disabled | /about-us/tender is company info, not tenders                          |
+
+============================================================
+Batch: swissport, synaptic, taas-online, taborapolytechnic, tacaids...
+
+All 10 institution READMEs are updated. Summary:
+
+## Summary of README Updates
+
+### Disabled (no tender content)
+| Institution | Reason |
+|-------------|--------|
+| **swissport** | URL is a Sustainable Procurement policy page, not a tender listing |
+| **synaptic** | IT services site; no tender page |
+| **taec** | NeST (nest.go.tz) tender page unreachable (timeout) |
+| **taifamining** | Corporate site; only compliance certificates, no tenders |
+| **talenthub** | Job board, not a tender site; `requires_javascript: true` |
+
+### Enabled with updated selectors
+| Institution | Changes |
+|-------------|---------|
+| **taas-online** | Publications structure; `known_document_paths: /uploads/`; `url_patterns` updated |
+| **taborapolytechnic** | AVAILABLE DOWNLOADS structure; `known_document_paths: /www/100/news/`; document URL pattern |
+| **tacaids** | Bootstrap/DataTables structure; `known_document_paths: /uploads/, /documents/` |
+| **tafori** | WordPress structure; `.mh-custom-announcement-posts-item`; `known_document_paths: /wp-content/uploads/, /uploads/` |
+| **taha** | Added `alternate_tender_url: https://shorturl.at/Vrsv6` (external tenders link) |
+
+### Institution names corrected
+- **synaptic** → "Synaptic Solutions Tanzania"
+- **taborapolytechnic** → "Tabora Polytechnic College"
+- **tacaids** → "Tanzania Commission for AIDS (TACAIDS)"
+- **taec** → "Tanzania Atomic Energy Commission (TAEC)"
+- **tafori** → "Tanzania Forestry Research Institute (TAFORI)"
+- **taifamining** → "Taifa Mining Civils Limited"
+
+### Other updates
+- **known_document_paths** added where document locations were identified
+- **url_patterns** updated to match actual document URLs
+- **document_notes** updated with site-specific notes
+- **strategy** updated with concrete scraping instructions
+
+============================================================
+Batch: tanescosaccos, tanfoam, tanga, tangacc, tanganyikadc...
+
+Summary of updates for all 10 institutions:
+
+## Completed updates
+
+### **tanescosaccos** (from earlier)
+- Institution name, selectors, strategy, document paths, and notes updated from the WordPress site.
+
+### **tanfoam**
+- Fixed malformed `tender_url` (removed base64 image data).
+- Set `scraping.enabled: false` — site is under construction with no tender content.
+
+### **tanga**
+- Updated selectors for October CMS (Matangazo, Habari mpya).
+- Document paths: `/storage/app/uploads/public/` with hash paths.
+
+### **tangacc**
+- Corrected `tender_url` to `https://tangacc.go.tz/tenders`.
+- Updated strategy and selectors for October CMS.
+
+### **tanganyikadc**
+- Institution name set to "Tanganyika District Council".
+- Selectors: `.right-sidebar-content`, `.right-sidebar-container`, `h4 a`, `span` for date.
+- Documents in `/storage/app/uploads/public/`.
+
+### **tangatimes**
+- Set `scraping.enabled: false` — livanholidays.co.tz is a tourism site with no tender content.
+
+### **tanicacafe**
+- Corrected `tender_url` to `https://tanicacafe.co.tz/procurement-portal/`.
+- Strategy updated: form-based supplier interest, documents collected in person (Tsh 100,000 fee).
+- Document notes: documents not available online.
+
+### **tanroads**
+- Selectors: `#w1.grid-view`, `table.table tbody tr`, `td:nth-child(2) a` (title), `td:nth-child(5)` (deadline).
+- Document links: `/tenders/download/{id}` on detail pages.
+- Document paths: `/uploads/files/`, `/common/attachments/`.
+
+### **tanscarattorneys**
+- Set `scraping.enabled: false` — site shows "COMING SOON" only.
+
+### **tanserve**
+- Set `scraping.enabled: false` — category URL returns 404.
+
+---
+
+**Scraping enabled:** tanescosaccos, tanga, tangacc, tanganyikadc, tanicacafe, tanroads  
+**Scraping disabled:** tanfoam, tangatimes, tanscarattorneys, tanserve
+
+============================================================
+Batch: tanzaniaislamic-centre, tanzanianweb, tanzaniaparks, taotic, tara...
+tanzaniaparks**
+- **Status:** `scraping.enabled: false` — page unreachable (SSL/timeout)
+- **Tender URL:** `https://tanzaniaparks.go.tz/tenders` (from websites.md)
+- **Note:** Re-enable when site is reachable
+
+### 4. **taotic**
+- **Status:** `scraping.enabled: false` — hosting account suspended
+- **Name:** TAOTIC
+
+### 5. **tara**
+- **Selectors:** Drupal 7: `#block-views-resources-block`, `#block-views-events-block`, `#block-views-news-events-block`; `.views-row` items; `.views-field-title a`; `.views-field-field-attachment a[href*="/file/"]`
+- **Documents:** `/sites/default/files/`, `/file/{id}/download?token=...`
+- **URL patterns:** `tara.or.tz/file/*/download*`, `tara.or.tz/sites/default/files/*`
+- **Strategy:** Scrape Resources (bulletins), Events, News; no traditional tender listing
+- **Name:** TARA - Tanzania Roads Association
+
+### 6. **tari**
+- **Strategy:** News, Events, Matangazo (announcements); procurement menu items
+- **Note:** Announcements at `/announcements/`; structure to be confirmed on first run
+- **Name:** TARI - Tanzania Agricultural Research Institute
+
+### 7. **tarura**
+- **Anti-bot:** `requires_javascript: true` — Angular SPA (`<app-root>`)
+- **Strategy:** Content loaded client-side; needs headless browser
+- **Name:** TARURA - Tanzania Rural and Urban Roads Agency
+
+### 8. **tarvey**
+- **Status:** `scraping.enabled: false` — consultancy site, no tender listing
+- **Name:** Tarvey Ltd
+
+### 9. **tasac**
+- **Status:** `scraping.enabled: false` — tender page unreachable (timeout)
+- **Tender URL:** `https://tasac.go.tz/publications/tender`
+- **Name:** TASAC - Tanzania Shipping Agencies Corporation
+
+### 10. **tasaf**
+- **Status:** `scraping.enabled: false` — homepage unreachable (timeout)
+- **Note:** Menu shows “Zabuni Zilizotangazwa” (tenders announced)
+- **Name:** TASAF - Tanzania Social Action Fund
+
+---
+
+**Scraping enabled:** tanzaniaislamic-centre, tara, tari  
+**Scraping disabled:** tanzanianweb, tanzaniaparks, taotic, tarura, tarvey, tasac, tasaf
+
+============================================================
+Batch: tasta, tasuba, tatcnyumbu, tatco, tatoa...
+, `article#post-116 .entry-content`, `.pagelayer-row-holder`
+- **known_document_paths:** `/wp-content/uploads/`
+- **url_patterns:** `tatcnyumbu.or.tz/wp-content/uploads/*.pdf`
+
+### 4. **tatco**
+- **scraping.enabled:** `false` — account suspended
+- **strategy:** Hosting suspended; re-enable when site is restored
+- **institution.name:** "TATCO"
+
+### 5. **tatoa** (Tanzania Truck Owners Association)
+- **scraping.enabled:** `false` — no tender page
+- **strategy:** Homepage shows associate members; no procurement/tender section
+- **selectors:** `main#main`, `section.sponsors-section`, `.sponsor-card`
+
+### 6. **tawca** (TAWCA)
+- **anti_bot.requires_javascript:** `true` — Next.js SPA
+- **strategy:** Netlify SPA; tender page at `/Opportunities/Tenders/`; currently “No Tenders Available”
+- **selectors:** `main`, `.w-full.max-w-6xl.mx-auto`
+
+### 7. **tawiri**
+- **strategy:** Procurement page may be slow; increase timeout if needed
+- **document_notes:** Page may timeout; document paths to be discovered on first successful scrape
+
+### 8. **tawla** (Tanzania Women Lawyers Association)
+- **strategy:** WordPress; TOR/RFI on homepage and `tawla-recent-news`; `fivo_docs` shortcode for documents
+- **selectors:** `.vc_custom_1535689861668`, `.widget`, `.post`
+- **known_document_paths:** `/wp-content/uploads/`
+- **url_patterns:** `tawla.or.tz/wp-content/uploads/*.pdf`
+
+### 9. **tayoa** (TAYOA)
+- **strategy:** WordPress; homepage shows projects; no dedicated tender page; scan for RFI/RFQ
+- **selectors:** `.consultio-portfolio`, `.portfolio-item`
+
+### 10. **tba** (Wakala wa Majengo Tanzania)
+- **tender_url:** `https://tba.go.tz/announcements` (was homepage)
+- **strategy:** Scrape `/announcements` (Matangazo); also check `/news`, `/tba_projects`; “Hakuna Taarifa” when empty
+- **document_notes:** Swahili: Matangazo = announcements, Zabuni = tenders
+
+**Note:** Pages for **tasuba** and **tawiri** timed out during fetch. Their configs were updated from existing README data and known patterns.
+
+============================================================
+Batch: tcaa, tcindustries, tdb, teaboard, tec...
+ (TEC)"
+- **tender_url:** `https://tec.or.tz/index.php/news/`
+- **Selectors:** `.gdlr-core-item-list`, `.gdlr-core-blog-title a`, `.gdlr-core-blog-date-wrapper`
+- **known_document_paths:** `/wp-content/uploads/`
+- **strategy:** WordPress/Kingster; filter tenders/RFPs from news
+- **document_notes:** WordPress structure and tender filtering
+
+### 6. **TechnoSolutions** (technosolutions.co.tz)
+- **strategy:** ICT company; no tender page; scrape products/services
+- **document_notes:** No tender section; low volume expected
+
+### 7. **TEITI** (teiti.go.tz)
+- **institution.name:** "Tanzania Extractive Industries Transparency Initiative (TEITI)"
+- **tender_url:** `https://teiti.go.tz/tenders` (HTTPS)
+- **Selectors:** `table.table-striped tbody tr`, `td:first-child`, `td:nth-child(2)`, `td:nth-child(3)`, `td a[href*="/storage/"]`
+- **known_document_paths:** `/storage/app/uploads/public/`
+- **strategy:** Table with Tender Name, Date Added, Closing Date, Download
+- **document_notes:** Hash-based document paths
+
+### 8. **Teknicon** (teknicon.co.tz)
+- **institution.name:** "TEKNICON Limited – Consulting Engineers and Project Managers"
+- **known_document_paths:** `/wp-content/uploads/`
+- **strategy:** Portfolio/projects; no tender listing; check for tender docs
+- **document_notes:** WordPress; tender docs in services
+
+### 9. **TEKU** (teku.ac.tz)
+- **institution.name:** "Teofilo Kisanji University (TEKU)"
+- **Selectors:** `.about_inner`, `a[href*='files/']`, RECENT NEWS AND DOWNLOADS
+- **strategy:** Scrape RECENT NEWS AND DOWNLOADS; documents in `/files/`
+- **document_notes:** Existing `/files/` path kept
+
+### 10. **TEMDO** (temdo.or.tz)
+- **institution.name:** "Taasisi ya Uhandisi na Usanifu Mitambo Tanzania (TEMDO)"
+- **Selectors:** `p.download`, `p.download a` (title/date in link text)
+- **known_document_paths:** `/uploads/tenders/`
+- **strategy:** Each tender is `p.download`; closing date as "Tarehe ya Mwisho" in link text
+- **document_notes:** Document paths and date parsing
+
+============================================================
+Batch: temekemc, tenders, tenmet, tfa, tfnc...
+ `#tender-list`, `#featured-tenders`, `#pagination`
+- Strategy: use headless browser or direct API calls
+
+### 3. **tenmet** (TEN/MET Education Network)
+- **requires_javascript: true** – detail panel and `#tenderDownload` filled by JS
+- **Selectors:** `.tender-board`, `.tender-item`, `.tender-item-title`, `.tender-meta-deadline`
+- Strategy: click each `.tender-item` and read `#tenderDetail` and `#tenderDownload`
+
+### 4. **tfa** (Tanganyika Farmers Association)
+- WordPress/Elementor
+- **Selectors:** `.elementor-loop-container`, `.e-loop-item`, `.news-sidebar`
+- **known_document_paths:** `/wp-content/uploads/`
+
+### 5. **tfnc**
+- Page unreachable
+- Removed incorrect muhas.ac.tz paths
+- Set generic paths and note to re-check when reachable
+
+### 6. **tfra** (Tanzania Fertilizer Regulatory Authority)
+- Page unreachable
+- Updated institution name and strategy note
+
+### 7. **tfs** (Tanzania Forest Services Agency)
+- **tender_url:** `https://www.tfs.go.tz/resources/documents` (listing page)
+- **Selectors:** `#atable tbody tr`, `td:nth-child(2) a`, `td a[href$=".pdf"]`
+- **known_document_paths:** `/uploads/documents/`
+- **document_notes:** malformed hrefs (two URLs in one) – extract second URL
+
+### 8. **tgnp** (Tanzania Gender Networking Program)
+- WordPress category archive (Astra)
+- **Selectors:** `.ast-article-post`, `.entry-title a`, `.entry-meta`
+- **known_document_paths:** `/wp-content/uploads/`
+
+### 9. **thecitizen** (The Citizen)
+- Newspaper CMS; page only partially loaded
+- Generic selectors and note about `/resource/crblob/` paths
+
+### 10. **thefoundation** (Foundation For Civil Society)
+- Webflow
+- **Selectors:** `.tender-cl`, `.tender-ci`, `.event_item-title`, `.event_top-bottom .text-size-regular`
+- **known_document_paths:** `cdn.prod.website-files.com/67aeab3ad63a0b7f2506ae9d/`
+- Strategy: follow `/tenders/{slug}` links for PDFs
+
+**Institutions needing JavaScript:** tenders (TenderSoko), tenmet  
+**Institutions unreachable during analysis:** temekemc, tfnc, tfra
+
+============================================================
+Batch: thinkmate, thps, thrillton, ths, tibanova...
+y updated, selectors refined, existing `known_document_paths` and `url_patterns` kept.
+
+### **tibanova** — Scraping enabled
+- **Finding:** Healthcare software site; “Procurement” is a product module; brochure at `/wp-content/uploads/2023/08/`.
+- **Updates:** `institution.name: "Tibanova"`, strategy updated, `known_document_paths: ["/wp-content/uploads/2023/08/"]`, `url_patterns` broadened, `document_notes` updated.
+
+### **ticd** — Scraping enabled
+- **Finding:** Tengeru Institute of Community Development; WordPress; `/tenders/` returns 404; site can be slow.
+- **Updates:** `institution.name: "Tengeru Institute of Community Development"`, strategy updated, selectors for Elementor, `rate_limit_seconds: 15`, `document_notes` updated.
+
+### **tilishosafari** — Scraping enabled
+- **Finding:** Bus booking site; `/about-us/tender` shows “About Us” content, not tenders.
+- **Updates:** `institution.name: "TilishoSafari"`, strategy updated, `document_notes` updated.
+
+### **tiper** — Scraping enabled (actual tenders)
+- **Finding:** Real tender content in `div.about`; document link `a.btn` → `Downloads/TIPPER_4X24_NEW.PDF`.
+- **Updates:** `container: "div.about"`, `tender_item: "div.about"`, `title: ".section-header h2, .about-text p b"`, `document_link: 'a.btn[href$=".pdf"]...'`, `known_document_paths: ["/Downloads/"]`, `url_patterns` for `tiper.co.tz/Downloads/*.pdf`, `document_notes` updated.
+
+### **tirtec** — Scraping disabled
+- **Finding:** Site returns “Account Suspended”.
+- **Updates:** `scraping.enabled: false`, `institution.name: "TIRTEc"`, `status: "inactive"`, strategy notes that the site is suspended.
+
+### **titan** — Scraping enabled
+- **Finding:** IT procurement marketing page; no tender listing.
+- **Updates:** `institution.name: "Titan Technologies"`, strategy updated, `document_notes` updated.
+
+**Note:** Only **tiper** has a clear tender listing with documents. The others either lack tender content, have marketing-only pages, or have unreachable/suspended sites.
+
+============================================================
+Batch: tmda, tmdpwu, tmjpolyclinic, tms, tobaccoboard...
+*Date:** `null` (dates on TANEPS)
+- **Document link:** `a[href$=".pdf"], a[href*="/uploads/"], a[href*="taneps"]`
+- **Known paths:** `/uploads/`
+- **Strategy:** Parse Bootstrap tab tables; apply via TANEPS
+- **Institution name:** Tanzania Medicines and Medical Devices Authority (TMDA)
+
+### **tmdpwu** (enabled)
+- **Selectors:** Joomla-style (`.item-page`, `.lnd_latestnews`)
+- **Strategy:** Single news article; Mod_Security may block curl
+- **Document notes:** Use browser-like User-Agent
+
+### **tmjpolyclinic** (disabled)
+- No tender content; healthcare clinic homepage only
+
+### **tms** (disabled)
+- No tenders; `/img/*.pdf` are company brochures
+
+### **tobaccoboard** (enabled)
+- **Known paths:** `/uploads/documents/`
+- **URL patterns:** `tobaccoboard.go.tz/uploads/documents/*.pdf`
+- **Institution name:** Tanzania Tobacco Board (TTB)
+- **Document notes:** SSL may fail; site may block automated requests
+
+### **toddlerhouse** (disabled)
+- No tenders; `/wp-content/uploads/2025/02/` has enrollment forms only
+
+### **topfloorglobal** (disabled)
+- No tenders; marketing/product catalog only
+
+### **topshop** (disabled)
+- **Fixed:** `tender_url` corrected from corrupted base64 to `https://topshop.co.tz/`
+- No tenders; electronics retailer product catalog
+- **Institution name:** Topshop – Pro Audio and Electronics in Tanzania
+
+### **tosci** (enabled)
+- **Strategy:** Seed-related tenders; fetch may timeout
+- **Institution name:** Tanzania Official Seed Certification Institute (TOSCI)
+
+### **total** (enabled)
+- **Container:** `#main-content`, `.view-news-events`, Drupal regions
+- **Tender item:** `.view-content .views-row`, `.node--type-standard-page`
+- **Title:** `h1`, `a[href*='expression-interest']`
+- **Date:** `.field--name-created`, `.views-field-created`
+- **Strategy:** EOI at `/expression-interest-lpg-super-dealers-tanzania`; NEWS & EVENTS list
+- **Institution name:** TotalEnergies Marketing Tanzania Limited
+- **Document notes:** Drupal; documents may be in `/sites/g/files/`
+
+============================================================
+Batch: totalenergies, tpcsaris, tpha, tracellfinance, trcs...
+titution name:** Tabora Polytechnic College (TPCSaris)
+- **Strategy:** Note added that the page is broken
+
+### 3. **tpha**
+- **Selectors:** `.box`, `.box ul li` for News & Updates sidebar
+- **Known document paths:** `/uploads/events_files/`
+- **URL patterns:** `tpha.or.tz/uploads/events_files/*.pdf`
+- **Strategy:** Documents in News & Updates sidebar with direct links
+
+### 4. **tracellfinance**
+- **Institution name:** Tracell Finance Limited
+- **Strategy:** No tender page; homepage only; procurement mentioned in services
+
+### 5. **trcs**
+- **Institution name:** Tanzania Red Cross Society
+- **Selectors:** `.blog_post_section`, `.blog-style_2`; title: `.title_22 a`; date: `.date_tm time`
+- **Known document paths:** `/wp-content/uploads/`
+- **Strategy:** WordPress/Elementor; tenders as blog-style posts; follow `.text_btn` to detail pages
+
+### 6. **trendymedia**
+- **Scraping disabled:** WooCommerce product catalog; RFQ = product quotes, not tenders
+- **Institution name:** Trendy Media
+- **Tender URL fixed:** Was CSS file; now homepage
+
+### 7. **tro**
+- **Institution name:** Office of the Registrar of Tanzania (TRO)
+- **`requires_javascript: true`:** NeST is an Angular SPA
+- **Selectors:** `app-root`, `.mat-row`, `.mat-cell`
+- **Strategy:** Use headless browser or NeST API; content loads via JS
+
+### 8. **truemaisha**
+- **Institution name:** TrueMaisha Consulting Group
+- **Strategy:** WordPress; no dedicated tender page; check blog/category for RFI notices
+- **Known document paths:** `/wp-content/uploads/`
+
+### 9. **tsc**
+- **Institution name:** Teachers Service Commission (TSC)
+- **Strategy:** Note added that the site may be slow or unreachable (fetch timed out)
+
+### 10. **ttcl**
+- **Institution name:** Tanzania Telecommunications Corporation (TTCL)
+- **Selectors:** `#main-container`, `.content-inner-page`; tender items: `.row .col-md-12`
+- **Known document paths:** `/uploads/`
+- **Strategy:** Laravel/Bootstrap; tenders page may be empty when there are no active tenders
+
+============================================================
+Batch: tumemadini, tumtours, turkysgroup, tusiimeschool, tuwasa...
+
+
+============================================================
+Batch: udzungwamountainscollege, uhurumusic, ukerewedc, ulizasheria, ultimateserengeti...
+
+- **institution.name:** "Uliza Sheria"
+- **scraping.enabled:** `false` – legal services site, no tenders
+- **strategy:** Legal articles and WooCommerce
+- **selectors:** `.av-masonry-entry`, `.av-masonry-entry-title`, `.av-masonry-date`
+- **document_notes:** Legal articles only
+
+### 5. **ultimateserengeti**
+- **institution.name:** "Ultimate Serengeti"
+- **scraping.enabled:** `false` – safari operator, no tenders
+- **strategy:** Marketing site only
+- **document_notes:** No tender documents
+
+### 6. **uniquesafaris**
+- **institution.name:** "Unique Safaris"
+- **scraping.enabled:** `false` – site suspended
+- **strategy:** Account suspended
+- **document_notes:** Site suspended
+
+### 7. **utec**
+- **institution.name:** "UTEC Solutions"
+- **strategy:** IT/security company, no tender page; /request-quote for RFQ
+- **document_notes:** No tender listing
+
+### 8. **utumishi**
+- **website:** `https://www.utumishi.go.tz` (added `www`)
+- **strategy:** President’s Office; links to documents, vacancies, procurement unit
+- **document_notes:** Documents at `/documents/`, procurement unit path
+
+### 9. **uvinzafm**
+- **institution.name:** "Uvinza FM"
+- **scraping.enabled:** `false` – site suspended
+- **strategy:** Account suspended
+- **document_notes:** Site suspended
+
+### 10. **uwezeshaji**
+- **institution.name:** "Baraza la Taifa la Uwezeshaji Wananchi Kiuchumi (NEEC)"
+- **strategy:** NEEC homepage; news, events, NeST procurement, suppliers.uwezeshaji.go.tz
+- **selectors:** `.lines-section`, `.border-bottom-accent-thin-faded`, `.item-date`
+- **known_document_paths:** `/uploads/news/`, `/uploads/gallery/`, `/uploads/administration/`
+- **url_patterns:** Added upload paths
+- **document_notes:** Document paths and procurement links
+
+**Scraping enabled:** ukerewedc (only one with a clear tender table).  
+**Scraping disabled:** udzungwamountainscollege, uhurumusic, ulizasheria, ultimateserengeti, uniquesafaris, uvinzafm.  
+**Scraping enabled but no tender list:** utec, utumishi, uwezeshaji.
+
+============================================================
+Batch: uyuidc, vegrab, veta, victorstephen, vidomedia...
+gy:** Use Publications and Announcements sections
+- **known_document_paths:** `/publication/doc/`
+- **url_patterns:** `veta.go.tz/publication/doc/*.pdf`
+
+### **victorstephen**
+- **scraping.enabled:** `false`
+- **institution.name:** "Victor Stephen - Web Design & Digital Marketing"
+- **strategy:** Personal portfolio; no tender content; "Procurement" only in education section
+
+### **vidomedia**
+- **institution.name:** "VidoMedia"
+- **tender_url:** `https://vidomedia.co.tz/tenders`
+- **anti_bot.requires_javascript:** `true`
+- **strategy:** Nuxt SPA; `/tenders` may require login; use headless browser
+
+### **vihasco** (Victory Health and Allied Sciences College)
+- **institution.name:** "Victory Health and Allied Sciences College (VIHASCO)"
+- **selectors:** Latest Downloads, Latest news, News-and-events
+- **strategy:** Academic site; no dedicated tender section; weak procurement signal
+
+### **vijijitanzania**
+- **scraping.enabled:** `false`
+- **strategy:** Account suspended; disable until site is restored
+
+### **vitalwellness**
+- **institution.name:** "Vital Wellness"
+- **scraping.enabled:** `false`
+- **strategy:** Account suspended; disable until site is restored
+
+### **vpo** (Office of the Vice President)
+- **institution.name:** "Ofisi ya Makamu wa Rais (Office of the Vice President)"
+- **selectors:** `.container-lg.shadow-lg`, `.col-12.col-md-6.col-lg-4.mb-3`, `a.shadow-hover`
+- **strategy:** Card grid; link text format `[date] Title`; parse date from link text
+- **known_document_paths:** `/uploads/publications/`, `/uploads/files/`, `/uploads/speeches/docs/`
+- **url_patterns:** `sw-{timestamp}-{filename}.pdf`
+
+### **wachapoaching**
+- **institution.name:** "Wachapoaching"
+- **scraping.enabled:** `false`
+- **strategy:** Account suspended; disable until site is restored
+
+---
+
+**Scraping status:**
+- **Enabled (5):** uyuidc, vegrab, veta, vidomedia, vihasco, vpo
+- **Disabled (4):** victorstephen (no tenders), vijijitanzania, vitalwellness, wachapoaching (account suspended)
+
+============================================================
+Batch: wajibu, waso, wazohost, wcf, webhosting.ne.tz...
+nd direct download links  
+
+### **wazohost**
+- **Scraping:** `enabled: false` – hosting site only, no tender content  
+
+### **wcf**
+- **Institution name:** Workers Compensation Fund (WCF)  
+- **Strategy:** Government tender notices; site may timeout or have SSL issues  
+- **Document notes:** Retry on failure; document paths to be discovered when page loads  
+
+### **webhosting.ne.tz**
+- **Scraping:** `enabled: false` – tender URL pointed to proserver1.at (Austrian hosting); webhosting.ne.tz unreachable  
+- **Status:** `inactive`  
+- **Homepage/tender_url:** Set to `https://webhosting.ne.tz/`  
+
+### **webmaster**
+- **Selectors:** `#main-content`, `.entry-content`, `.et_pb_section` (Divi/WordPress)  
+- **Strategy:** Homepage is hosting-focused; look for `/tenders`, `/procurement`, `/rfq`, `/rfp`  
+- **Document notes:** Tender/RFQ page not yet confirmed  
+
+### **wecobhas**
+- **Institution name:** West Evan College of Business, Health and Allied Sciences (WECOBHAS)  
+- **Selectors:** `main`, `a[href*='/www/100/news/']`  
+- **Known paths:** `/www/100/news/`  
+- **Strategy:** LATEST DOWNLOADS (PDFs) and LATEST NEWS (job ads); documents use hashed filenames  
+
+### **wedding**
+- **Scraping:** `enabled: false` – personal wedding site, no tender content  
+
+### **whiztanzania**
+- **Institution name:** WhizzTanzania  
+- **tender_url:** Corrected from YouTube to `https://www.whizztanzania.com/tenders`  
+- **Selectors:** `[data-v-d519ddf0]`, `[data-v-dd54ccf0]` (Nuxt/Vue SPA)  
+- **Known paths:** `/storage/`, `api.whizztanzania.com/upload/`  
+- **requires_javascript:** `true`  
+
+### **whizztanzania**
+- **Institution name:** WhizzTanzania  
+- **Selectors:** Same Nuxt/Vue structure as whiztanzania  
+- **Known paths:** `/storage/`, `api.whizztanzania.com/upload/`  
+- **URL patterns:** `whizztanzania.com/storage/*`, `api.whizztanzania.com/upload/*`  
+- **requires_javascript:** `true`  
+
+**Scraping disabled for:** wazohost, webhosting.ne.tz, wedding (no tender content or unreachable).
+
+============================================================
+Batch: wildernessexperience, wintender, wma, worldlogisticstz, yetuafrica...
+
+
+============================================================
+Batch: zansec, zanzibar-tours, zanzibarassembly, zanzibartourism, zap...
+cript:** `true` (Zyrosite/Hostinger)
+- **document_notes:** RFP content in Latest News; may use client-side rendering
+
+### **zawa**
+- **enabled:** `true`
+- **strategy:** Notes documents in `/PDF/`; page fetch timed out during analysis
+- **known_document_paths:** `/PDF/`
+- **url_patterns:** `zawa.go.tz/PDF/*.pdf`
+- **document_notes:** Documents in `/PDF/` (e.g. usaili.pdf)
+
+### **zbs**
+- **enabled:** `true`
+- **institution.name:** Zanzibar Bureau of Standards
+- **strategy:** WordPress/Elementor with ova_doc plugin; follow `/ova_doc/{slug}/` for documents
+- **selectors:** `.ova-document-list`, `.list-doc .item`, `.ova-download`, `.ova-list-attachment`
+- **known_document_paths:** `/wp-content/uploads/`, `/ova_doc/`
+- **url_patterns:** `zbs.go.tz/ova_doc/*`, `zbs.go.tz/v1/tenders/*`
+- **document_notes:** ova_doc plugin; flipbook plugin may embed PDFs
+
+### **zeco**
+- **enabled:** `true`
+- **institution.name:** Zanzibar Electricity Corporation (ZECO)
+- **tender_url:** `https://zeco.co.tz/index.php/procurement` (was single-article URL)
+- **strategy:** Scrape procurement, news, and projects pages; documents in `/images/docs/`
+- **selectors:** `.sp-page-builder .page-content`, `.sppb-addon`, `a[href*="/images/docs/"]`
+- **known_document_paths:** `/images/docs/`
+- **url_patterns:** `zeco.co.tz/images/docs/*.pdf`, `zeco.co.tz/index.php/news/*`
+- **document_notes:** Procurement docs in `/images/docs/`; contact pmu@zeco.co.tz
+
+### **zeddmedics**
+- **enabled:** `false` — Healthcare/pharmacy site, no tender listings
+- **strategy:** Notes site is healthcare services; “procurement” only in testimonials
+- **document_notes:** No tender documents; procurement content is client testimonials only
+
+---
+
+**Scraping disabled (4):** zansec, zanzibar-tours, zap, zeddmedics — no tender content.
+
+**Scraping enabled (6):** zanzibarassembly, zanzibartourism, zatu, zawa, zbs, zeco.
+
+**Fetch timeouts:** zanzibartourism, zawa — pages timed out; strategies and notes added for when they are reachable.
+
+============================================================
+Batch: zfda, zgps, zmbf, zmc, zmotion...
+r Solution) — **Disabled**
+- No tender page; homepage only shows services (Energy Audit, Solar PV, Technical Support)
+
+### **zmbf** (Zanzibar Maisha Bora Foundation) — **Enabled**
+- **Institution name:** Zanzibar Maisha Bora Foundation (ZMBF)
+- **Container:** `main, .wp-block-post-template, .entry-content`
+- **Tender item:** `article.wp-block-post, a[href*='call-for-consultancy']`
+- **Known paths:** `/wp-content/uploads/`
+- **Strategy:** Tender-like content in News & Insights (e.g. Call for Consultancy); documents in `/wp-content/uploads/YYYY/MM/`
+
+### **zmc** (Baraza la Manispaa Mjini) — **Enabled**
+- **Institution name:** Baraza la Manispaa Mjini (Zanzibar Municipal Council)
+- **Container:** `section#features, .tab-content, .table-responsive`
+- **Tender item:** `table.table.table-hover tbody tr`
+- **Title:** `td:nth-child(2)` (JINA LA TENDA)
+- **Date:** `td:nth-child(4), td:nth-child(5)`
+- **Strategy:** Bootstrap tabs; tenders in table columns (JINA LA TENDA, NAMBA YA TENDA, TAREHE YA TENDA, MWISHO WA MAOMBI, BEI YA TENDA)
+
+### **zmotion** — **Disabled**
+- IT/SaaS company; no tender or procurement content
+
+### **zoomtanzania** — **Disabled**
+- Jobs and careers platform; no tender notices
+
+### **zpc** (Zanzibar Ports Cooperation) — **Enabled** (with notes)
+- **anti_bot.requires_javascript:** `true` (eprocurement redirects to login)
+- **Known paths:** `/` (root PDFs: Tarrif_zpc.pdf, 1997_act_1.pdf, Magazine_zpc.pdf)
+- **Strategy:** Eprocurement requires login; main site has some PDFs at root
+
+### **zpdc** (Zanzibar Petroleum Development Company) — **Disabled**
+- Previous tender URL (zan-eis.com) returns 503; `tender_url` set to `https://zpdc.go.tz/`
+
+### **zppp** (Zanzibar Public Private Partnership) — **Disabled**
+- **Institution name:** Zanzibar Public Private Partnership (ZPPP)
+- Website returns “Account Suspended”
+
+### **zslogistics** — **Disabled**
+- Contact page has RFQ form only; no tender listing
+- **Known paths:** `/assets/docs/` (e.g. AEO Certificate PDF)
+
+============================================================
+Batch: zuku, zura, zvta, zyc, zynox...
+`h1, h2, h3, .elementor-widget-ct_heading, .ct-heading`
+- **strategy**: Described WordPress/Elementor structure and "No Tender for now !" when empty
+- **known_document_paths**: `/wp-content/uploads/`
+- **url_patterns**: `zura.go.tz/wp-content/uploads/*.pdf` (and .doc, .docx)
+- **document_notes**: Document storage and page behavior when empty
+
+### 3. **zvta** (`institutions/zvta/README.md`)
+- **institution.name**: "Zanzibar Vocational Training Authority"
+- **scraping.enabled**: `false` — eprocurement.zppda.go.tz redirects to login
+- **strategy**: Noted that the portal requires auth and zvta.go.tz has no tender listing
+- **document_notes**: Portal not accessible without authentication
+
+### 4. **zyc** (`institutions/zyc/README.md`)
+- **institution.name**: "Baraza la Vijana Zanzibar" (Zanzibar Youth Council)
+- **scraping.enabled**: `false` — eprocurement requires login; zyc.go.tz is a news site only
+- **strategy**: Explained that tender_url uses the national eprocurement portal and zyc.go.tz has no tender content
+- **document_notes**: eprocurement requires login; zyc.go.tz has no tender content
+
+### 5. **zynox** (`institutions/zynox/README.md`)
+- **institution.name**: "ZyNOX Construction Company"
+- **scraping.enabled**: `false` — corporate site with no tender listing
+- **selectors**: From live HTML (main, services, blog):
+  - container: `main.main, .home-services, .home-news`
+  - tender_item: `.col-md-4, .blog-img-box, .services .col-md-4`
+  - document_link: `a[href$=".pdf"], a[href*="/site/assets/files/"]`
+- **known_document_paths**: `/site/assets/files/`
+- **url_patterns**: `zynox.co.tz/site/assets/files/*.pdf` (and .doc, .docx)
+- **document_notes**: Documents at `/site/assets/files/`; no tender listing
+- **link_selectors**: Added `a[href*="/site/assets/files/"]` for document discovery
+
+**Result**: Only **zura** remains enabled for scraping, with a correct tender URL and updated selectors. The other four are disabled because they lack tender content or require login.

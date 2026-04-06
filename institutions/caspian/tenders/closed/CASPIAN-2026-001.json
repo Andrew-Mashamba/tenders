@@ -1,0 +1,31 @@
+{
+  "tender_id": "CASPIAN-2026-001",
+  "institution": "caspian",
+  "title": "Tender/EOI from Taifa Mining",
+  "description": "Scraped from institution website",
+  "published_date": "2026-03-15",
+  "closing_date": "",
+  "category": "General",
+  "status": "closed",
+  "closed_reason": "Invalid - documents were compliance certificates (ISO, WCF, Health & Safety), not tender documents",
+  "source_url": "https://taifamining.co.tz/",
+  "documents": [
+    {
+      "filename": "taifa-mining-health-and-safety-certificate.pdf",
+      "original_url": "https://taifamining.co.tz/wp-content/uploads/2025/03/taifa-mining-health-and-safety-certificate.pdf",
+      "local_path": "downloads/CASPIAN-2026-001/original/taifa-mining-health-and-safety-certificate.pdf"
+    },
+    {
+      "filename": "taifa-mining-wcf-certificate-of-registration.pdf",
+      "original_url": "https://taifamining.co.tz/wp-content/uploads/2025/03/taifa-mining-wcf-certificate-of-registration.pdf",
+      "local_path": "downloads/CASPIAN-2026-001/original/taifa-mining-wcf-certificate-of-registration.pdf"
+    },
+    {
+      "filename": "taifa-mining-civils-limited-iso9001-certificate.pdf",
+      "original_url": "https://taifamining.co.tz/wp-content/uploads/2025/03/taifa-mining-civils-limited-iso9001-certificate.pdf",
+      "local_path": "downloads/CASPIAN-2026-001/original/taifa-mining-civils-limited-iso9001-certificate.pdf"
+    }
+  ],
+  "contact": {},
+  "scraped_at": "2026-03-15T05:17:06.660708+00:00"
+}

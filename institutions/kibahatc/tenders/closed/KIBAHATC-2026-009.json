@@ -1,0 +1,21 @@
+{
+  "tender_id": "KIBAHATC-2026-009",
+  "institution": "kibahatc",
+  "title": "Zabuni ya ujenzi wa Stendi",
+  "description": "",
+  "published_date": "2017-03-24",
+  "closing_date": "2017-03-28",
+  "status": "closed",
+  "source_url": "https://kibahatc.go.tz/tenders",
+  "documents": [
+    {
+      "filename": "58d4cccc30ff6327939294.pdf",
+      "original_url": "https://kibahatc.go.tz/storage/app/uploads/public/58d/4cc/cc3/58d4cccc30ff6327939294.pdf",
+      "local_path": "/Volumes/DATA/PROJECTS/TENDERS/institutions/kibahatc/downloads/KIBAHATC-2026-009/original/58d4cccc30ff6327939294.pdf"
+    }
+  ],
+  "contact": {
+    "phone": "07720928447189"
+  },
+  "scraped_at": "2026-03-14T04:55:41Z"
+}

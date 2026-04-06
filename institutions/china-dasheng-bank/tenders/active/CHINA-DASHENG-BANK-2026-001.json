@@ -1,0 +1,31 @@
+{
+  "tender_id": "CHINA-DASHENG-BANK-2026-001",
+  "institution": "china-dasheng-bank",
+  "title": "Expression of Interest - Prequalification for Core Banking System",
+  "description": "China Dasheng Bank Ltd wishes to engage interested and qualified OEMs/Authorized partners of Core Banking Systems to bid for prequalification for the selection of Core Banking System (CBS). The CBS should support multi-channel banking, regulatory integrations, and comprehensive banking functionalities.",
+  "reference_number": "",
+  "published_date": "",
+  "closing_date": null,
+  "closing_time": "",
+  "category": "ICT",
+  "status": "active",
+  "source_url": "https://chinadashengbank.co.tz/",
+  "documents": [
+    {
+      "filename": "ExpressionOfInterest.pdf",
+      "original_url": "https://chinadashengbank.co.tz/uploads/ExpressionOfInterest.pdf",
+      "local_path": "./downloads/CHINA-DASHENG-BANK-2026-001/original/ExpressionOfInterest.pdf",
+      "content_type": "application/pdf",
+      "downloaded_at": "2026-03-15T20:35:00.000000Z"
+    }
+  ],
+  "contact": {
+    "name": "China Dasheng Bank",
+    "email": "",
+    "phone": "0800-112-025",
+    "address": ""
+  },
+  "eligibility": "Qualified OEMs/Authorized partners of Core Banking Systems",
+  "scraped_at": "2026-03-15T20:35:00.000000Z",
+  "last_checked": "2026-03-15T20:35:00.000000Z"
+}

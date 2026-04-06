@@ -1,0 +1,24 @@
+{
+  "tender_id": "BUKOBAMC-2026-001",
+  "institution": "bukobamc",
+  "title": "Tender from Bukoba Municipal Council",
+  "source_url": "https://bukobamc.go.tz/procurement-and-supply-management",
+  "published_date": "2026-03-15",
+  "closing_date": null,
+  "status": "active",
+  "documents": [
+    {
+      "filename": "68db93b165c51601904779.pdf",
+      "original_url": "https://bukobamc.go.tz/storage/app/uploads/public/68d/b93/b16/68db93b165c51601904779.pdf",
+      "local_path": "institutions/bukobamc/downloads/BUKOBAMC-2026-001/original/68db93b165c51601904779.pdf"
+    },
+    {
+      "filename": "67ce907f89c93895671483.pdf",
+      "original_url": "https://bukobamc.go.tz/storage/app/uploads/public/67c/e90/7f8/67ce907f89c93895671483.pdf",
+      "local_path": "institutions/bukobamc/downloads/BUKOBAMC-2026-001/original/67ce907f89c93895671483.pdf"
+    }
+  ],
+  "contact": {},
+  "scraped_at": "2026-03-15T05:10:59Z",
+  "run_id": "run_20260315_060430_batch18"
+}

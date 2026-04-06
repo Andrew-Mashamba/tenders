@@ -1,0 +1,17 @@
+Scanning 2609 domains (worker 1/4, concurrency=30)
+  [W1] 200/2609 (1/s) hits=9 miss=80 err=111
+  [W1] 400/2609 (1/s) hits=20 miss=174 err=206
+  [W1] 600/2609 (1/s) hits=31 miss=285 err=284
+  [W1] 800/2609 (1/s) hits=42 miss=400 err=358
+  [W1] 1000/2609 (1/s) hits=52 miss=511 err=437
+  [W1] 1200/2609 (1/s) hits=67 miss=612 err=521
+  [W1] 1400/2609 (1/s) hits=84 miss=727 err=589
+  [W1] 1600/2609 (1/s) hits=105 miss=836 err=659
+  [W1] 1800/2609 (1/s) hits=118 miss=945 err=737
+  [W1] 2000/2609 (1/s) hits=138 miss=1049 err=813
+  [W1] 2200/2609 (1/s) hits=163 miss=1150 err=887
+  [W1] 2400/2609 (1/s) hits=182 miss=1255 err=963
+  [W1] 2600/2609 (1/s) hits=193 miss=1386 err=1021
+  [W1] 2609/2609 (1/s) hits=193 miss=1393 err=1023
+
+Worker 1 done: 2609 scanned, 193 hits, 3391.5s (0.8/s)

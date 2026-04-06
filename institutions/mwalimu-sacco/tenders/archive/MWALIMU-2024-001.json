@@ -1,0 +1,37 @@
+{
+  "tender_id": "MWALIMU-2024-001",
+  "institution": "mwalimu-sacco",
+  "title": "RFP: External Data Protection Audit and Inspection Services 2024",
+  "description": "Request for Proposals for the provision of external data protection audit and inspection services for Mwalimu National SACCO Society Ltd. The audit will check compliance with the Data Protection Act, 2019 and attendant regulations, assess whether the SACCO adheres to best data protection practices, and assist in understanding and meeting data protection obligations. Mwalimu National has over 131,000 members and 18 FOSA branches across Kenya.",
+  "reference_number": "Mwalimu/EDPA/2024",
+  "published_date": "2024-02-01",
+  "closing_date": "2024-02-01",
+  "closing_time": null,
+  "category": "Audit & Compliance",
+  "status": "archived",
+  "source_url": "https://www.mwalimunational.coop/resource/rfp-external-data-protection-audit-inspection-services-2024--7c5a2125/",
+  "documents": [
+    {
+      "filename": "rfp-external-data-protection-audit-2024.pdf",
+      "original_url": "https://www.mwalimunational.coop/lib.html?f=rfp-external-data-protection-audit-inspection-services-2024--7c5a2125",
+      "local_path": "./downloads/MWALIMU-2024-001/original/rfp-external-data-protection-audit-2024.pdf",
+      "file_size_bytes": 543612,
+      "downloaded_at": "2026-03-13T07:26:51Z",
+      "content_type": "application/pdf",
+      "sha256": "3189a99262fcbc72caf7161446ee6a721b9f71ac9ca9e480185d99f7052a8a19",
+      "pages": 6,
+      "description": "Full RFP Terms of Reference for external data protection auditing and inspection services"
+    }
+  ],
+  "contact": {
+    "name": "Procurement Department",
+    "email": "mwalimu@mwalimunational.coop",
+    "phone": "+254709898000",
+    "address": "Upperhill, Nairobi, Kenya"
+  },
+  "eligibility": "Open To All",
+  "bid_security": null,
+  "procurement_method": null,
+  "scraped_at": "2026-03-13T07:26:51Z",
+  "last_checked": "2026-03-13T07:26:51Z"
+}

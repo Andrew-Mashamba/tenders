@@ -1,0 +1,14 @@
+{
+  "tender_id": "SINGIDA-2026-001",
+  "institution": "singida",
+  "title": "Tender document 1",
+  "description": "Tender document 1",
+  "source_url": "https://singida.go.tz/procurement-and-supply",
+  "document_links": [
+    "http://www.singida.go.tz/storage/app/uploads/public/590/2f7/d99/5902f7d998ef0486452081.pdf"
+  ],
+  "contact": {},
+  "scraped_at": "2026-03-14T07:33:15.254116+00:00",
+  "documents": [{"path": "downloads/SINGIDA-2026-001/original/doc.pdf", "type": "pdf"}],
+  "status": "active"
+}

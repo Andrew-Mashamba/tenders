@@ -1,0 +1,21 @@
+{
+  "tender_id": "DEES-2026-001",
+  "institution": "dees",
+  "title": "Tender / Procurement",
+  "description": "",
+  "published_date": "2026-03-15",
+  "closing_date": "",
+  "category": "General",
+  "status": "active",
+  "source_url": "https://www.dees.co.tz/",
+  "documents": [
+    {
+      "filename": "f9f66e_68fd1c19448549378aaa52200eaa5e7b.pdf",
+      "original_url": "https://www.dees.co.tz/_files/ugd/f9f66e_68fd1c19448549378aaa52200eaa5e7b.pdf",
+      "local_path": "downloads/DEES-2026-001/original/f9f66e_68fd1c19448549378aaa52200eaa5e7b.pdf"
+    }
+  ],
+  "contact": {},
+  "scraped_at": "2026-03-15T05:51:13.755640Z",
+  "last_checked": "2026-03-15T05:51:13.755644Z"
+}

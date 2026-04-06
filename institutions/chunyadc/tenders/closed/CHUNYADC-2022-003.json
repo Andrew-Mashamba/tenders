@@ -1,0 +1,23 @@
+{
+  "tender_id": "CHUNYADC-2022-003",
+  "institution": "chunyadc",
+  "title": "TANGAZO LA MWALIKO WA ZABUNI YA UTOAJI WA HUDUMA YA USAFI HOSPITALI YA WILAYA YA CHUNYA",
+  "description": "",
+  "published_date": "June 23, 2022",
+  "closing_date": "June 29, 2022",
+  "category": "General",
+  "status": "active",
+  "source_url": "https://chunyadc.go.tz/tenders",
+  "documents": [
+    {
+      "original_url": "https://chunyadc.go.tz/storage/app/uploads/public/62b/401/782/62b40178255d3672279328.pdf",
+      "local_path": "/Volumes/DATA/PROJECTS/TENDERS/institutions/chunyadc/downloads/CHUNYADC-2022-003/original/62b40178255d3672279328.pdf"
+    }
+  ],
+  "contact": {
+    "email": "ded@chunyadc.go.tz",
+    "phone": "025 2520121 "
+  },
+  "scraped_at": "2026-03-15T05:24:23Z",
+  "last_checked": "2026-03-15T05:24:23Z"
+}

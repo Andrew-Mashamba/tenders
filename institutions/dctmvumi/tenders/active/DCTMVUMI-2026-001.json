@@ -1,0 +1,36 @@
+{
+  "tender_id": "DCTMVUMI-2026-001",
+  "institution": "dctmvumi",
+  "title": "Tender / Procurement",
+  "description": "",
+  "published_date": "2026-03-15",
+  "closing_date": "",
+  "category": "General",
+  "status": "active",
+  "source_url": "https://dctmvumi.sc.tz/",
+  "documents": [
+    {
+      "filename": "APPLICATION%20FORM%20FOR%20FORM%20FIVE%202023.pdf",
+      "original_url": "https://dctmvumi.sc.tz/media/pdf/APPLICATION%20FORM%20FOR%20FORM%20FIVE%202023.pdf",
+      "local_path": "downloads/DCTMVUMI-2026-001/original/APPLICATION%20FORM%20FOR%20FORM%20FIVE%202023.pdf"
+    },
+    {
+      "filename": "TANGAZO%20LA%20FORM%20FIVE2022.pdf",
+      "original_url": "http://www.dctmvumi.sc.tz/media/pdf/TANGAZO%20LA%20FORM%20FIVE2022.pdf",
+      "local_path": "downloads/DCTMVUMI-2026-001/original/TANGAZO%20LA%20FORM%20FIVE2022.pdf"
+    },
+    {
+      "filename": "APPLICATION%20FORM%20FOR%20FORM%20ONE%202022.pdf",
+      "original_url": "https://dctmvumi.sc.tz/media/pdf/APPLICATION%20FORM%20FOR%20FORM%20ONE%202022.pdf",
+      "local_path": "downloads/DCTMVUMI-2026-001/original/APPLICATION%20FORM%20FOR%20FORM%20ONE%202022.pdf"
+    },
+    {
+      "filename": "Joining%20Instructions%202023%20form%201.pdf",
+      "original_url": "https://dctmvumi.sc.tz/media/pdf/Joining%20Instructions%202023%20form%201.pdf",
+      "local_path": "downloads/DCTMVUMI-2026-001/original/Joining%20Instructions%202023%20form%201.pdf"
+    }
+  ],
+  "contact": {},
+  "scraped_at": "2026-03-15T05:50:36.777681Z",
+  "last_checked": "2026-03-15T05:50:36.777685Z"
+}

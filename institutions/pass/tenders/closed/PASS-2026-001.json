@@ -1,0 +1,30 @@
+{
+  "tender_id": "PASS-2026-001",
+  "institution": "pass",
+  "title": "Tender from Home | PASS Trust",
+  "description": "Extracted from tender page",
+  "published_date": "2026-03-14",
+  "closing_date": "2025-06-17",
+  "closing_time": "17:00 EAT",
+  "status": "closed",
+  "source_url": "https://pass.or.tz/tenders/",
+  "documents": [
+    {
+      "original_url": "https://pass.or.tz/wp-content/uploads/2025/06/RFP-_Financial_Controls_Review_and_Policy_Development.pdf",
+      "filename": "RFP-_Financial_Controls_Review_and_Policy_Development.pdf"
+    },
+    {
+      "original_url": "https://pass.or.tz/wp-content/uploads/2025/06/RFP_-Governance_Review1.pdf",
+      "filename": "RFP_-Governance_Review1.pdf"
+    },
+    {
+      "original_url": "https://pass.or.tz/wp-content/uploads/2025/06/EOI-UPGRADE-OF-NAVISION.pdf",
+      "filename": "EOI-UPGRADE-OF-NAVISION.pdf"
+    }
+  ],
+  "contact": {
+    "email": "info@pass.or.tz",
+    "phone": "023-06-19"
+  },
+  "scraped_at": "2026-03-14T06:46:03.091684Z"
+}

@@ -1,0 +1,35 @@
+{
+  "tender_id": "MIT-2026-001",
+  "institution": "mit",
+  "title": "Tangazo la Mnada wa Hadhara - MIT 2025",
+  "description": "Ministry of Industries and Trade (MIT/Wizara ya Viwanda na Biashara) tender announcement (Mnada) for 2025. Government procurement notice.",
+  "reference_number": "MIT/Mnada/2025",
+  "published_date": "2025-08-18",
+  "closing_date": null,
+  "closing_time": null,
+  "category": "Government Procurement",
+  "status": "active",
+  "source_url": "https://www.viwanda.go.tz/",
+  "documents": [
+    {
+      "filename": "Tangazo_MIT_2025_Mnada.pdf",
+      "original_url": "https://www.viwanda.go.tz/uploads/documents/sw-1755520772-Tangazo%20-%20MIT%20%202025%20Mnada.pdf",
+      "local_path": "./downloads/MIT-2026-001/original/Tangazo_MIT_2025_Mnada.pdf",
+      "content_type": "application/pdf",
+      "downloaded_at": "2026-03-15T08:31:00Z"
+    },
+    {
+      "filename": "hotuba_bajeti_2025.pdf",
+      "original_url": "https://www.viwanda.go.tz/uploads/documents/en-1747115028-hotuba_online_compressed.pdf",
+      "local_path": "./downloads/MIT-2026-001/original/hotuba_bajeti_2025.pdf",
+      "content_type": "application/pdf",
+      "downloaded_at": "2026-03-15T08:31:00Z"
+    }
+  ],
+  "contact": {
+    "email": "ps@mit.go.tz",
+    "alternate_emails": ["dawatilamsaada@mit.go.tz", "info@mit.go.tz"]
+  },
+  "scraped_at": "2026-03-15T08:31:00Z",
+  "last_checked": "2026-03-15T08:31:00Z"
+}

@@ -1,0 +1,25 @@
+{
+  "tender_id": "TEMEKEMC-2022-001",
+  "institution": "temekemc",
+  "title": "TANGAZO LA ZABUNI- UKODISHAJI WA ENEO LILILOKUWA DAMPO",
+  "description": "Tender notice for land clearance (Swahili).",
+  "published_date": "2022-09-08",
+  "closing_date": "2022-09-07",
+  "category": "General",
+  "status": "closed",
+  "source_url": "https://temekemc.go.tz/tenders",
+  "documents": [
+    {
+      "filename": "tender_notice.jpg",
+      "original_url": "https://temekemc.go.tz/storage/app/uploads/public/631/9ee/9aa/6319ee9aa75f3141712759.jpg",
+      "content_type": "image/jpeg",
+      "note": "JPG document - not downloaded"
+    }
+  ],
+  "contact": {
+    "email": "temeke@temekemc.go.tz",
+    "phone": "040828238"
+  },
+  "scraped_at": "2026-03-15T11:15:00Z",
+  "last_checked": "2026-03-15T11:15:00Z"
+}

@@ -1,0 +1,28 @@
+{
+  "tender_id": "SCHOOLOFSTJUDE-2026-001",
+  "institution": "schoolofstjude",
+  "title": "Procurement of IT equipment (Servers + their storage) for The School of St Jude",
+  "description": "Interested parties are hereby invited to tender for the supply of IT equipment (Servers + their storage) to the School of St. Jude, Moshono Campus, Moshono, Arusha.",
+  "reference_number": "TSOSJ/2026/Server - February/001",
+  "published_date": "2026-02-01",
+  "closing_date": "2026-02-17",
+  "closing_time": "10:30 am",
+  "category": "ICT",
+  "status": "closed",
+  "source_url": "https://www.schoolofstjude.org/tenders/",
+  "documents": [
+    {
+      "filename": "Tender-advert-IT-Servers.pdf",
+      "original_url": "https://www.schoolofstjude.org/wp-content/uploads/2026/02/Tender-advert-IT-Servers.pdf",
+      "local_path": "./downloads/SCHOOLOFSTJUDE-2026-001/original/Tender-advert-IT-Servers.pdf",
+      "file_size_bytes": 444720,
+      "downloaded_at": "2026-03-15T13:27:00Z",
+      "content_type": "application/pdf"
+    }
+  ],
+  "contact": {
+    "email": "purchasing@schoolofstjude.co.tz"
+  },
+  "scraped_at": "2026-03-15T13:27:00Z",
+  "last_checked": "2026-03-15T13:27:00Z"
+}

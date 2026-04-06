@@ -1,0 +1,35 @@
+{
+  "tender_id": "AMANA-2025-001",
+  "institution": "amana-bank",
+  "title": "Supply of Goods and Provision of Services 2025",
+  "description": "Amana Bank Tanzania invitation for supply of goods and provision of services for the year 2025. Full details contained in the attached tender document (PDF).",
+  "reference_number": null,
+  "published_date": "2024-10-29",
+  "closing_date": "2024-11-12",
+  "closing_time": "14:30 EAT",
+  "category": "Goods and Services",
+  "status": "closed",
+  "source_url": "https://amanabank.co.tz/banking/tender",
+  "documents": [
+    {
+      "filename": "amana-bank-6720d1c8d5d49.pdf",
+      "original_url": "https://amanabank.co.tz/uploads/documents/amana-bank-6720d1c8d5d49.pdf",
+      "local_path": "./downloads/AMANA-2025-001/original/amana-bank-6720d1c8d5d49.pdf",
+      "file_size_bytes": 470946,
+      "downloaded_at": "2026-03-13T07:24:07Z",
+      "content_type": "application/pdf",
+      "sha256": "7fefca6fb190b8392736e31190417688dd903c4124118b06343e033c326c9841"
+    }
+  ],
+  "contact": {
+    "name": "Amana Bank Tanzania",
+    "email": null,
+    "phone": null,
+    "address": null
+  },
+  "eligibility": null,
+  "bid_security": null,
+  "scraped_at": "2026-03-13T07:24:07Z",
+  "last_checked": "2026-03-13T19:53:37Z",
+  "notes": "PDF is image-based (created in Adobe Illustrator) - text extraction requires OCR. Document title metadata: 'Tender2024'. Published date derived from PDF creation date (2024-10-28/29). No closing date was listed on the tender page."
+}

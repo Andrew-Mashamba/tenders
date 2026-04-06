@@ -1,0 +1,25 @@
+{
+  "tender_id": "ECOBANK-2026-001",
+  "institution": "ecobank",
+  "title": "MICROSOFT D365 ENTERPRISE INTEGRATION RFP",
+  "description": "Microsoft D365 Enterprise Integration - Ecobank Group procurement.",
+  "reference_number": "2/3/2026/RFP/CIB",
+  "published_date": "2026-03-12",
+  "closing_date": "2026-03-25",
+  "category": "ICT",
+  "status": "active",
+  "source_url": "https://www.ecobank.com/procurement",
+  "documents": [
+    {
+      "filename": "RFP_Document.pdf",
+      "original_url": "https://www.ecobank.com/upload/publications/upload/202603120720338015.pdf",
+      "local_path": "./downloads/ECOBANK-2026-001/original/RFP_Document.pdf",
+      "content_type": "application/pdf"
+    }
+  ],
+  "contact": {
+    "email": "questions.sourcing@ecobank.com"
+  },
+  "scraped_at": "2026-03-13T20:53:29Z",
+  "last_checked": "2026-03-13T20:53:29Z"
+}

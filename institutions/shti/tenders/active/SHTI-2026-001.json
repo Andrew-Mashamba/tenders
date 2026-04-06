@@ -1,0 +1,31 @@
+{
+  "tender_id": "SHTI-2026-001",
+  "institution": "shti",
+  "title": "Invitation to Submit Bids for Security Services (TANGAZO LA MWALIKO WA KUWASILISHA ZABUNI YA HUDUMA ZA ULINZI)",
+  "description": "Procurement of security services for Sengerema Health Training Institute",
+  "reference_number": "TANGAZO 001",
+  "published_date": "2025-10-15",
+  "closing_date": null,
+  "closing_time": "",
+  "category": "Supply",
+  "status": "active",
+  "source_url": "https://shti.ac.tz/",
+  "documents": [
+    {
+      "filename": "TANGAZO_001.pdf",
+      "original_url": "https://shti.ac.tz/www/100/news/2e7a40bfc1filename-TANGAZO%20001.pdf",
+      "local_path": "./downloads/SHTI-2026-001/original/TANGAZO_001.pdf",
+      "content_type": "application/pdf",
+      "downloaded_at": "2026-03-15T19:24:00.000000Z"
+    }
+  ],
+  "contact": {
+    "name": "Procurement Department",
+    "email": "info@shti.ac.tz",
+    "phone": "025-07-30",
+    "address": ""
+  },
+  "eligibility": "",
+  "scraped_at": "2026-03-15T19:24:00.000000Z",
+  "last_checked": "2026-03-15T19:24:00.000000Z"
+}

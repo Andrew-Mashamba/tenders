@@ -1,0 +1,28 @@
+{
+  "tender_id": "HKMU-2026-001",
+  "institution": "hkmu",
+  "title": "Request for Proposals (RFP) for Debt Collection Services",
+  "description": "Scraped from website. See documents.",
+  "published_date": "",
+  "closing_date": "2025-10-15",
+  "category": "Procurement",
+  "status": "active",
+  "source_url": "https://web.ku.ac.tz/component/content/article/request-for-proposals-rfp-for-debt-collection-services?catid=9&Itemid=101",
+  "documents": [
+    {
+      "filename": "prospectus2023-2024.pdf",
+      "original_url": "https://downloads.ku.ac.tz/prospectus2023-2024.pdf",
+      "local_path": "downloads/HKMU-2026-001/original/prospectus2023-2024.pdf",
+      "downloaded_at": "2026-03-13T21:20:53.683998Z"
+    },
+    {
+      "filename": "KU-ALMANAC-2025-2026.pdf",
+      "original_url": "https://web.ku.ac.tz/images/2026/KU-ALMANAC-2025-2026.pdf",
+      "local_path": "downloads/HKMU-2026-001/original/KU-ALMANAC-2025-2026.pdf",
+      "downloaded_at": "2026-03-13T21:20:56.159164Z"
+    }
+  ],
+  "contact": {},
+  "scraped_at": "2026-03-13T21:20:59.015985Z",
+  "last_checked": "2026-03-13T21:20:59.016030Z"
+}

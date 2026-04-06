@@ -1,0 +1,36 @@
+{
+  "tender_id": "CRDB-2026-003",
+  "institution": "crdb-bank",
+  "title": "Invitation of Expression of Interest (EOI) for End-to-End Lending System",
+  "description": "CRDB Bank is undertaking a significant transformation across the end-to-end (E2E) lending value chain covering its Consumer, MSME, and Corporate segments. The Bank seeks to digitally unify the entire credit lifecycle to enable standardized, transparent, controlled, and scalable lending operations. Building on its Temenos Transact R21 core banking platform, the Bank is seeking a suitable vendor to design, implement, and integrate an End-to-End Lending Solution.",
+  "reference_number": null,
+  "published_date": null,
+  "closing_date": "2026-03-13",
+  "closing_time": "19:00 EAT",
+  "category": "Technology/Lending",
+  "status": "closed",
+  "source_url": "https://crdbbank.co.tz/en/about-us/tender",
+  "documents": [
+    {
+      "filename": "EOI_End-to-end_Lending_System.docx",
+      "original_url": "https://crdbbank.co.tz/storage/app/media/Tender/2025/EOI%20End-to-end%20Lending%20System.docx",
+      "local_path": "./downloads/CRDB-2026-003/original/EOI_End-to-end_Lending_System.docx",
+      "file_size_bytes": 101142,
+      "downloaded_at": "2026-03-13T10:00:00Z",
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "sha256": "5160a870466e73d95206fae46a14ee6118e1451be459745b26f9be7b33115ee6",
+      "text_extracted": true,
+      "extracted_path": "./downloads/CRDB-2026-003/extracted/EOI_End-to-end_Lending_System.txt"
+    }
+  ],
+  "contact": {
+    "name": "Procurement Department",
+    "email": null,
+    "phone": null,
+    "address": "CRDB Bank Plc, Dar es Salaam, Tanzania"
+  },
+  "eligibility": "Open for International Competitive Bidding",
+  "bid_security": null,
+  "scraped_at": "2026-03-13T10:00:00Z",
+  "last_checked": "2026-03-13T19:53:43Z"
+}

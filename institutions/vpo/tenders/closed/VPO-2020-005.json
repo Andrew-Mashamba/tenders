@@ -1,0 +1,18 @@
+{
+  "tender_id": "VPO-2020-005",
+  "institution": "vpo",
+  "title": "Tender No: ME/002/2018 – 2019/VPO/C/01 - 7 for Provision of Consultancy Services for Vulnerability and Impact Assessment",
+  "published_date": "2020-06-22",
+  "closing_date": "2020-07-31",
+  "status": "closed",
+  "source_url": "https://www.vpo.go.tz/publications/tender",
+  "documents": [
+    {
+      "filename": "Vulnerability-Impact-Assessment.pdf",
+      "original_url": "https://www.vpo.go.tz/uploads/publications/sw-1592816697-Valnerability%20and%20Impact%20Assesment.pdf",
+      "local_path": "./downloads/VPO-2020-005/original/Vulnerability-Impact-Assessment.pdf"
+    }
+  ],
+  "contact": {"email": "ps@vpo.go.tz"},
+  "scraped_at": "2026-03-15T11:50:00Z"
+}

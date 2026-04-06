@@ -1,0 +1,21 @@
+{
+  "tender_id": "KIBAHATC-2026-005",
+  "institution": "kibahatc",
+  "title": "Ujenzi wa Kituo cha Afya Mkoani",
+  "description": "",
+  "published_date": "2018-05-28",
+  "closing_date": "2018-06-30",
+  "status": "closed",
+  "source_url": "https://kibahatc.go.tz/tenders",
+  "documents": [
+    {
+      "filename": "5b0bd21747bd9810340974.pdf",
+      "original_url": "https://kibahatc.go.tz/storage/app/uploads/public/5b0/bd2/174/5b0bd21747bd9810340974.pdf",
+      "local_path": "/Volumes/DATA/PROJECTS/TENDERS/institutions/kibahatc/downloads/KIBAHATC-2026-005/original/5b0bd21747bd9810340974.pdf"
+    }
+  ],
+  "contact": {
+    "phone": "07720928447189"
+  },
+  "scraped_at": "2026-03-14T04:55:41Z"
+}

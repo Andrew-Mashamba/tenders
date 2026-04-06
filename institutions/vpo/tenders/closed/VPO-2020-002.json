@@ -1,0 +1,18 @@
+{
+  "tender_id": "VPO-2020-002",
+  "institution": "vpo",
+  "title": "EOI For Consultancy Services to Review Districts Plan of Same and Mwanga",
+  "published_date": "2020-06-22",
+  "closing_date": "2020-07-31",
+  "status": "closed",
+  "source_url": "https://www.vpo.go.tz/publications/tender",
+  "documents": [
+    {
+      "filename": "EOI-Same-district-plan.pdf",
+      "original_url": "https://www.vpo.go.tz/uploads/publications/sw-1592815778-EOI-Same%20district%20plan.pdf",
+      "local_path": "./downloads/VPO-2020-002/original/EOI-Same-district-plan.pdf"
+    }
+  ],
+  "contact": {"email": "ps@vpo.go.tz"},
+  "scraped_at": "2026-03-15T11:50:00Z"
+}

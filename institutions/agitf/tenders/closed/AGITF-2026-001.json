@@ -1,0 +1,67 @@
+{
+  "tender_id": "AGITF-2026-001",
+  "institution": "agitf",
+  "title": "MNADA WA HADHARA - Public Auction of Defective Vehicles",
+  "description": "Mnada wa hadhara wa magari chakavu - Public auction of defective/seized vehicles by the Agricultural Inputs Trust Fund (AGITF)",
+  "reference_number": "AGITF/AUCTION/2025/001",
+  "published_date": "2025-06-09",
+  "closing_date": null,
+  "closing_time": null,
+  "category": "Public Auction / Disposal",
+  "status": "closed",
+  "closed_reason": "Invalid: MNADA WA HADHARA is auction/liquidation notice, not procurement tender; documents attached were unrelated publications",
+  "source_url": "https://www.agitf.go.tz/news/public-auction",
+  "documents": [
+    {
+      "filename": "Loan_Application_Individual.pdf",
+      "original_url": "https://www.agitf.go.tz/uploads/documents/sw-1770986047-Loan%20Application%20-%20Individual.pdf",
+      "local_path": "./downloads/AGITF-2026-001/original/Loan_Application_Individual.pdf",
+      "file_size_bytes": 210708,
+      "content_type": "application/pdf"
+    },
+    {
+      "filename": "Loan_Application_Kikundi.pdf",
+      "original_url": "https://www.agitf.go.tz/uploads/documents/sw-1770985915-Loan%20Application%20-%20Kikundi.pdf",
+      "local_path": "./downloads/AGITF-2026-001/original/Loan_Application_Kikundi.pdf",
+      "file_size_bytes": 486784,
+      "content_type": "application/pdf"
+    },
+    {
+      "filename": "Loan_Application_Taasisi.pdf",
+      "original_url": "https://www.agitf.go.tz/uploads/documents/sw-1770985773-Loan%20Application%20-%20Taasisi.pdf",
+      "local_path": "./downloads/AGITF-2026-001/original/Loan_Application_Taasisi.pdf",
+      "file_size_bytes": 215190,
+      "content_type": "application/pdf"
+    },
+    {
+      "filename": "CAG_Report_2023-24.pdf",
+      "original_url": "https://www.agitf.go.tz/uploads/documents/sw-1750065629-CAG%20REPORT%20FOR%20THE%20YEAR%202023-24.pdf",
+      "local_path": "./downloads/AGITF-2026-001/original/CAG_Report_2023-24.pdf",
+      "file_size_bytes": 4244792,
+      "content_type": "application/pdf"
+    },
+    {
+      "filename": "Strategic_Plan_2023.pdf",
+      "original_url": "https://www.agitf.go.tz/uploads/documents/sw-1733212460-Reviewed%20Strategic%20Plan-September%202023.pdf",
+      "local_path": "./downloads/AGITF-2026-001/original/Strategic_Plan_2023.pdf",
+      "file_size_bytes": 1241556,
+      "content_type": "application/pdf"
+    },
+    {
+      "filename": "AGITF_Act_1994.pdf",
+      "original_url": "https://www.agitf.go.tz/uploads/documents/sw-1733124570-The%20Agricultural%20Inputs%20Trust%20Fund%20Act,%201994.pdf",
+      "local_path": "./downloads/AGITF-2026-001/original/AGITF_Act_1994.pdf",
+      "file_size_bytes": 853120,
+      "content_type": "application/pdf"
+    }
+  ],
+  "contact": {
+    "name": "AGITF - Agricultural Inputs Trust Fund",
+    "email": "info@agitf.go.tz",
+    "phone": "+255 26 2354166",
+    "fax": "+255 262350268",
+    "address": "Government Office, Mtumba, P.O. Box 2382, Dodoma, Tanzania"
+  },
+  "scraped_at": "2026-03-13T20:10:30Z",
+  "last_checked": "2026-03-13T20:10:30Z"
+}

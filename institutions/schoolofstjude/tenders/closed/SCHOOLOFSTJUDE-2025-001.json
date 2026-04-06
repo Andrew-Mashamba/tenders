@@ -1,0 +1,28 @@
+{
+  "tender_id": "SCHOOLOFSTJUDE-2025-001",
+  "institution": "schoolofstjude",
+  "title": "Supply of Green Vegetables to the School of St Jude",
+  "description": "Tenderer must be capable of delivering 2000kgs of vegetables (sukumawiki/white cabbage) per month for all campuses.",
+  "reference_number": "TSOSJ/2025/Vegetables /12",
+  "published_date": "2025-10-01",
+  "closing_date": "2025-11-12",
+  "closing_time": "10:30 am",
+  "category": "Supplies",
+  "status": "closed",
+  "source_url": "https://www.schoolofstjude.org/tenders/",
+  "documents": [
+    {
+      "filename": "Tender-advert-Sukumawiki.pdf",
+      "original_url": "https://www.schoolofstjude.org/wp-content/uploads/2025/10/Tender-advert-Sukumawiki-5.11.2025.pdf",
+      "local_path": "./downloads/SCHOOLOFSTJUDE-2025-001/original/Tender-advert-Sukumawiki.pdf",
+      "file_size_bytes": 314294,
+      "downloaded_at": "2026-03-15T13:27:00Z",
+      "content_type": "application/pdf"
+    }
+  ],
+  "contact": {
+    "email": "purchasing@schoolofstjude.co.tz"
+  },
+  "scraped_at": "2026-03-15T13:27:00Z",
+  "last_checked": "2026-03-15T13:27:00Z"
+}

@@ -1,0 +1,21 @@
+{
+  "tender_id": "KIBAHATC-2026-007",
+  "institution": "kibahatc",
+  "title": "Tender ya Ujenzi wa Barabara kwa Kiwango cha Lami",
+  "description": "",
+  "published_date": "2017-10-19",
+  "closing_date": "2017-11-01",
+  "status": "closed",
+  "source_url": "https://kibahatc.go.tz/tenders",
+  "documents": [
+    {
+      "filename": "59e889ce9c6fc282555881.pdf",
+      "original_url": "https://kibahatc.go.tz/storage/app/uploads/public/59e/889/ce9/59e889ce9c6fc282555881.pdf",
+      "local_path": "/Volumes/DATA/PROJECTS/TENDERS/institutions/kibahatc/downloads/KIBAHATC-2026-007/original/59e889ce9c6fc282555881.pdf"
+    }
+  ],
+  "contact": {
+    "phone": "07720928447189"
+  },
+  "scraped_at": "2026-03-14T04:55:41Z"
+}
