@@ -11,7 +11,7 @@ import subprocess
 import signal
 from datetime import datetime, date
 from pathlib import Path
-from typing import Optional, List
+from typing import List, Optional
 
 from fastapi import FastAPI, HTTPException, Query, BackgroundTasks, Body, Depends, UploadFile, File as FastAPIFile
 from fastapi.middleware.cors import CORSMiddleware
@@ -22,12 +22,12 @@ from sqlalchemy.orm import Session
 
 from config import CORS_ORIGINS
 from database import create_tables, get_db, User, UserInstitution, UserApplication, Plan
-from auth import router as auth_router, get_current_user, get_optional_user, require_admin, user_to_dict
+from auth import router as auth_router, get_current_user, get_jwt_or_static_user, require_admin, user_to_dict
 from stripe_billing import router as billing_router
 from admin import router as admin_router
 from plan_limits import (
     check_institution_limit, check_application_limit,
-    check_download_access, check_scraper_access, get_user_plan_info,
+    check_download_access_or_static, get_user_plan_info,
 )
 
 PROJECT = Path(os.getenv("TENDERS_PROJECT_ROOT", "/var/www/html/tenders"))
@@ -119,8 +119,10 @@ def parse_readme_frontmatter(readme_path: Path) -> dict:
     return info
 
 
-def _get_user_slugs(user: User, db: Session) -> set:
+def _get_user_slugs(user: Optional[User], db: Session) -> set:
     """Get the set of institution slugs the user follows."""
+    if user is None:
+        return set()
     rows = db.query(UserInstitution.institution_slug).filter(
         UserInstitution.user_id == user.id
     ).all()
@@ -131,10 +133,13 @@ def _get_user_slugs(user: User, db: Session) -> set:
 
 @app.get("/api/me/institutions")
 def get_my_institutions(
-    user: User = Depends(get_current_user),
+    user: Optional[User] = Depends(get_jwt_or_static_user),
     db: Session = Depends(get_db),
 ):
     """Get user's followed institutions."""
+    if user is None:
+        return {"institutions": [], "total": 0}
+
     follows = db.query(UserInstitution).filter(
         UserInstitution.user_id == user.id
     ).all()
@@ -221,10 +226,13 @@ def get_my_applications(
     search: Optional[str] = None,
     limit: int = 100,
     offset: int = 0,
-    user: User = Depends(get_current_user),
+    user: Optional[User] = Depends(get_jwt_or_static_user),
     db: Session = Depends(get_db),
 ):
     """Get user's tracked applications."""
+    if user is None:
+        return {"total": 0, "applications": [], "offset": offset, "limit": limit}
+
     q = db.query(UserApplication).filter(UserApplication.user_id == user.id)
     if status:
         q = q.filter(UserApplication.status == status)
@@ -410,7 +418,7 @@ def download_company_doc(
 
 @app.get("/api/stats")
 def get_stats(
-    user: User = Depends(get_current_user),
+    user: Optional[User] = Depends(get_jwt_or_static_user),
     db: Session = Depends(get_db),
 ):
     """Dashboard overview stats — scoped to user's followed institutions."""
@@ -435,8 +443,12 @@ def get_stats(
             closing_soon.append(t)
     closing_soon.sort(key=lambda x: x.get("days_remaining", 999))
 
-    # User's applications from DB
-    user_apps = db.query(UserApplication).filter(UserApplication.user_id == user.id).all()
+    # User's applications from DB (static token: none)
+    user_apps = (
+        db.query(UserApplication).filter(UserApplication.user_id == user.id).all()
+        if user is not None
+        else []
+    )
     submitted = sum(1 for a in user_apps if a.status in ("submitted", "sent"))
     pending = sum(1 for a in user_apps if a.status not in ("submitted", "sent"))
 
@@ -482,7 +494,7 @@ def get_stats(
 @app.get("/api/tenders")
 def list_tenders(
     status: Optional[str] = None,
-    user: User = Depends(get_current_user),
+    _auth: Optional[User] = Depends(get_jwt_or_static_user),
     db: Session = Depends(get_db),
 ):
     """Return tenders with a status field. If status param given, returns only
@@ -510,7 +522,7 @@ def list_tenders(
 @app.get("/api/tenders/{tender_id}")
 def get_tender(
     tender_id: str,
-    user: User = Depends(get_current_user),
+    user: Optional[User] = Depends(get_jwt_or_static_user),
     db: Session = Depends(get_db),
 ):
     """Get a specific tender by ID."""
@@ -530,36 +542,41 @@ def get_tender(
             if extract_dir.exists():
                 t["extracted_files"] = [f.name for f in extract_dir.iterdir() if f.is_file()]
 
-            # Check if user is tracking this tender
-            app_row = db.query(UserApplication).filter(
-                UserApplication.user_id == user.id,
-                UserApplication.tender_id == tender_id,
-            ).first()
-            if app_row:
-                t["user_application"] = {
-                    "id": app_row.id,
-                    "status": app_row.status,
-                    "notes": app_row.notes,
-                }
+            # Per-user fields only when authenticated with JWT (not static catalogue token)
+            if user:
+                # Check if user is tracking this tender
+                app_row = db.query(UserApplication).filter(
+                    UserApplication.user_id == user.id,
+                    UserApplication.tender_id == tender_id,
+                ).first()
+                if app_row:
+                    t["user_application"] = {
+                        "id": app_row.id,
+                        "status": app_row.status,
+                        "notes": app_row.notes,
+                    }
 
-            # Check for prepared application PDF (user-scoped)
-            user_pdf_dir = APPLICATIONS_DIR / "pdfs" / f"user_{user.id}"
-            t["application_pdf"] = None
-            if user_pdf_dir.exists():
-                for f in user_pdf_dir.glob(f"*{tender_id}*"):
-                    if f.suffix.lower() == ".pdf":
-                        t["application_pdf"] = {
-                            "filename": f.name,
-                            "size": f.stat().st_size,
-                            "url": f"/api/applications/pdfs/{tender_id}",
-                        }
-                        break
+                # Check for prepared application PDF (user-scoped)
+                user_pdf_dir = APPLICATIONS_DIR / "pdfs" / f"user_{user.id}"
+                t["application_pdf"] = None
+                if user_pdf_dir.exists():
+                    for f in user_pdf_dir.glob(f"*{tender_id}*"):
+                        if f.suffix.lower() == ".pdf":
+                            t["application_pdf"] = {
+                                "filename": f.name,
+                                "size": f.stat().st_size,
+                                "url": f"/api/applications/pdfs/{tender_id}",
+                            }
+                            break
 
-            # Check for cached pitch (user-scoped)
-            user_pitch_file = user_pdf_dir / "pitches" / f"{tender_id}_pitch.json"
-            t["pitch"] = None
-            if user_pitch_file.exists():
-                t["pitch"] = load_json(user_pitch_file, {})
+                # Check for cached pitch (user-scoped)
+                user_pitch_file = user_pdf_dir / "pitches" / f"{tender_id}_pitch.json"
+                t["pitch"] = None
+                if user_pitch_file.exists():
+                    t["pitch"] = load_json(user_pitch_file, {})
+            else:
+                t["application_pdf"] = None
+                t["pitch"] = None
 
             # Build downloadable document URLs
             if t.get("local_files"):
@@ -586,7 +603,7 @@ def list_applications(
     sort: str = "closing_date",
     limit: int = 100,
     offset: int = 0,
-    user: User = Depends(get_current_user),
+    user: Optional[User] = Depends(get_jwt_or_static_user),
     db: Session = Depends(get_db),
 ):
     """List user's applications from DB, enriched with tender data."""
@@ -596,7 +613,7 @@ def list_applications(
 @app.get("/api/sent-log")
 def get_sent_log(
     limit: int = 50,
-    user: User = Depends(get_current_user),
+    _user: Optional[User] = Depends(get_jwt_or_static_user),
 ):
     log = load_json(APPLICATIONS_DIR / "sent_log.json", [])
     log.sort(key=lambda x: x.get("sent_at", ""), reverse=True)
@@ -843,7 +860,7 @@ def list_institutions(
     search: Optional[str] = None,
     limit: int = 100,
     offset: int = 0,
-    user: User = Depends(get_current_user),
+    user: Optional[User] = Depends(get_jwt_or_static_user),
     db: Session = Depends(get_db),
 ):
     """List all institutions with followed status."""
@@ -891,7 +908,7 @@ def list_institutions(
 @app.get("/api/institutions/{slug}")
 def get_institution(
     slug: str,
-    user: User = Depends(get_current_user),
+    user: Optional[User] = Depends(get_jwt_or_static_user),
     db: Session = Depends(get_db),
 ):
     inst_dir = INSTITUTIONS_DIR / slug
@@ -1030,7 +1047,7 @@ def stop_scrape(user: User = Depends(require_admin)):
 @app.get("/api/notifications")
 def list_notifications(
     limit: int = 20,
-    user: User = Depends(get_current_user),
+    _user: Optional[User] = Depends(get_jwt_or_static_user),
 ):
     sent_dir = NOTIFICATIONS_DIR / "sent"
     pending_dir = NOTIFICATIONS_DIR / "pending"
@@ -1062,7 +1079,7 @@ def get_document(
     slug: str,
     tender_id: str,
     filename: str,
-    user: User = Depends(check_download_access),
+    _user: Optional[User] = Depends(check_download_access_or_static),
 ):
     file_path = INSTITUTIONS_DIR / slug / "downloads" / tender_id / "original" / filename
     if not file_path.exists():
@@ -1075,7 +1092,7 @@ def get_document_text(
     slug: str,
     tender_id: str,
     filename: str,
-    user: User = Depends(get_current_user),
+    _user: Optional[User] = Depends(get_jwt_or_static_user),
 ):
     txt_name = Path(filename).stem + ".txt"
     text_path = INSTITUTIONS_DIR / slug / "downloads" / tender_id / "extracted" / txt_name
@@ -1100,7 +1117,7 @@ def get_document_text(
 
 # ── Serve Frontend ───────────────────────────────────────────────────────────
 
-FRONTEND_DIST = Path(__file__).parent.parent / "dist"
+FRONTEND_DIST = Path(__file__).parent.parent / "frontend" / "dist"
 if FRONTEND_DIST.exists():
     app.mount("/assets", StaticFiles(directory=FRONTEND_DIST / "assets"), name="assets")
 

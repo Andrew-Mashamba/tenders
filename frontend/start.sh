@@ -3,6 +3,8 @@
 # Usage: ./start.sh
 
 DIR="$(cd "$(dirname "$0")" && pwd)"
+PROJECT_ROOT="$(cd "$DIR/.." && pwd)"
+BACKEND_DIR="$PROJECT_ROOT/backend"
 cd "$DIR"
 
 echo "=== TENDERS Dashboard ==="
@@ -11,7 +13,7 @@ echo ""
 # Install Python deps if needed
 if ! python3 -c "import fastapi" 2>/dev/null; then
     echo "Installing Python dependencies..."
-    pip3 install -r api/requirements.txt
+    pip3 install -r "${BACKEND_DIR}/requirements.txt"
 fi
 
 # Install Node deps if needed
@@ -22,12 +24,11 @@ fi
 
 # Start API (background)
 echo "Starting API server on http://localhost:8010..."
-python3 -c "
-import uvicorn, sys
-sys.path.insert(0, '.')
-from api.main import app
+( cd "$BACKEND_DIR" && python3 -c "
+import uvicorn
+from main import app
 uvicorn.run(app, host='0.0.0.0', port=8010)
-" &
+" ) &
 API_PID=$!
 
 # Wait for API

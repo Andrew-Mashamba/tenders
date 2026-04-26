@@ -9,15 +9,23 @@ from typing import Optional
 
 import bcrypt
 from fastapi import APIRouter, Depends, HTTPException, status
-from fastapi.security import OAuth2PasswordBearer
+from fastapi.security import HTTPAuthorizationCredentials, HTTPBearer, OAuth2PasswordBearer
 from jose import JWTError, jwt
 from pydantic import BaseModel
 from sqlalchemy.orm import Session
 
-from config import JWT_SECRET, JWT_ALGORITHM, ACCESS_TOKEN_EXPIRE_MINUTES, REFRESH_TOKEN_EXPIRE_DAYS
+from config import (
+    JWT_SECRET,
+    JWT_ALGORITHM,
+    ACCESS_TOKEN_EXPIRE_MINUTES,
+    REFRESH_TOKEN_EXPIRE_DAYS,
+    STATIC_API_TOKEN,
+)
 from database import get_db, User, RefreshToken, Plan
 
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="/api/auth/login", auto_error=False)
+
+_catalog_bearer = HTTPBearer(auto_error=False)
 
 router = APIRouter(prefix="/api/auth", tags=["auth"])
 
@@ -109,6 +117,31 @@ def get_optional_user(
     except HTTPException:
         return None
 
+
+def get_jwt_or_static_user(
+    bearer: Optional[HTTPAuthorizationCredentials] = Depends(_catalog_bearer),
+    db: Session = Depends(get_db),
+) -> Optional[User]:
+    """JWT → User; TENDERS_STATIC_API_TOKEN (Bearer) → None (read-only catalogue / anonymous slice)."""
+    if bearer is None:
+        raise HTTPException(
+            status_code=status.HTTP_401_UNAUTHORIZED,
+            detail="Not authenticated",
+            headers={"WWW-Authenticate": "Bearer"},
+        )
+    raw = bearer.credentials
+    if STATIC_API_TOKEN and len(raw) == len(STATIC_API_TOKEN) and secrets.compare_digest(
+        raw, STATIC_API_TOKEN
+    ):
+        return None
+    payload = decode_access_token(raw)
+    user = db.query(User).filter(User.id == int(payload["sub"])).first()
+    if not user:
+        raise HTTPException(status_code=401, detail="User not found")
+    return user
+
+
+get_user_or_static_catalog_token = get_jwt_or_static_user
 
 # ── Request/Response Schemas ────────────────────────────────────────────────
 

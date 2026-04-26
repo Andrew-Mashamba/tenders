@@ -2,11 +2,13 @@
 Plan-based feature gating and limit checking.
 """
 from datetime import datetime
+from typing import Optional
+
 from fastapi import Depends, HTTPException
 from sqlalchemy.orm import Session
 
 from database import get_db, User, Plan, UserInstitution, UserApplication
-from auth import get_current_user
+from auth import get_current_user, get_jwt_or_static_user
 
 
 def _get_plan(user: User, db: Session) -> Plan:
@@ -86,6 +88,16 @@ def check_download_access(
     return user
 
 
+def check_download_access_or_static(
+    user: Optional[User] = Depends(get_jwt_or_static_user),
+    db: Session = Depends(get_db),
+):
+    """JWT users: plan must allow downloads. Static API token: allow (catalogue / app embedding)."""
+    if user is None:
+        return None
+    return check_download_access(user, db)
+
+
 def check_scraper_access(
     user: User = Depends(get_current_user),
     db: Session = Depends(get_db),
@@ -105,8 +117,37 @@ def check_scraper_access(
     return user
 
 
-def get_user_plan_info(user: User, db: Session) -> dict:
-    """Get plan details and current usage for a user."""
+def get_user_plan_info(user: Optional[User], db: Session) -> dict:
+    """Get plan details and current usage for a user (or static-token anonymous slice)."""
+    if user is None:
+        plan = db.query(Plan).filter(Plan.id == "free").first()
+        if not plan:
+            return {
+                "plan_id": "static_token",
+                "plan_name": "Static API token",
+                "price_monthly": 0,
+                "institutions_used": 0,
+                "institutions_limit": 0,
+                "applications_used": 0,
+                "applications_limit": 0,
+                "can_download_documents": True,
+                "can_control_scraper": False,
+                "has_api_access": True,
+                "has_email_alerts": False,
+            }
+        return {
+            "plan_id": "static_token",
+            "plan_name": "Static API token",
+            "price_monthly": 0,
+            "institutions_used": 0,
+            "institutions_limit": plan.max_institutions,
+            "applications_used": 0,
+            "applications_limit": plan.max_applications_per_month,
+            "can_download_documents": True,
+            "can_control_scraper": False,
+            "has_api_access": True,
+            "has_email_alerts": plan.has_email_alerts,
+        }
     plan = _get_plan(user, db)
     _reset_monthly_counter_if_needed(user, db)
     followed = db.query(UserInstitution).filter(UserInstitution.user_id == user.id).count()

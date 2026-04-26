@@ -8,7 +8,7 @@ TENDERS is an automated tender scraping system for Tanzanian financial instituti
 
 The system scrapes ~73 institution tender pages, downloads documents (PDF, DOC, XLSX, etc.), extracts text, generates structured JSON, and sends email notifications via SMTP (info@zima.co.tz → andrew.s.mashamba@gmail.com).
 
-It includes a **web frontend** (React 19 + Vite 6) with a FastAPI backend for browsing tenders, tracking applications, managing institutions, viewing opportunities, and controlling the scraper — all served from `frontend/`.
+It includes a **web frontend** (`frontend/` — React 19 + Vite 6) and a **FastAPI backend** (`backend/`) for browsing tenders, tracking applications, managing institutions, viewing opportunities, and controlling the scraper.
 
 ## Commands
 
@@ -28,7 +28,7 @@ scripts/scrape_single.sh <institution-slug>   # e.g., scripts/scrape_single.sh c
 
 # Frontend
 cd frontend
-./start.sh                      # Start both API (port 8001) and Vite dev server (port 3000)
+./start.sh                      # Start both API (port 8010) and Vite dev server (port 3000)
 npm run dev                     # Vite dev server only
 npm run build                   # Production build to dist/
 npm run api                     # FastAPI backend only
@@ -42,14 +42,15 @@ npm run api                     # FastAPI backend only
 
 ### Directory Structure
 
-- **`frontend/`** — Web UI and API server
+- **`frontend/`** — React SPA only
   - `src/` — React 19 SPA (Vite 6, Tailwind CSS 4, React Router v7.1, Recharts)
   - `src/pages/` — Dashboard, Tenders, TenderDetail, Applications, Opportunities, Institutions, InstitutionDetail, ScraperControl
   - `src/components/` — Layout, DataTable, StatsCard, StatusBadge
   - `src/lib/api.js` — Centralized API client for all backend calls
-  - `api/main.py` — FastAPI backend (reads from `institutions/` directory, serves REST API + built frontend)
-  - `start.sh` — Launches both API and Vite dev server
-  - In production, FastAPI serves the built React app from `dist/` and the API on port 8001
+  - `start.sh` — Launches backend + Vite dev server
+  - Production build output: `frontend/dist/`
+- **`backend/`** — FastAPI (`main.py`); reads from `institutions/`, serves REST API + static `frontend/dist/` when present
+  - In production, API often on port 8001; dev (`start.sh`) uses 8010 with Vite proxying `/api` to it
 - **`institutions/`** — One subdirectory per institution (e.g., `crdb-bank/`, `nmb-bank/`). Each contains:
   - `README.md` — YAML frontmatter config (scraping selectors, URLs, schedule, anti-bot settings, document rules) followed by markdown instructions. This is the primary configuration file for each institution.
   - `tenders/active/`, `tenders/closed/`, `tenders/archive/` — Tender JSON files by lifecycle stage
@@ -149,7 +150,7 @@ React 19 SPA with a FastAPI backend. Key routes:
 
 **API endpoints** (`/api/*`): stats, tenders, applications (prepare/apply/PDF generation), opportunities, institutions, scraper control, document download/text extraction, notifications.
 
-**Dev setup:** Vite proxies `/api/*` → `http://localhost:8001` during development. Dependencies: `npm install` for frontend, `pip install -r frontend/api/requirements.txt` for backend.
+**Dev setup:** Vite proxies `/api/*` → `http://localhost:8010` during development (`frontend/start.sh`). Dependencies: `npm install` in `frontend/`, `pip install -r backend/requirements.txt` for the API.
 
 ## Important Notes
 

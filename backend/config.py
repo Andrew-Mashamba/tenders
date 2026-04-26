@@ -20,9 +20,15 @@ STRIPE_SECRET_KEY = os.getenv("STRIPE_SECRET_KEY", "")
 STRIPE_PUBLISHABLE_KEY = os.getenv("STRIPE_PUBLISHABLE_KEY", "")
 STRIPE_WEBHOOK_SECRET = os.getenv("STRIPE_WEBHOOK_SECRET", "")
 
+# Public catalogue access without login (Bearer token; set via env in production)
+STATIC_API_TOKEN = os.getenv("TENDERS_STATIC_API_TOKEN", "").strip()
+
 # Frontend
-FRONTEND_URL = os.getenv("FRONTEND_URL", "http://localhost:3000")
-CORS_ORIGINS = os.getenv("CORS_ORIGINS", "http://localhost:3000,http://localhost:8010,https://zima-uat.site:8007").split(",")
+FRONTEND_URL = os.getenv("FRONTEND_URL", "https://tenders.zimasystems.com")
+CORS_ORIGINS = os.getenv(
+    "CORS_ORIGINS",
+    "http://localhost:3000,https://tenders.zimasystems.com,https://zimasystems.com,https://www.zimasystems.com",
+).split(",")
 
 # Rate limiting
 AUTH_RATE_LIMIT = os.getenv("AUTH_RATE_LIMIT", "5/minute")
