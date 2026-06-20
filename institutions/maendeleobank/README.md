@@ -18,18 +18,18 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape tender page at https://maendeleobank.co.tz/index.php/tender/. Uses WordPress with Elementor and Tablesome plugin — tender data may load via JS. Parse .tablesome or .tablepress table if present; otherwise consider Tablesome REST API at /wp-json/tablesome/v1/tables/."
+  strategy: "Scrape tender page at https://maendeleobank.co.tz/index.php/tender/. WordPress + Elementor: tenders listed as Elementor text-editor + icon-list widgets (not Tablesome table). Each tender block has title/description in .elementor-widget-text-editor and PDF link in .elementor-widget-icon-list a[href*='.pdf']. Check closing dates in PDFs — page does not show deadlines."
   selectors:
-    container: ".elementor-widget-theme-post-content, .entry-content, .tablesome, table.tablepress, main"
-    tender_item: "table.tablesome tbody tr, table.tablepress tbody tr"
-    title: "td:first-child, .column-1, a"
-    date: "td:nth-child(2), .column-2, .date"
-    document_link: 'a[href$=".pdf"], a[href$=".doc"], a[href$=".docx"], a[href*="/wp-content/uploads/"]'
+    container: ".entry-content, .elementor-elementor-3212, main"
+    tender_item: ".e-con.e-child:has(.elementor-widget-text-editor)"
+    title: ".elementor-widget-text-editor p:first-child"
+    date: ""
+    document_link: '.elementor-widget-icon-list a[href$=".pdf"], a[href*="/wp-content/uploads/"]'
     pagination: ".tablesome-pagination a, .pagination a, a.next"
   schedule: "daily"
 
   anti_bot:
-    requires_javascript: true
+    requires_javascript: false
     has_captcha: false
     rate_limit_seconds: 10
 
@@ -202,6 +202,6 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
+- **Last Checked:** 10 June 2026
+- **Active Tenders:** 0 (4 expired tenders on page, archived to closed/)
 - **Signal Strength:** Strong (tender)

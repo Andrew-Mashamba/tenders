@@ -9,7 +9,7 @@ institution:
 
 website:
   homepage: "https://manyonidc.go.tz/"
-  tender_url: "https://manyonidc.go.tz/tenders"
+  tender_url: "https://manyonidc.go.tz/"
 
 contact:
   email: "ded.manyonidc@singida.go.tz"
@@ -20,18 +20,18 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape https://manyonidc.go.tz/tenders (Zabuni Zaidi). October CMS with table layout. Each row: td (title), td (dates), td a[href*='storage'] (Pakua/download link)."
+  strategy: "Site migrated to GWF CORE SPA (React). Static HTML is empty shell; use REST API at /api/announcements, /api/advertisements, /api/files. Reject plot sales (Uuzaji wa viwanja). Old October CMS path /tenders returns SPA shell."
   selectors:
-    container: ".right-sidebar-content, table"
-    tender_item: "table tbody tr"
-    title: "td:first-child, td:first-child a"
-    date: "td:nth-child(2), td:nth-child(3)"
-    document_link: 'td a[href*="storage"], a[href$=".pdf"], a[href$=".doc"], a[href$=".docx"]'
+    container: "#root"
+    tender_item: "api:data"
+    title: "title"
+    date: "date"
+    document_link: 'attachments[].url'
     pagination: ".pagination a, a.next"
   schedule: "daily"
 
   anti_bot:
-    requires_javascript: false
+    requires_javascript: true
     has_captcha: false
     rate_limit_seconds: 10
 
@@ -424,6 +424,6 @@ with smtplib.SMTP_SSL(config["host"], config["port"], context=context) as server
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
-- **Signal Strength:** Strong (tender, tenders, zabuni)
+- **Last Checked:** 10 June 2026
+- **Active Tenders:** 0 (GWF CORE SPA; plot sale notice only)
+- **Signal Strength:** Medium (site active, procurement section not published)

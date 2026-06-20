@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "TRO uses NeST (National e-Procurement System) at nest.go.tz. Angular SPA - content loads via JS. Use headless browser or NeST API. Page shows loading spinner until app loads."
+  strategy: "TRO uses NeST (National e-Procurement System) at nest.go.tz. Angular SPA - content loads via JS; curl returns shell HTML only. Requires headless browser for scraping. No public REST API found. Tenders must be searched on NeST by procuring entity."
   selectors:
     container: "app-root, .mat-typography"
     tender_item: "app-tender-list, .tender-row, .mat-row"

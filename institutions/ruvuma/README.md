@@ -9,11 +9,17 @@ institution:
 website:
   homepage: "https://ruvuma.go.tz"
   tender_url: "https://ruvuma.go.tz/tenders"
+  tender_url_note: "As of 2026-06-11, /tenders returns GWF CORE React SPA shell. Scrape via API: /api/advertisements, /api/announcements, /api/from-tamisemi. Legacy October CMS /storage/app/ paths no longer served."
 
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape homepage and /tenders. Zabuni section: home-page-title + links. Documents in .home-announcement-wrapper with a[href*='/storage/']. Also visit /tenders for full listing."
+  strategy: |
+    Site migrated to GWF CORE SPA (2026). /tenders returns React shell only (requires JavaScript).
+    Use REST API: /api/advertisements?limit=50 (local procurement; empty as of 2026-06-11),
+    /api/announcements (reject investment/license notices — not procurement),
+    /api/from-tamisemi (syndicated TAMISEMI zabuni with category=Zabuni),
+    /api/files. Legacy October CMS table and /storage/app/uploads/public/ paths obsolete.
   selectors:
     container: ".first-content-wrapper, .home-announcement-wrapper, .right-sidebar-content"
     tender_item: ".home-announcement-wrapper a, table.table tbody tr"
@@ -24,7 +30,7 @@ scraping:
   schedule: "daily"
 
   anti_bot:
-    requires_javascript: false
+    requires_javascript: true
     has_captcha: false
     rate_limit_seconds: 10
 

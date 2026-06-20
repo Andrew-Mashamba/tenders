@@ -17,7 +17,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape https://ajirayako.co.tz/post-your-tender-advert-to-ajira-yako-website/ for tender/procurement notices."
+  strategy: "Job portal — tender_url is a 'Post Your Tender Advert' submission page, NOT a tender listing. No active procurement notices on site. Scrape homepage and category pages for reposted tenders; expect mostly job vacancies (reject)."
   selectors:
     container: ".tender-list, .content, main, .entry-content, .page-content, article"
     tender_item: "article, .tender-item, .card, .row, li, tr"
@@ -194,6 +194,6 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
+- **Last Checked:** 10 June 2026
+- **Active Tenders:** 0 (advert submission page only)
 - **Signal Strength:** Strong (expression of interest, tender)

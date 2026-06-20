@@ -14,6 +14,7 @@ website:
 contact:
   email: "ps@water.go.tz"
   alternate_emails:
+    - "info@majismz.go.tz"
     - "info@ministry.gov"
   phone: "026
           "
@@ -190,6 +191,6 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
-- **Signal Strength:** Weak (supply/rfi only)
+- **Last Checked:** 10 June 2026
+- **Active Tenders:** 0 (SPA site, no tender publications found)
+- **Signal Strength:** Weak (no dedicated procurement section)

@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Homepage has Latest News with RFP notices (e.g. 'REQUEST FOR PROPOSALS (RFP) FOR CONDUCTING ZATU EVALUATION'). Site uses Zyrosite/Hostinger (Astro). Check /forms for RFP submission. Extract news items with RFP/tender keywords; follow document links."
+  strategy: "Homepage Latest News lists RFP notices (client-rendered Zyrosite/Astro). RFP documents hosted on Google Drive (e.g. drive.google.com/file/d/1qSnzR60wczJSdx4hs9XQXkETtyhgnyfU). Download via drive.usercontent.google.com/export. Contact: zatuznz@gmail.com for submissions."
   selectors:
     container: ".layout-element, .text-box, main, [data-v-4edbe80f]"
     tender_item: ".text-box, .layout-element__component"

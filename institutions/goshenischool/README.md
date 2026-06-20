@@ -20,7 +20,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape News category at /category/news/ for job/vacancy postings. Each li.theme-post links to full article. Also check /category/blog/. Follow article links to extract documents."
+  strategy: "DISABLED for procurement: /category/news/ and /careers/ contain job vacancies (nafasi za kazi) and school news only—no procurement tenders. Reject job postings per scraper rules."
   selectors:
     container: "ul.theme-blog, .theme-column-left"
     tender_item: "li.theme-post"

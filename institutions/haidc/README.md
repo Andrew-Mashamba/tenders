@@ -1,6 +1,6 @@
 ---
 institution:
-  name: "Haidc"
+  name: "Hai District Council"
   slug: "haidc"
   category: "Government"
   status: "active"
@@ -13,7 +13,7 @@ website:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape homepage and linked pages for tender/procurement documents. 9 document links discovered."
+  strategy: "Site is GWF CORE SPA (requires JavaScript). Use REST API: /api/advertisements for tenders, /api/announcements for notices. Filter category=Tender; reject Ajira (jobs) and Huduma (loans)."
   selectors:
     container: ".tender-list, .content, main, .page-content, .entry-content, article"
     tender_item: "article, .tender-item, .card, .row, tr, li"
@@ -24,7 +24,7 @@ scraping:
   schedule: "daily"
 
   anti_bot:
-    requires_javascript: false
+    requires_javascript: true
     has_captcha: false
     rate_limit_seconds: 10
 
@@ -61,6 +61,7 @@ scraping:
       decode_percent_encoding: true
 
     known_document_paths:
+      - "/minio/haidc.go.tz/attachments/"
       - "/storage/app/media/uploaded-files/"
       - "/storage/app/uploads/public/621/751/4c5/"
       - "/storage/app/uploads/public/640/f22/729/"

@@ -13,7 +13,7 @@ website:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Tender page unreachable (timeout). http://mwanahalisi.co.tz may be down or blocking requests. Disable until page is accessible."
+  strategy: "Site unreachable as of June 2026 — SSL connection fails (curl exit 35) on both http and https. No procurement content accessible."
   selectors:
     container: ".tender-list, .content, main, .page-content, .entry-content, article"
     tender_item: "article, .tender-item, .card, .row, tr, li"

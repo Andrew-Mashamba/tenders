@@ -13,7 +13,7 @@ website:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "No dedicated tender page. Monitor news/announcements section and external aggregators."
+  strategy: "No dedicated tender page. Site boatanzania.com currently unreachable (SSL handshake failure as of 2026-06-10). Monitor TANePS and newspapers when site is restored."
   selectors:
     container: "body"
     tender_list: "unknown"

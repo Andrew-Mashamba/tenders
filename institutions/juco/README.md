@@ -15,9 +15,9 @@ scraping:
   method: "http_get"
   strategy: |
     Jordan University College (JUCo). Documents under /jslabtec/documents/ — admission forms, bylaws,
-    selection lists (PDF). No dedicated tender page; procurement is an academic program. Scrape
-    homepage and /index.php/adm_documents for document links. Documents are admission-related, not
-    procurement tenders — keep enabled for document discovery.
+    selection lists (PDF). No dedicated tender page. /index.php/adm_documents has admission-related
+    PDFs only (application forms, joining instructions, selection lists) — NOT procurement tenders.
+    Reject all admission documents as junk tender records.
   selectors:
     container: "main, .container, .nav-link[href*='adm_documents']"
     tender_item: "a[href*='jslabtec/documents']"

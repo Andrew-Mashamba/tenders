@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape https://temekemc.go.tz/tenders for government tender notices. Documents stored at /storage/app/uploads/public/. Follow links to /new/ pages for tender details."
+  strategy: "SPA (GWF CORE) requires JavaScript. Use REST API: GET https://temekemc.go.tz/api/advertisements?category=Tender&page=1&limit=50. Attachments in /minio/temekemc.go.tz/attachments/. Legacy /storage/app/uploads/public/ paths may still exist."
   selectors:
     container: ".tender-list, .content, main, .entry-content, .page-content, article"
     tender_item: "article, .tender-item, .card, .row, li, tr"
@@ -29,7 +29,7 @@ scraping:
   schedule: "daily"
 
   anti_bot:
-    requires_javascript: false
+    requires_javascript: true
     has_captcha: false
     rate_limit_seconds: 10
 

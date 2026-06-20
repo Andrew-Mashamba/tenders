@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "KEC uses ega.gov-style CMS. No dedicated tender page in main menu. Check /publications/, /press-releases/, and procurement unit page. Menu: Machapisho (publications), Kituo cha habari (news). Tenders may be under procurement unit or press releases."
+  strategy: "KEC uses ega.gov-style CMS. No dedicated tender page in main menu. Check /publications/, /press-releases/, and procurement unit page. Menu: Machapisho (publications), Kituo cha habari (news). Tenders may be under procurement unit or press releases. Site SSL cert may require curl -k (verified 2026-06-10)."
   selectors:
     container: ".container, .main-container, .rich-text, .ega-section"
     tender_item: ".list-item, .drop-item, .pr-1.py-2, article"

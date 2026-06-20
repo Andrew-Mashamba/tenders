@@ -1,0 +1,23 @@
+{
+  "tender_id": "TMRC-EPROCUREMENT-2026-001",
+  "institution": "tmrc-eprocurement",
+  "title": "Provision of Backup Power Solution for Critical Systems at TMRC",
+  "description": "Supply and provision of backup power solution for critical systems at Tanzania Mortgage Refinance Company (TMRC). Tender documents and bid submission require supplier registration and login on the e-procurement portal.",
+  "reference_number": "TEND-26",
+  "published_date": "2026-05-07",
+  "closing_date": "2026-06-19",
+  "closing_time": "",
+  "category": "Supply",
+  "status": "active",
+  "source_url": "https://eprocurement.tmrc.co.tz/Tender/Details?tenderNo=TEND-26",
+  "documents": [],
+  "contact": {
+    "name": "Procurement Department",
+    "email": "info@tmrc.co.tz",
+    "phone": "+255 22 22 15100/119",
+    "address": "Golden Jubilee - Main Tower, 15th Floor, Between Ohio & Kibo Street, P.O. Box 7539, Dar es Salaam, Tanzania"
+  },
+  "eligibility": "Interested bidders must register on the TMRC e-procurement portal to access tender documents and submit bids.",
+  "scraped_at": "2026-06-10T18:37:02.000000Z",
+  "last_checked": "2026-06-10T18:37:02.000000Z"
+}

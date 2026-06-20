@@ -20,7 +20,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape https://etdco.co.tz/tenders/ for tender notices. Uses WordPress with Simple Job Board (sjb) plugin. Parse .sjb-page content, extract .jobpost items. Documents via Download Manager (wpdm) plugin."
+  strategy: "Scrape https://etdco.co.tz/tenders/ for tender notices. Uses WordPress with Simple Job Board (sjb) plugin. As of June 2026 the tenders page has zero listings (no .jobpost items). Previously indexed URL /jobs/supply-of-electrical-components/ returns 404. Re-check periodically. Documents via Download Manager (wpdm) plugin when listings appear."
   selectors:
     container: ".sjb-page, main, .entry-content, .elementor-section"
     tender_item: ".jobpost, .sjb-detail .list-data .jobpost-form, .elementor-widget-container"

@@ -9,7 +9,7 @@ institution:
 
 website:
   homepage: "https://nlupc.go.tz/"
-  tender_url: "https://nlupc.go.tz/"
+  tender_url: "https://nlupc.go.tz/announcements"
 
 contact:
   email: "dg@nlupc.go.tz"
@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape https://nlupc.go.tz/. NOTE: Site may return SSL errors or timeout on fetch; verify reachability before scraping."
+  strategy: "Scrape https://nlupc.go.tz/announcements for Matangazo. As of 2026-06-11: announcements are staff relocation notices, not procurement tenders. No /procurement page (404)."
   selectors:
     container: ".tender-list, .content, main, .entry-content, .page-content, article"
     tender_item: "article, .tender-item, .card, .row, li, tr"
@@ -401,6 +401,6 @@ with smtplib.SMTP_SSL(config["host"], config["port"], context=context) as server
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
-- **Signal Strength:** Weak (supply/rfi only)
+- **Last Checked:** 11 June 2026
+- **Active Tenders:** 0 (announcements are administrative notices, not procurement)
+- **Signal Strength:** Weak (no procurement section)

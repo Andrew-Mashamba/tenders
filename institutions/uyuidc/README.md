@@ -9,7 +9,7 @@ institution:
 
 website:
   homepage: "https://uyuidc.go.tz/"
-  tender_url: "https://uyuidc.go.tz/how-do-i-single/utaratibu-wa-zabuni"
+  tender_url: "https://uyuidc.go.tz/tenders"
 
 contact:
   email: "ded@uyuidc.go.tz"
@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape https://uyuidc.go.tz/how-do-i-single/utaratibu-wa-zabuni for tender procedures (Utaratibu wa zabuni). Page shows 'under construction' but has Matangazo and Habari Mpya news sections. Also check https://uyuidc.go.tz/news for announcements. Documents may appear in /storage/app/uploads/public/."
+  strategy: "Primary tender listing at https://uyuidc.go.tz/tenders (table: Jina la Zabuni, Tarehe ya Kutolewa, Tarehe ya Mwisho, Pakua). As of June 2026 only one historical entry (Zabuni za barabara, closed March 31 2017). Matangazo sidebar has job/loan announcements (reject as non-procurement). Also check https://uyuidc.go.tz/news. Documents at /storage/app/uploads/public/. Note: SSL cert may fail on curl without -k flag."
   selectors:
     container: "main, .content, .entry-content, .page-content"
     tender_item: "article, .news-item, .post, li, .row"

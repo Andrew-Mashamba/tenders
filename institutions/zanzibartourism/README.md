@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape tender page at /pages-/Tourism%20tenders%20and%20Contracts. Page may use CMS with document listings. Follow all PDF/doc links. Note: Page fetch timed out during analysis—verify reachability."
+  strategy: "Scrape tender page at /pages-/Tourism%20tenders%20and%20Contracts. Page may use CMS with document listings. Follow all PDF/doc links. Note: SSL/TLS connection fails as of June 2026 (curl exit 35) — site unreachable from scraper."
   selectors:
     container: ".tender-list, .content, main, .entry-content, .page-content, article"
     tender_item: "article, .tender-item, .card, .row, li, tr"

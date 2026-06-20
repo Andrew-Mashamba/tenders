@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Joomla site. /tenders page exists but itemprop='articleBody' is EMPTY in static HTML - content may be loaded via JS or component. Check main#content, .item-page. Tender listings may appear in Joomla component output. Verify if content loads client-side."
+  strategy: "Joomla site. /tenders page returns 200 but itemprop='articleBody' is EMPTY in static HTML — no tender listings or PDF links in curl fetch (2026-06-10). Content appears JS-rendered. Re-check periodically; try homepage nav for tender links if /tenders stays empty."
   selectors:
     container: "#content, .item-page, main.main-wrapper, .main-wrapper.blue-wave-bg"
     tender_item: ".item-page div, article, .tender-item, tr"
@@ -408,6 +408,6 @@ with smtplib.SMTP_SSL(config["host"], config["port"], context=context) as server
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
+- **Last Checked:** 10 June 2026
+- **Active Tenders:** 0 (page empty in static HTML)
 - **Signal Strength:** Strong (tender, tenders)

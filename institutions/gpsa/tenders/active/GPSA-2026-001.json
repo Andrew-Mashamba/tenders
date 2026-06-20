@@ -1,0 +1,31 @@
+{
+  "tender_id": "GPSA-2026-001",
+  "institution": "gpsa",
+  "title": "GPSA GIMIS Procuring Entity Registration Form",
+  "description": "Registration form for procuring entities (MDA) to enroll in the GPSA Integrated Management Information System (GIMIS). Government institutions must complete and submit this form for GIMIS access.",
+  "reference_number": "GIMIS-PE-REG",
+  "published_date": "2024-11-06",
+  "closing_date": "2027-10-18",
+  "closing_time": "",
+  "category": "General",
+  "status": "active",
+  "source_url": "https://gpsa.go.tz/tenders",
+  "documents": [
+    {
+      "filename": "gimis_registration_form_pe.pdf",
+      "original_url": "https://gpsa.go.tz/uploads/tenders/sw-1730875124-GIMIS%20Registration%20Form%20-%20MDA.pdf",
+      "local_path": "./downloads/GPSA-2026-001/original/gimis_registration_form_pe.pdf",
+      "content_type": "application/pdf",
+      "downloaded_at": "2026-06-10T17:20:50.401000Z"
+    }
+  ],
+  "contact": {
+    "name": "Government Procurement Services Agency",
+    "email": "",
+    "phone": "+255 (22) 2866071",
+    "address": "Mtaa wa Bohari, Barabara ya Nyerere, P.O. Box 9150, Dar es Salaam"
+  },
+  "eligibility": "Public procuring entities (ministries, departments, agencies, councils, institutions) seeking GIMIS registration",
+  "scraped_at": "2026-06-10T17:20:50.401000Z",
+  "last_checked": "2026-06-10T17:20:50.401000Z"
+}

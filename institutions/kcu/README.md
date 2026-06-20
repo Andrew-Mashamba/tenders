@@ -13,7 +13,7 @@ website:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "WordPress/Elementor site. Scrape homepage and follow links to tender/zabuni pages. Documents in /wp-content/uploads/YYYY/MM/. Check elementor blocks and .entry-content for tender listings."
+  strategy: "WordPress/Elementor site. Active tenders published as blog posts (e.g. /tender-to-develop-kcumis-system/). Search ?s=tender or check KCU NOTICE BOARD widget. Documents in /wp-content/uploads/YYYY/MM/. Expired tenders (e.g. business plan Oct 2025) must be rejected."
   selectors:
     container: "main, #content, .elementor-widget-container, .entry-content, .wp-block-group"
     tender_item: "article, .elementor-element, .wp-block-post, .tender-item"
@@ -62,6 +62,8 @@ scraping:
 
     known_document_paths:
       - "/wp-content/uploads/2026/02/"
+      - "/wp-content/uploads/2026/06/"
+      - "/wp-content/uploads/2025/10/"
 
     url_patterns:
       - "kcu.or.tz/wp-content/uploads/*/*/*.pdf"
@@ -133,7 +135,12 @@ The scraper MUST download all linked documents from tender pages, not just scrap
 5. **Download attachments from detail pages** — some tenders only show a summary on the listing page with full documents on a detail/inner page
 6. **Skip duplicates** based on URL and file hash to avoid re-downloading
 
-Known document paths: /wp-content/uploads/2026/02/
+Known document paths: /wp-content/uploads/2026/06/, /wp-content/uploads/2026/02/
+
+### Active Tender (2026-06-10)
+
+- **KCU-2026-001** — Development of KCUMIS (closes 2026-06-16)
+- Source: https://kcu.or.tz/tender-to-develop-kcumis-system/
 
 ## Folder Structure
 

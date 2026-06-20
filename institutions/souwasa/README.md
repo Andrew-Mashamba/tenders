@@ -20,7 +20,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "NeST (nest.go.tz) is an Angular SPA. Tender content loads via JavaScript after page load. Use headless browser (Puppeteer/Playwright) or set requires_javascript: true. Search URL filters by souwasa. Tender data rendered in app-root."
+  strategy: "NeST (nest.go.tz) is an Angular SPA — requires headless browser (Playwright). Search URL ?search=souwasa returns 'No results found' when no active tenders (verified 2026-06-11). souwasa.go.tz links to NeST for Zabuni; site needs curl -k for SSL. Vacancies at /nafasi-za-kazi are job postings — reject."
   selectors:
     container: "app-root, .mat-typography"
     tender_item: "mat-row, .tender-row, tr"
@@ -202,6 +202,6 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
+- **Last Checked:** 11 June 2026
+- **Active Tenders:** 0 (NeST search returns no results)
 - **Signal Strength:** Strong (tender, tenders, zabuni)

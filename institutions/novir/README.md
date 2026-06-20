@@ -16,7 +16,7 @@ contact:
   phone: "0676203399"
 
 scraping:
-  enabled: true
+  enabled: false
   method: "http_get"
   strategy: "Logistics/clearing company homepage. No tender or procurement content; services page only. Disabled."
   selectors:
@@ -182,6 +182,6 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
+- **Last Checked:** 11 June 2026
+- **Active Tenders:** 0
 - **Signal Strength:** Weak (supply/rfi only)

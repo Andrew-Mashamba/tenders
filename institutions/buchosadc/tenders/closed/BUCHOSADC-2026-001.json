@@ -5,7 +5,7 @@
   "source_url": "https://buchosadc.go.tz/tenders",
   "published_date": "2026-03-15",
   "closing_date": null,
-  "status": "active",
+  "status": "closed",
   "documents": [
     {
       "filename": "667d649639df3613803168.pdf",
@@ -30,5 +30,6 @@
   ],
   "contact": {},
   "scraped_at": "2026-03-15T05:09:50Z",
-  "run_id": "run_20260315_060430_batch18"
+  "run_id": "run_20260315_060430_batch18",
+  "last_checked": "2026-06-10T16:17:30.579504Z"
 }

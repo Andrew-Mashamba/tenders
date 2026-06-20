@@ -8,12 +8,12 @@ institution:
 
 website:
   homepage: "https://lushotodc.go.tz"
-  tender_url: "https://lushotodc.go.tz"
+  tender_url: "https://lushotodc.go.tz/tenders"
 
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape homepage and linked pages for tender/procurement documents. Documents in /storage/app/uploads/public/ and /lushotodc/storage/app/media/uploaded-files/. Site unreachable during analysis — verify selectors on next run."
+  strategy: "Scrape /tenders page (Zabuni table). Documents in /storage/app/uploads/public/. Homepage also shows Zabuni section. Only expired tenders listed as of 2026-06-10."
   selectors:
     container: ".tender-list, .content, main, .page-content, .entry-content, article"
     tender_item: "article, .tender-item, .card, .row, tr, li"

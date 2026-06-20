@@ -19,8 +19,8 @@ scraping:
   enabled: true
   method: "http_get"
   strategy: |
-    Tender page at /pages/tender. Page states "This page will be used to advertise tenders from TACAIDS".
-    Bootstrap + DataTables. Check for table.tender, .col-md-12 content, card/row structures.
+    Tender page at /pages/tender. Page states "This page will be used to advertise tenders from TACAIDS" but has no listings (verified 2026-06-11).
+    Bootstrap + DataTables. Check for table.tender, .col-md-12 content, card/row structures when tenders appear.
     Documents likely at /uploads/ or /documents/. Follow document links from tender rows.
   selectors:
     container: ".col-md-12, .container, main, .content"
@@ -207,6 +207,7 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
+- **Last Checked:** 11 June 2026
+- **Active Tenders:** 0
 - **Signal Strength:** Strong (tender)
+- **Notes:** Tender page exists but is empty — placeholder only.

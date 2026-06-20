@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape https://njomberrh.go.tz/procurement-supply. NOTE: Site may return SSL errors or timeout on fetch; verify reachability before scraping."
+  strategy: "Scrape https://njomberrh.go.tz/procurement-supply. Site reachable as of 2026-06-11. Page contains PMU department description only — no tender listings or document links. Also check /matangazo and /news for future postings."
   selectors:
     container: ".tender-list, .content, main, .entry-content, .page-content, article"
     tender_item: "article, .tender-item, .card, .row, li, tr"
@@ -193,6 +193,6 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
-- **Signal Strength:** Strong (procurement)
+- **Last Checked:** 11 June 2026
+- **Active Tenders:** 0 (procurement page has department info only, no tender notices)
+- **Signal Strength:** Weak (procurement section exists but no listings)

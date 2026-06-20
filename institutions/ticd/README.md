@@ -16,7 +16,8 @@ scraping:
   strategy: |
     WordPress site (TICD - Tengeru Institute of Community Development). /tenders/ returns
     404. Scrape homepage and discover procurement/tender links. Uses Elementor, WooCommerce.
-    Site may be slow - allow longer timeout.
+    As of 2026-06-10 site unreachable — SSL handshake failure (SSL_ERROR_SYSCALL) on
+    ticd.ac.tz and www.ticd.ac.tz. Retry on future scrapes; allow longer timeout.
   selectors:
     container: "main, .content, .entry-content, .page-content, article, .elementor-widget-container"
     tender_item: "article, .tender-item, .card, .row, .elementor-element"

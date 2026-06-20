@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Laravel/Bootstrap site. TTCL Tenders page at /ttcl-tenders. Page structure: section#main-container, .content-inner-page. May be empty when no active tenders. Documents in /uploads/ when present."
+  strategy: "Laravel/Bootstrap site. TTCL Tenders page at /ttcl-tenders. Page structure: section#main-container, .content-inner-page. Confirmed empty as of 2026-06-10 (title only, no tender items or PDF links). Documents in /uploads/ when present."
   selectors:
     container: "#main-container, .main-container, .content-inner-page"
     tender_item: ".row .col-md-12, .tender-item, table tbody tr"

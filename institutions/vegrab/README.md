@@ -200,6 +200,6 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
-- **Signal Strength:** Strong (tender)
+- **Last Checked:** 10 June 2026
+- **Active Tenders:** 0 (INVITATION-TENDER.pdf closed 17 Jan 2026; no longer linked on homepage)
+- **Signal Strength:** Weak (historical tender only)

@@ -214,6 +214,6 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
-- **Signal Strength:** Strong (manunuzi, procurement, tender, tenders, zabuni)
+- **Last Checked:** 11 June 2026
+- **Active Tenders:** 0 (site unreachable)
+- **Signal Strength:** Strong (manunuzi, procurement, tender, tenders, zabuni) — site currently down (SSL/connection errors)

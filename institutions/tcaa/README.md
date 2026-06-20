@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape TCAA Tenders page (linked from homepage header). Uses DataTables. Documents in /directdocs/ and /docs/. Follow Tenders link in top-header-right, then parse table or content area."
+  strategy: "Scrape TCAA Tenders page (linked from homepage header). Uses DataTables. Documents in /directdocs/ and /docs/. Follow Tenders link in top-header-right, then parse table or content area. As of 2026-06-10 site returns HTTP 500 on homepage and all tender URLs — retry on next scrape."
   selectors:
     container: "main, .content, .inner-banner + *"
     tender_item: "table tbody tr, .top-contact a[href*='directdocs'], .top-contact a[href*='docs']"

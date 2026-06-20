@@ -210,7 +210,7 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 15 March 2026
+- **Last Checked:** 11 June 2026
 - **Active Tenders:** 0
 - **Signal Strength:** Strong (expression of interest, tender, tenders)
-- **Note:** Latest EOI (panita_tender1.pdf) was FY2021 audit — expired
+- **Note:** Homepage Latest News still shows FY2021 financial audit EOI (panita_tender1.pdf) — expired. No current procurement notices.

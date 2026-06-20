@@ -8,12 +8,12 @@ institution:
 
 website:
   homepage: "https://www.vftz.co.tz/"
-  tender_url: "https://www.wvi.org/tanzania/tenders"
+  tender_url: "https://www.vftz.co.tz/tenders/"
 
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Tenders published through parent org World Vision Tanzania. Scrape World Vision Tanzania tenders page."
+  strategy: "Primary source is VisionFund Tanzania MFB website at vftz.co.tz/tenders/. Tenders posted as news items with JPEG/PDF attachments under /wp-content/uploads/. Fallback: wvi.org/tanzania/tenders (often returns 403)."
   selectors:
     container: ".tenders, .content, main"
     tender_item: "article, .tender-item, .card, .views-row"
@@ -60,10 +60,13 @@ scraping:
       decode_percent_encoding: true
     
     known_document_paths:
+      - "/wp-content/uploads/"
       - "/sites/default/files/"
       - "/uploads/"
     
     url_patterns:
+      - "vftz.co.tz/wp-content/uploads/*/*.jpeg"
+      - "vftz.co.tz/wp-content/uploads/*/*.pdf"
       - "wvi.org/sites/default/files/*.pdf"
       - "wvi.org/*.pdf"
     
@@ -104,18 +107,18 @@ alternative_sources:
     url: "https://www.wvi.org/suppliers/tenders"
 
 notes: |
-  Part of World Vision International. Own website (vftz.co.tz) not yet live. Tenders via World Vision Tanzania page.
+  Part of World Vision International. Own website vftz.co.tz is live with /tenders/ page. WVI Tanzania tenders page often returns 403.
 ---
 
 # VisionFund Tanzania
 
 **Category:** Microfinance Institution  
 **Website:** https://www.vftz.co.tz/  
-**Tender Page:** https://www.wvi.org/tanzania/tenders  
+**Tender Page:** https://www.vftz.co.tz/tenders/  
 
 ## Scraping Instructions
 
-**Strategy:** Tenders published through parent org World Vision Tanzania. Scrape World Vision Tanzania tenders page.  
+**Strategy:** Scrape https://www.vftz.co.tz/tenders/ for active procurement notices. Documents at /wp-content/uploads/. WVI page (wvi.org/tanzania/tenders) is a fallback but often blocked.  
 **Method:** http_get  
 
 Part of World Vision International. Own website (vftz.co.tz) not yet live. Tenders via World Vision Tanzania page.

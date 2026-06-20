@@ -17,7 +17,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "WordPress/WooCommerce/Elementor site. Scrape pharma-distribution-partnership page for B2B documents. Homepage shows 'Loading AfyaDepo' - may require JS for full render. Check /pharma-distribution-partnership/ and /bulk_supply/ for procurement docs."
+  strategy: "Next.js SPA (migrated from WordPress). Content is client-rendered; curl returns minimal shell HTML. No dedicated procurement/tender section. /pharma-distribution-partnership/ and /bulk_supply/ return 404. Healthcare e-commerce platform (pharmacy, labs, home care) — no formal tender listings."
   selectors:
     container: ".elementor-widget-wrap, .elementor-section, main, .entry-content, .ast-container"
     tender_item: "article, .elementor-element, .woocommerce-loop-product"
@@ -29,6 +29,7 @@ scraping:
 
   anti_bot:
     requires_javascript: true
+    notes: "Next.js SPA — full page content requires JavaScript rendering; static curl fetch insufficient for product/catalog pages"
     has_captcha: false
     rate_limit_seconds: 10
 
@@ -200,6 +201,6 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
-- **Signal Strength:** Strong (procurement, tender)
+- **Last Checked:** 11 June 2026
+- **Active Tenders:** 0 (migrated to Next.js healthcare SPA; no procurement section)
+- **Signal Strength:** Weak (B2B partnership brochure was not a tender; page now 404)

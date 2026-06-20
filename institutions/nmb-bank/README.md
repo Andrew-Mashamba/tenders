@@ -13,7 +13,7 @@ website:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape /tenders page. NMB is one of Tanzania's largest banks — high volume of tenders expected."
+  strategy: "Scrape /tenders page. NMB is one of Tanzania's largest banks — high volume of tenders expected. As of 2026-06-11: nmbbank.co.tz/tenders blocked by Cloudflare (requires JavaScript). Fallback: mabumbe.net aggregator for NMB prequalification notices."
   selectors:
     container: ".tenders, .content, main"
     tender_item: "article, .tender-item, .card, .row"

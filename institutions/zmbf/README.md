@@ -9,7 +9,7 @@ institution:
 
 website:
   homepage: "https://zmbf.or.tz/"
-  tender_url: "https://zmbf.or.tz/"
+  tender_url: "https://zmbf.or.tz/category/tenders/"
 
 contact:
   phone: "023-12-06-"
@@ -17,7 +17,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape https://zmbf.or.tz/ — WordPress site. Tender-like content (Call for Consultancy, RFPs) in News & Insights section. Follow links to article pages (e.g. /call-for-consultancy-*). Each article has title, deadline, and document link. Documents in /wp-content/uploads/YYYY/MM/."
+  strategy: "Scrape https://zmbf.or.tz/category/tenders/ — WordPress site. Active tenders listed under Tenders category and dedicated pages: /call-for-tenders/ (multiple PDF buttons via Elementor), /call-for-expression-of-interest-eoi/ (embedded PDF viewer), /terms-of-reference-tor-procurement-of-laptop-computers/ (wp-block-file download). Documents in /wp-content/uploads/YYYY/MM/. Check closing dates in PDFs — April 2026 tenders may be expired."
   selectors:
     container: "main, .wp-block-post-template, .wp-block-query-loop, .entry-content"
     tender_item: "article.wp-block-post, .wp-block-post, .wp-block-group, a[href*='call-for-consultancy'], a[href*='tender']"
@@ -195,6 +195,6 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
+- **Last Checked:** 10 June 2026
+- **Active Tenders:** 2 (laptop RFQ, vendor pre-qualification EOI)
 - **Signal Strength:** Strong (tender)

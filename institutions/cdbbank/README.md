@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape cdbbank.co.tz homepage. Tender/EOI announcements appear in the marquee (.marquee-container). Look for document links in .scrolling-text-container .exchange-rate. cdbbank and chinadashengbank.co.tz are the same bank; documents may link to chinadashengbank.co.tz/uploads/."
+  strategy: "Scrape cdbbank.co.tz homepage. Tender/EOI announcements appear in the marquee (.marquee-container). Look for document links in .scrolling-text-container .exchange-rate (e.g. uploads/ExpressionOfInterest.pdf). cdbbank and chinadashengbank.co.tz are the same bank; documents hosted at cdbbank.co.tz/uploads/. Note: EOI for Core Banking System (deadline 31 Oct 2024) still appears in marquee but is expired as of 2026-06-10."
   selectors:
     container: "main, .marquee-container, .scrolling-text-container"
     tender_item: ".exchange-rate span a[href*='.pdf'], .marquee-container a[href*='uploads']"

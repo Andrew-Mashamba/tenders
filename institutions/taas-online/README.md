@@ -106,7 +106,7 @@ scraping:
       - contact_info
 
 notes: |
-  Tanzania Cooperative Development Commission (TCDC) established by the Cooperative Societies Act No 6 of 2013 and is mandated with the regulation and promotion of cooperative sector development.
+  Tanzania Academy of Sciences (TAAS) — non-profit science academy. Homepage lists publications/reports only; no procurement section (verified 2026-06-11).
 ---
 
 # Tanzania Academy of Sciences (TAAS)
@@ -127,7 +127,7 @@ notes: |
 **Strategy:** Scrape https://taas-online.or.tz/ for tender/procurement notices.
 **Method:** http_get
 
-Tanzania Cooperative Development Commission (TCDC) established by the Cooperative Societies Act No 6 of 2013 and is mandated with the regulation and promotion of cooperative sector development.
+Tanzania Academy of Sciences (TAAS) publishes research reports and books at /uploads/. No tender or procurement listings.
 
 ### Document Links Found
 
@@ -198,6 +198,7 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
+- **Last Checked:** 11 June 2026
+- **Active Tenders:** 0
 - **Signal Strength:** Weak (supply/rfi only)
+- **Notes:** Publications/reports only — no procurement notices.

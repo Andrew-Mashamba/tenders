@@ -68,6 +68,8 @@ scraping:
     known_document_paths:
       - "/storage/"
       - "/uploads/"
+      - "/uploads/text-editor/files/"
+      - "/uploads/press_releases/"
 
     url_patterns:
       - "nfra.go.tz/*.pdf"
@@ -195,6 +197,6 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
+- **Last Checked:** 11 June 2026
+- **Active Tenders:** 1 (framework grain supply agreements)
 - **Signal Strength:** Strong (procurement)

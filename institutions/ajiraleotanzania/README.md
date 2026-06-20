@@ -17,7 +17,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape https://www.ajiraleotanzania.co.tz/search/label/TENDER for tender/procurement notices."
+  strategy: "Blogger job/tender aggregator. /search/label/TENDER lists reposted third-party tenders. Latest posts dated Dec 2025 (GNI, HIMSO, Melian, etc.) — all expired by 2026-06-10. Parse post URLs matching /20XX/XX/*.html; follow detail pages for PDFs and closing dates. Reject job vacancy reposts."
   selectors:
     container: ".tender-list, .content, main, .entry-content, .page-content, article"
     tender_item: "article, .tender-item, .card, .row, li, tr"
@@ -408,6 +408,6 @@ with smtplib.SMTP_SSL(config["host"], config["port"], context=context) as server
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
+- **Last Checked:** 10 June 2026
+- **Active Tenders:** 0 (latest TENDER posts from Dec 2025, expired)
 - **Signal Strength:** Strong (tender)

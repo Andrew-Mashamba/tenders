@@ -17,7 +17,8 @@ scraping:
     Kagera Regional Government (Octolize CMS). Tender page at /tenders. Uses table.table-striped
     for tender listings (columns: title, published date, closing date, download link). Sidebar has
     news items (.col-md-4.nopadding + .col-md-8.nopadding-left with h4, span). Documents at
-    /storage/app/uploads/public/{hash}/. Table may be empty when no active tenders.
+    /storage/app/uploads/public/{hash}/. As of 2026-06-10, tender table tbody is empty (no active tenders).
+    SSL cert may require curl -k.
   selectors:
     container: "table.table-striped, .right-sidebar-content, .home-page-title"
     tender_item: "table.table-striped tbody tr, li .col-md-4"

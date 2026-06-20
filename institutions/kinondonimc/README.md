@@ -10,6 +10,7 @@ institution:
 website:
   homepage: "https://kinondonimc.go.tz/"
   tender_url: "https://kinondonimc.go.tz/tenders"
+  tender_url_note: "As of 2026-06-10, /tenders returns GWF CORE SPA shell. Scrape via API: api/advertisements (tenders), api/announcements, api/files. No api/tenders endpoint; legacy October CMS table no longer served."
 
 contact:
   email: "md@kinondonimc.go.tz"
@@ -18,7 +19,11 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape https://kinondonimc.go.tz/tenders. Tenders are in table.table-striped with columns: Jina la Zabuni (title), Date Added, Expire Date, Pakua (document link). Parse each tbody tr; td:first-child = title, td:nth-child(2) = published_date, td:nth-child(3) = closing_date, td:nth-child(4) a = document. Use -k for SSL with .go.tz."
+  strategy: |
+    Site restructured to GWF CORE SPA (2026). /tenders returns React shell only (requires JavaScript).
+    Use REST API with curl: api/advertisements?limit=50 (procurement tenders; empty as of 2026-06-10),
+    api/announcements (public notices — loans, bylaws, rentals; NOT procurement tenders),
+    api/files, api/best-documents. Legacy October CMS table (Jina la Zabuni, Pakua at /storage/app/uploads/public/) no longer accessible via http_get.
   selectors:
     container: ".right-sidebar-content"
     tender_item: "table.table.table-striped tbody tr"
@@ -29,7 +34,7 @@ scraping:
   schedule: "daily"
 
   anti_bot:
-    requires_javascript: false
+    requires_javascript: true
     has_captcha: false
     rate_limit_seconds: 10
 
@@ -424,6 +429,7 @@ with smtplib.SMTP_SSL(config["host"], config["port"], context=context) as server
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
+- **Last Checked:** 10 June 2026
+- **Active Tenders:** 0
+- **Platform:** GWF CORE SPA (API-based scraping)
 - **Signal Strength:** Strong (manunuzi, tender, tenders, zabuni)

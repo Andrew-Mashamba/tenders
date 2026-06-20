@@ -34,6 +34,8 @@ scraping:
     requires_javascript: false
     has_captcha: false
     rate_limit_seconds: 10
+    blocked: true
+    block_reason: "HTTP 403 Forbidden from LiteSpeed WAF on curl/WebFetch (June 2026)"
 
   documents:
     download_enabled: true

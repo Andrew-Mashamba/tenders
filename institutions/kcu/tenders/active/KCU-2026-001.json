@@ -1,0 +1,31 @@
+{
+  "tender_id": "KCU-2026-001",
+  "institution": "kcu",
+  "title": "Development of Kagera Cooperative Union Management Information System (KCUMIS)",
+  "description": "Kagera Co-operative Union (1990) Ltd invites sealed tenders from eligible consultants registered by the Tanzania Cooperative Development Commission (TCDC) for the development of the Kagera Cooperative Union Management Information System (KCUMIS). Tendering is conducted through National Competitive Tendering under the Public Procurement Regulations. Tender documents available at KCU Head Office, P.O. Box 5 Bukoba.",
+  "reference_number": "KCU/CS/2026/2027/03",
+  "published_date": "2026-06-05",
+  "closing_date": "2026-06-16",
+  "closing_time": "10:00 EAT",
+  "category": "ICT",
+  "status": "active",
+  "source_url": "https://kcu.or.tz/tender-to-develop-kcumis-system/",
+  "documents": [
+    {
+      "filename": "TENDER-FOR-DEVELOPMENT-OF-KCU-MANAGEMENT-INFORMATION-SYSTEMS.pdf",
+      "original_url": "https://kcu.or.tz/wp-content/uploads/2026/06/TENDER-FOR-DEVELOPMENT-OF-KCU-MANAGEMENT-INFORMATION-SYSTEMS-.pdf",
+      "local_path": "./downloads/KCU-2026-001/original/TENDER-FOR-DEVELOPMENT-OF-KCU-MANAGEMENT-INFORMATION-SYSTEMS.pdf",
+      "content_type": "application/pdf",
+      "downloaded_at": "2026-06-10T20:47:00.000000Z"
+    }
+  ],
+  "contact": {
+    "name": "Secretary of the Tender Board, KCU (1990) Ltd",
+    "email": "kcubukoba@gmail.com",
+    "phone": "+255717507118",
+    "address": "KCU (1990) Ltd Head Office, P.O. Box 5, Bukoba, Tanzania"
+  },
+  "eligibility": "Eligible consultants registered by Tanzania Cooperative Development Commission (TCDC). Non-refundable tender document fee TZS 50,000 payable to CRDB Account No. 01J1055955002 (Kagera Cooperative Union General Account).",
+  "scraped_at": "2026-06-10T20:47:00.000000Z",
+  "last_checked": "2026-06-10T20:47:00.000000Z"
+}

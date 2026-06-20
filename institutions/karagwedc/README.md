@@ -21,8 +21,10 @@ scraping:
   enabled: true
   method: "http_get"
   strategy: |
-    OctoberCMS (Octolize). Tender page at /tenders. Table with columns: Tender Name, Date Added,
-    Expire Date, Download. Documents at /storage/app/uploads/public/{hash}/. Table may be empty.
+    OctoberCMS (Octolize). As of 2026-06-10, karagwedc.go.tz serves a parked "GWF CORE" SPA
+    placeholder (requires JavaScript) with no council content. Historically, /tenders had a table with
+    columns: Tender Name, Date Added, Expire Date, Download. Documents at /storage/app/uploads/public/{hash}/.
+    Retry periodically in case the real site is restored.
   selectors:
     container: "table.table-striped, .right-sidebar-content, .home-page-title"
     tender_item: "table.table-striped tbody tr"
@@ -33,7 +35,7 @@ scraping:
   schedule: "daily"
 
   anti_bot:
-    requires_javascript: false
+    requires_javascript: true
     has_captcha: false
     rate_limit_seconds: 10
 

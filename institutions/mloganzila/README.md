@@ -201,6 +201,6 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
-- **Signal Strength:** Strong (tender, tenders)
+- **Last Checked:** 10 June 2026
+- **Active Tenders:** 1 (MoH Pharmaceutical Manufacturing EOI)
+- **Signal Strength:** Strong (tender, tenders, EOI)

@@ -82,7 +82,7 @@ scraping:
       - "brightline.co.tz/*.pdf"
       - "brightline.co.tz/assets/*"
     document_notes: |
-      Tender page content (h1.page_title, p) was empty on fetch - may load via JS or be placeholder. Bright line is bus company (busbora.co.tz). Document paths to be discovered on first run.
+      As of 2026-06-10 /about-us/tender page loads but h1.page_title is empty — no active tender listings. Bright line is bus company (busbora.co.tz). Contact: info@brightline.co.tz.
 
   output:
     format: "json"

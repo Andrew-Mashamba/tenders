@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape https://lands.go.tz/notices (Taarifa Muhimu). Each notice is div.link with title link. Follow each notice detail page for PDFs. Documents at /uploads/notices/ with sw{timestamp}-{title}.pdf pattern."
+  strategy: "Scrape https://lands.go.tz/notices (Taarifa Muhimu). Each notice is div.link with title link. Follow each notice detail page for PDFs. Documents at /uploads/notices/ with sw{timestamp}-{title}.pdf pattern. Note: SSL cert may fail strict verification — use curl -k if needed. Reject broker licensing notices (madalali/usaili) once closing dates pass."
   selectors:
     container: ".list-unstyled, .page-section, main"
     tender_item: "div.link, .list-unstyled .link"
@@ -32,6 +32,7 @@ scraping:
     requires_javascript: false
     has_captcha: false
     rate_limit_seconds: 10
+    ssl_verify: false
 
   documents:
     download_enabled: true

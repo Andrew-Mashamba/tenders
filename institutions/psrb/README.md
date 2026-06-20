@@ -9,7 +9,7 @@ institution:
 
 website:
   homepage: "https://psrb.go.tz/"
-  tender_url: "https://psrb.go.tz/"
+  tender_url: "https://psrb.go.tz/announcements"
 
 contact:
   email: "es@psrb.go.tz"
@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape psrb.go.tz homepage and linked pages. Note: Previous tender_url pointed to external unpan.org. PSRB documents found at /uploads/pressreleases/ (e.g. en1521442133-TAARIFA KWA UMMA-*.pdf). Site timed out during fetch (2026-03-15) - verify when accessible."
+  strategy: "PSRB is the Public Service Recruitment Secretariat — publishes job vacancy press releases (TAARIFA KWA UMMA), NOT procurement tenders. Scrape /announcements and /uploads/pressreleases/ but reject recruitment notices. Do not scrape unpan.org."
   selectors:
     container: ".tender-list, .content, main, .entry-content, .page-content, article"
     tender_item: "article, .tender-item, .card, .row, li, tr"

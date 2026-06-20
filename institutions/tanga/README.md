@@ -18,7 +18,9 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape https://tanga.go.tz/procurements for government procurement (Manunuzi). October CMS. Matangazo (announcements) and Habari mpya (news) sections. Documents in /storage/app/uploads/public/ with hash paths (e.g. /5ea/00a/2de/)."
+  strategy: |
+    Scrape https://tanga.go.tz/procurements and /tenders for Manunuzi. October CMS tender table present but empty (2026-06-11).
+    Matangazo (announcements) sidebar shows news, not procurement. Documents in /storage/app/uploads/public/ with hash paths.
   selectors:
     container: "#main-menu, .container, .row, .col-md-12, .banner"
     tender_item: ".news-item, article, .col-md-12 h4, .habari-mpya a"

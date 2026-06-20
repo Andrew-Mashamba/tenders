@@ -16,7 +16,7 @@ contact:
   phone: "0784675555"
 
 scraping:
-  enabled: true
+  enabled: false
   method: "http_get"
   strategy: "DISABLED: KiKUU is an e-commerce online shopping mall (electronics, fashion, etc.). No tender/procurement content. Keywords bid/rfi/rfq refer to vendor/seller partnerships, not government tenders. Re-enable if dedicated tender page is added."
   selectors:
@@ -188,6 +188,6 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
+- **Last Checked:** 10 June 2026
+- **Active Tenders:** 0 (e-commerce site; scraping disabled)
 - **Signal Strength:** Strong (rfp, rfq)

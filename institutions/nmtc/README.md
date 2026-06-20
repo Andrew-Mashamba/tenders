@@ -194,6 +194,6 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
-- **Signal Strength:** Strong (manunuzi, procurement)
+- **Last Checked:** 11 June 2026
+- **Active Tenders:** 0 (announcements are admissions/training; procurement section has no tender listings)
+- **Signal Strength:** Weak (procurement unit exists but no tender postings)

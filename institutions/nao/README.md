@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape zabuni-na-kazi category. Each item is .news-post.article-post.news-container with h2 a (title), ul.post-tags (date in first li), ul.attachment (PDF links). Follow 'Soma Zaidi' for detail page."
+  strategy: "Scrape zabuni-na-kazi category but REJECT job vacancies (nafasi za kazi). Category mixes tenders and jobs — only procurement/zabuni notices are valid. Current content is exclusively employment vacancies. Each item is .news-post.article-post.news-container with h2 a, ul.post-tags, ul.attachment."
   selectors:
     container: ".news-area, .col-sm-8, main"
     tender_item: ".news-post.article-post.news-container"

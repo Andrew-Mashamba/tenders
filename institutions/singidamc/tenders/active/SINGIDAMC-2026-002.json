@@ -1,0 +1,31 @@
+{
+  "tender_id": "SINGIDAMC-2026-002",
+  "institution": "singidamc",
+  "title": "Construction Supervision Consultancy Services for Urban Infrastructure Development (TACTIC Project) - Singida Municipality",
+  "description": "IDA-funded TACTIC Project procurement for construction supervision consultancy services covering urban infrastructure development in Singida Municipality. Scope includes design review, construction supervision of roads, buildings, drainage, and related works under World Bank FIDIC conditions.",
+  "reference_number": "IDA CREDIT NO. 7151-TZ",
+  "published_date": "2026-03-15",
+  "closing_date": null,
+  "closing_time": "",
+  "category": "Consultancy",
+  "status": "active",
+  "source_url": "https://singidamc.go.tz/tenders",
+  "documents": [
+    {
+      "filename": "TACTIC.pdf",
+      "original_url": "http://singidamc.go.tz/minio/singidamc.go.tz/attachments/1773571212347-TACTIC.pdf",
+      "local_path": "./downloads/SINGIDAMC-2026-002/original/TACTIC.pdf",
+      "content_type": "application/pdf",
+      "downloaded_at": "2026-06-11T06:48:15.615099Z"
+    }
+  ],
+  "contact": {
+    "name": "Singida Municipal Council - TACTIC Project",
+    "email": "md.singidamc@singida.go.tz",
+    "phone": "067321357291",
+    "address": "Singida Municipality, Tanzania"
+  },
+  "eligibility": "Qualified consulting firms with key staff meeting TOR requirements including Resident Engineer (10+ years), Architect, Highway Engineer, Materials Engineer, Land Surveyor, Environmental Expert, and Sociologist/Resettlement Expert. World Bank procurement guidelines apply.",
+  "scraped_at": "2026-06-11T06:48:15.615099Z",
+  "last_checked": "2026-06-11T06:48:15.615099Z"
+}

@@ -20,7 +20,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape sumait.ac.tz homepage. 'Latest Notices' section contains JOB POSTINGS only (Imam, Bursar, DVC, Lecturer, Auditor) - REJECT these as tenders. 'Useful Files' section has almanac, fee structure, joining instructions. Documents: /assets/docs/ and download.php?id=X. No procurement tenders found."
+  strategy: "Scrape sumait.ac.tz homepage. 'Latest Notices' section contains JOB POSTINGS only (Bursar 2026, Assistant Lecturer Computer Sciences, Imam, DVC, Auditor) — REJECT as tenders. 'Useful Files' has almanac/fee structure only. Documents: /assets/docs/ and download.php?id=X. No procurement tenders found (verified 2026-06-11)."
   selectors:
     container: "section, .announcements, .latest-notices, main"
     tender_item: ".card.ann-card, .ann-card.mb-3, .ann-card.mb-15"
@@ -201,6 +201,7 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
+- **Last Checked:** 11 June 2026
+- **Active Tenders:** 0
 - **Signal Strength:** Strong (procurement, tender)
+- **Notes:** Latest Notices are job vacancies only (University Bursar, Assistant Lecturer) — not procurement.

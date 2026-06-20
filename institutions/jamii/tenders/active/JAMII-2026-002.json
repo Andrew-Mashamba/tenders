@@ -1,0 +1,31 @@
+{
+  "tender_id": "JAMII-2026-002",
+  "institution": "jamii",
+  "title": "Request for Expressions of Interest - Consultancy Services for Design, Adaptation, Piloting and Scale-up of Bandebereho/Program P Model (GBV Prevention)",
+  "description": "MoCDGWSG invites eligible NGOs to express interest in consultancy services for designing, adapting, piloting, and scaling up the Bandebereho/Program P community-based social norms change and GBV prevention program in 15 rural councils of Tanzania Mainland. World Bank PAMOJA Project (P178813), QCBS selection.",
+  "reference_number": "TZ-MOCDGWSG-554289-CS-QCBS",
+  "published_date": "2026-06-09",
+  "closing_date": "2026-06-29",
+  "closing_time": "10:00 EAT",
+  "category": "Consultancy",
+  "status": "active",
+  "source_url": "https://jamii.go.tz/publications/tenders",
+  "documents": [
+    {
+      "filename": "REoI_and_TOR_GBV_NGO.pdf",
+      "original_url": "https://jamii.go.tz/uploads/documents/sw-1781004606-REoI%20and%20TOR%20GBV%20NGO.pdf",
+      "local_path": "./downloads/JAMII-2026-002/original/REoI_and_TOR_GBV_NGO.pdf",
+      "content_type": "application/pdf",
+      "downloaded_at": "2026-06-10T20:38:00.000000Z"
+    }
+  ],
+  "contact": {
+    "name": "Secretary-Tender Board, MoCDGWSG - PAMOJA Project",
+    "email": "dpm@jamii.go.tz",
+    "phone": "+255 716 090 059",
+    "address": "Government City, Afya Street, P.O. Box 573, Dodoma, Tanzania"
+  },
+  "eligibility": "NGOs with at least 5 years experience in GBV prevention, social norms change, and community-based interventions; experience with Bandebereho or similar couples-based interventions",
+  "scraped_at": "2026-06-10T20:39:00.000000Z",
+  "last_checked": "2026-06-10T20:39:00.000000Z"
+}

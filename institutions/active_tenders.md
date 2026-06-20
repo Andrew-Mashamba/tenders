@@ -1,145 +1,36 @@
 # Active Tenders Index
 
-**Last Updated:** 2026-03-15T20:08:18Z (Run ID: run_20260315_230818)
+**Last Updated:** 2026-06-15T07:00:10Z (Run ID: run_20260615_100010)
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| Total Active Tenders | 367 |
-| Institutions with Active Tenders | 102 |
-| New Tenders (this run) | 149 |
-| Closing Within 7 Days | 9 |
+| Total Active Tenders | 168 |
+| Institutions with Active Tenders | 98 |
+| New Tenders (this run) | 0 |
+| Closing Within 7 Days | 6 |
 
 ## Closing Soon (Within 7 Days)
 
 | Institution | Tender | Closing Date | Days Left | Documents |
 |-------------|--------|--------------|-----------|-----------|
-| mabumbe | Consultancy Services for Data Analytics & AI Maturity A… | 2026-03-15 | 0 | 0 |
-| mabumbe | Prequalification of Building Contractors and Consultant… | 2026-03-19 | 4 | 0 |
-| crdbbank | Request for Expression of Interest for AI/ML Developmen… | 2026-03-19 | 4 | 1 |
-| crdb-bank | Request for Expression of Interest for AI/ML Developmen… | 2026-03-19 | 4 | 1 |
-| crdb | Request for Expression of Interest for AI/ML Developmen… | 2026-03-19 | 4 | 1 |
-| mabumbe | Invitation to Bid: Supply of Core Banking System (CBS) | 2026-03-20 | 5 | 0 |
-| tenmet | ToR Consultancy to Produce Creative TV and Radio Spots … | 2026-03-20 | 5 | 1 |
-| mabumbe | Consultancy for System Design and BRD for Shared Microf… | 2026-03-21 | 6 | 0 |
-| tanzania-tenders | Supply of Best Agriculture Practices (BAP) Tools for Ta… | 2026-03-21 | 6 | 0 |
+| tenmet | Invitation for Tender for Supply of ICT Equipment – Ten… | 2026-06-15 | 0 | 1 |
+| kcu | Development of Kagera Cooperative Union Management Info… | 2026-06-16 | 1 | 1 |
+| schoolofstjude | Supply of Rice to the School of St Jude | 2026-06-16 | 1 | 1 |
+| hakielimu | Call for Internal Audit Services | 2026-06-17 | 2 | 0 |
+| tmrc-eprocurement | Provision of Backup Power Solution for Critical Systems… | 2026-06-19 | 4 | 0 |
+| ecobank | Provision of Asset and Liability Management System | 2026-06-22 | 7 | 4 |
 
 ## All Active Tenders by Institution Category
 
-### Bank (92 tenders)
+### Bank (1 tenders)
 
-#### acbbank (1 tender)
-
-| Tender ID | Title | Closing Date | Status | Docs |
-|-----------|-------|--------------|--------|------|
-| ACBBANK-2026-001 | Supplier Prequalification Notice 2026-2027 | None | active | 1 |
-
-#### azaniabank (88 tenders)
+#### crdbbank (1 tender)
 
 | Tender ID | Title | Closing Date | Status | Docs |
 |-----------|-------|--------------|--------|------|
-| AZANIABANK-2026-051 | Tender Document: Repair of Air Conditioners | None | active | 0 |
-| AZANIABANK-2026-006 | Tender Document | None | active | 0 |
-| AZANIABANK-2026-010 | Tender Document | None | active | 0 |
-| AZANIABANK-2026-047 | General Procurement Notice (2025) | None | active | 0 |
-| AZANIABA-2026-004 | AZANIA-procurement-revised-.pdf | None | active | 0 |
-| AZANIABANK-2026-030 | Tender Document | None | active | 0 |
-| AZANIABANK-2026-067 | Invitation to Tender Notice &#8211; August 2023 | None | active | 0 |
-| AZANIABA-2026-008 | Tender-Document-Laptop-Desktop-February-2026.pdf | None | active | 0 |
-| AZANIABANK-2026-071 | Non Consultancy Service Tender 2023 | None | active | 0 |
-| AZANIABANK-2026-026 | Tender Document | None | active | 0 |
-| AZANIABANK-2026-027 | Tender Document | None | active | 0 |
-| AZANIABA-2026-009 | Tender-Document-General-Office-Stationery.pdf | None | active | 0 |
-| AZANIABANK-2026-070 | Goods Tenders 2023 | None | active | 0 |
-| AZANIABANK-2026-066 | Tender Notice: Invitation (August 2023) | None | active | 0 |
-| AZANIABANK-2026-031 | Tender Document | None | active | 0 |
-| AZANIABA-2026-005 | AZANIA-TENDER-NOTICE-.pdf | None | active | 0 |
-| AZANIABANK-2026-046 | Tender Document | None | active | 0 |
-| AZANIABANK-2026-011 | Tender Document - Laptop Desktop (Feb 2026) | None | active | 0 |
-| AZANIABANK-2026-007 | Tender Document - Preventive Maintenance of Power … | None | active | 0 |
-| AZANIABANK-2026-050 | Invitation for Tender | None | active | 0 |
-| AZANIABANK-2026-036 | Tender Notice | None | active | 0 |
-| AZANIABANK-2026-061 | TENDER DOCUMENT | None | active | 0 |
-| AZANIABANK-2026-077 | Tender Document: Maintenance of Generator | None | active | 0 |
-| AZANIABANK-2026-020 | Tender Document Repair of Air Conditioners (Feb 20… | None | active | 0 |
-| AZANIABANK-2026-057 | Tender Notice: Invitation for Tenders (25/04/2024) | None | active | 0 |
-| AZANIABANK-2026-016 | Tender Document | None | active | 0 |
-| AZANIABANK-2026-041 | Invitation for Tenders (2025) | None | active | 0 |
-| AZANIABA-2026-002 | business-3.pdf | None | active | 0 |
-| AZANIABA-2026-003 | personal-3.pdf | None | active | 0 |
-| AZANIABANK-2026-040 | Tender Notice | None | active | 0 |
-| AZANIABANK-2026-017 | Tender Document | None | active | 0 |
-| AZANIABANK-2026-001 | Tenders &#8211; Azania Bank | None | active | 10 |
-| AZANIABANK-2026-056 | Invitation for Tender | None | active | 0 |
-| AZANIABANK-2026-021 | Tender Document | None | active | 0 |
-| AZANIABANK-2026-076 | Tender Document: Supply and Delivery of Generator … | None | active | 0 |
-| AZANIABANK-2026-060 | TENDER DOCUMENT | None | active | 0 |
-| AZANIABANK-2026-037 | Invitation for Tender for Supply of Self-Inking St… | None | active | 0 |
-| AZANIABANK-2026-022 | Tender for Supply of Standard/Bank Printed Station… | None | active | 0 |
-| AZANIABANK-2026-075 | View Tender Notice | None | active | 0 |
-| AZANIABANK-2026-063 | TENDER DOCUMENT &#8211; VISA Classic Cards Final | None | active | 0 |
-| AZANIABANK-2026-034 | Tender Document | None | active | 0 |
-| AZANIABANK-2026-018 | Tender Document | None | active | 0 |
-| AZANIABANK-2026-059 | TENDER DOCUMENT | None | active | 0 |
-| AZANIABANK-2026-038 | Tender Notice | None | active | 0 |
-| AZANIABANK-2026-043 | Tender Document for Provision of Cleaning Services… | None | active | 0 |
-| AZANIABANK-2026-014 | Tender Document | None | active | 0 |
-| AZANIABANK-2026-002 | .header_mid .header_mid_inner .logo_wrap { width :… | None | active | 0 |
-| AZANIABANK-2026-055 | Tender Document: Repair Service of Scanners/Printe… | None | active | 0 |
-| AZANIABANK-2026-054 | Invitation for Tender | None | active | 0 |
-| AZANIABANK-2026-003 | General Procurement Notice (Feb 2026) | None | active | 0 |
-| AZANIABANK-2026-015 | Tender Document Bank Printed Stationary(Feb 2026) | None | active | 0 |
-| AZANIABANK-2026-042 | Tender Notice | None | active | 0 |
-| AZANIABANK-2026-039 | Invitation for Tender for Repaid and Maintenance o… | None | active | 0 |
-| AZANIABANK-2026-078 | View Tender | None | active | 0 |
-| AZANIABA-2026-001 | business-3.pdf | None | active | 0 |
-| AZANIABANK-2026-058 | Tender Notice | None | active | 0 |
-| AZANIABANK-2026-019 | Tender Document | None | active | 0 |
-| AZANIABANK-2026-035 | Tender Notice (May 2025) | None | active | 0 |
-| AZANIABANK-2026-062 | Invitation to Tender: VISA Classic Cards | None | active | 0 |
-| AZANIABANK-2026-074 | View Tender | None | active | 0 |
-| AZANIABANK-2026-023 | Tender Document | None | active | 0 |
-| AZANIABANK-2026-028 | Tender Document | None | active | 0 |
-| AZANIABA-2026-006 | Tender-Document-Preventive-Maintenance-of-Power-Ge… | None | active | 0 |
-| AZANIABANK-2026-069 | TENDER NOTICE-2023 | None | active | 0 |
-| AZANIABA-2026-010 | Tender-Document-Bank-Printed-Stationary-1.pdf | None | active | 0 |
-| AZANIABANK-2026-045 | Tender Notice | None | active | 0 |
-| AZANIABANK-2026-012 | Tender Document | None | active | 0 |
-| AZANIABANK-2026-004 | Tender Document | None | active | 0 |
-| AZANIABANK-2026-053 | Tender Document: Fumigation &amp; Pest Control Ser… | None | active | 0 |
-| AZANIABANK-2026-024 | Pre-qualification Tender for Supply, Installation … | None | active | 0 |
-| AZANIABANK-2026-073 | View Tender | None | active | 0 |
-| AZANIABANK-2026-065 | Tender Document &#8211; Supply, Delivery and Base … | None | active | 0 |
-| AZANIABANK-2026-032 | Tender Document | None | active | 0 |
-| AZANIABANK-2026-049 | Tender Document: Preventive Maintenance of Power G… | None | active | 0 |
-| AZANIABANK-2026-008 | Tender Document | None | active | 0 |
-| AZANIABANK-2026-009 | Tender Document - Toners Cartridge (Feb 2026) | None | active | 0 |
-| AZANIABANK-2026-048 | Tender Notice | None | active | 0 |
-| AZANIABANK-2026-033 | Tender for Supply of General Office Stationers usi… | None | active | 0 |
-| AZANIABANK-2026-064 | Invitation to Tender: Supply, Delivery and Install… | None | active | 0 |
-| AZANIABANK-2026-072 | Pre-qualification Tender 2023 | None | active | 0 |
-| AZANIABANK-2026-025 | Tender Document | None | active | 0 |
-| AZANIABANK-2026-052 | Invitation for Tender | None | active | 0 |
-| AZANIABANK-2026-005 | Tender Notice (Feb 2026) | None | active | 0 |
-| AZANIABANK-2026-013 | Tender Document General Office Stationary(Feb 2026… | None | active | 0 |
-| AZANIABANK-2026-044 | Tender Document | None | active | 0 |
-| AZANIABANK-2026-068 | Tender Notice 2023 | None | active | 0 |
-| AZANIABA-2026-007 | Tender-Document-Toners-Cartridge-February-2026.pdf | None | active | 0 |
-| AZANIABANK-2026-029 | Tender Document | None | active | 0 |
-
-#### chinadashengbank (1 tender)
-
-| Tender ID | Title | Closing Date | Status | Docs |
-|-----------|-------|--------------|--------|------|
-| CHINADASHENGBANK-2026-001 | Expression of Interest | None | active | 1 |
-
-#### crdbbank (2 tenders)
-
-| Tender ID | Title | Closing Date | Status | Docs |
-|-----------|-------|--------------|--------|------|
-| CRDBBANK-2026-002 | Request for Expression of Interest for AI/ML Devel… | 2026-03-19 | active | 1 |
-| CRDBBANK-2026-001 | Request for expression of interest for Implementat… | 2026-03-31 | active | 1 |
+| CRDBBANK-2026-003 | Expression of Interest: Implementation of the Stre… | 2026-06-30 | active | 1 |
 
 ### Commercial (7 tenders)
 
@@ -165,7 +56,13 @@
 | SOMAEXPRESS-2026-003 | What areas does Soma General Traders operate in? | None | active | 0 |
 | SOMAEXPRESS-2026-001 | Your Trusted Partner in Trade, Logistics & Distrib… | None | active | 0 |
 
-### Commercial / Private Sector (84 tenders)
+### Commercial / Private Sector (80 tenders)
+
+#### arushameat (1 tender)
+
+| Tender ID | Title | Closing Date | Status | Docs |
+|-----------|-------|--------------|--------|------|
+| ARUSHAMEAT-2026-001 | Tender Notice for Tax Affairs Experts | None | active | 0 |
 
 #### buildmart (1 tender)
 
@@ -173,42 +70,17 @@
 |-----------|-------|--------------|--------|------|
 | BUILDMART-2026-001 | Tender from Buildmart Limited | None | active | 1 |
 
-#### crdb (2 tenders)
+#### crdb (1 tender)
 
 | Tender ID | Title | Closing Date | Status | Docs |
 |-----------|-------|--------------|--------|------|
-| CRDB-2026-002 | Request for Expression of Interest for AI/ML Devel… | 2026-03-19 | active | 1 |
-| CRDB-2026-001 | Request for expression of interest for Implementat… | 2026-03-31 | active | 1 |
-
-#### cybergentraining (1 tender)
-
-| Tender ID | Title | Closing Date | Status | Docs |
-|-----------|-------|--------------|--------|------|
-| CYBE-2026-001 | Document listing | None | active | 0 |
+| CRDB-2026-003 | Publication of the EOI: Implementation of the Stre… | 2026-06-30 | active | 1 |
 
 #### darceramica (1 tender)
 
 | Tender ID | Title | Closing Date | Status | Docs |
 |-----------|-------|--------------|--------|------|
 | DARC-2026-001 | Document listing | None | active | 0 |
-
-#### dees (1 tender)
-
-| Tender ID | Title | Closing Date | Status | Docs |
-|-----------|-------|--------------|--------|------|
-| DEES-2026-001 | Tender / Procurement | None | active | 1 |
-
-#### diversey (1 tender)
-
-| Tender ID | Title | Closing Date | Status | Docs |
-|-----------|-------|--------------|--------|------|
-| D-2026-001 | Tender/Procurement - Diversey/Solenis | None | active | 20 |
-
-#### eon (1 tender)
-
-| Tender ID | Title | Closing Date | Status | Docs |
-|-----------|-------|--------------|--------|------|
-| EON-2026-001 | DIGITAL MARKETING | None | active | 1 |
 
 #### eps (1 tender)
 
@@ -302,18 +174,6 @@ Services
 | ESTATES-2026-004 | General ManagerRobert | None | active | 0 |
 | ESTATES-2026-005 | Real Estate Division | None | active | 0 |
 
-#### etdco (1 tender)
-
-| Tender ID | Title | Closing Date | Status | Docs |
-|-----------|-------|--------------|--------|------|
-| ETDCO-2026-001 | Supply of Certified Electrical Components for Nati… | None | active | 0 |
-
-#### fursa (1 tender)
-
-| Tender ID | Title | Closing Date | Status | Docs |
-|-----------|-------|--------------|--------|------|
-| FURSA-2026-001 | Nutrition International - Invitation to Bid for Yo… | 2026-03-25 | active | 0 |
-
 #### gctl (1 tender)
 
 | Tender ID | Title | Closing Date | Status | Docs |
@@ -377,23 +237,18 @@ Services
 | NANINE-2026-004 | tanzania is endowed with variety of cereals from d… | None | active | 0 |
 | NANINE-2026-001 | NANINE AGRI BUSINESS | None | active | 0 |
 
-#### nbc (1 tender)
-
-| Tender ID | Title | Closing Date | Status | Docs |
-|-----------|-------|--------------|--------|------|
-| NBC-2026-001 | RFP Commercial Credit Origination, Assessment & Wo… | None | active | 1 |
-
 #### orchid (1 tender)
 
 | Tender ID | Title | Closing Date | Status | Docs |
 |-----------|-------|--------------|--------|------|
 | ORCHID-2026-001 | Tender notice from Orchid Investment Limited | None | active | 0 |
 
-#### posta (2 tenders)
+#### posta (3 tenders)
 
 | Tender ID | Title | Closing Date | Status | Docs |
 |-----------|-------|--------------|--------|------|
 | POSTA-2026-001 | Supply of Motor Vehicles for Enhancement of Intra-… | None | active | 1 |
+| POSTA-2026-003 | Notice for Investment Opportunities Through Joint … | None | active | 1 |
 | POSTA-2026-002 | Notice for Investment Opportunities Through Joint … | None | active | 1 |
 
 #### sarclawchambers (1 tender)
@@ -401,6 +256,12 @@ Services
 | Tender ID | Title | Closing Date | Status | Docs |
 |-----------|-------|--------------|--------|------|
 | SARCLAWC-2026-001 | About Us | None | active | 0 |
+
+#### schoolofstjude (1 tender)
+
+| Tender ID | Title | Closing Date | Status | Docs |
+|-----------|-------|--------------|--------|------|
+| SCHOOLOF-2026-007 | Supply of Rice to the School of St Jude | 2026-06-16 | active | 1 |
 
 #### spade (4 tenders)
 
@@ -410,6 +271,12 @@ Services
 | SPADE-2026-002 | REG NO: 86158 | None | active | 0 |
 | SPADE-2026-003 | Home-Surveyor | None | active | 0 |
 | SPADE-2026-001 | Home-Surveyor | None | active | 0 |
+
+#### tanicacafe (1 tender)
+
+| Tender ID | Title | Closing Date | Status | Docs |
+|-----------|-------|--------------|--------|------|
+| TANICACAFE-2026-001 | TANICA PLC Framework Supplier Registration – Goods… | None | active | 0 |
 
 #### tanzanianweb (1 tender)
 
@@ -449,144 +316,47 @@ Services
 | WHIZZTANZANIA-2026-015 | Consultancy services for short term technical assi… | None | active | 0 |
 | WHIZZTANZANIA-2026-003 | Supply & Installation of Scientific Equipment for … | None | active | 0 |
 
-### Commercial Bank (97 tenders)
+### Commercial Bank (8 tenders)
 
-#### azania-bank (88 tenders)
-
-| Tender ID | Title | Closing Date | Status | Docs |
-|-----------|-------|--------------|--------|------|
-| AZANIA-BANK-2026-020 | Tender Document Repair of Air Conditioners (Feb 20… | None | active | 0 |
-| AZANIA-BANK-2026-077 | Tender Document: Maintenance of Generator | None | active | 0 |
-| AZANIABA-2026-004 | AZANIA-procurement-revised-.pdf | None | active | 0 |
-| AZANIA-BANK-2026-061 | TENDER DOCUMENT | None | active | 0 |
-| AZANIA-BANK-2026-036 | Tender Notice | None | active | 0 |
-| AZANIA-BANK-2026-041 | Invitation for Tenders (2025) | None | active | 0 |
-| AZANIA-BANK-2026-016 | Tender Document | None | active | 0 |
-| AZANIA-BANK-2026-057 | Tender Notice: Invitation for Tenders (25/04/2024) | None | active | 0 |
-| AZANIABA-2026-008 | Tender-Document-Laptop-Desktop-February-2026.pdf | None | active | 0 |
-| AZANIABA-2026-009 | Tender-Document-General-Office-Stationery.pdf | None | active | 0 |
-| AZANIA-BANK-2026-056 | Invitation for Tender | None | active | 0 |
-| AZANIA-BANK-2026-001 | Tenders &#8211; Azania Bank | None | active | 10 |
-| AZANIA-BANK-2026-017 | Tender Document | None | active | 0 |
-| AZANIA-BANK-2026-040 | Tender Notice | None | active | 0 |
-| AZANIA-BANK-2026-037 | Invitation for Tender for Supply of Self-Inking St… | None | active | 0 |
-| AZANIABA-2026-005 | AZANIA-TENDER-NOTICE-.pdf | None | active | 0 |
-| AZANIA-BANK-2026-060 | TENDER DOCUMENT | None | active | 0 |
-| AZANIA-BANK-2026-076 | Tender Document: Supply and Delivery of Generator … | None | active | 0 |
-| AZANIA-BANK-2026-021 | Tender Document | None | active | 0 |
-| AZANIA-BANK-2026-047 | General Procurement Notice (2025) | None | active | 0 |
-| AZANIA-BANK-2026-010 | Tender Document | None | active | 0 |
-| AZANIA-BANK-2026-006 | Tender Document | None | active | 0 |
-| AZANIA-BANK-2026-051 | Tender Document: Repair of Air Conditioners | None | active | 0 |
-| AZANIA-BANK-2026-026 | Tender Document | None | active | 0 |
-| AZANIA-BANK-2026-071 | Non Consultancy Service Tender 2023 | None | active | 0 |
-| AZANIABA-2026-002 | business-3.pdf | None | active | 0 |
-| AZANIA-BANK-2026-067 | Invitation to Tender Notice &#8211; August 2023 | None | active | 0 |
-| AZANIA-BANK-2026-030 | Tender Document | None | active | 0 |
-| AZANIA-BANK-2026-031 | Tender Document | None | active | 0 |
-| AZANIABA-2026-003 | personal-3.pdf | None | active | 0 |
-| AZANIA-BANK-2026-066 | Tender Notice: Invitation (August 2023) | None | active | 0 |
-| AZANIA-BANK-2026-070 | Goods Tenders 2023 | None | active | 0 |
-| AZANIA-BANK-2026-027 | Tender Document | None | active | 0 |
-| AZANIA-BANK-2026-050 | Invitation for Tender | None | active | 0 |
-| AZANIA-BANK-2026-007 | Tender Document - Preventive Maintenance of Power … | None | active | 0 |
-| AZANIA-BANK-2026-011 | Tender Document - Laptop Desktop (Feb 2026) | None | active | 0 |
-| AZANIA-BANK-2026-046 | Tender Document | None | active | 0 |
-| AZANIA-BANK-2026-069 | TENDER NOTICE-2023 | None | active | 0 |
-| AZANIA-BANK-2026-028 | Tender Document | None | active | 0 |
-| AZANIA-BANK-2026-053 | Tender Document: Fumigation &amp; Pest Control Ser… | None | active | 0 |
-| AZANIA-BANK-2026-004 | Tender Document | None | active | 0 |
-| AZANIA-BANK-2026-012 | Tender Document | None | active | 0 |
-| AZANIA-BANK-2026-045 | Tender Notice | None | active | 0 |
-| AZANIA-BANK-2026-032 | Tender Document | None | active | 0 |
-| AZANIA-BANK-2026-065 | Tender Document &#8211; Supply, Delivery and Base … | None | active | 0 |
-| AZANIA-BANK-2026-073 | View Tender | None | active | 0 |
-| AZANIA-BANK-2026-024 | Pre-qualification Tender for Supply, Installation … | None | active | 0 |
-| AZANIA-BANK-2026-008 | Tender Document | None | active | 0 |
-| AZANIA-BANK-2026-049 | Tender Document: Preventive Maintenance of Power G… | None | active | 0 |
-| AZANIA-BANK-2026-048 | Tender Notice | None | active | 0 |
-| AZANIA-BANK-2026-009 | Tender Document - Toners Cartridge (Feb 2026) | None | active | 0 |
-| AZANIA-BANK-2026-025 | Tender Document | None | active | 0 |
-| AZANIA-BANK-2026-072 | Pre-qualification Tender 2023 | None | active | 0 |
-| AZANIA-BANK-2026-064 | Invitation to Tender: Supply, Delivery and Install… | None | active | 0 |
-| AZANIABA-2026-001 | business-3.pdf | None | active | 0 |
-| AZANIA-BANK-2026-033 | Tender for Supply of General Office Stationers usi… | None | active | 0 |
-| AZANIA-BANK-2026-044 | Tender Document | None | active | 0 |
-| AZANIA-BANK-2026-013 | Tender Document General Office Stationary(Feb 2026… | None | active | 0 |
-| AZANIA-BANK-2026-005 | Tender Notice (Feb 2026) | None | active | 0 |
-| AZANIA-BANK-2026-052 | Invitation for Tender | None | active | 0 |
-| AZANIA-BANK-2026-029 | Tender Document | None | active | 0 |
-| AZANIA-BANK-2026-068 | Tender Notice 2023 | None | active | 0 |
-| AZANIA-BANK-2026-034 | Tender Document | None | active | 0 |
-| AZANIA-BANK-2026-063 | TENDER DOCUMENT &#8211; VISA Classic Cards Final | None | active | 0 |
-| AZANIABA-2026-006 | Tender-Document-Preventive-Maintenance-of-Power-Ge… | None | active | 0 |
-| AZANIA-BANK-2026-075 | View Tender Notice | None | active | 0 |
-| AZANIABA-2026-010 | Tender-Document-Bank-Printed-Stationary-1.pdf | None | active | 0 |
-| AZANIA-BANK-2026-022 | Tender for Supply of Standard/Bank Printed Station… | None | active | 0 |
-| AZANIA-BANK-2026-059 | TENDER DOCUMENT | None | active | 0 |
-| AZANIA-BANK-2026-018 | Tender Document | None | active | 0 |
-| AZANIA-BANK-2026-038 | Tender Notice | None | active | 0 |
-| AZANIA-BANK-2026-055 | Tender Document: Repair Service of Scanners/Printe… | None | active | 0 |
-| AZANIA-BANK-2026-002 | .header_mid .header_mid_inner .logo_wrap { width :… | None | active | 0 |
-| AZANIA-BANK-2026-014 | Tender Document | None | active | 0 |
-| AZANIA-BANK-2026-043 | Tender Document for Provision of Cleaning Services… | None | active | 0 |
-| AZANIA-BANK-2026-042 | Tender Notice | None | active | 0 |
-| AZANIA-BANK-2026-015 | Tender Document Bank Printed Stationary(Feb 2026) | None | active | 0 |
-| AZANIA-BANK-2026-003 | General Procurement Notice (Feb 2026) | None | active | 0 |
-| AZANIA-BANK-2026-054 | Invitation for Tender | None | active | 0 |
-| AZANIA-BANK-2026-078 | View Tender | None | active | 0 |
-| AZANIA-BANK-2026-039 | Invitation for Tender for Repaid and Maintenance o… | None | active | 0 |
-| AZANIA-BANK-2026-019 | Tender Document | None | active | 0 |
-| AZANIA-BANK-2026-058 | Tender Notice | None | active | 0 |
-| AZANIA-BANK-2026-023 | Tender Document | None | active | 0 |
-| AZANIA-BANK-2026-074 | View Tender | None | active | 0 |
-| AZANIA-BANK-2026-062 | Invitation to Tender: VISA Classic Cards | None | active | 0 |
-| AZANIABA-2026-007 | Tender-Document-Toners-Cartridge-February-2026.pdf | None | active | 0 |
-| AZANIA-BANK-2026-035 | Tender Notice (May 2025) | None | active | 0 |
-
-#### china-dasheng-bank (1 tender)
+#### crdb-bank (1 tender)
 
 | Tender ID | Title | Closing Date | Status | Docs |
 |-----------|-------|--------------|--------|------|
-| CHINA-DASHENG-BANK-2026-001 | Expression of Interest - Prequalification for Core… | None | active | 1 |
+| CRDB-2026-006 | Publication of the EOI: Implementation of the Stre… | 2026-06-30 | active | 1 |
 
-#### crdb-bank (2 tenders)
-
-| Tender ID | Title | Closing Date | Status | Docs |
-|-----------|-------|--------------|--------|------|
-| CRDB-2026-002 | Request for Expression of Interest for AI/ML Devel… | 2026-03-19 | active | 1 |
-| CRDB-2026-001 | Request for expression of interest for Implementat… | 2026-03-31 | active | 1 |
-
-#### ecobank (2 tenders)
+#### ecobank (4 tenders)
 
 | Tender ID | Title | Closing Date | Status | Docs |
 |-----------|-------|--------------|--------|------|
-| ECOBANK-2026-001 | MICROSOFT D365 ENTERPRISE INTEGRATION RFP | 2026-03-25 | active | 1 |
-| ECOBANK-2026-002 | Cross-Border Remittance, Payments Platform RFP | 2026-04-06 | active | 1 |
+| ECOBANK-2026-006 | Provision of Asset and Liability Management System | 2026-06-22 | active | 4 |
+| ECOBANK-2026-003 | Replacement of the SWIFT Integration Platform (IPL… | 2026-06-30 | active | 4 |
+| ECOBANK-2026-005 | Integrated Electronic Transaction Banking Platform… | 2026-07-01 | active | 5 |
+| ECOBANK-2026-004 | Bancassurance Marketplace Platform - ePROCESS | 2026-07-03 | active | 5 |
 
-#### nbc-bank (1 tender)
+#### letshego-bank (1 tender)
 
 | Tender ID | Title | Closing Date | Status | Docs |
 |-----------|-------|--------------|--------|------|
-| NBC-BANK-2026-001 | RFP Commercial Credit Origination, Assessment & Wo… | None | active | 1 |
+| LETSHEGO-BANK-2026-001 | Supplier Registration and Pre-Qualification | None | active | 1 |
 
-#### nmb-bank (3 tenders)
+#### nmb-bank (2 tenders)
 
 | Tender ID | Title | Closing Date | Status | Docs |
 |-----------|-------|--------------|--------|------|
 | NMB-2026-001 | Application for Prequalification of Vendors for Ma… | None | active | 0 |
 | NMB-2026-002 | Prequalification of Building Contractors & Consult… | None | active | 0 |
-| NMB-2026-003 | Prequalification of Building Contractors & Consult… | None | active | 0 |
 
-### Community Bank (1 tenders)
+### Community Bank (3 tenders)
 
-#### coop-bank (1 tender)
+#### coop-bank (3 tenders)
 
 | Tender ID | Title | Closing Date | Status | Docs |
 |-----------|-------|--------------|--------|------|
+| COOP-2025-003 | Proposal Request for Group Life Insurance | None | active | 1 |
+| COOP-2025-004 | Establishment of In-House Email Infrastructure | None | active | 1 |
 | COOP-2025-001 | Request for Customer Relationship Management (CRM)… | None | active | 1 |
 
-### Educational Institution (10 tenders)
+### Educational Institution (6 tenders)
 
 #### dataskycollege (1 tender)
 
@@ -594,29 +364,11 @@ Services
 |-----------|-------|--------------|--------|------|
 | DATA-2026-001 | Document listing | None | active | 0 |
 
-#### dcbrilliant (1 tender)
-
-| Tender ID | Title | Closing Date | Status | Docs |
-|-----------|-------|--------------|--------|------|
-| DCBR-2026-001 | Document listing | None | active | 0 |
-
-#### dctmvumi (1 tender)
-
-| Tender ID | Title | Closing Date | Status | Docs |
-|-----------|-------|--------------|--------|------|
-| DCTMVUMI-2026-001 | Tender / Procurement | None | active | 4 |
-
 #### jwempo (1 tender)
 
 | Tender ID | Title | Closing Date | Status | Docs |
 |-----------|-------|--------------|--------|------|
 | JWEMPO-2026-001 | Tender from Journal of Water Resources | None | active | 0 |
-
-#### mnma (1 tender)
-
-| Tender ID | Title | Closing Date | Status | Docs |
-|-----------|-------|--------------|--------|------|
-| MNMA-2026-001 | MNMA Announcements - EOI, PPP and Procurement Noti… | None | active | 2 |
 
 #### mum (1 tender)
 
@@ -629,12 +381,6 @@ Services
 | Tender ID | Title | Closing Date | Status | Docs |
 |-----------|-------|--------------|--------|------|
 | MUST-2026-001 | Tender from Mbeya University of Science and Techno… | None | active | 1 |
-
-#### nit (1 tender)
-
-| Tender ID | Title | Closing Date | Status | Docs |
-|-----------|-------|--------------|--------|------|
-| NIT-2026-001 | CALL FOR RESEARCH GRANTS 2026 | 2026-12-31 | active | 1 |
 
 #### saut (1 tender)
 
@@ -656,13 +402,57 @@ Services
 |-----------|-------|--------------|--------|------|
 | H-2026-001 | Tender/Procurement - HPV Electrical Company Ltd | None | active | 1 |
 
-### Government Agency (21 tenders)
+### Government (8 tenders)
 
-#### blueeconomysmz (1 tender)
+#### busegadc (1 tender)
 
 | Tender ID | Title | Closing Date | Status | Docs |
 |-----------|-------|--------------|--------|------|
-| BLUEECONOMYSMZ-2026-001 | Tender from WUBU Blue Economy | None | active | 1 |
+| BUSEGADC-2026-001 | TOR - CMG Capacity Building and BDS Support Progra… | None | active | 2 |
+
+#### gpsa (1 tender)
+
+| Tender ID | Title | Closing Date | Status | Docs |
+|-----------|-------|--------------|--------|------|
+| GPSA-2026-001 | GPSA GIMIS Procuring Entity Registration Form | 2027-10-18 | active | 1 |
+
+#### iringamc (1 tender)
+
+| Tender ID | Title | Closing Date | Status | Docs |
+|-----------|-------|--------------|--------|------|
+| IRINGAMC-2026-001 | TOR - CMG Capacity Building and BDS Support Progra… | None | active | 2 |
+
+#### mbeyadc (1 tender)
+
+| Tender ID | Title | Closing Date | Status | Docs |
+|-----------|-------|--------------|--------|------|
+| MBEYADC-2026-001 | TOR - CMG Capacity Building and BDS Support Progra… | None | active | 2 |
+
+#### mbingatc (1 tender)
+
+| Tender ID | Title | Closing Date | Status | Docs |
+|-----------|-------|--------------|--------|------|
+| MBINGATC-2026-001 | TOR - CMG Capacity Building and BDS Support Progra… | None | active | 2 |
+
+#### mbuludc (1 tender)
+
+| Tender ID | Title | Closing Date | Status | Docs |
+|-----------|-------|--------------|--------|------|
+| MBULUDC-2026-001 | TOR - CMG Capacity Building and BDS Support Progra… | None | active | 2 |
+
+#### mbulutc (1 tender)
+
+| Tender ID | Title | Closing Date | Status | Docs |
+|-----------|-------|--------------|--------|------|
+| MBULUTC-2026-001 | TOR - CMG Capacity Building and BDS Support Progra… | None | active | 2 |
+
+#### ruvuma (1 tender)
+
+| Tender ID | Title | Closing Date | Status | Docs |
+|-----------|-------|--------------|--------|------|
+| RUVUMA-2026-001 | TOR - CMG Capacity Building and BDS Support Progra… | None | active | 2 |
+
+### Government Agency (15 tenders)
 
 #### cgcla (1 tender)
 
@@ -670,44 +460,30 @@ Services
 |-----------|-------|--------------|--------|------|
 | CGCLA-2026-001 | Tender/EOI from CGCLA Zanzibar | None | active | 4 |
 
-#### jamii (1 tender)
+#### jamii (2 tenders)
 
 | Tender ID | Title | Closing Date | Status | Docs |
 |-----------|-------|--------------|--------|------|
+| JAMII-2026-002 | Request for Expressions of Interest - Consultancy … | 2026-06-29 | active | 1 |
 | JAMII-2026-001 | 2nd DRAFT TERMS OF REFERENCE BANDEBEREHO Mainland … | None | active | 1 |
-
-#### lands (4 tenders)
-
-| Tender ID | Title | Closing Date | Status | Docs |
-|-----------|-------|--------------|--------|------|
-| LANDS-2026-003 | UHUISHAJI WA VYETI VYA UDALALI WA BARAZA LA ARDHI | 2026-04-30 | active | 1 |
-| LANDS-2026-002 | TANGAZO USAILI MADALALI & W.NYARAKA JANUARY 2026 | 2026-04-30 | active | 1 |
-| LANDS-2026-004 | TANGAZO MAONI KUHUISHA MADALALI & W. NYARAKA 2026 | 2026-04-30 | active | 1 |
-| LANDS-2026-001 | TANGAZO LA MABADILIKO YA TAREHE YA USAILI WA MADAL… | 2026-04-30 | active | 1 |
-
-#### lita (1 tender)
-
-| Tender ID | Title | Closing Date | Status | Docs |
-|-----------|-------|--------------|--------|------|
-| LITA-2026-001 | Tender/Procurement notice | 2026-12-31 | active | 0 |
-
-#### lrct (1 tender)
-
-| Tender ID | Title | Closing Date | Status | Docs |
-|-----------|-------|--------------|--------|------|
-| LRCT-2026-001 | Tender notice from LRCT |   Mwanzo | None | active | 1 |
 
 #### mfukowamisitu (1 tender)
 
 | Tender ID | Title | Closing Date | Status | Docs |
 |-----------|-------|--------------|--------|------|
-| MFUKOWAMISITU-2026-001 | Tangazo la Zabuni ya Mshauri elekezi ya michoro ya… | None | active | 0 |
+| MFUKOWAMISITU-2026-001 | Tender Announcement for Guidance Consultant for Co… | None | active | 0 |
 
 #### mit (1 tender)
 
 | Tender ID | Title | Closing Date | Status | Docs |
 |-----------|-------|--------------|--------|------|
 | MIT-2026-001 | Tangazo la Mnada wa Hadhara - MIT 2025 | None | active | 2 |
+
+#### nfra (1 tender)
+
+| Tender ID | Title | Closing Date | Status | Docs |
+|-----------|-------|--------------|--------|------|
+| NFRA-2026-001 | Framework Agreements for Purchase of White Maize (… | None | active | 1 |
 
 #### nirc (2 tenders)
 
@@ -716,17 +492,17 @@ Services
 | NIRC-2026-002 | EOI Kidete and Kimagai Dams and Associated Flood C… | None | active | 1 |
 | NIRC-2026-001 | EOI Buigiri, Ikowa, Dabalo and Hombolo Dams and As… | None | active | 1 |
 
-#### tanroads (1 tender)
-
-| Tender ID | Title | Closing Date | Status | Docs |
-|-----------|-------|--------------|--------|------|
-| TANROADS-2026-001 | Construction of Dar es Salaam Bus Rapid Transit (B… | 2026-04-23 | active | 1 |
-
 #### tarura (1 tender)
 
 | Tender ID | Title | Closing Date | Status | Docs |
 |-----------|-------|--------------|--------|------|
 | TARURA-2026-001 | Page content | None | active | 0 |
+
+#### tfra (1 tender)
+
+| Tender ID | Title | Closing Date | Status | Docs |
+|-----------|-------|--------------|--------|------|
+| TFRA-2026-001 | Invitation for Pre-Qualification for Procurement o… | 2026-06-30 | active | 1 |
 
 #### tfs (1 tender)
 
@@ -743,12 +519,6 @@ Services
 | TMDA-2026-002 | Provision of catering services for Southern Highla… | None | active | 0 |
 | TMDA-2026-003 | Procurement of Pure Drinking Water | None | active | 0 |
 
-#### zawa (1 tender)
-
-| Tender ID | Title | Closing Date | Status | Docs |
-|-----------|-------|--------------|--------|------|
-| ZAWA-2026-001 | TANGAZO (Tender Notice) | None | active | 1 |
-
 ### ICT / Technology (2 tenders)
 
 #### linktech (1 tender)
@@ -763,33 +533,87 @@ Services
 |-----------|-------|--------------|--------|------|
 | NA7ETECH-2026-001 | Tender/Procurement documents - na7etechnology | None | active | 1 |
 
-### Local Government Authority (4 tenders)
+### Institutional e-Procurement (1 tenders)
+
+#### tmrc-eprocurement (1 tender)
+
+| Tender ID | Title | Closing Date | Status | Docs |
+|-----------|-------|--------------|--------|------|
+| TMRC-EPROCUREMENT-2026-001 | Provision of Backup Power Solution for Critical Sy… | 2026-06-19 | active | 0 |
+
+### Local Government Authority (12 tenders)
+
+#### biharamulodc (2 tenders)
+
+| Tender ID | Title | Closing Date | Status | Docs |
+|-----------|-------|--------------|--------|------|
+| BIHARAMULODC-2026-006 | TOR: CMG Capacity Building and BDS Support Program… | None | active | 2 |
+| BIHARAMULODC-2026-005 | Public Notice for Butcher Stalls for Alternative U… | None | active | 1 |
 
 #### bukobamc (1 tender)
 
 | Tender ID | Title | Closing Date | Status | Docs |
 |-----------|-------|--------------|--------|------|
-| BUKOBAMC-2026-001 | Tender from Bukoba Municipal Council | None | active | 2 |
+| BUKOBAMC-2026-002 | TOR - CMG Capacity Building and BDS Support Progra… | None | active | 2 |
 
 #### bumbulidc (1 tender)
 
 | Tender ID | Title | Closing Date | Status | Docs |
 |-----------|-------|--------------|--------|------|
-| BUMBULIDC-2026-001 | Tender from Bumbuli District Council | None | active | 2 |
+| BUMBULIDC-2026-002 | TOR - CMG Capacity Building and BDS Support Progra… | None | active | 2 |
 
 #### busokelodc (1 tender)
 
 | Tender ID | Title | Closing Date | Status | Docs |
 |-----------|-------|--------------|--------|------|
-| BUSOKELODC-2026-001 | Tender from Busokelo District Council | None | active | 2 |
+| BUSOKELODC-2026-002 | TOR - CMG Capacity Building and BDS Support Progra… | None | active | 2 |
 
-#### rungwedc (1 tender)
+#### hanangdc (1 tender)
 
 | Tender ID | Title | Closing Date | Status | Docs |
 |-----------|-------|--------------|--------|------|
+| HANANGDC-2026-001 | Notice for Renting Stalls at Dr. Samia New Bus Sta… | None | active | 1 |
+
+#### ikungidc (1 tender)
+
+| Tender ID | Title | Closing Date | Status | Docs |
+|-----------|-------|--------------|--------|------|
+| IKUNGIDC-2026-001 | TOR - CMG Capacity Building and BDS Support Progra… | None | active | 2 |
+
+#### irambadc (1 tender)
+
+| Tender ID | Title | Closing Date | Status | Docs |
+|-----------|-------|--------------|--------|------|
+| IRAMBADC-2026-001 | TOR - CMG Capacity Building and BDS Support Progra… | None | active | 2 |
+
+#### mkalamadc (1 tender)
+
+| Tender ID | Title | Closing Date | Status | Docs |
+|-----------|-------|--------------|--------|------|
+| MKALAMADC-2026-001 | Supply of Laptop Computers for Iguguno Secondary S… | None | active | 1 |
+
+#### rungwedc (2 tenders)
+
+| Tender ID | Title | Closing Date | Status | Docs |
+|-----------|-------|--------------|--------|------|
+| RUNGWE-2026-002 | TOR - CMG Capacity Building and BDS Support Progra… | None | active | 2 |
 | RUNGWE-2026-001 | Tender Invitation for Construction and Operation o… | None | active | 1 |
 
-### NGO / Non-Profit Organization (25 tenders)
+#### singidamc (1 tender)
+
+| Tender ID | Title | Closing Date | Status | Docs |
+|-----------|-------|--------------|--------|------|
+| SINGIDAMC-2026-002 | Construction Supervision Consultancy Services for … | None | active | 1 |
+
+### Microfinance Institution (1 tenders)
+
+#### letshego-microfinance (1 tender)
+
+| Tender ID | Title | Closing Date | Status | Docs |
+|-----------|-------|--------------|--------|------|
+| LETSHEGO-MICROFINANCE-2026-001 | Supplier Registration and Pre-Qualification | None | active | 1 |
+
+### NGO / Non-Profit Organization (11 tenders)
 
 #### counsenuth (3 tenders)
 
@@ -799,63 +623,23 @@ Services
 | COUNSENUTH-2026-004 | Call for Expression of Interest for the End of Lis… | None | active | 1 |
 | COUNSENUTH-2026-003 | Competitive Quotation – HYDRO-GEOPHYSICAL SURVEY &… | None | active | 1 |
 
-#### fsdt (4 tenders)
-
-| Tender ID | Title | Closing Date | Status | Docs |
-|-----------|-------|--------------|--------|------|
-| FSDT-2026-001 | Terms of Reference - SAGE 300 Maintenance and Supp… | None | active | 1 |
-| FSDT-2026-004 | Call for Expressions of Interest - Vendor Prequali… | None | active | 1 |
-| FSDT-2026-003 | Call for Expressions of Interest - FSPs to Partici… | None | active | 1 |
-| FSDT-2026-002 | Call for Expressions of Interest - Partner Financi… | None | active | 1 |
-
 #### hakirasilimali (1 tender)
 
 | Tender ID | Title | Closing Date | Status | Docs |
 |-----------|-------|--------------|--------|------|
 | HAKIRASILIMALI-2026-001 | External Audit Services Tender | None | active | 0 |
 
-#### kjro (1 tender)
-
-| Tender ID | Title | Closing Date | Status | Docs |
-|-----------|-------|--------------|--------|------|
-| KJRO-2026-001 | Tender notice from HOME - | None | active | 1 |
-
-#### mjumita (1 tender)
-
-| Tender ID | Title | Closing Date | Status | Docs |
-|-----------|-------|--------------|--------|------|
-| MJUMITA-2026-001 | ToR: Development of Standard Operating Procedures … | None | active | 1 |
-
 #### mloganzila (1 tender)
 
 | Tender ID | Title | Closing Date | Status | Docs |
 |-----------|-------|--------------|--------|------|
-| MLOGANZILA-2026-001 | Call for Expression of Interest (EOI) - Ministry o… | None | active | 2 |
-
-#### musomavijijini (8 tenders)
-
-| Tender ID | Title | Closing Date | Status | Docs |
-|-----------|-------|--------------|--------|------|
-| MUSOMAVI-2026-001 | Bofya Hapa Kupata  Nakala | None | active | 0 |
-| MUSOMAVIJIJINI-2026-001 | Tender from Mwanzo - Jimbo la Musoma Vijijini | None | active | 6 |
-| MUSOMAVI-2026-006 | CLICK TO DOWNLOAD | None | active | 0 |
-| MUSOMAVI-2026-007 | CLICK TO OPEN THE CV | None | active | 0 |
-| MUSOMAVI-2026-004 | Bofya Hapa Kupata Nakala | None | active | 0 |
-| MUSOMAVI-2026-005 | Bofya Hapa Kupata Nakala | None | active | 0 |
-| MUSOMAVI-2026-002 | Bofya Hapa Kupata Nakala | None | active | 0 |
-| MUSOMAVI-2026-003 | Bofya Hapa Kupata Nakala | None | active | 0 |
+| MLOGANZILA-2026-002 | Expression of Interest - Pharmaceutical Manufactur… | None | active | 1 |
 
 #### ncultd (1 tender)
 
 | Tender ID | Title | Closing Date | Status | Docs |
 |-----------|-------|--------------|--------|------|
 | NCULTD-2026-001 | Construction Tender Announcement for Qualified Bid… | None | active | 1 |
-
-#### tanzaniaislamic-centre (1 tender)
-
-| Tender ID | Title | Closing Date | Status | Docs |
-|-----------|-------|--------------|--------|------|
-| TANZANIAISLA-2026-001 | Page content | None | active | 0 |
 
 #### tawla (1 tender)
 
@@ -867,7 +651,7 @@ Services
 
 | Tender ID | Title | Closing Date | Status | Docs |
 |-----------|-------|--------------|--------|------|
-| TENMET-2026-002 | ToR Consultancy to Produce Creative TV and Radio S… | 2026-03-20 | active | 1 |
+| TENMET-2026-003 | Invitation for Tender for Supply of ICT Equipment … | 2026-06-15 | active | 1 |
 
 #### tgnp (1 tender)
 
@@ -875,13 +659,26 @@ Services
 |-----------|-------|--------------|--------|------|
 | TGNP-2026-001 | EXPRESSION OF INTEREST: For Provision and Supply o… | None | active | 1 |
 
-#### zatu (1 tender)
+#### zmbf (2 tenders)
 
 | Tender ID | Title | Closing Date | Status | Docs |
 |-----------|-------|--------------|--------|------|
-| ZATU-2026-001 | REQUEST FOR PROPOSALS (RFP) FOR CONDUCTING ZATU EV… | None | active | 0 |
+| ZMBF-2026-003 | Invitation for Pre-Qualification of Vendors FY Jul… | None | active | 1 |
+| ZMBF-2026-002 | Call for Quotations: Procurement of Laptop Compute… | None | active | 1 |
 
-### NGO/Non-Profit (1 tenders)
+### NGO/Non-Profit (3 tenders)
+
+#### hakielimu (1 tender)
+
+| Tender ID | Title | Closing Date | Status | Docs |
+|-----------|-------|--------------|--------|------|
+| HAKIELIMU-2026-001 | Call for Internal Audit Services | 2026-06-17 | active | 0 |
+
+#### kcu (1 tender)
+
+| Tender ID | Title | Closing Date | Status | Docs |
+|-----------|-------|--------------|--------|------|
+| KCU-2026-001 | Development of Kagera Cooperative Union Management… | 2026-06-16 | active | 1 |
 
 #### spaide (1 tender)
 
@@ -889,36 +686,25 @@ Services
 |-----------|-------|--------------|--------|------|
 | SPAIDE-2026-001 | Designing of key governance operating manuals and … | None | active | 0 |
 
-### Tender Aggregator (19 tenders)
+### Tender Aggregator (5 tenders)
 
-#### mabumbe (14 tenders)
+#### mabumbe (5 tenders)
 
 | Tender ID | Title | Closing Date | Status | Docs |
 |-----------|-------|--------------|--------|------|
-| MABUMBE-2026-006 | Consultancy Services for Data Analytics & AI Matur… | 2026-03-15 | active | 0 |
-| MABUMBE-2026-007 | Prequalification of Building Contractors and Consu… | 2026-03-19 | active | 0 |
-| MABUMBE-2026-005 | Invitation to Bid: Supply of Core Banking System (… | 2026-03-20 | active | 0 |
-| MABUMBE-2026-008 | Consultancy for System Design and BRD for Shared M… | 2026-03-21 | active | 0 |
-| MABUMBE-2026-004 | Supply, Implementation and Installation of Reconci… | 2026-03-25 | active | 0 |
-| MABUMBE-2026-009 | Supplier Prequalification Application for 100+ Cat… | 2026-03-31 | active | 0 |
-| MABUMBE-2026-002 | Request for EOI: NIDA Integration for Oracle FLEXC… | 2026-03-31 | active | 0 |
-| MABUMBE-2026-003 | Request for EOI: Omni-Channel Digital Banking Supe… | 2026-03-31 | active | 0 |
-| MABUMBE-2026-001 | Call for Expression of Interest for Provision of E… | 2026-04-13 | active | 0 |
 | MABUMBE-2026-010 | Invitation to Tender: Renovation and Construction … | None | active | 0 |
 | MABUMBE-2026-011 | Call for Expression of Interest – Final Evaluation… | None | active | 0 |
 | MABUMBE-2026-012 | Request for Bids Provision of Security and Interne… | None | active | 0 |
 | MABUMBE-2026-013 | TASFAM Project Tender: Supply & Commissioning of S… | None | active | 0 |
 | MABUMBE-2026-014 | Consultancy EoI: PEFA Assessment – Ministry of Fin… | None | active | 0 |
 
-#### tanzania-tenders (5 tenders)
+### Water Utility (1 tenders)
+
+#### mwauwasa (1 tender)
 
 | Tender ID | Title | Closing Date | Status | Docs |
 |-----------|-------|--------------|--------|------|
-| TZTENDER-2026-003 | Supply of Best Agriculture Practices (BAP) Tools f… | 2026-03-21 | active | 0 |
-| TZTENDER-2026-002 | Consultancy to Develop an Integrated Cross-border … | 2026-03-23 | active | 0 |
-| TZTENDER-2026-005 | Provision of Consultancy Service for Conducting Bi… | 2026-03-26 | active | 0 |
-| TZTENDER-2026-001 | Consultancy Services for Capacity Strengthening - … | 2026-03-31 | active | 0 |
-| TZTENDER-2026-004 | Supply of Permanent Way Materials for Maintenance … | 2026-04-08 | active | 0 |
+| MWAUWASA-2026-001 | Construction Works for Mwanza Sewer Connection Upg… | 2026-07-17 | active | 12 |
 
 ### Other (3 tenders)
 
@@ -944,4 +730,4 @@ Services
 
 | Run ID | Timestamp | Active | New | Closing Soon | Scraped | Errors |
 |--------|-----------|--------|-----|--------------|----------|--------|
-| run_20260315_230818 | 2026-03-15T20:08:18Z | 367 | 149 | 9 | 367 | 0 |
+| run_20260615_100010 | 2026-06-15T07:00:10Z | 168 | 0 | 6 | 169 | 0 |

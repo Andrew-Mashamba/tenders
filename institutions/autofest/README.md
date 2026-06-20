@@ -23,7 +23,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape homepage for event brief and tender documents. EVENT BRIEF PDF at /Autofest_2025_Event_Brief.pdf. Look for 'Get a Quote', exhibitor/vendor info. Documents may be in root or /downloads/."
+  strategy: "Scrape homepage for exhibitor/vendor opportunities. Event brief PDF at /13TH_ED_Autofest.pdf (current) and legacy /Autofest_2025_Event_Brief.pdf. Exhibitor booking at /exhibitor.html — NOT procurement tenders. Only create records for actual RFPs/RFQs if posted."
   selectors:
     container: "main, .content, section, .welcome-note"
     tender_item: "article, .event-item, .card, a[href$='.pdf']"
@@ -72,9 +72,11 @@ scraping:
 
     known_document_paths:
       - "/"
+      - "/13TH_ED_Autofest.pdf"
 
     url_patterns:
       - "autofest.co.tz/Autofest_*.pdf"
+      - "autofest.co.tz/13TH_ED_Autofest.pdf"
 
     download_rules:
       max_file_size_mb: 50
@@ -92,7 +94,7 @@ scraping:
         - "application/octet-stream"
 
     document_notes: |
-      Event brief PDF at root: /Autofest_2025_Event_Brief.pdf. No dedicated tender list; exhibitor/vendor opportunities may be in contact/booking sections.
+      Event brief PDF at root: /13TH_ED_Autofest.pdf (13th edition, updated Apr 2026). Legacy: /Autofest_2025_Event_Brief.pdf. Exhibitor booking is commercial sales, not institutional procurement.
 
   output:
     format: "json"

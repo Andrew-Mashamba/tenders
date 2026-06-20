@@ -13,7 +13,7 @@ website:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "lodhiagroup.co.tz redirects to lodhiaindustries.com. Homepage is commercial (steel/plastic products). No dedicated tender page found. Scrape main content for any procurement/RFP links."
+  strategy: "lodhiagroup.co.tz redirects to lodhiaindustries.com (WordPress/Elementor). Commercial steel/plastic manufacturer site. No procurement section or tender documents found as of 2026-06-10."
   selectors:
     container: ".tender-list, .content, main, .page-content, .entry-content, article"
     tender_item: "article, .tender-item, .card, .row, tr, li"

@@ -17,7 +17,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape https://finca.co.tz/tenders/ — each tender is a fusion-builder-nested-column with h6 title, date range, and 'See More' link to document. Extract title, date range, and document URL from each item."
+  strategy: "Scrape https://finca.co.tz/tenders/ — fusion-builder nested columns with title link to wp-content/uploads document and date range (DD/MM/YYYY – DD/MM/YYYY). As of 2026-06-10 only expired 2024 Desktop Computers tender remains listed."
   selectors:
     container: ".fusion-fullwidth.fusion-builder-row-5, main#content, .fusion-builder-row"
     tender_item: ".fusion-layout-column.fusion_builder_column_inner.fusion-column-has-shadow, .fusion-column-wrapper.fusion-column-has-shadow"

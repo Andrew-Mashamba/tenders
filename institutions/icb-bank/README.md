@@ -10,6 +10,9 @@ website:
   homepage: "https://icbank.co.tz/"
   tender_url: "null"
 
+contact:
+  email: "enquiry@icbank.co.tz"
+
 scraping:
   enabled: true
   method: "http_get"

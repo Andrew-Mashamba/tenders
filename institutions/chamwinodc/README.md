@@ -8,12 +8,12 @@ institution:
 
 website:
   homepage: "https://chamwinodc.go.tz"
-  tender_url: "https://chamwinodc.go.tz/tenders"
+  tender_url: "https://chamwinodc.go.tz/"
 
 scraping:
-  enabled: true
+  enabled: false
   method: "http_get"
-  strategy: "Scrape chamwinodc.go.tz/tenders and chamwinodc.go.tz/procurement. Tenders appear in HTML table: tr with td (title, published date, closing date, download link). Documents at /storage/app/uploads/public/. Also check homepage for document links in sidebar."
+  strategy: "As of 2026-06-10, chamwinodc.go.tz has been restructured to a GWF CORE React SPA (client-rendered). /tenders and /procurement return empty SPA shell with no tender data accessible via HTTP. Previous October CMS tender table and /storage/app/uploads/public/ paths no longer available. Re-enable if council restores a public tender listing."
   selectors:
     container: "table tbody, .right-sidebar-content, .col-md-12"
     tender_item: "table tbody tr, li a[href*='storage/app/uploads']"
@@ -24,7 +24,7 @@ scraping:
   schedule: "daily"
 
   anti_bot:
-    requires_javascript: false
+    requires_javascript: true
     has_captcha: false
     rate_limit_seconds: 10
 

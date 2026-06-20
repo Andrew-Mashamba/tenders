@@ -7,13 +7,13 @@ institution:
   country: "Tanzania"
 
 website:
-  homepage: "https://www.tendersoko.com/tanzania/tender"
+  homepage: "https://tendersoko.com/tenders"
   tender_url: "https://tendersoko.com/tenders"
 
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Private tender aggregator. Filter for Tanzania financial institution tenders."
+  strategy: "Multi-country aggregator. Set Tanzania via https://tendersoko.com/set-country.php?country_id=3&redirect=%2Ftenders then scrape /tenders. Filter for financial-sector keywords (bank, SACCO, microfinance). Login required for some details. Aggregator — do not duplicate source-institution tenders."
   selectors:
     container: ".tenders, .content, main"
     tender_item: "article, .tender-item"

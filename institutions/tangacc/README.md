@@ -18,7 +18,10 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape https://tangacc.go.tz/tenders for Tanga City Council zabuni. Same October CMS as tanga.go.tz. Documents in /storage/app/uploads/public/ with hash paths."
+  strategy: |
+    Site migrated to GWF CORE SPA (React). /tenders returns JS shell only; requires_javascript true.
+    Historical October CMS PDFs at /storage/app/uploads/public/ (2018-2019, all expired).
+    No active tender table in static HTML. Check embedded JS bundle or future API for announcements.
   selectors:
     container: ".content-border, .sub-main-content, main, .container, .row"
     tender_item: "table.table tbody tr, .tender-item, article, .list-item"
@@ -29,7 +32,7 @@ scraping:
   schedule: "daily"
 
   anti_bot:
-    requires_javascript: false
+    requires_javascript: true
     has_captcha: false
     rate_limit_seconds: 10
 

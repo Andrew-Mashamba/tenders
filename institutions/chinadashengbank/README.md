@@ -16,9 +16,9 @@ contact:
           "
 
 scraping:
-  enabled: true
+  enabled: false
   method: "http_get"
-  strategy: "Scrape chinadashengbank.co.tz homepage. Tender/EOI announcements appear in the marquee (.marquee-container). Look for document links in .scrolling-text-container .exchange-rate. Documents are hosted at /uploads/."
+  strategy: "UPDATE 2026-06-10: chinadashengbank.co.tz returns Apache directory listing only (under_construction.html). Former EOI at /uploads/ExpressionOfInterest.pdf returns 404. Site appears parked or under maintenance — disable scraping until site is restored."
   selectors:
     container: "main, .marquee-container, .scrolling-text-container"
     tender_item: ".exchange-rate span a[href*='.pdf'], .marquee-container a[href*='uploads']"

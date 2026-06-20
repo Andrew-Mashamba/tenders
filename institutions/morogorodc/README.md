@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Fetch https://morogorodc.go.tz/tenders. Parse table.table.table-striped inside .right-sidebar-content. Each tbody tr = one tender. Columns: Tender Name (td:first-child), Tarehe iliyoongezwa (td:nth-child(2)), Tarehe ya Mwisho (td:nth-child(3)), document link 'Pakua' (td:nth-child(4) a). Download from href. Follow nav.text-center for pagination."
+  strategy: "Site migrated to GWF CORE (React SPA) as of 2026. https://morogorodc.go.tz/tenders returns empty SPA shell requiring JavaScript. Old October CMS table (table.table-striped in .right-sidebar-content) no longer server-rendered. Requires browser/JS rendering or API discovery to scrape tenders."
   selectors:
     container: ".right-sidebar-content"
     tender_item: "table.table.table-striped tbody tr"
@@ -29,7 +29,7 @@ scraping:
   schedule: "daily"
 
   anti_bot:
-    requires_javascript: false
+    requires_javascript: true
     has_captcha: false
     rate_limit_seconds: 10
 

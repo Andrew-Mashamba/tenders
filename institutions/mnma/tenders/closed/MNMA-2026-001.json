@@ -1,0 +1,31 @@
+{
+  "tender_id": "MNMA-2026-001",
+  "institution": "mnma",
+  "title": "Call for Expression of Interest - PPP Land Investment at MNMA",
+  "description": "Expression of Interest from local and international investors for development, operation and management of MNMA land under Public Private Partnership (PPP) arrangement. Plots at Kivukoni (Dar es Salaam), Ntyuka (Dodoma), and Karume Campus (Zanzibar).",
+  "reference_number": "",
+  "published_date": "2026-03-11",
+  "closing_date": "2026-04-02",
+  "closing_time": "14:00 EAT",
+  "category": "Consultancy",
+  "status": "closed",
+  "source_url": "https://www.mnma.ac.tz/",
+  "documents": [
+    {
+      "filename": "ANNOUNCEMENT-2026-03-12_012231.pdf",
+      "original_url": "https://www.mnma.ac.tz/media_doc/ANNOUNCEMENT-2026-03-12_012231.pdf",
+      "local_path": "./downloads/MNMA-2026-001/original/ANNOUNCEMENT-2026-03-12_012231.pdf",
+      "content_type": "application/pdf",
+      "downloaded_at": "2026-06-10T18:46:59.721Z"
+    }
+  ],
+  "contact": {
+    "name": "Rector, MNMA",
+    "email": "rector@mnma.ac.tz",
+    "phone": "026-02-26",
+    "address": "P.O. Box 9193, Dar es Salaam, Tanzania"
+  },
+  "eligibility": "Individual applicants, firms, or consortia with financial capacity and experience in similar projects.",
+  "scraped_at": "2026-06-10T18:46:59.721Z",
+  "last_checked": "2026-06-10T18:46:59.721Z"
+}

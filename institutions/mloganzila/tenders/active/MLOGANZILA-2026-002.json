@@ -1,0 +1,31 @@
+{
+  "tender_id": "MLOGANZILA-2026-002",
+  "institution": "mloganzila",
+  "title": "Expression of Interest - Pharmaceutical Manufacturing Investment (Ministry of Health)",
+  "description": "Government of Tanzania invites qualified local and international investors to submit EOIs for establishing pharmaceutical manufacturing facilities. Covers essential medicines, vaccines, APIs, medical consumables, devices and specialized formulations. Implemented through Green-Lane Approval System and Pharmaceutical Investment Acceleration Programme (PIAP). Rolling/accelerated review basis.",
+  "reference_number": "MoH/EOI/PIAP",
+  "published_date": "2025-12-01",
+  "closing_date": null,
+  "closing_time": "",
+  "category": "Supply",
+  "status": "active",
+  "source_url": "https://www.mloganzila.or.tz/tenders/",
+  "documents": [
+    {
+      "filename": "CALL-FOR-EXPRESSION-OF-INTEREST-EOI-MINISTRY-OF-HEALTH.pdf",
+      "original_url": "https://www.mloganzila.or.tz/wp-content/uploads/2025/12/CALL-FOR-EXPRESSION-OF-INTEREST-EOI-MINISTRY-OF-HEALTH.pdf",
+      "local_path": "./downloads/MLOGANZILA-2026-002/original/CALL-FOR-EXPRESSION-OF-INTEREST-EOI-MINISTRY-OF-HEALTH.pdf",
+      "content_type": "application/pdf",
+      "downloaded_at": "2026-06-10T18:44:05.845339Z"
+    }
+  ],
+  "contact": {
+    "name": "Permanent Secretary, Ministry of Health",
+    "email": "info@mloganzila.or.tz",
+    "phone": "04 846 713 829",
+    "address": "P.O. Box 743, 40478 Dodoma, Tanzania"
+  },
+  "eligibility": "Investors with pharmaceutical manufacturing expertise, WHO-GMP compliance track record, and financial capacity",
+  "scraped_at": "2026-06-10T18:44:05.845339Z",
+  "last_checked": "2026-06-10T18:44:05.845339Z"
+}

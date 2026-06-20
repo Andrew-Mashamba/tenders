@@ -17,7 +17,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Site offline—'board temporarily unavailable, undergoing maintenance'. Disable until ask.or.tz is back online."
+  strategy: "Site returns HTTP 403 Forbidden (LiteSpeed blocks access). No procurement content reachable. Re-check periodically; previously showed maintenance message."
   selectors:
     container: ".tender-list, .content, main, .entry-content, .page-content, article"
     tender_item: "article, .tender-item, .card, .row, li, tr"
@@ -102,7 +102,7 @@ social_media:
 
 notes: |
   Organization website at ask.or.tz. Tender keywords detected: rfi.
-  Analysis 2026-03-15: Site offline (maintenance). Scraping disabled.
+  Analysis 2026-06-10: HTTP 403 Forbidden (LiteSpeed). No tenders accessible.
 ---
 
 # Ask Website &#187; Offline

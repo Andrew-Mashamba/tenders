@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "October CMS. Fetch https://mtwaramikindanimc.go.tz/tenders. Parse table.table.table-striped. Each tbody tr = one tender. Columns: Jina la zabuni (title), dates, Pakua (document link). /manunuzi-ugavi has department info only, no tender table."
+  strategy: "Site migrated to GWF CORE SPA (requires JavaScript). /tenders returns empty React shell. Use API: GET /api/advertisements (procurement), /api/announcements, /api/press-releases, /api/files. Legacy October CMS tender table no longer served."
   selectors:
     container: ".right-sidebar-content"
     tender_item: "table.table.table-striped tbody tr"
@@ -29,7 +29,7 @@ scraping:
   schedule: "daily"
 
   anti_bot:
-    requires_javascript: false
+    requires_javascript: true
     has_captcha: false
     rate_limit_seconds: 10
 

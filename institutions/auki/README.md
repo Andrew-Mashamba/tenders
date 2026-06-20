@@ -17,7 +17,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Auki Events is an event management and printing company. No dedicated tender page. Scrape homepage, /services, /get-quote for RFI or procurement opportunities. Check news/blog sections if added."
+  strategy: "Auki Events is an event management and printing company. No dedicated tender page. Scrape homepage, /services, /get-quote for RFI or procurement opportunities. NOTE 2026-06-10: auki.co.tz returns Cloudflare 522 (origin unreachable)."
   selectors:
     container: ".tender-list, .content, main, .entry-content, .page-content, article"
     tender_item: "article, .tender-item, .card, .row, li, tr"

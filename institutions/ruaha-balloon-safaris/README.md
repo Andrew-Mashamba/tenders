@@ -13,7 +13,7 @@ website:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "DISABLED: Tourism/balloon safari site. No tender or procurement content (2026-03-15)."
+  strategy: "DISABLED: Redirects to balloonsafaris.com. Tourism/balloon safari site. No tender or procurement content."
   selectors:
     container: ".tender-list, .content, main, .page-content, .entry-content, article"
     tender_item: "article, .tender-item, .card, .row, tr, li"

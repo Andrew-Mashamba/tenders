@@ -5,7 +5,7 @@
   "source_url": "https://bukobadc.go.tz/event/watumishi-wajengewa-uwezo-matumizi-ya-mfumo-wa-manunuzi-nest",
   "published_date": "2026-03-15",
   "closing_date": null,
-  "status": "active",
+  "status": "closed",
   "documents": [
     {
       "filename": "6822d51a16edc918078000.pdf",
@@ -20,5 +20,6 @@
   ],
   "contact": {},
   "scraped_at": "2026-03-15T05:10:46Z",
-  "run_id": "run_20260315_060430_batch18"
+  "run_id": "run_20260315_060430_batch18",
+  "last_checked": "2026-06-10T16:17:30.579504Z"
 }

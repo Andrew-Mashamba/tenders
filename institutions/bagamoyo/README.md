@@ -15,7 +15,7 @@ scraping:
   enabled: true
   method: "http_get"
   strategy: "Scrape https://bagamoyo.sc.tz/ for tender/procurement notices."
-  notes: "Tender page returns 404 Page Not Found. /tenders URL also 404. No tender content reachable as of 2026-03-15."
+  notes: "Homepage works (Laravel SPA) but no /tenders or procurement section. School site only — academics, publications, exam results. No tender content as of 2026-06-10."
   selectors:
     container: ".tender-list, .content, main, .entry-content, .page-content, article"
     tender_item: "article, .tender-item, .card, .row, li, tr"

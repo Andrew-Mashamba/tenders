@@ -15,9 +15,9 @@ contact:
   phone: "0 11-18 0 9 9 0"
 
 scraping:
-  enabled: true
+  enabled: false
   method: "http_get"
-  strategy: "Next.js/React site. Medical diagnostics supplier. Footer links to 'Goverment Tenders' but href=# (placeholder). No dedicated tender page. Scrape products/news for document links. Static export—some content in __NEXT_DATA__."
+  strategy: "Site down as of 2026-06-10 — hypermed.co.tz returns empty Apache directory listing (cgi-bin/ only). Previously Next.js/React medical diagnostics site with placeholder 'Government Tenders' footer link. No content accessible."
   selectors:
     container: "#__next, .max-w-7xl, section, main"
     tender_item: "article, .flex-col, div[class*='rounded']"
@@ -185,6 +185,6 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
-- **Signal Strength:** Strong (tender, tenders)
+- **Last Checked:** 10 June 2026
+- **Active Tenders:** 0 (site down — empty directory listing)
+- **Signal Strength:** None (scraping disabled until site recovers)

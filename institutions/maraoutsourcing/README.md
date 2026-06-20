@@ -13,7 +13,7 @@ website:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Tender page returns minimal HTML; likely SPA or broken. Re-enable when page structure is confirmed or tender content is reachable."
+  strategy: "https://maraoutsourcing.co.tz/tenders returns truncated HTML shell (~312 bytes, no body content). Site appears broken or requires JS rendering. No tender content reachable as of 2026-06-10."
   selectors:
     container: ".tender-list, .content, main, .page-content, .entry-content, article"
     tender_item: "article, .tender-item, .card, .row, tr, li"

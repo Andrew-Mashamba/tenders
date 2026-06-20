@@ -13,7 +13,7 @@ website:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape https://bukobadiocese.co.tz/tenders. Page may use bot protection (tracking/CDN)—returns minimal content on fetch. Try with browser User-Agent; if still blocked, set requires_javascript true."
+  strategy: "As of 2026-06-10 /tenders returns 404 Not Found. Homepage loads at https://bukobadiocese.co.tz/ (Bukoba Catholic Diocese). No procurement/tender section found. Contact: b.officebk@yahoo.com. Retry /tenders periodically in case section is restored."
   selectors:
     container: ".tender-list, .content, main, .page-content, .entry-content, article, table"
     tender_item: "article, .tender-item, .card, .row, tr, li"
@@ -24,7 +24,7 @@ scraping:
   schedule: "daily"
 
   anti_bot:
-    requires_javascript: true
+    requires_javascript: false
     has_captcha: false
     rate_limit_seconds: 10
 

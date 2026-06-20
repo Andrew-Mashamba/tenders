@@ -101,8 +101,14 @@ alternative_sources:
   - name: "ZPPDA"
     url: "http://www.tenders.zppda.go.tz/"
 
+contact:
+  email: "info@pbzbank.co.tz"
+  alternate_emails:
+    - "customerexperience@pbzbank.co.tz"
+    - "support@pbzbank.co.tz"
+
 notes: |
-  Zanzibar-based bank. Tenders via ZPPDA portal, not own website.
+  Zanzibar-based bank. Tenders via ZPPDA portal, not own website. As of June 2026 tenders.zppda.go.tz DNS is unreachable; check pbzbank.co.tz for updates.
 ---
 
 # Peoples Bank of Zanzibar (PBZ)

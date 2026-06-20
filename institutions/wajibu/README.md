@@ -9,7 +9,7 @@ institution:
 
 website:
   homepage: "https://www.wajibu.or.tz/"
-  tender_url: "https://www.wajibu.or.tz/opportunities/procurement-plan"
+  tender_url: "https://www.wajibu.or.tz/opportunities/tenders"
 
 contact:
   email: "info@wajibu.or.tz"
@@ -19,10 +19,9 @@ scraping:
   enabled: true
   method: "http_get"
   strategy: |
-    Scrape https://www.wajibu.or.tz/opportunities/procurement-plan. Page shows Annual Procurement Plan 2025
-    with a summary table (Goods, Non-Consultancy Services, Consultancy Services) and one download link.
-    Extract the "Download Detailed Plan" link (XLS file at root). Also check /opportunities/tenders for
-    individual tender notices. Next.js site - content in main .bg-white.p-8.rounded-lg.
+    Scrape https://www.wajibu.or.tz/opportunities/tenders for individual tender/consultancy notices.
+    Next.js SSR page lists cards with Posted/Deadline dates and PDF links at wbs.wajibu.or.tz/uploads/.
+    Note: /opportunities/procurement-plan returns 404 (removed). Filter expired tenders by Deadline date.
   selectors:
     container: "main .bg-white.p-8.rounded-lg, main .px-\\[12%\\]"
     tender_item: "table tbody tr.hover\\:bg-gray-50"
@@ -33,7 +32,7 @@ scraping:
   schedule: "daily"
 
   anti_bot:
-    requires_javascript: true
+    requires_javascript: false
     has_captcha: false
     rate_limit_seconds: 10
 
@@ -120,7 +119,7 @@ notes: |
 
 **Category:** NGO / Non-Profit Organization
 **Website:** https://www.wajibu.or.tz/
-**Tender Page:** https://www.wajibu.or.tz/opportunities/procurement-plan
+**Tender Page:** https://www.wajibu.or.tz/opportunities/tenders
 **Keywords Found:** bid, procurement, tender, tenders
 
 ## Contact Information

@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape https://gcla.go.tz/announcements (Matangazo) for GCLA announcements. Follow announcement detail pages. Documents at portal.gcla.go.tz/jarida/."
+  strategy: "Scrape https://gcla.go.tz/announcements (Matangazo) for procurement notices. As of 2026-06-10 announcements are price lists, training schedules, chemical regulations—not open tenders. No dedicated zabuni/manunuzi page. Documents at portal.gcla.go.tz/jarida/."
   selectors:
     container: ".announcements, .matangazo, .content, main, .entry-content, .page-content"
     tender_item: "article, .announcement-item, a[href*='/announcements/']"

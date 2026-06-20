@@ -1,0 +1,31 @@
+{
+  "tender_id": "AZANIABA-2026-056",
+  "institution": "azania-bank",
+  "title": "Pre-qualification Tender 2023",
+  "description": "Pre-qualification Tender 2023",
+  "reference_number": "",
+  "published_date": "",
+  "closing_date": "2023-03-07",
+  "closing_time": "",
+  "category": "General",
+  "status": "closed",
+  "source_url": "https://azaniabank.co.tz/tenders/",
+  "documents": [
+    {
+      "filename": "Supply-of-Note-Counting-Sorter-Machines.pdf",
+      "original_url": "https://azaniabank.co.tz/wp-content/uploads/2023/02/Supply-of-Note-Counting-Sorter-Machines.pdf",
+      "local_path": "./downloads/AZANIABA-2026-056/original/Supply-of-Note-Counting-Sorter-Machines.pdf",
+      "content_type": "application/pdf",
+      "downloaded_at": "2026-06-10T16:00:18.462Z"
+    }
+  ],
+  "contact": {
+    "name": "Procurement Management Unit",
+    "email": "procurement@azaniabank.co.tz",
+    "phone": "0800 110 210",
+    "address": "PSSSF Tower, Sam Nujoma Road, Dar es Salaam"
+  },
+  "eligibility": "Open to eligible registered suppliers",
+  "scraped_at": "2026-06-10T16:00:18.462Z",
+  "last_checked": "2026-06-10T16:00:18.462Z"
+}

@@ -17,7 +17,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape sua.ac.tz. Drupal 8 site. Homepage has news (block-views-block-news-block-1), events, useful links. Tenders may be at external site (sites.google.com/site/sualisa2020). Scrape news view for tender-related items; follow document links in Staff/ICT menus. Documents in /sites/default/files/."
+  strategy: "Drupal 8 site. 'Tenders & Procurement Services' menu item has empty href (no dedicated page). /jobs is employment — reject. News/events have no active procurement notices. ICT forms (ICT-Service-Request-Form.pdf) are internal service requests, not tenders. Check news periodically; procurement may be published ad-hoc."
   selectors:
     container: "main, #main-content, .region-content, .view-content, .block-views-block-news-block-1"
     tender_item: ".view-id-news .views-row, article, .node--type-news, .views-row"

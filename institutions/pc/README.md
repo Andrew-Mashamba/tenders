@@ -427,6 +427,7 @@ with smtplib.SMTP_SSL(config["host"], config["port"], context=context) as server
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
+- **Last Checked:** 11 June 2026
+- **Active Tenders:** 0
 - **Signal Strength:** Strong (tender, tenders)
+- **Note:** /tenders/ shows notavailable.webp placeholder — no open tenders. SSL may require curl -k.

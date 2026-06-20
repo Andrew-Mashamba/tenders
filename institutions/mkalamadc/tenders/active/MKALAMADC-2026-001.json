@@ -1,0 +1,31 @@
+{
+  "tender_id": "MKALAMADC-2026-001",
+  "institution": "mkalamadc",
+  "title": "Supply of Laptop Computers for Iguguno Secondary School",
+  "description": "Mkalama District Council ICT Unit (TEHAMA) has issued specifications for brand-new laptop computers (Windows 11 Pro, Intel Core i5 10th gen+, 8GB RAM, 256GB SSD, 14\" display) for Iguguno Secondary School procurement.",
+  "reference_number": "IGUGUNO_SEC_SPECS_COMPUTER_08022026",
+  "published_date": "2026-03-15",
+  "closing_date": null,
+  "closing_time": "",
+  "category": "ICT",
+  "status": "active",
+  "source_url": "https://mkalamadc.go.tz/api/files",
+  "documents": [
+    {
+      "filename": "IGUGUNO_SEC_Laptop_Specifications.pdf",
+      "original_url": "http://mkalamadc.go.tz/minio/mkalamadc.go.tz/files/1773579789986-IGUGUNO_SEC_SPECS_COMPUTER_08022026_5263622195324018136966111770568150121.pdf",
+      "local_path": "./downloads/MKALAMADC-2026-001/original/IGUGUNO_SEC_Laptop_Specifications.pdf",
+      "content_type": "application/pdf",
+      "downloaded_at": "2026-06-10T18:44:05.845339Z"
+    }
+  ],
+  "contact": {
+    "name": "ICT Unit (TEHAMA)",
+    "email": "ded@mkalamadc.go.tz",
+    "phone": "09-10-2024-",
+    "address": "Mkalama District Council, Singida, Tanzania"
+  },
+  "eligibility": "Registered suppliers meeting specified laptop technical requirements",
+  "scraped_at": "2026-06-10T18:44:05.845339Z",
+  "last_checked": "2026-06-10T18:44:05.845339Z"
+}

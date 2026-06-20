@@ -1,19 +1,20 @@
 ---
 institution:
-  name: "TFNC"
+  name: "Tanzania Food and Nutrition Centre (TFNC)"
   slug: "tfnc"
   category: "Government"
   status: "active"
   country: "Tanzania"
+  domain: "tfnc.go.tz"
 
 website:
   homepage: "https://tfnc.go.tz"
-  tender_url: "https://tfnc.go.tz"
+  tender_url: "https://tfnc.go.tz/tenders-vacancies"
 
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape https://tfnc.go.tz for tender/procurement documents. Tender page unreachable during analysis. Verify structure when accessible."
+  strategy: "Scrape https://tfnc.go.tz/tenders-vacancies — tabbed page with Tenders and Vacancies sections. Tender PDFs in /uploads/tender/. Site requires curl -k (SSL cert issues). Reject placeholder LoremIpsum.pdf and vacancy/job PDFs."
   selectors:
     container: ".tender-list, .content, main, .page-content, .entry-content, article"
     tender_item: "article, .tender-item, .card, .row, tr, li"

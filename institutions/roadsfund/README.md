@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape Zabuni (tenders) at /pages/zabuni and GPN (General Procurement Notices) at /publications/13. Nav: MANUNUZI > GPN, Zabuni. Main content in .main-content, .content-border. Sidebar has .sidebar-info .info-items. Documents in /uploads/news/, /uploads/gallery/, publications. Use -k for SSL if needed."
+  strategy: "Scrape Zabuni (tenders) at /pages/zabuni and GPN (General Procurement Notices) at /publications/13. Nav: MANUNUZI > GPN, Zabuni. Zabuni page shows 'Hakuna zabuni kwa sasa' when empty. GPN archive includes FY 2019/20 XLS only. Main content in .main-content, .content-border. Sidebar has .sidebar-info .info-items. Documents in /uploads/news/, /uploads/gallery/, publications. Use -k for SSL if needed."
   selectors:
     container: "section.main-content, .content-border, .content-layout"
     tender_item: ".sidebar-info .info-items .border-bottom, .sub-main-content .row, .media"
@@ -203,6 +203,6 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
-- **Signal Strength:** Strong (manunuzi, zabuni)
+- **Last Checked:** 11 June 2026
+- **Active Tenders:** 0 (Zabuni page: Hakuna zabuni kwa sasa)
+- **Signal Strength:** Strong (dedicated zabuni section; currently empty)

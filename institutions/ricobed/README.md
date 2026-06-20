@@ -206,6 +206,6 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
-- **Signal Strength:** Strong (procurement)
+- **Last Checked:** 11 June 2026
+- **Active Tenders:** 0 (Job_opportunities.html lists employment vacancies, not procurement)
+- **Signal Strength:** Weak (procurement course/department mentions only)

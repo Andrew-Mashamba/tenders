@@ -9,7 +9,8 @@ institution:
 
 website:
   homepage: "https://slads.ac.tz/"
-  tender_url: "https://slads.ac.tz/"
+  tender_url: "https://slads.ac.tz/announcement-documents"
+  tender_url_note: "SSL cert issue on strict curl; use curl -k. Homepage has Announcement section (joining instructions, prospectus) — not procurement. No zabuni page found."
 
 contact:
   email: "slads@tlsb.go.tz"
@@ -17,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Homepage has Announcement section and news. Check /announcement-documents for full list. Follow links to detail pages for documents."
+  strategy: "Homepage has Announcement section (admissions, prospectus, joining instructions). Check /announcement-documents for full list. No procurement/zabuni notices found — student admissions only. Use curl -k for SSL."
   selectors:
     container: "main, .content, .page-content, [class*='announcement']"
     tender_item: "article, .news-item, .announcement-item, h6 + a, li"

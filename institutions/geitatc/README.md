@@ -8,12 +8,12 @@ institution:
 
 website:
   homepage: "https://geitatc.go.tz"
-  tender_url: "https://geitatc.go.tz"
+  tender_url: "https://geitatc.go.tz/tenders"
 
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape homepage and linked pages for tender/procurement documents. 5 document links discovered."
+  strategy: "Scrape https://geitatc.go.tz/tenders for active zabuni (table: Jina la Zabuni, Tarehe iliyotolewa, Tarehe ya Mwisho). As of 2026-06-10 tenders table is empty. Homepage PDFs under /storage/app/uploads/public/ are bylaws and budget documents—not procurement tenders."
   selectors:
     container: ".tender-list, .content, main, .page-content, .entry-content, article"
     tender_item: "article, .tender-item, .card, .row, tr, li"

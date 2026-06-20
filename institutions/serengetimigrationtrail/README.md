@@ -16,9 +16,9 @@ contact:
   phone: "+255 784 773245"
 
 scraping:
-  enabled: true
+  enabled: false
   method: "http_get"
-  strategy: "Domain serengetimigrationtrail.co.tz resolves to Sakurahost (web hosting) - no institution tender content. Verified 2026-03-15. Re-enable if domain is restored."
+  strategy: "DISABLED: serengetimigrationtrail.co.tz is a safari/tourism company website (Safaris, Booking, Itineraries). No procurement content. Verified 2026-06-11."
   selectors:
     container: ".tender-list, .content, main, .entry-content, .page-content, article"
     tender_item: "article, .tender-item, .card, .row, li, tr"
@@ -185,6 +185,6 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
-- **Signal Strength:** Weak (supply/rfi only)
+- **Last Checked:** 11 June 2026
+- **Active Tenders:** 0 (tourism company — no procurement section)
+- **Signal Strength:** None

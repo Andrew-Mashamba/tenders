@@ -420,6 +420,6 @@ with smtplib.SMTP_SSL(config["host"], config["port"], context=context) as server
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
-- **Signal Strength:** Strong (manunuzi, procurement)
+- **Last Checked:** 10 June 2026
+- **Active Tenders:** 0
+- **Signal Strength:** Weak (Procurement Management Unit page describes PMU functions; homepage forms are ethics declarations, not open tenders)

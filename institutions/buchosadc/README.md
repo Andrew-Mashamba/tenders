@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape https://buchosadc.go.tz/tenders. Uses OctoberCMS/GWF table layout. Parse table.table.table-striped tbody tr for each tender; td[1]=title, td[2]=date added, td[3]=expire date, td[4] a=document link. Documents at /storage/app/uploads/public/."
+  strategy: "As of 2026-06-10 buchosadc.go.tz/tenders returns an unrelated 'GWF CORE' SPA shell (715 bytes) — original October CMS government portal is unavailable. Historical documents were at /storage/app/uploads/public/ but storage URLs now serve the SPA shell. Retry periodically; disable scraping if permanently down."
   selectors:
     container: "table.table.table-striped"
     tender_item: "table.table.table-striped tbody tr"
@@ -29,7 +29,7 @@ scraping:
   schedule: "daily"
 
   anti_bot:
-    requires_javascript: false
+    requires_javascript: true
     has_captcha: false
     rate_limit_seconds: 10
 
@@ -414,6 +414,6 @@ with smtplib.SMTP_SSL(config["host"], config["port"], context=context) as server
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
+- **Last Checked:** 10 June 2026
+- **Active Tenders:** 0 (site replaced with GWF CORE SPA — portal unavailable)
 - **Signal Strength:** Strong (tender, tenders, zabuni)

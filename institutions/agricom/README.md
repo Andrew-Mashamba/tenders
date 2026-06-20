@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Astro SPA - content loaded client-side. Scrape /positions or similar for procurement. Farm mechanization company - check for tender/procurement in dynamic content. May need headless browser."
+  strategy: "Remix SPA — content loaded client-side. /positions returns 404 catch-all. Farm mechanization company with e-commerce at /shop. No procurement/tender section found. Static curl fetch returns shell HTML only; may need headless browser for full content."
   selectors:
     container: "main, [data-astro], #root"
     tender_item: "article, [class*='card'], [class*='item']"
@@ -84,7 +84,7 @@ scraping:
         - "application/octet-stream"
 
     document_notes: |
-      Astro v4 SPA - HTML is minimal on initial load. Content in /assets/. Shop at shop.agricom.co.tz. Procurement content may require JS rendering.
+      Remix SPA - HTML is minimal on initial load. Content in /assets/. Shop at agricom.co.tz/shop. No procurement documents found. /positions is not a valid route.
 
   output:
     format: "json"
@@ -198,6 +198,6 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
-- **Signal Strength:** Strong (procurement)
+- **Last Checked:** 11 June 2026
+- **Active Tenders:** 0
+- **Signal Strength:** Weak (Remix SPA, no procurement section found)

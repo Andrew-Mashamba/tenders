@@ -18,8 +18,9 @@ scraping:
   enabled: true
   method: "http_get"
   strategy: |
-    Scrape https://tosci.go.tz/publications/tenders for seed-related tenders (zabuni, Aina ya Mbegu).
-    Government agency. Fetch may timeout; retry with longer timeout. Nav links to tender categories.
+    Scrape https://tosci.go.tz/publications/tenders for seed-related tenders (zabuni).
+    Page shows "Hakuna Taarifa kwa sasa" when no active tenders. SSL cert may fail on curl; use -k or browser UA.
+    Sidebar shows news/press releases (not tenders). Vacancies at /publications/vancancies (reject as jobs).
   selectors:
     container: ".content, main, .entry-content, .page-content, article, .nav-link"
     tender_item: "article, .tender-item, .card, .row, li, tr"

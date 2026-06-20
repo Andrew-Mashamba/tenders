@@ -19,9 +19,11 @@ scraping:
   enabled: true
   method: "http_get"
   strategy: |
-    Judiciary homepage has "Tenders" section (h3) with PDF links to /main_registry/announcements/.
-    Also has Recent News (.whats-item) and Haki Bulletin. Scrape Tenders section for document links;
-    .whats-item for news (may include tender-related announcements). Documents: PDFs in main_registry.
+    Judiciary homepage has "Tenders" section with a table (Tender No., Title, Closing Date, Document).
+    As of 2026-06-10 the tenders table shows "No Recent Data!" — no active procurement notices.
+    Announcements section has non-procurement PDFs (scorecards, petition windows) — reject as junk.
+    Also has Recent News (.whats-item) and Haki Bulletin. Use curl -k if SSL verification fails.
+    Documents: PDFs in /main_registry/announcements/ when tenders are posted.
   selectors:
     container: ".populer-news, .tab-class, .whats-carousel"
     tender_item: ".whats-item, a.h7[href*='main_registry/announcements']"
@@ -418,6 +420,6 @@ with smtplib.SMTP_SSL(config["host"], config["port"], context=context) as server
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
-- **Signal Strength:** Strong (tender, tenders)
+- **Last Checked:** 10 June 2026
+- **Active Tenders:** 0 (tenders table empty — "No Recent Data!")
+- **Signal Strength:** Strong (tender section exists; currently no listings)

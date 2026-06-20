@@ -8,12 +8,12 @@ institution:
 
 website:
   homepage: "https://www.utumishi.go.tz"
-  tender_url: "https://www.utumishi.go.tz"
+  tender_url: "https://www.utumishi.go.tz/pages/procurement-management"
 
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "President's Office - Public Service Management. Homepage has news, documents (Nyaraka, Fomu, Miongozo), vacancies (Nafasi za Kazi), procurement unit link. Tenders may be at /documents or procurement pages. Check Procurement Management Unit link."
+  strategy: "President's Office - Public Service Management. /pages/procurement-management is informational (unit mandate only, no tender listings). Matangazo (/documents/vancancies) has job vacancies and scholarships — reject as non-procurement. /documents/circular has policy circulars, not tenders. No active procurement notices found on site as of 2026-06-10."
   selectors:
     container: ".tender-list, .content, main, .page-content, .entry-content, article"
     tender_item: "article, .tender-item, .card, .row, tr, li"

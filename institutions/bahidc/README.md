@@ -1,6 +1,6 @@
 ---
 institution:
-  name: "Bahidc"
+  name: "Bahari District Council"
   slug: "bahidc"
   category: "Government"
   status: "active"
@@ -13,7 +13,7 @@ website:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape homepage and linked pages for tender/procurement documents. 10 document links discovered."
+  strategy: "As of 2026-06-10 bahidc.go.tz returns an unrelated 'GWF CORE' SPA shell — original government portal unavailable. Historical documents were at /storage/app/uploads/public/ and /storage/app/media/uploaded-files/. Retry periodically."
   selectors:
     container: ".tender-list, .content, main, .page-content, .entry-content, article"
     tender_item: "article, .tender-item, .card, .row, tr, li"
@@ -24,7 +24,7 @@ scraping:
   schedule: "daily"
 
   anti_bot:
-    requires_javascript: false
+    requires_javascript: true
     has_captcha: false
     rate_limit_seconds: 10
 

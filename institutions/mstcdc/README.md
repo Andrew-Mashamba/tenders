@@ -197,6 +197,6 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
+- **Last Checked:** 10 June 2026
+- **Active Tenders:** 0 (ICT tender MSTCDC-2026-001 closed 2025-09-08; still listed on /tenders page)
 - **Signal Strength:** Strong (tender, tenders)

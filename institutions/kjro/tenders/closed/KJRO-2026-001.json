@@ -1,0 +1,24 @@
+{
+  "tender_id": "KJRO-2026-001",
+  "institution": "kjro",
+  "title": "End of Year 2025 Annual Report (NOT A TENDER)",
+  "description": "Invalid record — annual report PDF mistakenly scraped as tender. Rejected during 2026-06-10 scrape.",
+  "reference_number": "",
+  "published_date": "",
+  "closing_date": "2026-06-10",
+  "closing_time": "",
+  "category": "General",
+  "status": "closed",
+  "source_url": "https://kjro.or.tz/",
+  "documents": [],
+  "contact": {
+    "name": "Procurement Department",
+    "email": "info@kjro.or.tz",
+    "phone": "07 352 256 352",
+    "address": ""
+  },
+  "eligibility": "",
+  "scraped_at": "2026-03-14T05:02:00.863456+00:00",
+  "last_checked": "2026-06-10T21:00:06.997708Z",
+  "rejection_reason": "Annual report, not a procurement notice"
+}

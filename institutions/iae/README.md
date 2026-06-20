@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Educational institution. Known document paths: /uploads/files/, /uploads/publications/. Scrape homepage and manunuzi/procurement pages. Fetch failed (SSL) on 2026-03-15—verify connectivity."
+  strategy: "Educational institution. Homepage accessible (SSL OK as of 2026-06-10). Known document paths: /uploads/files/, /uploads/publications/. No on-site procurement page — links to NeST (nest.go.tz) for e-procurement. /pages/manunuzi and /pages/procurement return 'Be right back' maintenance page."
   selectors:
     container: "main, .content, .entry-content, article, [class*='content']"
     tender_item: "article, .post, .tender-item, li, tr"
@@ -193,6 +193,6 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
-- **Signal Strength:** Strong (manunuzi)
+- **Last Checked:** 10 June 2026
+- **Active Tenders:** 0 (procurement via NeST; on-site manunuzi page down)
+- **Signal Strength:** Weak (external e-procurement only)

@@ -17,7 +17,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Procurement page lists supplier forms and RFPs as direct PDF links. Each a[href] to /content/dam/nbc/tanzania/pdf/procurement/ is a document. Includes RFP Commercial Credit, supplier code of conduct, policy PDFs."
+  strategy: "Procurement page lists policy PDFs and supplier forms. Tender Documents accordion currently has pre-qualification-document-2026.pdf only (closed May 2026). nbc-rfp-credit.pdf still hosted but no longer linked on page (closed March 2026). Filter for active RFPs with future deadlines only."
   selectors:
     container: "main, .content, [class*='procurement']"
     tender_item: 'a[href*="/content/dam/nbc/tanzania/pdf/procurement/"], a[href$=".pdf"]'

@@ -185,6 +185,6 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
+- **Last Checked:** 11 June 2026
+- **Active Tenders:** 1 (construction tender via slider detail page)
 - **Signal Strength:** Strong (zabuni)

@@ -14,7 +14,7 @@ website:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape https://eajess.ac.tz/tenders?i=1. Site displays 'This site requires Javascript to work'—content is loaded via JS. Use headless browser (Puppeteer/Playwright) or set requires_javascript true. Tender listing structure TBD after JS render."
+  strategy: "Scrape https://eajess.ac.tz/tenders?i=1. As of 2026-06-10 /tenders returns 404 Not Found; homepage times out. Site previously required JavaScript. Use headless browser when site is reachable. Tender listing structure TBD."
   selectors:
     container: ".tender-list, .content, main, .entry-content, .page-content, article"
     tender_item: "article, .tender-item, .card, .row, li, tr"

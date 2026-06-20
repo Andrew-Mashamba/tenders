@@ -17,7 +17,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Daily News is a newspaper. Tender/RFI notices appear as news articles. Scrape homepage and use search ?s=tender or ?s=rfi to find procurement-related articles. Parse .post-item entries from .mag-box containers."
+  strategy: "Daily News is a newspaper — search ?s=tender returns news articles ABOUT tenders (government announcements), not actual procurement notices with bid documents. Reject news/press coverage. Only accept articles that embed downloadable tender PDFs or are official RFI/RFP notices from institutions. Parse .post-item from search results; follow article detail pages for wp-content/uploads PDFs."
   selectors:
     container: ".mag-box, .mag-box-container, #tie-block_427"
     tender_item: ".post-item"

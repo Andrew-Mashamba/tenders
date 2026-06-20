@@ -18,8 +18,8 @@ scraping:
   enabled: true
   method: "http_get"
   strategy: |
-    WordPress site. Homepage has Announcements (.mh-custom-announcement-posts-item) and links to NeST.
-    Scrape /downloads/ for documents. Tenders may be on NeST (tanzanite.muse.go.tz). Check E-services menu.
+    WordPress site. Homepage Announcements widget shows research publications/newsletters only — not tenders (verified 2026-06-11).
+    Links to NeST (nest.go.tz) for procurement. /downloads/ has conference abstracts. Tenders require NeST SPA scraping.
   selectors:
     container: "#main-content, .mh-content-full-width, main, .panel-grid"
     tender_item: ".mh-custom-announcement-posts-item, .post, article, .wpdm-download-link"
@@ -198,6 +198,7 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
+- **Last Checked:** 11 June 2026
+- **Active Tenders:** 0
 - **Signal Strength:** Strong (procurement, rfp)
+- **Notes:** Announcements are research papers/newsletters. Procurement via NeST link only.

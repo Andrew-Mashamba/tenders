@@ -11,7 +11,7 @@ website:
   tender_url: "https://furniturehouse.co.tz"
 
 scraping:
-  enabled: true
+  enabled: false
   method: "http_get"
   strategy: "DISABLED: furniturehouse.co.tz is an e-commerce furniture store (WooCommerce). No tender/procurement content found. Homepage shows product categories (dining, office furniture, sofas) and shop links. No dedicated tender page exists."
   selectors:

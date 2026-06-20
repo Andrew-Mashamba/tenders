@@ -14,9 +14,10 @@ scraping:
   enabled: true
   method: "http_get"
   strategy: |
-    Scrape https://itigidc.go.tz/tenders. October CMS. Tender table: table.table.table-striped.
-    Main content in .right-sidebar-content. Each row in tbody tr. Documents at /storage/app/uploads/public/.
-    Use curl -k for SSL. Page meta says "Display all tenders".
+    Site migrated to GWF CORE React SPA (2026). HTML pages return empty #root shell — use REST APIs.
+    Check GET https://itigidc.go.tz/api/announcements and /api/from-tamisemi for Zabuni category items.
+    Local announcements may include Ajira (jobs) — reject non-procurement. Documents on minio paths.
+    Use curl -k for SSL. Syndicated TAMISEMI Zabuni items are national content, not council-specific.
   selectors:
     container: ".right-sidebar-content, .middle-content-wrapper"
     tender_item: "table.table.table-striped tbody tr"
@@ -27,7 +28,7 @@ scraping:
   schedule: "daily"
 
   anti_bot:
-    requires_javascript: false
+    requires_javascript: true
     has_captcha: false
     rate_limit_seconds: 10
 

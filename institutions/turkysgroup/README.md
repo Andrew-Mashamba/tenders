@@ -1,6 +1,6 @@
 ---
 institution:
-  name: "Home - Turkys Group"
+  name: "Turkys Group"
   slug: "turkysgroup"
   category: "Commercial / Private Sector"
   status: "active"

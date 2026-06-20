@@ -33,5 +33,8 @@ scraping:
     format: "json"
     fields: [tender_id, title, description, published_date, closing_date, document_links, contact_info]
 
+contact:
+  email: "info@ursa.co.tz"
+
 notes: |
-  Scrape homepage for tenders/procurement. If none found, identify opportunities and add to leads.
+  URSA Tanzania — transport/logistics company. No procurement section on site. Sell opportunity for fleet management, HR, or ICT systems.

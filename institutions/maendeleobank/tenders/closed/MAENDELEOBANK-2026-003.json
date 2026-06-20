@@ -1,0 +1,31 @@
+{
+  "tender_id": "MAENDELEOBANK-2026-003",
+  "institution": "maendeleobank",
+  "title": "RFQ for Enterprise Server",
+  "description": "Maendeleo Bank PLC invites qualified vendors to submit quotations for provision of an enterprise-grade server for business-critical IT operations.",
+  "reference_number": "",
+  "published_date": "2026-05-01",
+  "closing_date": "2026-05-29",
+  "closing_time": "",
+  "category": "ICT",
+  "status": "closed",
+  "source_url": "https://maendeleobank.co.tz/index.php/tender/",
+  "documents": [
+    {
+      "filename": "ENTERPRISEV1_compressed.pdf",
+      "original_url": "https://maendeleobank.co.tz/wp-content/uploads/2026/05/ENTERPRISEV1_compressed.pdf",
+      "local_path": "./downloads/MAENDELEOBANK-2026-003/original/ENTERPRISEV1_compressed.pdf",
+      "content_type": "application/pdf",
+      "downloaded_at": "2026-06-10T18:18:53.968Z"
+    }
+  ],
+  "contact": {
+    "name": "Procurement Department",
+    "email": "tenders@maendeleobank.co.tz",
+    "phone": "03937007874",
+    "address": "Maendeleo Bank Plc, Tanzania"
+  },
+  "eligibility": "Qualified and experienced vendors as specified in tender documents",
+  "scraped_at": "2026-06-10T18:18:53.968Z",
+  "last_checked": "2026-06-10T18:18:53.968Z"
+}

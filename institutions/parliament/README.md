@@ -426,7 +426,7 @@ with smtplib.SMTP_SSL(config["host"], config["port"], context=context) as server
 
 ## Status
 
-- **Last Checked:** 15 March 2026
+- **Last Checked:** 11 June 2026
 - **Active Tenders:** 0
 - **Signal Strength:** Strong (zabuni)
-- **Note:** /zabuni returns 404; Zabuni links to nest.go.tz (external)
+- **Note:** Procurement (Zabuni) links externally to nest.go.tz. Site hosts order papers/bills/hansard only — not procurement tenders. SSL cert may require curl -k.

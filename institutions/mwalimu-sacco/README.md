@@ -13,7 +13,7 @@ website:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape /tenders/ page. Large SACCO — has prequalification documents."
+  strategy: "Tenders page loads via AJAX POST to assets/includes/ajapp.php (fc_tenders, fcom=62). PDFs embedded at /assets/file/{id}-{hash}--{slug}.pdf on resource detail pages. All listed tenders currently show Archived status; verify closing dates in PDF before creating active records."
   selectors:
     container: ".tenders, .content, main"
     tender_item: "article, .tender-item, .card"
@@ -61,6 +61,7 @@ scraping:
     
     known_document_paths:
       - "/tenders/"
+      - "/assets/file/"
       - "/wp-content/uploads/"
       - "/downloads/"
     

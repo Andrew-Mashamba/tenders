@@ -9,7 +9,7 @@ institution:
 
 website:
   homepage: "https://www.jifunzeujasiriamali.co.tz/"
-  tender_url: "https://www.jifunzeujasiriamali.co.tz/2025/05/sehemu-ya-2-maelezo-ya-bidhaa-tathmini.html"
+  tender_url: "https://www.jifunzeujasiriamali.co.tz/"
 
 contact:
   email: "jifunzeujasiriamali@gmail.com"
@@ -19,7 +19,9 @@ scraping:
   enabled: true
   method: "http_get"
   strategy: |
-    Educational blog about business plan writing (Swahili). tender_url points to a single blog post (Sehemu ya 2: Maelezo ya Bidhaa & Tathmini ya Soko) — not tender listings. Scraping disabled.
+    Educational blog about entrepreneurship and business plan writing (Swahili). Homepage and blog
+    posts contain educational content only — no procurement notices. Previous tender_url pointed to
+    a blog post with false-positive "bid" keyword; use homepage instead.
   selectors:
     container: ".tender-list, .content, main, .entry-content, .page-content, article"
     tender_item: "article, .tender-item, .card, .row, li, tr"
@@ -107,7 +109,7 @@ notes: |
 
 **Category:** Commercial / Private Sector
 **Website:** https://www.jifunzeujasiriamali.co.tz/
-**Tender Page:** https://www.jifunzeujasiriamali.co.tz/2025/05/sehemu-ya-2-maelezo-ya-bidhaa-tathmini.html
+**Tender Page:** https://www.jifunzeujasiriamali.co.tz/
 **Keywords Found:** bid, rfq
 
 ## Contact Information
@@ -190,6 +192,6 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
-- **Signal Strength:** Strong (rfq)
+- **Last Checked:** 10 June 2026
+- **Active Tenders:** 0 (entrepreneurship education blog; no procurement content)
+- **Signal Strength:** Weak (blog content only; "bid" keyword is false positive)

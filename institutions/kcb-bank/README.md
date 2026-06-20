@@ -106,6 +106,7 @@ notes: |
   Has a suppliers page. Kenyan parent bank (KCB Group). May list tenders and prequalification notices.
   WARNING (2026-03-13): tz.kcbgroup.com DNS not resolving. Fallback to ke.kcbgroup.com/about-us/suppliers.
   WARNING (2026-03-15): tz.kcbgroup.com returns 503 Service Unavailable. Tanzania suppliers page unreachable.
+  WARNING (2026-06-10): tz.kcbgroup.com DNS resolution fails (HTTP 000). Site still unreachable. Do not scrape ke.kcbgroup.com tenders — those are KCB Kenya, not Tanzania.
   The Open Tenders section has pagination but tender items appear to require JavaScript rendering or are currently empty.
 ---
 

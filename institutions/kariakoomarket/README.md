@@ -18,8 +18,10 @@ scraping:
   enabled: true
   method: "http_get"
   strategy: |
-    OctoberCMS-style procurement page. Scrape /procurement-and-supply for zabuni/tender notices.
-    Documents at /storage/app/uploads/public/{hash}/. Site may timeout; use retry/backoff.
+    OctoberCMS-style procurement page. As of 2026-06-10, kariakoomarket.co.tz redirects (301) to
+    https://www.buwssa.go.tz/ — domain appears hijacked or misconfigured. Historically,
+    /procurement-and-supply had zabuni notices with documents at /storage/app/uploads/public/{hash}/.
+    Retry periodically; verify redirect chain before scraping.
   selectors:
     container: "table.table-striped, .right-sidebar-content, .home-page-title"
     tender_item: "table.table-striped tbody tr, .ads-listing li"

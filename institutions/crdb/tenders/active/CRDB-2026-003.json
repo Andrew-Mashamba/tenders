@@ -1,0 +1,32 @@
+{
+  "title": "Publication of the EOI: Implementation of the Stress Testing System for CRDB Bank Plc",
+  "description": "CRDB Bank intends to implement an automated Group-wide Stress Testing Solution to strengthen enterprise-wide risk oversight, support capital and liquidity planning, improve scenario analysis, and enhance resilience under adverse macroeconomic conditions. Qualified vendors are invited to express interest in design, supply, implementation, integration, testing, training, commissioning, and post-implementation support.",
+  "reference_number": "CRDB/EOI/2026/Stress-Testing",
+  "published_date": "2026-06-01",
+  "closing_date": "2026-06-30",
+  "closing_time": "12:00 EAT",
+  "category": "ICT",
+  "status": "active",
+  "source_url": "https://crdbbank.co.tz/about-us/tender",
+  "documents": [
+    {
+      "filename": "Detailed_EOI_Reference_Document_Stress_Testing_System_Final.pdf",
+      "original_url": "https://crdbbank.co.tz/storage/app/media/Tender/2026/Detailed%20EOI%20Reference%20Document%20-%20Stress%20Testing%20System_Final.pdf",
+      "local_path": "./downloads/CRDB-2026-003/original/Detailed_EOI_Reference_Document_Stress_Testing_System_Final.pdf",
+      "content_type": "application/pdf",
+      "file_size_bytes": 313001,
+      "downloaded_at": "2026-06-10T16:28:43.200506Z"
+    }
+  ],
+  "contact": {
+    "name": "Procurement Department",
+    "email": "tenders@crdbbank.co.tz",
+    "phone": "+255222197700",
+    "address": "CRDB Bank Plc, Dar es Salaam, Tanzania"
+  },
+  "eligibility": "Qualified bidders and solution vendors meeting pre-disclosed eligibility and qualification requirements",
+  "scraped_at": "2026-06-10T16:28:43.200506Z",
+  "last_checked": "2026-06-10T16:28:43.200506Z",
+  "tender_id": "CRDB-2026-003",
+  "institution": "crdb"
+}

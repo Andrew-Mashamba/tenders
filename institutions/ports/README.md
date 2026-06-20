@@ -197,6 +197,6 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
+- **Last Checked:** 11 June 2026
+- **Active Tenders:** 0 (current tenders page empty; GPN PDF is planning doc only)
 - **Signal Strength:** Strong (procurement, tender, tenders)

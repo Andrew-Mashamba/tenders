@@ -15,7 +15,7 @@ contact:
   phone: "026-02-10"
 
 scraping:
-  enabled: true
+  enabled: false
   method: "http_get"
   strategy: "DISABLED: Site is MP constituency website. No dedicated tender listing. Documents at /wp-content/uploads/ are CCM volumes, CVs - not tenders. 'Manunuzi' in news refers to TANROADS procurement, not site's own tenders."
   selectors:

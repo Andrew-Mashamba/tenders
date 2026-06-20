@@ -8,12 +8,12 @@ institution:
 
 website:
   homepage: "https://gpsa.go.tz"
-  tender_url: "https://gpsa.go.tz"
+  tender_url: "https://gpsa.go.tz/tenders"
 
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape homepage and linked pages for tender/procurement documents. 2 document links discovered."
+  strategy: "Scrape https://gpsa.go.tz/tenders for Zabuni listings. Each item shows title, posted date (Imewekwa), closing date (Tarehe ya Mwisho), and PDF link under /uploads/tenders/."
   selectors:
     container: ".tender-list, .content, main, .page-content, .entry-content, article"
     tender_item: "article, .tender-item, .card, .row, tr, li"
@@ -82,7 +82,7 @@ scraping:
         - "application/octet-stream"
 
     document_notes: |
-      Documents found under /uploads/tenders/. Page fetch timed out during analysis (SSL); verify selectors when site is reachable.
+      Documents found under /uploads/tenders/. Tender listing at /tenders shows posted and closing dates per item. Active items include GIMIS registration forms for procuring entities.
 
   output:
     format: "json"
@@ -106,7 +106,7 @@ notes: |
 
 **Category:** Government
 **Website:** https://gpsa.go.tz
-**Tender Page:** https://gpsa.go.tz
+**Tender Page:** https://gpsa.go.tz/tenders
 
 ## Scraping Instructions
 

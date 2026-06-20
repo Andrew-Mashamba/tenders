@@ -19,7 +19,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape nyaraka.go.tz homepage. Government records/archives agency. Look for procurement (Kitengo cha Ununuzi na ugavi), events, and document links. Site may be intermittently unreachable."
+  strategy: "Government records/archives agency (DRAM). Homepage Matangazo section may list public auctions (mnada wa hadhara) for scrap assets — reject as non-procurement. Procurement unit page is descriptive only; no open tender listings. Tenders likely on TANePS. Site reachable with curl -k."
   selectors:
     container: ".tender-list, .content, main, .entry-content, .page-content, article"
     tender_item: "article, .tender-item, .card, .row, li, tr"
@@ -193,6 +193,6 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
+- **Last Checked:** 11 June 2026
+- **Active Tenders:** 0 (only expired public auction notice for scrap equipment)
 - **Signal Strength:** Strong (procurement)

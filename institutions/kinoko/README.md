@@ -95,8 +95,9 @@ scraping:
       - contact_info
 
 notes: |
-  Category: Commercial. Keywords found: procurement.
+  Category: Commercial. Keywords found: procurement (in management functions list only).
   Emails: info@kinoko.co.tz.
+  No dedicated tender page as of 2026-06-10.
   Discovered by crawler on 2026-03-15.
 ---
 

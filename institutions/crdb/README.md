@@ -412,6 +412,6 @@ with smtplib.SMTP_SSL(config["host"], config["port"], context=context) as server
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
+- **Last Checked:** 10 June 2026
+- **Active Tenders:** 1 (Stress Testing System EOI, closes 2026-06-30)
 - **Signal Strength:** Strong (tender, tenders)

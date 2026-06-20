@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape https://panganidc.go.tz/advertisement/tangazo-la-zabuni-2. Pangani District Council - Tangazo la zabuni page. Main content in .right-sidebar-content; PDF links in sidebar and publications. Use -k for SSL if needed."
+  strategy: "Site migrated to GWF CORE SPA (requires JavaScript for HTML). Use REST API instead: GET /api/advertisements, /api/announcements for local Pangani content. Filter category Zabuni/manunuzi; reject job notices (ajira/usaili), plot sales (mauzo), loan applications, and TAMISEMI national feed items. Documents at /minio/panganidc.go.tz/attachments/."
   selectors:
     container: ".right-sidebar-content, .left-sidebar-wrapper"
     tender_item: ".article-head, .right-sidebar-container, ul li"
@@ -29,7 +29,7 @@ scraping:
   schedule: "daily"
 
   anti_bot:
-    requires_javascript: false
+    requires_javascript: true
     has_captcha: false
     rate_limit_seconds: 10
 
@@ -66,10 +66,11 @@ scraping:
       decode_percent_encoding: true
 
     known_document_paths:
+      - "/minio/panganidc.go.tz/attachments/"
       - "/storage/app/uploads/public/"
     url_patterns:
+      - "panganidc.go.tz/minio/panganidc.go.tz/attachments/*.pdf"
       - "panganidc.go.tz/storage/app/uploads/public/*.pdf"
-      - "gwf.egatest.go.tz/panganidc/storage/app/uploads/public/*.pdf"
 
     download_rules:
       max_file_size_mb: 50
@@ -87,7 +88,8 @@ scraping:
         - "application/octet-stream"
 
     document_notes: |
-      PDFs in /storage/app/uploads/public/ (hash-based subpaths). Some links use gwf.egatest.go.tz/panganidc/ mirror.
+      Site is GWF CORE SPA; tender data via /api/advertisements and /api/announcements JSON APIs.
+      PDF attachments at /minio/panganidc.go.tz/attachments/. Legacy paths at /storage/app/uploads/public/.
 
   output:
     format: "json"
@@ -210,7 +212,7 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 15 March 2026
+- **Last Checked:** 11 June 2026
 - **Active Tenders:** 0
 - **Signal Strength:** Strong (manunuzi, procurement, tender, tenders, zabuni)
-- **Note:** Tangazo la zabuni page links to Mwongozo wa Tehama and Ratiba ya Vikao (not tender docs)
+- **Note:** GWF CORE SPA; API has stall-leasing notices, loan forms, and job interview announcements — no active zabuni/manunuzi as of 2026-06-11

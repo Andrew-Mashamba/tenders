@@ -33,5 +33,9 @@ scraping:
     format: "json"
     fields: [tender_id, title, description, published_date, closing_date, document_links, contact_info]
 
+contact:
+  email: "info@unitedinfrastructures.co.tz"
+  phone: "+255715123550"
+
 notes: |
-  Scrape homepage for tenders/procurement. If none found, identify opportunities and add to leads.
+  UIS (United Infrastructure Solutions) — ICT infrastructure company (CCTV, IP-PBX, fire alarm, video conferencing). No procurement/tender section on site. Partner/sell opportunity for Zima ICT services. Emails: info@unitedinfrastructures.co.tz, sales@unitedinfrastructures.co.tz.

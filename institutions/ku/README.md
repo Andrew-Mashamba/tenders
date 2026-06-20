@@ -9,7 +9,7 @@ institution:
 
 website:
   homepage: "https://web.ku.ac.tz/"
-  tender_url: "https://web.ku.ac.tz/component/content/article/request-for-proposals-rfp-for-debt-collection-services?catid=9&Itemid=101"
+  tender_url: "https://web.ku.ac.tz/component/content/category/announcements?Itemid=101"
 
 contact:
   email: "vc@ku.ac.tz"
@@ -21,7 +21,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape Joomla RFP article page. Single article layout. Content in .sppb-addon-content, .item-page. Also check IREC (/irec) and category catid=9 for more RFPs. Documents in /images/, /documents/, downloads.ku.ac.tz."
+  strategy: "Scrape announcements category (catid=9) for RFP/tender articles. Requires browser User-Agent header (Mod_Security blocks default curl). Parse article body and embedded PDFs in /images/documents/. Reject vacancies and expired RFPs. Known RFPs: debt collection (closed Oct 2025), catering cafeteria (closed Mar 2025)."
   selectors:
     container: ".sp-page-builder .page-content, .item-page, .sppb-addon-content"
     tender_item: ".sppb-addon-text-block, .sppb-addon-article, article"
@@ -34,7 +34,9 @@ scraping:
   anti_bot:
     requires_javascript: false
     has_captcha: false
+    mod_security: true
     rate_limit_seconds: 10
+    user_agent_required: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 
   documents:
     download_enabled: true
@@ -212,6 +214,6 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
+- **Last Checked:** 10 June 2026
+- **Active Tenders:** 0 (all RFPs in announcements category expired)
 - **Signal Strength:** Strong (rfp)

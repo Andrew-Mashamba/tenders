@@ -2,16 +2,30 @@
   "tender_id": "ZATU-2026-001",
   "institution": "zatu",
   "title": "REQUEST FOR PROPOSALS (RFP) FOR CONDUCTING ZATU EVALUATION",
-  "description": "ZATU invites proposals for conducting ZATU evaluation.",
+  "description": "Zanzibar Teachers Union invites qualified consultants to conduct a comprehensive evaluation of ZATU programs, performance, and institutional capacities including review of strategies, program achievements, governance, stakeholder data collection, and production of evaluation reports.",
+  "reference_number": "ZATU/RFP/2025/001",
   "published_date": "2025-12-10",
-  "closing_date": "2025-12-10",
+  "closing_date": "2026-01-02",
+  "closing_time": "17:00 EAT",
+  "category": "Consultancy",
   "status": "closed",
   "source_url": "https://zatu.or.tz/",
-  "documents": [],
+  "documents": [
+    {
+      "filename": "ZATU-RFP-Evaluation-2025.pdf",
+      "original_url": "https://drive.google.com/file/d/1qSnzR60wczJSdx4hs9XQXkETtyhgnyfU/view?usp=sharing",
+      "local_path": "./downloads/ZATU-2026-001/original/ZATU-RFP-Evaluation-2025.pdf",
+      "content_type": "application/pdf",
+      "downloaded_at": "2026-06-10T20:33:14.033Z"
+    }
+  ],
   "contact": {
-    "email": "info@zatu.or.tz",
-    "phone": "+255777785597"
+    "name": "General Secretary, Zanzibar Teachers Union",
+    "email": "zatuznz@gmail.com",
+    "phone": "+255777785597",
+    "address": "P.O. Box 1497, Mwanakwerekwe C, Zanzibar, Tanzania"
   },
-  "scraped_at": "2026-03-15T12:04:58Z",
-  "last_checked": "2026-03-15T12:04:58Z"
+  "eligibility": "Consultants/firms with 3+ years experience in institutional evaluations, trade unions/NGOs; fluency in Swahili and English required.",
+  "scraped_at": "2026-06-10T20:33:14.033Z",
+  "last_checked": "2026-06-10T20:33:14.033Z"
 }

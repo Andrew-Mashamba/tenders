@@ -8,12 +8,12 @@ institution:
 
 website:
   homepage: "https://chinadashengbank.co.tz/"
-  tender_url: "null"
+  tender_url: "https://cdbbank.co.tz/"
 
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "No dedicated tender page. Chinese-owned bank with limited public procurement."
+  strategy: "chinadashengbank.co.tz returns Apache directory listing only (no website). Scrape cdbbank.co.tz homepage marquee for EOI/tender PDFs at /uploads/. Same bank as cdbbank slug. EOI ExpressionOfInterest.pdf deadline was 31 Oct 2024 (expired but still linked)."
   selectors:
     container: "body"
     tender_list: "unknown"

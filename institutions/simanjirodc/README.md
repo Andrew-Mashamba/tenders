@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape https://simanjirodc.go.tz/tenders. Tenders in HTML table (table.table-striped). Columns: Jina la zabuni (title), Tarehe Ongezeka (published), Expire Date (closing), Pakua (download link). Documents at /storage/app/uploads/public/."
+  strategy: "Site restructured to GWF CORE React SPA (June 2026). /tenders returns empty SPA shell with no server-rendered tender table. Legacy October CMS tender table no longer available via HTTP GET. Monitor for restored tender page or alternate URL."
   selectors:
     container: ".right-sidebar-content"
     tender_item: "table.table.table-striped tbody tr"
@@ -29,7 +29,7 @@ scraping:
   schedule: "daily"
 
   anti_bot:
-    requires_javascript: false
+    requires_javascript: true
     has_captcha: false
     rate_limit_seconds: 10
 
@@ -211,6 +211,6 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
+- **Last Checked:** 11 June 2026
+- **Active Tenders:** 0 (site restructured to GWF CORE SPA)
 - **Signal Strength:** Strong (procurement, tender, tenders, zabuni)

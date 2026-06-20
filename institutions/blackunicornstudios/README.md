@@ -1,6 +1,6 @@
 ---
 institution:
-  name: "Home    | Black Unicorn Studio"
+  name: "Black Unicorn Studio"
   slug: "blackunicornstudios"
   category: "Commercial / Private Sector"
   status: "active"
@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape https://www.blackunicornstudios.co.tz/ for tender/procurement notices."
+  strategy: "Wix-hosted creative/media studio portfolio site. No procurement or tender section. Keywords 'bid/eoi/rfi' are false positives from page scripts."
   selectors:
     container: ".tender-list, .content, main, .entry-content, .page-content, article"
     tender_item: "article, .tender-item, .card, .row, li, tr"
@@ -401,6 +401,6 @@ with smtplib.SMTP_SSL(config["host"], config["port"], context=context) as server
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
+- **Last Checked:** 10 June 2026
+- **Active Tenders:** 0 (creative studio; no procurement section)
 - **Signal Strength:** Strong (eoi)

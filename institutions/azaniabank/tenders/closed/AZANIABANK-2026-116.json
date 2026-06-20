@@ -1,0 +1,31 @@
+{
+  "tender_id": "AZANIABANK-2026-116",
+  "institution": "azaniabank",
+  "title": "Provision of Bankers Blanket Bond (BBB) Services",
+  "description": "Provision of Bankers Blanket Bond (BBB) Services",
+  "reference_number": "",
+  "published_date": "",
+  "closing_date": "2024-01-22",
+  "closing_time": "",
+  "category": "General",
+  "status": "closed",
+  "source_url": "https://azaniabank.co.tz/tenders/",
+  "documents": [
+    {
+      "filename": "TD-2024-Provision-of-Bankers-Blanket-Bond-BBB-Services.pdf",
+      "original_url": "https://azaniabank.co.tz/wp-content/uploads/2024/01/TD-2024-Provision-of-Bankers-Blanket-Bond-BBB-Services.pdf",
+      "local_path": "./downloads/AZANIABANK-2026-116/original/TD-2024-Provision-of-Bankers-Blanket-Bond-BBB-Services.pdf",
+      "content_type": "application/pdf",
+      "downloaded_at": "2026-06-10T16:00:18.462Z"
+    }
+  ],
+  "contact": {
+    "name": "Procurement Management Unit",
+    "email": "procurement@azaniabank.co.tz",
+    "phone": "0800 110 210",
+    "address": "PSSSF Tower, Sam Nujoma Road, Dar es Salaam"
+  },
+  "eligibility": "Open to eligible registered suppliers",
+  "scraped_at": "2026-06-10T16:00:18.462Z",
+  "last_checked": "2026-06-10T16:00:18.462Z"
+}

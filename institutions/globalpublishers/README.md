@@ -15,7 +15,7 @@ contact:
   phone: "020           "
 
 scraping:
-  enabled: true
+  enabled: false
   method: "http_get"
   strategy: "DISABLED: Ajira category is job vacancies (nafasi za kazi) only, not procurement tenders. All content is employment postings. No tender/procurement content."
   selectors:

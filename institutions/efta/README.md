@@ -8,12 +8,12 @@ institution:
 
 website:
   homepage: "https://efta.co.tz"
-  tender_url: "https://efta.co.tz"
+  tender_url: "https://efta.co.tz/procurement/"
 
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape https://efta.co.tz homepage and news section. EFTA (Equity for Tanzania) publishes tenders/EOI in 'recent news and updates' (e.g. 'Call for Expression of Interest for External Audit Services'). Site uses Cloudflare; may require JS for full load."
+  strategy: "Scrape https://efta.co.tz/procurement/ and homepage news. EFTA publishes EOI/tenders on dedicated procurement page (e.g. External Audit Services EOI). Check closing dates — past EOIs remain listed after expiry."
   selectors:
     container: ".tender-list, .content, main, .page-content, .entry-content, article"
     tender_item: "article, .tender-item, .card, .row, tr, li"
@@ -24,7 +24,7 @@ scraping:
   schedule: "daily"
 
   anti_bot:
-    requires_javascript: true
+    requires_javascript: false
     has_captcha: false
     rate_limit_seconds: 10
 
@@ -75,8 +75,15 @@ scraping:
         - "application/zip"
         - "application/octet-stream"
 
+    known_document_paths:
+      - "/wp-content/uploads/2025/06/"
+      - "/wp-content/uploads/2026/04/"
+
+    url_patterns:
+      - "efta.co.tz/wp-content/uploads/*.pdf"
+
     document_notes: |
-      Document paths not yet confirmed. The scraper should discover document links during the first run.
+      Procurement page at /procurement/. EOI documents in /wp-content/uploads/2025/06/. Result announcements in /wp-content/uploads/2026/04/. Active EOI for External Audit Services expired 2025-07-30.
 
   output:
     format: "json"

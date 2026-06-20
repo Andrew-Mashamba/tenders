@@ -13,7 +13,7 @@ website:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape the /tenders/ page. Look for a list of tender items with title, closing date, and PDF download links."
+  strategy: "Scrape https://www.acbbank.co.tz/tenders/ — WordPress/Elementor page. As of 2026-06-10 page loads but contains no tender listings or PDF links (empty state). Monitor for new listings; also check TANePS alternative source."
   selectors:
     container: ".tenders-list, .content, main"
     tender_item: "article, .tender-item, .post"

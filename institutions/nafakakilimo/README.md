@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape homepage and news.php for job announcements (NAFAKA KILIMO - Job announcement). News items list job/tender posts. Documents in /assets/docs/."
+  strategy: "Scrape homepage and news.php. Site publishes job vacancy announcements only (NKJobAnnouncementPost PDFs in /assets/docs/) — NOT procurement tenders. Reject as employment vacancies. No active procurement section found."
   selectors:
     container: "main, .content, .news-section, .post-list"
     tender_item: ".post-item, .news-item, article, li"
@@ -193,6 +193,6 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
-- **Signal Strength:** Weak (supply/rfi only)
+- **Last Checked:** 11 June 2026
+- **Active Tenders:** 0 (job announcements only, not procurement)
+- **Signal Strength:** Weak (employment vacancies only, not procurement)

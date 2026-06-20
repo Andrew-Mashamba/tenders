@@ -8,15 +8,17 @@ institution:
 
 website:
   homepage: "https://thps.or.tz"
-  tender_url: "https://www.thps.or.tz"
+  tender_url: "https://www.thps.or.tz/jobs-tenders/"
 
 scraping:
   enabled: true
   method: "http_get"
   strategy: |
-    WordPress/Elementor site. thps.or.tz redirects to www.thps.or.tz. Uses Download
-    Manager plugin (wpdm). No dedicated /tenders/ page found (404). Scrape homepage
-    and discover tender/document links. Site may be slow - increase timeout.
+    WordPress/Elementor site. thps.or.tz redirects to www.thps.or.tz. Jobs & Tenders
+    page at /jobs-tenders/ has two sections: job vacancies (thps-vacancy post type —
+    REJECT as employment) and "Available Tenders" (Elementor loop-grid, template 1326).
+    As of 2026-06-10 the Available Tenders section is empty (e-loop-nothing-found).
+    Uses Download Manager plugin (wpdm). Site may be slow - increase timeout.
   selectors:
     container: ".elementor-widget-container, .e-con, main, .entry-content, .page-content"
     tender_item: "article, .tender-item, .card, .elementor-element, .wpdm-download-link"
@@ -104,7 +106,7 @@ notes: |
 
 **Category:** NGO/Non-Profit
 **Website:** https://thps.or.tz
-**Tender Page:** https://thps.or.tz
+**Tender Page:** https://www.thps.or.tz/jobs-tenders/
 
 ## Scraping Instructions
 

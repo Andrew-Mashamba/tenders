@@ -198,6 +198,6 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
+- **Last Checked:** 11 June 2026
+- **Active Tenders:** 0 (corporate marketing site, no tender listings)
 - **Signal Strength:** Strong (procurement)

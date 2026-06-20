@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape homepage for procurement/tender notices. TSC = Tume ya Utumishi wa Walimu. Site may be slow or unreachable - fetch timed out during analysis. Retry with longer timeout."
+  strategy: "Scrape homepage and /pages/procurement-and-supply-management-unit for tender notices. TSC = Tume ya Utumishi wa Walimu. Site requires curl -k (SSL cert issue). Procurement unit page describes PMU functions only — no tender listings or PDF links. Actual tenders published on NeST (nest.go.tz). Verified 2026-06-11."
   selectors:
     container: ".tender-list, .content, main, .entry-content, .page-content, article"
     tender_item: "article, .tender-item, .card, .row, li, tr"

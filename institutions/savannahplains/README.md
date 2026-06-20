@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape homepage main-section. Document links in .cs-holder with class .pdf-file. Focus on 'HOW CAN I APPLY' section and any tender/joining instruction PDFs. WordPress site."
+  strategy: "Educational institution — no procurement tenders. /admission/ has joining/application PDFs only (reject as non-tender). Homepage has no tender listings. WordPress site."
   selectors:
     container: "#main-content, .main-section, .page-section .container"
     tender_item: ".cs-holder, article, .cs-newslist article"
@@ -194,6 +194,6 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
-- **Signal Strength:** Weak (supply/rfi only)
+- **Last Checked:** 11 June 2026
+- **Active Tenders:** 0 (admission/joining forms only — not procurement)
+- **Signal Strength:** None (no procurement section)

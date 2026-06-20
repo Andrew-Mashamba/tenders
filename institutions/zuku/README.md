@@ -19,7 +19,7 @@ contact:
   phone: "0448519224"
 
 scraping:
-  enabled: true
+  enabled: false
   method: "http_get"
   strategy: |
     DISABLED: tender_url points to a product page (WiFi Range Extender), not a tender page.
@@ -203,6 +203,6 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
-- **Signal Strength:** Strong (tender)
+- **Last Checked:** 10 June 2026
+- **Active Tenders:** 0 (WooCommerce product catalog only, no procurement section)
+- **Signal Strength:** None (no tender page)

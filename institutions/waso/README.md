@@ -21,6 +21,7 @@ scraping:
     Scrape https://waso.or.tz/tender/ for tender/ToR notices. WordPress site with Elementor.
     Tenders listed as headings (e.g. "Terms of Reference for External Auditors") with document links.
     Documents stored in /wp-content/uploads/YYYY/MM/. Extract title from h2/h3, deadline from text.
+    Note: waso.or.tz DNS failed 2026-06-10 (site unreachable) — retry on next run.
   selectors:
     container: ".entry-content, .elementor-widget-wrap, main"
     tender_item: ".wp-block-post, article, .elementor-element"
@@ -200,6 +201,6 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
-- **Signal Strength:** Strong (procurement, tender)
+- **Last Checked:** 10 June 2026
+- **Active Tenders:** 0 (site unreachable — DNS failure for waso.or.tz)
+- **Signal Strength:** Strong (procurement, tender) — pending site recovery

@@ -203,6 +203,6 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
-- **Signal Strength:** Strong (procurement)
+- **Last Checked:** 10 June 2026
+- **Active Tenders:** 0 (homepage has compliance certificates only; no tender postings)
+- **Signal Strength:** Weak (procurement contact exists but no public tenders)

@@ -104,6 +104,7 @@ alternative_sources:
 
 notes: |
   Islamic bank with dedicated tender page. May use terms like 'Murabaha procurement'.
+  As of 2026-06-10: Tender page lists ABL/011/HQ/PQ/2025 pre-qualification (closed 2024-11-12) — verify closing dates in PDF before creating active records.
 ---
 
 # Amana Bank Tanzania

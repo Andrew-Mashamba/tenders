@@ -13,7 +13,11 @@ website:
 scraping:
   enabled: true
   method: "http_get_with_auth"
-  strategy: "Dedicated e-procurement portal for TMRC. Separate from the main TMRC website tender page. May require registration to access full tender documents. Check for active tenders, bid submissions, and contract awards."
+  strategy: |
+    Scrape https://eprocurement.tmrc.co.tz/Tender/Index for open tenders (DataTable at #example).
+    Columns: Tender No, Title, Status, Published Date, Closing Date. Detail page /Tender/Details?tenderNo=...
+    requires login for documents and full details. Listing page is public without auth.
+    Supplier registration at /Account/Register. Main TMRC site tenders page often shows "Section is Being Updated".
   selectors:
     container: "table, .tenders, .content, main, .procurement"
     tender_item: "tr, .tender-row, .card, .procurement-item"
@@ -25,7 +29,7 @@ scraping:
   schedule: "daily"
 
   anti_bot:
-    requires_javascript: true
+    requires_javascript: false
     has_captcha: false
     rate_limit_seconds: 10
 

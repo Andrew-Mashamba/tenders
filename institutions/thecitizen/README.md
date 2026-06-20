@@ -17,7 +17,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape https://www.thecitizen.co.tz/tanzania/notices/tenders. Newspaper CMS - tender notices under /tanzania/notices/tenders. Page partially loaded during analysis. Follow article links for full notices and documents."
+  strategy: "Page at /tanzania/notices/tenders embeds iframe to https://tenders.mcl.co.tz/tender (MCL tender aggregator). The Citizen does not host individual tender records — scrape the iframe source for actual tenders, or treat as referral/index only."
   selectors:
     container: "main, .main-content, [data-content]"
     tender_item: "article, .article-item, .notice-item, a[href*='/tanzania/']"

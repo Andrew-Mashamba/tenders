@@ -1,0 +1,31 @@
+{
+  "tender_id": "AZANIABA-2026-037",
+  "institution": "azania-bank",
+  "title": "Supply, Delivery, Installation, Testing and Commissioning of Power Generators (2025)",
+  "description": "Supply, Delivery, Installation, Testing and Commissioning of Power Generators (2025)",
+  "reference_number": "",
+  "published_date": "",
+  "closing_date": "2025-02-28",
+  "closing_time": "",
+  "category": "Supply",
+  "status": "closed",
+  "source_url": "https://azaniabank.co.tz/tenders/",
+  "documents": [
+    {
+      "filename": "Prequalification-Document-Supply-of-Power-Generator.pdf",
+      "original_url": "https://azaniabank.co.tz/wp-content/uploads/2025/01/Prequalification-Document-Supply-of-Power-Generator.pdf",
+      "local_path": "./downloads/AZANIABA-2026-037/original/Prequalification-Document-Supply-of-Power-Generator.pdf",
+      "content_type": "application/pdf",
+      "downloaded_at": "2026-06-10T16:00:18.462Z"
+    }
+  ],
+  "contact": {
+    "name": "Procurement Management Unit",
+    "email": "procurement@azaniabank.co.tz",
+    "phone": "0800 110 210",
+    "address": "PSSSF Tower, Sam Nujoma Road, Dar es Salaam"
+  },
+  "eligibility": "Open to eligible registered suppliers",
+  "scraped_at": "2026-06-10T16:00:18.462Z",
+  "last_checked": "2026-06-10T16:00:18.462Z"
+}

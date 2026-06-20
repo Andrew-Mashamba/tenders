@@ -20,7 +20,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape procurement-management page. Page uses DataTables (JS) for any tender table. Documents linked from page or downloads section. Extract all a[href] to /storage/public/files/."
+  strategy: "Scrape procurement-management page. Page contains PMU description text only — no tender table or procurement document links (as of 2026-06). Previously listed guidebooks/almanacs are not tenders."
   selectors:
     container: ".content-box, .blog-details-content, main, .content-side"
     tender_item: "table tbody tr, .tender-item, article"
@@ -31,7 +31,7 @@ scraping:
   schedule: "daily"
 
   anti_bot:
-    requires_javascript: true
+    requires_javascript: false
     has_captcha: false
     rate_limit_seconds: 10
 
@@ -424,6 +424,6 @@ with smtplib.SMTP_SSL(config["host"], config["port"], context=context) as server
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
-- **Signal Strength:** Strong (procurement)
+- **Last Checked:** 11 June 2026
+- **Active Tenders:** 0 (procurement page has PMU info only, no tender listings)
+- **Signal Strength:** Medium (procurement section exists but no active tender postings)

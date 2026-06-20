@@ -96,7 +96,7 @@ scraping:
 
 notes: |
   Organization website at ftm.or.tz. Tender keywords detected: tender, tenders.
-  As of 2026-03-15: tender_url returns 404 (Page not found). Try homepage for tender links.
+  As of 2026-06-10: tender_url returns JavaScript anti-bot challenge (slowAES cookie). Requires headless browser. http_get cannot scrape content.
 ---
 
 # ftm.or.tz

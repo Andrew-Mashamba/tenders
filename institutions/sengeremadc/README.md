@@ -17,9 +17,9 @@ contact:
           "
 
 scraping:
-  enabled: true
+  enabled: false
   method: "http_get"
-  strategy: "Tender page https://sengeremadc.go.tz/tenders was unreachable during analysis (SSL/timeout). Re-enable when site is accessible. Known document path: /storage/app/uploads/public/."
+  strategy: "DISABLED: Domain sengeremadc.go.tz now serves 'GWF CORE' React SPA (verified 2026-06-11). Government tender pages no longer accessible. Historical docs were at /storage/app/uploads/public/."
   selectors:
     container: ".tender-list, .content, main, .entry-content, .page-content, article"
     tender_item: "article, .tender-item, .card, .row, li, tr"
@@ -30,7 +30,7 @@ scraping:
   schedule: "daily"
 
   anti_bot:
-    requires_javascript: false
+    requires_javascript: true
     has_captcha: false
     rate_limit_seconds: 10
 
@@ -215,6 +215,6 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
-- **Signal Strength:** Strong (manunuzi, tender, tenders, zabuni)
+- **Last Checked:** 11 June 2026
+- **Active Tenders:** 0 (domain repurposed — GWF CORE SPA, no government content)
+- **Signal Strength:** None (site offline for procurement)

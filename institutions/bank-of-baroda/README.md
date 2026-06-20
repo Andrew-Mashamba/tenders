@@ -13,7 +13,7 @@ website:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape the /tenders/tenders-notice page. Indian bank - may have structured tender listings with reference numbers."
+  strategy: "Scrape /tenders/tenders-notice page. Each tender block includes title, commencement date, closing date, and PDF links. As of 2026-06-10 all 7 listed tenders have closing dates before today."
   selectors:
     container: ".tenders-notice, .content, main"
     tender_item: "article, .tender-item, tr, .notice"

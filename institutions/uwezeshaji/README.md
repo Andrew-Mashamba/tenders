@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "NEEC (National Economic Empowerment Council). Homepage has Habari Mpya (news), Matukio (events), Nifanyaje. Footer links: Mfumo wa Manunuzi (NeST), suppliers.uwezeshaji.go.tz. Check /news and publications for tender-related content. No dedicated tender list on homepage."
+  strategy: "NEEC (National Economic Empowerment Council). Homepage has Habari Mpya (news), Matukio (events), Nifanyaje. Footer Mfumo wa Manunuzi (NeST) link is dead (href='#'). Supplier registry at http://suppliers.uwezeshaji.go.tz/ (currently unreachable). Check /news and /publications for tender-related content. No dedicated tender list on homepage as of June 2026."
   selectors:
     container: ".lines-section, .col-lg-4, .border-bottom-accent-thin-faded"
     tender_item: ".col.px-0.border-bottom-accent-thin-faded, .zoom-container, .d-flex.align-items-center.bg-white"

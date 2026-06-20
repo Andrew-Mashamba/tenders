@@ -17,7 +17,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape https://www.acet.or.tz/ (WordPress/Elementor). Tender-related content includes member register PDF and category 'List of member firm in good standing'. Check homepage sections and category pages (e.g. /category/listofmemberfirmindoogstanding/). Documents use DOWNLOAD DOCUMENT links."
+  strategy: "Site currently shows UnderConstructionPage plugin ('Sorry, we're doing some work on the site'). Contact info@acet.or.tz. When live, scrape WordPress/Elementor for procurement notices; member register PDF is NOT a tender."
   selectors:
     container: "main, .elementor-section, .wp-site-blocks, .entry-content"
     tender_item: ".elementor-widget, article, .elespare-posts-grid-item"
@@ -196,6 +196,6 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
-- **Signal Strength:** Weak (supply/rfi only)
+- **Last Checked:** 10 June 2026
+- **Active Tenders:** 0 (site under construction)
+- **Signal Strength:** Weak (site offline; member register PDF only when live)

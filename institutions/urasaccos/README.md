@@ -26,6 +26,8 @@ scraping:
     requires_javascript: false
     has_captcha: false
     rate_limit_seconds: 10
+    ssl_verify: false
+    notes: "Server returns HTTP 406 without proper Accept header. Use curl -sk with browser User-Agent and Accept: text/html."
   documents:
     download_enabled: true
     file_types: [".pdf", ".doc", ".docx", ".xls", ".xlsx", ".zip", ".rar"]

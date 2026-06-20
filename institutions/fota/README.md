@@ -13,7 +13,7 @@ website:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Site now accessible. Religious/NGO content only; no tender or procurement section found."
+  strategy: "Use https://www.fota.or.tz/ (bare fota.or.tz may return HTTP 406). Religious/NGO content only; no tender or procurement section found."
   selectors:
     container: ".tender-list, .content, main, .page-content, .entry-content, article"
     tender_item: "article, .tender-item, .card, .row, tr, li"

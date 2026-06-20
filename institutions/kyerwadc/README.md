@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape https://kyerwadc.go.tz/tenders. OctCMS site (same as kongwadc/korogwedc). Zabuni section with table/list. Documents at /storage/app/uploads/public/{hash}/."
+  strategy: "As of June 2026 site migrated to GWF CORE React SPA. https://kyerwadc.go.tz/tenders returns empty SPA shell. Legacy /storage/ PDF URLs no longer served. Requires JavaScript rendering. Previously: OctCMS Zabuni table with Pakua download links."
   selectors:
     container: ".right-sidebar-content, .home-page-title, table tbody, .page-content"
     tender_item: "table tbody tr, .tender-item, li"
@@ -29,7 +29,7 @@ scraping:
   schedule: "daily"
 
   anti_bot:
-    requires_javascript: false
+    requires_javascript: true
     has_captcha: false
     rate_limit_seconds: 10
 
@@ -424,6 +424,6 @@ with smtplib.SMTP_SSL(config["host"], config["port"], context=context) as server
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
+- **Last Checked:** 10 June 2026
+- **Active Tenders:** 0 (site migrated to GWF CORE SPA; listing inaccessible via http_get)
 - **Signal Strength:** Strong (manunuzi, procurement, tender, tenders, zabuni)

@@ -13,7 +13,7 @@ website:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "DISABLED: /tenders page returns PHP error (Undefined variable: row_code21). Page unreachable or broken. Re-enable when site is fixed."
+  strategy: "DISABLED: /tenders page returns PHP error (Undefined variable: row_code21) and redirects to broken OAS URL. Confirmed broken 2026-06-10. Re-enable when site is fixed."
   selectors:
     container: ".tender-list, .content, main, .page-content, .entry-content, article"
     tender_item: "article, .tender-item, .card, .row, tr, li"

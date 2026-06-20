@@ -1,0 +1,38 @@
+{
+  "tender_id": "RUVUMA-2026-001",
+  "institution": "ruvuma",
+  "title": "TOR - CMG Capacity Building and BDS Support Program - Revised and Final April 2026",
+  "description": "TOR - CMG Capacity Building and BDS Support Program - Revised and Final latest April 2026",
+  "reference_number": "",
+  "published_date": "2026-04-29",
+  "closing_date": null,
+  "closing_time": "",
+  "category": "Consultancy",
+  "status": "active",
+  "source_url": "https://ruvuma.go.tz/api/from-tamisemi",
+  "documents": [
+    {
+      "filename": "TOR_-_CMG_Capacity_Building_and_BDS_Support_Program_-_Revised_and_Final_latest_April_2026.docx",
+      "original_url": "http://ruvuma.go.tz/minio/tamisemi.go.tz/attachments/1777502542258-TOR-CMG-Capacity-Building-and-BDS-Support-Program-Revised-and-Final-latest-April-2026.docx",
+      "local_path": "./downloads/RUVUMA-2026-001/original/TOR_-_CMG_Capacity_Building_and_BDS_Support_Program_-_Revised_and_Final_latest_April_2026.docx",
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "downloaded_at": "2026-06-11T05:03:59.352195Z"
+    },
+    {
+      "filename": "TOR_-_CMG_Capacity_Building_and_BDS_Support_Program_-_Revised_and_Final_latest_April_2026.pdf",
+      "original_url": "http://ruvuma.go.tz/minio/tamisemi.go.tz/attachments/1777502817404-TOR-CMG-Capacity-Building-and-BDS-Support-Program-Revised-and-Final-latest-April-2026.pdf",
+      "local_path": "./downloads/RUVUMA-2026-001/original/TOR_-_CMG_Capacity_Building_and_BDS_Support_Program_-_Revised_and_Final_latest_April_2026.pdf",
+      "content_type": "application/pdf",
+      "downloaded_at": "2026-06-11T05:03:59.352195Z"
+    }
+  ],
+  "contact": {
+    "name": "Procurement Department",
+    "email": "ras.ruvuma@tamisemi.go.tz",
+    "phone": "",
+    "address": "Ruvuma Region, Tanzania"
+  },
+  "eligibility": "Qualified firms to provide Business Development Services (BDS) for capacity building and mentoring of CMGs under PAMOJA Project",
+  "scraped_at": "2026-06-11T05:03:59.352195Z",
+  "last_checked": "2026-06-11T05:03:59.352195Z"
+}

@@ -19,7 +19,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape HIMSO homepage and /news for tender announcements. Drupal site. Tenders appear in 'Latest news & articles' as .post-block items. Follow each tender link to /node/{id} for full content and document links."
+  strategy: "Scrape HIMSO homepage and /news for tender announcements. Drupal site. Tenders appear in 'Latest news & articles' as .post-block items. Follow each tender link to /node/{id} for full content and document links. Filter for 'TENDER ANNOUNCEMENT' titles; reject 'TANGAZO LA MNADA' (asset auction notices, e.g. node/152). Construction tender (node/148, /149) closed Nov 2025."
   selectors:
     container: ".post-style-grid, .post-slideset, .gva-view"
     tender_item: ".post-block.teaser-1"

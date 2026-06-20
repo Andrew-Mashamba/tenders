@@ -13,16 +13,17 @@ website:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "No Tanzania-specific tender page. Global organization."
+  strategy: "No Tanzania-specific tender page. Global organization. opportunity.org blocks automated access via Cloudflare; no procurement data retrievable via http_get."
   selectors:
     container: "body"
     tender_list: "unknown"
   schedule: "monthly"
   
   anti_bot:
-    requires_javascript: false
-    has_captcha: false
+    requires_javascript: true
+    has_captcha: true
     rate_limit_seconds: 10
+    cloudflare_blocked: true
 
   documents:
     download_enabled: true

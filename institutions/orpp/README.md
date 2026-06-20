@@ -19,7 +19,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape homepage. ORPP is Office of Registrar of Political Parties - posts press releases and public notices. PDF documents in 'Vyombo vya habari' and 'How do I' sections. Look for links under Zabuni menu and document sections."
+  strategy: "Scrape homepage (curl -k for SSL). ORPP posts press releases (TAARIFA KWA UMMA) — reject as non-procurement. Zabuni menu links externally to nest.go.tz; no local tender listings on orpp.go.tz."
   selectors:
     container: "main, .content, .entry-content, section"
     tender_item: "article, .card, .news-item, li"
@@ -204,6 +204,6 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 15 March 2026
+- **Last Checked:** 11 June 2026
 - **Active Tenders:** 0
-- **Signal Strength:** Strong (zabuni) — Zabuni links to nest.go.tz (external)
+- **Signal Strength:** Strong (zabuni menu) — Zabuni links to nest.go.tz (external); local content is press releases only

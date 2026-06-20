@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape homepage and /news/ for tender/procurement notices. WordPress (Bosa/Elementor). Tenders appear in News & Events and Notices sections. Follow article links to detail pages for document PDFs. Also check homepage Advert section for direct PDF links."
+  strategy: "Site currently in WordPress maintenance/coming-soon mode (all pages return maintenance page). When live: scrape homepage and /news/ for tender/procurement notices. Tenders appear in News & Events; follow article links for PDFs. Retain existing active tenders from prior scrapes until site is accessible."
   selectors:
     container: "main, #primary, .elementor, .entry-content, .site-main, article"
     tender_item: "article.post, article.hentry, .elementor-post, .widget_recent_entries li, a[href*='invitation-for-bidders'], a[href*='competitive-quotation'], a[href*='expression-of-interest']"
@@ -32,6 +32,7 @@ scraping:
     requires_javascript: false
     has_captcha: false
     rate_limit_seconds: 10
+    site_status: "maintenance_mode"
 
   documents:
     download_enabled: true
@@ -208,6 +209,6 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
-- **Signal Strength:** Strong (expression of interest, procurement)
+- **Last Checked:** 10 June 2026
+- **Active Tenders:** 3 (retained from prior scrapes; site in maintenance mode)
+- **Signal Strength:** Strong (expression of interest, procurement) — site temporarily offline

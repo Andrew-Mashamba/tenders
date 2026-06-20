@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Fetch https://mpwapwadc.go.tz/tenders. October CMS with table.table.table-striped. /manunuzi-na-ugavi has BODI YA ZABUNI text but no tender table. Table may be empty."
+  strategy: "Site migrated to GWF CORE SPA (requires JavaScript). /tenders returns empty React shell. Use API: GET /api/advertisements (tenders), /api/announcements, /api/files. Legacy October CMS table no longer served at /tenders."
   selectors:
     container: ".right-sidebar-content"
     tender_item: "table.table.table-striped tbody tr"
@@ -29,7 +29,7 @@ scraping:
   schedule: "daily"
 
   anti_bot:
-    requires_javascript: false
+    requires_javascript: true
     has_captcha: false
     rate_limit_seconds: 10
 

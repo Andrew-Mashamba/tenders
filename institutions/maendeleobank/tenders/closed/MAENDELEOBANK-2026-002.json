@@ -1,0 +1,31 @@
+{
+  "tender_id": "MAENDELEOBANK-2026-002",
+  "institution": "maendeleobank",
+  "title": "RFI for Data Centre Migration Services",
+  "description": "Request for Information inviting qualified vendors to submit comprehensive information for migration of data center infrastructure from legacy location to a new purpose-built facility.",
+  "reference_number": "",
+  "published_date": "2026-05-01",
+  "closing_date": "2026-05-29",
+  "closing_time": "",
+  "category": "ICT",
+  "status": "closed",
+  "source_url": "https://maendeleobank.co.tz/index.php/tender/",
+  "documents": [
+    {
+      "filename": "DATA-CENTRE_compressed.pdf",
+      "original_url": "https://maendeleobank.co.tz/wp-content/uploads/2026/05/DATA-CENTRE_compressed.pdf",
+      "local_path": "./downloads/MAENDELEOBANK-2026-002/original/DATA-CENTRE_compressed.pdf",
+      "content_type": "application/pdf",
+      "downloaded_at": "2026-06-10T18:18:53.968Z"
+    }
+  ],
+  "contact": {
+    "name": "Procurement Department",
+    "email": "tenders@maendeleobank.co.tz",
+    "phone": "03937007874",
+    "address": "Maendeleo Bank Plc, Tanzania"
+  },
+  "eligibility": "Qualified and experienced vendors as specified in tender documents",
+  "scraped_at": "2026-06-10T18:18:53.968Z",
+  "last_checked": "2026-06-10T18:18:53.968Z"
+}

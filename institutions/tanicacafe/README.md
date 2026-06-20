@@ -18,7 +18,10 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "TANICA PLC Procurement Portal. Form-based supplier interest (no traditional tender listing). Categories listed (diesel, transport, spare parts, stationery, etc.). Tender documents collected in person at offices (Tsh 100,000 fee). Scrape for opportunity announcements only."
+  strategy: |
+    TANICA PLC Procurement Portal at /procurement-portal/. Framework contract EOI for FY 2026/2027 (15 supply categories).
+    Form-based supplier registration; no downloadable tender documents online.
+    Documents collected in person at Bukoba, Arusha, Dar es Salaam, Mwanza offices (Tsh 150,000 non-refundable fee).
   selectors:
     container: ".entry-content, .procurement-portal, main, article, .page-content"
     tender_item: "ol li, .opportunity-item, h3, .faq"
@@ -84,7 +87,7 @@ scraping:
         - "application/octet-stream"
 
     document_notes: |
-      Tender documents NOT available online. Collected in person at TANICA PLC offices (Bukoba, Arusha, Dar es Salaam, Mwanza) after paying Tsh 100,000. Portal is for supplier interest registration only.
+      Tender documents NOT available online. Collected in person at TANICA PLC offices (Bukoba, Arusha, Dar es Salaam, Mwanza) after paying Tsh 150,000. Portal is for supplier interest registration and framework contract EOI.
 
   output:
     format: "json"
@@ -412,6 +415,6 @@ with smtplib.SMTP_SSL(config["host"], config["port"], context=context) as server
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
+- **Last Checked:** 11 June 2026
+- **Active Tenders:** 1 (framework supplier EOI FY 2026/2027)
 - **Signal Strength:** Strong (procurement, rfq)

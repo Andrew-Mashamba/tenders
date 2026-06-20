@@ -1,0 +1,31 @@
+{
+  "tender_id": "SCHOOLOF-2026-007",
+  "institution": "schoolofstjude",
+  "title": "Supply of Rice to the School of St Jude",
+  "description": "Tender for supply of 70,000 kg Kahama rice grade 2.1 to The School of St Jude, Sisia Campus, Moshono, Arusha. Includes transportation, loading and unloading. Delivery within 5 weeks. Price fixed for minimum 30 days. Sample (0.25 kg) required with submission.",
+  "reference_number": "TSOSJ/2026/Rice – June/07",
+  "published_date": "2026-06-09",
+  "closing_date": "2026-06-16",
+  "closing_time": "10:30 EAT",
+  "category": "Supply",
+  "status": "active",
+  "source_url": "https://www.schoolofstjude.org/tenders/",
+  "documents": [
+    {
+      "filename": "Tender-advert-Rice-June-2026.pdf",
+      "original_url": "https://www.schoolofstjude.org/wp-content/uploads/2026/06/Tender-advert-Rice-June-2026.pdf",
+      "local_path": "./downloads/SCHOOLOF-2026-007/original/Tender-advert-Rice-June-2026.pdf",
+      "content_type": "application/pdf",
+      "downloaded_at": "2026-06-11T08:04:46.803211Z"
+    }
+  ],
+  "contact": {
+    "name": "Team Lead Purchasing",
+    "email": "purchasing@schoolofstjude.co.tz",
+    "phone": "",
+    "address": "The School of St Jude, Sisia Campus, P.O. Box 11875, Arusha, Tanzania"
+  },
+  "eligibility": "Valid business license, TIN registration, two rice supply referees from last 12 months, sample proforma/tax invoice/delivery note/EFD receipt, quarter-kg rice sample in transparent bag.",
+  "scraped_at": "2026-06-11T08:04:46.803220Z",
+  "last_checked": "2026-06-11T08:04:46.803222Z"
+}

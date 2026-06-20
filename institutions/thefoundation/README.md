@@ -204,6 +204,6 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 15 March 2026
-- **Active Tenders:** 0 (all listed tenders expired; moved to closed)
+- **Last Checked:** 10 June 2026
+- **Active Tenders:** 0 (all listed tenders expired by July 2025; moved to closed)
 - **Signal Strength:** Strong (tender, tenders)

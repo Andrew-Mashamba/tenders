@@ -22,7 +22,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape rea.go.tz for government tender notices. Site may have tender/procurement links on homepage. Navigate to tender subpages if present. Note: rea.go.tz may timeout or require longer request; consider retry logic."
+  strategy: "Scrape rea.go.tz for government tender notices. Site may have tender/procurement links on homepage. Note: rea.go.tz TLS handshake consistently times out (2026-06-11). Server resolves to 197.149.176.110 / 198.55.248.105 but SSL connection fails."
   selectors:
     container: ".tender-list, .content, main, .entry-content, .page-content, article"
     tender_item: "article, .tender-item, .card, .row, li, tr"

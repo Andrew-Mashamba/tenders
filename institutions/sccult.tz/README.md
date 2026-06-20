@@ -16,7 +16,7 @@ contact:
   phone: "000000 50"
 
 scraping:
-  enabled: true
+  enabled: false
   method: "http_get"
   strategy: "DISABLED: SCCULT (1992) Ltd - SACCOS umbrella organization. Homepage: About, Services (capacity building, research, audit, CFF, ICT, advocacy). No tender or procurement page. 'Supply' in services description only (2026-03-15)."
   selectors:
@@ -187,6 +187,6 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
-- **Signal Strength:** Weak (supply/rfi only)
+- **Last Checked:** 11 June 2026
+- **Active Tenders:** 0 (SACCOS umbrella org — no procurement page)
+- **Signal Strength:** None

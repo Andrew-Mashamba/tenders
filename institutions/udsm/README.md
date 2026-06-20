@@ -1,6 +1,6 @@
 ---
 institution:
-  name: "Home | University of Dar es Salaam"
+  name: "University of Dar es Salaam"
   slug: "udsm"
   category: "Educational Institution"
   status: "active"
@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape https://udsm.ac.tz/announcement/invitation-tender for tender/procurement notices."
+  strategy: "Scrape https://udsm.ac.tz/announcement listing page for tender/procurement notices (filter for invitation-tender, invitation-bids, pre-qualification, expression-of-interest). The dedicated invitation-tender URL may show only the latest expired notice; use /announcement index for full history. Reject expired (closing before scrape date) and non-procurement items (jobs, scholarships, conferences)."
   selectors:
     container: ".tender-list, .content, main, .entry-content, .page-content, article"
     tender_item: "article, .tender-item, .card, .row, li, tr"
@@ -211,6 +211,6 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
-- **Signal Strength:** Strong (expression of interest, procurement, tender)
+- **Last Checked:** 10 June 2026
+- **Active Tenders:** 0 (all notices on tender pages expired; latest ICT Park EOI closed 2025-10-31)
+- **Signal Strength:** Strong (expression of interest, procurement, tender) — check /announcement regularly for new NeST postings

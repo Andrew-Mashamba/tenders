@@ -9,7 +9,8 @@ institution:
 
 website:
   homepage: "https://kitetodc.go.tz/"
-  tender_url: "https://kitetodc.go.tz/advertisement/tangazo-zabuni-ukodishaji-wa-vibanda"
+  tender_url: "https://kitetodc.go.tz/tenders"
+  tender_url_note: "As of 2026-06-10, /tenders returns GWF CORE SPA shell. Use API api/advertisements for tender notices; api/files for council documents. Legacy October CMS paths no longer served."
 
 contact:
   email: "ded@kitetodc.go.tz"
@@ -18,7 +19,11 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape tender URL and /tenders, /procurement-and-supply. This page (tangazo-zabuni) may show single advertisement or news items. Right-sidebar has .right-sidebar-content; if table exists use table.table-striped tbody tr. Documents at /storage/app/uploads/public/. Use -k for SSL with .go.tz."
+  strategy: |
+    Site restructured to GWF CORE SPA (2026). /tenders returns React shell only (requires JavaScript).
+    Use REST API: api/advertisements?limit=50 (procurement/zabuni notices),
+    api/announcements, api/files, api/best-documents. Reject non-procurement items (Mnada/auctions, Leseni, Ushuru/tax notices).
+    Legacy October CMS table and /storage/app/uploads/public/ paths no longer accessible via http_get.
   selectors:
     container: ".right-sidebar-content, .page-title"
     tender_item: "table.table.table-striped tbody tr, .right-sidebar-container .col-md-8"
@@ -29,7 +34,7 @@ scraping:
   schedule: "daily"
 
   anti_bot:
-    requires_javascript: false
+    requires_javascript: true
     has_captcha: false
     rate_limit_seconds: 10
 
@@ -415,6 +420,7 @@ with smtplib.SMTP_SSL(config["host"], config["port"], context=context) as server
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
+- **Last Checked:** 10 June 2026
+- **Active Tenders:** 0
+- **Platform:** GWF CORE SPA (API-based scraping)
 - **Signal Strength:** Strong (manunuzi, procurement, tender, tenders, zabuni)

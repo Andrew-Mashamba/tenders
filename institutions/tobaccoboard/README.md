@@ -19,7 +19,10 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape https://tobaccoboard.go.tz/page/procurement-management-unit for government tender notices. Government sites often post zabuni/manunuzi."
+  strategy: |
+    Scrape https://tobaccoboard.go.tz/page/procurement-management-unit. Page describes PMO duties only (no tender table).
+    PDFs in /uploads/documents/ are tobacco buying reports and production notices — not procurement tenders.
+    Use curl -k if SSL fails. Real tenders may appear on NEST/TANEPS; this page has no active zabuni listings.
   selectors:
     container: ".content, main, .entry-content, .page-content, article, .procurement"
     tender_item: "article, .tender-item, .card, .row, li, tr, .procurement-item"

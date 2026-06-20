@@ -8,8 +8,8 @@ institution:
   domain: "tfa.co.tz"
 
 website:
-  homepage: "https://tfa.co.tz/"
-  tender_url: "https://tfa.co.tz/request-for-proposal-rfp/"
+  homepage: "https://www.tfa.co.tz/"
+  tender_url: "https://www.tfa.co.tz/"
 
 contact:
   phone: "0 842 767 846 7"
@@ -17,7 +17,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape https://tfa.co.tz/request-for-proposal-rfp/. WordPress/Elementor page. RFP content in main area; 'Recent Post' sidebar may list items via .elementor-loop-container. Documents in wp-content/uploads. Follow post links for full tender details."
+  strategy: "Site migrated to Squarespace (www.tfa.co.tz). Former /request-for-proposal-rfp/ URL returns 404. Scrape homepage and navigation for procurement/RFP links. No dedicated tender page found as of 2026-06-10."
   selectors:
     container: ".elementor-widget-loop-grid, .elementor-loop-container, main .elementor-section"
     tender_item: ".e-loop-item, .elementor-loop-container article, .news-sidebar .elementor-heading-title"

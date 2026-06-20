@@ -13,7 +13,7 @@ website:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape homepage https://makumira.ac.tz for tenders. WordPress/Avada theme. No /tender or /docs path (404). Tenders may appear in news/marquee or linked pages. Documents at /wp-content/uploads/."
+  strategy: "Scrape homepage https://makumira.ac.tz for tenders. WordPress/Avada theme. No /tender or /tenders page (404). PDFs on site are academic (prospectus, almanac, promotions, call for papers) — not procurement. Reject non-procurement documents."
   selectors:
     container: ".fusion-builder-row, main, .entry-content, .avada-page-title-bar"
     tender_item: "article, .fusion-post, .tender-item, .row"

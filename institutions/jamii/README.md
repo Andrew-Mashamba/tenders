@@ -19,7 +19,9 @@ scraping:
   enabled: true
   method: "http_get"
   strategy: |
-    Government ministry (MoCDGWSG). tender_url https://jamii.go.tz/publications/tenders timed out on fetch — site may be unreachable or slow. Scraping disabled until connectivity verified. If reachable, use main, .entry-content, article for WordPress-style structure.
+    Government ministry (MoCDGWSG). Scrape https://jamii.go.tz/publications/tenders — EGA CMS site.
+    Tender documents listed as PDF links under /uploads/documents/. Each item has date and title in list markup.
+    Extract closing dates from PDF content. Contact: ps@jamii.go.tz, dpm@jamii.go.tz for procurement clarifications.
   selectors:
     container: ".tender-list, .content, main, .entry-content, .page-content, article"
     tender_item: "article, .tender-item, .card, .row, li, tr"

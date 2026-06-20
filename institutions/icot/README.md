@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Educational institution (construction technology). Manunuzi keyword detected. Tender page fetch failed (SSL/timeout) on 2026-03-15. Scrape homepage and manunuzi/procurement pages when accessible."
+  strategy: "Educational institution (construction technology). Site returns 503 Service Unavailable as of 2026-06-10. Previously had manunuzi keyword. Retry homepage and manunuzi/procurement pages when site recovers."
   selectors:
     container: "main, .content, .entry-content, article"
     tender_item: "article, .post, .tender-item, li, tr"
@@ -190,6 +190,6 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
-- **Signal Strength:** Strong (manunuzi)
+- **Last Checked:** 10 June 2026
+- **Active Tenders:** 0 (503 Service Unavailable)
+- **Signal Strength:** Unknown (site unreachable)

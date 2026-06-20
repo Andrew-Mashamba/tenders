@@ -108,7 +108,7 @@ notes: |
 
 **Category:** NGO/Non-Profit
 **Website:** https://hakielimu.or.tz
-**Tender Page:** https://hakielimu.or.tz
+**Tender Page:** https://hakielimu.or.tz/job-tenders.html
 
 ## Scraping Instructions
 

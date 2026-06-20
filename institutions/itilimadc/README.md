@@ -14,9 +14,10 @@ scraping:
   enabled: true
   method: "http_get"
   strategy: |
-    Scrape https://itilimadc.go.tz/tenders. October CMS (same as itigidc, irambadc).
-    Tender table: table.table.table-striped tbody tr. Main content in .right-sidebar-content.
-    Documents at /storage/app/uploads/public/{hash}/. Use curl -k for SSL.
+    Site migrated to GWF CORE React SPA (2026). HTML pages return empty #root shell — use REST APIs.
+    Check GET https://itilimadc.go.tz/api/announcements and /api/from-tamisemi for Zabuni category items.
+    Local announcements may include training/interview notices — reject non-procurement.
+    Documents on minio paths. Use curl -k for SSL.
   selectors:
     container: ".right-sidebar-content, .middle-content-wrapper"
     tender_item: "table.table.table-striped tbody tr"
@@ -27,7 +28,7 @@ scraping:
   schedule: "daily"
 
   anti_bot:
-    requires_javascript: false
+    requires_javascript: true
     has_captcha: false
     rate_limit_seconds: 10
 

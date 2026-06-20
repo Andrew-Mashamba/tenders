@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "kaziconnect.co.tz is a React SPA (recruitment portal). Content loads via JavaScript. Use headless browser (Puppeteer/Playwright) or check for API endpoints. Tender/job listings likely in /tenders or similar route."
+  strategy: "kaziconnect.co.tz is a React SPA recruitment/job-matching portal — NOT a procurement tender site. Meta keywords mention 'tenders' but content is job vacancies only. No procurement tenders to scrape (verified 2026-06-10)."
   selectors:
     container: "#root, main, .content"
     tender_item: "article, .tender-item, .card, .row, li, tr"

@@ -13,7 +13,7 @@ website:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape /procurement page (Manunuzi). Tender links (Zabuni) in sidebar/list. As of 2026-03-15 only expired 2018 tenders listed (Zabuni za Wakala, Zabuni ya Usafi wa Mazingira - closing June 2018). News items in li with col-md-4/col-md-8. Documents at /storage/app/uploads/public/*. Use -k for SSL. October CMS."
+  strategy: "Scrape /procurement page (Manunuzi). Tender links (Zabuni) in sidebar/list. As of 2026-06-10 only expired 2018 tenders listed (Zabuni za Wakala, Zabuni ya Usafi wa Mazingira). News items in li with col-md-4/col-md-8 are not tenders. Documents at /storage/app/uploads/public/*. Use -k for SSL. October CMS."
   selectors:
     container: ".container, #main-menu, .col-md-8, .sidebar"
     tender_item: "li a[href*='storage'], .col-md-4, .col-md-8, li"

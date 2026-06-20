@@ -111,6 +111,7 @@ social_media:
 notes: |
   Organization website at kcmc.ac.tz. Tender keywords detected: procurement.
   NOTE (2026-03-15): .announce-right shows Jobs (nafasi za kazi) and Events (short courses). Exclude jobs-card — job postings are NOT procurement tenders. Dialysis short course is training, not tender.
+  NOTE (2026-06-10): Homepage still shows only job vacancies (Data Scientist, APR26) and public notices/events. No active procurement tenders.
 ---
 
 # KCMC · Kilimanjaro Christian Medical Centre

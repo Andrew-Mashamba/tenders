@@ -20,7 +20,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "WordPress/Elementor site. Tenders displayed as blog-style posts. Parse .blog-style_2 items, follow .text_btn links to detail pages for documents. Uses The Events Calendar (tribe-events) for dates."
+  strategy: "WordPress/Elementor site. Tenders displayed as blog-style posts in .blog-style_2 items under section.blog_post_section. Follow .text_btn links to detail pages. Uses The Events Calendar for dates. As of 2026-06-10 only one listing: pre-qualification tender extension (closed 2025-10-13) — no documents on detail page."
   selectors:
     container: ".blog_post_section, .blog_container, section.blog_post_section"
     tender_item: ".blog-style_2, .blog-style_2.mb_40"

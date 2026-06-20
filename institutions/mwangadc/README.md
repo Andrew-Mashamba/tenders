@@ -420,6 +420,6 @@ with smtplib.SMTP_SSL(config["host"], config["port"], context=context) as server
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
+- **Last Checked:** 11 June 2026
+- **Active Tenders:** 0 (9 historical tenders listed, all expired; latest closing Dec 2022)
 - **Signal Strength:** Strong (procurement, tender, tenders, zabuni)

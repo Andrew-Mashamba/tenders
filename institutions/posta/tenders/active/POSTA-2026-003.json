@@ -1,0 +1,31 @@
+{
+  "tender_id": "POSTA-2026-003",
+  "institution": "posta",
+  "title": "Notice for Investment Opportunities Through Joint Venture (Updated Full Notice)",
+  "description": "Updated expression of interest inviting qualified investors, real estate developers, and financial institutions to enter strategic joint ventures for development of 10 TPC properties across Dar es Salaam, Arusha, Kilimanjaro, Morogoro, Tunduma and Kyela. Includes detailed property list with coordinates, proposed use, market values and development options for Phase I.",
+  "reference_number": "",
+  "published_date": "2026-03-20",
+  "closing_date": null,
+  "closing_time": "",
+  "category": "Supply",
+  "status": "active",
+  "source_url": "https://www.posta.co.tz/ment-detail/46",
+  "documents": [
+    {
+      "filename": "TPC_FULL_PG_HBL_.pdf",
+      "original_url": "https://www.posta.co.tz/media/publications/pdfs/TPC_FULL_PG_HBL_.pdf",
+      "local_path": "./downloads/POSTA-2026-003/original/TPC_FULL_PG_HBL_.pdf",
+      "content_type": "application/pdf",
+      "downloaded_at": "2026-06-11T04:48:15.000000Z"
+    }
+  ],
+  "contact": {
+    "name": "Tanzania Posts Corporation",
+    "email": "pmg@posta.co.tz",
+    "phone": "+255735008008",
+    "address": "Posta House, 7 Ghana Street, P.O. Box 9551, 11300 Dar es Salaam"
+  },
+  "eligibility": "Qualified investors, real estate developers, financial institutions and other interested stakeholders",
+  "scraped_at": "2026-06-11T04:48:15.000000Z",
+  "last_checked": "2026-06-11T04:48:15.000000Z"
+}

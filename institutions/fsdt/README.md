@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape https://www.fsdt.or.tz/work-with-us/ — 'CURRENT OPPORTUNITIES' section lists tender/RFP PDFs with direct links. Each list item (li) contains a link to PDF. Extract title from link text, document from href."
+  strategy: "Scrape https://www.fsdt.or.tz/work-with-us/ — 'CURRENT OPPORTUNITIES' section uses Elementor icon-list items. Title in span.elementor-icon-list-text, PDF in anchor href. As of 2026-06-10 only one active ToR is listed; older March 2026 EoIs were removed from the page."
   selectors:
     container: "main#content, .entry-content"
     tender_item: "a[href*='wp-content/uploads'][href$='.pdf']"
@@ -115,7 +115,7 @@ notes: |
 
 **Category:** NGO / Non-Profit Organization
 **Website:** https://www.fsdt.or.tz/
-**Tender Page:** https://www.fsdt.or.tz/
+**Tender Page:** https://www.fsdt.or.tz/work-with-us/
 **Keywords Found:** bid, rfi, tender
 
 ## Contact Information

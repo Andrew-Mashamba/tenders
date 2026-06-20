@@ -112,6 +112,7 @@ social_media:
 
 notes: |
   Government Website | Tovuti ya Serikali
+  WARNING (2026-06-10): https://kekopharma.co.tz/publications/tender returns HTTP 503 Service Unavailable.
 ---
 
 # KPI |   Mwanzo

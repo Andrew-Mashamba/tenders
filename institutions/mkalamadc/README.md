@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape https://mkalamadc.go.tz/tenders. Table layout with columns Jina la Zabuni, Tarehe Iliongezwa, Tarehe ya Mwisho, Download. Documents under /storage/app/uploads/public/."
+  strategy: "Site migrated to GWF CORE SPA (requires JavaScript). /tenders returns empty SPA shell. Use API: GET https://mkalamadc.go.tz/api/files?limit=50 for procurement documents (laptop specs, tender PDFs). Documents served from /minio/mkalamadc.go.tz/files/. Filter out test/sample files and job interview notices (USAILI). Legacy /storage/app/uploads/public/ paths no longer used."
   selectors:
     container: "table.tenders, .table, .content, main, table"
     tender_item: "table tbody tr, .tender-row"
@@ -29,7 +29,7 @@ scraping:
   schedule: "daily"
 
   anti_bot:
-    requires_javascript: false
+    requires_javascript: true
     has_captcha: false
     rate_limit_seconds: 10
 
@@ -88,9 +88,10 @@ scraping:
         - "application/octet-stream"
 
     known_document_paths:
-      - "/storage/app/uploads/public/"
+      - "/minio/mkalamadc.go.tz/files/"
+      - "/api/files"
     document_notes: |
-      Mkalama DC uses Octane/Laravel. Documents at /storage/app/uploads/public/{hash}/{hash}/{hash}/{hash}{hash}{hash}{hash}{hash}{hash}{hash}{hash}{hash}.pdf. Table has Download column with PDF links.
+      Mkalama DC now uses GWF CORE platform. Procurement documents available via /api/files API. Files stored at /minio/mkalamadc.go.tz/files/{timestamp}-{filename}.pdf. Legacy Octane/Laravel /storage/app/uploads/public/ paths deprecated.
 
   output:
     format: "json"

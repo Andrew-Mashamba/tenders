@@ -203,6 +203,6 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
+- **Last Checked:** 10 June 2026
+- **Active Tenders:** 0 (page shows 2023 completed reports only)
 - **Signal Strength:** Strong (tender, tenders)

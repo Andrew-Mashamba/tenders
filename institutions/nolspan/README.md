@@ -12,9 +12,9 @@ website:
   tender_url: "https://nolspan.co.tz/"
 
 scraping:
-  enabled: true
+  enabled: false
   method: "http_get"
-  strategy: "DISABLED: nolspan.co.tz shows WordPress login page; no public tender content accessible."
+  strategy: "DISABLED: nolspan.co.tz shows WordPress login page only; no public content or tender section accessible (verified 2026-06-11)."
   selectors:
     container: ".tender-list, .content, main, .entry-content, .page-content, article"
     tender_item: "article, .tender-item, .card, .row, li, tr"
@@ -180,6 +180,6 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
-- **Signal Strength:** Strong (tender, tenders)
+- **Last Checked:** 11 June 2026
+- **Active Tenders:** 0 (site behind WordPress login; scraping disabled)
+- **Signal Strength:** None (site inaccessible)

@@ -9,7 +9,7 @@ institution:
 
 website:
   homepage: "https://tvla.go.tz/"
-  tender_url: "https://tvla.go.tz/"
+  tender_url: "https://tvla.go.tz/publications/tender"
 
 contact:
   email: "info@tvla.go.tz"
@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape https://tvla.go.tz/ for government tender notices. Government sites often post zabuni/manunuzi."
+  strategy: "Scrape https://tvla.go.tz/publications/tender and https://tvla.go.tz/announcements for procurement notices. /publications/tender currently shows general publications; check announcements for zabuni. SSL cert may require -k for curl."
   selectors:
     container: ".tender-list, .content, main, .entry-content, .page-content, article"
     tender_item: "article, .tender-item, .card, .row, li, tr"

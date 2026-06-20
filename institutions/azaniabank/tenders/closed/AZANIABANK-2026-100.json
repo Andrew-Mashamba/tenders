@@ -1,0 +1,31 @@
+{
+  "tender_id": "AZANIABANK-2026-100",
+  "institution": "azaniabank",
+  "title": "Tender Notice (May 2025)",
+  "description": "Tender Notice (May 2025)",
+  "reference_number": "",
+  "published_date": "",
+  "closing_date": "2025-06-30",
+  "closing_time": "",
+  "category": "General",
+  "status": "closed",
+  "source_url": "https://azaniabank.co.tz/tenders/",
+  "documents": [
+    {
+      "filename": "TENDER-NOTICE-29.05.2025.pdf",
+      "original_url": "https://azaniabank.co.tz/wp-content/uploads/2025/05/TENDER-NOTICE-29.05.2025.pdf",
+      "local_path": "./downloads/AZANIABANK-2026-100/original/TENDER-NOTICE-29.05.2025.pdf",
+      "content_type": "application/pdf",
+      "downloaded_at": "2026-06-10T16:00:18.462Z"
+    }
+  ],
+  "contact": {
+    "name": "Procurement Management Unit",
+    "email": "procurement@azaniabank.co.tz",
+    "phone": "0800 110 210",
+    "address": "PSSSF Tower, Sam Nujoma Road, Dar es Salaam"
+  },
+  "eligibility": "Open to eligible registered suppliers",
+  "scraped_at": "2026-06-10T16:00:18.462Z",
+  "last_checked": "2026-06-10T16:00:18.462Z"
+}

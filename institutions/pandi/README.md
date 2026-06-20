@@ -185,6 +185,6 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 15 March 2026
+- **Last Checked:** 11 June 2026
 - **Active Tenders:** 0
-- **Signal Strength:** Strong (rfq)
+- **Signal Strength:** Weak — maritime permit services; no procurement listings

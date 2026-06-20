@@ -20,12 +20,12 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape https://tumemadini.go.tz/publications/tenders/ for government tender notices (zabuni/manunuzi). Documents stored under /media/uploads/quarterly_prices/ with subpaths by category and date."
+  strategy: "Scrape https://tumemadini.go.tz/publications/tenders/ for government tender notices (zabuni/manunuzi). Requires curl -k (SSL cert issue). Tenders listed in ul.list-group under .card-header 'Available Tenders'. Also links to NeST for e-procurement. Documents at /media/tenders/*.pdf."
   selectors:
-    container: ".tender-list, .content, main, .entry-content, .page-content, article"
-    tender_item: "article, .tender-item, .card, .row, li, tr"
-    title: "h2, h3, h4, .tender-title, a"
-    date: ".date, .closing-date, .published, time"
+    container: ".card .list-group, .card-header + ul.list-group"
+    tender_item: "li.list-group-item"
+    title: "li.list-group-item a"
+    date: "small.text-muted"
     document_link: 'a[href$=".pdf"], a[href$=".doc"], a[href$=".docx"], a[download]'
     pagination: ".pagination a, a.next, .nav-links a" 
   schedule: "daily"
@@ -67,9 +67,14 @@ scraping:
       resolve_redirects: true
       decode_percent_encoding: true
 
+    known_document_paths:
+      - "/media/tenders/"
+      - "/media/procurement_notices/"
+      - "/media/uploads/quarterly_prices/"
     url_patterns:
-      - "tumemadini.go.tz/media/uploads/quarterly_prices/colored_gemstones/2026/02/15/MINING_COMMISSION_COLOURED_GEMSTON_kfrFuPg.pdf"
-      - "tumemadini.go.tz/media/uploads/quarterly_prices/building_metallic/2026/01/28/BEI_ELEKEZI_YA_MADINI_UJENZI_VIWAN_c5g0YiD.pdf"
+      - "tumemadini.go.tz/media/tenders/*.pdf"
+      - "tumemadini.go.tz/media/procurement_notices/*.pdf"
+      - "tumemadini.go.tz/media/uploads/quarterly_prices/**/*.pdf"
 
     download_rules:
       max_file_size_mb: 50
@@ -103,7 +108,7 @@ scraping:
 
 notes: |
   Organization website at tumemadini.go.tz. Tender keywords detected: procurement, tender, tenders.
-  NOTE: Tender page (https://tumemadini.go.tz/publications/tenders/) was unreachable during analysis (timeout). Selectors are generic fallbacks; verify against live page when accessible.
+  Tender page accessible with curl -k. As of 2026-06-10 only one tender listed (BAFEX retention licenses, closed 2024-04-23). Quarterly price PDFs are reference data, not procurement tenders.
 ---
 
 # TUME YA MADINI - Official Website

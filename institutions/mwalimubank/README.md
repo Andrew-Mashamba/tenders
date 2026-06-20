@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Tender page unreachable (timeout). https://mwalimubank.co.tz/ may require JS or has connectivity issues. Disable until page is accessible."
+  strategy: "Site unreachable as of June 2026 — SSL handshake fails (curl exit 35). No tender page found. Check TANePS as alternative source."
   selectors:
     container: ".tender-list, .content, main, .entry-content, .page-content, article"
     tender_item: "article, .tender-item, .card, .row, li, tr"

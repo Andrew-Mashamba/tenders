@@ -9,7 +9,7 @@ institution:
 
 website:
   homepage: "https://norplan.co.tz/"
-  tender_url: "https://norplan.co.tz/portfolio/consultancy-services-for-feasibility-studies-environmental-social-impact-assessment-detailed-engineering-design-and-preparation-of-tender-documents-for-upgrading-of-msangama-namanyere/"
+  tender_url: "https://norplan.co.tz/projects/"
 
 contact:
   email: "admin@norplan.co.tz"
@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape single portfolio project pages. Tender URL is a single project (consultancy tender). No listing page; scrape each portfolio project URL for title, description, and document links. Extract PDFs from .themetechmount-portfolio-details and .portfolio-description."
+  strategy: "Engineering consultancy firm. Portfolio/project pages at /portfolio/ and /projects/ showcase completed work (case studies), not open procurement. No tender listings or downloadable RFPs on site as of 2026-06-11. Monitor homepage and projects page for new procurement notices."
   selectors:
     container: ".themetechmount-portfolio-details, .portfolio-description, #main, .main-holder .site-content"
     tender_item: "article.tm_portfolio, .single-tm_portfolio .portfolio-description"
@@ -203,6 +203,6 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
+- **Last Checked:** 11 June 2026
+- **Active Tenders:** 0 (portfolio pages are completed projects, not open tenders)
 - **Signal Strength:** Strong (tender)

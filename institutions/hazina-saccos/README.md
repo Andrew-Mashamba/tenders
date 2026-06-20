@@ -13,7 +13,7 @@ website:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "No dedicated tender page."
+  strategy: "No dedicated tender page. Homepage at hazinasaccos.co.tz has SACCO services content only; no procurement section. Contact: info@hazinasaccos.co.tz."
   selectors:
     container: "body"
     tender_list: "unknown"

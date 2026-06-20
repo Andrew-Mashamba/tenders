@@ -1,0 +1,64 @@
+{
+  "tender_id": "ECOBANK-2026-005",
+  "institution": "ecobank",
+  "title": "Integrated Electronic Transaction Banking Platform Serving Personal, Business, and Corporate Customers",
+  "description": "Ecobank Group RFP: Integrated Electronic Transaction Banking Platform Serving Personal, Business, and Corporate Customers. Pan-African procurement open to all Ecobank affiliates including Tanzania.",
+  "reference_number": "02/05/2026/RFP/CCIB",
+  "published_date": "2026-05-19",
+  "closing_date": "2026-07-01",
+  "closing_time": "17:00 GMT",
+  "category": "ICT",
+  "status": "active",
+  "source_url": "https://www.ecobank.com/procurement",
+  "documents": [
+    {
+      "filename": "RFP_Document.pdf",
+      "original_url": "https://www.ecobank.com/upload/publications/upload/20260519061736906b.PDF",
+      "local_path": "./downloads/ECOBANK-2026-005/original/RFP_Document.pdf",
+      "content_type": "application/pdf",
+      "file_size_bytes": 1038491,
+      "downloaded_at": "2026-06-10T16:55:29.894Z"
+    },
+    {
+      "filename": "NDA.docx",
+      "original_url": "https://www.ecobank.com/upload/publications/upload/20260519061757589F.docx",
+      "local_path": "./downloads/ECOBANK-2026-005/original/NDA.docx",
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "file_size_bytes": 817887,
+      "downloaded_at": "2026-06-10T16:55:29.894Z"
+    },
+    {
+      "filename": "eProcess_Response_Sheet.xlsx",
+      "original_url": "https://www.ecobank.com/upload/publications/upload/20260519061815596u.xlsx",
+      "local_path": "./downloads/ECOBANK-2026-005/original/eProcess_Response_Sheet.xlsx",
+      "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "file_size_bytes": 70967,
+      "downloaded_at": "2026-06-10T16:55:29.894Z"
+    },
+    {
+      "filename": "Vendor_Information_Security_Questionnaire.doc",
+      "original_url": "https://www.ecobank.com/upload/publications/upload/20260519061827786h.doc",
+      "local_path": "./downloads/ECOBANK-2026-005/original/Vendor_Information_Security_Questionnaire.doc",
+      "content_type": "application/msword",
+      "file_size_bytes": 46592,
+      "downloaded_at": "2026-06-10T16:55:29.894Z"
+    },
+    {
+      "filename": "Vendor_Information_Security_Questionnaire.pdf",
+      "original_url": "https://www.ecobank.com/upload/publications/upload/20260519061845125f.pdf",
+      "local_path": "./downloads/ECOBANK-2026-005/original/Vendor_Information_Security_Questionnaire.pdf",
+      "content_type": "application/pdf",
+      "file_size_bytes": 108751,
+      "downloaded_at": "2026-06-10T16:55:29.894Z"
+    }
+  ],
+  "contact": {
+    "name": "Ecobank Group Procurement",
+    "email": "questions.sourcing@ecobank.com",
+    "phone": "",
+    "address": "Ecobank Group, Lom\u00e9, Togo"
+  },
+  "eligibility": "Open to qualified vendors meeting Ecobank Group procurement requirements. Submit via eProcess portal.",
+  "scraped_at": "2026-06-10T16:55:29.894Z",
+  "last_checked": "2026-06-10T16:55:29.894Z"
+}

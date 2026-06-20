@@ -110,6 +110,7 @@ social_media:
 
 notes: |
   Procurement and Supplies Professionals and Technicians Board | Bodi ya Wataalamu na Mafundi wa Ununuzi na Ugavi
+  Regulatory board — publishes news, announcements, and events about procurement profession. No procurement tenders/RFPs. Verified 2026-06-11.
 ---
 
 # Mwanzo

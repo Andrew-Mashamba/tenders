@@ -13,7 +13,7 @@ website:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape the global /suppliers/tenders page. Filter for Tanzania-related tenders. World Vision is the parent of VisionFund Tanzania. Drupal-based site."
+  strategy: "Scrape the global /suppliers/tenders page. Filter for Tanzania-related tenders. As of Jun 2026 the listing page shows only a Suppliers Prequalification link (closed Nov 2022) with no active open tenders. World Vision is the parent of VisionFund Tanzania. Drupal-based site."
   selectors:
     container: ".view-content, .content, main"
     tender_item: ".views-row, article, .card"

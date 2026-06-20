@@ -9,7 +9,7 @@ institution:
 
 website:
   homepage: "https://dart.go.tz/"
-  tender_url: "https://dart.go.tz/"
+  tender_url: "https://dart.go.tz/publications/tenders"
 
 contact:
   email: "info@dart.go.tz"
@@ -18,13 +18,13 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Government site (DART - Dar Rapid Transit). Fetch may fail with SSL/certificate issues (curl exit 60). If reachable: look for Nafasi Za Kazi, Zabuni, Fursa za Uwekezaji. Documents under /uploads/routes/."
+  strategy: "Government site (DART - Dar Rapid Transit). Use -k for SSL if needed. Active tenders at /publications/tenders (Zabuni under FURSA menu). Each tender is a card with date, title, and PDF at /uploads/documents/sw-{timestamp}-{filename}.pdf. Vacancies at /publications/vacancies are jobs — skip those."
   selectors:
     container: ".tender-list, .content, main, .entry-content, .page-content, article"
-    tender_item: "article, .tender-item, .card, .row, li, tr"
-    title: "h2, h3, h4, .tender-title, a"
-    date: ".date, .closing-date, .published, time"
-    document_link: 'a[href$=".pdf"], a[href$=".doc"], a[href$=".docx"], a[download]'
+    tender_item: "a.has-hover-bounce[href*='/uploads/documents/']"
+    title: "h6.card-text.bold-600"
+    date: "h6.card-text.text-muted"
+    document_link: 'a[href*="/uploads/documents/"][href$=".pdf"]'
     pagination: ".pagination a, a.next, .nav-links a" 
   schedule: "daily"
 
@@ -65,8 +65,13 @@ scraping:
       resolve_redirects: true
       decode_percent_encoding: true
 
+    known_document_paths:
+      - "/uploads/documents/"
+      - "/uploads/routes/"
+
     url_patterns:
-      - "dart.go.tz/uploads/routes/pdf-1681478780.pdf"
+      - "dart.go.tz/uploads/documents/sw-*.pdf"
+      - "dart.go.tz/uploads/routes/*.pdf"
 
     download_rules:
       max_file_size_mb: 50

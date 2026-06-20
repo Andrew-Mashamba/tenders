@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape /manunuzi-na-ugavi (Procurement and Supply) and /tenders. Tender ads at /advertisement/{slug}. Documents in /storage/app/uploads/public/{hash}/. Follow links to advertisement detail pages for full tender docs."
+  strategy: "Scrape /manunuzi-na-ugavi (Procurement and Supply) and /tenders. Tender ads at /advertisement/{slug}. Documents in /storage/app/uploads/public/{hash}/. Use curl -k (SSL cert issues). As of 2026-06-11 all tenders on /tenders are expired (latest closed 2022-01-15); no current advertisements."
   selectors:
     container: "main, .content, .page-content, section containing tenders"
     tender_item: "a[href*='/advertisement/'], .tender-item, article, li"
@@ -32,6 +32,7 @@ scraping:
     requires_javascript: false
     has_captcha: false
     rate_limit_seconds: 10
+    ssl_verify: false
 
   documents:
     download_enabled: true
@@ -209,6 +210,6 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
+- **Last Checked:** 11 June 2026
+- **Active Tenders:** 0 (all listed tenders expired)
 - **Signal Strength:** Strong (manunuzi, procurement, tender, tenders, zabuni)

@@ -107,7 +107,7 @@ social_media:
   instagram: "accounts"
 
 notes: |
-  Tender page (lita.go.tz) unreachable at analysis time (fetch timeout/SSL). Disabled scraping until site is reachable.
+  Site reachable as of 2026-06-10. Homepage lists Kitengo cha manunuzi (procurement unit) but no tender documents posted. /pages/manunuzi returns maintenance/404.
 ---
 
 # Mwanzo |WAKALA WA VYUO VYA MAFUNZO YA MIFUGO (LITA)

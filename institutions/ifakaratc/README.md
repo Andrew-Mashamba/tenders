@@ -20,7 +20,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape https://ifakaratc.go.tz/procurement-and-supply. Page has Matangazo (announcements) and Matukio (events) sections. Follow links to /single-announcement/* and /singel-event/* for detail pages. Download PDFs from /storage/app/uploads/public/. Also check /announcements for full list."
+  strategy: "Site migrated to GWF CORE (React SPA, 2026-03). HTML pages return SPA shell only — use REST API. Key endpoints: /api/announcements (Matangazo), /api/advertisements (procurement ads, often empty). Attachments at /minio/ifakaratc.go.tz/attachments/. Legacy /storage/app/uploads/public/ paths may still work for old PDFs. Procurement page slug not yet live; department page 'procurement-management' exists but content under construction."
   selectors:
     container: "main, .content, [class*='announcement'], [class*='event']"
     tender_item: "a[href*='single-announcement'], a[href*='singel-event'], li a"
@@ -31,7 +31,7 @@ scraping:
   schedule: "daily"
 
   anti_bot:
-    requires_javascript: false
+    requires_javascript: true
     has_captcha: false
     rate_limit_seconds: 10
 
@@ -69,8 +69,10 @@ scraping:
 
     known_document_paths:
       - "/storage/app/uploads/public/"
+      - "/minio/ifakaratc.go.tz/attachments/"
     url_patterns:
       - "ifakaratc.go.tz/storage/app/uploads/public/*"
+      - "ifakaratc.go.tz/minio/ifakaratc.go.tz/attachments/*"
 
     download_rules:
       max_file_size_mb: 50
@@ -408,6 +410,6 @@ with smtplib.SMTP_SSL(config["host"], config["port"], context=context) as server
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
-- **Signal Strength:** Strong (manunuzi, procurement)
+- **Last Checked:** 10 June 2026
+- **Active Tenders:** 0 (API checked; announcements are tax/events notices, not procurement)
+- **Signal Strength:** Medium (procurement API exists but advertisements empty; site migrated to GWF CORE SPA)

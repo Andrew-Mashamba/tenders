@@ -9,7 +9,7 @@ institution:
 
 website:
   homepage: "https://mow.go.tz/"
-  tender_url: "https://mow.go.tz/"
+  tender_url: "https://mow.go.tz/pages/procurement-management"
 
 contact:
   email: "ps@mow.go.tz"
@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Fetch homepage and follow 'Ununuzi na Ugavi' (procurement) nav links. Documents in /uploads/documents/ (e.g. sw-*.pdf). Parse main content for tender listings and document links."
+  strategy: "Fetch https://mow.go.tz/pages/procurement-management for DPMU info. No tender table on site — actual tenders published via NeST (nest.go.tz). Homepage /uploads/documents/sw-*.pdf are Jarida magazines, NOT tenders. SSL cert may require curl -k."
   selectors:
     container: ".tender-list, .content, main, .entry-content, .page-content, article"
     tender_item: "article, .tender-item, .card, .row, li, tr"

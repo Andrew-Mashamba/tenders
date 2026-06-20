@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Drupal 7 site. Homepage shows news/announcements in table.views-table. Scrape #block-views-front-page-block-1 for announcements. Each row has date in td.views-field-event-calendar-date, title in td.views-field-title a. No dedicated tender page — check /node/{id} detail pages for procurement-related content. Documents in /sites/default/files/."
+  strategy: "Drupal 7 site (currently returns HTTP 500 as of 2026-06-10). Homepage shows news/announcements in table.views-table. Scrape #block-views-front-page-block-1 for announcements. Each row has date in td.views-field-event-calendar-date, title in td.views-field-title a. No dedicated tender page — check /node/{id} detail pages for procurement-related content. Documents in /sites/default/files/."
   selectors:
     container: "#block-views-front-page-block-1 .view-content, .view-front-page"
     tender_item: "table.views-table tbody tr"

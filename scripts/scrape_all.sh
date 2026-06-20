@@ -1,6 +1,6 @@
 #!/bin/bash
 # =============================================================================
-# TENDERS — Daily Tender Scraper
+# TENDERS — Tender Scraper (scheduled weekly via LaunchAgent)
 # Phase 1: Agent CLI reads READMEs, fetches pages, downloads docs,
 #           identifies real tenders, rejects junk, organizes JSON
 # Phase 2: Pure Python organizes expired tenders, updates index, sends email
@@ -18,6 +18,10 @@ set -uo pipefail
 
 PROJECT_DIR="/Volumes/DATA/PROJECTS/TENDERS"
 SCRIPTS_DIR="$PROJECT_DIR/scripts"
+PYTHON="${PROJECT_DIR}/.venv/bin/python"
+if [ ! -x "$PYTHON" ]; then
+    PYTHON="python3"
+fi
 LOGS_DIR="$PROJECT_DIR/logs"
 TIMESTAMP=$(date +"%Y%m%d_%H%M%S")
 MASTER_LOG="$LOGS_DIR/scrape_master_$(date +%Y%m%d).log"
@@ -50,7 +54,7 @@ mkdir -p "$LOGS_DIR"
 AGENT_BIN=$(which agent 2>/dev/null || echo "/Users/andrewmashamba/.local/bin/agent")
 if [ ! -x "$AGENT_BIN" ]; then
     log "ERROR: Agent CLI not found at $AGENT_BIN"
-    python3 "$SCRIPTS_DIR/send_error_email.py" "Agent CLI not found" 2>/dev/null || true
+    "$PYTHON" "$SCRIPTS_DIR/send_error_email.py" "Agent CLI not found" 2>/dev/null || true
     exit 1
 fi
 
@@ -67,7 +71,7 @@ for arg in "$@"; do
 done
 
 # Run the smart scraper
-python3 "$SCRIPTS_DIR/smart_scrape.py" \
+"$PYTHON" "$SCRIPTS_DIR/smart_scrape.py" \
     --agent-batch "$AGENT_BATCH" \
     --workers "$WORKERS" \
     $EXTRA_ARGS \
@@ -78,7 +82,7 @@ EXIT_CODE=${PIPESTATUS[0]}
 if [ "$EXIT_CODE" -ne 0 ]; then
     log "ERROR: Smart scraper exited with code $EXIT_CODE"
     # Send error email with last 50 lines of log
-    python3 "$SCRIPTS_DIR/send_error_email.py" \
+    "$PYTHON" "$SCRIPTS_DIR/send_error_email.py" \
         "Smart scraper failed (exit=$EXIT_CODE). Check $MASTER_LOG" 2>/dev/null || true
 fi
 

@@ -215,6 +215,7 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
+- **Last Checked:** 11 June 2026
+- **Active Tenders:** 0
 - **Signal Strength:** Strong (prequalification, procurement, tender)
+- **Note:** Latest announcement (TO ALL PRE.pdf) is July 2025 BPS bid — expired. Site publishes tender calendars and results, not open tenders. SSL may require curl -k.

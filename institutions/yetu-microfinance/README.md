@@ -4,6 +4,7 @@ institution:
   slug: "yetu-microfinance"
   category: "Microfinance Bank"
   status: "inactive"
+  note: "Under BOT statutory administration; website unreachable Jun 2026"
   country: "Tanzania"
 
 website:
@@ -11,9 +12,9 @@ website:
   tender_url: "null"
 
 scraping:
-  enabled: true
+  enabled: false
   method: "none"
-  strategy: "Under BOT statutory administration since Dec 2022. No active tender page."
+  strategy: "Under BOT statutory administration since Dec 2022. Website yetumfplc.co.tz unreachable (DNS/connection failed Jun 2026). No active tender page."
   selectors:
     container: "null"
   schedule: "monthly"

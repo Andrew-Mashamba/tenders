@@ -20,9 +20,11 @@ scraping:
   schedule: "weekly"
   
   anti_bot:
-    requires_javascript: false
+    requires_javascript: true
     has_captcha: false
     rate_limit_seconds: 10
+    waf: "Incapsula"
+    block_reason: "Incapsula bot protection blocks curl/WebFetch (June 2026). Try browser-based scrape or Mabumbe alternative."
 
   documents:
     download_enabled: true

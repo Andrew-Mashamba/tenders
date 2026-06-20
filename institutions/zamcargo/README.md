@@ -21,7 +21,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape http://zamcargo.co.tz/tenders.html for tender/procurement notices."
+  strategy: "Scrape http://zamcargo.co.tz/tenders.html. Tenders load dynamically via JS from https://zamcargoapi.naleng.co.tz/public/api/tendars — API returns 401/captcha challenge (Jun 2026), so automated scraping gets empty list. May require browser/JS or API credentials."
   selectors:
     container: ".tender-list, .content, main, .entry-content, .page-content, article"
     tender_item: "article, .tender-item, .card, .row, li, tr"
@@ -32,8 +32,9 @@ scraping:
   schedule: "daily"
 
   anti_bot:
-    requires_javascript: false
-    has_captcha: false
+    requires_javascript: true
+    has_captcha: true
+    note: "Tenders API protected by reCAPTCHA/stackprotect (401 without token)"
     rate_limit_seconds: 10
 
   documents:

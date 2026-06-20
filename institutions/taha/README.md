@@ -20,8 +20,9 @@ scraping:
   enabled: true
   method: "http_get"
   strategy: |
-    Homepage has "Tenders" link in Quick Links pointing to external shorturl.at/Vrsv6.
-    No tender listings on taha.or.tz itself. Scraper should follow alternate_tender_url for actual tenders.
+    Homepage has "Tenders" link in Quick Links pointing to external shorturl.at/Vrsv6 (also iltA2).
+    No tender listings on taha.or.tz itself. External short URLs return HTTP 403 to automated requests (2026-06-11).
+    Manual browser access may be required for external tender host.
   selectors:
     container: ".tender-list, .content, main, .entry-content, .page-content, article"
     tender_item: "article, .tender-item, .card, .row, li, tr"
@@ -198,6 +199,6 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
+- **Last Checked:** 11 June 2026
+- **Active Tenders:** 0 (external tender URL blocked)
 - **Signal Strength:** Strong (tender, tenders)

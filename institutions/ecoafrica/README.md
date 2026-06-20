@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape homepage https://ecoafrica.co.tz/ for tender/procurement notices. No dedicated tender page found; homepage is marketing-focused (LPG supply). Check for news/announcements sections or linked pages."
+  strategy: "Scrape homepage https://ecoafrica.co.tz/ for tender/procurement notices. As of 2026-06-10 domain fails DNS resolution (site unreachable). Previously marketing-focused LPG distributor with no tender section."
   selectors:
     container: ".tender-list, .content, main, .entry-content, .page-content, article"
     tender_item: "article, .tender-item, .card, .row, li, tr"

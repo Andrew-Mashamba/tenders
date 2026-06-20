@@ -1,0 +1,56 @@
+{
+  "tender_id": "ECOBANK-2026-006",
+  "institution": "ecobank",
+  "title": "Provision of Asset and Liability Management System",
+  "description": "Ecobank Group RFP: Provision of Asset and Liability Management System. Pan-African procurement open to all Ecobank affiliates including Tanzania.",
+  "reference_number": "1/5/2026/RFP/CIB & GROUP RISK",
+  "published_date": "2026-05-12",
+  "closing_date": "2026-06-22",
+  "closing_time": "17:00 GMT",
+  "category": "ICT",
+  "status": "active",
+  "source_url": "https://www.ecobank.com/procurement",
+  "documents": [
+    {
+      "filename": "RFP_Document.pdf",
+      "original_url": "https://www.ecobank.com/upload/publications/upload/20260512103830191w.pdf",
+      "local_path": "./downloads/ECOBANK-2026-006/original/RFP_Document.pdf",
+      "content_type": "application/pdf",
+      "file_size_bytes": 4654300,
+      "downloaded_at": "2026-06-10T16:55:29.894Z"
+    },
+    {
+      "filename": "NDA.doc",
+      "original_url": "https://www.ecobank.com/upload/publications/upload/20260512103950151g.doc",
+      "local_path": "./downloads/ECOBANK-2026-006/original/NDA.doc",
+      "content_type": "application/msword",
+      "file_size_bytes": 46592,
+      "downloaded_at": "2026-06-10T16:55:29.894Z"
+    },
+    {
+      "filename": "InfoSec_Questionnaire.docx",
+      "original_url": "https://www.ecobank.com/upload/publications/upload/202605121040126436.docx",
+      "local_path": "./downloads/ECOBANK-2026-006/original/InfoSec_Questionnaire.docx",
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "file_size_bytes": 849408,
+      "downloaded_at": "2026-06-10T16:55:29.894Z"
+    },
+    {
+      "filename": "eProcess_Response_Sheet.xlsx",
+      "original_url": "https://www.ecobank.com/upload/publications/upload/202605121040393954.xlsx",
+      "local_path": "./downloads/ECOBANK-2026-006/original/eProcess_Response_Sheet.xlsx",
+      "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "file_size_bytes": 98304,
+      "downloaded_at": "2026-06-10T16:55:29.894Z"
+    }
+  ],
+  "contact": {
+    "name": "Ecobank Group Procurement",
+    "email": "questions.sourcing@ecobank.com",
+    "phone": "",
+    "address": "Ecobank Group, Lom\u00e9, Togo"
+  },
+  "eligibility": "Open to qualified vendors meeting Ecobank Group procurement requirements. Submit via eProcess portal.",
+  "scraped_at": "2026-06-10T16:55:29.894Z",
+  "last_checked": "2026-06-10T16:55:29.894Z"
+}

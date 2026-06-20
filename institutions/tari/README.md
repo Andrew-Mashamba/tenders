@@ -9,7 +9,7 @@ institution:
 
 website:
   homepage: "https://tari.go.tz/"
-  tender_url: "https://tari.go.tz/"
+  tender_url: "https://tari.go.tz/pages/procurement-management"
 
 contact:
   email: "dg@tari.go.tz"
@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "TARI (agricultural research). Homepage has News (tari.go.tz/news/...), Events, Matangazo (announcements at /announcements/). Procurement menu items present. Scrape announcements for tender notices. Documents likely in /storage/ or similar. Verify structure on first run."
+  strategy: "TARI (agricultural research). Procurement page at /pages/procurement-management is department info only (no tender listings). Matangazo at /announcements/ has scholarships/grants (not procurement). Check /announcements/ and homepage for zabuni/manunuzi notices. Documents in /uploads/. Site requires curl -k (SSL cert issue)."
   selectors:
     container: ".tender-list, .content, main, .entry-content, .page-content, article"
     tender_item: "article, .tender-item, .card, .row, li, tr"

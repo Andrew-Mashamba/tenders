@@ -1,0 +1,31 @@
+{
+  "tender_id": "NFRA-2026-001",
+  "institution": "nfra",
+  "title": "Framework Agreements for Purchase of White Maize (NON-GMO), White Sorghum and Rice",
+  "description": "NFRA invites qualified AMCOS groups, large-scale farmers, and traders to apply for framework purchase agreements to supply white maize (non-GMO), white sorghum, and rice for the 2026/2027 procurement season starting 1 July 2026. Applications are submitted via the Digital Food Tracking System (DFTS) at dfts.nfra.go.tz.",
+  "reference_number": "",
+  "published_date": "2026-04-01",
+  "closing_date": null,
+  "closing_time": "",
+  "category": "Supply",
+  "status": "active",
+  "source_url": "https://nfra.go.tz/announcements/tangazo-la-mikataba-ya-ununuzi-wa-mahindi-meupe-non-gmo-mtama-mweupe-na-mpunga",
+  "documents": [
+    {
+      "filename": "Mikataba_ya_Ununuzi_wa_Mahindi_Meupe_Mtama_Mweupe_na_Mpunga.pdf",
+      "original_url": "https://www.nfra.go.tz/uploads/text-editor/files/Mikataba ya Ununuzi wa Mahindi Meupe, Mtama Mweupe na Mpunga_1776341800.pdf",
+      "local_path": "./downloads/NFRA-2026-001/original/Mikataba_ya_Ununuzi_wa_Mahindi_Meupe_Mtama_Mweupe_na_Mpunga.pdf",
+      "content_type": "application/pdf",
+      "downloaded_at": "2026-06-11T06:58:22.378000Z"
+    }
+  ],
+  "contact": {
+    "name": "National Food Reserve Agency",
+    "email": "info@nfra.go.tz",
+    "phone": "+255 26 2963953",
+    "address": "P.O. Box 1050, Kizota Industrial Area, Dodoma, Tanzania"
+  },
+  "eligibility": "AMCOS groups (registered certificate, TIN, valid grain business license); large-scale farmers (100+ acres, 200+ ton maize/rice or 50+ ton sorghum capacity); traders (2,000+ ton maize/rice or 50+ ton sorghum, valid tax clearance).",
+  "scraped_at": "2026-06-11T06:58:22.378006Z",
+  "last_checked": "2026-06-11T06:58:22.378008Z"
+}

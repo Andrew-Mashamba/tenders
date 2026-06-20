@@ -1,0 +1,31 @@
+{
+  "tender_id": "AZANIABA-2026-028",
+  "institution": "azania-bank",
+  "title": "Pre-qualification for Contractors for Remodeling, Fit-out, Refurbishment Works for Bank Branches (May 2025)",
+  "description": "Pre-qualification for Contractors for Remodeling, Fit-out, Refurbishment Works for Bank Branches (May 2025)",
+  "reference_number": "",
+  "published_date": "",
+  "closing_date": "2025-06-30",
+  "closing_time": "",
+  "category": "Construction",
+  "status": "closed",
+  "source_url": "https://azaniabank.co.tz/tenders/",
+  "documents": [
+    {
+      "filename": "Prequalification-Document-Provision-of-Contractors-work-services.pdf",
+      "original_url": "https://azaniabank.co.tz/wp-content/uploads/2025/05/Prequalification-Document-Provision-of-Contractors-work-services.pdf",
+      "local_path": "./downloads/AZANIABA-2026-028/original/Prequalification-Document-Provision-of-Contractors-work-services.pdf",
+      "content_type": "application/pdf",
+      "downloaded_at": "2026-06-10T16:00:18.462Z"
+    }
+  ],
+  "contact": {
+    "name": "Procurement Management Unit",
+    "email": "procurement@azaniabank.co.tz",
+    "phone": "0800 110 210",
+    "address": "PSSSF Tower, Sam Nujoma Road, Dar es Salaam"
+  },
+  "eligibility": "Open to eligible registered suppliers",
+  "scraped_at": "2026-06-10T16:00:18.462Z",
+  "last_checked": "2026-06-10T16:00:18.462Z"
+}

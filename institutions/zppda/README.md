@@ -7,13 +7,13 @@ institution:
   country: "Tanzania"
 
 website:
-  homepage: "http://www.tenders.zppda.go.tz/"
-  tender_url: "http://www.tenders.zppda.go.tz/"
+  homepage: "https://eprocurement.zppda.go.tz/"
+  tender_url: "https://eprocurement.zppda.go.tz/esop/guest/login.do"
 
 scraping:
-  enabled: true
+  enabled: false
   method: "http_get"
-  strategy: "Zanzibar-specific procurement portal. Scrape for Zanzibar institution tenders (PBZ, etc)."
+  strategy: "Zanzibar e-procurement portal at eprocurement.zppda.go.tz (ESOP). Requires guest login — public tender listing not accessible without authentication. Legacy tenders.zppda.go.tz DNS NXDOMAIN; zppda.go.tz returns empty directory listing."
   selectors:
     container: "table, .content, main"
     tender_item: "tr, .tender-row"
@@ -24,7 +24,7 @@ scraping:
   schedule: "daily"
   
   anti_bot:
-    requires_javascript: false
+    requires_javascript: true
     has_captcha: false
     rate_limit_seconds: 10
 
@@ -100,12 +100,14 @@ scraping:
       - contact_info
 
 alternative_sources:
-  - name: "ZPPDA Direct"
+  - name: "ZPPDA eProcurement (ESOP)"
+    url: "https://eprocurement.zppda.go.tz/"
+  - name: "Legacy portal (dead)"
     url: "http://www.tenders.zppda.go.tz/"
 
 notes: |
   Zanzibar Procurement and Property Disposal Authority. Covers all Zanzibar government entities including PBZ.
-  As of 2026-03-15: tenders.zppda.go.tz returns DNS NXDOMAIN (domain unreachable). Verify if URL has changed.
+  As of 2026-06-10: tenders.zppda.go.tz DNS NXDOMAIN; active portal is eprocurement.zppda.go.tz but requires login.
 ---
 
 # ZPPDA (Zanzibar Procurement)

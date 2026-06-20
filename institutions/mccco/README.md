@@ -91,7 +91,7 @@ scraping:
       - contact_info
 
 notes: |
-  Category: Commercial. Mbozi Coffee Curing Company Limited - coffee processing company. No tender content found. Scraping disabled 2026-03-15.
+  Category: Commercial. Mbozi Coffee Curing Company Limited - coffee processing company. No tender content found. Contact: info@mccco.co.tz. Last checked 2026-06-10.
 ---
 
 # Mbozi Coffee Curing Company Limited (MCCCo)

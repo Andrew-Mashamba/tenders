@@ -9,7 +9,7 @@ institution:
 
 website:
   homepage: "https://kilimo.go.tz/"
-  tender_url: "https://kilimo.go.tz/"
+  tender_url: "https://kilimo.go.tz/pages/customer-service-charter"
 
 contact:
   email: "ps@kilimo.go.tz"
@@ -18,7 +18,10 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape kilimo.go.tz for Wizara ya Kilimo (Ministry of Agriculture) tender notices. Look for zabuni/EOI listings. Tender page may be at /sw/listing/zabuni or similar. Documents stored in /uploads/documents/ (e.g. sw-{timestamp}-{filename}.pdf)."
+  strategy: |
+    Zabuni (tenders) page is at https://kilimo.go.tz/pages/customer-service-charter (nav label "Zabuni").
+    As of 2026-06-10 only legacy 2019 tenders listed; no current open tenders. Homepage crop price bulletins
+    at /uploads/documents/ are news/market reports, not procurement. Some tender PDFs hosted on external IP 154.118.229.34:9099.
   selectors:
     container: "main, .content, .page-content, .entry-content, [class*='zabuni'], [class*='listing']"
     tender_item: "article, .tender-item, .listing-item, .row, li, tr"
@@ -411,6 +414,6 @@ with smtplib.SMTP_SSL(config["host"], config["port"], context=context) as server
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
+- **Last Checked:** 10 June 2026
+- **Active Tenders:** 0 (only legacy 2019 tenders on Zabuni page)
 - **Signal Strength:** Strong (eoi, zabuni)

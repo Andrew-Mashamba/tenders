@@ -1,0 +1,31 @@
+{
+  "tender_id": "AZANIABA-2026-017",
+  "institution": "azania-bank",
+  "title": "Tender Document Bank Printed Stationary(Feb 2026)",
+  "description": "Tender Document Bank Printed Stationary(Feb 2026)",
+  "reference_number": "",
+  "published_date": "2026-02-16",
+  "closing_date": "2026-03-09",
+  "closing_time": "14:00 EAT",
+  "category": "General",
+  "status": "closed",
+  "source_url": "https://azaniabank.co.tz/tenders/",
+  "documents": [
+    {
+      "filename": "Tender-Document-Bank-Printed-Stationary-1.pdf",
+      "original_url": "https://azaniabank.co.tz/wp-content/uploads/2026/02/Tender-Document-Bank-Printed-Stationary-1.pdf",
+      "local_path": "./downloads/AZANIABA-2026-017/original/Tender-Document-Bank-Printed-Stationary-1.pdf",
+      "content_type": "application/pdf",
+      "downloaded_at": "2026-06-10T16:00:18.462Z"
+    }
+  ],
+  "contact": {
+    "name": "Procurement Management Unit",
+    "email": "procurement@azaniabank.co.tz",
+    "phone": "0800 110 210",
+    "address": "PSSSF Tower, Sam Nujoma Road, Dar es Salaam"
+  },
+  "eligibility": "Open to eligible registered suppliers",
+  "scraped_at": "2026-06-10T16:00:18.462Z",
+  "last_checked": "2026-06-10T16:00:18.462Z"
+}

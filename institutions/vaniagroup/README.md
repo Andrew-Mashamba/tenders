@@ -13,7 +13,7 @@ website:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape https://vaniagroup.co.tz/ for tender/procurement notices."
+  strategy: "Site is a Framer SPA (requires JavaScript). Static http_get returns only CSS/font assets, not page content. No dedicated procurement/tender section found. Check periodically with JS-capable browser; do not scrape framerusercontent.com font/CSS URLs as tender documents."
   selectors:
     container: ".tender-list, .content, main, .entry-content, .page-content, article"
     tender_item: "article, .tender-item, .card, .row, li, tr"
@@ -23,7 +23,7 @@ scraping:
     pagination: ".pagination a, a.next, .nav-links a"
   schedule: "daily"
   anti_bot:
-    requires_javascript: false
+    requires_javascript: true
     has_captcha: false
     rate_limit_seconds: 10
   documents:

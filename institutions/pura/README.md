@@ -8,7 +8,7 @@ institution:
 
 website:
   homepage: "https://pura.go.tz"
-  tender_url: "http://pura.go.tz"
+  tender_url: "https://pura.go.tz/documents/tenders"
 
 scraping:
   enabled: true
@@ -61,9 +61,12 @@ scraping:
       decode_percent_encoding: true
 
     known_document_paths:
+      - "/uploads/documents/"
       - "/wp-content/uploads/2025/03/"
 
     url_patterns:
+      - "pura.go.tz/uploads/documents/*.pdf"
+      - "pura.go.tz/documents/tenders"
       - "pura.go.tz/wp-content/uploads/2025/03/*.pdf"
 
     download_rules:
@@ -99,8 +102,9 @@ scraping:
 notes: |
   Category: Government. Keywords found: tender, tenders.
   Emails: dg@pura.go.tz.
-  Discovered by crawler on 2026-03-15.
-  Site timed out during fetch (2026-03-15). Known document path /wp-content/uploads/2025/03/ from prior discovery. Verify selectors when accessible.
+  Tender listing at /documents/tenders. Documents at /uploads/documents/en-{timestamp}-{filename}.pdf.
+  Listed tenders are historical (2021 EOIs). EREA Executive Secretary advert is a job vacancy, not procurement.
+  Site requires curl -k (SSL cert issues). Verified accessible 2026-06-11.
 ---
 
 # PURA

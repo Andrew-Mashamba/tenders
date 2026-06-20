@@ -1,0 +1,38 @@
+{
+  "tender_id": "BIHARAMULODC-2026-006",
+  "institution": "biharamulodc",
+  "title": "TOR: CMG Capacity Building and BDS Support Program (PAMOJA Project)",
+  "description": "PMO-RALG invites qualified firms to provide Business Development Services (BDS) for training, capacity building and mentoring of Community Microfinance Groups (CMGs) under the World Bank-financed PAMOJA Project. Biharamulo District Council is among the targeted implementation areas in Kagera Region.",
+  "reference_number": "P178813",
+  "published_date": "2026-04-29",
+  "closing_date": null,
+  "closing_time": "",
+  "category": "Consultancy",
+  "status": "active",
+  "source_url": "https://biharamulodc.go.tz/tenders",
+  "documents": [
+    {
+      "filename": "TOR-CMG-Capacity-Building.pdf",
+      "original_url": "http://biharamulodc.go.tz/minio/tamisemi.go.tz/attachments/1777502817404-TOR-CMG-Capacity-Building-and-BDS-Support-Program-Revised-and-Final-latest-April-2026.pdf",
+      "local_path": "./downloads/BIHARAMULODC-2026-006/original/TOR-CMG-Capacity-Building.pdf",
+      "content_type": "application/pdf",
+      "downloaded_at": "2026-06-10T16:15:00.000000Z"
+    },
+    {
+      "filename": "TOR-CMG-Capacity-Building.docx",
+      "original_url": "http://biharamulodc.go.tz/minio/tamisemi.go.tz/attachments/1777502542258-TOR-CMG-Capacity-Building-and-BDS-Support-Program-Revised-and-Final-latest-April-2026.docx",
+      "local_path": "./downloads/BIHARAMULODC-2026-006/original/TOR-CMG-Capacity-Building.docx",
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "downloaded_at": "2026-06-10T16:16:00.000000Z"
+    }
+  ],
+  "contact": {
+    "name": "PMO-RALG / Biharamulo District Council",
+    "email": "ded@biharamulodc.go.tz",
+    "phone": "",
+    "address": "Prime Minister's Office – Regional Administration and Local Government, Tanzania"
+  },
+  "eligibility": "Qualified firms with minimum 10 years experience in CMG/VSLA, financial inclusion, or livelihoods programs; demonstrated experience in Tanzania preferred.",
+  "scraped_at": "2026-06-10T16:18:00.000000Z",
+  "last_checked": "2026-06-10T16:18:00.000000Z"
+}

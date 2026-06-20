@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape https://psc.go.tz/ for government tender notices. Government sites often post zabuni/manunuzi."
+  strategy: "Scrape https://psc.go.tz/ and https://psc.go.tz/services/procurement-management-unit for tender notices. Procurement unit page currently shows 'Haipatikani' (not available). Site requires curl -k due to SSL cert issues."
   selectors:
     container: ".tender-list, .content, main, .entry-content, .page-content, article"
     tender_item: "article, .tender-item, .card, .row, li, tr"
@@ -99,7 +99,7 @@ scraping:
       - contact_info
 
 notes: |
-  Government Website | Tovuti ya Serikali. Site timed out during fetch (2026-03-15). May be slow or blocking. Retry and verify selectors when accessible.
+  Government Website | Tovuti ya Serikali. Site accessible with curl -k (SSL cert issues). Procurement unit at /services/procurement-management-unit shows 'Haipatikani'. No active tenders as of 2026-06-11.
 ---
 
 # PSC |   Jamhuri ya Muungano wa Tanzania, - Mwanzo

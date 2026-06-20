@@ -31,6 +31,8 @@ scraping:
     requires_javascript: false
     has_captcha: false
     rate_limit_seconds: 10
+    ssl_verify: false
+    notes: "SSL certificate may fail verification; use curl -k or skip SSL verify. Site returns valid HTML with -k."
 
   documents:
     download_enabled: true
@@ -208,6 +210,6 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
-- **Signal Strength:** Strong (manunuzi, tender, tenders, zabuni)
+- **Last Checked:** 10 June 2026
+- **Active Tenders:** 0 (only 2 expired tenders listed: 2018 and 2019)
+- **Signal Strength:** Moderate (page exists but not updated since 2019)

@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Homepage has AVAILABLE DOCUMENTS section with application forms and PDFs. Each item has title link and Posted date. Use Load More for pagination. Documents at /www/100/news/{hash}filename-{name}.pdf"
+  strategy: "Homepage AVAILABLE DOCUMENTS section lists student admission/joining forms (FOMU YA KUJIUNGA, joining instructions) — not procurement tenders. Reject as junk. Documents at /www/100/news/{hash}filename-{name}.pdf. No procurement section found."
   selectors:
     container: ".contained-div, .main"
     tender_item: "a[href*='/www/100/news/']"
@@ -198,6 +198,6 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
+- **Last Checked:** 11 June 2026
+- **Active Tenders:** 0 (student application forms only)
 - **Signal Strength:** Weak (supply/rfi only)

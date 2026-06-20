@@ -10,6 +10,7 @@ institution:
 website:
   homepage: "https://singidadc.go.tz/"
   tender_url: "https://singidadc.go.tz/tenders"
+  tender_url_note: "As of 2026-06-11, /tenders returns GWF CORE SPA shell. Use api/advertisements, api/announcements, api/files. Filter category=Tender."
 
 contact:
   email: "ded.singidadc@singida.go.tz"
@@ -18,7 +19,11 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "October CMS. Scrape /tenders. Tenders in .right-sidebar-container as a[href*='/announcement/'] links. Follow to /announcement/{slug} for documents. Table may be empty; use sidebar announcement links."
+  strategy: |
+    Site restructured to GWF CORE SPA (2026). /tenders returns React shell (requires JavaScript).
+    Use REST API: api/advertisements?limit=50 (procurement; filter category=Tender),
+    api/announcements, api/files. Legacy October CMS paths no longer served.
+    As of 2026-06-11: no active procurement tenders (land plot sales and insurance notices only).
   selectors:
     container: ".right-sidebar-content"
     tender_item: ".right-sidebar-container a[href*='/announcement/']"
@@ -29,7 +34,7 @@ scraping:
   schedule: "daily"
 
   anti_bot:
-    requires_javascript: false
+    requires_javascript: true
     has_captcha: false
     rate_limit_seconds: 10
 

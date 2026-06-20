@@ -200,6 +200,6 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
-- **Signal Strength:** Strong (procurement)
+- **Last Checked:** 11 June 2026
+- **Active Tenders:** 0 (corporate profile only)
+- **Signal Strength:** Weak (procurement mentioned in company description)

@@ -195,6 +195,6 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
+- **Last Checked:** 11 June 2026
+- **Active Tenders:** 0 (announcements page empty; procurement unit page is descriptive only; tenders on TANePS)
 - **Signal Strength:** Strong (procurement)

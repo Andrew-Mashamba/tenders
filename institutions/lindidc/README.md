@@ -8,7 +8,7 @@ institution:
 
 website:
   homepage: "https://lindidc.go.tz"
-  tender_url: "https://lindidc.go.tz/tenders"
+  tender_url: "https://lindidc.go.tz/procurement-and-supply"
 
 scraping:
   enabled: true

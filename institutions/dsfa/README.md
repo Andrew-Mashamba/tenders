@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape /announcements (Matangazo) for tender/procurement notices. Procurement unit at /pages/procument-management-unit (Kitengo cha Usimamizi wa Manunuzi). As of 2026-03-15 page showed 'Hakuna Taarifa kwa sasa' (no announcements). Check /news/, /publications/. Documents at /uploads/."
+  strategy: "Scrape /announcements (Matangazo) for tender/procurement notices. Procurement unit at /pages/procument-management-unit (Kitengo cha Usimamizi wa Manunuzi). As of 2026-06-10 page shows 'Hakuna Taarifa kwa sasa' (no announcements). Check /news/, /publications/. Documents at /uploads/."
   selectors:
     container: ".page-content, .main-container, .about-page, .row"
     tender_item: ".col-12.py-3, a.cursor-pointer, .pressside-body a"

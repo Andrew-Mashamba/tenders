@@ -9,7 +9,7 @@ institution:
 
 website:
   homepage: "https://teiti.go.tz/"
-  tender_url: "https://teiti.go.tz/tenders"
+  tender_url: "http://teiti.go.tz/tenders"
 
 contact:
   email: "info@teiti.go.tz"
@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape /tenders page. Table with columns: Tender Name, Date Added, Closing Date, Download. Documents in /storage/app/uploads/public/ with hash paths."
+  strategy: "Scrape http://teiti.go.tz/tenders (HTTPS has SSL errors; use HTTP). Table with columns: Tender Name, Date Added, Closing Date, Download. Documents in /storage/app/uploads/public/ with hash paths."
   selectors:
     container: "table.table.table-striped, .row"
     tender_item: "table.table-striped tbody tr"

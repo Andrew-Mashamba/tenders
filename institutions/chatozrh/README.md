@@ -19,7 +19,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "chatozrh.go.tz/procurement returns 500 Internal Server Error (InvalidFileNameException - 'slider copy.htm'). Page is unreachable. Disabled until site is fixed. When fixed, procurement page uses October CMS; documents at /storage/app/media/."
+  strategy: "chatozrh.go.tz/procurement still returns HTTP 500 (2026-06-10). Homepage loads but has no tender PDF links. When fixed, procurement page uses October CMS; documents expected at /storage/app/media/. Also try /tenders (404 as of 2026-06-10)."
   selectors:
     container: ".tender-list, .content, main, .entry-content, .page-content, article"
     tender_item: "article, .tender-item, .card, .row, li, tr"

@@ -16,9 +16,9 @@ contact:
   phone: "024-2231330"
 
 scraping:
-  enabled: true
+  enabled: false
   method: "http_get"
-  strategy: "Scrape https://zmc.go.tz/procurement — Bootstrap tabs (TENDA MPYA, TENDA, SHERIA ZA MANUNUZI, MANUNUZI MADOGO MADOGO). Tenders in table.table.table-hover tbody tr. Columns: S/N, JINA LA TENDA (title), NAMBA YA TENDA (ref), TAREHE YA TENDA (date), MWISHO WA MAOMBI (closing), BEI YA TENDA (price). Check all tab panes (#tab-1, #tab-2). Table may be empty (HAKUNA TAARIFA); document links in cells if present."
+  strategy: "Site currently down/unconfigured as of 2026-06-10: zmc.go.tz returns Apache directory listing (cgi-bin/ only); /procurement returns 404. When restored, scrape Bootstrap tabs (TENDA MPYA, TENDA, SHERIA ZA MANUNUZI, MANUNUZI MADOGO MADOGO). Tenders in table.table.table-hover tbody tr."
   selectors:
     container: "section#features, .tab-content, .table-responsive"
     tender_item: "table.table.table-hover tbody tr"
@@ -407,6 +407,6 @@ with smtplib.SMTP_SSL(config["host"], config["port"], context=context) as server
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
-- **Signal Strength:** Strong (manunuzi, procurement)
+- **Last Checked:** 10 June 2026
+- **Active Tenders:** 0 (site down — directory listing only, /procurement 404)
+- **Signal Strength:** Weak (site unreachable)

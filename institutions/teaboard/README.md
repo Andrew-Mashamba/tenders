@@ -9,7 +9,7 @@ institution:
 
 website:
   homepage: "https://teaboard.go.tz/"
-  tender_url: "https://teaboard.go.tz/"
+  tender_url: "https://teaboard.go.tz/announcements"
 
 contact:
   email: "info@teaboard.go.tz"
@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape homepage for Habari (news), Matangazo (announcements), and Pakua (publications). Check /announcements and /publications. Zabuni (tenders) menu links to #. Documents in /uploads/documents/."
+  strategy: "Scrape /announcements (Matangazo) for procurement notices. Also check /publications. Zabuni menu links to # (no dedicated page). As of 2026-06-10 only expired 2023 tea auction notices on announcements page — no active tenders. Documents in /uploads/documents/."
   selectors:
     container: ".page-section, .card.rounded-medium, .home-page-bodyyyy"
     tender_item: ".home-news-card, .d-flex.home-news-card, a[href*='/announcements/'], a[href*='/publications/']"
@@ -114,7 +114,7 @@ notes: |
 
 **Category:** Government Agency
 **Website:** https://teaboard.go.tz/
-**Tender Page:** https://teaboard.go.tz/
+**Tender Page:** https://teaboard.go.tz/announcements
 **Keywords Found:** zabuni
 
 ## Contact Information

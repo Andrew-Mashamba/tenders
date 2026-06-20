@@ -1,0 +1,31 @@
+{
+  "tender_id": "BIHARAMULODC-2026-005",
+  "institution": "biharamulodc",
+  "title": "Public Notice for Butcher Stalls for Alternative Uses",
+  "description": "Tender notice (Zabuni) for butcher stalls (vibanda vya bucha) allocated for alternative uses, published by Biharamulo District Council.",
+  "reference_number": "",
+  "published_date": "2026-03-18",
+  "closing_date": null,
+  "closing_time": "",
+  "category": "General",
+  "status": "active",
+  "source_url": "https://biharamulodc.go.tz/tenders",
+  "documents": [
+    {
+      "filename": "CamScanner_03-24-2026_08.29.pdf",
+      "original_url": "http://biharamulodc.go.tz/minio/biharamulodc.go.tz/attachments/1774330601500-CamScanner%2003-24-2026%2008.29.pdf",
+      "local_path": "./downloads/BIHARAMULODC-2026-005/original/CamScanner_03-24-2026_08.29.pdf",
+      "content_type": "application/pdf",
+      "downloaded_at": "2026-06-10T16:14:00.000000Z"
+    }
+  ],
+  "contact": {
+    "name": "Biharamulo District Council",
+    "email": "ded@biharamulodc.go.tz",
+    "phone": "",
+    "address": "Biharamulo District, Kagera Region, Tanzania"
+  },
+  "eligibility": "",
+  "scraped_at": "2026-06-10T16:18:00.000000Z",
+  "last_checked": "2026-06-10T16:18:00.000000Z"
+}

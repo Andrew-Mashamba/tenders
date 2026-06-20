@@ -7,13 +7,13 @@ institution:
   country: "Tanzania"
 
 website:
-  homepage: "https://dtbt.dtbafrica.com/"
-  tender_url: "null"
+  homepage: "https://diamondtrust.co.tz/"
+  tender_url: "https://diamondtrust.co.tz/public-notice"
 
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "No dedicated tender page. Procurement handled via email: procurement@dtbt.dtbafrica.com"
+  strategy: "dtbt.dtbafrica.com DNS unresolved (2026-06-10). Use diamondtrust.co.tz as Tanzania site. Check /public-notice for notices; /careers is employment only. No tender listings found on homepage. Procurement contact: procurement@dtbt.dtbafrica.com"
   selectors:
     container: "body"
     tender_list: "unknown"
@@ -110,8 +110,8 @@ notes: |
 # Diamond Trust Bank (DTB) Tanzania
 
 **Category:** Commercial Bank  
-**Website:** https://dtbt.dtbafrica.com/  
-**Tender Page:** null  
+**Website:** https://diamondtrust.co.tz/  
+**Tender Page:** https://diamondtrust.co.tz/public-notice  
 
 ## Scraping Instructions
 

@@ -1,0 +1,31 @@
+{
+  "tender_id": "MAENDELEOBANK-2026-004",
+  "institution": "maendeleobank",
+  "title": "RFP for Service & Maintenance Of Security And Safety Systems",
+  "description": "Preventive and corrective maintenance of CCTV, fire detection/alarm, fire extinguishers, intruder alarm, and access control systems.",
+  "reference_number": "",
+  "published_date": "2026-04-01",
+  "closing_date": "2026-05-08",
+  "closing_time": "",
+  "category": "General",
+  "status": "closed",
+  "source_url": "https://maendeleobank.co.tz/index.php/tender/",
+  "documents": [
+    {
+      "filename": "safety-system.pdf",
+      "original_url": "https://maendeleobank.co.tz/wp-content/uploads/2026/04/safety-system.pdf",
+      "local_path": "./downloads/MAENDELEOBANK-2026-004/original/safety-system.pdf",
+      "content_type": "application/pdf",
+      "downloaded_at": "2026-06-10T18:18:53.968Z"
+    }
+  ],
+  "contact": {
+    "name": "Procurement Department",
+    "email": "tenders@maendeleobank.co.tz",
+    "phone": "03937007874",
+    "address": "Maendeleo Bank Plc, Tanzania"
+  },
+  "eligibility": "Qualified and experienced vendors as specified in tender documents",
+  "scraped_at": "2026-06-10T18:18:53.968Z",
+  "last_checked": "2026-06-10T18:18:53.968Z"
+}

@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "RMB grid site returns 503 Service Unavailable. Disable scraping until site is restored. Tender URL: https://grid.rmb.co.za/Default.aspx?tabid=57"
+  strategy: "RMB grid site still returns HTTP 503 Service Unavailable (checked June 2026). Retry periodically. Tender URL: https://grid.rmb.co.za/Default.aspx?tabid=57"
   selectors:
     container: ".tender-list, .content, main, .entry-content, .page-content, article"
     tender_item: "article, .tender-item, .card, .row, li, tr"
@@ -202,6 +202,6 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
-- **Signal Strength:** Weak (supply/rfi only)
+- **Last Checked:** 11 June 2026
+- **Active Tenders:** Unknown (grid.rmb.co.za HTTP 503)
+- **Signal Strength:** Weak (site unavailable)

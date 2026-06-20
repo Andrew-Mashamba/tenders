@@ -19,7 +19,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape https://nit.ac.tz/posts/announcements/ and homepage carousel. Uses Alpine.js. Announcements have title (h4), date, and direct PDF links. Documents at /media/uploads/files/ (hash filenames) and /media/uploads/downloads/."
+  strategy: "Scrape https://nit.ac.tz/posts/announcements/ and homepage carousel. Uses Alpine.js. Announcements have title (h4), date, and direct PDF links. Documents at /media/uploads/files/ (hash filenames) and /media/uploads/downloads/. As of 2026-06-11: announcements page lists speeches, prospectus, CAG reports — no active procurement tenders. PMU page (/menu/pmu/) is informational only."
   selectors:
     container: "main, .content, .announcements, .posts-list"
     tender_item: "article, .post-item, .announcement-item, .card, a[href$='.pdf']"
@@ -212,6 +212,6 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
-- **Signal Strength:** Strong (procurement)
+- **Last Checked:** 11 June 2026
+- **Active Tenders:** 0 (no procurement notices; prior NIT-2026-001 was invalid — linked CAG audit report)
+- **Signal Strength:** Weak (procurement unit exists but no tender listings)

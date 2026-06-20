@@ -17,7 +17,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape https://fursa.co.tz/jobs/?search_category=184 for Tenders category (WP Job Manager). Jobs load via AJAX - requires JavaScript. Each li.job_listing links to /job/{slug}/. Follow job detail pages for document links."
+  strategy: "WP Job Manager aggregator. Tenders category (search_category=184) loads via AJAX (requires JavaScript on listing page). Use WP REST API: /wp-json/wp/v2/job-listings?search=tender to discover procurement notices. Filter out job vacancies. Follow /job/{slug}/ detail pages for closing dates and contacts. As of 2026-06-10 all indexed procurement notices have expired (latest closing May 2026)."
   selectors:
     container: ".job_listings, ul.job_listings, #primary .entry-content"
     tender_item: "li.job_listing"

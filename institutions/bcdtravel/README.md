@@ -11,9 +11,9 @@ website:
   tender_url: "http://bcdtravel.co.tz"
 
 scraping:
-  enabled: true
+  enabled: false
   method: "http_get"
-  strategy: "Tender page at bcdtravel.co.tz timed out on fetch (2026-03-15). Site may be unreachable or slow. Re-enable when reachable."
+  strategy: "bcdtravel.co.tz blocked by Cloudflare/WPE WAF (2026-06-10). Returns 'Sorry, you have been blocked'. No tender content accessible via HTTP GET."
   selectors:
     container: ".tender-list, .content, main, .page-content, .entry-content, article"
     tender_item: "article, .tender-item, .card, .row, tr, li"

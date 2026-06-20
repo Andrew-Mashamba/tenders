@@ -8,7 +8,7 @@ institution:
 
 website:
   homepage: "https://www.letshego.com/tanzania-1"
-  tender_url: "null"
+  tender_url: "https://www.letshego.com/tanzania-1"
 
 scraping:
   enabled: true

@@ -110,6 +110,7 @@ social_media:
 
 notes: |
   RAFIKI-SDO | Nonprofit,Centre for Youth & Children`s Rights
+  Site SSL connection fails (curl exit 35) as of 2026-06-11. Last known EOI (FY2025) closed 2024-12-15 — archived as RAFIKI-2026-001.
 ---
 
 # RAFIKI-SDO | Centre for Youth & Children`s Rights

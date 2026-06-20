@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape https://kondoatc.go.tz/tenders. Same October CMS structure. Table table-striped; columns: title, Date Added, Expire Date, Pakua. Table may be empty when no active tenders. Parse tbody tr. Use -k for SSL."
+  strategy: "As of June 2026 site migrated to GWF CORE React SPA. https://kondoatc.go.tz/tenders returns empty SPA shell. Legacy /storage/ PDF URLs no longer served. Requires JavaScript rendering. Previously: October CMS table-striped with title, Date Added, Expire Date, Pakua columns."
   selectors:
     container: ".right-sidebar-content"
     tender_item: "table.table.table-striped tbody tr"
@@ -29,7 +29,7 @@ scraping:
   schedule: "daily"
 
   anti_bot:
-    requires_javascript: false
+    requires_javascript: true
     has_captcha: false
     rate_limit_seconds: 10
 
@@ -420,6 +420,6 @@ with smtplib.SMTP_SSL(config["host"], config["port"], context=context) as server
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
+- **Last Checked:** 10 June 2026
+- **Active Tenders:** 0 (site migrated to GWF CORE SPA; listing inaccessible via http_get)
 - **Signal Strength:** Strong (manunuzi, tender, tenders, zabuni)

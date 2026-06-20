@@ -7,8 +7,8 @@ institution:
   country: "Tanzania"
 
 website:
-  homepage: "https://tanzaniatenders.com/"
-  tender_url: "https://tanzaniatenders.com/"
+  homepage: "https://www.tanzaniatenders.com/"
+  tender_url: "https://www.tanzaniatenders.com/tenders.php"
 
 scraping:
   enabled: true

@@ -18,8 +18,9 @@ scraping:
   enabled: true
   method: "http_get"
   strategy: |
-    Kamisheni ya Ardhi Zanzibar (Zanzibar Land Commission). Scrape homepage for tender/procurement
-    notices. Site may timeout; use retry/backoff. Check for zabuni/manunuzi pages.
+    Kamisheni ya Ardhi Zanzibar (Zanzibar Land Commission). As of 2026-06-10, kamisheniardhi.go.tz
+    returns only an Apache directory listing (cgi-bin/) with no website content or tender pages.
+    Previously had WordPress placeholder content. Retry periodically; check for zabuni/manunuzi pages.
   selectors:
     container: ".tender-list, .content, main, .entry-content, .page-content, article"
     tender_item: "article, .tender-item, .card, .row, li, tr"

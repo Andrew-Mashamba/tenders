@@ -208,6 +208,6 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
+- **Last Checked:** 10 June 2026
+- **Active Tenders:** 0 (PPP EOI closed 2026-04-02; other announcements are admissions/promotions/press releases)
 - **Signal Strength:** Strong (expression of interest)

@@ -192,6 +192,6 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 15 March 2026
+- **Last Checked:** 10 June 2026
 - **Active Tenders:** 1 (TFS-2026-003 consultancy; auction notices excluded)
 - **Signal Strength:** Strong (tender)

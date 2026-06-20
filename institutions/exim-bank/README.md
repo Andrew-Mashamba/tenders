@@ -8,12 +8,12 @@ institution:
 
 website:
   homepage: "https://eximbank.co.tz/"
-  tender_url: "null"
+  tender_url: "https://eximbank.co.tz/"
 
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "No dedicated tender page found. Acquired FNB Tanzania in 2022."
+  strategy: "No dedicated tender listing page. RFPs/procurement documents published in homepage 'Helpful Documents' section. PDFs served from api.eximbank.co.tz/storage/documents/{hash}.pdf. Note: React SSR page title-to-URL mapping may be incorrect — verify PDF content after download. Contact: adminprocure@eximbank.co.tz."
   selectors:
     container: "body"
     tender_list: "unknown"
@@ -57,15 +57,12 @@ scraping:
       decode_percent_encoding: true
     
     known_document_paths:
-      - "/uploads/"
-      - "/storage/"
-      - "/wp-content/uploads/"
-      - "/media/"
+      - "/storage/documents/"
+      - "api.eximbank.co.tz/storage/documents/"
     
     url_patterns:
+      - "api.eximbank.co.tz/storage/documents/*.pdf"
       - "eximbank.co.tz/*.pdf"
-      - "eximbank.co.tz/*.docx"
-      - "eximbank.co.tz/*.xlsx"
     
     download_rules:
       max_file_size_mb: 50

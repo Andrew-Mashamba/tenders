@@ -1,0 +1,121 @@
+{
+  "tender_id": "MWAUWASA-2026-001",
+  "institution": "mwauwasa",
+  "title": "Construction Works for Mwanza Sewer Connection Upgrade, Tanzania",
+  "description": "National Competitive Bidding (NCB) for construction works under the Lake Victoria Basin Integrated Water Resources Management Programme (LVB-IWRMP). Scope includes 22 km conventional and 3.5 km simplified infill sewers, 1,600 household sewer connections, and rehabilitation of existing sewerage infrastructure including sewers, pumping stations, and Ilemela Wastewater Treatment Plant. Funded by KfW/BMZ and EU through LVBC.",
+  "reference_number": "TR184/2025/2026/513719/W/01",
+  "published_date": "2026-06-02",
+  "closing_date": "2026-07-17",
+  "closing_time": "10:00 EAT",
+  "category": "Construction",
+  "status": "active",
+  "source_url": "https://mwauwasa.go.tz/tenders",
+  "documents": [
+    {
+      "filename": "260526-TD-MWA-IFB.pdf",
+      "original_url": "https://mwauwasa.go.tz/uploads/tenders/en-1780608887-260526-TD-MWA-IFB.pdf",
+      "local_path": "./downloads/MWAUWASA-2026-001/original/260526-TD-MWA-IFB.pdf",
+      "content_type": "application/pdf",
+      "file_size_bytes": 288452,
+      "downloaded_at": "2026-06-11T03:54:31.385Z"
+    },
+    {
+      "filename": "260526-TD-MWA-Vol_I_ITB.pdf",
+      "original_url": "https://mwauwasa.go.tz/uploads/tenders/en-1780608693-260526-TD-MWA-Vol_I_ITB-compressed.pdf",
+      "local_path": "./downloads/MWAUWASA-2026-001/original/260526-TD-MWA-Vol_I_ITB.pdf",
+      "content_type": "application/pdf",
+      "file_size_bytes": 1441223,
+      "downloaded_at": "2026-06-11T03:54:31.385Z"
+    },
+    {
+      "filename": "260526-TD-MWA-Vol_II-TECHNICAL_SPECIFICATIONS-Final.pdf",
+      "original_url": "https://mwauwasa.go.tz/uploads/tenders/en-1780608460-260526-TD-MWA-Vol_II-TECHNICAL_SPECIFICATIONS%20-%20Final-compressed-compressed-compressed.pdf",
+      "local_path": "./downloads/MWAUWASA-2026-001/original/260526-TD-MWA-Vol_II-TECHNICAL_SPECIFICATIONS-Final.pdf",
+      "content_type": "application/pdf",
+      "file_size_bytes": 1891303,
+      "downloaded_at": "2026-06-11T03:54:31.385Z"
+    },
+    {
+      "filename": "260526-TD-MWA-Vol_III-Unpriced-BoQ.xlsx",
+      "original_url": "https://mwauwasa.go.tz/uploads/tenders/en-1780608059-260526-TD-MWA-Vol_III%20-%20Unpriced%20BoQ.xlsx",
+      "local_path": "./downloads/MWAUWASA-2026-001/original/260526-TD-MWA-Vol_III-Unpriced-BoQ.xlsx",
+      "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "file_size_bytes": 830638,
+      "downloaded_at": "2026-06-11T03:54:31.385Z"
+    },
+    {
+      "filename": "260526-TD-MWA-Vol_IV-Drawings-COVER-GENERAL-LAYOUT.pdf",
+      "original_url": "https://mwauwasa.go.tz/uploads/tenders/en-1780607769-260526-TD-MWA-Vol_IV-Drawings-%20COVER%20%26%20GENERAL%20LAYOUT_UPDATED.pdf",
+      "local_path": "./downloads/MWAUWASA-2026-001/original/260526-TD-MWA-Vol_IV-Drawings-COVER-GENERAL-LAYOUT.pdf",
+      "content_type": "application/pdf",
+      "file_size_bytes": 354244,
+      "downloaded_at": "2026-06-11T03:54:31.385Z"
+    },
+    {
+      "filename": "260526-TD-MWA-Vol_IV-Drawings-STANDARD-DRAWINGS.pdf",
+      "original_url": "https://mwauwasa.go.tz/uploads/tenders/en-1780607555-260526-TD-MWA-Vol_IV-Drawings-%20STANDARD%20DRAWINGS.pdf",
+      "local_path": "./downloads/MWAUWASA-2026-001/original/260526-TD-MWA-Vol_IV-Drawings-STANDARD-DRAWINGS.pdf",
+      "content_type": "application/pdf",
+      "file_size_bytes": 1897718,
+      "downloaded_at": "2026-06-11T03:54:31.385Z"
+    },
+    {
+      "filename": "260526-TD-MWA-Vol_IV-Drawings-KIRUMBA.pdf",
+      "original_url": "https://mwauwasa.go.tz/uploads/tenders/en-1780607361-260526-TD-MWA-Vol_IV-Drawings-%20KIRUMBA-compressed-compressed.pdf",
+      "local_path": "./downloads/MWAUWASA-2026-001/original/260526-TD-MWA-Vol_IV-Drawings-KIRUMBA.pdf",
+      "content_type": "application/pdf",
+      "file_size_bytes": 1703509,
+      "downloaded_at": "2026-06-11T03:54:31.385Z"
+    },
+    {
+      "filename": "260526-TD-MWA-Vol_IV-Drawings-KITANGIRI.pdf",
+      "original_url": "https://mwauwasa.go.tz/uploads/tenders/en-1780607165-260526-TD-MWA-Vol_IV-Drawings-%20KITANGIRI-compressed-compressed-compressed.pdf",
+      "local_path": "./downloads/MWAUWASA-2026-001/original/260526-TD-MWA-Vol_IV-Drawings-KITANGIRI.pdf",
+      "content_type": "application/pdf",
+      "file_size_bytes": 1623378,
+      "downloaded_at": "2026-06-11T03:54:31.385Z"
+    },
+    {
+      "filename": "260526-TD-MWA-Vol_IV-Drawings-NYAMANORO.pdf",
+      "original_url": "https://mwauwasa.go.tz/uploads/tenders/en-1780606378-260526-TD-MWA-Vol_IV-Drawings-%20NYAMANORO_UPDATED.pdf",
+      "local_path": "./downloads/MWAUWASA-2026-001/original/260526-TD-MWA-Vol_IV-Drawings-NYAMANORO.pdf",
+      "content_type": "application/pdf",
+      "file_size_bytes": 1845198,
+      "downloaded_at": "2026-06-11T03:54:31.385Z"
+    },
+    {
+      "filename": "260526-TD-MWA-Vol_IV-Drawings-IGOGO.pdf",
+      "original_url": "https://mwauwasa.go.tz/uploads/tenders/en-1780606252-260526-TD-MWA-Vol_IV-Drawings-%20IGOGO_UPDATED.pdf",
+      "local_path": "./downloads/MWAUWASA-2026-001/original/260526-TD-MWA-Vol_IV-Drawings-IGOGO.pdf",
+      "content_type": "application/pdf",
+      "file_size_bytes": 1334847,
+      "downloaded_at": "2026-06-11T03:54:31.385Z"
+    },
+    {
+      "filename": "260526-TD-MWA-Vol_IV-Drawings-NYAKATO.pdf",
+      "original_url": "https://mwauwasa.go.tz/uploads/tenders/en-1780606036-260526-TD-MWA-Vol_IV-Drawings-%20NYAKATO_UPDATED.pdf",
+      "local_path": "./downloads/MWAUWASA-2026-001/original/260526-TD-MWA-Vol_IV-Drawings-NYAKATO.pdf",
+      "content_type": "application/pdf",
+      "file_size_bytes": 1676794,
+      "downloaded_at": "2026-06-11T03:54:31.385Z"
+    },
+    {
+      "filename": "260526-TD-MWA-Vol_IV-Drawings-PASIANSI.pdf",
+      "original_url": "https://mwauwasa.go.tz/uploads/tenders/en-1780606117-260526-TD-MWA-Vol_IV-Drawings-%20PASIANSI%20UPDATED.pdf",
+      "local_path": "./downloads/MWAUWASA-2026-001/original/260526-TD-MWA-Vol_IV-Drawings-PASIANSI.pdf",
+      "content_type": "application/pdf",
+      "file_size_bytes": 378873,
+      "downloaded_at": "2026-06-11T03:54:31.385Z"
+    }
+  ],
+  "contact": {
+    "name": "Procurement Department, MWAUWASA",
+    "email": "procurement@mwauwasa.go.tz",
+    "phone": "0800110023",
+    "address": "Maji House, Balewa Road, P.O. Box 317, 33104, Mwanza, Tanzania"
+  },
+  "eligibility": "Eligible bidders per Tanzania Public Procurement Act 2023, Public Procurement Regulations 2024, and KfW procurement guidelines. Bid security TZS 400,000,000. Pre-bid meeting compulsory on 2026-06-17 at 09:30 EAT.",
+  "bid_security": "TZS 400,000,000",
+  "scraped_at": "2026-06-11T03:54:31.385Z",
+  "last_checked": "2026-06-11T03:54:31.385Z"
+}

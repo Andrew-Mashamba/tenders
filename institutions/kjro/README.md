@@ -200,6 +200,6 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
+- **Last Checked:** 10 June 2026
+- **Active Tenders:** 0 (only annual report PDF on homepage; no procurement notices)
 - **Signal Strength:** Strong (procurement)

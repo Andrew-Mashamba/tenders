@@ -14,7 +14,7 @@ scraping:
   enabled: true
   method: "http_get"
   requires_javascript: true
-  strategy: "Scrape the group-level /procurement page. Filter results for Tanzania-specific tenders."
+  strategy: "Scrape the group-level /procurement page via Python requests (curl may hit redirect loops). Group RFPs apply to all affiliates including Tanzania. Parse EPI/closing dates; skip expired. Contact: questions.sourcing@ecobank.com, eProcess portal."
   selectors:
     container: ".procurement, .content, main"
     tender_item: "article, .procurement-item, .card"

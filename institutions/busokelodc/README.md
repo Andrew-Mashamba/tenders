@@ -18,18 +18,18 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape /procurement-and-supplies for zabuni/manunuzi. Documents under /storage/app/uploads/public/{hash}/. Follow document links from tender listings."
+  strategy: "Site migrated to GWF CORE React SPA (2026-06). /tenders and /procurement-and-supplies render client-side; scrape JSON APIs instead: /api/announcements (local zabuni) and /api/from-tamisemi (TAMISEMI feed). Filter category=Zabuni. Documents at /minio/busokelodc.go.tz/attachments/ and /minio/tamisemi.go.tz/attachments/."
   selectors:
-    container: "main, .content, .entry-content, .page-content, article, .procurement-section"
-    tender_item: "article, .tender-item, .card, .row, li, tr, .list-group-item"
-    title: "h2, h3, h4, .tender-title, a"
-    date: ".date, .closing-date, .published, time"
-    document_link: 'a[href$=".pdf"], a[href$=".doc"], a[href$=".docx"], a[download]'
-    pagination: ".pagination a, a.next, .nav-links a" 
+    container: "#root"
+    tender_item: "api/announcements data[], api/from-tamisemi data[].item"
+    title: "title"
+    date: "date"
+    document_link: 'attachments[].url'
+    pagination: "page, limit query params" 
   schedule: "daily"
 
   anti_bot:
-    requires_javascript: false
+    requires_javascript: true
     has_captcha: false
     rate_limit_seconds: 10
 
@@ -66,9 +66,11 @@ scraping:
       decode_percent_encoding: true
 
     known_document_paths:
-      - "/storage/app/uploads/public/"
+      - "/minio/busokelodc.go.tz/attachments/"
+      - "/minio/tamisemi.go.tz/attachments/"
     url_patterns:
-      - "busokelodc.go.tz/storage/app/uploads/public/*/*/*/*.pdf"
+      - "busokelodc.go.tz/minio/busokelodc.go.tz/attachments/*"
+      - "busokelodc.go.tz/minio/tamisemi.go.tz/attachments/*"
     download_rules:
       max_file_size_mb: 50
       timeout_seconds: 60
@@ -85,7 +87,7 @@ scraping:
         - "application/octet-stream"
 
     document_notes: |
-      October CMS storage pattern: /storage/app/uploads/public/{3-char}/{3-char}/{3-char}/{hash}.pdf. Known examples: 628/5dd/e22/, 666/198/ecb/, 684/15d/748/, 59b/659/b4d/, 5a6/222/338/, 58d/e57/9b9/, 59b/a6b/425/.
+      GWF CORE SPA as of 2026-06. Use REST APIs for tender data. Local docs at /minio/busokelodc.go.tz/attachments/; TAMISEMI syndicated docs at /minio/tamisemi.go.tz/attachments/.
 
   output:
     format: "json"
@@ -420,6 +422,6 @@ with smtplib.SMTP_SSL(config["host"], config["port"], context=context) as server
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
-- **Signal Strength:** Strong (manunuzi, procurement, tender, tenders, zabuni)
+- **Last Checked:** 10 June 2026
+- **Active Tenders:** 1 (TAMISEMI PAMOJA BDS TOR via /api/from-tamisemi)
+- **Signal Strength:** Strong (GWF API; no local announcements as of 2026-06-10)

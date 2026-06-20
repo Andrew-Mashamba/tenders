@@ -20,7 +20,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Tender page at /tenders. Menu: Ununuzi > Tenda. Currently shows 'No valid tender'. When tenders exist, parse .tr_inside .content. Also check /pages/general-procurement-notice. Documents at /uploads/."
+  strategy: "Tender page at /tenders. Menu: Ununuzi > Tenda. Currently shows 'No valid tender'. When tenders exist, parse .tr_inside .content. Also check /pages/general-procurement-notice. Documents at /uploads/. As of June 2026 DNS resolution fails for nhbra.go.tz (site unreachable)."
   selectors:
     container: ".tr_inside, .body_wrapper, .content"
     tender_item: ".tr_inside .content p, .r_news, article"
@@ -414,6 +414,6 @@ with smtplib.SMTP_SSL(config["host"], config["port"], context=context) as server
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
+- **Last Checked:** 11 June 2026
+- **Active Tenders:** 0 (DNS failure - site unreachable)
 - **Signal Strength:** Strong (procurement, tender, tenders)

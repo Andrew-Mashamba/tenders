@@ -32,6 +32,8 @@ scraping:
     requires_javascript: false
     has_captcha: false
     rate_limit_seconds: 10
+    user_agent_required: true
+    notes: "Default curl User-Agent returns HTTP 406. Use browser User-Agent (Chrome/Firefox)."
 
   documents:
     download_enabled: true
@@ -100,6 +102,7 @@ scraping:
 
 notes: |
   Organization website at amplifielectrics.co.tz. Tender keywords detected: procurement, supply.
+  As of 2026-06-10: No dedicated tender page. Site requires browser User-Agent (HTTP 406 with default curl). Company profile PDF on homepage is not a tender.
 ---
 
 # Amplifi Electrics Limited &#8211; Power Through Innovation

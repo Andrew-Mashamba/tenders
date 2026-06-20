@@ -9,7 +9,7 @@ institution:
 
 website:
   homepage: "https://stamigold.co.tz/"
-  tender_url: "https://stamigold.co.tz/publications/"
+  tender_url: "https://stamigold.co.tz/"
 
 contact:
   email: "info@stamigold.co.tz"
@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scraping disabled. Tender URL /publications/senior-procurement-officer-01-post returns 404. Main site stamigold.co.tz timed out/unreachable during analysis. Re-enable when site is accessible and verify publications or vacancies URL."
+  strategy: "Site reachable via curl -k (SSL certificate issue). Homepage links to /publications/senior-procurement-officer-01-post, /vacancies/senior-procurement-officer-01-post, and /announcements/senior-procurement-officer-01-post — all return 404. These are job vacancy URLs (nafasi za kazi), not procurement tenders. News section is CSR/press only. No open procurement tenders found."
   selectors:
     container: ".tender-list, .content, main, .entry-content, .page-content, article"
     tender_item: "article, .tender-item, .card, .row, li, tr"
@@ -84,7 +84,7 @@ scraping:
         - "application/octet-stream"
 
     document_notes: |
-      Scraping disabled. Site unreachable. When re-enabled, check /publications/, /vacancies/, /announcements/ for tender listings.
+      Site uses curl -k for SSL. /publications/ path 404. Vacancy links are employment postings — reject as non-procurement. Check /news/ for future procurement announcements.
 
   output:
     format: "json"
@@ -197,6 +197,6 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
+- **Last Checked:** 11 June 2026
+- **Active Tenders:** 0 (no procurement tenders; vacancy URLs are job postings)
 - **Signal Strength:** Strong (procurement, tender, tenders)

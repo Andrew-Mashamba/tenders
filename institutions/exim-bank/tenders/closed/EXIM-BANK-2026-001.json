@@ -1,0 +1,31 @@
+{
+  "tender_id": "EXIM-BANK-2026-001",
+  "institution": "exim-bank",
+  "title": "External Independent Review on Risk and Compliance (AML and Risk Management Framework)",
+  "description": "Exim Bank Group seeks a consultant to conduct an independent review on AML and Risk Management Framework across operations in Tanzania, Comoros, Djibouti, and Uganda. Scope includes AML/CFT and risk management review per Terms of Reference in Appendix I.",
+  "reference_number": "EB/RFP/001/2026",
+  "published_date": "2026-04-08",
+  "closing_date": "2026-04-23",
+  "closing_time": "17:00 EAT",
+  "category": "Consultancy",
+  "status": "closed",
+  "source_url": "https://eximbank.co.tz/",
+  "documents": [
+    {
+      "filename": "EB-RFP-001-2026-External-Independent-Review-Risk-Compliance.pdf",
+      "original_url": "https://api.eximbank.co.tz/storage/documents/dF3h7QxF2acocX3tgfmiwX5OouLwpc5eO3JIBB3I.pdf",
+      "local_path": "./downloads/EXIM-BANK-2026-001/original/EB-RFP-001-2026-External-Independent-Review-Risk-Compliance.pdf",
+      "content_type": "application/pdf",
+      "downloaded_at": "2026-06-10T17:02:07.470Z"
+    }
+  ],
+  "contact": {
+    "name": "Priti Punatar, Head of Administration",
+    "email": "adminprocure@eximbank.co.tz",
+    "phone": "+255 22 2293332",
+    "address": "Exim Towers, 4th Floor, Ghana Avenue (Off Ohio Street), P.O. Box 1431, Dar es Salaam"
+  },
+  "eligibility": "Consultancy firm registered in Tanzania, recognized by IIA; qualified personnel with CAMS, CPA, CIA, FRM certifications; proven AML/CFT and risk management review experience for banks.",
+  "scraped_at": "2026-06-10T17:02:07.470Z",
+  "last_checked": "2026-06-10T17:02:07.470Z"
+}

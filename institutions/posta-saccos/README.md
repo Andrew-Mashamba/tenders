@@ -13,7 +13,7 @@ website:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "No dedicated tender page."
+  strategy: "No dedicated tender page. Tenders nav link points to coming_soon.html (placeholder). Scrape homepage only. Emails: info@postanasimusaccos.co.tz, postanasimu@gmail.com."
   selectors:
     container: "body"
     tender_list: "unknown"

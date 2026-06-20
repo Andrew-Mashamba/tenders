@@ -17,7 +17,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape https://bluefinsolutions.co.tz/ for tender/procurement notices."
+  strategy: "ICT company portfolio site (Next.js). 'Awarded Tenders' section lists past client projects won, not open procurement. No tender documents or RFPs published."
   selectors:
     container: ".tender-list, .content, main, .entry-content, .page-content, article"
     tender_item: "article, .tender-item, .card, .row, li, tr"
@@ -187,6 +187,6 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
-- **Signal Strength:** Strong (tender, tenders)
+- **Last Checked:** 10 June 2026
+- **Active Tenders:** 0 (portfolio site; 'Awarded Tenders' = past projects)
+- **Signal Strength:** None (no open procurement)

@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "DCC tenders page displays a table (Zabuni) with columns: Jina la Zabuni (title), Tarehe Iliyowekwa (published date), Tarehe ya Mwisho (closing date), Pakua (download link). Each row is one tender. Documents use /storage/app/uploads/public/ path. Parse table rows, extract title from col 1, dates from cols 2-3, document link from col 4 (Pakua)."
+  strategy: "Site migrated to GWF CORE React SPA (requires_javascript=true). /tenders returns SPA shell only. Legacy table at /storage/app/uploads/public/ no longer in static HTML. API endpoints: /api/announcements, /api/files, /api/best-documents — no /api/tenders. Check announcements/files API or use headless browser. Historical tenders were at table with columns Jina la Zabuni, Tarehe Iliyowekwa, Tarehe ya Mwisho, Pakua."
   selectors:
     container: "table, .content, main, .page-content"
     tender_item: "table tbody tr, table tr"
@@ -29,7 +29,7 @@ scraping:
   schedule: "daily"
 
   anti_bot:
-    requires_javascript: false
+    requires_javascript: true
     has_captcha: false
     rate_limit_seconds: 10
 

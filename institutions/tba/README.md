@@ -19,7 +19,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape /announcements (Matangazo) for tender notices. Also check /news, /tba_projects. Page may show 'Hakuna Taarifa' when empty. Government agency - zabuni/manunuzi. Kitengo cha Ununuzi na Ugavi = Procurement unit."
+  strategy: "Scrape /announcements (Matangazo) for tender notices. Also check /news, /tba_projects. Page shows 'Hakuna Taarifa kwa sasa' when empty (confirmed 2026-06-10). Government agency - zabuni/manunuzi. Kitengo cha Ununuzi na Ugavi = Procurement unit."
   selectors:
     container: "main, .content, .announcements, [class*='announcement'], .entry-content"
     tender_item: "article, .tender-item, .card, .row, li, .post-item"

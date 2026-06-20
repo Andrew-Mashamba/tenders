@@ -9,7 +9,7 @@ institution:
 
 website:
   homepage: "https://moic.go.tz/"
-  tender_url: "https://moic.go.tz/zabuni.html"
+  tender_url: "https://moic.go.tz/"
 
 contact:
   email: "info@moic.go.tz"
@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape https://moic.go.tz/zabuni.html for WUMU (Wizara ya Ujenzi Mawasiliano na Uchukuzi) tender notices. Documents in /panel/web-resources/attachments/. Extract PDF links from page content."
+  strategy: "zabuni.html returns 404 (removed). Homepage links tenders to eprocurement.zppda.go.tz (e-PROZ) which requires JavaScript login. No local tender listings on moic.go.tz. Check e-PROZ platform for WUMU Zanzibar tenders."
   selectors:
     container: "main, .content, .entry-content, .page-content, article, section, table"
     tender_item: "article, .tender-item, .card, .row, li, tr, a[href*='attachments']"
@@ -29,7 +29,7 @@ scraping:
   schedule: "daily"
 
   anti_bot:
-    requires_javascript: false
+    requires_javascript: true
     has_captcha: false
     rate_limit_seconds: 10
 

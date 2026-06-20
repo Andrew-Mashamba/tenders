@@ -1,0 +1,31 @@
+{
+  "tender_id": "ZMBF-2026-002",
+  "institution": "zmbf",
+  "title": "Call for Quotations: Procurement of Laptop Computers",
+  "description": "Procurement of eight (8) laptop computers (1 executive Lenovo ThinkPad X13, 7 program officer Lenovo ThinkPad E14) for ZMBF organizational operations.",
+  "reference_number": "",
+  "published_date": "2026-06-03",
+  "closing_date": null,
+  "closing_time": "",
+  "category": "Supply",
+  "status": "active",
+  "source_url": "https://zmbf.or.tz/terms-of-reference-tor-procurement-of-laptop-computers/",
+  "documents": [
+    {
+      "filename": "TERMS-OF-REFERENCE-FOR-LAPTOPS-REVISED.pdf",
+      "original_url": "https://zmbf.or.tz/wp-content/uploads/2026/06/TERMS-OF-REFERENCE-FOR-LAPTOPS-REVISED.pdf",
+      "local_path": "./downloads/ZMBF-2026-002/original/TERMS-OF-REFERENCE-FOR-LAPTOPS-REVISED.pdf",
+      "content_type": "application/pdf",
+      "downloaded_at": "2026-06-10T20:37:53.859Z"
+    }
+  ],
+  "contact": {
+    "name": "Procurement / Recruitment",
+    "email": "recruitment@zmbf.or.tz",
+    "phone": "+255 24 223 0909",
+    "address": "Zanzibar, Tanzania"
+  },
+  "eligibility": "Registered suppliers; submit technical specs, financial quotation, warranty info, delivery schedule, and company profile to recruitment@zmbf.or.tz",
+  "scraped_at": "2026-06-10T20:37:53.859Z",
+  "last_checked": "2026-06-10T20:37:53.859Z"
+}

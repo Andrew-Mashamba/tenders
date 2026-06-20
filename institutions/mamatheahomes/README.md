@@ -189,6 +189,6 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
-- **Signal Strength:** Strong (rfp)
+- **Last Checked:** 10 June 2026
+- **Active Tenders:** 0 (real estate site, no procurement notices)
+- **Signal Strength:** Weak (keywords only, no tender page)

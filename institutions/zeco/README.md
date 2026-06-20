@@ -16,9 +16,9 @@ contact:
   phone: "065054893"
 
 scraping:
-  enabled: true
+  enabled: false
   method: "http_get"
-  strategy: "Joomla/SP Page Builder. Scrape /index.php/procurement for procurement info and document links. Also scrape /index.php/news for tender articles and /index.php/projects?layout=table for projects. Documents in /images/docs/ (e.g. ZECO_GPN_2022-20231.pdf)."
+  strategy: "Hosting account suspended as of June 2026 (returns 'Account Suspended' page). When restored: Joomla/SP Page Builder — scrape /index.php/procurement, /index.php/news, /index.php/projects?layout=table. Documents in /images/docs/."
   selectors:
     container: ".sp-page-builder .page-content, .sppb-addon-content, main, #sp-main-body"
     tender_item: ".sppb-addon, .article-list .article, .NEWS .article"

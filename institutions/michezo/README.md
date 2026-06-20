@@ -110,7 +110,7 @@ social_media:
   instagram: "wizara_sanaatz"
 
 notes: |
-  Ministry of Information, Communication and Information Technology | Wizara ya Habari, Mawasiliano na Teknolojia ya Habari
+  Ministry of Sports | Wizara ya Michezo. Site has Ununuzi na Ugavi (Procurement) menu but no dedicated tender listing page. Documents at /uploads/documents/ are speeches, public notices, and content-writer forms — not procurement tenders.
 ---
 
 # WHUSM |     Mwanzo
@@ -137,7 +137,7 @@ notes: |
 **Strategy:** Scrape https://michezo.go.tz/ for government tender notices. Government sites often post zabuni/manunuzi.
 **Method:** http_get
 
-Ministry of Information, Communication and Information Technology | Wizara ya Habari, Mawasiliano na Teknolojia ya Habari
+Ministry of Sports | Wizara ya Michezo
 
 ### Tender Content Preview
 

@@ -113,7 +113,7 @@ notes: |
 
 **Category:** Commercial / Private Sector
 **Website:** https://www.binzubeiry.co.tz/
-**Tender Page:** https://www.dailymail.co.uk/sport/football/article-15642401/Sheffield-Wednesday-supporters-trust-bidder-bribery.html?ns_mchannel=rss&ns_campaign=1490&ito=1490
+**Tender Page:** https://www.binzubeiry.co.tz/
 **Keywords Found:** bid, procurement, rfi
 
 ## Contact Information
@@ -128,7 +128,7 @@ notes: |
 
 ## Scraping Instructions
 
-**Strategy:** Scrape https://www.dailymail.co.uk/sport/football/article-15642401/Sheffield-Wednesday-supporters-trust-bidder-bribery.html?ns_mchannel=rss&ns_campaign=1490&ito=1490 for tender/procurement notices.
+**Strategy:** Sports news blog (Tanzania Premier League, European football). No procurement content. Keywords 'bid' refer to sports transfers, not tenders.
 **Method:** http_get
 
 BIN ZUBEIRY SPORTS - ONLINE contains reliable and researched stories as well as effective, attractive and eye catching pictures of various events both locally and internationally. From Tanzania Mainland Premier League to European leagues notably Spanish La Liga, Germany’s Bundesliga, French Ligue One, Italian Serie A and the English Premier League as well as continental competitions like UEFA Champions League and UEFA Europa League.
@@ -202,6 +202,6 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
+- **Last Checked:** 10 June 2026
+- **Active Tenders:** 0 (sports news blog; no procurement)
 - **Signal Strength:** Strong (procurement)

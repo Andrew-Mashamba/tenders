@@ -18,7 +18,9 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape https://tanganyikadc.go.tz/ugavi-na-manunuzi for Ugavi na Manunuzi (procurement). October CMS. News items in .right-sidebar-container with links to /new/{slug}. Documents in /storage/app/uploads/public/ with hash paths."
+  strategy: |
+    Site migrated to GWF CORE SPA (React). /ugavi-na-manunuzi and /tenders return JS shell only; requires_javascript true.
+    Historical October CMS PDFs at /storage/app/uploads/public/. No active tenders in static HTML.
   selectors:
     container: ".right-sidebar-content, .right-sidebar-container, .right-sidebar-wrapper"
     tender_item: ".right-sidebar-container"
@@ -29,7 +31,7 @@ scraping:
   schedule: "daily"
 
   anti_bot:
-    requires_javascript: false
+    requires_javascript: true
     has_captcha: false
     rate_limit_seconds: 10
 

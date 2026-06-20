@@ -17,7 +17,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape https://ajiraleo.co.tz/category/tender/ for tender/procurement notices."
+  strategy: "Job/tender aggregator blog. /category/tender/ reposts third-party EOIs/RFPs. As of 2026-06-10 only Feb 2026 posts (ILCUF EOI, LEAT audit) — both expired. Most site content is job vacancies (reject). Check category/tender/ for new EOI/RFP posts with future closing dates."
   selectors:
     container: ".tender-list, .content, main, .entry-content, .page-content, article"
     tender_item: "article, .tender-item, .card, .row, li, tr"
@@ -197,6 +197,6 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
+- **Last Checked:** 10 June 2026
+- **Active Tenders:** 0 (expired Feb 2026 EOIs in closed/)
 - **Signal Strength:** Strong (tender)

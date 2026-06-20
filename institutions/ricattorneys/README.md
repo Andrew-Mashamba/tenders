@@ -20,7 +20,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "RIC ATTORNEYS is a law firm with no dedicated tender section. Uses Bootstrap + custom CMS. Check service-detail pages for Tender Application service. Images from system.ricattorneys.co.tz/public/slide_images/."
+  strategy: "RIC ATTORNEYS is a law firm with no dedicated tender section. Uses Bootstrap + custom CMS. Site offers 'Tender Application and Preparation' as a client service — not procurement notices. Images from system.ricattorneys.co.tz/public/slide_images/. Note: some HTTP clients may hit TLS handshake errors; site is reachable via browser."
   selectors:
     container: ".mockup2, .container, main, section"
     tender_item: ".service-box, .blog-card, .feature-box"
@@ -191,6 +191,6 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
-- **Signal Strength:** Strong (tender)
+- **Last Checked:** 11 June 2026
+- **Active Tenders:** 0 (law firm; tender prep service only)
+- **Signal Strength:** Weak (service description only)

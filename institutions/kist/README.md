@@ -18,7 +18,10 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "KIST homepage has no dedicated tender page. Check Media Center → Documents (https://kist.ac.tz/documents) and Events/News for tender notices. Homepage shows latest_newsarea, single_page_content. Bootstrap-based site; documents may be at kist.ac.tz/storage/uploads/."
+  strategy: |
+    Site is a React SPA (CoreUI) as of 2026-06-10; /documents returns JS shell only.
+    Use REST API https://kist.ac.tz/api/documents for published PDFs (currently fee structures and joining instructions, not procurement).
+    Check /events and news when tender API is added. Legacy Bootstrap pages no longer served via http_get.
   selectors:
     container: "#contentSection, .left_content, .latest_newsarea, .single_page_content"
     tender_item: ".single_post, .latest_post, article, .row .col-lg-4"
@@ -29,7 +32,7 @@ scraping:
   schedule: "daily"
 
   anti_bot:
-    requires_javascript: false
+    requires_javascript: true
     has_captcha: false
     rate_limit_seconds: 10
 
@@ -194,6 +197,7 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
+- **Last Checked:** 10 June 2026
+- **Active Tenders:** 0
+- **Platform:** React SPA; documents at /api/documents
 - **Signal Strength:** Strong (tender, tenders)

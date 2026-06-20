@@ -10,6 +10,7 @@ institution:
 website:
   homepage: "https://kigomaujijimc.go.tz/"
   tender_url: "https://kigomaujijimc.go.tz/tenders"
+  tender_url_note: "As of 2026-06-10, /tenders returns GWF CORE SPA shell; requires JavaScript. Legacy October CMS tender table no longer accessible via http_get."
 
 contact:
   email: "ictsecurity@kigomaujijimc.go.tz"
@@ -22,8 +23,9 @@ scraping:
   enabled: true
   method: "http_get"
   strategy: |
-    October CMS (same theme as kibahatc). Scrape https://kigomaujijimc.go.tz/tenders. Table with columns:
-    Tender Name, Tarehe ya Kuweka, Expire Date, download link (Pakua). Documents at /storage/app/uploads/public/.
+    Site restructured to GWF CORE SPA (2026). /tenders now serves a React shell (requires JavaScript).
+    Legacy October CMS table (Tender Name, Tarehe ya Kuweka, Expire Date, Pakua links at /storage/app/uploads/public/)
+    is no longer returned by http_get. Try procurement-management-unit or contact municipal@kigomaujijimc.go.tz for current notices.
   selectors:
     container: ".right-sidebar-content"
     tender_item: "table.table.table-striped tbody tr"
@@ -34,7 +36,7 @@ scraping:
   schedule: "daily"
 
   anti_bot:
-    requires_javascript: false
+    requires_javascript: true
     has_captcha: false
     rate_limit_seconds: 10
 
@@ -432,6 +434,6 @@ with smtplib.SMTP_SSL(config["host"], config["port"], context=context) as server
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
+- **Last Checked:** 10 June 2026
+- **Active Tenders:** 0 (site restructured to GWF CORE SPA; legacy tender table inaccessible)
 - **Signal Strength:** Strong (manunuzi, procurement, tender, tenders, zabuni)

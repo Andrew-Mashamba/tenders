@@ -20,7 +20,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Fetch https://mtuwasa.go.tz/. Government water utility. Documents in /storage/announcement/ (e.g. phpD5z1o7.pdf, phpRLKCkj.pdf). Parse main content for tender listings and a[href*='storage/announcement'] links. Site may be slow; use longer timeout."
+  strategy: "Fetch https://mtuwasa.go.tz/. Government water utility. As of 2026-06-10 site unreachable (no A record, connection fails). When up: documents in /storage/announcement/; tenders via taneps.go.tz. Homepage PDFs are tariff/audit notices not tenders."
   selectors:
     container: ".content, main, .right-sidebar-content, article"
     tender_item: "article, .tender-item, table.table tbody tr"

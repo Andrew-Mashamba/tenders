@@ -10,7 +10,7 @@ institution:
 website:
   homepage: "https://simiyu.go.tz/"
   tender_url: "https://simiyu.go.tz/tenders"
-  note: "Tender page at /tenders. Fetch failed (SSL/timeout) - set enabled false until reachable. When live, likely same structure as simanjirodc."
+  tender_url_note: "As of 2026-06-11, /tenders returns GWF CORE SPA shell. Use REST API: api/advertisements (procurement), api/announcements, api/files. Legacy October CMS table no longer accessible."
 
 contact:
   email: "ras@simiyu.go.tz"
@@ -19,7 +19,11 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Simiyu Regional Commissioner's Office. Use /tenders URL. Likely same October CMS structure as simanjirodc - table with Jina la Zabuni, dates, Pakua links. Documents at /storage/app/uploads/public/. Site was unreachable during analysis - may need -k for SSL."
+  strategy: |
+    Site restructured to GWF CORE SPA (2026). /tenders returns React shell (requires JavaScript).
+    Use REST API with curl: api/advertisements?limit=50 (procurement tenders),
+    api/announcements (public notices), api/files. Legacy October CMS table at /storage/app/uploads/public/ no longer served.
+    As of 2026-06-11: api/advertisements and api/announcements both empty.
   selectors:
     container: ".right-sidebar-content"
     tender_item: "table.table.table-striped tbody tr"
@@ -30,7 +34,7 @@ scraping:
   schedule: "daily"
 
   anti_bot:
-    requires_javascript: false
+    requires_javascript: true
     has_captcha: false
     rate_limit_seconds: 10
 

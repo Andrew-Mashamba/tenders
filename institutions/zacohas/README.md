@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape https://zacohas.ac.tz/ for tender/procurement notices."
+  strategy: "Scrape https://zacohas.ac.tz/ for tender/procurement notices. As of Jun 2026 only student enrollment downloads (fee structure, prospectus, application form) — no procurement tenders."
   selectors:
     container: ".tender-list, .content, main, .entry-content, .page-content, article"
     tender_item: "article, .tender-item, .card, .row, li, tr"

@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Next.js SPA on Netlify. Tender page at /Opportunities/Tenders/. Content is client-rendered - requires JS. When tenders exist, parse main content area. Currently shows 'No Tenders Available'."
+  strategy: "Next.js SPA on Netlify. Tender page at /Opportunities/Tenders/. SSR includes 'No Tenders Available' message when empty (confirmed 2026-06-10). Content is client-rendered for dynamic tender cards when present."
   selectors:
     container: "main, .w-full.max-w-6xl.mx-auto, [class*='max-w-6xl']"
     tender_item: "article, .tender-item, .card, [class*='tender'], div[class*='rounded']"

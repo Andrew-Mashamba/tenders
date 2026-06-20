@@ -209,7 +209,7 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 15 March 2026
+- **Last Checked:** 11 June 2026
 - **Active Tenders:** 0
 - **Signal Strength:** Strong (procurement, rfp, tender, tenders)
-- **Note:** All listed tenders had closing dates before 2026-03-15 (expired)
+- **Note:** All tenders on /category/tenders (pages 1–2) closed by Sep 2024. Latest: ERP system tender closed 24 Sep 2024.

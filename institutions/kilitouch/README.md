@@ -16,9 +16,9 @@ contact:
   phone: "013046608 "
 
 scraping:
-  enabled: true
+  enabled: false
   method: "http_get"
-  strategy: "WordPress + WooCommerce + WP Job Manager site. Check for /jobs/ or job listings. If tender/RFQ posted as jobs, use .job_listings or .job-manager structure. Main content in main, .entry-content."
+  strategy: "Domain kilitouch.co.tz returns DNS NXDOMAIN as of 2026-06-10 (site appears down or domain expired). Re-enable if domain is restored. Previously WordPress + WooCommerce site."
   selectors:
     container: ".job_listings, main, .entry-content, .page-content, .content"
     tender_item: ".job_listing, .job-manager-form, article, .job-item"
@@ -185,6 +185,7 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
-- **Signal Strength:** Strong (rfp)
+- **Last Checked:** 10 June 2026
+- **Active Tenders:** 0
+- **Site Status:** Domain not resolving (NXDOMAIN)
+- **Signal Strength:** Strong (rfp) — historical keyword match only

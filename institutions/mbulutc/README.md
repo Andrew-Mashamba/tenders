@@ -8,12 +8,12 @@ institution:
 
 website:
   homepage: "https://mbulutc.go.tz"
-  tender_url: "https://mbulutc.go.tz/tenders"
+  tender_url: "https://mbulutc.go.tz/api/from-tamisemi"
 
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "October CMS site (same platform as mbuludc). Tender page at /tenders shows table with Tender Name, Date Added, Expire Date, and Download links. Documents at /storage/app/uploads/public/{hash}/."
+  strategy: "Site migrated to GWF CORE React SPA (was October CMS). Use API: /api/from-tamisemi (syndicated TAMISEMI zabuni), /api/announcements, /api/advertisements, /api/files. Old /storage/app/uploads/ paths obsolete. /tenders returns SPA shell only. Reject job vacancies (Ajira), auctions (Mnada), and news."
   selectors:
     container: ".home-announcement-wrapper, table.table-striped, .right-sidebar-content"
     tender_item: "table.table-striped tbody tr"
@@ -24,7 +24,7 @@ scraping:
   schedule: "daily"
 
   anti_bot:
-    requires_javascript: false
+    requires_javascript: true
     has_captcha: false
     rate_limit_seconds: 10
 

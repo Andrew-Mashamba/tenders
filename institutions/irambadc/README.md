@@ -19,20 +19,21 @@ scraping:
   enabled: true
   method: "http_get"
   strategy: |
-    Scrape https://irambadc.go.tz/procurement-and-supplies. October CMS platform. Main content in .right-sidebar-content.
-    When tenders exist, use table.table.table-striped tbody tr. Documents at /storage/app/uploads/public/.
-    Note: Page may show "work in progress" when no tenders. Use curl -k for SSL (Tanzanian .go.tz certs).
+    Site migrated to GWF CORE React SPA (2026-06). /procurement-and-supplies and /tenders render client-side only.
+    Scrape JSON APIs: /api/from-tamisemi (TAMISEMI feed, filter category=Zabuni) and /api/announcements (local, filter category=Zabuni).
+    Reject Job Vacancy, Huduma, Matukio, Taarifa. Documents at /minio/irambadc.go.tz/attachments/ and /minio/tamisemi.go.tz/attachments/.
+    Use curl -k for SSL (Tanzanian .go.tz certs).
   selectors:
-    container: ".right-sidebar-content, .middle-content-wrapper"
-    tender_item: "table.table.table-striped tbody tr, .right-sidebar-content p a"
-    title: "td:first-child, a"
-    date: "td:nth-child(2), .date"
-    document_link: 'a[href$=".pdf"], a[href$=".doc"], a[href*="/storage/app/uploads/"]'
-    pagination: ".pagination a, .pagenav a" 
+    container: "#root"
+    tender_item: "api/from-tamisemi data[].item, api/announcements data[]"
+    title: "title"
+    date: "date"
+    document_link: 'attachments[].url'
+    pagination: "page, limit query params"
   schedule: "daily"
 
   anti_bot:
-    requires_javascript: false
+    requires_javascript: true
     has_captcha: false
     rate_limit_seconds: 10
 
@@ -69,16 +70,13 @@ scraping:
       decode_percent_encoding: true
 
     known_document_paths:
-      - "/storage/app/uploads/public/"
-      - "/storage/app/media/uploaded-files/"
+      - "/minio/irambadc.go.tz/attachments/"
+      - "/minio/tamisemi.go.tz/attachments/"
+      - "/minio/irambadc.go.tz/files/"
 
     url_patterns:
-      - "irambadc.go.tz/storage/app/uploads/public/*"
-      - "irambadc.go.tz/storage/app/uploads/public/5be/41f/546/5be41f5467e53516137458.pdf"
-      - "irambadc.go.tz/storage/app/uploads/public/5a2/946/289/5a2946289f377957380027.pdf"
-      - "irambadc.go.tz/storage/app/uploads/public/5bc/16f/1d1/5bc16f1d123d4651631869.pdf"
-      - "irambadc.go.tz/storage/app/uploads/public/5bc/16e/aa2/5bc16eaa29ed3908217603.pdf"
-      - "irambadc.go.tz/storage/app/uploads/public/5a0/211/256/5a021125661cb450061980.pdf"
+      - "irambadc.go.tz/minio/irambadc.go.tz/attachments/*"
+      - "irambadc.go.tz/minio/tamisemi.go.tz/attachments/*"
 
     download_rules:
       max_file_size_mb: 50

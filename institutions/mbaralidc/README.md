@@ -1,6 +1,6 @@
 ---
 institution:
-  name: "Mbaralidc"
+  name: "Mbarali District Council"
   slug: "mbaralidc"
   category: "Government"
   status: "active"
@@ -13,7 +13,7 @@ website:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape homepage and linked pages for tender/procurement documents. 5 document links discovered."
+  strategy: "Site migrated to GWF CORE React SPA. Use API: /api/announcements (local), /api/advertisements, /api/from-tamisemi (syndicated TAMISEMI zabuni). Old /storage/app/uploads/ paths obsolete. Local content is mostly job vacancies and public notices."
   selectors:
     container: ".tender-list, .content, main, .page-content, .entry-content, article"
     tender_item: "article, .tender-item, .card, .row, tr, li"
@@ -24,7 +24,7 @@ scraping:
   schedule: "daily"
 
   anti_bot:
-    requires_javascript: false
+    requires_javascript: true
     has_captcha: false
     rate_limit_seconds: 10
 

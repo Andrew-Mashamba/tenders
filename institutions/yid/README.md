@@ -3,7 +3,7 @@ institution:
   name: "YOUTH INCLUSION AND DEVELOPMENT &#8211; GIVING IS THE BEST THERAPY"
   slug: "yid"
   category: "NGO / Non-Profit Organization"
-  status: "active"
+  status: "inactive"
   country: "Tanzania"
   domain: "yid.or.tz"
 
@@ -20,9 +20,9 @@ contact:
   phone: "043 0-32 12"
 
 scraping:
-  enabled: true
+  enabled: false
   method: "http_get"
-  strategy: "Scrape https://www.yid.or.tz/ for tender/procurement notices."
+  strategy: "Hosting account suspended (Gailnet). Site returns 'Account Suspended' page. No procurement content accessible. Re-enable when site is restored."
   selectors:
     container: ".tender-list, .content, main, .entry-content, .page-content, article"
     tender_item: "article, .tender-item, .card, .row, li, tr"

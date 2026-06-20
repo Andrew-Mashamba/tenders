@@ -414,6 +414,6 @@ with smtplib.SMTP_SSL(config["host"], config["port"], context=context) as server
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
+- **Last Checked:** 11 June 2026
+- **Active Tenders:** 1 (MWAUWASA-2026-001 — Mwanza Sewer Connection Upgrade, closes 2026-07-17)
 - **Signal Strength:** Strong (tender, tenders)

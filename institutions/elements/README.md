@@ -192,6 +192,6 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
-- **Signal Strength:** Weak (supply/rfi only)
+- **Last Checked:** 10 June 2026
+- **Active Tenders:** 0
+- **Signal Strength:** Weak (supply/rfi only; no procurement content on homepage)

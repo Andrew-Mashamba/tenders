@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape https://babatitc.go.tz/procurement for government tender notices. Documents are in /storage/app/uploads/public/{hash}/. Parse each tender item, follow document links, download PDFs. Government sites often post zabuni/manunuzi."
+  strategy: "As of 2026-06-10 babatitc.go.tz returns an unrelated 'GWF CORE' SPA shell — original procurement portal unavailable. Historical documents were at /storage/app/uploads/public/{hash}/. Retry periodically."
   selectors:
     container: ".tender-list, .content, main, .entry-content, .page-content, article"
     tender_item: "article, .tender-item, .card, .row, li, tr"
@@ -29,7 +29,7 @@ scraping:
   schedule: "daily"
 
   anti_bot:
-    requires_javascript: false
+    requires_javascript: true
     has_captcha: false
     rate_limit_seconds: 10
 

@@ -206,6 +206,6 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 15 March 2026
-- **Active Tenders:** 1 (TGNP-2026-001)
+- **Last Checked:** 10 June 2026
+- **Active Tenders:** 1 (TGNP-2026-001; category page returns 500 but direct post/PDF accessible)
 - **Signal Strength:** Strong (tender, tenders)

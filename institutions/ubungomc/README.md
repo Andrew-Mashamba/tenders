@@ -1,6 +1,6 @@
 ---
 institution:
-  name: "Home &#124; Ubungo Municipal Council"
+  name: "Ubungo Municipal Council"
   slug: "ubungomc"
   category: "Local Government Authority"
   status: "active"
@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape https://ubungomc.go.tz/tenders for government tender notices. Government sites often post zabuni/manunuzi."
+  strategy: "Site migrated to GWF CORE SPA (2026). Use API https://ubungomc.go.tz/api/announcements and /api/chat/search?q=zabuni for tender/procurement content. Legacy /tenders URL serves SPA shell only. Old /storage/app/uploads/ PDF paths no longer return documents."
   selectors:
     container: ".tender-list, .content, main, .entry-content, .page-content, article"
     tender_item: "article, .tender-item, .card, .row, li, tr"
@@ -29,7 +29,7 @@ scraping:
   schedule: "daily"
 
   anti_bot:
-    requires_javascript: false
+    requires_javascript: true
     has_captcha: false
     rate_limit_seconds: 10
 

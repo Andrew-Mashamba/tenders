@@ -13,7 +13,7 @@ website:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape /CallsforTender page. Central bank — high-value, formal procurement."
+  strategy: "Scrape /CallsforTender page. Central bank — high-value, formal procurement. Page states 'no open tenders currently' as of 2026-06-10."
   selectors:
     container: ".tenders, .content, main, table"
     tender_item: "article, tr, .tender-item, .card"

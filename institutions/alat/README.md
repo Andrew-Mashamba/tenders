@@ -1,6 +1,6 @@
 ---
 institution:
-  name: "Home &#124; ASSOCIATION OF LOCAL AUTHORITIES OF TANZANIA-ALAT"
+  name: "Association of Local Authorities of Tanzania (ALAT)"
   slug: "alat"
   category: "Government Agency"
   status: "active"
@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape https://alat.go.tz/tenders for government tender notices. Government sites often post zabuni/manunuzi."
+  strategy: "Scrape https://alat.go.tz/tenders — table lists tenders with Name/Date Added/Expire Date. As of 2026-06-10 only entry is 'Matangazo MAPATO YA NDANI YA HALMASHAURI' (March 17, 2022) — expired. No current PDF links on page. Known /storage/app/uploads/public/ paths are historical (2018)."
   selectors:
     container: ".tender-list, .content, main, .entry-content, .page-content, article"
     tender_item: "article, .tender-item, .card, .row, li, tr"
@@ -412,6 +412,6 @@ with smtplib.SMTP_SSL(config["host"], config["port"], context=context) as server
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
+- **Last Checked:** 10 June 2026
+- **Active Tenders:** 0 (only expired 2022 entry)
 - **Signal Strength:** Strong (tender, tenders)

@@ -9,7 +9,7 @@ institution:
 
 website:
   homepage: "https://ajira.go.tz/"
-  tender_url: "https://ajira.go.tz/"
+  tender_url: "https://ajira.go.tz/pmu"
 
 contact:
   email: "katibu@ajira.go.tz"
@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Government recruitment/tender portal. Documents in /baseattachments/ subdirs. Scrape for TANGAZO (notices), job placements, interviews. Procurement section may have zabuni. Page fetch timed out during analysis - verify selectors on live scrape."
+  strategy: "Government recruitment portal (PSRS) — NOT a procurement tender source. /pmu (Procurement Management) and homepage only publish job advertisements (NAFASI ZA KAZI, USAILI, KUITWA KAZINI) in /baseattachments/{advertisement,interview,placement}attachments/. No zabuni/manunuzi/RFP documents found. SSL cert may fail strict verification; use curl -k if needed. scraping.enabled kept for monitoring but expect 0 procurement tenders."
   selectors:
     container: "main, .content, [class*='attachment'], .baseattachments"
     tender_item: "a[href*='baseattachments'], .placement-item, .advertisement-item, article"
@@ -424,6 +424,6 @@ with smtplib.SMTP_SSL(config["host"], config["port"], context=context) as server
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
-- **Signal Strength:** Strong (procurement)
+- **Last Checked:** 10 June 2026
+- **Active Tenders:** 0 (job portal only, no procurement tenders)
+- **Signal Strength:** Weak for procurement (strong for recruitment)

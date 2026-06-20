@@ -28,7 +28,7 @@ scraping:
     requires_javascript: false
     has_captcha: false
     rate_limit_seconds: 10
-    note: "Site returns 403 Access Denied for automated requests (Mar 2026)"
+    note: "Site returns 403 Access Denied for automated requests (confirmed Jun 2026)"
 
   documents:
     download_enabled: true

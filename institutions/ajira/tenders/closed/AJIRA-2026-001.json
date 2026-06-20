@@ -6,10 +6,11 @@
   "published_date": null,
   "closing_date": null,
   "category": "Procurement",
-  "status": "active",
+  "status": "closed",
   "source_url": "https://ajira.go.tz/",
   "documents": [],
   "contact": {},
   "scraped_at": "2026-03-13T18:47:22.763304Z",
-  "last_checked": "2026-03-13T18:47:22.763317Z"
+  "last_checked": "2026-06-10T15:48:03.088Z",
+  "rejection_reason": "Junk placeholder - ajira.go.tz is a job recruitment portal, not a procurement tender source"
 }

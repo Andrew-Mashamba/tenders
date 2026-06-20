@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-TENDERS is an automated tender scraping system for Tanzanian financial institutions (banks, SACCOs, microfinance). It uses Cursor Agent CLI as the scraping agent, scheduled via macOS LaunchAgent to run daily at 06:00 AM EAT.
+TENDERS is an automated tender scraping system for Tanzanian financial institutions (banks, SACCOs, microfinance). It uses Cursor Agent CLI as the scraping agent, scheduled via macOS LaunchAgent to run weekly on Monday at 06:00 AM EAT.
 
 The system scrapes ~73 institution tender pages, downloads documents (PDF, DOC, XLSX, etc.), extracts text, generates structured JSON, and sends email notifications via SMTP (info@zima.co.tz → andrew.s.mashamba@gmail.com).
 
@@ -14,7 +14,7 @@ It includes a **web frontend** (`frontend/` — React 19 + Vite 6) and a **FastA
 
 ```bash
 # Install/manage the daily scheduled scraper
-scripts/install.sh install      # Install LaunchAgent (daily 06:00 AM EAT)
+scripts/install.sh install      # Install LaunchAgent (weekly Monday 06:00 AM EAT)
 scripts/install.sh uninstall    # Remove LaunchAgent
 scripts/install.sh status       # Check if scraper is running
 scripts/install.sh run          # Run full scrape immediately

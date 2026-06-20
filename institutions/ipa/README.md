@@ -19,10 +19,9 @@ scraping:
   enabled: true
   method: "http_get"
   strategy: |
-    Scrape https://ipa.ac.tz/ homepage. Tender-like content appears in two sections:
-    (1) Announcements - .card-comment items with PDF links in .comment-text a
-    (2) Downloads - .row.mb-2 items with document links. Extract title from .comment-text.
-    Documents are stored under /documents/ (e.g. documents/3.9.2024/). Follow all a[href*=".pdf"] and a[href*=".doc"].
+    Scrape https://ipa.ac.tz/ homepage and https://ipa.ac.tz/pmdu_unit.php for procurement notices.
+    Announcements section (.card-comment) currently shows student admission lists only — not procurement.
+    PMDU page has no active tender documents as of 2026-06-10. Documents stored under /documents/ when tenders are posted.
   selectors:
     container: "#why-us .card-success, .card.card-widget"
     tender_item: ".card-comment, .row.mb-2"

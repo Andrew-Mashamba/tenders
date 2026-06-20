@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Homepage uses Elementor/WordPress. News loop in elementor-loop-container. Check for tender/zabuni in post titles. Documents at /wp-content/uploads/. May need to scrape dedicated tender page if one exists in menu."
+  strategy: "No dedicated tender page (/tenders/ returns 404). Homepage is Elementor/WordPress with industry news only. Procurement likely via NeST/TANePS. Monitor News & Updates section and publications page for zabuni notices."
   selectors:
     container: ".elementor-loop-grid, .elementor-posts-container, main, article"
     tender_item: ".elementor-post, .e-loop-item, article"

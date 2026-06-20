@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape https://misungwidc.go.tz/tenders. District council site (Octane/Laravel). Inferred table layout like similar councils. Documents under /storage/app/uploads/public/. Note: SSL/certificate issues may prevent fetch."
+  strategy: "Site migrated to GWF CORE SPA (requires JavaScript). /tenders returns empty SPA shell. Use API: GET https://misungwidc.go.tz/api/files?limit=50 for procurement documents; GET /api/announcements for notices (filter out Ajira/job postings). Documents served from /minio/ paths. Legacy /storage/app/uploads/public/ paths no longer used."
   selectors:
     container: "table.tenders, .table, .content, main, table"
     tender_item: "table tbody tr, .tender-row"
@@ -29,7 +29,7 @@ scraping:
   schedule: "daily"
 
   anti_bot:
-    requires_javascript: false
+    requires_javascript: true
     has_captcha: false
     rate_limit_seconds: 10
 
@@ -66,7 +66,8 @@ scraping:
       decode_percent_encoding: true
 
     known_document_paths:
-      - "/storage/app/uploads/public/"
+      - "/minio/misungwidc.go.tz/files/"
+      - "/api/files"
     url_patterns:
       - "misungwidc.go.tz/storage/app/uploads/public/*"
 
@@ -86,7 +87,7 @@ scraping:
         - "application/octet-stream"
 
     document_notes: |
-      Misungwi DC uses Octane/Laravel. Documents at /storage/app/uploads/public/{hash}/{hash}/{hash}/{hash}{hash}{hash}{hash}{hash}{hash}{hash}{hash}{hash}.pdf.
+      Misungwi DC now uses GWF CORE platform. Use /api/files for procurement documents; /api/announcements for general notices. Files at /minio/ paths. Legacy Octane/Laravel /storage/app/uploads/public/ paths deprecated.
 
   output:
     format: "json"

@@ -20,7 +20,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape /tenders and /procurement. October CMS. Main content in .col-md-9; sidebar in .col-md-3. Tenders may be in right-sidebar-container or main content. Documents at /storage/app/uploads/public/ (hash-based paths). Also check /how-do-i-single/ for TISS forms."
+  strategy: "As of 2026-06-10 babatidc.go.tz and www.babatidc.go.tz return an unrelated 'GWF CORE' SPA shell (715 bytes) — original October CMS government portal is unavailable. Historical documents were at /storage/app/uploads/public/. Retry periodically; disable scraping if permanently down."
   selectors:
     container: ".right-sidebar-content, .col-md-9, .right-sidebar-container, main"
     tender_item: ".col-md-4, .col-md-8, .right-sidebar-container > div, li"
@@ -31,7 +31,7 @@ scraping:
   schedule: "daily"
 
   anti_bot:
-    requires_javascript: false
+    requires_javascript: true
     has_captcha: false
     rate_limit_seconds: 10
 

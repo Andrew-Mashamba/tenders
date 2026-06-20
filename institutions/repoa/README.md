@@ -69,6 +69,7 @@ scraping:
       - "/wp-content/uploads/"
     url_patterns:
       - "repoa.or.tz/wp-content/uploads/*"
+      - "www.repoa.or.tz/wp-content/uploads/*"
       - "repoa.or.tz/by-repoa/*"
       - "repoa.or.tz/tenders/*"
 
@@ -202,6 +203,6 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
+- **Last Checked:** 11 June 2026
+- **Active Tenders:** 0 (9 archive listings; latest FY 2025–2027 prequalification closed July 2025)
 - **Signal Strength:** Strong (tender, tenders)

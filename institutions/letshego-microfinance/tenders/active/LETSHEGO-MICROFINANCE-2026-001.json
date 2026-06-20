@@ -1,0 +1,31 @@
+{
+  "tender_id": "LETSHEGO-MICROFINANCE-2026-001",
+  "institution": "letshego-microfinance",
+  "title": "Supplier Registration and Pre-Qualification",
+  "description": "Letshego Faidika Bank (microfinance/inclusive finance arm) invites suppliers and service providers to register and apply for pre-qualification via the bank's Supplier Registration and Pre-Qualification Form. The bank conducts periodic supplier registration, assessment, qualification and segmentation. Completed forms with supporting documentation should be submitted to the Procurement and Logistics unit.",
+  "reference_number": "LFB SRPQF",
+  "published_date": "",
+  "closing_date": null,
+  "closing_time": "",
+  "category": "General",
+  "status": "active",
+  "source_url": "https://www.letshego.com/tanzania-1",
+  "documents": [
+    {
+      "filename": "Letshego_Faidika_Bank_Supplier_Registration_Pre-Qualification_Form.pdf",
+      "original_url": "https://www.letshego.com/sites/default/files/u553/Letshego%20Faidika%20Bank_Supplier%20Registration%20%26%20Pre-Qualification%20Form.pdf",
+      "local_path": "./downloads/LETSHEGO-MICROFINANCE-2026-001/original/Letshego_Faidika_Bank_Supplier_Registration_Pre-Qualification_Form.pdf",
+      "content_type": "application/pdf",
+      "downloaded_at": "2026-06-10T18:06:03.600000Z"
+    }
+  ],
+  "contact": {
+    "name": "Procurement and Logistics Unit",
+    "email": "Info.tz@letshego.co.tz",
+    "phone": "+255 22 222 5048",
+    "address": "Plot No.23, Ursino Estate / Vodacom Tower, Paloma Park, P.O. BOX 6137, Dar es Salaam, Tanzania"
+  },
+  "eligibility": "Open to all prospective suppliers and service providers. Form must be completed in English with all required supporting documentation.",
+  "scraped_at": "2026-06-10T18:06:03.600000Z",
+  "last_checked": "2026-06-10T18:06:03.600000Z"
+}

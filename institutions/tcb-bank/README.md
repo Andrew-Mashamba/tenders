@@ -8,12 +8,12 @@ institution:
 
 website:
   homepage: "https://www.tcbbank.co.tz/"
-  tender_url: "https://www.tcbbank.co.tz/tenders/en"
+  tender_url: "https://www.tcbbank.co.tz/tenders"
 
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape /tenders/en page. Government-owned bank — structured tender format expected."
+  strategy: "Former /tenders/en page removed (404). /tenders returns '404 | This page does not exist'. No dedicated tender section on site as of 2026-06-10. Check /banking-documents and /news for procurement notices; also monitor TANePS."
   selectors:
     container: ".tenders, .content, main"
     tender_item: "article, .tender-item, .card, tr"
@@ -111,11 +111,11 @@ notes: |
 
 **Category:** Commercial Bank  
 **Website:** https://www.tcbbank.co.tz/  
-**Tender Page:** https://www.tcbbank.co.tz/tenders/en  
+**Tender Page:** https://www.tcbbank.co.tz/tenders (page removed — returns 404)  
 
 ## Scraping Instructions
 
-**Strategy:** Scrape /tenders/en page. Government-owned bank — structured tender format expected.  
+**Strategy:** Former /tenders/en page removed (404). Check /banking-documents, /news, and TANePS for procurement notices.  
 **Method:** http_get  
 
 Government-owned bank. Dedicated tender page with English version. Expect structured listings.

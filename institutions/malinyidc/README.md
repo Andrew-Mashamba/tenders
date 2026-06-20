@@ -9,7 +9,7 @@ institution:
 
 website:
   homepage: "https://malinyidc.go.tz/"
-  tender_url: "https://malinyidc.go.tz/manunuzi"
+  tender_url: "https://malinyidc.go.tz/"
 
 contact:
   email: "ded@malinyidc.go.tz"
@@ -20,18 +20,18 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape https://malinyidc.go.tz/manunuzi (Manunuzi/Zabuni). October CMS with Mikumi theme. Tenders in .right-sidebar-content; documents at /storage/app/uploads/public/."
+  strategy: "Site migrated to GWF CORE SPA (React). Static HTML is empty shell; use REST API at /api/announcements, /api/advertisements, /api/files. Reject job vacancies (Ajira/Job Vacancy). Old October CMS path /manunuzi returns SPA shell."
   selectors:
-    container: ".right-sidebar-content, .publications-listing"
-    tender_item: "ul.publications-listing li, ul.publications-listing > *, .right-sidebar-content article"
-    title: "a p, a, h3, h4"
-    date: "span, .date"
-    document_link: 'a[href*="storage"][href$=".pdf"], a[href$=".pdf"], a[href$=".doc"], a[href$=".docx"]'
+    container: "#root"
+    tender_item: "api:data"
+    title: "title"
+    date: "date"
+    document_link: 'attachments[].url'
     pagination: ".pagination a, a.next"
   schedule: "daily"
 
   anti_bot:
-    requires_javascript: false
+    requires_javascript: true
     has_captcha: false
     rate_limit_seconds: 10
 
@@ -209,6 +209,6 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
-- **Signal Strength:** Strong (manunuzi, tender, tenders, zabuni)
+- **Last Checked:** 10 June 2026
+- **Active Tenders:** 0 (GWF CORE SPA; only job vacancy found)
+- **Signal Strength:** Medium (site active, procurement section not published)

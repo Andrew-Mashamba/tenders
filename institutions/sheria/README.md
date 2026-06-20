@@ -19,7 +19,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Tender page https://sheria.go.tz/ was unreachable during analysis (timeout). Re-enable when accessible. Known documents at /uploads/documents/ with pattern sw-{timestamp}-{filename}.pdf"
+  strategy: "Scrape homepage and https://sheria.go.tz/pages/procurement-management-unit for procurement notices. Site requires curl -k (SSL cert issue). Homepage Matangazo section has announcements; filter for zabuni/manunuzi only — reject mediator accreditation lists and news. Known documents at /uploads/documents/ with pattern sw-{timestamp}-{filename}.pdf"
   selectors:
     container: ".content, main, .entry-content, article"
     tender_item: "article, .tender-item, .list-item, li"
@@ -207,6 +207,6 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
+- **Last Checked:** 11 June 2026
+- **Active Tenders:** 0 (no open procurement notices; announcements are mediator accreditation lists)
 - **Signal Strength:** Strong (procurement)

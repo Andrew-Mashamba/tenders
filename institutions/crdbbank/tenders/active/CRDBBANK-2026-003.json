@@ -1,0 +1,31 @@
+{
+  "tender_id": "CRDBBANK-2026-003",
+  "institution": "crdbbank",
+  "title": "Expression of Interest: Implementation of the Stress Testing System for CRDB Bank Plc",
+  "description": "CRDB Bank intends to implement an automated Group-wide Stress Testing Solution to strengthen enterprise-wide risk oversight, support capital and liquidity planning, improve scenario analysis, and enhance resilience under adverse macroeconomic and idiosyncratic conditions across the Bank and its subsidiaries.",
+  "reference_number": "",
+  "published_date": "",
+  "closing_date": "2026-06-30",
+  "closing_time": "12:00 EAT",
+  "category": "ICT",
+  "status": "active",
+  "source_url": "https://crdbbank.co.tz/en/about-us/tender",
+  "documents": [
+    {
+      "filename": "Detailed_EOI_Reference_Document_Stress_Testing_System_Final.pdf",
+      "original_url": "https://crdbbank.co.tz/storage/app/media/Tender/2026/Detailed%20EOI%20Reference%20Document%20-%20Stress%20Testing%20System_Final.pdf",
+      "local_path": "./downloads/CRDBBANK-2026-003/original/Detailed_EOI_Reference_Document_Stress_Testing_System_Final.pdf",
+      "content_type": "application/pdf",
+      "downloaded_at": "2026-06-10T19:30:08.000Z"
+    }
+  ],
+  "contact": {
+    "name": "Procurement Department",
+    "email": "",
+    "phone": "009930676",
+    "address": ""
+  },
+  "eligibility": "Open for international competitive bidding. Vendors with proven experience implementing stress testing solutions for financial institutions.",
+  "scraped_at": "2026-06-10T19:30:08.000Z",
+  "last_checked": "2026-06-10T19:30:08.000Z"
+}

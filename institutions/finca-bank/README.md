@@ -13,7 +13,7 @@ website:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape /tenders/ page. International microfinance organization with structured procurement."
+  strategy: "Scrape https://finca.co.tz/tenders/ (shared with finca slug). As of 2026-06-10 only expired 2024 Desktop Computers tender remains listed — no active procurement."
   selectors:
     container: ".tenders, .content, main"
     tender_item: "article, .tender-item, .card"

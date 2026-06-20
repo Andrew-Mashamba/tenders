@@ -13,6 +13,8 @@ website:
 
 contact:
   email: "info@pass.or.tz"
+  alternate_emails:
+    - "procurement@pass.or.tz"
   phone: "023-06-19"
 
 scraping:
@@ -204,6 +206,7 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
+- **Last Checked:** 11 June 2026
+- **Active Tenders:** 0
 - **Signal Strength:** Strong (tender, tenders)
+- **Note:** Board Performance Evaluation RFP (May 2026) closed 14 May 2026. Submit proposals to procurement@pass.or.tz.

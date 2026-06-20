@@ -18,10 +18,11 @@ scraping:
   enabled: true
   method: "http_get"
   strategy: |
-    Scrape tenders.php. Tender content is in div.about section. Each tender has a
-    description in .about-text p and document link in a.btn (Learn More). Documents
-    stored in /Downloads/ path. Extract title from .section-header h2 or from bold
-    text in description.
+    Scrape tenders.php (currently returns "File not found" as of 2026-06-10). Fallback:
+    check /Downloads/ directory listing for PDFs. Tender content was in div.about section
+    with description in .about-text p and document link in a.btn (Learn More). Documents
+    stored in /Downloads/ path. Only historical PDF remains (TIPPER_4X24_NEW.PDF, Sep 2022,
+    closing Oct 2022 — expired). Extract title from .section-header h2 or bold text.
   selectors:
     container: "div.about"
     tender_item: "div.about"

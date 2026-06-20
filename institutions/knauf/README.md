@@ -1,6 +1,6 @@
 ---
 institution:
-  name: "Knauf Gypsum Tanzania | Mkuranga II production started - the biggest plasterboards plant in subSaharan Africa |  | German Quality Products Locally produced."
+  name: "Knauf Gypsum Tanzania"
   slug: "knauf"
   category: "Commercial / Private Sector"
   status: "active"
@@ -20,7 +20,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Knauf global site. Tanzania at knauf.com/en-TZ. Region selector first; then country page. Product downloads (tender-text, certificates) may be in product pages. No dedicated tender listing found; check country subpages for procurement."
+  strategy: "Knauf global Next.js site at knauf.com/en-TZ. Corporate product/marketing site only. 'Tender-text' refers to product specification documents, not procurement notices. No Tanzania tender listing or RFP section found."
   selectors:
     container: ".tender-list, .content, main, .entry-content, .page-content, article"
     tender_item: "article, .tender-item, .card, .row, li, tr"
@@ -31,7 +31,7 @@ scraping:
   schedule: "daily"
 
   anti_bot:
-    requires_javascript: false
+    requires_javascript: true
     has_captcha: false
     rate_limit_seconds: 10
 
@@ -196,6 +196,6 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
+- **Last Checked:** 10 June 2026
+- **Active Tenders:** 0 (no procurement section)
 - **Signal Strength:** Strong (eoi, rfp, tender)

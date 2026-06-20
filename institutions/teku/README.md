@@ -13,7 +13,7 @@ website:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape RECENT NEWS AND DOWNLOADS section on homepage. Documents in /files/. Check downloadcentre.php, higherdegrees.php. Procurement-related docs (convocation, admission, almanac) in files/."
+  strategy: "Scrape homepage and downloadcentre.php. Documents in /files/ are admissions, almanac, and joining instructions — NOT procurement tenders. psm.php is the Procurement & Supply Management degree programme page, not a tender listing."
   selectors:
     container: ".about_inner, .main_wrapper, section"
     tender_item: "h4 + *, .marquee-box ~ * h4, a[href*='files/']"

@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "WordPress/WPBakery site. /tendering/ page is marketing content about tendering services, not actual tender listings. Disabled until tender content is identified."
+  strategy: "WordPress/WPBakery site. /tendering/ returns HTTP 500 and homepage HTTP 406 as of 2026-06-10. Page is marketing content about tendering services, not actual tender listings."
   selectors:
     container: ".tender-list, .content, main, .entry-content, .page-content, article"
     tender_item: "article, .tender-item, .card, .row, li, tr"

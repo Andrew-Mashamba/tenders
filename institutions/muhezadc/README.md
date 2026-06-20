@@ -9,7 +9,7 @@ institution:
 
 website:
   homepage: "https://muhezadc.go.tz/"
-  tender_url: "https://muhezadc.go.tz/procurement"
+  tender_url: "https://muhezadc.go.tz/tenders"
 
 contact:
   email: "ded@muhezadc.go.tz"
@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "October CMS. Fetch https://muhezadc.go.tz/procurement. Page structure may have changed — as of 2026-03-15, right-sidebar-content shows only 'Ugavi na Manunuzi' title, no tender table. Previously: table.table.table-striped in .right-sidebar-content, tbody tr = one tender. Documents in /storage/app/uploads/public/{hash}/."
+  strategy: "October CMS. Active tender table at https://muhezadc.go.tz/tenders (table.table.table-striped). /procurement page has title only, no table. All listed tenders expired (2018-2022). Documents in /storage/app/uploads/public/{hash}/."
   selectors:
     container: ".right-sidebar-content"
     tender_item: "table.table.table-striped tbody tr"

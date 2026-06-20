@@ -13,7 +13,7 @@ website:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape the /index.php/tender/ page. Likely WordPress-based site."
+  strategy: "Scrape /index.php/tender/ (Elementor page). If curl returns loader-only HTML, use WP REST API: /index.php/wp-json/wp/v2/pages?slug=tender for tender content and PDF links in /wp-content/uploads/."
   selectors:
     container: ".content, main, .entry-content"
     tender_item: "article, .post, .tender-item"

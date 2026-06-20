@@ -17,7 +17,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape https://tyres.co.tz/ for tender/procurement notices."
+  strategy: "Scrape https://tyres.co.tz/ for tender/procurement notices. As of 2026-06-10 the site returns HTTP 403 Forbidden to curl/automated requests; may require browser access."
   selectors:
     container: ".tender-list, .content, main, .entry-content, .page-content, article"
     tender_item: "article, .tender-item, .card, .row, li, tr"
@@ -30,6 +30,7 @@ scraping:
   anti_bot:
     requires_javascript: false
     has_captcha: false
+    blocks_scrapers: true
     rate_limit_seconds: 10
 
   documents:

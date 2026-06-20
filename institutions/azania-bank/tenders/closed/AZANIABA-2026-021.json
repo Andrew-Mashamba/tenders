@@ -1,0 +1,31 @@
+{
+  "tender_id": "AZANIABA-2026-021",
+  "institution": "azania-bank",
+  "title": "Tender Document Repair of Air Conditioners (Feb 2026)",
+  "description": "Tender Document Repair of Air Conditioners (Feb 2026)",
+  "reference_number": "",
+  "published_date": "2026-02-16",
+  "closing_date": "2026-03-09",
+  "closing_time": "14:00 EAT",
+  "category": "Supply",
+  "status": "closed",
+  "source_url": "https://azaniabank.co.tz/tenders/",
+  "documents": [
+    {
+      "filename": "Tender-Document-Repair-of-Air-Conditioners.pdf",
+      "original_url": "https://azaniabank.co.tz/wp-content/uploads/2026/02/Tender-Document-Repair-of-Air-Conditioners.pdf",
+      "local_path": "./downloads/AZANIABA-2026-021/original/Tender-Document-Repair-of-Air-Conditioners.pdf",
+      "content_type": "application/pdf",
+      "downloaded_at": "2026-06-10T16:00:18.462Z"
+    }
+  ],
+  "contact": {
+    "name": "Procurement Management Unit",
+    "email": "procurement@azaniabank.co.tz",
+    "phone": "0800 110 210",
+    "address": "PSSSF Tower, Sam Nujoma Road, Dar es Salaam"
+  },
+  "eligibility": "Open to eligible registered suppliers",
+  "scraped_at": "2026-06-10T16:00:18.462Z",
+  "last_checked": "2026-06-10T16:00:18.462Z"
+}

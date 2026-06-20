@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape homepage. Documents are in 'News & Updates' sidebar (.box ul li). Each item has direct PDF/DOCX links. No dedicated tender listing - documents are announcements, conference forms, membership forms."
+  strategy: "Scrape homepage. Documents are in 'News & Updates' sidebar (.box ul li). Each item has direct PDF/DOCX links in /uploads/events_files/. No dedicated tender listing — sidebar items are conference announcements, CPD materials, and membership forms (NOT procurement tenders). Reject all as junk for tender scraping."
   selectors:
     container: ".box, #slideshows .col-lg-4 .box, main#main"
     tender_item: ".box ul li, .box ul li a"

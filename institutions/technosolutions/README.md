@@ -18,9 +18,9 @@ contact:
   phone: "+255 24 223 1789"
 
 scraping:
-  enabled: true
+  enabled: false
   method: "http_get"
-  strategy: "ICT/software company. Homepage shows products (TechnoSchool, TechnoHospital, etc.) and services. No dedicated tender page found. Scrape homepage and product pages for any RFI/tender links."
+  strategy: "Domain technosolutions.co.tz NXDOMAIN as of 2026-06-10 (site unreachable). Previously: ICT/software company with products (TechnoSchool, TechnoHospital). No dedicated tender page. Disabled until domain is restored."
   selectors:
     container: ".tender-list, .content, main, .entry-content, .page-content, article"
     tender_item: "article, .tender-item, .card, .row, li, tr"

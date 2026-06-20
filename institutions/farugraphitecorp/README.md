@@ -13,7 +13,7 @@ website:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape /procurement/ page for tender notices. Use generic WordPress/HTML selectors; page fetch may timeout. Identify document links and tender listings."
+  strategy: "Scrape /procurement/ page. As of 2026-06-10 the page states 'No tenders are available at this time' under 'Our Currently Available Tenders'. Monitor for new postings."
   selectors:
     container: ".tender-list, .content, main, .page-content, .entry-content, article"
     tender_item: "article, .tender-item, .card, .row, tr, li"

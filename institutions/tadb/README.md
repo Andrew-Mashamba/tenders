@@ -13,7 +13,7 @@ website:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape TADB's page on TANePS portal for procurement opportunities."
+  strategy: "Scrape TADB's page on TANePS portal for procurement opportunities. As of 2026-06-11, taneps.go.tz SSL connection fails (site unreachable via curl)."
   selectors:
     container: "table, .content, main"
     tender_item: "tr, .tender-item"
@@ -398,4 +398,11 @@ with smtplib.SMTP_SSL(config["host"], config["port"], context=context) as server
 - **Daily digest (08:00 EAT):** Summary of all active tenders, new finds, and approaching deadlines
 - **Error alert:** Send if scraper fails for 3+ consecutive runs on any institution
 - **Weekly report (Monday 08:00 EAT):** Full summary across all institutions with trends
+
+## Status
+
+- **Last Checked:** 11 June 2026
+- **Active Tenders:** 0
+- **Signal Strength:** Medium (TANePS portal)
+- **Notes:** TANePS portal (taneps.go.tz) SSL connection failed — site unreachable as of 2026-06-11.
 

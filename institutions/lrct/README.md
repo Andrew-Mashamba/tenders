@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape lrct.go.tz homepage. Tenders/announcements in 'Matangazo' dropdown. Documents at /uploads/announcements/. Follow dropdown-item links for PDF/DOC."
+  strategy: "Scrape lrct.go.tz homepage Matangazo dropdown. Documents at /uploads/announcements/. Homepage may return 503 but direct document URLs work. Filter junk: journal article calls and stakeholder questionnaires are NOT procurement tenders."
   selectors:
     container: ".home-page, .col-md-3, .dropdown-menu"
     tender_item: ".dropdown-item, li a[href*='uploads/announcements']"

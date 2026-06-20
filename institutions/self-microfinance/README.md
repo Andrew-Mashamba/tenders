@@ -13,7 +13,7 @@ website:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Government-owned fund. Tenders published via NeST (National e-Tendering System). Search for SELF on the portal."
+  strategy: "Government-owned fund. Tenders published via NeST (nest.go.tz) — JavaScript SPA requiring browser. Search for SELF on portal; http_get cannot list tenders."
   selectors:
     container: "table, .content, main"
     tender_item: "tr, .tender-item"
@@ -24,7 +24,7 @@ scraping:
   schedule: "daily"
   
   anti_bot:
-    requires_javascript: false
+    requires_javascript: true
     has_captcha: false
     rate_limit_seconds: 10
 

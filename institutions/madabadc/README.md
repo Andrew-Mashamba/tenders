@@ -13,7 +13,7 @@ website:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape homepage and linked pages for tender/procurement documents. Documents in /storage/app/uploads/public/. Site unreachable during analysis — verify selectors on next run."
+  strategy: "Site is a GWF CORE React SPA (div#root). Static HTTP fetch returns no tender content. Requires JavaScript/browser or API discovery. Legacy documents were under /storage/app/uploads/public/ but paths now return SPA shell HTML."
   selectors:
     container: ".tender-list, .content, main, .page-content, .entry-content, article"
     tender_item: "article, .tender-item, .card, .row, tr, li"
@@ -24,7 +24,7 @@ scraping:
   schedule: "daily"
 
   anti_bot:
-    requires_javascript: false
+    requires_javascript: true
     has_captcha: false
     rate_limit_seconds: 10
 

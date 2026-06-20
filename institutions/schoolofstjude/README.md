@@ -204,6 +204,6 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
+- **Last Checked:** 11 June 2026
+- **Active Tenders:** 1 (Supply of Rice — closes 2026-06-16)
 - **Signal Strength:** Strong (eoi, tender, tenders)

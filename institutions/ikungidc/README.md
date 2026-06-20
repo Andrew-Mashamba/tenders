@@ -18,18 +18,18 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape https://ikungidc.go.tz/tenders. Page uses table.table-striped for tender listing (per README preview). Also check /procurement. Documents in /storage/app/uploads/public/ and /storage/app/media/. Tender page fetch timed out on 2026-03-15—retry when accessible."
+  strategy: "Site migrated to GWF CORE React SPA (2026-06). /tenders renders client-side only. Scrape JSON APIs: /api/from-tamisemi (TAMISEMI feed, filter category=Zabuni) and /api/announcements (local, filter category=Zabuni). Reject Job Vacancy, Huduma, Matukio, Taarifa. Documents at /minio/ikungidc.go.tz/attachments/ and /minio/tamisemi.go.tz/attachments/."
   selectors:
-    container: "table.table-striped, .content, main, .table"
-    tender_item: "table.table-striped tbody tr, table.tenders tr"
-    title: "td a, .tender-title, h4"
-    date: "td, .date, .closing-date, time"
-    document_link: 'a[href$=".pdf"], a[href$=".doc"], a[href$=".docx"], a[href*="/storage/"]'
-    pagination: ".pagination a, a.next, .nav-links a" 
+    container: "#root"
+    tender_item: "api/from-tamisemi data[].item, api/announcements data[]"
+    title: "title"
+    date: "date"
+    document_link: 'attachments[].url'
+    pagination: "page, limit query params"
   schedule: "daily"
 
   anti_bot:
-    requires_javascript: false
+    requires_javascript: true
     has_captcha: false
     rate_limit_seconds: 10
 
@@ -66,11 +66,12 @@ scraping:
       decode_percent_encoding: true
 
     known_document_paths:
-      - "/storage/app/uploads/public/"
-      - "/storage/app/media/"
+      - "/minio/ikungidc.go.tz/attachments/"
+      - "/minio/tamisemi.go.tz/attachments/"
+      - "/minio/ikungidc.go.tz/files/"
     url_patterns:
-      - "ikungidc.go.tz/storage/app/uploads/public/*"
-      - "ikungidc.go.tz/storage/app/media/*"
+      - "ikungidc.go.tz/minio/ikungidc.go.tz/attachments/*"
+      - "ikungidc.go.tz/minio/tamisemi.go.tz/attachments/*"
 
     download_rules:
       max_file_size_mb: 50

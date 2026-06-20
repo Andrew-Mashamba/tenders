@@ -1,8 +1,8 @@
 #!/bin/bash
 # =============================================================================
-# Install/Uninstall the TENDERS daily scraper
+# Install/Uninstall the TENDERS weekly scraper
 # Usage:
-#   ./install.sh install    — Install and start the daily job
+#   ./install.sh install    — Install and start the weekly job
 #   ./install.sh uninstall  — Stop and remove the daily job
 #   ./install.sh status     — Check if the job is loaded
 #   ./install.sh run        — Run the scraper immediately (manual trigger)
@@ -19,7 +19,7 @@ SCRIPTS_DIR="/Volumes/DATA/PROJECTS/TENDERS/scripts"
 case "${1:-help}" in
 
 install)
-    echo "Installing TENDERS daily scraper..."
+    echo "Installing TENDERS weekly scraper..."
 
     # Make scripts executable
     chmod +x "$SCRIPTS_DIR/scrape_all.sh"
@@ -37,7 +37,7 @@ install)
 
     echo ""
     echo "Installed successfully!"
-    echo "  Schedule: Daily at 06:00 AM (EAT)"
+    echo "  Schedule: Weekly on Monday at 06:00 AM (EAT)"
     echo "  Plist:    $PLIST_DST"
     echo "  Script:   $SCRIPTS_DIR/scrape_all.sh"
     echo "  Logs:     /Volumes/DATA/PROJECTS/TENDERS/logs/"

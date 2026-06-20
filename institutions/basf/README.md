@@ -16,9 +16,9 @@ contact:
   phone: "026-02-26"
 
 scraping:
-  enabled: true
+  enabled: false
   method: "http_get"
-  strategy: "BASF homepage (basf.com) is a global corporate site with no dedicated Tanzania tender page or tender listings. Procurement link exists but leads to general supplier info, not tenders."
+  strategy: "BASF global site (basf.com) has no public tender listings. Procurement page returns 404. No Tanzania-specific tenders. scraping.enabled set to false."
   selectors:
     container: ".tender-list, .content, main, .entry-content, .page-content, article"
     tender_item: "article, .tender-item, .card, .row, li, tr"
@@ -194,6 +194,6 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
+- **Last Checked:** 10 June 2026
+- **Active Tenders:** 0 (global corporate site; no tender listings)
 - **Signal Strength:** Strong (procurement, rfq)

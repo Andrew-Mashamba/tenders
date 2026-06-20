@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape homepage for Water Tariffs, Tenders, Jobs. Documents in /PDF/ (e.g. usaili.pdf). Follow dropdown/menu links for tender listings. Page fetch timed out during analysis—verify reachability."
+  strategy: "Site currently returns Rocky Linux HTTP test page (maintenance/default vhost) as of June 2026. When restored, scrape homepage for Water Tariffs, Tenders, Jobs. Documents were in /PDF/ (e.g. usaili.pdf). Use curl -k if SSL issues persist."
   selectors:
     container: ".tender-list, .content, main, .entry-content, .page-content, article"
     tender_item: "article, .tender-item, .card, .row, li, tr"

@@ -194,6 +194,6 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
-- **Signal Strength:** Strong (eoi)
+- **Last Checked:** 11 June 2026
+- **Active Tenders:** 0 (reports page has NGO impact reports only)
+- **Signal Strength:** Weak (organizational reports, not procurement)

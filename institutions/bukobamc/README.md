@@ -18,18 +18,18 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape https://bukobamc.go.tz/tenders (or /procurement-and-supply-management). Same OctoberCMS/GWF table layout. Parse table.table.table-striped tbody tr; td[1]=title, td[2]=date added, td[3]=expire date, td[4] a=document. Documents at /storage/app/uploads/public/."
+  strategy: "Site migrated to GWF CORE React SPA (2026-06). /tenders renders client-side; scrape JSON APIs instead: /api/announcements (local zabuni) and /api/from-tamisemi (TAMISEMI feed). Filter category=Zabuni. Documents at /minio/bukobamc.go.tz/attachments/ and /minio/tamisemi.go.tz/attachments/. Legacy /storage/app/uploads/public/ paths now return SPA shell."
   selectors:
-    container: "table.table.table-striped"
-    tender_item: "table.table.table-striped tbody tr"
-    title: "td:first-child"
-    date: "td:nth-child(3)"
-    document_link: 'td:nth-child(4) a[href*="/storage/"]'
-    pagination: null
+    container: "#root"
+    tender_item: "api/announcements data[], api/from-tamisemi data[].item"
+    title: "title"
+    date: "date"
+    document_link: 'attachments[].url'
+    pagination: "page, limit query params"
   schedule: "daily"
 
   anti_bot:
-    requires_javascript: false
+    requires_javascript: true
     has_captcha: false
     rate_limit_seconds: 10
 
@@ -66,9 +66,11 @@ scraping:
       decode_percent_encoding: true
 
     known_document_paths:
-      - "/storage/app/uploads/public/"
+      - "/minio/bukobamc.go.tz/attachments/"
+      - "/minio/tamisemi.go.tz/attachments/"
     url_patterns:
-      - "bukobamc.go.tz/storage/app/uploads/public/*"
+      - "bukobamc.go.tz/minio/bukobamc.go.tz/attachments/*"
+      - "bukobamc.go.tz/minio/tamisemi.go.tz/attachments/*"
 
     download_rules:
       max_file_size_mb: 50
@@ -86,7 +88,7 @@ scraping:
         - "application/octet-stream"
 
     document_notes: |
-      OctoberCMS/GWF. Documents at /storage/app/uploads/public/{hash}/{hash}.{ext}. Each table row has one Download link in 4th column.
+      GWF CORE SPA as of 2026-06. Use REST APIs for tender data. Local docs at /minio/bukobamc.go.tz/attachments/; TAMISEMI syndicated docs at /minio/tamisemi.go.tz/attachments/. Legacy /storage/app/uploads/public/ paths no longer serve files.
 
   output:
     format: "json"
@@ -417,6 +419,6 @@ with smtplib.SMTP_SSL(config["host"], config["port"], context=context) as server
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
-- **Signal Strength:** Strong (manunuzi, procurement, tender, tenders, zabuni)
+- **Last Checked:** 10 June 2026
+- **Active Tenders:** 1 (TAMISEMI PAMOJA BDS TOR via /api/from-tamisemi)
+- **Signal Strength:** Strong (GWF API; local Ajira only on /api/announcements)

@@ -12,9 +12,9 @@ website:
   tender_url: "https://dmax.co.tz"
 
 scraping:
-  enabled: true
+  enabled: false
   method: "http_get"
-  strategy: "DISABLED: Site returns PHP fatal error (wp-blog-header.php not found). WordPress installation broken. Domain content appears unrelated to Tanzanian tenders. Re-enable when site is fixed."
+  strategy: "DISABLED (2026-06-10): Site returns PHP fatal error (wp-blog-header.php not found). WordPress installation broken. Domain content unrelated to Tanzanian procurement. scraping.enabled=false until site is restored."
   selectors:
     container: ".tender-list, .content, main, .page-content, .entry-content, article"
     tender_item: "article, .tender-item, .card, .row, tr, li"

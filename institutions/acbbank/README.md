@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape https://www.acbbank.co.tz/tenders. Tenders are displayed in an embedded PDF viewer iframe. Extract document links from a.fullscreen-mode (Fullscreen Mode link) and iframe.pvfw-pdf-viewer-frame src. PDF viewer URLs follow pattern /pdfviewer/{document-slug}/. Currently shows Supplier Prequalification Notice 2026-2027."
+  strategy: "Scrape https://www.acbbank.co.tz/tenders. Tenders are displayed in an embedded PDF viewer iframe. Direct PDF at /wp-content/uploads/2025/11/SUPPLIER-PREQUALIFICATION-NOTICE-2026-2027.pdf (viewer slug supplier-prequalification-notice-2026-2027). Verify closing_date in PDF — stale notices may remain on page after deadline."
   selectors:
     container: ".tab-content, .tab-pane, .znColumnElement-innerContent"
     tender_item: ".hr-tabs-nav-item, .tab-pane"
@@ -68,10 +68,12 @@ scraping:
     url_patterns:
       - "acbbank.co.tz/pdfviewer/*"
       - "acbbank.co.tz/wp-content/uploads/*.pdf"
+      - "acbbank.co.tz/wp-content/uploads/2025/11/SUPPLIER-PREQUALIFICATION-NOTICE-2026-2027.pdf"
 
     known_document_paths:
       - "/pdfviewer/"
       - "/wp-content/uploads/"
+      - "/wp-content/uploads/2025/11/SUPPLIER-PREQUALIFICATION-NOTICE-2026-2027.pdf"
 
     download_rules:
       max_file_size_mb: 50

@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Tender page https://dsm.go.tz/manunuzi-na-ugavi was unreachable during analysis (network/SSL error). Re-enable when page is accessible. Known document path: /storage/app/uploads/public/."
+  strategy: "As of 2026-06-10 dsm.go.tz serves GWF CORE (React SPA). Requires JavaScript/headless browser. /manunuzi-na-ugavi renders 'Ukurasa Haupatikani' (page not found) — tender section removed. Known document path: /storage/app/uploads/public/."
   selectors:
     container: ".tender-list, .content, main, .entry-content, .page-content, article"
     tender_item: "article, .tender-item, .card, .row, li, tr"
@@ -29,7 +29,7 @@ scraping:
   schedule: "daily"
 
   anti_bot:
-    requires_javascript: false
+    requires_javascript: true
     has_captcha: false
     rate_limit_seconds: 10
 

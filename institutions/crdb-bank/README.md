@@ -238,7 +238,7 @@ crdb-bank/
   "institution": "crdb-bank",
   "last_scrape": "2026-03-13T10:30:00Z",
   "next_scrape": "2026-03-14T10:30:00Z",
-  "active_tenders_count": 5,
+  "active_tenders_count": 1,
   "status": "success",
   "error": null
 }}

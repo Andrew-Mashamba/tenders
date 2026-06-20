@@ -1,6 +1,6 @@
 ---
 institution:
-  name: "Home &#124; Mbeya City Council"
+  name: "Mbeya City Council"
   slug: "mbeyacc"
   category: "Local Government Authority"
   status: "active"
@@ -9,7 +9,7 @@ institution:
 
 website:
   homepage: "https://mbeyacc.go.tz/"
-  tender_url: "https://mbeyacc.go.tz/tenders"
+  tender_url: "https://mbeyacc.go.tz/api/from-tamisemi"
 
 contact:
   email: "cd@mbeyacc.go.tz"
@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape https://mbeyacc.go.tz/event/makabidhiano-ya-ofisi for government tender notices. Government sites often post zabuni/manunuzi."
+  strategy: "Site migrated to GWF CORE React SPA. Use API: /api/announcements (local), /api/advertisements, /api/from-tamisemi (syndicated TAMISEMI zabuni). Old /storage/app/uploads/ PDF paths no longer served. /tenders returns SPA shell only."
   selectors:
     container: ".tender-list, .content, main, .entry-content, .page-content, article"
     tender_item: "article, .tender-item, .card, .row, li, tr"
@@ -29,7 +29,7 @@ scraping:
   schedule: "daily"
 
   anti_bot:
-    requires_javascript: false
+    requires_javascript: true
     has_captcha: false
     rate_limit_seconds: 10
 

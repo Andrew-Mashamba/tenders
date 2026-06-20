@@ -13,7 +13,7 @@ website:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape homepage and linked pages for tender/procurement documents. 6 document links discovered."
+  strategy: "Scrape homepage 'Job vacancies / Tender and Call for Proposal' section. Reject job vacancies (e.g. Vacancy-Announcement.pdf intern posts). Policy PDFs (Financial Regulations, Mandates) are not active tenders."
   selectors:
     container: "main, .elementor-widget-container, article.ast-article-single"
     tender_item: "article.ast-article-single, .elementor-element, a[href*='.pdf']"

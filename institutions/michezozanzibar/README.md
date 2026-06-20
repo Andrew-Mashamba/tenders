@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape https://michezozanzibar.go.tz/ for documents. PDFs at root (SERA-YA-MICHEZO-ZANZIBAR.pdf, BAJETI-2020.pdf). Note: Previous tender_url pointed to YouTube—not scrapable. Use main site. Check mauyetu/ona.php (Orodha ya Oda) and any procurement/tender sections."
+  strategy: "Site currently DOWN as of 2026-06-10 — returns Rocky Linux HTTP Server Test Page instead of content. When restored, scrape https://michezozanzibar.go.tz/ for documents. PDFs were previously at root (SERA-YA-MICHEZO-ZANZIBAR.pdf, BAJETI-2020.pdf). Do NOT use YouTube channel as tender_url. Check mauyetu/ona.php and procurement sections when site is back."
   selectors:
     container: ".tender-list, .content, main, .entry-content, .page-content, article"
     tender_item: "article, .tender-item, .card, .row, li, tr"
@@ -115,7 +115,7 @@ notes: |
 
 **Category:** Government Agency
 **Website:** https://michezozanzibar.go.tz/
-**Tender Page:** https://www.youtube.com/channel/UCM1wD05J9R_h5cXKhMoRFqg/featured
+**Tender Page:** https://michezozanzibar.go.tz/ (site currently down — Rocky Linux default page)
 **Keywords Found:** rfq
 
 ## Contact Information

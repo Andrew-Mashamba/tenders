@@ -33,5 +33,9 @@ scraping:
     format: "json"
     fields: [tender_id, title, description, published_date, closing_date, document_links, contact_info]
 
+contact:
+  email: "newsportal@upendomedia.co.tz"
+  phone: "+255769181984"
+
 notes: |
-  Scrape homepage for tenders/procurement. If none found, identify opportunities and add to leads.
+  Upendo News Portal — digital news/media site. No procurement section. Sell opportunity for CMS, digital publishing, or ICT services.

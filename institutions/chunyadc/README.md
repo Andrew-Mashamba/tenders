@@ -9,7 +9,7 @@ institution:
 
 website:
   homepage: "https://chunyadc.go.tz/"
-  tender_url: "https://chunyadc.go.tz/procurement-and-supply"
+  tender_url: "https://chunyadc.go.tz/"
 
 contact:
   email: "ded@chunyadc.go.tz"
@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape chunyadc.go.tz/procurement-and-supply (Manunuzi na Ugavi) and chunyadc.go.tz/tenders. Uses same October CMS/mikumi theme as chamwinodc. Tenders in table or .right-sidebar-content. Documents at /storage/app/uploads/public/ with hash paths (e.g. 650/bf4/ec6/)."
+  strategy: "UPDATE 2026-06-10: chunyadc.go.tz migrated to React SPA (GWF CORE). /procurement-and-supply and /tenders return empty SPA shell — requires JavaScript rendering. Former October CMS paths (/storage/app/uploads/public/) no longer accessible via http_get. Try API endpoints or contact ded@chunyadc.go.tz for tender notices."
   selectors:
     container: ".right-sidebar-content, .right-sidebar-wrapper, table tbody, .home-page-title"
     tender_item: "table tbody tr, .col-md-4 a[href*='new/'], li"
@@ -29,7 +29,7 @@ scraping:
   schedule: "daily"
 
   anti_bot:
-    requires_javascript: false
+    requires_javascript: true
     has_captcha: false
     rate_limit_seconds: 10
 

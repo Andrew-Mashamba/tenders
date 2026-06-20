@@ -27,7 +27,7 @@ scraping:
     Scrape https://www.whizztanzania.com/tenders. Business directory aggregating tenders from
     NGOs, government, private sector. Nuxt/Vue SPA - requires JS for full content. Tender cards
     show title + "Read more". Categories: Auctions, Service Tenders, Supplies Market, Work Tenders.
-    Documents may be on detail pages. API: api.whizztanzania.com.
+    Documents may be on detail pages. Nuxt SPA — use www.whizztanzania.com/api/ (api.whizztanzania.com returns 403/404).
   selectors:
     container: "[data-v-d519ddf0], main, .container-xxl"
     tender_item: "[data-v-dd54ccf0], .tender-card, h3 + a"

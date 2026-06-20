@@ -9,7 +9,7 @@ institution:
 
 website:
   homepage: "https://psssf.go.tz/"
-  tender_url: "https://psssf.go.tz/tender/current"
+  tender_url: "https://psssf.go.tz/"
 
 contact:
   email: "info@psssf.go.tz"
@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape psssf.go.tz/tender/current (Current Tender), /tender/index (General Procurement Notice), /tender/award (Awarded). Yii-based site. Tender pages may have empty content when no active tenders - sidebar and main area structure present but content div may be empty. Check /media/publication and /media/doc-act for documents."
+  strategy: "PSSSF site restructured (2026-06-11). Legacy tender URLs (/tender/current, /tender/index, /media/publication, /media/doc-act) all return 404. Scrape homepage and /publications for any procurement notices. No dedicated tender section currently on site."
   selectors:
     container: ".site-main, .sidebar, main"
     tender_item: ".post-item, .tender-item, article, .row .col-md-12, table tr"

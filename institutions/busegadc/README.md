@@ -13,18 +13,18 @@ website:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape homepage and linked pages for tender/procurement documents. Documents stored under /storage/app/uploads/public/. Follow links to tender detail pages for full document lists."
+  strategy: "Site migrated to GWF CORE React SPA (2026-06). /tenders renders client-side; scrape JSON APIs instead: /api/announcements (local zabuni) and /api/from-tamisemi (TAMISEMI feed). Filter category=Zabuni. Documents at /minio/busegadc.go.tz/attachments/ and /minio/tamisemi.go.tz/attachments/."
   selectors:
-    container: "main, .content, .page-content, .entry-content, article, [role='main']"
-    tender_item: "article, .tender-item, .card, .row, tr, li, .list-group-item"
-    title: "h2, h3, h4, .tender-title, a"
-    date: ".date, .closing-date, .published, time"
-    document_link: 'a[href$=".pdf"], a[href$=".doc"], a[href$=".docx"], a[download]'
-    pagination: ".pagination a, a.next, .nav-links a"
+    container: "#root"
+    tender_item: "api/announcements data[], api/from-tamisemi data[].item"
+    title: "title"
+    date: "date"
+    document_link: 'attachments[].url'
+    pagination: "page, limit query params"
   schedule: "daily"
 
   anti_bot:
-    requires_javascript: false
+    requires_javascript: true
     has_captcha: false
     rate_limit_seconds: 10
 
@@ -61,23 +61,12 @@ scraping:
       decode_percent_encoding: true
 
     known_document_paths:
-      - "/storage/app/uploads/public/"
-      - "/storage/app/uploads/public/58d/438/ef2/"
-      - "/storage/app/uploads/public/58d/439/700/"
-      - "/storage/app/uploads/public/58d/43a/0e0/"
-      - "/storage/app/uploads/public/58d/43a/7ee/"
-      - "/storage/app/uploads/public/58d/50b/d0d/"
-      - "/storage/app/uploads/public/5c2/da7/471/"
-      - "/storage/app/uploads/public/5c2/da8/1a1/"
+      - "/minio/busegadc.go.tz/attachments/"
+      - "/minio/tamisemi.go.tz/attachments/"
 
     url_patterns:
-      - "busegadc.go.tz/storage/app/uploads/public/58d/438/ef2/*.pdf"
-      - "busegadc.go.tz/storage/app/uploads/public/58d/439/700/*.pdf"
-      - "busegadc.go.tz/storage/app/uploads/public/58d/43a/0e0/*.pdf"
-      - "busegadc.go.tz/storage/app/uploads/public/58d/43a/7ee/*.pdf"
-      - "busegadc.go.tz/storage/app/uploads/public/58d/50b/d0d/*.pdf"
-      - "busegadc.go.tz/storage/app/uploads/public/5c2/da7/471/*.pdf"
-      - "busegadc.go.tz/storage/app/uploads/public/5c2/da8/1a1/*.pdf"
+      - "busegadc.go.tz/minio/busegadc.go.tz/attachments/*"
+      - "busegadc.go.tz/minio/tamisemi.go.tz/attachments/*"
 
     download_rules:
       max_file_size_mb: 50
@@ -95,7 +84,7 @@ scraping:
         - "application/octet-stream"
 
     document_notes: |
-      Documents under /storage/app/uploads/public/{hash}/ pattern (October CMS). Known paths: 58d/438/ef2/, 58d/439/700/, 58d/43a/0e0/, 58d/43a/7ee/, 58d/50b/d0d/, 5c2/da7/471/, 5c2/da8/1a1/. Site may be slow to respond.
+      GWF CORE SPA as of 2026-06. Use REST APIs for tender data. Local docs at /minio/busegadc.go.tz/attachments/; TAMISEMI syndicated docs at /minio/tamisemi.go.tz/attachments/.
 
   output:
     format: "json"

@@ -22,7 +22,7 @@
   "eligibility": "Based on historical prequalification requirements: Valid registration certificate, business license, certificate of incorporation, TIN, VAT registration. Minimum 3 years experience. Audited financial statements.",
   "bid_security": null,
   "scraped_at": "2026-03-13T06:00:00Z",
-  "last_checked": "2026-03-15T22:01:15Z",
-  "scrape_notes": "Primary source (nmbbank.co.tz) blocked by Cloudflare. Tender found via mabumbe.net aggregator. Detail page paywalled. Closing date and full documents unavailable - recommend checking nmbbank.co.tz directly or contacting procurement@nmbtz.com.",
+  "last_checked": "2026-06-11T04:03:20.521Z",
+  "scrape_notes": "Primary source (nmbbank.co.tz) blocked by Cloudflare (2026-06-11). Existing tenders retained from mabumbe.net aggregator. No new NMB tenders found.",
   "raw_html": null
 }

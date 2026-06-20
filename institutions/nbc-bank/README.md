@@ -13,7 +13,7 @@ website:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape the /en/procurement/ page. NBC is a major bank — expect structured procurement listings with deadlines."
+  strategy: "Scrape /en/procurement/. Tender Documents section lists pre-qualification-document-2026.pdf (deadline 08 May 2026, now closed). RFP Commercial Credit PDF no longer linked on page (deadline 13 Mar 2026). Most links are policy/governance PDFs — not active tenders."
   selectors:
     container: ".procurement, .content, main"
     tender_item: "article, .procurement-item, .card, .tender"

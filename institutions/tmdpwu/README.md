@@ -18,9 +18,9 @@ scraping:
   enabled: true
   method: "http_get"
   strategy: |
-    Single news article page (Joomla) at /taarifa/habari/25-invitation-for-tenders. Page title "invitation for tenders".
-    May be blocked by Mod_Security with default User-Agent. Use standard browser User-Agent. Extract article body,
-    any document links. Check /taarifa/habari for other tender-related news.
+    Single news article (Joomla) at /taarifa/habari/25-invitation-for-tenders published Dec 2023 with image only.
+    Not a live tender listing — reject as stale news. May be blocked by Mod_Security; use browser User-Agent.
+    Check /taarifa/habari for newer procurement posts. Email: info@tmdpwu.or.tz (obfuscated in footer).
   selectors:
     container: ".item-page, .content, article, .lnd_latestnews, main"
     tender_item: "article, .item-page, .content"

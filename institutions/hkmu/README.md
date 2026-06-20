@@ -21,7 +21,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape Joomla category catid=9 for RFPs/tenders. Single-article or listing format. Each article is a tender. Check main content area and IREC download link. Browse /component/content for category listings."
+  strategy: "Scrape Joomla site with Chrome User-Agent (Mod_Security blocks basic curl). Category listing /component/content/category/9 returns 404; discover tenders via homepage links and article URLs. catid=9 articles include RFPs and vacancies (reject job postings). Known RFP debt collection expired 2025-10-15."
   selectors:
     container: "main, article, .item-page, .content, #sp-main-body"
     tender_item: "article, .item-page, .sppb-addon-article"
@@ -35,6 +35,9 @@ scraping:
     requires_javascript: false
     has_captcha: false
     rate_limit_seconds: 10
+    user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    mod_security: true
+    mod_security_note: "Basic curl User-Agent blocked with 406 Not Acceptable; use Chrome UA and Accept headers"
 
   documents:
     download_enabled: true

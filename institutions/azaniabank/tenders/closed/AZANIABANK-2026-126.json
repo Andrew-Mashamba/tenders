@@ -1,0 +1,31 @@
+{
+  "tender_id": "AZANIABANK-2026-126",
+  "institution": "azaniabank",
+  "title": "Supply, Installation and Commissioning of ATMs",
+  "description": "Supply, Installation and Commissioning of ATMs",
+  "reference_number": "",
+  "published_date": "",
+  "closing_date": "2022-06-23",
+  "closing_time": "",
+  "category": "Supply",
+  "status": "closed",
+  "source_url": "https://azaniabank.co.tz/tenders/",
+  "documents": [
+    {
+      "filename": "Bid-Document-for-Supply-Installation-Commissioning-of-8-ATMs.pdf",
+      "original_url": "https://azaniabank.co.tz/wp-content/uploads/2022/06/Bid-Document-for-Supply-Installation-Commissioning-of-8-ATMs.pdf",
+      "local_path": "./downloads/AZANIABANK-2026-126/original/Bid-Document-for-Supply-Installation-Commissioning-of-8-ATMs.pdf",
+      "content_type": "application/pdf",
+      "downloaded_at": "2026-06-10T16:00:18.462Z"
+    }
+  ],
+  "contact": {
+    "name": "Procurement Management Unit",
+    "email": "procurement@azaniabank.co.tz",
+    "phone": "0800 110 210",
+    "address": "PSSSF Tower, Sam Nujoma Road, Dar es Salaam"
+  },
+  "eligibility": "Open to eligible registered suppliers",
+  "scraped_at": "2026-06-10T16:00:18.462Z",
+  "last_checked": "2026-06-10T16:00:18.462Z"
+}

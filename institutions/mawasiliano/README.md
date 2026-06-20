@@ -1,6 +1,6 @@
 ---
 institution:
-  name: "WMTH |     Mwanzo"
+  name: "Ministry of Communication and Information Technology (WMTH)"
   slug: "mawasiliano"
   category: "Government Agency"
   status: "active"
@@ -9,7 +9,7 @@ institution:
 
 website:
   homepage: "https://mawasiliano.go.tz/"
-  tender_url: "https://mawasiliano.go.tz/uploads/documents/sw-1763121697-HOTUBA YA MHE.WAZIRI KATIKA KUKABIDHI VIFAA VYA TEHAMA.pdf"
+  tender_url: "https://mawasiliano.go.tz/pages/procurement-supply-unit"
 
 contact:
   email: "ps@mawasiliano.go.tz"
@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape https://mawasiliano.go.tz/uploads/documents/sw-1763121697-HOTUBA YA MHE.WAZIRI KATIKA KUKABIDHI VIFAA VYA TEHAMA.pdf for government tender notices. Government sites often post zabuni/manunuzi."
+  strategy: "Scrape https://mawasiliano.go.tz/pages/procurement-supply-unit (Manunuzi na Ugavi) and homepage for zabuni/manunuzi. No dedicated /documents/tender page (returns maintenance). Homepage PDFs are speeches/budget, not tenders. SSL cert may require curl -k."
   selectors:
     container: ".tender-list, .content, main, .entry-content, .page-content, article"
     tender_item: "article, .tender-item, .card, .row, li, tr"

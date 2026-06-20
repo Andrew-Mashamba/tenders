@@ -13,7 +13,7 @@ website:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape https://utel.co.tz/ for tender/procurement notices."
+  strategy: "Site currently unreachable (SSL_ERROR_SYSCALL on TLS handshake to utel.co.tz:443 as of 2026-06-10). Retry homepage when site is back online; no procurement section confirmed when accessible."
   selectors:
     container: ".tender-list, .content, main, .entry-content, .page-content, article"
     tender_item: "article, .tender-item, .card, .row, li, tr"

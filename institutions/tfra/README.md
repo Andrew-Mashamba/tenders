@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape https://tfra.go.tz/publications/bulk-procurement for bulk procurement notices. Page unreachable during analysis - verify structure when accessible."
+  strategy: "Scrape https://tfra.go.tz/publications/bulk-procurement for bulk procurement notices. Cards list PDFs in /uploads/documents/. Site may require curl -k for SSL. Pre-qualification notices cover multi-month fertilizer procurement periods."
   selectors:
     container: ".tender-list, .content, main, .entry-content, .page-content, article"
     tender_item: "article, .tender-item, .card, .row, li, tr"

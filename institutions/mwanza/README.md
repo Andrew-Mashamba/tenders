@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape https://mwanza.go.tz/tenders for zabuni. Parse table.table-striped: each tr = tender; td[1]=Jina la Zabuni, td[2]=Date Added, td[3]=Expire Date, td[4]=doc link."
+  strategy: "Site migrated to GWF CORE React SPA (as of 2026-06). /tenders returns client-rendered shell only; October CMS table no longer in static HTML. Requires JS/browser automation or API discovery to scrape tenders."
   selectors:
     container: ".right-sidebar-content"
     tender_item: "table.table.table-striped tbody tr"
@@ -29,7 +29,7 @@ scraping:
   schedule: "daily"
 
   anti_bot:
-    requires_javascript: false
+    requires_javascript: true
     has_captcha: false
     rate_limit_seconds: 10
 
@@ -425,6 +425,6 @@ with smtplib.SMTP_SSL(config["host"], config["port"], context=context) as server
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
-- **Signal Strength:** Strong (procurement, tender, tenders, zabuni)
+- **Last Checked:** 11 June 2026
+- **Active Tenders:** 0 (site migrated to GWF CORE SPA; tenders require JS rendering)
+- **Signal Strength:** Medium (tender URL exists but content is client-rendered)

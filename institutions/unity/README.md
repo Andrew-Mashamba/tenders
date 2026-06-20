@@ -33,5 +33,9 @@ scraping:
     format: "json"
     fields: [tender_id, title, description, published_date, closing_date, document_links, contact_info]
 
+contact:
+  email: "info@abyatravel.co.tz"
+  phone: "+255 655 317574"
+
 notes: |
-  Scrape homepage for tenders/procurement. If none found, identify opportunities and add to leads.
+  Scrape homepage for tenders/procurement. Site is Abya Travel Tours & Safaris (travel booking). No procurement section. If none found, identify opportunities and add to leads.

@@ -45700,9 +45700,12 @@
     "institution_slug": "exim-bank",
     "institution_name": "Exim Bank Tanzania",
     "website_url": "https://eximbank.co.tz/",
-    "emails": [],
+    "emails": [
+      "adminprocure@eximbank.co.tz",
+      "customercare@eximbank.co.tz"
+    ],
     "opportunity_type": "sell",
-    "opportunity_description": "No dedicated tender page. Exim Bank acquired FNB Tanzania in 2022. ZIMA Solutions could offer digital transformation, GePG/TIPS/RTGS integrations, core banking, or ICT services.",
+    "opportunity_description": "No active tenders (RFP EB/RFP/001/2026 for risk/compliance review closed 23 Apr 2026). RFPs published on homepage documents section. ZIMA Solutions could offer GePG/TIPS/RTGS integrations, core banking, AML/compliance systems, or ICT services.",
     "draft_email_subject": "Partnership Opportunity \u2013 ZIMA Solutions & Exim Bank Tanzania",
     "draft_email_body": "Dear Exim Bank Tanzania Team,\n\nZIMA Solutions Limited specialises in digital transformation for financial institutions in Tanzania. We noticed Exim Bank and believe we could support your technology and innovation goals.\n\nOur offerings include:\n\u2022 GePG, TIPS, and RTGS integrations\n\u2022 SACCO and microfinance systems\n\u2022 AI-powered customer engagement\n\u2022 HR and enterprise management systems\n\nWe would welcome a conversation about how we might support Exim Bank. Could we schedule a brief call?\n\nBest regards,\nZIMA Solutions Limited\ninfo@zima.co.tz | +255 69 241 0353\n",
     "created_at": "2026-03-15T17:55:43.157208Z",
@@ -46866,7 +46869,9 @@
     "institution_slug": "uba-bank",
     "institution_name": "United Bank for Africa (UBA) Tanzania",
     "website_url": "https://www.ubatanzania.co.tz/",
-    "emails": [],
+    "emails": [
+      "customerservicetz@ubagroup.com"
+    ],
     "opportunity_type": "sell",
     "opportunity_description": "No dedicated tender page. Nigerian-owned commercial bank. ZIMA could offer core banking integrations, GePG/TIPS/RTGS, SACCO systems, or digital transformation for banking operations.",
     "draft_email_subject": "Partnership Opportunity \u2013 ZIMA Solutions & UBA Tanzania",
@@ -47064,6 +47069,506 @@
     "draft_email_subject": "Procurement Portal Modernisation \u2013 ZIMA Solutions",
     "draft_email_body": "Dear ZPPDA Team,\n\nZIMA Solutions Limited specialises in digital transformation for government agencies. We attempted to access the ZPPDA tender portal and encountered connectivity issues.\n\nWe could support ZPPDA with:\n\u2022 Modern e-procurement portal development\n\u2022 Tender publication and management systems\n\u2022 GePG integration for bid payments\n\u2022 Document management and notifications\n\nWe would welcome a conversation about modernising Zanzibar's procurement systems. Could we schedule a brief call?\n\nBest regards,\nZIMA Solutions Limited\ninfo@zima.co.tz | +255 69 241 0353\n",
     "created_at": "2026-03-15T20:08:06.899Z",
+    "status": "pending"
+  },
+  {
+    "institution_slug": "ajira",
+    "institution_name": "Public Service Recruitment Secretariat (PSRS)",
+    "website_url": "https://ajira.go.tz/",
+    "emails": [
+      "katibu@ajira.go.tz"
+    ],
+    "opportunity_type": "build",
+    "opportunity_description": "PSRS operates Tanzania's government recruitment portal (ajira.go.tz) with job postings, interviews, and placements. No procurement tenders are published. ZIMA could offer recruitment portal modernization, NIDA integration, document management, and ICT infrastructure for the Public Service Recruitment Secretariat.",
+    "draft_email_subject": "ICT Modernization for PSRS Recruitment Portal \u2013 ZIMA Solutions",
+    "draft_email_body": "Dear Public Service Recruitment Secretariat,\n\nZIMA Solutions Limited specialises in secure digital systems for government agencies and financial institutions in Tanzania.\n\nWe understand ajira.go.tz manages public service recruitment nationwide. We could support PSRS with:\n\u2022 Recruitment portal modernization and performance optimization\n\u2022 NIDA integration for applicant identity verification\n\u2022 Secure document management for applications and attachments\n\u2022 HR management and workflow automation systems\n\nWe would welcome a conversation about how ZIMA might support PSRS digital operations.\n\nBest regards,\nZIMA Solutions Limited\ninfo@zima.co.tz | +255 69 241 0353\n",
+    "created_at": "2026-06-10T15:48:03.088Z",
+    "status": "pending"
+  },
+  {
+    "institution_slug": "ask.tz",
+    "institution_name": "Ask (ask.or.tz)",
+    "website_url": "https://ask.or.tz/",
+    "emails": [],
+    "opportunity_type": "build",
+    "opportunity_description": "Site returns HTTP 403 Forbidden (LiteSpeed). No procurement portal accessible. If ask.or.tz is a forum/community platform, ZIMA could offer custom portal development, authentication, or hosting solutions when the site is restored.",
+    "draft_email_subject": "Partnership Opportunity \u2013 ZIMA Solutions & Ask",
+    "draft_email_body": "Dear Ask Team,\n\nZIMA Solutions Limited specialises in digital transformation and custom software development in Tanzania. We attempted to reach your site at ask.or.tz and would welcome a conversation about technology partnership when your platform is available.\n\nOur offerings include:\n\u2022 Custom web and forum platform development\n\u2022 API Gateway and integration services\n\u2022 AI-powered customer engagement\n\u2022 Secure hosting and digital infrastructure\n\nWe would welcome a conversation about how we might support Ask. Could we schedule a brief call?\n\nBest regards,\nZIMA Solutions Limited\ninfo@zima.co.tz | +255 69 241 0353\n",
+    "created_at": "2026-06-10T15:57:20.600017Z",
+    "status": "pending"
+  },
+  {
+    "institution_slug": "china-dasheng-bank",
+    "institution_name": "China Dasheng Bank Tanzania",
+    "website_url": "https://cdbbank.co.tz/",
+    "emails": [
+      "info@cdbbank.co.tz"
+    ],
+    "opportunity_type": "sell",
+    "opportunity_description": "No active tenders. EOI for Core Banking System (Oct 2024 deadline) still advertised on cdbbank.co.tz marquee but expired. chinadashengbank.co.tz shows directory listing only. ZIMA offers GePG, TIPS, RTGS, TISS integrations and core banking implementation services.",
+    "draft_email_subject": "Partnership Opportunity \u2013 ZIMA Solutions & China Dasheng Bank",
+    "draft_email_body": "Dear China Dasheng Bank Team,\n\nZIMA Solutions Limited specialises in digital transformation and payment integrations for banks in Tanzania. We offer GePG, TIPS, RTGS, TISS, and regulatory system integrations aligned with Bank of Tanzania requirements.\n\nWe would welcome a conversation about your core banking and integration roadmap. Could we schedule a brief call?\n\nBest regards,\nZIMA Solutions Limited\ninfo@zima.co.tz | +255 69 241 0353",
+    "created_at": "2026-06-10T16:23:26.564224Z",
+    "status": "pending"
+  },
+  {
+    "institution_slug": "chinadashengbank",
+    "institution_name": "China Dasheng Bank",
+    "website_url": "https://chinadashengbank.co.tz/",
+    "emails": [],
+    "opportunity_type": "sell",
+    "opportunity_description": "Website shows Apache directory listing only (under_construction.html); no live tender page or EOI document. China Dasheng Bank may need core banking, digital channels, or payment integrations when operations resume. ZIMA offers banking system implementation, GePG/TIPS/RTGS, and CRM.",
+    "draft_email_subject": "Digital Banking Solutions for China Dasheng Bank",
+    "draft_email_body": "Dear China Dasheng Bank Team,\n\nZIMA Solutions Limited supports banks in Tanzania with core banking implementation, payment gateway integrations (GePG, TIPS, RTGS), CRM systems, and digital channel development.\n\nWe noticed your website is currently under maintenance. When you resume procurement activities, we would welcome a conversation about how ZIMA can support your technology roadmap.\n\nBest regards,\nZIMA Solutions Limited\ninfo@zima.co.tz | +255 69 241 0353\n",
+    "created_at": "2026-06-10T16:26:14.853561Z",
+    "status": "pending"
+  },
+  {
+    "institution_slug": "cssc",
+    "institution_name": "Christian Social Services Commission (CSSC)",
+    "website_url": "https://cssc.or.tz/mainsite/public/tenders",
+    "emails": [
+      "contact@cssc.or.tz"
+    ],
+    "opportunity_type": "sell",
+    "opportunity_description": "CSSC coordinates 900+ church-owned health facilities and 1000 education institutions across Tanzania. Currently no active tenders (all expired Dec 2025). ZIMA could offer school management systems, healthcare/HMIS solutions, donor reporting platforms, and ICT infrastructure for their network of faith-based institutions.",
+    "draft_email_subject": "ICT Solutions for CSSC's Health & Education Network \u2013 ZIMA Solutions",
+    "draft_email_body": "Dear CSSC Team,\n\nZIMA Solutions Limited specialises in digital transformation for institutions across Tanzania. We understand CSSC coordinates a vast network of church-owned health facilities and education institutions.\n\nWe could support your operations with:\n\u2022 School and healthcare management systems\n\u2022 Donor reporting and grant management platforms\n\u2022 HR and payroll systems for distributed facilities\n\u2022 Mobile data collection for field monitoring\n\nWe would welcome a conversation about how we might support CSSC's mission. Could we schedule a brief call?\n\nBest regards,\nZIMA Solutions Limited\ninfo@zima.co.tz | +255 69 241 0353",
+    "created_at": "2026-06-10T19:30:08.000Z",
+    "status": "pending"
+  },
+  {
+    "institution_slug": "dcc",
+    "institution_name": "Dar es Salaam City Council (DCC)",
+    "website_url": "https://dcc.go.tz/",
+    "emails": [
+      "info@dcc.go.tz"
+    ],
+    "opportunity_type": "build",
+    "opportunity_description": "DCC migrated to a modern GWF CORE web platform without a public tender API. ZIMA Solutions could partner to build e-procurement integration, citizen service portals, or document management for local government procurement transparency.",
+    "draft_email_subject": "Digital Procurement & Citizen Services Partnership \u2013 ZIMA Solutions & DCC",
+    "draft_email_body": "Dear Dar es Salaam City Council Team,\n\nZIMA Solutions Limited specialises in digital transformation for government agencies in Tanzania, including GePG integration, e-procurement systems, and citizen-facing portals.\n\nWe noted DCC's new digital platform and believe we could help strengthen procurement transparency, tender publishing workflows, and online service delivery for residents and suppliers.\n\nOur offerings include:\n\u2022 GePG and payment gateway integrations\n\u2022 Custom procurement/tender management modules\n\u2022 Document management and public API layers\n\u2022 AI-powered citizen engagement\n\nWe would welcome a conversation about how ZIMA might support DCC's digital goals. Could we schedule a brief call?\n\nBest regards,\nZIMA Solutions Limited\ninfo@zima.co.tz | +255 69 241 0353\n",
+    "created_at": "2026-06-10T16:32:53.162981Z",
+    "status": "pending"
+  },
+  {
+    "institution_slug": "dmax",
+    "institution_name": "dmax.co.tz",
+    "website_url": "https://dmax.co.tz",
+    "emails": [
+      "cs@rycplaygame.com"
+    ],
+    "opportunity_type": "build",
+    "opportunity_description": "Site is broken (PHP fatal error, WordPress incomplete). Domain appears repurposed/unrelated to Tanzanian procurement. No tenders possible until site is restored.",
+    "draft_email_subject": "Website Recovery & Digital Solutions \u2013 ZIMA Solutions",
+    "draft_email_body": "Dear Team,\n\nZIMA Solutions Limited noticed your website at dmax.co.tz is currently returning errors. We specialise in digital transformation and could help restore your web presence or build a new platform.\n\nOur offerings include secure web applications, payment integrations, and enterprise systems. We would welcome a conversation if you are looking to rebuild your online presence.\n\nBest regards,\nZIMA Solutions Limited\ninfo@zima.co.tz | +255 69 241 0353\n",
+    "created_at": "2026-06-10T16:37:03.758616Z",
+    "status": "pending"
+  },
+  {
+    "institution_slug": "etdco",
+    "institution_name": "ETDCO",
+    "website_url": "https://etdco.co.tz/",
+    "emails": [
+      "info@etdco.co.tz",
+      "admin@etdco.co.tz"
+    ],
+    "opportunity_type": "sell",
+    "opportunity_description": "ETDCO (electrical engineering/construction) has a /tenders/ page but no active listings. ZIMA Solutions could offer procurement management systems, document management, or ICT infrastructure for their national electrical projects.",
+    "draft_email_subject": "Partnership Opportunity \u2013 ZIMA Solutions & ETDCO",
+    "draft_email_body": "Dear ETDCO Team,\n\nZIMA Solutions Limited specialises in digital transformation for enterprises and infrastructure projects in Tanzania. We noticed ETDCO's procurement portal and national electrical project work, and believe we could support your technology goals.\n\nOur offerings include:\n\u2022 Enterprise procurement and document management systems\n\u2022 GePG, TIPS, and RTGS integrations\n\u2022 Project management and reporting platforms\n\u2022 AI-powered operational tools\n\nWe would welcome a conversation about potential collaboration. Could we schedule a brief call?\n\nBest regards,\nZIMA Solutions Limited\ninfo@zima.co.tz | +255 69 241 0353\n",
+    "created_at": "2026-06-10T17:02:07.470Z",
+    "status": "pending"
+  },
+  {
+    "institution_slug": "fursa",
+    "institution_name": "Fursa za Ajira Tanzania",
+    "website_url": "https://fursa.co.tz/",
+    "emails": [],
+    "opportunity_type": "partner",
+    "opportunity_description": "Tanzania job and tender aggregator (WP Job Manager). Lists third-party procurement notices alongside job vacancies. No currently open procurement tenders found (May 2026 listings expired). ZIMA could partner on tender notification integration or white-label job/tender portal.",
+    "draft_email_subject": "Partnership Opportunity \u2013 ZIMA Solutions & Fursa Tanzania",
+    "draft_email_body": "Dear Fursa Tanzania Team,\n\nZIMA Solutions Limited builds digital platforms for financial institutions and enterprises in Tanzania. We noticed Fursa aggregates job and tender opportunities across Tanzania.\n\nWe could explore partnership on:\n\u2022 Tender/procurement notification integrations\n\u2022 API feeds for financial institution tender boards\n\u2022 White-label job and tender portal technology\n\nWe would welcome a conversation about collaboration. Could we schedule a brief call?\n\nBest regards,\nZIMA Solutions Limited\ninfo@zima.co.tz | +255 69 241 0353\n",
+    "created_at": "2026-06-10T20:06:42.950450Z",
+    "status": "pending"
+  },
+  {
+    "institution_slug": "judiciary",
+    "institution_name": "The Judiciary of Tanzania",
+    "website_url": "https://judiciary.go.tz/",
+    "emails": [
+      "info@judiciary.go.tz"
+    ],
+    "opportunity_type": "build",
+    "opportunity_description": "The Judiciary of Tanzania maintains a tenders section on its homepage (currently empty as of June 2026) and publishes court-related announcements. ZIMA Solutions could offer case management systems, e-filing platforms, GePG payment integration for court fees, and digital document management tailored for judicial institutions.",
+    "draft_email_subject": "Digital Court Solutions Partnership \u2013 ZIMA Solutions & The Judiciary of Tanzania",
+    "draft_email_body": "Dear Procurement Team,\n\nZIMA Solutions Limited specialises in secure digital systems for government agencies and financial institutions in Tanzania. We noted your institution's procurement portal and believe we could support the Judiciary's digital transformation goals.\n\nOur relevant capabilities include:\n\u2022 Government e-Payment Gateway (GePG) integration for court fees and fines\n\u2022 Secure document management and workflow automation\n\u2022 Case tracking and citizen-facing portals\n\u2022 NIDA verification and digital identity integration\n\nWe would welcome a conversation about how ZIMA might support the Judiciary's ICT and case management needs. Could we schedule a brief introductory call?\n\nBest regards,\nZIMA Solutions Limited\ninfo@zima.co.tz | +255 69 241 0353\n",
+    "created_at": "2026-06-10T20:40:02.009747Z",
+    "status": "pending"
+  },
+  {
+    "institution_slug": "kakonkodc",
+    "institution_name": "Kakonko District Council",
+    "website_url": "https://kakonkodc.go.tz/",
+    "emails": [
+      "ded@kakonkodc.go.tz"
+    ],
+    "opportunity_type": "sell",
+    "opportunity_description": "kakonkodc.go.tz is parked (GWF CORE SPA placeholder) with no procurement portal. ZIMA could offer GePG integration, e-government portals, and procurement digitization when the council restores its website.",
+    "draft_email_subject": "Digital Government Solutions for Kakonko District Council \u2013 ZIMA Solutions",
+    "draft_email_body": "Dear Kakonko District Council Procurement Team,\n\nZIMA Solutions Limited specialises in digital transformation for government agencies in Tanzania, including GePG payment gateway integration, procurement portals, and document management systems.\n\nWe noticed your council website is currently unavailable. When you restore online services, we would welcome a conversation about modernising your procurement and citizen services platforms.\n\nOur offerings include:\n\u2022 GePG and government e-payment integrations\n\u2022 Tender management and document workflow systems\n\u2022 HR and records management for local government\n\nCould we schedule a brief call to explore how ZIMA might support Kakonko District Council?\n\nBest regards,\nZIMA Solutions Limited\ninfo@zima.co.tz | +255 69 241 0353\n",
+    "created_at": "2026-06-10T17:44:52.972681Z",
+    "status": "pending"
+  },
+  {
+    "institution_slug": "karagwedc",
+    "institution_name": "Karagwe District Council",
+    "website_url": "http://karagwedc.go.tz/",
+    "emails": [
+      "ded@karagwedc.go.tz",
+      "ded.karagwedc@kagera.go.tz"
+    ],
+    "opportunity_type": "sell",
+    "opportunity_description": "karagwedc.go.tz is parked (GWF CORE SPA placeholder) with no procurement portal. ZIMA could offer GePG integration, e-government portals, and procurement digitization for Kagera region councils.",
+    "draft_email_subject": "Digital Government Solutions for Karagwe District Council \u2013 ZIMA Solutions",
+    "draft_email_body": "Dear Karagwe District Council Procurement Team,\n\nZIMA Solutions Limited specialises in digital transformation for local government authorities in Tanzania, including GePG payment gateway integration and online procurement systems.\n\nWe noticed your council website is currently unavailable. When you restore online tender publishing, we would welcome a conversation about modernising your procurement platform.\n\nOur offerings include:\n\u2022 GePG and government e-payment integrations\n\u2022 Tender management portals (OctoberCMS-style)\n\u2022 Document workflow and citizen service systems\n\nCould we schedule a brief call to explore how ZIMA might support Karagwe District Council?\n\nBest regards,\nZIMA Solutions Limited\ninfo@zima.co.tz | +255 69 241 0353\n",
+    "created_at": "2026-06-10T17:44:52.972681Z",
+    "status": "pending"
+  },
+  {
+    "institution_slug": "kariakoomarket",
+    "institution_name": "Shirika la Masoko ya Kariakoo (Kariakoo Market)",
+    "website_url": "https://kariakoomarket.co.tz/",
+    "emails": [],
+    "opportunity_type": "build",
+    "opportunity_description": "kariakoomarket.co.tz redirects to unrelated site (buwssa.go.tz). Kariakoo Market Corporation likely needs a new website and procurement portal. ZIMA could build market management, vendor payment, and procurement systems.",
+    "draft_email_subject": "Digital Platform for Kariakoo Market Corporation \u2013 ZIMA Solutions",
+    "draft_email_body": "Dear Kariakoo Market Corporation Team,\n\nZIMA Solutions Limited specialises in building digital platforms for enterprises and public corporations in Tanzania.\n\nWe understand Kariakoo Market plays a vital role in Dar es Salaam's commerce. We would welcome a conversation about:\n\u2022 Market/vendor management systems\n\u2022 Online procurement and supply chain platforms\n\u2022 Payment integration (TIPS, mobile money)\n\u2022 Public-facing website and tender portal\n\nCould we schedule a brief call to explore a partnership?\n\nBest regards,\nZIMA Solutions Limited\ninfo@zima.co.tz | +255 69 241 0353\n",
+    "created_at": "2026-06-10T17:44:52.972681Z",
+    "status": "pending"
+  },
+  {
+    "institution_slug": "magudc",
+    "institution_name": "Magu District Council",
+    "website_url": "https://magudc.go.tz/",
+    "emails": [],
+    "opportunity_type": "build",
+    "opportunity_description": "Magu District Council migrated to GWF CORE SPA platform. No active procurement tenders found via API (only job vacancies, plot sales, news). ZIMA can offer a digital procurement/tender management portal integrated with their GWF CORE CMS, or GePG payment integration for council revenue collection.",
+    "draft_email_subject": "Digital Procurement Portal for Magu District Council \u2013 ZIMA Solutions",
+    "draft_email_body": "Dear Magu District Council Team,\n\nZIMA Solutions Limited specialises in digital transformation for government agencies in Tanzania. We noted your council website has migrated to the GWF CORE platform.\n\nWe can help you:\n\u2022 Build a dedicated procurement/tender publishing module integrated with your CMS\n\u2022 Automate tender notifications and document management\n\u2022 Integrate GePG for council fee collections\n\nWe would welcome a conversation about modernising your procurement transparency. Could we schedule a brief call?\n\nBest regards,\nZIMA Solutions Limited\ninfo@zima.co.tz | +255 69 241 0353",
+    "created_at": "2026-06-10T18:37:02.000Z",
+    "status": "pending"
+  },
+  {
+    "institution_slug": "michezo",
+    "institution_name": "Wizara ya Michezo (Ministry of Sports)",
+    "website_url": "https://michezo.go.tz/",
+    "emails": [
+      "km@michezo.go.tz"
+    ],
+    "opportunity_type": "sell",
+    "opportunity_description": "Ministry of Sports website has speeches, public notices, and content-writer application forms but no active procurement tenders. ZIMA could offer ICT systems, HR management, document management, or GePG integration for government procurement.",
+    "draft_email_subject": "Partnership Opportunity \u2013 ZIMA Solutions & Ministry of Sports",
+    "draft_email_body": "Dear Ministry of Sports Team,\n\nZIMA Solutions Limited specialises in digital transformation for government agencies in Tanzania. We noticed your ministry and believe we could support your technology and procurement goals.\n\nOur offerings include:\n\u2022 GePG (Government e-Payment Gateway) integration\n\u2022 HR and document management systems\n\u2022 ICT infrastructure and web platforms\n\u2022 Procurement management systems\n\nWe would welcome a conversation. Could we schedule a brief call?\n\nBest regards,\nZIMA Solutions Limited\ninfo@zima.co.tz | +255 69 241 0353\n",
+    "created_at": "2026-06-10T21:33:12.669794Z",
+    "status": "pending"
+  },
+  {
+    "institution_slug": "tanroads",
+    "institution_name": "Tanzania National Roads Agency (TANROADS)",
+    "website_url": "https://tanroads.go.tz/",
+    "emails": [
+      "tanroadshq@tanroads.go.tz"
+    ],
+    "opportunity_type": "build",
+    "opportunity_description": "TANROADS has no open tenders currently but manages major road infrastructure procurement. ZIMA Solutions could offer project management systems, e-procurement integration, document management, and ICT infrastructure for TANROADS procurement and contract management workflows.",
+    "draft_email_subject": "Digital Solutions for TANROADS Procurement & Infrastructure Management",
+    "draft_email_body": "Dear TANROADS Procurement Team,\n\nZIMA Solutions Limited specialises in digital transformation for government agencies and enterprises in Tanzania. We understand TANROADS manages critical national road infrastructure and procurement processes.\n\nWe can support:\n\u2022 E-procurement and tender management systems\n\u2022 GePG and government payment gateway integration\n\u2022 Document management and workflow automation\n\u2022 Project monitoring and evaluation dashboards\n\nWe would welcome a conversation about how ZIMA can support TANROADS digital initiatives.\n\nBest regards,\nZIMA Solutions Limited\ninfo@zima.co.tz | +255 69 241 0353\n",
+    "created_at": "2026-06-10T22:17:40.780014Z",
+    "status": "pending"
+  },
+  {
+    "institution_slug": "tcb-bank",
+    "institution_name": "Tanzania Commercial Bank (TCB)",
+    "website_url": "https://www.tcbbank.co.tz/",
+    "emails": [
+      "info@tcbbank.co.tz",
+      "complaints@tcbbank.co.tz",
+      "callcenter@tcbbank.co.tz"
+    ],
+    "opportunity_type": "sell",
+    "opportunity_description": "No active tenders found. TCB /tenders page returns 404. Government-owned bank with digital banking products (Popote Mobile, internet banking) \u2014 ZIMA could offer core banking integrations, TIPS/RTGS/GePG connectivity, and digital transformation services.",
+    "draft_email_subject": "Partnership Opportunity \u2013 ZIMA Solutions & Tanzania Commercial Bank",
+    "draft_email_body": "Dear Tanzania Commercial Bank Team,\n\nZIMA Solutions Limited specialises in digital transformation and fintech integrations for banks and financial institutions in Tanzania. We noticed TCB's growing digital banking portfolio and believe we could support your technology goals.\n\nOur offerings include:\n\u2022 TIPS, RTGS, and GePG gateway integrations\n\u2022 Core banking system connectivity\n\u2022 Mobile banking and API gateway solutions\n\u2022 AI-powered customer engagement\n\nWe would welcome a conversation about how ZIMA Solutions might support TCB's digital innovation agenda. Could we schedule a brief call?\n\nBest regards,\nZIMA Solutions Limited\ninfo@zima.co.tz | +255 69 241 0353\n",
+    "created_at": "2026-06-10T19:28:12.714000Z",
+    "status": "pending"
+  },
+  {
+    "institution_slug": "teaboard",
+    "institution_name": "Bodi ya Chai Tanzania (Tea Board of Tanzania)",
+    "website_url": "https://teaboard.go.tz/",
+    "emails": [
+      "info@teaboard.go.tz"
+    ],
+    "opportunity_type": "build",
+    "opportunity_description": "No active procurement tenders. Announcements page only has expired 2023 tea auction notices. Zabuni menu links to # (no dedicated page). Government agency managing tea sector \u2014 ZIMA could build digital registration systems for tea buyers/traders/brokers and auction management platforms.",
+    "draft_email_subject": "Digital Solutions for Tea Sector Management \u2013 ZIMA Solutions & Tea Board of Tanzania",
+    "draft_email_body": "Dear Tea Board of Tanzania Team,\n\nZIMA Solutions Limited specialises in digital transformation for government agencies in Tanzania. We understand the Tea Board manages tea industry registration, auctions, and sector development.\n\nWe could support you with:\n\u2022 Digital registration portal for tea buyers, traders, and brokers\n\u2022 Tea auction management and tracking systems\n\u2022 GePG payment integration for registration fees\n\u2022 Data analytics dashboards for sector reporting\n\nWe would welcome a conversation about how ZIMA Solutions might support the Tea Board's digitalisation goals. Could we schedule a brief call?\n\nBest regards,\nZIMA Solutions Limited\ninfo@zima.co.tz | +255 69 241 0353\n",
+    "created_at": "2026-06-10T19:28:12.714000Z",
+    "status": "pending"
+  },
+  {
+    "institution_slug": "tec",
+    "institution_name": "Tanzania Episcopal Conference (TEC)",
+    "website_url": "https://tec.or.tz/",
+    "emails": [
+      "info@tec.or.tz"
+    ],
+    "opportunity_type": "build",
+    "opportunity_description": "Catholic church umbrella NGO with national institutions and dioceses. News/tender page restructured (404). Historical RFPs for peace/media projects. ZIMA could offer digital platforms for church institutions, school management for Catholic schools, or transparency/reporting systems.",
+    "draft_email_subject": "Digital Solutions Partnership \u2013 ZIMA Solutions & Tanzania Episcopal Conference",
+    "draft_email_body": "Dear Tanzania Episcopal Conference Team,\n\nZIMA Solutions Limited specialises in digital transformation for institutions across Tanzania. We understand TEC coordinates Catholic Church institutions nationwide and may benefit from modern ICT infrastructure.\n\nOur offerings include:\n\u2022 School Management System for Catholic educational institutions\n\u2022 HR and administrative management systems\n\u2022 Secure document management and reporting platforms\n\u2022 GePG and payment gateway integrations\n\nWe would welcome a conversation about supporting TEC's digital initiatives. Could we schedule a brief call?\n\nBest regards,\nZIMA Solutions Limited\ninfo@zima.co.tz | +255 69 241 0353\n",
+    "created_at": "2026-06-10T19:32:39.136892Z",
+    "status": "pending"
+  },
+  {
+    "institution_slug": "teiti",
+    "institution_name": "Tanzania Extractive Industries Transparency Initiative (TEITI)",
+    "website_url": "http://teiti.go.tz/",
+    "emails": [
+      "info@teiti.go.tz"
+    ],
+    "opportunity_type": "build",
+    "opportunity_description": "Government transparency agency for extractive industries. Tenders page lists historical EOIs/consultancies (all expired). ZIMA could build data platforms, EITI reporting dashboards, or procurement management systems.",
+    "draft_email_subject": "ICT Partnership \u2013 ZIMA Solutions & TEITI",
+    "draft_email_body": "Dear TEITI Team,\n\nZIMA Solutions Limited specialises in digital transformation for government agencies and enterprises in Tanzania. We noticed TEITI's work on extractive industries transparency and believe we could support your data and reporting systems.\n\nOur offerings include:\n\u2022 Custom data dashboards and reporting platforms\n\u2022 Secure document management systems\n\u2022 GePG and government payment integrations\n\u2022 AI-powered data analysis tools\n\nWe would welcome a conversation about how ZIMA might support TEITI's technology needs. Could we schedule a brief call?\n\nBest regards,\nZIMA Solutions Limited\ninfo@zima.co.tz | +255 69 241 0353\n",
+    "created_at": "2026-06-10T19:32:39.136892Z",
+    "status": "pending"
+  },
+  {
+    "institution_slug": "thefoundation",
+    "institution_name": "Foundation For Civil Society (FCS)",
+    "website_url": "https://www.thefoundation.or.tz/",
+    "emails": [
+      "info@fcs.or.tz"
+    ],
+    "opportunity_type": "partner",
+    "opportunity_description": "FCS runs Smart Grants, CSO Week, and grant-management platforms for Tanzanian civil society. No active tenders (all expired by July 2025). ZIMA could partner on grant-management systems, OPAC/library integrations, or digital platforms for CSO capacity building.",
+    "draft_email_subject": "Partnership Opportunity \u2013 ZIMA Solutions & Foundation For Civil Society",
+    "draft_email_body": "Dear FCS Team,\n\nZIMA Solutions Limited specialises in digital transformation for NGOs, financial institutions, and enterprises in Tanzania. We noted your Smart Grants platform and procurement needs around OPAC integration and media impact surveys.\n\nWe could support FCS with:\n\u2022 Custom grant-management and partner portal systems\n\u2022 Library/OPAC integration and document management\n\u2022 AI-powered reporting and impact assessment tools\n\nWe would welcome a conversation about how Zima might partner with FCS on your digital platforms. Could we schedule a brief call?\n\nBest regards,\nZIMA Solutions Limited\ninfo@zima.co.tz | +255 69 241 0353\n",
+    "created_at": "2026-06-10T19:36:23.228Z",
+    "status": "pending"
+  },
+  {
+    "institution_slug": "ticd",
+    "institution_name": "Tengeru Institute of Community Development",
+    "website_url": "https://ticd.ac.tz",
+    "emails": [
+      "info@ticd.ac.tz"
+    ],
+    "opportunity_type": "build",
+    "opportunity_description": "TICD is a government community development institute. Website unreachable (SSL failure) during scrape. ZIMA could offer school management systems, student information systems, e-learning platforms, and digital campus solutions for the institute.",
+    "draft_email_subject": "Digital Campus Solutions \u2013 ZIMA Solutions & TICD",
+    "draft_email_body": "Dear TICD Team,\n\nZIMA Solutions Limited specialises in digital transformation for educational institutions in Tanzania. We understand TICD trains community development professionals and believe we could support your campus digitisation goals.\n\nOur offerings include:\n\u2022 School Management Systems\n\u2022 Student Information Systems\n\u2022 E-learning platforms\n\u2022 HR and administration systems\n\nWe would welcome a conversation about how we might support TICD. Could we schedule a brief call?\n\nBest regards,\nZIMA Solutions Limited\ninfo@zima.co.tz | +255 69 241 0353\n",
+    "created_at": "2026-06-10T19:39:34.602000Z",
+    "status": "pending"
+  },
+  {
+    "institution_slug": "tiper",
+    "institution_name": "Tiper Tanzania Ltd.",
+    "website_url": "https://tiper.co.tz/",
+    "emails": [
+      "info@tiper.co.tz"
+    ],
+    "opportunity_type": "sell",
+    "opportunity_description": "TIPER operates oil storage terminals in Tanzania. tenders.php is broken; only a 2022 expired tender PDF remains in /Downloads/. ZIMA could offer terminal operations software, procurement digitisation, or enterprise ICT solutions.",
+    "draft_email_subject": "ICT Solutions for Terminal Operations \u2013 ZIMA Solutions & TIPER",
+    "draft_email_body": "Dear TIPER Team,\n\nZIMA Solutions Limited specialises in digital transformation and enterprise systems for industrial and logistics operations in Tanzania. We noticed TIPER's terminal operations and believe we could support your technology modernisation goals.\n\nOur offerings include:\n\u2022 Enterprise procurement and tender management systems\n\u2022 API Gateway and system integrations\n\u2022 Document management and workflow automation\n\u2022 HR and operations management systems\n\nWe would welcome a conversation about how we might support TIPER. Could we schedule a brief call?\n\nBest regards,\nZIMA Solutions Limited\ninfo@zima.co.tz | +255 69 241 0353\n",
+    "created_at": "2026-06-10T19:39:34.602000Z",
+    "status": "pending"
+  },
+  {
+    "institution_slug": "tsc",
+    "institution_name": "Teachers Service Commission (TSC)",
+    "website_url": "https://tsc.go.tz/",
+    "emails": [
+      "secretary@tsc.go.tz"
+    ],
+    "opportunity_type": "build",
+    "opportunity_description": "TSC (Tume ya Utumishi wa Walimu) is Tanzania's teachers service commission. No open procurement notices on the website; tenders likely published via NeST. ZIMA could offer HR management systems, teacher registry digitisation, payroll integration, and e-procurement workflow tools aligned with government standards.",
+    "draft_email_subject": "Digital HR & Procurement Solutions \u2013 ZIMA Solutions & TSC",
+    "draft_email_body": "Dear Teachers Service Commission Team,\n\nZIMA Solutions Limited specialises in digital transformation for government agencies and enterprises in Tanzania. We understand TSC manages teacher employment and internal procurement, and believe we could support your digitisation goals.\n\nOur offerings include:\n\u2022 HR Management Systems for large workforces\n\u2022 GePG and government payment integrations\n\u2022 E-procurement workflow and document management\n\u2022 NIDA integration for identity verification\n\nWe would welcome a conversation about how we might support TSC. Could we schedule a brief call?\n\nBest regards,\nZIMA Solutions Limited\ninfo@zima.co.tz | +255 69 241 0353\n",
+    "created_at": "2026-06-10T19:51:05.053183Z",
+    "status": "pending"
+  },
+  {
+    "institution_slug": "tumemadini",
+    "institution_name": "TUME YA MADINI (Mining Commission)",
+    "website_url": "https://tumemadini.go.tz/",
+    "emails": [
+      "staff@tumemadini.go.tz",
+      "ceo@tumemadini.go.tz"
+    ],
+    "opportunity_type": "build",
+    "opportunity_description": "Mining Commission publishes tenders at /publications/tenders/ and uses NeST for e-procurement. Currently only an expired BAFEX retention-license tender is listed. ZIMA could offer mining license registry systems, procurement digitisation, GePG integration, and document management for regulatory workflows.",
+    "draft_email_subject": "Mining Sector Digital Solutions \u2013 ZIMA Solutions & TUME YA MADINI",
+    "draft_email_body": "Dear TUME YA MADINI Team,\n\nZIMA Solutions Limited specialises in digital transformation for government agencies in Tanzania. We noticed the Mining Commission's procurement portal and believe we could support your regulatory and procurement digitisation goals.\n\nOur offerings include:\n\u2022 Custom registry and licensing management systems\n\u2022 GePG and TIPS payment integrations\n\u2022 E-procurement workflow aligned with NeST\n\u2022 Document management and compliance reporting\n\nWe would welcome a conversation about how we might support TUME YA MADINI. Could we schedule a brief call?\n\nBest regards,\nZIMA Solutions Limited\ninfo@zima.co.tz | +255 69 241 0353\n",
+    "created_at": "2026-06-10T19:51:05.053183Z",
+    "status": "pending"
+  },
+  {
+    "institution_slug": "tuwasa",
+    "institution_name": "Tabora Urban Water and Sanitation Authority (TUWASA)",
+    "website_url": "https://www.tuwasa.go.tz/",
+    "emails": [
+      "maji@tuwasa.go.tz"
+    ],
+    "opportunity_type": "sell",
+    "opportunity_description": "No active tenders (only expired 2022/23 water pipes tender on site). TUWASA operates water/sanitation services in Tabora. ZIMA could offer billing systems, GePG integration, customer portals, or ERMS enhancements.",
+    "draft_email_subject": "Partnership Opportunity \u2013 ZIMA Solutions & TUWASA",
+    "draft_email_body": "Dear TUWASA Team,\n\nZIMA Solutions Limited specialises in digital transformation for water utilities and government agencies in Tanzania. We noticed TUWASA's operations in Tabora and believe we could support your technology systems.\n\nOur offerings include:\n\u2022 GePG and payment integrations\n\u2022 Customer billing and self-service portals\n\u2022 Document management and ERMS systems\n\u2022 ICT infrastructure for utilities\n\nWe would welcome a conversation about how we might support TUWASA. Could we schedule a brief call?\n\nBest regards,\nZIMA Solutions Limited\ninfo@zima.co.tz | +255 69 241 0353\n",
+    "created_at": "2026-06-10T20:11:01.164Z",
+    "status": "pending"
+  },
+  {
+    "institution_slug": "yetu-microfinance",
+    "institution_name": "Yetu Microfinance Bank",
+    "website_url": "https://www.yetumfplc.co.tz/",
+    "emails": [],
+    "opportunity_type": "partner",
+    "opportunity_description": "Under Bank of Tanzania statutory administration since December 2022. Website unreachable. No active tender page. If operations resume, ZIMA could offer core banking, microfinance systems, or digital transformation.",
+    "draft_email_subject": "Digital Banking Solutions \u2013 ZIMA Solutions & Yetu Microfinance",
+    "draft_email_body": "Dear Yetu Microfinance Team,\n\nZIMA Solutions Limited specialises in digital transformation for microfinance institutions and banks in Tanzania. We understand Yetu Microfinance has been under BOT statutory administration and note that procurement may be limited at this time.\n\nShould your institution resume normal operations, our offerings include:\n\u2022 Core banking and loan management systems\n\u2022 TIPS, RTGS, and GePG integrations\n\u2022 SACCO and microfinance platform modernisation\n\u2022 AI-powered customer engagement\n\nWe would welcome a conversation when appropriate about how ZIMA might support your digital recovery and growth.\n\nBest regards,\nZIMA Solutions Limited\ninfo@zima.co.tz | +255 69 241 0353\n",
+    "created_at": "2026-06-10T18:37:02.438052Z",
+    "status": "pending"
+  },
+  {
+    "institution_slug": "zbs",
+    "institution_name": "Zanzibar Bureau of Standards",
+    "website_url": "https://zbs.go.tz/",
+    "emails": [
+      "info@zbs.go.tz"
+    ],
+    "opportunity_type": "build",
+    "opportunity_description": "ZBS maintains standards, testing laboratories, and certification systems. No current open tenders (last listings from 2021\u20132022). ZIMA Solutions could offer laboratory information systems, document/flipbook portal modernization, e-procurement integration, or ICT infrastructure for standards bureau operations.",
+    "draft_email_subject": "ICT Partnership \u2014 Laboratory & Standards Systems for ZBS",
+    "draft_email_body": "Dear Zanzibar Bureau of Standards Team,\n\nZIMA Solutions Limited supports government agencies and enterprises across Tanzania with secure, scalable digital systems.\n\nWe noted that your tenders page lists historical procurement notices but no currently open opportunities. We would welcome a conversation about how ZIMA can support ZBS with:\n\n\u2022 Laboratory information and quality management systems\n\u2022 Modern tender/document portal (replacing flipbook-only listings)\n\u2022 E-procurement and GePG integration\n\u2022 HR and internal workflow automation\n\nCould we schedule a brief introductory call?\n\nBest regards,\nZIMA Solutions Limited\ninfo@zima.co.tz | +255 69 241 0353",
+    "created_at": "2026-06-10T20:33:29.000Z",
+    "status": "pending"
+  },
+  {
+    "institution_slug": "zawa",
+    "institution_name": "Zanzibar Water Authority",
+    "website_url": "https://zawa.go.tz/",
+    "emails": [
+      "info@zawa.go.tz"
+    ],
+    "opportunity_type": "build",
+    "opportunity_description": "ZAWA (Zanzibar Water Authority) website is currently down (default server page). As a water utility, ZAWA likely needs billing, customer management, GIS/asset management, and mobile payment integrations \u2014 core ZIMA build opportunities.",
+    "draft_email_subject": "Digital Transformation for Zanzibar Water Authority",
+    "draft_email_body": "Dear Zanzibar Water Authority Team,\n\nZIMA Solutions Limited specialises in digital systems for utilities and government agencies in Tanzania, including customer billing, mobile payments (GePG/TIPS), and operational dashboards.\n\nWe attempted to reach your website and would welcome a conversation about supporting ZAWA with:\n\n\u2022 Water billing and customer self-service portals\n\u2022 Mobile money and GePG payment integration\n\u2022 Asset/GIS management for water infrastructure\n\u2022 Website and document management restoration\n\nPlease let us know a convenient time to connect.\n\nBest regards,\nZIMA Solutions Limited\ninfo@zima.co.tz | +255 69 241 0353",
+    "created_at": "2026-06-10T20:33:29.000Z",
+    "status": "pending"
+  },
+  {
+    "institution_slug": "ndc",
+    "institution_name": "National Development Corporation (NDC)",
+    "website_url": "https://ndc.go.tz/",
+    "emails": [
+      "info@ndc.go.tz"
+    ],
+    "opportunity_type": "partner",
+    "opportunity_description": "NDC is Tanzania's state-owned industrial development corporation (chemical, steel, agro-processing, power). No public tender page found \u2014 procurement likely via NeST/TANePS. Zima could partner on industrial ICT systems, ERP, or digital platforms for NDC subsidiaries.",
+    "draft_email_subject": "Digital Solutions Partnership \u2014 ZIMA Solutions & National Development Corporation",
+    "draft_email_body": "Dear NDC Team,\n\nZIMA Solutions Limited specialises in digital transformation for government agencies and enterprises in Tanzania. We noted NDC's industrial portfolio across chemicals, steel, agro-processing, and power generation.\n\nWe would welcome a conversation about how ZIMA could support NDC's digital infrastructure \u2014 ERP integration, procurement systems, or subsidiary management platforms.\n\nOur offerings include:\n\u2022 GePG, TIPS, and RTGS integrations\n\u2022 Enterprise management systems\n\u2022 AI-powered operational tools\n\nCould we schedule a brief introductory call?\n\nBest regards,\nZIMA Solutions Limited\ninfo@zima.co.tz | +255 69 241 0353\n",
+    "created_at": "2026-06-11T06:48:15.000000Z",
+    "status": "pending"
+  },
+  {
+    "institution_slug": "njomberrh",
+    "institution_name": "Njombe Regional Referral Hospital",
+    "website_url": "https://njomberrh.go.tz/",
+    "emails": [
+      "mgangamfawidhi@njomberrh.go.tz"
+    ],
+    "opportunity_type": "sell",
+    "opportunity_description": "No formal procurement tenders found. Hospital procurement page describes PMU functions only. ZIMA Solutions could offer hospital management systems, e-procurement integration, HR/payroll, or ICT infrastructure for this regional referral hospital.",
+    "draft_email_subject": "ICT Solutions for Njombe Regional Referral Hospital \u2013 ZIMA Solutions",
+    "draft_email_body": "Dear Njombe Regional Referral Hospital Procurement Team,\n\nZIMA Solutions Limited specialises in digital systems for healthcare and government institutions in Tanzania. We noticed your hospital's procurement unit and believe we could support your technology needs.\n\nOur offerings include:\n\u2022 Healthcare/Zahanati management systems\n\u2022 E-procurement and GePG payment integration\n\u2022 HR and payroll management\n\u2022 Document management and workflow automation\n\nWe would welcome a conversation about how we might support your hospital's digital transformation. Could we schedule a brief call?\n\nBest regards,\nZIMA Solutions Limited\ninfo@zima.co.tz | +255 69 241 0353\n",
+    "created_at": "2026-06-11T04:03:20.521Z",
+    "status": "pending"
+  },
+  {
+    "institution_slug": "repoa",
+    "institution_name": "REPOA (Research on Poverty Alleviation)",
+    "website_url": "https://repoa.or.tz/",
+    "emails": [
+      "repoa@repoa.or.tz",
+      "csekule@repoa.or.tz"
+    ],
+    "opportunity_type": "partner",
+    "opportunity_description": "REPOA is a leading Tanzanian policy research NGO with regular ICT, office supplies, and consultancy procurement (prequalification lists). No active tenders today, but ZIMA can partner on research data systems, document management, GePG/e-payment for fees, and digital tools supporting policy research dissemination.",
+    "draft_email_subject": "Partnership Opportunity \u2013 ZIMA Solutions & REPOA",
+    "draft_email_body": "Dear REPOA Team,\n\nZIMA Solutions Limited supports NGOs and research institutions in Tanzania with secure digital systems \u2014 including document management, research data platforms, and payment integrations.\n\nWe noted REPOA's periodic procurement for ICT equipment, printing, and media services. While no tenders are currently open, we would welcome a conversation about how ZIMA might support REPOA's digital infrastructure and future ICT procurement needs.\n\nOur offerings include:\n\u2022 Custom research/knowledge management portals\n\u2022 GePG and payment gateway integrations\n\u2022 AI-powered document processing and dissemination tools\n\u2022 HR and financial management systems\n\nCould we schedule a brief introductory call?\n\nBest regards,\nZIMA Solutions Limited\ninfo@zima.co.tz | +255 69 241 0353\n",
+    "created_at": "2026-06-11T05:02:01.815558Z",
+    "status": "pending"
+  },
+  {
+    "institution_slug": "simiyu",
+    "institution_name": "Ofisi ya Mkuu wa Mkoa wa Simiyu",
+    "website_url": "https://simiyu.go.tz/",
+    "emails": [
+      "ras@simiyu.go.tz"
+    ],
+    "opportunity_type": "build",
+    "opportunity_description": "No active procurement tenders on Simiyu Regional Commissioner site (GWF CORE SPA; api/advertisements empty). ZIMA could offer GePG integration, digital government portal services, or procurement management systems for the regional office.",
+    "draft_email_subject": "Digital Transformation Partnership \u2013 ZIMA Solutions & Simiyu Regional Office",
+    "draft_email_body": "Dear Simiyu Regional Commissioner Office Team,\n\nZIMA Solutions Limited specialises in digital transformation for government agencies in Tanzania, including GePG gateway integration, e-government portals, and procurement systems.\n\nWe noted your regional website and would welcome a conversation about supporting your ICT and digital service delivery goals.\n\nBest regards,\nZIMA Solutions Limited\ninfo@zima.co.tz | +255 69 241 0353\n",
+    "created_at": "2026-06-11T06:48:15.615099Z",
+    "status": "pending"
+  },
+  {
+    "institution_slug": "singida",
+    "institution_name": "Singida Regional Website",
+    "website_url": "https://singida.go.tz/",
+    "emails": [
+      "info@singida.go.tz",
+      "ras@singida.go.tz"
+    ],
+    "opportunity_type": "build",
+    "opportunity_description": "No active procurement tenders (GWF CORE SPA; api/advertisements shows health insurance notice only). ZIMA could offer GePG, government portal, or procurement digitization for Singida Regional Secretariat.",
+    "draft_email_subject": "Digital Government Solutions \u2013 ZIMA Solutions & Singida Regional Secretariat",
+    "draft_email_body": "Dear Singida Regional Secretariat Team,\n\nZIMA Solutions Limited supports government agencies with GePG integration, digital portals, and procurement management systems.\n\nWe would welcome a brief discussion on how we might support your regional ICT modernization.\n\nBest regards,\nZIMA Solutions Limited\ninfo@zima.co.tz | +255 69 241 0353\n",
+    "created_at": "2026-06-11T06:48:15.615099Z",
+    "status": "pending"
+  },
+  {
+    "institution_slug": "singidadc",
+    "institution_name": "Singida District Council",
+    "website_url": "https://singidadc.go.tz/",
+    "emails": [
+      "ded.singidadc@singida.go.tz",
+      "mdoe.omary@singidadc.go.tz"
+    ],
+    "opportunity_type": "build",
+    "opportunity_description": "No active procurement tenders on Singida DC site (GWF CORE SPA; only land sales and insurance notices). ZIMA could offer GePG, council management systems, or digital procurement for the district council.",
+    "draft_email_subject": "ICT Solutions for Local Government \u2013 ZIMA Solutions & Singida District Council",
+    "draft_email_body": "Dear Singida District Council Team,\n\nZIMA Solutions Limited provides digital transformation for local government authorities, including GePG payment integration and council management systems.\n\nWe would welcome a conversation about supporting your council's technology needs.\n\nBest regards,\nZIMA Solutions Limited\ninfo@zima.co.tz | +255 69 241 0353\n",
+    "created_at": "2026-06-11T06:48:15.615099Z",
+    "status": "pending"
+  },
+  {
+    "institution_slug": "tangacc",
+    "institution_name": "Tanga City Council",
+    "website_url": "https://tangacc.go.tz/tenders",
+    "emails": [
+      "info@tangacc.go.tz"
+    ],
+    "opportunity_type": "build",
+    "opportunity_description": "Tanga City Council migrated to GWF CORE SPA (requires JavaScript). Tender listing page returns empty shell; historical tenders expired 2018-2019. ZIMA could build a modern procurement portal with document management, deadline tracking, and GePG integration for local government.",
+    "draft_email_subject": "Digital Procurement Portal \u2013 ZIMA Solutions & Tanga City Council",
+    "draft_email_body": "Dear Tanga City Council Team,\n\nZIMA Solutions Limited specialises in digital transformation for government agencies in Tanzania. We noticed your council website has migrated to a new platform and that procurement notices may benefit from a dedicated digital tender portal.\n\nOur offerings include:\n\u2022 Custom procurement and tender management portals\n\u2022 GePG, TIPS, and RTGS integrations\n\u2022 Document management and deadline tracking\n\u2022 Public notice publishing with search and filters\n\nWe would welcome a conversation about modernising Tanga City Council's procurement processes. Could we schedule a brief call?\n\nBest regards,\nZIMA Solutions Limited\ninfo@zima.co.tz | +255 69 241 0353\n",
+    "created_at": "2026-06-11T06:52:00.000Z",
     "status": "pending"
   }
 ]

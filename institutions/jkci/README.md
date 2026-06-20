@@ -9,7 +9,7 @@ institution:
 
 website:
   homepage: "https://jkci.or.tz/"
-  tender_url: "https://jkci.or.tz/"
+  tender_url: "https://jkci.or.tz/directorates/9e076133-1c3c-4240-bb28-7af39450bba1"
 
 contact:
   email: "info@jkci.or.tz"
@@ -120,7 +120,7 @@ notes: |
 
 **Category:** NGO / Non-Profit Organization
 **Website:** https://jkci.or.tz/
-**Tender Page:** https://jkci.or.tz/
+**Tender Page:** https://jkci.or.tz/directorates/9e076133-1c3c-4240-bb28-7af39450bba1
 **Keywords Found:** bid, procurement
 
 ## Contact Information
@@ -202,6 +202,6 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
-- **Signal Strength:** Strong (procurement)
+- **Last Checked:** 10 June 2026
+- **Active Tenders:** 0 (procurement unit page has no open notices; news items are events only)
+- **Signal Strength:** Moderate (procurement unit exists; no active listings)

@@ -14,9 +14,9 @@ scraping:
   enabled: true
   method: "http_get"
   strategy: |
-    Scrape https://wecobhas.ac.tz. West Evan College - academic institution. "LATEST DOWNLOADS" section
-    has PDFs (e.g. Joining Instructions). "LATEST NEWS" has job ads. Check /news-and-events for
-    procurement/job notices. Documents at /www/100/news/ with hashed filenames.
+    Scrape https://wecobhas.ac.tz. West Evan College - academic institution. Site may fail SSL handshake
+    (curl exit 35 as of 2026-06-10) — retry with -k or alternate host. "LATEST DOWNLOADS" has academic
+    PDFs; "LATEST NEWS" has job ads (reject vacancies). Documents at /www/100/news/ with hashed filenames.
   selectors:
     container: "main, .entry-content, [class*='download'], [class*='news']"
     tender_item: "a[href*='/www/100/news/'], .news-item, article"

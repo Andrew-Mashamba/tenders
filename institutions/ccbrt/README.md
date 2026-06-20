@@ -13,7 +13,7 @@ website:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape ccbrt.org/ccbrt-tenders/ (Tenders under Latest menu). WordPress/Elementor. Follow document links from tender listings."
+  strategy: "Scrape ccbrt.org/ccbrt-tenders/ (Tenders under Latest menu). WordPress/Elementor. Follow document links from tender listings. As of 2026-06-10, listed EOIs have passed closing dates (latest EOI closed 2026-06-01). Move expired tenders to closed/."
   selectors:
     container: "main, .elementor, .elementor-widget-wrap, .entry-content, article, [data-elementor-type='wp-page']"
     tender_item: "article, .elementor-post, .tender-item, .card, .row, tr, li"

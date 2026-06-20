@@ -13,7 +13,7 @@ website:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape /tenders page for tender listings, download all linked documents."
+  strategy: "Try /tenders page first (currently 404). Fall back to homepage and search for procurement/tender links. Download center has academic docs only."
   selectors:
     container: ".tender-list, .content, main, .page-content, .entry-content, article"
     tender_item: "article, .tender-item, .card, .row, tr, li"
@@ -94,7 +94,7 @@ notes: |
   Category: Academic. Keywords found: tenders, tender.
   Emails: amucta@amucta.ac.tz.
   Discovered by crawler on 2026-03-15.
-  As of 2026-03-15: /tenders returns 404 "Page not found". Site may have restructured.
+  As of 2026-06-10: /tenders still returns 404 "Page not found". Homepage download center has academic documents (prospectus, policies) only — not procurement tenders.
 ---
 
 # AMUCTA

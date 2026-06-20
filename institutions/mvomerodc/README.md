@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Fetch https://mvomerodc.go.tz/manunuzi-na-ugavi (OctoberCMS). Parse tender items. Documents at /storage/app/uploads/public/{hash}/. Follow tender links to detail pages. Site may timeout; use rate_limit_seconds: 15."
+  strategy: "Site migrated to GWF CORE SPA (React). /manunuzi-na-ugavi returns JS shell only. Use JSON APIs: GET /api/advertisements, /api/announcements (paginated). Documents at /minio/mvomerodc.go.tz/attachments/{file}. Reject Ajira (job postings) and plot-sale/auction notices. No dedicated procurement/tender API as of June 2026."
   selectors:
     container: "main, .content, .page-content, .entry-content"
     tender_item: ".tender-item, .list-group-item, article, .card, li"
@@ -29,7 +29,7 @@ scraping:
   schedule: "daily"
 
   anti_bot:
-    requires_javascript: false
+    requires_javascript: true
     has_captcha: false
     rate_limit_seconds: 10
 
@@ -89,6 +89,7 @@ scraping:
 
     known_document_paths:
       - "/storage/app/uploads/public/"
+      - "/minio/mvomerodc.go.tz/attachments/"
     document_notes: |
       OctoberCMS. Documents at /storage/app/uploads/public/{xxx}/{xxx}/{xxx}/{hash}.pdf. Same structure as mulebadc.go.tz.
 

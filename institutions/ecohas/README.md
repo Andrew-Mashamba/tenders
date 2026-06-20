@@ -32,6 +32,7 @@ scraping:
     requires_javascript: false
     has_captcha: false
     rate_limit_seconds: 10
+    ssl_issue: "TLSV1_ALERT_INTERNAL_ERROR as of 2026-06-10 — site may be down or misconfigured"
 
   documents:
     download_enabled: true
@@ -184,6 +185,6 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
+- **Last Checked:** 10 June 2026
+- **Active Tenders:** 0 (site unreachable — SSL error)
 - **Signal Strength:** Weak (supply/rfi only)

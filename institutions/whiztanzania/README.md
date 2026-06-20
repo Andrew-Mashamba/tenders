@@ -127,7 +127,7 @@ notes: |
 
 **Category:** Commercial / Private Sector
 **Website:** https://www.whizztanzania.com/
-**Tender Page:** https://www.youtube.com/channel/UCXUYhLRfPuFuPIpgt1JZGFA
+**Tender Page:** https://www.whizztanzania.com/tenders
 **Keywords Found:** bid, eoi, expression of interest, rfi, rfp, rfq, supply, tender, tenders
 
 ## Contact Information
@@ -144,7 +144,7 @@ notes: |
 
 ## Scraping Instructions
 
-**Strategy:** Scrape https://www.youtube.com/channel/UCXUYhLRfPuFuPIpgt1JZGFA for tender/procurement notices.
+**Strategy:** Scrape https://www.whizztanzania.com/tenders (Nuxt SPA; API base at www.whizztanzania.com/api/).
 **Method:** http_get
 
 WhizzTanzania stands as Tanzania

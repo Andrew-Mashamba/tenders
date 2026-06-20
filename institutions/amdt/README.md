@@ -106,6 +106,7 @@ social_media:
 
 notes: |
   Organization website at amdt.co.tz. Tender keywords detected: rfi, tender, tenders.
+  As of 2026-06-10: /tenders/ page displays "NO CURRENT TENDERS !" — check WordPress page content via wp-json API if HTML is hard to parse.
 ---
 
 # AMDT

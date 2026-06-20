@@ -20,7 +20,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape homepage for 'AVAILABLE DOCUMENTS' section (#slidernews1_div .news). Each item in .news p a.ck. Follow 'More Docs' to News-Downlods for full list. Documents are application/joining forms (PDF). Same Wahunzi Tech CMS as mfhsti."
+  strategy: "Scrape homepage for 'AVAILABLE DOCUMENTS' section (#slidernews1_div .news). Each item in .news p a.ck. Follow 'More Docs' to News-Downlods for full list. Documents are admission/application forms and job announcements — NOT procurement tenders. Reject as junk per scraper rules. Same Wahunzi Tech CMS as mfhsti."
   selectors:
     container: "#slidernews1_div .news, .news"
     tender_item: ".news p"

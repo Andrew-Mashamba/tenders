@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape homepage for 'Latest Downloads' section (.news). Each item is a document link in .news p a.ck. Follow 'More Downloads' to News-and-events for full list. Documents are admission/joining forms (PDF)."
+  strategy: "Scrape homepage for 'Latest Downloads' section (.news). Each item is a document link in .news p a.ck. Follow 'More Downloads' to News-and-events for full list. Documents are admission/joining instruction forms (PDF) — NOT procurement tenders. Reject as junk per scraper rules."
   selectors:
     container: ".news"
     tender_item: ".news p"

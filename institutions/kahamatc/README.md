@@ -23,7 +23,8 @@ scraping:
   strategy: |
     Kahama Municipal Council (Octolize CMS). Tender page at /tenders. Uses table.table-striped with
     rows: td (title), td (published date), td (closing date), td (link "Pakua"). Documents at
-    /storage/app/uploads/public/{hash}/. Sidebar has news items (.col-md-4 + .col-md-8, h4, span).
+    /storage/app/uploads/public/{hash}/. Sidebar has news items (including job vacancies — reject).
+    As of 2026-06-10, all table tenders are expired (latest closes Dec 2022); table has 8 historical rows.
   selectors:
     container: "table.table-striped, .right-sidebar-content, .home-page-title"
     tender_item: "table.table-striped tbody tr"

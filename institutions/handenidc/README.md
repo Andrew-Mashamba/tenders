@@ -13,7 +13,7 @@ website:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape /procurement (Manunuzi) page for tender documents. Site accessible. No tender table on procurement page; content is general procurement unit info and news. Check for tender links or announcements."
+  strategy: "Site rebuilt as JavaScript SPA (GWF CORE). Static HTTP fetch returns empty shell with no tender content. Requires browser/JS rendering to access any content. /procurement and all paths return same SPA shell. No tenders discoverable via http_get."
   selectors:
     container: ".tender-list, .content, main, .page-content, .entry-content, article"
     tender_item: "article, .tender-item, .card, .row, tr, li"
@@ -24,7 +24,7 @@ scraping:
   schedule: "daily"
 
   anti_bot:
-    requires_javascript: false
+    requires_javascript: true
     has_captcha: false
     rate_limit_seconds: 10
 

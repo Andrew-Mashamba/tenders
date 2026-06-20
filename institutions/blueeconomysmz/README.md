@@ -1,6 +1,6 @@
 ---
 institution:
-  name: "WUBU"
+  name: "WUBU - Zanzibar Blue Economy Unit"
   slug: "blueeconomysmz"
   category: "Government Agency"
   status: "active"
@@ -9,7 +9,7 @@ institution:
 
 website:
   homepage: "https://blueeconomysmz.go.tz/"
-  tender_url: "https://blueeconomysmz.go.tz/service/utoaji-wa-vibali-vya-usafirishaji-wa-bidhaa-za-mazao-ya-baharini-nje-ya-nchi/"
+  tender_url: "https://blueeconomysmz.go.tz/"
 
 contact:
   email: "info@blueeconomysmz.go.tz"
@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape https://blueeconomysmz.go.tz/service/utoaji-wa-vibali-vya-usafirishaji-wa-bidhaa-za-mazao-ya-baharini-nje-ya-nchi/ for government tender notices. Government sites often post zabuni/manunuzi."
+  strategy: "Government blue economy agency site (WordPress). Services pages and fee schedules only — no zabuni/manunuzi listings. WP search for tender/zabuni returns empty. Do not treat service fee PDFs as procurement tenders."
   selectors:
     container: ".tender-list, .content, main, .entry-content, .page-content, article"
     tender_item: "article, .tender-item, .card, .row, li, tr"
@@ -197,6 +197,6 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
-- **Signal Strength:** Weak (supply/rfi only)
+- **Last Checked:** 10 June 2026
+- **Active Tenders:** 0 (services/fee info only; no procurement notices)
+- **Signal Strength:** None (no tender section)

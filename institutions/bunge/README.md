@@ -19,7 +19,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape parliament.go.tz. No dedicated /zabuni or /tenders page. Tender/job announcements (e.g. TANGAZO LA KUITWA KAZINI) in /documents/press-release. Also check /order_paper, /bills. Documents at parliament.go.tz/uploads/documents/ and polis.bunge.go.tz/uploads/bills/, polis.bunge.go.tz/uploads/documents/."
+  strategy: "Scrape parliament.go.tz/documents/press-release for procurement notices. Reject press releases, job postings (Ajira/Kuitwa Kazini/Usaili), obituaries, and auctions (Mnada). Parliament procurement tenders are posted on NeST (https://nest.go.tz/) — nav link 'Zabuni' points there. Bills/order papers at polis.bunge.go.tz are legislation, not procurement."
   selectors:
     container: "main, .content, .page-content, .document-list, article"
     tender_item: "article, .document-item, .news-item, li, .list-group-item"
@@ -427,6 +427,6 @@ with smtplib.SMTP_SSL(config["host"], config["port"], context=context) as server
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
-- **Signal Strength:** Strong (zabuni)
+- **Last Checked:** 10 June 2026
+- **Active Tenders:** 0 (press-release page has no open procurement; use nest.go.tz for Parliament tenders)
+- **Signal Strength:** Weak on parliament.go.tz (procurement on NeST)

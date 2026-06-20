@@ -1,0 +1,30 @@
+{
+  "tender_id": "MLOGANZILA-2026-001",
+  "institution": "mloganzila",
+  "title": "Public Auction of Used Assets - Muhimbili Mloganzila",
+  "description": "Public auction (mnada wa hadhara) of used office equipment, scrap metal, furniture, doors, windows and other assets at Muhimbili National Hospital Mloganzila.",
+  "reference_number": "",
+  "published_date": "2024-11-01",
+  "closing_date": "2024-12-07",
+  "closing_time": "04:30 EAT",
+  "category": "General",
+  "status": "closed",
+  "source_url": "https://www.mloganzila.or.tz/tenders/",
+  "documents": [
+    {
+      "filename": "Tangazo-la-mnada.pdf",
+      "original_url": "https://www.mloganzila.or.tz/wp-content/uploads/2024/11/Tangazo-la-mnada.pdf",
+      "local_path": "./downloads/MLOGANZILA-2026-001/original/Tangazo-la-mnada.pdf",
+      "content_type": "application/pdf",
+      "downloaded_at": "2026-06-10T18:44:05.845339Z"
+    }
+  ],
+  "contact": {
+    "name": "Procurement Department",
+    "email": "info@mloganzila.or.tz",
+    "phone": "04 846 713 829",
+    "address": "Dar es Salaam, Tanzania"
+  },
+  "scraped_at": "2026-06-10T18:44:05.845339Z",
+  "last_checked": "2026-06-10T18:44:05.845339Z"
+}

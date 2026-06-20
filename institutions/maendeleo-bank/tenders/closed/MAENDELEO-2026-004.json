@@ -1,0 +1,31 @@
+{
+  "tender_id": "MAENDELEO-2026-004",
+  "institution": "maendeleo-bank",
+  "title": "RFP: Service & Maintenance Of Security And Safety Systems",
+  "description": "RFP: Service & Maintenance Of Security And Safety Systems",
+  "reference_number": "",
+  "published_date": "2026-04-01",
+  "closing_date": "2026-05-08",
+  "closing_time": "17:00 EAT",
+  "category": "ICT",
+  "status": "closed",
+  "source_url": "https://maendeleobank.co.tz/index.php/tender/",
+  "documents": [
+    {
+      "filename": "safety-system.pdf",
+      "original_url": "https://maendeleobank.co.tz/wp-content/uploads/2026/04/safety-system.pdf",
+      "local_path": "./downloads/MAENDELEO-2026-004/original/safety-system.pdf",
+      "content_type": "application/pdf",
+      "downloaded_at": "2026-06-10T18:10:25.609Z"
+    }
+  ],
+  "contact": {
+    "name": "Procurement Department",
+    "email": "tenders@maendeleobank.co.tz",
+    "phone": "",
+    "address": "Maendeleo Bank Plc, Dar es Salaam"
+  },
+  "eligibility": "",
+  "scraped_at": "2026-06-10T18:10:25.609Z",
+  "last_checked": "2026-06-10T18:10:25.609Z"
+}

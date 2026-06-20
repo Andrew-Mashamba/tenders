@@ -20,7 +20,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Azam Media (azamtv) is a TV/media company. No dedicated tender page on homepage. Check /careers, /about-us, /contact-us for EOI or procurement. May need to follow /resources or internal links."
+  strategy: "Azam Media (azamtv) is a Next.js SPA (Chakra UI). No dedicated tender/procurement page. Homepage loads via JS; static curl returns shell only. Check /resources, /careers, /contact-us for EOI. As of 2026-06-10 no active procurement notices found."
   selectors:
     container: ".tender-list, .content, main, .entry-content, .page-content, article"
     tender_item: "article, .tender-item, .card, .row, li, tr"
@@ -31,7 +31,7 @@ scraping:
   schedule: "daily"
 
   anti_bot:
-    requires_javascript: false
+    requires_javascript: true
     has_captcha: false
     rate_limit_seconds: 10
 

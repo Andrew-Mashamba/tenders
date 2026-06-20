@@ -11,10 +11,13 @@ website:
   homepage: "https://merca.co.tz/"
   tender_url: "https://merca.co.tz/"
 
+contact:
+  email: "gilbertmwasha@merca.co.tz"
+
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "React/Vite SPA. Content loads via JavaScript (div#root). Requires headless browser or JS execution. Homepage returns minimal HTML; tender content may be on /tenders or similar route. Check for tender routes after JS load."
+  strategy: "React/Vite SPA. Content loads via JavaScript (div#root). Homepage returns minimal HTML (~5KB shell). Merca is a procurement services company — they do not post public tenders on their site. Contact: gilbertmwasha@merca.co.tz (from JS bundle). No tender listing route found as of 2026-06-10."
   selectors:
     container: ".tender-list, .content, main, .entry-content, .page-content, article"
     tender_item: "article, .tender-item, .card, .row, li, tr"

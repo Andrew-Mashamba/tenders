@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape https://ddca.go.tz/kitengo-cha-manunuzi for government tender notices. Government sites often post zabuni/manunuzi."
+  strategy: "Scrape https://ddca.go.tz/kitengo-cha-manunuzi for government tender notices. Use curl -k if SSL fails (exit 60). Page shows PMU org structure only; Matangazo ya Zabuni and Mpango Manunuzi are section headings without active listings. Also check /mpango-wa-manunuzi."
   selectors:
     container: ".tender-list, .content, main, .entry-content, .page-content, article"
     tender_item: "article, .tender-item, .card, .row, li, tr"
@@ -32,6 +32,7 @@ scraping:
     requires_javascript: false
     has_captcha: false
     rate_limit_seconds: 10
+    ssl_insecure: true
 
   documents:
     download_enabled: true

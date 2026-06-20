@@ -19,8 +19,9 @@ scraping:
   enabled: true
   method: "http_get"
   strategy: |
-    College homepage. Check "Latest Downloads" section and News-and-events for tender/RFI notices.
-    Documents at /www/100/news/ with filename format. Date format "Placed : : YYYY-MM-DD".
+    College homepage. As of 2026-06-10, kamcollegeofhealthscience.ac.tz DNS does not resolve.
+    Historically, check "Latest Downloads" and News-and-events for tender/RFI notices. Documents at
+    /www/100/news/. Retry periodically when domain is reachable.
   selectors:
     container: ".tender-list, .content, main, .entry-content, .page-content, article"
     tender_item: "article, .tender-item, .card, .row, li, tr"

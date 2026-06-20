@@ -1,6 +1,6 @@
 ---
 institution:
-  name: "Home - My Blog"
+  name: "Faida Market Link"
   slug: "faidamarketlink"
   category: "NGO / Non-Profit Organization"
   status: "active"
@@ -9,15 +9,16 @@ institution:
 
 website:
   homepage: "https://faidamarketlink.or.tz/"
-  tender_url: "https://faidamarketlink.or.tz/"
+  tender_url: "https://faidamarketlink.or.tz/wp/"
 
 contact:
+  email: "faida@faidamarketlink.or.tz"
   phone: "0 0 829 137"
 
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Site shows placeholder/lorem ipsum content (assisted living, NY addresses), not real Tanzanian tenders. Disabled until actual tender content is published."
+  strategy: "Root URL shows LiteSpeed directory listing (cgi-bin, faidamalimis, wp). WordPress at /wp/ has placeholder theme content only — no procurement section. Check /wp/ periodically for real tender content."
   selectors:
     container: ".tender-list, .content, main, .entry-content, .page-content, article"
     tender_item: "article, .tender-item, .card, .row, li, tr"

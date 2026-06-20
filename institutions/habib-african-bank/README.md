@@ -10,6 +10,9 @@ website:
   homepage: "https://habibafricanbank.co.tz/"
   tender_url: "null"
 
+contact:
+  email: "info@habibafricanbank.co.tz"
+
 scraping:
   enabled: true
   method: "http_get"

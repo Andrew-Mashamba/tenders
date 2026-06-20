@@ -9,7 +9,7 @@ institution:
 
 website:
   homepage: "https://basata.go.tz/"
-  tender_url: "https://basata.go.tz/"
+  tender_url: "https://basata.go.tz/pages/pocurement-unit"
 
 contact:
   email: "info@basata.go.tz"
@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape https://basata.go.tz/ for government tender notices. Government sites often post zabuni/manunuzi."
+  strategy: "No dedicated tender listing page. Check procurement unit page (pages/pocurement-unit) and publications/press-release. Homepage has news/events only — no active zabuni posted as of 2026-06-10. Site SSL cert may require curl -k."
   selectors:
     container: ".tender-list, .content, main, .entry-content, .page-content, article"
     tender_item: "article, .tender-item, .card, .row, li, tr"
@@ -106,7 +106,7 @@ notes: |
 
 **Category:** Government Agency
 **Website:** https://basata.go.tz/
-**Tender Page:** https://basata.go.tz/
+**Tender Page:** https://basata.go.tz/pages/pocurement-unit
 **Keywords Found:** bid, manunuzi
 
 ## Contact Information
@@ -185,6 +185,6 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
+- **Last Checked:** 10 June 2026
+- **Active Tenders:** 0 (procurement unit page exists; no open zabuni listings)
 - **Signal Strength:** Strong (manunuzi)

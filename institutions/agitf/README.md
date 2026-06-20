@@ -8,8 +8,8 @@ institution:
   domain: "agitf.go.tz"
 
 website:
-  homepage: "https://agitf.go.tz/"
-  tender_url: "https://agitf.go.tz/"
+  homepage: "https://www.agitf.go.tz/"
+  tender_url: "https://www.agitf.go.tz/"
 
 contact:
   email: "info@agitf.go.tz"
@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape homepage for Machapisho (downloads), Matangazo (announcements), Habari (news). Documents at /uploads/documents/ with pattern sw-{timestamp}-{filename}.pdf. Follow sidebar links to announcements and document pages."
+  strategy: "Use www.agitf.go.tz (bare agitf.go.tz has SSL cert issues). Scrape homepage for Machapisho (downloads), Matangazo (announcements), Habari (news). Zabuni nav link is placeholder (href='#') — no dedicated tender page. Documents at /uploads/documents/ with pattern sw-{timestamp}-{filename}.pdf. Reject MNADA WA HADHARA (public auction) and job vacancy press releases."
   selectors:
     container: "main, .content, [class*='sidebar'], [class*='machapisho']"
     tender_item: "a[href*='uploads/documents'], a[href*='announcements'], a[href*='news'], li"
@@ -419,6 +419,6 @@ with smtplib.SMTP_SSL(config["host"], config["port"], context=context) as server
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
-- **Signal Strength:** Strong (zabuni)
+- **Last Checked:** 11 June 2026
+- **Active Tenders:** 0 (Zabuni nav placeholder; auction/vacancy notices rejected)
+- **Signal Strength:** Weak (zabuni menu exists but links to #; only auctions and admin docs)

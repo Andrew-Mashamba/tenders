@@ -9,7 +9,7 @@ institution:
 
 website:
   homepage: "https://ilemelamc.go.tz/"
-  tender_url: "https://ilemelamc.go.tz/manunuzi"
+  tender_url: "https://ilemelamc.go.tz/tenders"
 
 contact:
   email: "md@ilemelamc.go.tz"
@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape https://ilemelamc.go.tz/manunuzi. Page uses table.table-striped for tenders (Tender Zaidi). Also check /tenders. Documents in /storage/app/uploads/public/. Tender page fetch timed out on 2026-03-15—retry when accessible."
+  strategy: "Scrape https://ilemelamc.go.tz/tenders for tender table (columns: Tender Name, Date Added, Expire Date). /manunuzi is informational PMU page only. As of 2026-06-10 tender table is empty (header row only). Documents in /storage/app/uploads/public/ when tenders are posted."
   selectors:
     container: "table.table-striped, table.table, .content, main"
     tender_item: "table.table-striped tbody tr, table.tenders tr"

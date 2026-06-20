@@ -20,7 +20,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Page returns minimal content (cookie banner only). Site may require JavaScript or cookies. Cannot determine structure. Re-enable when page loads fully."
+  strategy: "Virtubox SPA at https://www.cyclo.co.tz/. Page content embedded in window.mData JSON (ICT services: networks, CCTV, software, consulting, managed services). No procurement/tender section. ICT vendor — opportunity lead only."
   selectors:
     container: ".tender-list, .content, main, .entry-content, .page-content, article"
     tender_item: "article, .tender-item, .card, .row, li, tr"
@@ -31,7 +31,7 @@ scraping:
   schedule: "daily"
 
   anti_bot:
-    requires_javascript: true
+    requires_javascript: false
     has_captcha: false
     rate_limit_seconds: 10
 

@@ -1,0 +1,31 @@
+{
+  "tender_id": "MAENDELEO-2026-005",
+  "institution": "maendeleo-bank",
+  "title": "RFQ: Maintenance Of Generators, UPS, Electrical & Power Backup Systems",
+  "description": "RFQ: Maintenance Of Generators, UPS, Electrical & Power Backup Systems",
+  "reference_number": "",
+  "published_date": "2026-04-01",
+  "closing_date": "2026-05-08",
+  "closing_time": "17:00 EAT",
+  "category": "Supply",
+  "status": "closed",
+  "source_url": "https://maendeleobank.co.tz/index.php/tender/",
+  "documents": [
+    {
+      "filename": "electrial-A4-1.pdf",
+      "original_url": "https://maendeleobank.co.tz/wp-content/uploads/2026/04/electrial-A4-1.pdf",
+      "local_path": "./downloads/MAENDELEO-2026-005/original/electrial-A4-1.pdf",
+      "content_type": "application/pdf",
+      "downloaded_at": "2026-06-10T18:10:25.609Z"
+    }
+  ],
+  "contact": {
+    "name": "Procurement Department",
+    "email": "tenders@maendeleobank.co.tz",
+    "phone": "",
+    "address": "Maendeleo Bank Plc, Dar es Salaam"
+  },
+  "eligibility": "",
+  "scraped_at": "2026-06-10T18:10:25.609Z",
+  "last_checked": "2026-06-10T18:10:25.609Z"
+}

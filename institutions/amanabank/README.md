@@ -1,6 +1,6 @@
 ---
 institution:
-  name: "AMANA BANK | Islamic Banking in Tanzania"
+  name: "Amana Bank Tanzania"
   slug: "amanabank"
   category: "Bank"
   status: "active"
@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape whatsapp://send?abid=0653607644&text=Hello%2C%20World! for banking tender notices and EOIs. Banks post frequently."
+  strategy: "Scrape https://amanabank.co.tz/banking/tender for banking tender notices and pre-qualification documents. Page may list expired notices — verify closing dates in PDFs."
   selectors:
     container: ".tender-list, .content, main, .entry-content, .page-content, article"
     tender_item: "article, .tender-item, .card, .row, li, tr"
@@ -65,7 +65,12 @@ scraping:
       resolve_redirects: true
       decode_percent_encoding: true
 
+    known_document_paths:
+      - "/uploads/documents/"
+      - "/banking/tender/"
+
     url_patterns:
+      - "amanabank.co.tz/uploads/documents/*.pdf"
       - "amanabank.co.tz/*.pdf"
 
     download_rules:
@@ -112,7 +117,7 @@ notes: |
 
 **Category:** Bank
 **Website:** https://amanabank.co.tz/
-**Tender Page:** whatsapp://send?abid=0653607644&text=Hello%2C%20World!
+**Tender Page:** https://amanabank.co.tz/banking/tender
 **Keywords Found:** bid, tender
 
 ## Contact Information
@@ -123,15 +128,15 @@ notes: |
 
 ## Scraping Instructions
 
-**Strategy:** Scrape whatsapp://send?abid=0653607644&text=Hello%2C%20World! for banking tender notices and EOIs. Banks post frequently.
+**Strategy:** Scrape https://amanabank.co.tz/banking/tender for banking tender notices and pre-qualification documents. Page may list expired notices — verify closing dates in PDFs.
 **Method:** http_get
 
 Amana Bank is the Tanzania&#039;s first &amp; fully fledged Islamic Bank established on October 2009 with a group of prominent Tanzanian business personalities.
 
 ### Known Tender URLs
 
-- whatsapp://send?abid=0653607644&text=Hello%2C%20World!
 - https://amanabank.co.tz/banking/tender
+- https://amanabank.co.tz/uploads/documents/ (PDF storage path)
 
 ## Document Download Instructions
 

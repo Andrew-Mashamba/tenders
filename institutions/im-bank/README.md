@@ -13,7 +13,7 @@ website:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "No dedicated tender page. Regional bank with East African presence."
+  strategy: "No dedicated tender page. Regional bank with East African presence. Homepage blocked by Cloudflare (403) on automated access as of 2026-06-10. Check TANePS alternative source."
   selectors:
     container: "body"
     tender_list: "unknown"

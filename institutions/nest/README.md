@@ -13,7 +13,7 @@ website:
 scraping:
   enabled: true
   method: "http_get_with_auth"
-  strategy: "Government e-tendering portal. Complementary to TANePS. Check for government MFI tenders."
+  strategy: "Angular SPA — tender listings require JavaScript and login. Public homepage has no scrapeable tender table. Use https://nest.go.tz/tenders/published-tenders with browser automation or authenticated API access."
   selectors:
     container: "table, .content, main"
     tender_item: "tr, .tender-row"
@@ -24,7 +24,7 @@ scraping:
   schedule: "every_6_hours"
   
   anti_bot:
-    requires_javascript: false
+    requires_javascript: true
     has_captcha: false
     rate_limit_seconds: 10
 

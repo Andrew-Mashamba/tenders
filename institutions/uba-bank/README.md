@@ -8,7 +8,10 @@ institution:
 
 website:
   homepage: "https://www.ubatanzania.co.tz/"
-  tender_url: "null"
+  tender_url: "https://www.ubatanzania.co.tz/"
+
+contact:
+  email: "customerservicetz@ubagroup.com"
 
 scraping:
   enabled: true

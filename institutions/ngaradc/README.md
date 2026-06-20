@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Tender page uses Bootstrap table. Parse table.table.table-striped: each tr = one tender. Col1=title, Col2=published date, Col3=closing date, Col4=Download link to PDF. Documents at /storage/app/uploads/public/{hash}/."
+  strategy: "Site migrated to GWF CORE React SPA (requires_javascript). Old /tenders table no longer served. Use REST API: GET /api/advertisements, /api/announcements, /api/files?category=DOCUMENT for procurement docs. Attachments at /minio/ngaradc.go.tz/attachments/. Filter for Zabuni/Mnada/Ununuzi category items only."
   selectors:
     container: "table.table.table-striped"
     tender_item: "table.table.table-striped tbody tr"
@@ -29,7 +29,7 @@ scraping:
   schedule: "daily"
 
   anti_bot:
-    requires_javascript: false
+    requires_javascript: true
     has_captcha: false
     rate_limit_seconds: 10
 
@@ -208,6 +208,6 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
+- **Last Checked:** 11 June 2026
+- **Active Tenders:** 0 (no procurement notices in API; only service announcements)
 - **Signal Strength:** Strong (manunuzi, procurement, tender, tenders, zabuni)

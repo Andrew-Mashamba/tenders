@@ -22,8 +22,9 @@ scraping:
   enabled: true
   method: "http_get"
   strategy: |
-    TAEC uses NeST (National e-Procurement System) at nest.go.tz. NeST is an Angular SPA - requires JavaScript to render tender content.
-    When reachable: scrape published-tenders with peUuid for TAEC. Documents at taec.go.tz/uploads/publications/.
+    TAEC uses NeST (National e-Procurement System) at nest.go.tz. NeST is an Angular SPA — requires JavaScript to render tender content.
+    taec.go.tz homepage links to NeST (peUuid=9b00ebdd-cbe3-4c53-ac43-118dc26fa510). Site requires curl -k for SSL. No scrapeable tenders via http_get (verified 2026-06-11).
+    Documents at taec.go.tz/uploads/publications/ are research publications, not tenders.
   selectors:
     container: ".tender-list, .content, main, .entry-content, .page-content, article"
     tender_item: "article, .tender-item, .card, .row, li, tr"
@@ -431,6 +432,7 @@ with smtplib.SMTP_SSL(config["host"], config["port"], context=context) as server
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
+- **Last Checked:** 11 June 2026
+- **Active Tenders:** 0
 - **Signal Strength:** Strong (tender, tenders, zabuni)
+- **Notes:** Tenders on NeST Angular SPA; taec.go.tz requires curl -k for SSL certificate issues.

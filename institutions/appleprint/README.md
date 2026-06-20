@@ -20,7 +20,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape https://appleprint.co.tz/ for tender/procurement notices."
+  strategy: "Scrape https://appleprint.co.tz/ for tender/procurement notices. Site returned HTTP 500 (June 2026) — may be temporarily down."
   selectors:
     container: ".tender-list, .content, main, .entry-content, .page-content, article"
     tender_item: "article, .tender-item, .card, .row, li, tr"
@@ -188,6 +188,6 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
+- **Last Checked:** 10 June 2026
+- **Active Tenders:** 0 (site HTTP 500 error)
 - **Signal Strength:** Strong (eoi)

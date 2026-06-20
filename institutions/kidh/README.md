@@ -22,6 +22,7 @@ scraping:
     Django/Bootstrap site. Tenders at /opportunity/opportunity/opportunity-tender/. Each tender in .card.
     Documents via POST form to /opportunity/opportunity/view-opportunity/download-opportunity-file/{uuid}/.
     Must visit view-opportunity page for each tender to get documents. Pagination: .pagination.
+    As of 2026-06-10 page shows "Tender Information is unavailable" with no tender cards.
   selectors:
     container: ".row .col-lg-4, section"
     tender_item: ".col-lg-4 .card"
@@ -410,6 +411,6 @@ with smtplib.SMTP_SSL(config["host"], config["port"], context=context) as server
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
+- **Last Checked:** 10 June 2026
+- **Active Tenders:** 0 (tender information unavailable on site)
 - **Signal Strength:** Strong (tender)

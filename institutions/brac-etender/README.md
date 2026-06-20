@@ -13,7 +13,7 @@ website:
 scraping:
   enabled: true
   method: "http_get_with_auth"
-  strategy: "BRAC's dedicated e-tendering portal. Currently primarily lists Bangladesh tenders but Tanzania tenders may appear. Filter by country=Tanzania. Separate system from procurement.brac.net."
+  strategy: "BRAC's dedicated e-tendering portal (Bangladesh HQ). As of 2026-06-10 homepage lists only Bangladesh tenders (BPD/2026/RFQ-* refs); no Tanzania entries. Login required for document download. Filter by country=Tanzania — skip non-TZ listings. Separate system from procurement.brac.net."
   selectors:
     container: "table, .tenders, .content, main"
     tender_item: "tr, .tender-row, .card"

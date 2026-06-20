@@ -14,9 +14,11 @@ scraping:
   enabled: true
   method: "http_get"
   strategy: |
-    Scrape https://iringamc.go.tz/procurement. October CMS (same platform as other go.tz councils).
-    Main content in .right-sidebar-content. Tender table: table.table.table-striped tbody tr.
-    Documents at /storage/app/uploads/public/{hash}/. Use curl -k for SSL.
+    Site migrated to GWF CORE React SPA (2026). HTML pages return empty #root shell — use REST APIs.
+    Primary tender source: GET https://iringamc.go.tz/api/from-tamisemi?page=1&limit=50 (filter category=Zabuni).
+    Local announcements: GET https://iringamc.go.tz/api/announcements?page=1&limit=50.
+    Documents hosted on minio: /minio/tamisemi.go.tz/attachments/ and /minio/iringamc.go.tz/attachments/.
+    Reject Ajira (jobs), Matukio (news), Elimu volunteer notices. Use curl -k for SSL.
   selectors:
     container: ".right-sidebar-content, .middle-content-wrapper"
     tender_item: "table.table.table-striped tbody tr"
@@ -27,7 +29,7 @@ scraping:
   schedule: "daily"
 
   anti_bot:
-    requires_javascript: false
+    requires_javascript: true
     has_captcha: false
     rate_limit_seconds: 10
 

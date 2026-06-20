@@ -1,6 +1,6 @@
 ---
 institution:
-  name: "Home &#124; Biharamulo District Council Website"
+  name: "Biharamulo District Council"
   slug: "biharamulodc"
   category: "Local Government Authority"
   status: "active"
@@ -19,18 +19,18 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape https://biharamulodc.go.tz/tenders for government tender notices. Government sites often post zabuni/manunuzi."
+  strategy: "Site migrated to GWF CORE React SPA (2026-06). /tenders renders client-side; scrape JSON APIs instead: /api/announcements (local zabuni) and /api/from-tamisemi (TAMISEMI feed). Filter category=Zabuni. Documents at /minio/biharamulodc.go.tz/attachments/ and /minio/tamisemi.go.tz/attachments/."
   selectors:
-    container: ".content, main, .table-responsive, table.table"
-    tender_item: "table.table tbody tr, .table.table-striped tr"
-    title: "td a, .tender-title, td:first-child"
-    date: ".date, td:nth-child(2), td:nth-child(3)"
-    document_link: 'a[href$=".pdf"], a[href*="/storage/app/uploads/public/"]'
-    pagination: ".pagination a, a.next, .page-link" 
+    container: "#root"
+    tender_item: "api/announcements data[], api/from-tamisemi data[]"
+    title: "title"
+    date: "date"
+    document_link: 'attachments[].url'
+    pagination: "page, limit query params" 
   schedule: "daily"
 
   anti_bot:
-    requires_javascript: false
+    requires_javascript: true
     has_captcha: false
     rate_limit_seconds: 10
 
@@ -67,9 +67,13 @@ scraping:
       decode_percent_encoding: true
 
     known_document_paths:
+      - "/minio/biharamulodc.go.tz/attachments/"
+      - "/minio/tamisemi.go.tz/attachments/"
       - "/storage/app/uploads/public/"
     url_patterns:
-      - "biharamulodc.go.tz/storage/app/uploads/public/*/*/*/*.pdf"
+      - "biharamulodc.go.tz/minio/*/attachments/*.pdf"
+      - "biharamulodc.go.tz/api/announcements"
+      - "biharamulodc.go.tz/api/from-tamisemi"
 
     download_rules:
       max_file_size_mb: 50
@@ -87,7 +91,7 @@ scraping:
         - "application/octet-stream"
 
     document_notes: |
-      Biharamulo DC uses Bootstrap table (table.table, table.table-striped). Documents at /storage/app/uploads/public/{hash}.pdf. Tender page fetch failed (SSL) 2026-03-15; selectors from README preview.
+      GWF CORE SPA as of 2026-06. Use REST APIs for tender data. Legacy /storage/app/uploads/public/ paths may still exist for older tenders.
 
   output:
     format: "json"
@@ -423,6 +427,6 @@ with smtplib.SMTP_SSL(config["host"], config["port"], context=context) as server
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
+- **Last Checked:** 10 June 2026
+- **Active Tenders:** 2 (via /api/announcements and /api/from-tamisemi)
 - **Signal Strength:** Strong (manunuzi, tender, tenders, zabuni)

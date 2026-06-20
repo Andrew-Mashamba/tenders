@@ -9,7 +9,8 @@ institution:
 
 website:
   homepage: "https://rungwedc.go.tz/"
-  tender_url: "https://rungwedc.go.tz/announcement/mwaliko-wa-zabuni-ujenzi-na-uendeshaji-maduka-kiwira"
+  tender_url: "https://rungwedc.go.tz/tenders"
+  tender_url_note: "As of 2026-06-11, site migrated to GWF CORE React SPA. /tenders and legacy /announcement/* URLs return SPA shell. Scrape via API: /api/advertisements, /api/announcements, /api/from-tamisemi (TAMISEMI zabuni), /api/files. Legacy October CMS /storage/app/ paths no longer served."
 
 contact:
   email: "ded@rungwedc.go.tz"
@@ -19,7 +20,12 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape tender_url for single announcement with document. Also scrape /announcements for listing. Documents in .right-sidebar-content via a.fr-file or a[href*='/storage/']."
+  strategy: |
+    Site migrated to GWF CORE SPA (2026). /tenders returns React shell only (requires JavaScript).
+    Use REST API: /api/advertisements?limit=50 (local notices — reject loans/mikopo),
+    /api/announcements (reject Ajira/usaili job notices),
+    /api/from-tamisemi (syndicated TAMISEMI zabuni with category=Zabuni),
+    /api/files. Legacy October CMS announcement pages and /storage/app/ PDF paths obsolete.
   selectors:
     container: ".right-sidebar-content, .middle-content-wrapper"
     tender_item: "a[href*='/announcement/']"
@@ -30,7 +36,7 @@ scraping:
   schedule: "daily"
 
   anti_bot:
-    requires_javascript: false
+    requires_javascript: true
     has_captcha: false
     rate_limit_seconds: 10
 
@@ -219,6 +225,6 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
+- **Last Checked:** 11 June 2026
+- **Active Tenders:** 2 (1 local Kiwira shops + 1 TAMISEMI syndicated TOR)
 - **Signal Strength:** Strong (manunuzi, tender, tenders, zabuni)

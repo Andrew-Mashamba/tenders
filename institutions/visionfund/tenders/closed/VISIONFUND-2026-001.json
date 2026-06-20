@@ -1,0 +1,31 @@
+{
+  "tender_id": "VISIONFUND-2026-001",
+  "institution": "visionfund",
+  "title": "Seeking Two HP Servers",
+  "description": "VisionFund Tanzania invites suppliers to provide two production servers: one Database PROD server (96 cores, 512GB RAM, 4x 3.2TB SSD RAID10) and one Application PROD server (96 cores, 512GB RAM, 4x 1.92TB SSD RAID10). Preference for HPE ProLiant DL380 Gen12 or equivalent Lenovo/Dell with minimum 3-year end-of-support. Delivery within one month.",
+  "reference_number": "",
+  "published_date": "2026-05-22",
+  "closing_date": "2026-06-11",
+  "closing_time": "17:00 EAT",
+  "category": "ICT",
+  "status": "closed",
+  "source_url": "https://www.vftz.co.tz/news/seeking-two-hp-servers/",
+  "documents": [
+    {
+      "filename": "Seeking-Two-HP-Servers.jpeg",
+      "original_url": "https://www.vftz.co.tz/wp-content/uploads/2026/05/WhatsApp-Image-2026-05-23-at-2.13.03-PM.jpeg",
+      "local_path": "./downloads/VISIONFUND-2026-001/original/Seeking-Two-HP-Servers.jpeg",
+      "content_type": "image/jpeg",
+      "downloaded_at": "2026-06-10T23:18:13.559717Z"
+    }
+  ],
+  "contact": {
+    "name": "VisionFund Tanzania Procurement",
+    "email": "admin_official@vftz.co.tz",
+    "phone": "+255800758723",
+    "address": "Arusha, Tanzania"
+  },
+  "eligibility": "Registered company in Tanzania with BRELA search, tax clearance 2026, AML and business continuity policies, HP authorized dealer/partner evidence, and references from at least three organizations.",
+  "scraped_at": "2026-06-10T23:18:13.559724Z",
+  "last_checked": "2026-06-10T23:18:13.559726Z"
+}

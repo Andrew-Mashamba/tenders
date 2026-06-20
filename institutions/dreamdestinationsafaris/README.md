@@ -17,7 +17,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "DISABLED: Domain dreamdestinationsafaris.co.tz now hosts Sakurahost (web hosting company). No longer safari/tourism site. Re-enable if domain reverts to original business."
+  strategy: "Scrape homepage for tender/procurement notices. As of 2026-06-10 domain serves Dream Destination Safaris (tourism/safari WordPress site). No dedicated procurement or tender section found."
   selectors:
     container: ".tender-list, .content, main, .entry-content, .page-content, article"
     tender_item: "article, .tender-item, .card, .row, li, tr"
@@ -98,7 +98,7 @@ scraping:
       - contact_info
 
 notes: |
-  DISABLED: Domain repurposed as of 2026-03-15. dreamdestinationsafaris.co.tz now shows Sakurahost (Tanzania web hosting, .tz domains). No safari/tender content. Re-enable when domain is restored.
+  As of 2026-06-10 domain restored to Dream Destination Safaris (tourism). No procurement/tender section. Previously noted as Sakurahost (2026-03-15) but site reverted.
 ---
 
 # Home - Dream Destination Safaris

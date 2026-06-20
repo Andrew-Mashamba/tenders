@@ -9,7 +9,7 @@ institution:
 
 website:
   homepage: "https://www.wma.go.tz/"
-  tender_url: "https://www.wma.go.tz/tenders"
+  tender_url: "https://www.wma.go.tz/publications"
   publications_url: "https://www.wma.go.tz/publications"
 
 contact:
@@ -20,8 +20,8 @@ scraping:
   enabled: true
   method: "http_get"
   strategy: |
-    WMA (Wakala wa Vipimo) has /tenders (Zabuni) page — currently shows "Kazi Inaendelea" (work in progress).
-    Fallback: Scrape /publications for procurement documents. Publications use table layout: .inner-pages table tbody tr.
+    /tenders returns 404 as of 2026-06-10 — use /publications as primary tender_url.
+    Publications table is JS-populated (Alpine.js): #publicationsTableBody tbody tr.
     Each row: td[1]=title, td[2]=date, td[3] a=Download link. Also check /announcements for Matangazo.
   selectors:
     container: ".main-content-wrap .inner-pages, .inner-pages table, .tender-list, main"
@@ -417,6 +417,6 @@ with smtplib.SMTP_SSL(config["host"], config["port"], context=context) as server
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
+- **Last Checked:** 10 June 2026
+- **Active Tenders:** 0 (/tenders returns 404; /publications table empty via static fetch)
 - **Signal Strength:** Strong (manunuzi, tender, tenders, zabuni)

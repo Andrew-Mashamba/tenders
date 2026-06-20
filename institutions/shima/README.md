@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Tender page https://shima.go.tz/ was unreachable during analysis (timeout). Site has Zabuni (tenders) under pages. Re-enable when accessible."
+  strategy: "WARNING: shima.go.tz now serves Water Institute (Ministry of Water), not Prisons Corporation Sole. Domain appears repurposed — no PCS zabuni content. Try corpsole@prisons.go.tz / prisons.go.tz for alternate PCS tender source if domain is restored."
   selectors:
     container: ".tender-list, .content, main, .entry-content, .page-content, article"
     tender_item: "article, .tender-item, .card, .row, li, tr"
@@ -401,6 +401,6 @@ with smtplib.SMTP_SSL(config["host"], config["port"], context=context) as server
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
+- **Last Checked:** 11 June 2026
+- **Active Tenders:** 0 (domain repurposed to Water Institute)
 - **Signal Strength:** Strong (zabuni)

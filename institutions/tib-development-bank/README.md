@@ -8,12 +8,16 @@ institution:
 
 website:
   homepage: "https://www.tib.co.tz/"
-  tender_url: "https://www.tib.co.tz/tibdfi/index.php/tender-notices"
+  tender_url: "https://www.tib.co.tz/tibdfi/index.php/en/tender-notices"
 
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape /resources/tender-notices page. Government DFI — formal procurement processes."
+  strategy: |
+    Government DFI — formal procurement via Joomla at /tibdfi/index.php/. Locale-prefixed
+    URLs: /en/tender-notices and /sw/tender-notices. As of 2026-06-10 tender pages return
+    404 and homepage returns 500; when accessible page shows "Hakuna zabuni kwa sasa"
+    (no tenders currently). Also check TANePS as alternative source.
   selectors:
     container: ".tender-notices, .content, main, #content"
     tender_item: "article, .item, .tender, tr"
@@ -111,11 +115,11 @@ notes: |
 
 **Category:** Development Bank  
 **Website:** https://www.tib.co.tz/  
-**Tender Page:** https://www.tib.co.tz/tibdfi/index.php/tender-notices  
+**Tender Page:** https://www.tib.co.tz/tibdfi/index.php/en/tender-notices  
 
 ## Scraping Instructions
 
-**Strategy:** Scrape /resources/tender-notices page. Government DFI — formal procurement processes.  
+**Strategy:** Scrape /tibdfi/index.php/en/tender-notices (or /sw/tender-notices). Government DFI — formal procurement processes. Site may return 404/500 when down.  
 **Method:** http_get  
 
 Government development finance institution. Joomla-based site (index.php pattern). Structured tender listings.

@@ -9,7 +9,7 @@ institution:
 
 website:
   homepage: "https://temdo.or.tz/"
-  tender_url: "https://temdo.or.tz/tenders"
+  tender_url: "http://temdo.or.tz/tenders"
 
 contact:
   email: "dg@temdo.or.tz"
@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape /tenders page. Each tender is p.download with a link; title and closing date (Tarehe ya Mwisho) in link text. Documents in /uploads/tenders/."
+  strategy: "Scrape http://temdo.or.tz/tenders (HTTPS has SSL errors; use HTTP). Each tender is p.download with a link; title and closing date (Tarehe ya Mwisho) in link text. Documents in /uploads/tenders/."
   selectors:
     container: ".sub-main-content, .content-border"
     tender_item: "p.download"

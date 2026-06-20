@@ -9,7 +9,7 @@ institution:
 
 website:
   homepage: "https://crdbbank.co.tz/"
-  tender_url: "https://crdbbank.co.tz/about-us/tender"
+  tender_url: "https://crdbbank.co.tz/en/about-us/tender"
 
 contact:
   phone: "009930676"
@@ -17,7 +17,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape https://crdbbank.co.tz/about-us/tender or /en/about-us/tender. Bootstrap accordion: #accordionExample contains tender items. Each div[id^='tenderAccordion'] has title in .accordion-button, deadline in span.font-bold, document in a.pdf-icon."
+  strategy: "Scrape https://crdbbank.co.tz/en/about-us/tender (canonical; /about-us/tender redirects). Bootstrap accordion #accordionExample: active tenders have deadline in span.font-bold and PDF in a.pdf-icon; closed items show 'Tender is closed'. Documents under /storage/app/media/Tender/2026/."
   selectors:
     container: "#accordionExample, .accordion, main, section.main"
     tender_item: "div[id^='tenderAccordion'], .accordion-item"

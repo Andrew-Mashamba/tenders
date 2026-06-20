@@ -9,7 +9,7 @@ institution:
 
 website:
   homepage: "https://cmsa.go.tz/"
-  tender_url: "https://cmsa.go.tz/"
+  tender_url: "https://cmsa.go.tz/tenders"
 
 contact:
   email: "info@cmsa.go.tz"
@@ -22,8 +22,8 @@ scraping:
   enabled: true
   method: "http_get"
   strategy: |
-    Government agency (CMSA). Tender page fetch timed out during analysis. Check homepage and /tenders, /procurement, /zabuni paths.
-    Government sites often use CMS (e.g. WordPress, custom). Look for tender tables or listing sections.
+    Government agency (CMSA). Dedicated tenders page at /tenders (returns "Content not found" when empty as of 2026-06-10).
+    Also check homepage news section. Documents at /uploads/news/ and /uploads/gallery/.
   selectors:
     container: ".tender-list, .content, main, .entry-content, .page-content, article"
     tender_item: "article, .tender-item, .card, .row, li, tr"

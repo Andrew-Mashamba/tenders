@@ -37,7 +37,7 @@ mkdir -p "$LOGS_DIR"
 
 echo "[$(date)] Scraping single institution: $SLUG" | tee -a "$LOG_FILE"
 
-"$(which agent 2>/dev/null || echo /Users/andrewmashamba/.local/bin/agent)" -p --force --trust --model composer-1.5 --workspace "$PROJECT_DIR" \
+"$(which agent 2>/dev/null || echo /Users/andrewmashamba/.local/bin/agent)" -p --force --trust --model ${AGENT_MODEL:-composer-2.5} --workspace "$PROJECT_DIR" \
     "You are a tender scraping agent. Read the README.md at $INST_DIR/README.md and follow ALL instructions in it to:
 
 1. Scrape the tender page for this institution

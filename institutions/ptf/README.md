@@ -108,7 +108,7 @@ social_media:
   instagram: "mfukowarais"
 
 notes: |
-  Organization website at ptf.or.tz. Tender keywords detected: bid, rfi, zabuni.
+  Organization website at ptf.or.tz. 'Mkopo wa Zabuni' in homepage slider is a loan product (/mikopo/), not a procurement tender. No dedicated tender listing. Verified 2026-06-11.
 ---
 
 # Presidential Trust Fund for Self Reliance &#8211; Mfuko wa Rais wa Kujitegemea

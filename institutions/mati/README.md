@@ -1,6 +1,6 @@
 ---
 institution:
-  name: "Home - MATI"
+  name: "MATI Super Brands Ltd"
   slug: "mati"
   category: "Commercial / Private Sector"
   status: "active"
@@ -20,7 +20,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape https://mati.co.tz/ for tender/procurement notices. No tender page found - spirits company."
+  strategy: "Site returns 403 Forbidden (LiteSpeed WAF) as of 2026-06-10. Spirits/beverages company with no known tender page. Re-check when site is accessible."
   selectors:
     container: ".tender-list, .content, main, .entry-content, .page-content, article"
     tender_item: "article, .tender-item, .card, .row, li, tr"

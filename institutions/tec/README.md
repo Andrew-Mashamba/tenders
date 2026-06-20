@@ -9,7 +9,7 @@ institution:
 
 website:
   homepage: "https://tec.or.tz/"
-  tender_url: "https://tec.or.tz/index.php/news/"
+  tender_url: "https://tec.or.tz/"
 
 contact:
   email: "info@tec.or.tz"
@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape News & Events page for tenders/RFPs. WordPress/Kingster theme. Tender posts mixed with news; filter by keywords (tender, RFP, proposal). Follow post links for full documents."
+  strategy: "Scrape homepage and WordPress REST API (wp-json/wp/v2/posts?search=tender) for tenders/RFPs. /index.php/news/ returns 404 as of 2026-06. Kingster theme. Filter by keywords (tender, RFP, proposal). Follow post links for full documents."
   selectors:
     container: ".gdlr-core-blog-item-holder, .gdlr-core-pbf-section"
     tender_item: ".gdlr-core-item-list.gdlr-core-blog-medium, .gdlr-core-blog-modern"

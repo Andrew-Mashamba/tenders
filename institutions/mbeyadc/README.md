@@ -1,6 +1,6 @@
 ---
 institution:
-  name: "Mbeyadc"
+  name: "Mbeya District Council"
   slug: "mbeyadc"
   category: "Government"
   status: "active"
@@ -8,12 +8,12 @@ institution:
 
 website:
   homepage: "https://mbeyadc.go.tz"
-  tender_url: "https://mbeyadc.go.tz/tenders"
+  tender_url: "https://mbeyadc.go.tz/api/from-tamisemi"
 
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape homepage and linked pages for tender/procurement documents. 6 document links discovered."
+  strategy: "Site migrated to GWF CORE React SPA. Use API: /api/from-tamisemi (syndicated TAMISEMI zabuni), /api/announcements, /api/advertisements, /api/files. Old /storage/app/uploads/ paths obsolete. /tenders returns SPA shell only. Reject job vacancies (Ajira), auctions (Mnada), and news."
   selectors:
     container: ".tender-list, .content, main, .page-content, .entry-content, article"
     tender_item: "article, .tender-item, .card, .row, tr, li"
@@ -24,7 +24,7 @@ scraping:
   schedule: "daily"
 
   anti_bot:
-    requires_javascript: false
+    requires_javascript: true
     has_captcha: false
     rate_limit_seconds: 10
 

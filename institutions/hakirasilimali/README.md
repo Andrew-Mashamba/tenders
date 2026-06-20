@@ -32,6 +32,8 @@ scraping:
     requires_javascript: false
     has_captcha: false
     rate_limit_seconds: 10
+    mod_security: true
+    user_agent_required: "Use full browser User-Agent and Accept headers; basic curl gets Mod_Security 406"
 
   documents:
     download_enabled: true

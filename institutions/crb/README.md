@@ -410,6 +410,6 @@ with smtplib.SMTP_SSL(config["host"], config["port"], context=context) as server
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
-- **Signal Strength:** Strong (zabuni)
+- **Last Checked:** 10 June 2026
+- **Active Tenders:** 0 (notice board has regulations/manuals, not open tenders)
+- **Signal Strength:** Medium (zabuni keyword in press; no active procurement)

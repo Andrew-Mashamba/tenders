@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape tender page. Main content in article.hentry; TablePress table (#tablepress-2) for tender data; sidebar widgets (MAJARIDA) contain PDF links. Document path /oagrydee/YYYY/MM/."
+  strategy: "Scrape tender page. As of 2026-06-11 the page shows working-hours TablePress (#tablepress-2) only; sidebar has news/PHD job postings and MAJARIDA journal PDFs (reject). No active procurement table. Document path /oagrydee/YYYY/MM/."
   selectors:
     container: "article.hentry, article#post-1062, .site-content, #primary"
     tender_item: "table.tablepress tbody tr, .widget_custom_html, aside.widget"
@@ -206,6 +206,6 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
-- **Signal Strength:** Strong (tender)
+- **Last Checked:** 11 June 2026
+- **Active Tenders:** 0
+- **Signal Strength:** Strong (tender page exists but no active procurement listings)

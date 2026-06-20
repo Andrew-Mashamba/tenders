@@ -1,0 +1,38 @@
+{
+  "tender_id": "DART-2026-001",
+  "institution": "dart",
+  "title": "Project Management Consultancy (PMC) Services to Plan and Design Intelligent Transportation Systems (ITS) for BRT Phase 4 Corridor",
+  "description": "Request for Expressions of Interest for PMC services to support planning and design of ITS for BRT Phase 4 in Dar es Salaam under the Dar es Salaam Urban Transport Improvement Project (DUTP), financed by the World Bank.",
+  "reference_number": "TZ-DART-537877-CS-QCBS",
+  "published_date": "2026-04-20",
+  "closing_date": "2026-05-11",
+  "closing_time": "16:30 EAT",
+  "category": "Consultancy",
+  "status": "closed",
+  "source_url": "https://dart.go.tz/publications/tenders",
+  "documents": [
+    {
+      "filename": "Tangazo_Tenda.pdf",
+      "original_url": "https://dart.go.tz/uploads/documents/sw-1776773673-Tangazo Tenda.pdf",
+      "local_path": "./downloads/DART-2026-001/original/Tangazo_Tenda.pdf",
+      "content_type": "application/pdf",
+      "downloaded_at": "2026-06-10T16:32:53.162981Z"
+    },
+    {
+      "filename": "TOR_BRT_4.pdf",
+      "original_url": "https://dart.go.tz/uploads/documents/sw-1775722648-final_TOR BRT 4.pdf",
+      "local_path": "./downloads/DART-2026-001/original/TOR_BRT_4.pdf",
+      "content_type": "application/pdf",
+      "downloaded_at": "2026-06-10T16:32:53.162981Z"
+    }
+  ],
+  "contact": {
+    "name": "Secretary of the Tender Board, Dar Rapid Transit Agency",
+    "email": "secretary.tenderboard@dart.go.tz",
+    "phone": "0800 110 147",
+    "address": "Ubungo Maji, Morogoro Road, P.O Box 724, Dar es Salaam"
+  },
+  "eligibility": "Eligible consulting firms with experience in similar assignments in Africa or developing countries; QCBS selection method.",
+  "scraped_at": "2026-06-10T16:32:53.162981Z",
+  "last_checked": "2026-06-10T16:33:22.950316Z"
+}

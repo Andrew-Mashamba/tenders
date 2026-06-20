@@ -7,13 +7,13 @@ institution:
   country: "Tanzania"
 
 website:
-  homepage: "https://bankofbaroda.co.tz"
-  tender_url: "https://bankofbaroda.co.tz"
+  homepage: "https://www.bankofbaroda.co.tz/"
+  tender_url: "https://www.bankofbaroda.co.tz/tenders/tenders-notice"
 
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape homepage and linked pages for tender/procurement documents. 3 document links discovered."
+  strategy: "Scrape /tenders/tenders-notice page. Each tender block includes title, commencement date, closing date, and PDF links under /-/media/Project/BOB/CountryWebsites/Tanzania/uploads/tenders/. As of 2026-06-10 all listed tenders are expired."
   selectors:
     container: ".tender-list, .content, main, .page-content, .entry-content, article"
     tender_item: "article, .tender-item, .card, .row, tr, li"

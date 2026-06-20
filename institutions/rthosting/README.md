@@ -14,7 +14,7 @@ website:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "DISABLED: Domain hosting/reseller site (Supersite template). No tender/procurement content (2026-03-15)."
+  strategy: "DISABLED: Domain hosting/reseller site (Supersite template). No tender/procurement content. SSL cert mismatch — use curl -k."
   selectors:
     container: ".tender-list, .content, main, .entry-content, .page-content, article"
     tender_item: "article, .tender-item, .card, .row, li, tr"

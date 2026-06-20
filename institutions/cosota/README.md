@@ -9,7 +9,7 @@ institution:
 
 website:
   homepage: "https://cosota.go.tz/"
-  tender_url: "https://cosota.go.tz/"
+  tender_url: "https://cosota.go.tz/publications/brochures"
 
 contact:
   email: "barua@cosota.go.tz"
@@ -19,8 +19,9 @@ scraping:
   enabled: true
   method: "http_get"
   strategy: |
-    Government agency (COSOTA - Copyright Office). Tender page fetch timed out during analysis.
-    Preview mentioned "Taarifa Zabuni" - check /publications/reports or similar. Government sites post zabuni/manunuzi.
+    Government agency (COSOTA - Copyright Office). Zabuni (tenders) are listed at /publications/brochures
+    (nav label "Zabuni" under Machapisho). Advertisements at /publications/advertisements are news/auctions,
+    not procurement. Site requires curl -k (SSL cert issue). Vacancies at /publications/vacancy are jobs — reject.
   selectors:
     container: ".tender-list, .content, main, .entry-content, .page-content, article"
     tender_item: "article, .tender-item, .card, .row, li, tr"
@@ -408,6 +409,6 @@ with smtplib.SMTP_SSL(config["host"], config["port"], context=context) as server
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
-- **Signal Strength:** Strong (zabuni)
+- **Last Checked:** 10 June 2026
+- **Active Tenders:** 0 (zabuni page empty as of scrape)
+- **Signal Strength:** Medium (zabuni section exists but no current postings)

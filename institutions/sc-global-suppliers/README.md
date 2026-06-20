@@ -13,7 +13,7 @@ website:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape the global Standard Chartered suppliers page. Filter for Tanzania or Africa-related procurement. Note: SC Tanzania transferred retail banking to Access Bank (May 2025) — remaining operations are corporate/institutional, so procurement may be reduced."
+  strategy: "Scrape sc.com/en/suppliers/ — informational supplier onboarding page only. No active tender listings on page. SC Tanzania retail transferred to Access Bank (May 2025). Procurement via external portals, not listed here."
   selectors:
     container: ".suppliers, .content, main"
     tender_item: "article, .card, .opportunity"
@@ -24,7 +24,7 @@ scraping:
   schedule: "weekly"
 
   anti_bot:
-    requires_javascript: true
+    requires_javascript: false
     has_captcha: false
     rate_limit_seconds: 15
 

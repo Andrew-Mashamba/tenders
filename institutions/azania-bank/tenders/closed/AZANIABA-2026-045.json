@@ -1,0 +1,31 @@
+{
+  "tender_id": "AZANIABA-2026-045",
+  "institution": "azania-bank",
+  "title": "Pre qualification for Building Contractors",
+  "description": "Pre qualification for Building Contractors",
+  "reference_number": "",
+  "published_date": "",
+  "closing_date": "2024-04-15",
+  "closing_time": "",
+  "category": "Construction",
+  "status": "closed",
+  "source_url": "https://azaniabank.co.tz/tenders/",
+  "documents": [
+    {
+      "filename": "Pre-qualification-of-Building-Contractors.pdf",
+      "original_url": "https://azaniabank.co.tz/wp-content/uploads/2024/03/Pre-qualification-of-Building-Contractors.pdf",
+      "local_path": "./downloads/AZANIABA-2026-045/original/Pre-qualification-of-Building-Contractors.pdf",
+      "content_type": "application/pdf",
+      "downloaded_at": "2026-06-10T16:00:18.462Z"
+    }
+  ],
+  "contact": {
+    "name": "Procurement Management Unit",
+    "email": "procurement@azaniabank.co.tz",
+    "phone": "0800 110 210",
+    "address": "PSSSF Tower, Sam Nujoma Road, Dar es Salaam"
+  },
+  "eligibility": "Open to eligible registered suppliers",
+  "scraped_at": "2026-06-10T16:00:18.462Z",
+  "last_checked": "2026-06-10T16:00:18.462Z"
+}

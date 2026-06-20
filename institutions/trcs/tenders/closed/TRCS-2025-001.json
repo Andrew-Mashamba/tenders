@@ -10,7 +10,16 @@
   "category": "Pre-Qualification",
   "status": "closed",
   "source_url": "https://trcs.or.tz/news/extension-of-closing-date-for-the-pre-qualification-tender/",
-  "documents": [],
+  "documents": [
+    {
+      "filename": "TRCS-4x24-NEW-1.pdf",
+      "original_url": "https://trcs.or.tz/wp-content/uploads/2025/10/TRCS-4x24-NEW-1.pdf",
+      "local_path": "./downloads/TRCS-2025-001/original/TRCS-4x24-NEW-1.pdf",
+      "content_type": "application/pdf",
+      "file_size_bytes": 6763862,
+      "downloaded_at": "2026-06-11T08:26:00.000000Z"
+    }
+  ],
   "contact": {
     "name": "Procurement Management Unit",
     "email": "info@trcs.co.tz",
@@ -19,5 +28,5 @@
   },
   "eligibility": "Open to all interested bidders",
   "scraped_at": "2026-03-15T06:04:30Z",
-  "last_checked": "2026-03-15T06:04:30Z"
+  "last_checked": "2026-06-11T08:26:00.000000Z"
 }

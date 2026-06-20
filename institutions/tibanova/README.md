@@ -21,7 +21,8 @@ scraping:
   strategy: |
     Healthcare software company. Homepage is product marketing (MTUHA, pricing packages).
     "Procurement" is a product module, not tender notices. One document: Tibanova-Brochure.pdf
-    in /wp-content/uploads/2023/08/. Scrape for any tender/RFP links on subpages.
+    in /wp-content/uploads/2023/08/. As of 2026-06-10 site returns WordPress maintenance
+    page ("Briefly unavailable for scheduled maintenance"). Re-check when site is back online.
   selectors:
     container: "main, .content, .entry-content, .page-content, article, .elementor-widget-wrap"
     tender_item: "article, .tender-item, .card, .row, .elementor-element"

@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape homepage 'Latest Downloads' section. Each item has title (a.ck), date (p.ck1), and PDF link. Follow 'More Downloads' to News-and-events for full list."
+  strategy: "Scrape homepage 'Latest Downloads' section (a.ck, p.ck1). Items are student application forms and joining instructions — NOT procurement tenders. Reject as junk for tender scraping."
   selectors:
     container: ".news"
     tender_item: ".tk1"

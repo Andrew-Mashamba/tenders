@@ -108,7 +108,8 @@ notes: |
 **Keywords Found:** procurement, supply
 
 ## Contact Information
-- Not yet extracted. Check website.
+- Email: info@bluestoneresources.co.tz
+- Phone: +255 767 813 255, +255 784 954 258, +255 762 977 376
 
 ## Scraping Instructions
 
@@ -182,6 +183,6 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 13 March 2026
+- **Last Checked:** 10 June 2026
 - **Active Tenders:** To be scraped
 - **Signal Strength:** Strong (procurement)

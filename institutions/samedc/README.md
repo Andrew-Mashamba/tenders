@@ -17,7 +17,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape /tenders page. Tenders in table.table.table-striped. Each tr: td[1]=title, td[2]=published, td[3]=closing, td[4]=document link (Pakua)."
+  strategy: "Scrape /tenders page (requires curl -k due to SSL cert mismatch). Tenders in table.table.table-striped. Each tr: td[1]=title, td[2]=published, td[3]=closing, td[4]=document link (Pakua). As of 2026-06-11 only one expired tender (March 2017) in table."
   selectors:
     container: ".right-sidebar-content, table.table.table-striped"
     tender_item: "table.table.table-striped tbody tr"
@@ -205,6 +205,6 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
+- **Last Checked:** 11 June 2026
+- **Active Tenders:** 0 (only expired 2017 tender in table)
 - **Signal Strength:** Strong (manunuzi, tender, tenders, zabuni)

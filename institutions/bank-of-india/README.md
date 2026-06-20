@@ -13,7 +13,7 @@ website:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "No dedicated tender page. Small branch operation in Tanzania."
+  strategy: "No dedicated tender page. Small branch operation in Tanzania. Site boitanzania.co.tz blocks automated access via Cloudflare as of 2026-06-10."
   selectors:
     container: "body"
     tender_list: "unknown"

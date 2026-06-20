@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape announcements page at /announcements/. Each item is a .col-sm-12.col-md-6 card. Follow a[href*='readmore/?myid='] to detail pages for documents. Date format in link text: DD-MM-YYYY : title."
+  strategy: "Scrape announcements page at /announcements/. Each item is a .col-sm-12.col-md-6 card. Follow a[href*='readmore/?myid='] to detail pages for documents. As of 2026-06-10 page shows admissions/scholarships only — no active procurement tenders."
   selectors:
     container: "section.page-section .container .row"
     tender_item: ".col-sm-12.col-md-6"

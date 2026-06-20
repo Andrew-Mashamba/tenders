@@ -13,7 +13,7 @@ website:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Private tender aggregator for Tanzania."
+  strategy: "Vue SPA (requires JavaScript). Backend API: https://www.bigresults.co.tz/api/posts?page=N&limit=100. Fields: post_title, post_issued_by, post_summary, post_deadline, post_attachment. Filter by post_deadline >= today. Aggregator — do not duplicate tenders already tracked at source institutions."
   selectors:
     container: ".tenders, .content, main"
     tender_item: "article, .tender-item"
@@ -23,7 +23,7 @@ scraping:
   schedule: "daily"
   
   anti_bot:
-    requires_javascript: false
+    requires_javascript: true
     has_captcha: false
     rate_limit_seconds: 10
 

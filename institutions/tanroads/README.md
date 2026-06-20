@@ -1,6 +1,6 @@
 ---
 institution:
-  name: "TANROADS Official Website :: Home"
+  name: "Tanzania National Roads Agency (TANROADS)"
   slug: "tanroads"
   category: "Government Agency"
   status: "active"

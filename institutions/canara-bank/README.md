@@ -102,7 +102,7 @@ alternative_sources:
     url: "https://www.taneps.go.tz/"
 
 notes: |
-  No tender page found. Small operation, tenders are rare.
+  No tender page found. Small operation, tenders are rare. As of 2026-06-10 canarabank.co.tz DNS resolution fails (site unreachable).
 ---
 
 # Canara Bank Tanzania

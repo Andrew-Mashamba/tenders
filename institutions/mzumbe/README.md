@@ -13,7 +13,7 @@ website:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape homepage https://mzumbe.ac.tz and linked pages. No /tenders or /procurement page (404). Documents under /media/filer_public/. Follow procurement-related menu links."
+  strategy: "Scrape homepage https://mzumbe.ac.tz. Procurement Management Unit page returns 404 (en and sw). No dedicated tender listing; /media/filer_public/ has policies, newsletters, fee structures — not procurement notices."
   selectors:
     container: ".tender-list, .content, main, .page-content, .entry-content, article"
     tender_item: "article, .tender-item, .card, .row, tr, li"
@@ -111,7 +111,7 @@ notes: |
 
 ## Scraping Instructions
 
-**Strategy:** Scrape homepage and linked pages for tender/procurement documents. 20 document links discovered.
+**Strategy:** Scrape homepage for tender/procurement documents. Procurement unit page 404; no active tender notices found (only policies, newsletters, fee structures).
 **Method:** http_get
 
 Keywords found on site: procurement

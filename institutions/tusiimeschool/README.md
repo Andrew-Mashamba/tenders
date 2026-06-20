@@ -13,7 +13,7 @@ website:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape tender/procurement page. Identify document links and tender listings."
+  strategy: "Scrape https://tusiimeschool.ac.tz homepage for procurement notices. Site uses Mod_Security and may return 406 to automated requests; use browser-like User-Agent and Accept headers."
   selectors:
     container: ".tender-list, .content, main, .page-content, .entry-content, article"
     tender_item: "article, .tender-item, .card, .row, tr, li"
@@ -26,6 +26,7 @@ scraping:
   anti_bot:
     requires_javascript: false
     has_captcha: false
+    mod_security: true
     rate_limit_seconds: 10
 
   documents:

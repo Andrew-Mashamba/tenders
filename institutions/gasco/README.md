@@ -9,7 +9,7 @@ institution:
 
 website:
   homepage: "https://gasco.co.tz/"
-  tender_url: "https://gasco.co.tz/gasco_projects/"
+  tender_url: "https://gasco.co.tz/publications/tenders"
 
 contact:
   email: "gascotz@tpdc.co.tz"
@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "gasco_projects lists ongoing/completed EPC projects (contracts already awarded). publications/tenders returns 404. No open tender listings found. Scrape gasco_projects for project info only."
+  strategy: "Scrape https://gasco.co.tz/publications/tenders (Zabuni menu item) for open procurement notices. As of 2026-06-10 this page returns 404 (Haipatikani). /gasco_projects/ lists completed EPC contracts only—not open tenders. No active procurement listings found."
   selectors:
     container: ".gasco_projects, .projects-list, .content, main, .entry-content, .page-content"
     tender_item: "article, .project-item, .gasco-project, .card, a[href*='/gasco_projects/']"

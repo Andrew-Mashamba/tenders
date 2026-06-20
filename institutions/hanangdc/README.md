@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape table at /tenders. Each row has Tender Name, Date Added, Expire Date, and Pakua (download) link. Documents at /storage/app/uploads/public/{hex}/{hex}/{hex}/. No pagination."
+  strategy: "Site migrated to GWF CORE SPA. Use REST API GET /api/advertisements?limit=50 for tender listings. Filter category=Tender; attachments at minio/hanangdc.go.tz/attachments/. Legacy /tenders table no longer server-rendered."
   selectors:
     container: "table.table.table-striped"
     tender_item: "table.table-striped tbody tr"
@@ -29,7 +29,7 @@ scraping:
   schedule: "daily"
 
   anti_bot:
-    requires_javascript: false
+    requires_javascript: true
     has_captcha: false
     rate_limit_seconds: 10
 
@@ -49,6 +49,7 @@ scraping:
 
     known_document_paths:
       - "/storage/app/uploads/public/"
+      - "/minio/hanangdc.go.tz/attachments/"
 
     url_discovery:
       follow_links: true

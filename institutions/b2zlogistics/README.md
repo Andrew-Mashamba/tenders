@@ -13,7 +13,7 @@ website:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape homepage and /about-us for company profile PDF. B2Z Logistics is military/defence supply. Document at /media/attachments/2022/12/05/b2z-logistics-company-profile.pdf. Check /services, /about-us for tender/RFI links."
+  strategy: "Joomla corporate site for military/defence logistics. No tender/procurement section — only company profile and service pages. Company profile at /media/attachments/2022/12/05/b2z-logistics-company-profile.pdf (marketing, not a tender). As of 2026-06-10 no active tenders."
   selectors:
     container: "main, .content, section, .about-section"
     tender_item: "article, .service-item, .card, a[href$='.pdf']"

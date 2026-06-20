@@ -28,8 +28,11 @@
   ],
   "contact": {
     "email": "ps@mit.go.tz",
-    "alternate_emails": ["dawatilamsaada@mit.go.tz", "info@mit.go.tz"]
+    "alternate_emails": [
+      "dawatilamsaada@mit.go.tz",
+      "info@mit.go.tz"
+    ]
   },
-  "scraped_at": "2026-03-15T08:31:00Z",
-  "last_checked": "2026-03-15T08:31:00Z"
+  "scraped_at": "2026-06-10T18:43:24.288582Z",
+  "last_checked": "2026-06-10T18:43:24.288582Z"
 }

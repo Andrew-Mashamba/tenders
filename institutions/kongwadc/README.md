@@ -13,7 +13,7 @@ website:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape homepage for Zabuni section (table with Jina la Zabuni). Tenders appear in a table under .home-page-title. Also scrape /tenders and /tender for full listings. Documents at /storage/app/uploads/public/*/."
+  strategy: "As of June 2026 site migrated to GWF CORE React SPA. Homepage and /tenders return empty SPA shell (GWF CORE title). Legacy /storage/ PDF URLs no longer served. Requires JavaScript rendering. Previously: OctCMS Zabuni table under .home-page-title with Pakua download links."
   selectors:
     container: ".right-sidebar-content .page-title, .home-page-title, table tbody"
     tender_item: "table tbody tr"
@@ -24,7 +24,7 @@ scraping:
   schedule: "daily"
 
   anti_bot:
-    requires_javascript: false
+    requires_javascript: true
     has_captcha: false
     rate_limit_seconds: 10
 

@@ -1,0 +1,31 @@
+{
+  "tender_id": "AZANIABANK-2026-117",
+  "institution": "azaniabank",
+  "title": "Invitation to Tender: VISA Classic Cards",
+  "description": "Invitation to Tender: VISA Classic Cards",
+  "reference_number": "",
+  "published_date": "",
+  "closing_date": "2023-09-13",
+  "closing_time": "",
+  "category": "General",
+  "status": "closed",
+  "source_url": "https://azaniabank.co.tz/tenders/",
+  "documents": [
+    {
+      "filename": "TENDER-DOCUMENT-VISA-Classic-Cards-Final-1.pdf",
+      "original_url": "https://azaniabank.co.tz/wp-content/uploads/2023/08/TENDER-DOCUMENT-VISA-Classic-Cards-Final-1.pdf",
+      "local_path": "./downloads/AZANIABANK-2026-117/original/TENDER-DOCUMENT-VISA-Classic-Cards-Final-1.pdf",
+      "content_type": "application/pdf",
+      "downloaded_at": "2026-06-10T16:00:18.462Z"
+    }
+  ],
+  "contact": {
+    "name": "Procurement Management Unit",
+    "email": "procurement@azaniabank.co.tz",
+    "phone": "0800 110 210",
+    "address": "PSSSF Tower, Sam Nujoma Road, Dar es Salaam"
+  },
+  "eligibility": "Open to eligible registered suppliers",
+  "scraped_at": "2026-06-10T16:00:18.462Z",
+  "last_checked": "2026-06-10T16:00:18.462Z"
+}

@@ -1,6 +1,6 @@
 ---
 institution:
-  name: "Kakonkodc"
+  name: "Kakonko District Council"
   slug: "kakonkodc"
   category: "Government"
   status: "active"
@@ -14,8 +14,9 @@ scraping:
   enabled: true
   method: "http_get"
   strategy: |
-    Government district council. Scrape homepage and linked pages for tender/procurement documents.
-    Documents at /storage/app/uploads/public/{hash}/. Site may timeout; use retry/backoff.
+    Government district council. As of 2026-06-10, kakonkodc.go.tz serves a parked "GWF CORE" SPA
+    placeholder (requires JavaScript) with no council content or tender listings. Historical documents
+    were at /storage/app/uploads/public/{hash}/. Retry periodically in case the real site is restored.
   selectors:
     container: ".tender-list, .content, main, .page-content, .entry-content, article"
     tender_item: "article, .tender-item, .card, .row, tr, li"
@@ -26,7 +27,7 @@ scraping:
   schedule: "daily"
 
   anti_bot:
-    requires_javascript: false
+    requires_javascript: true
     has_captcha: false
     rate_limit_seconds: 10
 
@@ -114,7 +115,7 @@ notes: |
   Discovered by crawler on 2026-03-15.
 ---
 
-# Kakonkodc
+# Kakonko District Council
 
 **Category:** Government
 **Website:** https://kakonkodc.go.tz

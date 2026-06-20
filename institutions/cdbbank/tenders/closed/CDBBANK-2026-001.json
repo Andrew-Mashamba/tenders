@@ -2,20 +2,30 @@
   "tender_id": "CDBBANK-2026-001",
   "institution": "cdbbank",
   "title": "Expression of Interest - Prequalification for Core Banking System",
-  "description": "China Dasheng Bank EOI for selection of Core Banking System (CBS) - prequalification of OEMs/Authorized partners.",
-  "published_date": "2026-03-15",
+  "description": "China Dasheng Bank Ltd seeks qualified OEMs/Authorized partners for Core Banking System prequalification. Supports multi-channel banking, regulatory integrations (TISS, TIPS, TRA, GoAML, GePG, RTSIS). Submission deadline was 31 Oct 2024 - expired; still linked on homepage marquee.",
+  "reference_number": "",
+  "published_date": "",
   "closing_date": "2024-10-31",
+  "closing_time": "00:00 EAT",
   "category": "ICT",
   "status": "closed",
-  "closed_reason": "Expired - deadline was 31 October 2024",
   "source_url": "https://cdbbank.co.tz/",
   "documents": [
     {
       "filename": "ExpressionOfInterest.pdf",
-      "original_url": "https://chinadashengbank.co.tz/uploads/ExpressionOfInterest.pdf",
-      "local_path": "downloads/CDBBANK-2026-001/original/ExpressionOfInterest.pdf"
+      "original_url": "https://cdbbank.co.tz/uploads/ExpressionOfInterest.pdf",
+      "local_path": "./downloads/CDBBANK-2026-001/original/ExpressionOfInterest.pdf",
+      "content_type": "application/pdf",
+      "downloaded_at": "2026-06-10T16:23:20.756451Z"
     }
   ],
-  "contact": {},
-  "scraped_at": "2026-03-15T05:17:42.254013+00:00"
+  "contact": {
+    "name": "China Dasheng Bank Ltd",
+    "email": "info@cdbbank.co.tz",
+    "phone": "0800-112-025",
+    "address": "Mezzanine Floor, Ex Telecom House, Samora Avenue, Dar es Salaam"
+  },
+  "eligibility": "Qualified OEMs/Authorized partners of Core Banking Systems with min 8 CBS installations in Tanzania",
+  "scraped_at": "2026-06-10T16:23:20.756451Z",
+  "last_checked": "2026-06-10T16:23:20.756451Z"
 }

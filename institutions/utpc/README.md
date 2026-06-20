@@ -13,7 +13,7 @@ website:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape https://utpc.or.tz/ for tender/procurement notices."
+  strategy: "Site returns HTTP 500 Server Error (Laravel) as of 2026-06-10. Retry when site is restored; no procurement content confirmed."
   selectors:
     container: ".tender-list, .content, main, .entry-content, .page-content, article"
     tender_item: "article, .tender-item, .card, .row, li, tr"

@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Fetch https://mulebadc.go.tz/tenders (OctoberCMS). Parse tender items from main content. Documents use /storage/app/uploads/public/{hash}/ path. Follow each tender link to detail page for full documents. Site may be slow or unreachable at times."
+  strategy: "Site migrated to GWF CORE SPA (React). /tenders returns JS shell only. Use JSON APIs: GET /api/advertisements, /api/announcements (paginated). Documents at /minio/mulebadc.go.tz/attachments/{file}. Reject Ajira (job postings) and Mnada (auction notices). No dedicated procurement/tender API as of June 2026 — only advertisements and announcements."
   selectors:
     container: "main, .content, .page-content, .entry-content, [role='main']"
     tender_item: ".tender-item, .list-group-item, article, .card, .row .col, li"
@@ -29,7 +29,7 @@ scraping:
   schedule: "daily"
 
   anti_bot:
-    requires_javascript: false
+    requires_javascript: true
     has_captcha: false
     rate_limit_seconds: 10
 
@@ -89,6 +89,7 @@ scraping:
 
     known_document_paths:
       - "/storage/app/uploads/public/"
+      - "/minio/mulebadc.go.tz/attachments/"
     document_notes: |
       OctoberCMS storage. Documents at /storage/app/uploads/public/{xxx}/{xxx}/{xxx}/{hash}.pdf. Example: 669907d44f8ca715091757.pdf. Site may timeout; retry with rate_limit_seconds: 15.
 

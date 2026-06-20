@@ -19,7 +19,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape homepage and follow Procurement menu/submenu. Packway is consultancy; procurement content may be under dropdown. Site may require cookie/human check (ChronoForms)."
+  strategy: "Scrape homepage. Packway is consultancy/training; 'Procurement Audit' menu items are training programs, not tender listings. No procurement documents found."
   selectors:
     container: ".tender-list, .content, main, .entry-content, .page-content, article"
     tender_item: "article, .tender-item, .card, .row, li, tr"
@@ -192,6 +192,6 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 15 March 2026
+- **Last Checked:** 11 June 2026
 - **Active Tenders:** 0
-- **Signal Strength:** Strong (procurement)
+- **Signal Strength:** Weak — procurement keyword in training menu only

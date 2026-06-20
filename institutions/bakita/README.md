@@ -10,7 +10,7 @@ institution:
 
 website:
   homepage: "https://bakita.go.tz/"
-  tender_url: "https://bakita.go.tz/"
+  tender_url: "https://bakita.go.tz/pages/procurement-management-unit"
 
 contact:
   email: "km@bakita.go.tz"
@@ -20,7 +20,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape https://bakita.go.tz/ for government tender notices. Government sites often post zabuni/manunuzi."
+  strategy: "Scrape https://bakita.go.tz/pages/procurement-management-unit for active zabuni/manunuzi notices. Homepage and publications have no tender listings as of 2026-06-10."
   selectors:
     container: ".tender-list, .content, main, .entry-content, .page-content, article"
     tender_item: "article, .tender-item, .card, .row, li, tr"

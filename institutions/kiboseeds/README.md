@@ -16,6 +16,7 @@ scraping:
   strategy: |
     Kibo Seed Company. Table-based layout. Check homepage, news_events.php (News/Events and Advert),
     and /forms/ for tender documents. Documents at /forms/ (PDF, DOC). Mobile redirects to mobile/index.php.
+    As of 2026-06-10 tenders.php is empty. /forms/ has grower/agent application forms (supplier registration, not procurement).
   selectors:
     container: ".page_content, .sidebar_content, table"
     tender_item: ".page_content p, .sidebar_content, table tr"

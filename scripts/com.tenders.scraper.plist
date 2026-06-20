@@ -11,9 +11,11 @@
         <string>/Volumes/DATA/PROJECTS/TENDERS/scripts/scrape_all.sh</string>
     </array>
 
-    <!-- Run daily at 06:00 AM EAT (03:00 UTC) -->
+    <!-- Run weekly on Monday at 06:00 AM EAT (Weekday: 1=Mon) -->
     <key>StartCalendarInterval</key>
     <dict>
+        <key>Weekday</key>
+        <integer>1</integer>
         <key>Hour</key>
         <integer>6</integer>
         <key>Minute</key>
@@ -50,8 +52,5 @@
     <key>TimeOut</key>
     <integer>7200</integer>
 
-    <!-- Run missed job when machine wakes up -->
-    <key>StartInterval</key>
-    <integer>86400</integer>
 </dict>
 </plist>

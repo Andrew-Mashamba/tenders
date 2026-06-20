@@ -9,7 +9,7 @@ institution:
 
 website:
   homepage: "https://easternarc.or.tz/"
-  tender_url: "https://easternarc.or.tz/invitation-for-bids-sale-of-eamcef-used-motor-vehicles/"
+  tender_url: "https://easternarc.or.tz/blog/"
 
 contact:
   email: "eamcef@easternarc.or.tz"
@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape tender page (single-article format). This URL is one tender; also check https://easternarc.or.tz/blog/ for listing. WordPress site. Article has full tender text; some accept bids by email only (no PDF). Extract title from h1, date from article:published_time or body text."
+  strategy: "Scrape https://easternarc.or.tz/blog/ for procurement announcements (filter cat Announcement). WordPress site. Individual tender articles (e.g. vehicle sale IFB) have full text; some accept bids by email only (no PDF). As of 2026-06-10 only expired vehicle sale IFB (closing July 2025). Extract title from h1/h2.entry-title, dates from article text or schema.org datePublished."
   selectors:
     container: "article, main, .entry-content, .page-content"
     tender_item: "article"

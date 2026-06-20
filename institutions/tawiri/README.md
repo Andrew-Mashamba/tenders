@@ -13,7 +13,7 @@ website:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape /procurement_management_unit/ page. tawiri.or.tz/procurement redirects to www.tawiri.or.tz/procurement_management_unit/. Page is informational (PMU description) when no active tenders; no tender listings or document links. Contact: barua@tawiri.or.tz, dg@tawiri.or.tz."
+  strategy: "Scrape /procurement_management_unit/ page. tawiri.or.tz/procurement redirects to www.tawiri.or.tz/procurement_management_unit/. Page is informational (PMU description) when no active tenders; no tender listings or document links. Contact: barua@tawiri.or.tz, dg@tawiri.or.tz. As of 2026-06-10 site unreachable (SSL UNEXPECTED_EOF_WHILE_READING) — retry on next scrape."
   selectors:
     container: ".tender-list, .content, main, .page-content, .entry-content, article"
     tender_item: "article, .tender-item, .card, .row, tr, li"

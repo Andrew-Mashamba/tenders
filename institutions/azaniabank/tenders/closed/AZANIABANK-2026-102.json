@@ -1,0 +1,31 @@
+{
+  "tender_id": "AZANIABANK-2026-102",
+  "institution": "azaniabank",
+  "title": "Invitation for Tender for Repaid and Maintenance of Cheque Scanners (2025)",
+  "description": "Invitation for Tender for Repaid and Maintenance of Cheque Scanners (2025)",
+  "reference_number": "",
+  "published_date": "",
+  "closing_date": "2025-02-28",
+  "closing_time": "",
+  "category": "General",
+  "status": "closed",
+  "source_url": "https://azaniabank.co.tz/tenders/",
+  "documents": [
+    {
+      "filename": "Tender-Document-for-provision-of-Repair-Maintenance-Service-for-cheque-scanners.pdf",
+      "original_url": "https://azaniabank.co.tz/wp-content/uploads/2025/01/Tender-Document-for-provision-of-Repair-Maintenance-Service-for-cheque-scanners.pdf",
+      "local_path": "./downloads/AZANIABANK-2026-102/original/Tender-Document-for-provision-of-Repair-Maintenance-Service-for-cheque-scanners.pdf",
+      "content_type": "application/pdf",
+      "downloaded_at": "2026-06-10T16:00:18.462Z"
+    }
+  ],
+  "contact": {
+    "name": "Procurement Management Unit",
+    "email": "procurement@azaniabank.co.tz",
+    "phone": "0800 110 210",
+    "address": "PSSSF Tower, Sam Nujoma Road, Dar es Salaam"
+  },
+  "eligibility": "Open to eligible registered suppliers",
+  "scraped_at": "2026-06-10T16:00:18.462Z",
+  "last_checked": "2026-06-10T16:00:18.462Z"
+}

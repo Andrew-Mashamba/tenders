@@ -10,6 +10,7 @@ institution:
 website:
   homepage: "https://singida.go.tz/"
   tender_url: "https://singida.go.tz/procurement-and-supply"
+  tender_url_note: "As of 2026-06-11, procurement page returns GWF CORE SPA shell. Use api/advertisements, api/announcements, api/files. Filter category=Tender; reject Service/Huduma notices."
 
 contact:
   email: "info@singida.go.tz"
@@ -20,7 +21,11 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "October CMS site. Scrape .right-sidebar-content for procurement announcements. Each tender is an a[href*='/announcement/'] link. Follow to /announcement/{slug} for detail and documents. Also check /announcements for full list."
+  strategy: |
+    Site restructured to GWF CORE SPA (2026). /procurement-and-supply returns React shell (requires JavaScript).
+    Use REST API: api/advertisements?limit=50 (procurement; filter category=Tender),
+    api/announcements, api/files. Legacy October CMS announcement links no longer accessible via http_get.
+    As of 2026-06-11: no active procurement tenders (only health insurance service notice).
   selectors:
     container: ".right-sidebar-content"
     tender_item: ".right-sidebar-container a[href*='/announcement/']"
@@ -31,7 +36,7 @@ scraping:
   schedule: "daily"
 
   anti_bot:
-    requires_javascript: false
+    requires_javascript: true
     has_captcha: false
     rate_limit_seconds: 10
 

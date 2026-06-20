@@ -192,6 +192,6 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
-- **Signal Strength:** Strong (procurement)
+- **Last Checked:** 10 June 2026
+- **Active Tenders:** 0 (IT vendor; Hardware Procurement is a service, not an open tender)
+- **Signal Strength:** None (no tender listings)

@@ -10,6 +10,7 @@ institution:
 website:
   homepage: "https://singidamc.go.tz/"
   tender_url: "https://singidamc.go.tz/tenders"
+  tender_url_note: "As of 2026-06-11, /tenders returns GWF CORE SPA shell. Use api/advertisements (filter category=Tender). Documents at /minio/singidamc.go.tz/attachments/."
 
 contact:
   email: "md.singidamc@singida.go.tz"
@@ -18,7 +19,11 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "October CMS. Scrape /tenders. Page has table.table-striped (may be empty) and .right-sidebar-container with a[href*='/announcement/'] links. Follow to /announcement/{slug} for documents."
+  strategy: |
+    Site restructured to GWF CORE SPA (2026). /tenders returns React shell (requires JavaScript).
+    Use REST API: api/advertisements?limit=50 — filter category=Tender for procurement notices.
+    Download attachments from advertisement.attachments[].url (minio paths).
+    Active tender as of 2026-06-11: TACTIC construction supervision consultancy (IDA 7151-TZ).
   selectors:
     container: ".right-sidebar-content"
     tender_item: ".right-sidebar-container a[href*='/announcement/']"
@@ -29,7 +34,7 @@ scraping:
   schedule: "daily"
 
   anti_bot:
-    requires_javascript: false
+    requires_javascript: true
     has_captcha: false
     rate_limit_seconds: 10
 

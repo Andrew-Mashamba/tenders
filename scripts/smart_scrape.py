@@ -44,7 +44,8 @@ BASE_DIR = Path("/Volumes/DATA/PROJECTS/TENDERS")
 INSTITUTIONS_DIR = BASE_DIR / "institutions"
 LOGS_DIR = BASE_DIR / "logs"
 STATE_FILE = BASE_DIR / "scripts" / ".smart_scrape_state.json"
-AGENT_BIN = "/Users/andrewmashamba/.local/bin/agent"
+AGENT_BIN = os.environ.get("AGENT_BIN", "/Users/andrewmashamba/.local/bin/agent")
+AGENT_MODEL = os.environ.get("AGENT_MODEL", "composer-2.5")
 AGENT_LOG_DIR = BASE_DIR / "logs" / "agent_batches"
 
 
@@ -292,7 +293,7 @@ def run_scrape_batch(batch_configs: list[dict], batch_num: int,
 
     cmd = [
         AGENT_BIN, '-p', '--force', '--trust',
-        '--model', 'composer-1.5',
+        '--model', AGENT_MODEL,
         '--workspace', str(BASE_DIR),
         prompt
     ]
@@ -596,6 +597,8 @@ def main():
                         help='Phase 2 only: organize + notify')
     parser.add_argument('--resume', action='store_true',
                         help='Resume from last state (skip completed institutions)')
+    parser.add_argument('--retry-missing', action='store_true',
+                        help='Re-scrape institutions missing from the last saved state')
     parser.add_argument('--skip-scraped', action='store_true',
                         help='Skip institutions that already have active tenders or are in the tracker')
     args = parser.parse_args()
@@ -677,10 +680,10 @@ def main():
             print(f"  Skipping {skipped} already-scraped institutions ({len(configs)} remaining)")
 
     # Resume support — skip already-completed institutions
+    prior_state = load_state()
     if args.resume:
-        state = load_state()
-        if state.get('date') == date.today().isoformat():
-            completed = set(state.get('completed_slugs', []))
+        if prior_state.get('date') == date.today().isoformat():
+            completed = set(prior_state.get('completed_slugs', []))
             before = len(configs)
             configs = [c for c in configs if c['slug'] not in completed]
             skipped = before - len(configs)
@@ -688,6 +691,17 @@ def main():
                 print(f"  Resuming: skipping {skipped} already-completed institutions")
         else:
             print("  No same-day state to resume from. Starting fresh.")
+
+    # Retry institutions that failed in the last run (any date)
+    if args.retry_missing:
+        completed = set(prior_state.get('completed_slugs', []))
+        if not completed:
+            print("  ERROR: No prior state with completed_slugs. Run a full scrape first.")
+            sys.exit(1)
+        before = len(configs)
+        configs = [c for c in configs if c['slug'] not in completed]
+        skipped = before - len(configs)
+        print(f"  Retry-missing: {len(configs)} institutions to re-scrape ({skipped} already done)")
 
     print(f"\n  Enabled institutions: {len(configs)} (of {total} total)")
 
@@ -725,11 +739,28 @@ def main():
     print(f"  Failed batches: {scrape_stats.get('failed_batches', 0)}")
     print(f"{'#'*70}")
 
-    # Save final state
+    # Save final state (merge with prior results when retrying missing)
+    new_results = scrape_stats.get('institution_results', {})
+    if args.retry_missing and prior_state.get('completed_slugs'):
+        prior_results = {}
+        prior_stats = prior_state.get('stats', {})
+        if isinstance(prior_stats.get('scrape'), dict):
+            prior_results = prior_stats['scrape'].get('institution_results', {})
+        elif isinstance(prior_stats.get('institution_results'), dict):
+            prior_results = prior_stats['institution_results']
+        merged_results = {**prior_results, **new_results}
+        merged_slugs = list(merged_results.keys())
+        scrape_stats['institution_results'] = merged_results
+        scrape_stats['institutions_processed'] = len(merged_results)
+        scrape_stats['tenders_found'] = sum(r.get('tenders', 0) for r in merged_results.values())
+        scrape_stats['docs_downloaded'] = sum(r.get('docs', 0) for r in merged_results.values())
+    else:
+        merged_slugs = list(new_results.keys())
+
     save_state({
         'date': date.today().isoformat(),
         'run_id': f"run_{timestamp}",
-        'completed_slugs': list(scrape_stats.get('institution_results', {}).keys()),
+        'completed_slugs': merged_slugs,
         'stats': {
             'scrape': scrape_stats,
             'post': post_stats,

@@ -16,9 +16,9 @@ contact:
   phone: "+255 755 030 622"
 
 scraping:
-  enabled: true
+  enabled: false
   method: "http_get"
-  strategy: "Page is a services description (consultancy, procurement, design). No individual tender notices posted. Section #procurement describes consultancy services."
+  strategy: "Domain obp-tanzania.co.tz DNS resolution failed as of 2026-06-11 (site unreachable). Previously: services page described consultancy/procurement capabilities with no individual tender notices."
   selectors:
     container: "#procurement, .page-content-wrapper, .case-study__page-content-wrapper"
     tender_item: ".case-study__page-content-wrapper"
@@ -405,6 +405,6 @@ with smtplib.SMTP_SSL(config["host"], config["port"], context=context) as server
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
+- **Last Checked:** 11 June 2026
+- **Active Tenders:** 0 (domain unreachable)
 - **Signal Strength:** Strong (eoi, procurement, tender)

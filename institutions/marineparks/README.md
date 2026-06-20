@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape https://marineparks.go.tz/publications/tenders (Zabuni). Page lists tender documents with date+title inline. Documents at /uploads/documents/ with sw-{timestamp}-{filename} pattern. Matangazo (announcements) section may also contain relevant links."
+  strategy: "Scrape https://marineparks.go.tz/publications/tenders (Zabuni). Documents at /uploads/documents/ with sw-{timestamp}-{filename} pattern. As of 2026-06-10 only annual procurement plan (May 2023) listed — no active tenders. SSL cert may require curl -k. Matangazo section has announcements, not procurement."
   selectors:
     container: "main, .content, .page-content"
     tender_item: "a[href*='/uploads/documents/']"

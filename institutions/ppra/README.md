@@ -24,7 +24,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape PPRA homepage for Public Notices, Announcements, and Publications. Documents at /uploads/documents/ with format en-{timestamp}-{filename}.pdf. PPRA publishes regulations, acts, debarment notices - not traditional tenders but procurement-related. Follow /announcements and /publications links."
+  strategy: "Site currently returns maintenance page ('Be right back') on HTTP/HTTPS as of 2026-06-11. When available, scrape PPRA homepage for Public Notices, Announcements, and Publications. Documents at /uploads/documents/ with format en-{timestamp}-{filename}.pdf. PPRA publishes regulations, acts, debarment notices - not traditional tenders but procurement-related. Follow /announcements and /publications links."
   selectors:
     container: ".content, main, .region-content, .block-content"
     tender_item: ".views-row, article, .announcement-item, .publication-item"
@@ -228,6 +228,6 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
+- **Last Checked:** 11 June 2026
+- **Active Tenders:** 0 (site maintenance — returns 'Be right back' page)
 - **Signal Strength:** Strong (procurement, tender, tenders)

@@ -9,7 +9,7 @@ institution:
 
 website:
   homepage: "https://maple.co.tz/"
-  tender_url: "https://maple.co.tz/tenders/"
+  tender_url: "https://maple.co.tz/"
 
 contact:
   phone: "095814981"
@@ -17,7 +17,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape https://maple.co.tz/tenders/ for tender notices. WordPress with WPBakery/LiteSpeed. Content may be lazy-loaded; follow links to tender detail pages for documents."
+  strategy: "https://maple.co.tz/tenders/ returns 404 (page removed). Scrape homepage https://maple.co.tz/ for any procurement links. WordPress BPO company; no dedicated tender section found as of 2026-06-10."
   selectors:
     container: ".entry-content, .wpb_wrapper, main, .vc_row"
     tender_item: "article, .post, .tender-item, .vc_column"

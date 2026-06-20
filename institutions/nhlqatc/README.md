@@ -17,7 +17,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "nhlqatc.go.tz returns 406 Not Acceptable (Mod Security). Previous tender_url pointed to wrong domain (africanrhinoadventure.com). Disabled until site is reachable."
+  strategy: "nhlqatc.go.tz now resolves (SSL cert issues; use curl -k) but serves African Rhino Adventure tourism WordPress site (africanrhinoadventure.com content), not a government LGA tender portal. No procurement section found."
   selectors:
     container: ".tender-list, .content, main, .entry-content, .page-content, article"
     tender_item: "article, .tender-item, .card, .row, li, tr"
@@ -191,6 +191,6 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
+- **Last Checked:** 11 June 2026
+- **Active Tenders:** 0 (domain serves tourism site, not LGA tenders)
 - **Signal Strength:** Strong (tender)

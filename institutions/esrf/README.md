@@ -208,6 +208,6 @@ After EACH successful scrape:
 
 ## Status
 
-- **Last Checked:** 13 March 2026
-- **Active Tenders:** To be scraped
-- **Signal Strength:** Strong (bidding, expression of interest, tender, tenders)
+- **Last Checked:** 10 June 2026
+- **Active Tenders:** 0
+- **Signal Strength:** Weak (tender keywords in staff dept description only; no public tender listing; /tenders/ and /procurement/ return 404)

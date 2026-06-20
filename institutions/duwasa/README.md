@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape https://duwasa.go.tz/tenders. Each tender is a direct PDF link. Link text contains title and 'Deadline YYYY-MM-DD'. Extract title (before 'Deadline'), date from link text, and download PDF from href."
+  strategy: "Scrape https://duwasa.go.tz/tenders. Each tender is a direct PDF link. Link text contains title and 'Deadline YYYY-MM-DD'. Extract title (before 'Deadline'), date from link text, and download PDF from href. As of 2026-06-10 page lists 3 tenders, all expired (latest deadline 2025-02-05)."
   selectors:
     container: "main, .content, section, article"
     tender_item: 'a[href*="uploads/tenders"]'

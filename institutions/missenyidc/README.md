@@ -1,6 +1,6 @@
 ---
 institution:
-  name: "Home &#124; MISSENYI DISTRICT COUNCIL"
+  name: "Missenyi District Council"
   slug: "missenyidc"
   category: "Local Government Authority"
   status: "active"
@@ -18,7 +18,7 @@ contact:
 scraping:
   enabled: true
   method: "http_get"
-  strategy: "Scrape https://missenyidc.go.tz/tenders. District council site (Octane/Laravel). Inferred table layout like similar councils. Documents under /storage/app/uploads/public/. Note: SSL/certificate issues may prevent fetch."
+  strategy: "GWF CORE React SPA (div#root). Tender/procurement content not in initial HTML. Use REST API: /api/announcements (news/ajira), /api/advertisements (procurement ads), /api/files (document library), /api/chat/search?q=tender. Documents served from /minio/missenyidc.go.tz/. Procurement page at /procurement-services-unit (slug). As of 2026-06-10: no active procurement tenders; announcements are job interviews and public notices."
   selectors:
     container: "table.tenders, .table, .content, main, table"
     tender_item: "table tbody tr, .tender-row"
