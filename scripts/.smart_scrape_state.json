@@ -1,10 +1,10 @@
 {
-  "date": "2026-06-15",
-  "run_id": "run_20260615_061357",
+  "date": "2026-07-20",
+  "run_id": "run_20260720_060055",
   "completed_slugs": [],
   "stats": {
     "scrape": {
-      "run_id": "20260615_061357",
+      "run_id": "20260720_060055",
       "total_institutions": 577,
       "total_batches": 73,
       "completed_batches": 73,
@@ -13,13 +13,13 @@
       "docs_downloaded": 0,
       "institutions_processed": 0,
       "institution_results": {},
-      "elapsed": 13572.9
+      "elapsed": 8706.4
     },
     "post": {
-      "active": 168,
+      "active": 153,
       "closed": 1,
       "archived": 0
     },
-    "total_elapsed": 13583.9
+    "total_elapsed": 8716.9
   }
 }

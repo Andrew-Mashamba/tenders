@@ -1,36 +1,21 @@
 # Active Tenders Index
 
-**Last Updated:** 2026-06-15T07:00:10Z (Run ID: run_20260615_100010)
+**Last Updated:** 2026-07-20T05:26:02Z (Run ID: run_20260720_082602)
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| Total Active Tenders | 168 |
-| Institutions with Active Tenders | 98 |
+| Total Active Tenders | 153 |
+| Institutions with Active Tenders | 87 |
 | New Tenders (this run) | 0 |
-| Closing Within 7 Days | 6 |
+| Closing Within 7 Days | 0 |
 
 ## Closing Soon (Within 7 Days)
 
-| Institution | Tender | Closing Date | Days Left | Documents |
-|-------------|--------|--------------|-----------|-----------|
-| tenmet | Invitation for Tender for Supply of ICT Equipment – Ten… | 2026-06-15 | 0 | 1 |
-| kcu | Development of Kagera Cooperative Union Management Info… | 2026-06-16 | 1 | 1 |
-| schoolofstjude | Supply of Rice to the School of St Jude | 2026-06-16 | 1 | 1 |
-| hakielimu | Call for Internal Audit Services | 2026-06-17 | 2 | 0 |
-| tmrc-eprocurement | Provision of Backup Power Solution for Critical Systems… | 2026-06-19 | 4 | 0 |
-| ecobank | Provision of Asset and Liability Management System | 2026-06-22 | 7 | 4 |
+*No tenders closing within 7 days.*
 
 ## All Active Tenders by Institution Category
-
-### Bank (1 tenders)
-
-#### crdbbank (1 tender)
-
-| Tender ID | Title | Closing Date | Status | Docs |
-|-----------|-------|--------------|--------|------|
-| CRDBBANK-2026-003 | Expression of Interest: Implementation of the Stre… | 2026-06-30 | active | 1 |
 
 ### Commercial (7 tenders)
 
@@ -56,7 +41,7 @@
 | SOMAEXPRESS-2026-003 | What areas does Soma General Traders operate in? | None | active | 0 |
 | SOMAEXPRESS-2026-001 | Your Trusted Partner in Trade, Logistics & Distrib… | None | active | 0 |
 
-### Commercial / Private Sector (80 tenders)
+### Commercial / Private Sector (78 tenders)
 
 #### arushameat (1 tender)
 
@@ -69,12 +54,6 @@
 | Tender ID | Title | Closing Date | Status | Docs |
 |-----------|-------|--------------|--------|------|
 | BUILDMART-2026-001 | Tender from Buildmart Limited | None | active | 1 |
-
-#### crdb (1 tender)
-
-| Tender ID | Title | Closing Date | Status | Docs |
-|-----------|-------|--------------|--------|------|
-| CRDB-2026-003 | Publication of the EOI: Implementation of the Stre… | 2026-06-30 | active | 1 |
 
 #### darceramica (1 tender)
 
@@ -257,12 +236,6 @@ Services
 |-----------|-------|--------------|--------|------|
 | SARCLAWC-2026-001 | About Us | None | active | 0 |
 
-#### schoolofstjude (1 tender)
-
-| Tender ID | Title | Closing Date | Status | Docs |
-|-----------|-------|--------------|--------|------|
-| SCHOOLOF-2026-007 | Supply of Rice to the School of St Jude | 2026-06-16 | active | 1 |
-
 #### spade (4 tenders)
 
 | Tender ID | Title | Closing Date | Status | Docs |
@@ -316,22 +289,7 @@ Services
 | WHIZZTANZANIA-2026-015 | Consultancy services for short term technical assi… | None | active | 0 |
 | WHIZZTANZANIA-2026-003 | Supply & Installation of Scientific Equipment for … | None | active | 0 |
 
-### Commercial Bank (8 tenders)
-
-#### crdb-bank (1 tender)
-
-| Tender ID | Title | Closing Date | Status | Docs |
-|-----------|-------|--------------|--------|------|
-| CRDB-2026-006 | Publication of the EOI: Implementation of the Stre… | 2026-06-30 | active | 1 |
-
-#### ecobank (4 tenders)
-
-| Tender ID | Title | Closing Date | Status | Docs |
-|-----------|-------|--------------|--------|------|
-| ECOBANK-2026-006 | Provision of Asset and Liability Management System | 2026-06-22 | active | 4 |
-| ECOBANK-2026-003 | Replacement of the SWIFT Integration Platform (IPL… | 2026-06-30 | active | 4 |
-| ECOBANK-2026-005 | Integrated Electronic Transaction Banking Platform… | 2026-07-01 | active | 5 |
-| ECOBANK-2026-004 | Bancassurance Marketplace Platform - ePROCESS | 2026-07-03 | active | 5 |
+### Commercial Bank (3 tenders)
 
 #### letshego-bank (1 tender)
 
@@ -452,7 +410,7 @@ Services
 |-----------|-------|--------------|--------|------|
 | RUVUMA-2026-001 | TOR - CMG Capacity Building and BDS Support Progra… | None | active | 2 |
 
-### Government Agency (15 tenders)
+### Government Agency (13 tenders)
 
 #### cgcla (1 tender)
 
@@ -460,11 +418,10 @@ Services
 |-----------|-------|--------------|--------|------|
 | CGCLA-2026-001 | Tender/EOI from CGCLA Zanzibar | None | active | 4 |
 
-#### jamii (2 tenders)
+#### jamii (1 tender)
 
 | Tender ID | Title | Closing Date | Status | Docs |
 |-----------|-------|--------------|--------|------|
-| JAMII-2026-002 | Request for Expressions of Interest - Consultancy … | 2026-06-29 | active | 1 |
 | JAMII-2026-001 | 2nd DRAFT TERMS OF REFERENCE BANDEBEREHO Mainland … | None | active | 1 |
 
 #### mfukowamisitu (1 tender)
@@ -498,12 +455,6 @@ Services
 |-----------|-------|--------------|--------|------|
 | TARURA-2026-001 | Page content | None | active | 0 |
 
-#### tfra (1 tender)
-
-| Tender ID | Title | Closing Date | Status | Docs |
-|-----------|-------|--------------|--------|------|
-| TFRA-2026-001 | Invitation for Pre-Qualification for Procurement o… | 2026-06-30 | active | 1 |
-
 #### tfs (1 tender)
 
 | Tender ID | Title | Closing Date | Status | Docs |
@@ -532,14 +483,6 @@ Services
 | Tender ID | Title | Closing Date | Status | Docs |
 |-----------|-------|--------------|--------|------|
 | NA7ETECH-2026-001 | Tender/Procurement documents - na7etechnology | None | active | 1 |
-
-### Institutional e-Procurement (1 tenders)
-
-#### tmrc-eprocurement (1 tender)
-
-| Tender ID | Title | Closing Date | Status | Docs |
-|-----------|-------|--------------|--------|------|
-| TMRC-EPROCUREMENT-2026-001 | Provision of Backup Power Solution for Critical Sy… | 2026-06-19 | active | 0 |
 
 ### Local Government Authority (12 tenders)
 
@@ -613,7 +556,7 @@ Services
 |-----------|-------|--------------|--------|------|
 | LETSHEGO-MICROFINANCE-2026-001 | Supplier Registration and Pre-Qualification | None | active | 1 |
 
-### NGO / Non-Profit Organization (11 tenders)
+### NGO / Non-Profit Organization (10 tenders)
 
 #### counsenuth (3 tenders)
 
@@ -647,12 +590,6 @@ Services
 |-----------|-------|--------------|--------|------|
 | TAWLA-2026-001 | Terms of Reference (TOR) for Engagement of Securit… | None | active | 1 |
 
-#### tenmet (1 tender)
-
-| Tender ID | Title | Closing Date | Status | Docs |
-|-----------|-------|--------------|--------|------|
-| TENMET-2026-003 | Invitation for Tender for Supply of ICT Equipment … | 2026-06-15 | active | 1 |
-
 #### tgnp (1 tender)
 
 | Tender ID | Title | Closing Date | Status | Docs |
@@ -666,19 +603,7 @@ Services
 | ZMBF-2026-003 | Invitation for Pre-Qualification of Vendors FY Jul… | None | active | 1 |
 | ZMBF-2026-002 | Call for Quotations: Procurement of Laptop Compute… | None | active | 1 |
 
-### NGO/Non-Profit (3 tenders)
-
-#### hakielimu (1 tender)
-
-| Tender ID | Title | Closing Date | Status | Docs |
-|-----------|-------|--------------|--------|------|
-| HAKIELIMU-2026-001 | Call for Internal Audit Services | 2026-06-17 | active | 0 |
-
-#### kcu (1 tender)
-
-| Tender ID | Title | Closing Date | Status | Docs |
-|-----------|-------|--------------|--------|------|
-| KCU-2026-001 | Development of Kagera Cooperative Union Management… | 2026-06-16 | active | 1 |
+### NGO/Non-Profit (1 tenders)
 
 #### spaide (1 tender)
 
@@ -697,14 +622,6 @@ Services
 | MABUMBE-2026-012 | Request for Bids Provision of Security and Interne… | None | active | 0 |
 | MABUMBE-2026-013 | TASFAM Project Tender: Supply & Commissioning of S… | None | active | 0 |
 | MABUMBE-2026-014 | Consultancy EoI: PEFA Assessment – Ministry of Fin… | None | active | 0 |
-
-### Water Utility (1 tenders)
-
-#### mwauwasa (1 tender)
-
-| Tender ID | Title | Closing Date | Status | Docs |
-|-----------|-------|--------------|--------|------|
-| MWAUWASA-2026-001 | Construction Works for Mwanza Sewer Connection Upg… | 2026-07-17 | active | 12 |
 
 ### Other (3 tenders)
 
@@ -730,4 +647,4 @@ Services
 
 | Run ID | Timestamp | Active | New | Closing Soon | Scraped | Errors |
 |--------|-----------|--------|-----|--------------|----------|--------|
-| run_20260615_100010 | 2026-06-15T07:00:10Z | 168 | 0 | 6 | 169 | 0 |
+| run_20260720_082602 | 2026-07-20T05:26:02Z | 153 | 0 | 0 | 154 | 0 |
